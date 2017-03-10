@@ -1,0 +1,57 @@
+<md-dialog aria-label="Mango (Fruit)">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Manage</h2>
+        <span flex></span>
+      </div>
+    </md-toolbar>
+    <md-dialog-content style="max-width:800px;max-height:810px; ">
+      <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="settings">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab One</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+          </md-content>
+        </md-tab>
+        <md-tab label="data">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Graph Options</h1>
+            <md-contact-chips
+                ng-model="dataKeys"
+                md-contacts="querySearch($query)"
+                md-contact-name="name"
+                md-require-match="true"
+                md-highlight-flags="i"
+                filter-selected="filterSelected"
+                placeholder="Data to Graph">
+            </md-contact-chips>
+          </md-content>
+        </md-tab>
+        <md-tab label="about">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Happy Leaf</h1>
+            <hr/>
+            <p>Happy Leaf Version {{local.settings.about.version}}</p>
+            <p>Build with <ng-md-icon class="love-icon rotate" options='{"rotation": "counterclock"}' icon="{{loveIcon}}" size="35px" style="fill: black;"></ng-md-icon> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by Brandon Martin</p>
+            <p>Powered by Angular 1.5, Phonegap, and other open source technology</p>
+            <big>Spacial thanks to <a href="http://www.mynissanleaf.com/">My Nissan Leaf Forums</a></big>
+          </md-content>
+        </md-tab>
+      </md-tabs>
+    </md-dialog-content>
+
+    <!--md-dialog-actions layout="row">
+      <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" md-autofocus>
+        More on Wikipedia
+      </md-button>
+      <span flex></span>
+      <md-button ng-click="answer('not useful')" >
+        Not Useful
+      </md-button>
+      <md-button ng-click="answer('useful')" style="margin-right:20px;" >
+        Useful
+      </md-button>
+    </md-dialog-actions-->
+  </form>
+</md-dialog>

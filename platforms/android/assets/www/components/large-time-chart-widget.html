@@ -1,0 +1,23 @@
+<div id="large-chart-container">
+  <md-menu  md-position-mode="target-right target">
+    <md-button aria-label="Open menu" class="md-icon-button more-button up" ng-click="$mdOpenMenu($event)">
+      <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
+    </md-button>
+    <md-menu-content width="2">
+      <md-menu-item>
+        <md-button ng-click="toggleCharging()">
+            <div layout="row" flex>
+              <ng-md-icon class="menu-icon" options='{"rotation": "counterclock"}' icon="{{isCharging ? 'directions_car' :'battery_charging_80'}}" size="30px" style="fill: 'black'; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+              <p flex>{{isCharging ? "Show Driving" : "Show Charging"}}</p>
+            </div>
+        </md-button>
+      </md-menu-item>
+    </md-menu-content>
+  </md-menu>
+
+  <canvas id="time-chart" class="chart chart-line" chart-data="data"
+    chart-labels="labels" chart-series="series" chart-options="options"
+    chart-dataset-override="datasetOverride" chart-colors="local.settings.data.colors"
+    ng-style="{'height': chart.height, 'width': chart.width}" height="0"  ng-style="{'width': chart.width, 'height': chart.height}">
+  </canvas>
+</div>

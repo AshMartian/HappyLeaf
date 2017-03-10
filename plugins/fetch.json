@@ -174,5 +174,31 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-insomnia": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-sqlite-storage@2.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.fabiorogeriosj.sensors": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabiorogeriosj/cordova-plugin-sensors.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

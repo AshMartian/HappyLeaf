@@ -66,6 +66,15 @@
         },
         "cordova-plugin-bluetooth-serial": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "com.fabiorogeriosj.sensors": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
     "dependent_plugins": {

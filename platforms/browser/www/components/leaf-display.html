@@ -1,0 +1,27 @@
+<div flex>
+  <span class="SOC-Text" ng-style="{'width': SOCChart.width, 'left': SOCChart.left, 'top': SOCChart.top + (SOCChart.height / 5)}">{{data.actualSOC | number:1}}%</span>
+  <div ng-include="'img/HappyLeaf.svg'" id="LEAFOUTTER" ng-class="{'headlights': data.headLights, 'blinker-right': data.turnSignal == 'right', 'blinker-left': data.turnSignal == 'left', 'charging': data.isCharging, 'fast': data.chargingVolts > 260, 'medium': data.chargingVolts > 140, 'slow': data.chargingVolts < 140, 'buckled': data.isBuckled, 'parked': data.parkingBreakOn, 'climate-usage': data.climateConsumption > 0, 'motor-usage': data.motorWatts > 100 && data.regenWatts < 100, 'regening': data.regenWatts > 0}" onload="updateDOM()"></div>
+
+  <div class="soc-container" ng-style="{'top': SOCChart.top, 'width': SOCChart.width, 'left': SOCChart.left, 'height': SOCChart.height}">
+    <canvas id="SOC-circle" class="chart chart-doughnut"
+      chart-data="SOCChart.data" chart-colors="SOCChart.colors" chart-options="SOCChart.options"
+      ng-style="{'height': SOCChart.height, 'width': SOCChart.width}" height="0"  ng-style="{'width': SOCChart.width, 'height': SOCChart.height}">
+    </canvas>
+  </div>
+
+  <span class="Motor-Text" ng-style="{'width': AmpsChart.width, 'left': AmpsChart.left, 'top': AmpsChart.top + (AmpsChart.height / 5)}"><small>Motor</small><br/>{{data.motorWatts / 1000 | number:1}} KWh</span>
+  <div class="extras-container" ng-style="{'top': AmpsChart.top - (AmpsChart.height / 3), 'left': AmpsChart.left}">
+    <canvas id="Amps-Meter" class="chart chart-doughnut"
+      chart-data="AmpsChart.data" chart-colors="AmpsChart.colors" chart-options="AmpsChart.options"
+      ng-style="{'height': AmpsChart.height, 'width': AmpsChart.width}" height="0"  ng-style="{'width': AmpsChart.width, 'height': AmpsChart.height}">
+    </canvas>
+  </div>
+
+  <span class="Climate-Text" ng-style="{'width': ClimateChart.width, 'left': ClimateChart.left, 'top': ClimateChart.top + (ClimateChart.height / 5)}"><small>Climate</small><br/>{{data.climateConsumption / 1000 | number:1}} KWh</span>
+  <div class="extras-container" ng-style="{'top': ClimateChart.top - (ClimateChart.height / 3), 'left': ClimateChart.left}">
+    <canvas id="Climate-Meter" class="chart chart-doughnut"
+      chart-data="ClimateChart.data" chart-colors="ClimateChart.colors" chart-options="ClimateChart.options"
+      ng-style="{'height': ClimateChart.height, 'width': ClimateChart.width}" height="0"  ng-style="{'width': ClimateChart.width, 'height': ClimateChart.height}">
+    </canvas>
+  </div>
+</div>

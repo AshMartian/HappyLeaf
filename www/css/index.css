@@ -20,11 +20,13 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(/css/material-icons.woff2) format('woff2');
+
+md-toolbar span {
+  font-size: 28px !important;
+}
+
+.md-dark-grey-theme {
+  color: white;
 }
 
 .material-icons {
@@ -60,12 +62,30 @@ body {
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:28px;
     height:100vh;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
     width:100vw;
+}
+
+
+body > div > view {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+header.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+main.fixed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 /* Portrait layout (default) */
@@ -146,6 +166,18 @@ md-radio-button > .md-label {
 .rotate.start {
   -webkit-animation: rotate 1s infinite linear;
   animation: rotate 1s infinite linear;
+}
+
+.md-toolbar-tools {
+  line-height: 22px;
+}
+
+.connection-status {
+  border-radius: 100%;
+  border-radius: 100%;
+  min-width: 15px;
+  min-height: 15px;
+  display: block;
 }
 
 @keyframes rotate {

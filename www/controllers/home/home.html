@@ -1,1 +1,138 @@
-<h1>Home</h1>
+<header class="fixed">
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <div>
+        <span>
+          Happy Leaf
+        </span>
+        <br/>
+        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number}} {{data.readableDistanceUnits()}}</small>
+        &nbsp; &nbsp;
+        <small ng-if="local.mileDriven > 0" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} Happy</small>
+        &nbsp; &nbsp;
+        <small ng-if="local.milesDrivenToday > 0" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} Today</small>
+      </div>
+
+      <!-- fill up the space between left and right area -->
+      <span flex></span>
+      <span ng-if="data.outsideTemp">
+        {{data.outsideTemp}}&deg;
+      </span>
+      <connection-status></connection-status>
+      <settings-dialog></settings-dialog>
+    </div>
+  </md-toolbar>
+</header>
+
+<main class="fixed" id="home">
+  <div class="content">
+    <div layout="row" class="main-top-row">
+      <div layout="column">
+        <leaf-display></leaf-display>
+      </div>
+      <div layout="column" class="main-top-stats">
+        <div layout="row">
+        <div flex>
+          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+           <md-card-content>
+             <h2><big>{{data.killowatts | number:2}}</big> KWh</h2>
+             <small>Remaining, <span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} to 0</span></small>
+           </md-card-content>
+           <md-card-footer>
+             GIDs: <b>{{data.GIDs}}</b> Health: <b>{{data.SOH}}%</b>
+           </md-card-footer>
+          </md-card>
+        </div>
+        <div flex>
+          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+            <md-menu  md-position-mode="target-right target">
+              <md-button aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdOpenMenu($event)">
+                <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
+              </md-button>
+              <md-menu-content width="3">
+                <md-menu-item ng-repeat="item in menuOptions">
+                  <md-button ng-click="item.clicked()">
+                      <div layout="row" flex>
+                        <ng-md-icon class="menu-icon" icon="{{item.icon}}" size="30px" style="fill: 'black'; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+                        <p flex>{{item.title}}</p>
+                      </div>
+                  </md-button>
+                </md-menu-item>
+              </md-menu-content>
+            </md-menu>
+           <md-card-content>
+             <h2 ng-if="data.wattsUsed < 10000 && data.wattsUsed > -10000"><big>{{data.wattsUsed | makePositive | number:1}}</big> Wh</h2>
+             <h2 ng-if="data.wattsUsed >= 10000 || data.wattsUsed <= -10000"><big>{{(data.wattsUsed / 1000) | makePositive | number:2}}</big> KWh</h2>
+             <small class="tiny clear" ng-class="{'green': data.wattDifference > 0, 'red': data.wattDifference < 0}" highlight-on-change="{{data.wattDifference}}"><span ng-if="data.wattDifference > 0">+ </span>{{data.wattDifference | number:1}}</small>
+             <small class="sub-text" ng-if="data.wattsUsed >= 0">Used since <span am-time-ago="data.wattsStartedTime"></span></small>
+             <small class="sub-text" ng-if="data.wattsUsed < 0">Gained since <span am-time-ago="data.wattsStartedTime"></span></small>
+           </md-card-content>
+           <md-card-footer>
+             <span ng-if="data.isCharging">
+               <b>{{data.wattsPerMinute | number:2}}</b> Watts per minute
+             </span>
+             <span ng-if="!data.isCharging">
+               <span ng-if="wattDisplay == 'perWatt'"><b>{{data.distancePerKW | number:2}}</b> {{data.readableDistanceUnits()}}/KW</span>
+               <span ng-if="wattDisplay == 'perDistance'"><b>{{data.wattsPerDistance | number:2}}</b> Watts/{{data.readableDistanceUnits()}}</span>
+             </span>
+           </md-card-footer>
+          </md-card>
+        </div>
+      </div>
+        <div flex>
+          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+           <md-card-content>
+             <large-time-chart></large-time-chart>
+           </md-card-content>
+          </md-card>
+        </div>
+      </div>
+
+    </div>
+    <div flex>
+      <md-grid-list
+        md-cols-xs="1" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
+        md-row-height-gt-md="1:1" md-row-height="4:2"
+        md-gutter="2px" md-gutter-gt-sm="2px" >
+
+      <md-grid-tile flex-xs ng-repeat="key in dataKeys" ng-if="dataDisplay(data[key])">
+        <md-card flex  md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+          <md-card-content class="info-box">
+            <small>{{key}}</small>
+            <h3>{{renderDisplay(key)}}</h3>
+          </md-card-content>
+        </md-card>
+      </md-grid-tile>
+
+      <md-grid-tile flex-xs>
+        <md-card flex md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+          <md-card-content class="info-box">
+            <small>History Enteries</small>
+            <h3>{{local.historyCount}}</h3>
+          </md-card-content>
+        </md-card>
+      </md-grid-tile>
+    </md-grid-list>
+      <!--p>
+        Headlights: {{data.headLights}} &nbsp; Turning: {{data.turnSignal}} <span ng-if="data.climateOn">&nbsp; Vents: {{data.ventMode}} / {{data.fanSpeed}}</span><br/>
+        GIDs: {{data.GIDs}} / <b>{{data.killowatts | number:2}} KWh</b> Watt per SOC Capacity: <b>{{data.capacityAH}}</b><br />
+        Climate Consumption: <b>{{data.climateConsumption}} Watts</b><br/>
+        Transmission: {{data.transmission}}, 12v Battery Volts: {{data.accBattVolts | number:2}}<br />
+        Motor Volts: {{data.rawMotorVolts}}, Motor Amps: {{data.rawMotorAmps}}<br/>
+        current motor watt usage: {{data.motorWatts | number:1}} Regen Watts: {{data.regenWatts}}<br/>
+        Charger Volts: {{data.chargingVolts}}, Charger Amps: {{data.chargingAmps}}<br/>
+        Charger watts: {{data.chargingWatts | number:1}}<br/>
+        is charging: {{data.isCharging}}, is buckled: {{data.isBuckled}}<br/>
+        Speed: <b>{{data.speed}}</b>
+        History Enteries: {{local.historyCount}}
+      </p-->
+  </div>
+  </div>
+
+  <div class="log-container">
+    <ng-md-icon class="log-icon" icon="{{logIcon}}" size="40px" style="fill: black;" ng-click="toggleLog()" options='{"rotation": "none"}'></ng-md-icon>
+    <p class="log">
+      {{logOutput}}
+    </p>
+  </div>
+</main>

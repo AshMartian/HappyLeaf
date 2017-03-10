@@ -20,7 +20,7 @@ happyLeaf.config(function($stateProvider, $urlRouterProvider) {
 happyLeaf.config(function ($routeProvider) {
     $routeProvider.
     when('/home', {
-        templateUrl: 'controlers/home/home.html',
+        templateUrl: 'controllers/home/home.html',
         controller: 'HomeController'
     }).
     when('/welcome', {

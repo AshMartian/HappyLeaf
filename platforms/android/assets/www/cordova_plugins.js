@@ -459,6 +459,27 @@ module.exports = [
         "clobbers": [
             "window.bluetoothSerial"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-insomnia/www/Insomnia.js",
+        "id": "cordova-plugin-insomnia.Insomnia",
+        "clobbers": [
+            "window.plugins.insomnia"
+        ]
+    },
+    {
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "clobbers": [
+            "SQLitePlugin"
+        ]
+    },
+    {
+        "file": "plugins/com.fabiorogeriosj.sensors/www/sensors.js",
+        "id": "com.fabiorogeriosj.sensors.sensors",
+        "clobbers": [
+            "sensors"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -485,7 +506,10 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-bluetooth-serial": "0.4.5"
+    "cordova-plugin-bluetooth-serial": "0.4.5",
+    "cordova-plugin-insomnia": "4.3.0",
+    "cordova-sqlite-storage": "2.0.2",
+    "com.fabiorogeriosj.sensors": "0.7.0"
 };
 // BOTTOM OF METADATA
 });

@@ -4,6 +4,7 @@
       <span>Welcome</span>
       <!-- fill up the space between left and right area -->
       <span flex></span>
+      <connection-status></connection-status>
       <span ng-if="ready" class="device-ready"></span>
       <md-button class="scan-btn" ng-click="scanDevices()">
         <ng-md-icon class="refresh-icon rotate {{scanClass}}" options='{"rotation": "counterclock"}' icon="{{scanIcon}}" size="40px" style="fill: white;"></ng-md-icon>
@@ -28,7 +29,7 @@
         <span>{{status}}</span>
 
         <span flex></span>
-        <md-button ng-disabled="canContinue===false" class="scan-btn" ng-click="continue()">
+        <md-button ng-disabled="canContinue===false" class="continue-btn" ng-click="continue()">
           <ng-md-icon class="continue-icon {{continueClass}}" icon="{{continueIcon}}" size="40px" style="fill: white;"></ng-md-icon>
         </md-button>
       </div>

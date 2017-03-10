@@ -3,6 +3,7 @@
 	background-color: #76FF03;
 	width: 15px;
 	height: 15px;
+	margin-left: 15px;
 }
 
 md-radio-button {
@@ -16,6 +17,11 @@ md-radio-button > .device-name {
 
 .scan-btn {
   min-width: 40px;
+}
+
+.continue-btn {
+	min-width: 40px;
+	padding-top: 10px !important;
 }
 
 .refresh-icon {

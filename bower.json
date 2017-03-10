@@ -1,0 +1,31 @@
+{
+  "name": "HappyLeaf",
+  "description": "> A Hello World template built with PhoneGap",
+  "main": "",
+  "authors": [
+    "Brandon Martin"
+  ],
+  "license": "Apache-2.0.0",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "homepage": "https://github.com/blandman/HappyLeaf",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "async": "^2.1.4",
+    "moment": "*",
+    "angular-chart.js": "^1.1.1",
+    "angular-local-storage": "^0.5.2",
+    "ngstorage": "^0.3.11",
+    "angular-moment": "^1.0.1"
+  }
+}
