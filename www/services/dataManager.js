@@ -206,8 +206,12 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
 
    setOdometer: function(splitMsg){
       var ODObyte = splitMsg[1] + splitMsg[2] + splitMsg[3];
-     var lastODO = self.odometer;
-     self.odometer = parseInt(ODObyte, 16);
+      var rawUnits = splitMsg[7];
+      if(rawUnits == "40"){
+        self.distanceUnits = "K";
+      }
+      var lastODO = self.odometer;
+      self.odometer = parseInt(ODObyte, 16);
 
      /*if(lastODO < self.odometer && self.distanceWatcher) { //if the rawDistanceTraveled is more than the watcher, it must have reset
        self.distancePerMile = self.rawDistanceTraveled - self.distanceWatcher;
@@ -243,7 +247,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
         self.distanceTraveled += distanceSinceLastSpeed;
         self.distanceOffset = self.distanceTraveled % 1;
       }
-      
+
       self.lastSpeedTime = now;
 
       self.averageSpeed = self.getAverage('speed', parseInt(self.speed));
