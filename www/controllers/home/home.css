@@ -11,6 +11,16 @@ md-card-content > h2 {
   -webkit-margin-after: 0.15em;
 }
 
+md-card b {
+  font-size: 28px;
+}
+
+small.title {
+  display: inline-flex;
+  margin-top: -10px;
+  position: absolute;
+}
+
 md-menu {
   padding: 0 !important;
 }
@@ -47,9 +57,11 @@ md-menu {
 
 small.tiny {
   float: right;
-  margin-top: -10px;
+  margin-top: -13px;
   font-weight: bolder;
   transition: opacity 8s ease;
+  position: absolute;
+  right: 30px;
 }
 
 .clear {

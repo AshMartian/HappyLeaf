@@ -9,7 +9,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
         showLatestGraph: false,
       },
       about: {
-        version: "0.1.3"
+        version: "0.1.4"
       }
     };
   }

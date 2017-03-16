@@ -35,8 +35,9 @@
         <div flex>
           <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
            <md-card-content>
+             <small class="title">Remaining</small>
              <h2><big>{{data.killowatts | number:2}}</big> KWh</h2>
-             <small>Remaining, <span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} to 0</span></small>
+             <small><span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} to 0</span></small>
            </md-card-content>
            <md-card-footer>
              GIDs: <b>{{data.GIDs}}</b> Health: <b>{{data.SOH}}%</b>
@@ -61,11 +62,12 @@
               </md-menu-content>
             </md-menu>
            <md-card-content>
+             <small class="title" ng-if="data.wattsUsed >= 0">Used</small>
+             <small class="title" ng-if="data.wattsUsed < 0">Gained</small>
              <h2 ng-if="data.wattsUsed < 10000 && data.wattsUsed > -10000"><big>{{data.wattsUsed | makePositive | number:1}}</big> Wh</h2>
              <h2 ng-if="data.wattsUsed >= 10000 || data.wattsUsed <= -10000"><big>{{(data.wattsUsed / 1000) | makePositive | number:2}}</big> KWh</h2>
              <small class="tiny clear" ng-class="{'green': data.wattDifference > 0, 'red': data.wattDifference < 0}" highlight-on-change="{{data.wattDifference}}"><span ng-if="data.wattDifference > 0">+ </span>{{data.wattDifference | number:1}}</small>
-             <small class="sub-text" ng-if="data.wattsUsed >= 0">Used since <span am-time-ago="data.wattsStartedTime"></span></small>
-             <small class="sub-text" ng-if="data.wattsUsed < 0">Gained since <span am-time-ago="data.wattsStartedTime"></span></small>
+             <small class="sub-text"><b>{{data.distanceTraveled | number:1}}</b> {{data.readableDistanceUnits()}} since <span am-time-ago="data.wattsStartedTime"></span></small>
            </md-card-content>
            <md-card-footer>
              <span ng-if="data.isCharging">

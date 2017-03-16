@@ -216,7 +216,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      if(lastODO < self.odometer) {
        $localStorage.mileDriven += 1;
        $localStorage.milesDrivenToday += 1;
-       var odoAtBeginning = $localStorage.history[self.wattsStartedTime].odometer;
+       var odoAtBeginning = $localStorage.history[self.wattsStartedTime].odometer + $localStorage.history[self.wattsStartedTime].distanceOffset;
        self.lastODOTime = (new Date()).getTime();
        self.distanceTraveled = self.odometer - odoAtBeginning;
      }
@@ -241,8 +241,9 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
         var timeDifference = now - self.lastSpeedTime;
         var distanceSinceLastSpeed = parseInt(self.speed) / ((1000 * 60 * 60) / timeDifference);
         self.distanceTraveled += distanceSinceLastSpeed;
+        self.distanceOffset = self.distanceTraveled % 1;
       }
-
+      
       self.lastSpeedTime = now;
 
       self.averageSpeed = self.getAverage('speed', parseInt(self.speed));

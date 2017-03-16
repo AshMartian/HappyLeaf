@@ -80,7 +80,7 @@ happyLeaf.component('leafDisplay', {
           $scope.updateSOC();
         });
 
-
+        $scope.leafClass = '';
         $scope.updateDOM = function(){
           //console.log("Updating DOM");
           if($scope.SOCChart.width == 10 || $scope.needsResize) {
@@ -192,6 +192,24 @@ happyLeaf.component('leafDisplay', {
 
         $rootScope.$on('dataUpdate:Motor', function(){
           $scope.updateMotor();
+
+          if(dataManager.motorWatts > 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'motor-usage') {
+            $scope.leafClass = '';
+            $scope.$digest();
+            setTimeout(function(){
+                $scope.leafClass = 'motor-usage';
+                $scope.$digest();
+            }, 100);
+          } else if(dataManager.motorWatts < 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'regening') {
+            $scope.leafClass = '';
+            $scope.$digest();
+            setTimeout(function(){
+                $scope.leafClass = 'regening';
+                $scope.$digest();
+            }, 100);
+          } else if(dataManager.speed == 0 || dataManager.motorWatts == 0){
+            $scope.leafClass = '';
+          }
         });
 
 
