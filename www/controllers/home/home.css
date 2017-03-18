@@ -11,6 +11,10 @@ md-card-content > h2 {
   -webkit-margin-after: 0.15em;
 }
 
+md-card-content {
+  padding: 12px !important;
+}
+
 md-card b {
   font-size: 28px;
 }
@@ -35,6 +39,11 @@ md-menu {
   margin-top: 3%;
 }
 
+.widget-icon-right {
+  margin-top: -12px;
+  margin-left: -12px;
+  position: absolute;
+}
 
 .sub-text {
   white-space: nowrap;
@@ -110,6 +119,10 @@ small.tiny {
   text-overflow: ellipsis;
 }
 
+h3.small {
+  font-size: 0.8em;
+}
+
 #large-chart-container {
   width: 100% !important;
   height: 200px !important;
@@ -121,21 +134,6 @@ small.tiny {
   height: 88vh;
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
-}
-
-@media (max-width: 620px) {
-  #LEAF {
-    width: 100vw;
-    max-height: 50vh;
-  }
-  .main-top-row {
-    flex-direction: column;
-    padding-bottom: 40px;
-  }
-  .main-top-stats {
-    margin-top: -35px;
-    z-index: 2;
-  }
 }
 
 #Charger_x5F_Flow, #Charging_x5F_Plug {
@@ -413,5 +411,64 @@ small.tiny {
   }
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (orientation:portrait) {
+  #LEAF {
+    width: 100vw;
+    max-height: 50vh;
+  }
+  .main-top-row {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .main-top-stats {
+    margin-top: -35px;
+    z-index: 2;
+  }
+
+}
+
+@media (max-width: 520px), (max-height: 520px) {
+  .status {
+    font-size: 20px !important;
+  }
+  .content {
+    margin-top: 50px;
+    width: 100vw;
+  }
+  md-card h2 {
+    font-size: 0.5em;
+  }
+  md-card h2 big {
+    font-size: 30px;
+  }
+
+  md-card b {
+    font-size: 16px;
+  }
+
+  small, md-card span {
+    font-size: 12px;
+  }
+
+  md-card-footer {
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+  }
+  md-card-content {
+    padding-bottom: 5px !important;
+  }
+  .md-toolbar-tools small {
+    font-size: 10px !important;
+  }
+
+  .md-toolbar-tools span {
+    font-size: 20px !important;
+  }
+
+  .SOC-Text {
+    font-size: 110%;
   }
 }

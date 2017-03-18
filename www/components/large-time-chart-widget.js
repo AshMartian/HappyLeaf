@@ -9,6 +9,8 @@ happyLeaf.component('largeTimeChart', {
       $scope.local = $localStorage;
       $scope.lastDataGraphed = null;
 
+      $scope.isCharging = dataManager.isCharging;
+
       $scope.menuOptions = [{
         title: "reset",
         icon: "cached",
@@ -21,7 +23,7 @@ happyLeaf.component('largeTimeChart', {
         $scope.series = $localStorage.settings.data.chargingDataAttributes;
       } else {
         $localStorage.settings.data.drivingDataAttributes = ["actualSOC", "averageSpeed", "averageMotorWatts", "averageRegen", "averageClimateUsage"];
-        $localStorage.settings.data.chargingDataAttributes = ["actualSOC", "chargingWatts", "averageClimateUsage"];
+        $localStorage.settings.data.chargingDataAttributes = ["actualSOC", "chargingWatts", "averageClimateUsage", "hx"];
       }
 
       $scope.labels = [];
@@ -34,7 +36,7 @@ happyLeaf.component('largeTimeChart', {
         $scope.updateChart();
       });
 
-      $scope.isCharging = dataManager.isCharging;
+
 
       $scope.toggleCharging = function(){
         if($scope.isCharging){
@@ -107,7 +109,7 @@ happyLeaf.component('largeTimeChart', {
 
           var now = (new Date()).getTime();
           async.forEach($localStorage.history, function(historyDataPoint){
-            if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > parseInt(now) - $localStorage.settings.data.graphTimeEnd) { // &&
+            if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > parseInt(now) - $localStorage.settings.data.graphTimeEnd && historyDataPoint.isCharging == $scope.isCharging) { // &&
               dataPointsToShow.push(historyDataPoint);
             }
           });
@@ -181,6 +183,10 @@ happyLeaf.component('largeTimeChart', {
         $scope.updateChart();
       });
 
+      $rootScope.$on('changeCharging', function(){
+        $scope.isCharging = dataManager.isCharging;
+        $scope.updateChart();
+      });
 
       $scope.data = [
         [65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40],

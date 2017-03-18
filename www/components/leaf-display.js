@@ -199,14 +199,14 @@ happyLeaf.component('leafDisplay', {
             setTimeout(function(){
                 $scope.leafClass = 'motor-usage';
                 $scope.$digest();
-            }, 100);
+            }, 20);
           } else if(dataManager.motorWatts < 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'regening') {
             $scope.leafClass = '';
             $scope.$digest();
             setTimeout(function(){
                 $scope.leafClass = 'regening';
                 $scope.$digest();
-            }, 100);
+            }, 20);
           } else if(dataManager.speed == 0 || dataManager.motorWatts == 0){
             $scope.leafClass = '';
           }

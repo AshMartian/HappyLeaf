@@ -7,12 +7,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
       data: {
         graphTimeEnd: 86400000,
         showLatestGraph: false,
-      },
-      about: {
-        version: "0.1.4"
       }
     };
   }
+
+  $localStorage.settings.about = {
+    version: "0.1.5.9"
+  };
 
   $scope.devices = [];
   $scope.scanIcon = "autorenew";
