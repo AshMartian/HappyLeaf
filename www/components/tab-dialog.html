@@ -10,8 +10,29 @@
       <md-tabs md-dynamic-height md-border-bottom>
         <md-tab label="settings">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Tab One</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+
+            <md-list>
+
+              <md-subheader class="md-no-sticky">Theme / Dark Mode</md-subheader>
+              <md-list-item >
+                <p>Ambient Light sensor</p>
+                <md-switch ng-model="local.settings.experiance.darkModeAmbient" ng-disabled="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
+              </md-list-item>
+
+              <md-list-item>
+                <p>Ambient Light Sensitivity</p><br/>
+                <md-slider flex min="0" max="10" md-discrete ng-disabled="!local.settings.experiance.darkModeAmbient || local.settings.experiance.darkModeHeadlights" ng-model="local.settings.experiance.lightSensitivity"></md-slider>
+              </md-list-item>
+
+
+
+              <md-list-item>
+                <p>Activate Dark with Headlights</p>
+                <md-switch ng-model="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
+              </md-list-item>
+
+            </md-list>
+
           </md-content>
         </md-tab>
         <md-tab label="data">

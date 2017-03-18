@@ -1,7 +1,7 @@
 <div flex>
   <span class="SOC-Text" ng-style="{'width': SOCChart.width, 'left': SOCChart.left, 'top': SOCChart.top + (SOCChart.height / 5)}">{{data.actualSOC | number:1}}%</span>
   <div ng-include="'img/HappyLeaf.svg'" id="LEAFOUTTER" class="{{leafClass}}"
-    ng-class="{'headlights': data.headLights, 'blinker-right': data.turnSignal == 'right', 'blinker-left': data.turnSignal == 'left',
+    ng-class="{'headlights': data.headLights, 'foglights': data.fogLights, 'blinker-right': data.turnSignal == 'right', 'blinker-left': data.turnSignal == 'left',
     'charging': data.isCharging, 'fast': data.chargingVolts > 260, 'medium': data.chargingVolts > 140, 'slow': data.chargingVolts < 140,
     'buckled': data.isBuckled, 'parked': data.parkingBreakOn, 'climate-usage': data.climateConsumption > 0}" onload="updateDOM()"></div>
 

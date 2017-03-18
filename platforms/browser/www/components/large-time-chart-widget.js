@@ -10,7 +10,7 @@ happyLeaf.component('largeTimeChart', {
       $scope.lastDataGraphed = null;
 
       $scope.isCharging = dataManager.isCharging;
-
+      
       $scope.menuOptions = [{
         title: "reset",
         icon: "cached",
@@ -23,7 +23,7 @@ happyLeaf.component('largeTimeChart', {
         $scope.series = $localStorage.settings.data.chargingDataAttributes;
       } else {
         $localStorage.settings.data.drivingDataAttributes = ["actualSOC", "averageSpeed", "averageMotorWatts", "averageRegen", "averageClimateUsage"];
-        $localStorage.settings.data.chargingDataAttributes = ["actualSOC", "chargingWatts", "averageClimateUsage"];
+        $localStorage.settings.data.chargingDataAttributes = ["actualSOC", "chargingWatts", "averageClimateUsage", "hx"];
       }
 
       $scope.labels = [];

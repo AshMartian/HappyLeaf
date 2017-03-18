@@ -5,9 +5,19 @@ happyLeaf.component('largeTimeChart', {
     templateUrl:'components/large-time-chart-widget.html',
     displayStyle: 'background-color: black;',
 
+    bindings:{
+      showDarkTheme: "="
+    },
+
     controller: function($scope, $rootScope, storageManager, $localStorage, dataManager){
       $scope.local = $localStorage;
       $scope.lastDataGraphed = null;
+      var self = this;
+
+      $scope.showDarkTheme = self.showDarkTheme;
+      $scope.$watch('$ctrl.showDarkTheme', function(){
+        calculateOptions();
+      })
 
       $scope.isCharging = dataManager.isCharging;
 
@@ -27,9 +37,39 @@ happyLeaf.component('largeTimeChart', {
       }
 
       $scope.labels = [];
-      if(!$localStorage.settings.data.colors){
-        $localStorage.settings.data.colors = ["#62c50f", "#3785e8", "#d45e55"];
-      }
+      //if(!$localStorage.settings.data.colors){
+        $localStorage.settings.data.colors = [{ //What a pain in the A$$
+            pointBorderColor: 'transparent',
+            pointBackgroundColor: "#62c50f",
+            borderColor: "#62c50f",
+            backgroundColor: "rgba(98, 197, 15, 0.2)",
+            fill: "#62c50f"
+        },{
+            pointBorderColor: 'transparent',
+            pointBackgroundColor: "#3785e8",
+            borderColor: "#3785e8",
+            backgroundColor: "rgba(55, 133, 232, 0.3)",
+            fill: "#3785e8"
+        },{
+            pointBorderColor: 'transparent',
+            pointBackgroundColor: "#d45e55",
+            borderColor: "#d45e55",
+            backgroundColor: "rgba(212, 94, 85, 0.3)",
+            fill: "#d45e55"
+        },{
+            pointBorderColor: 'transparent',
+            pointBackgroundColor: "#9637e8",
+            borderColor: "#9637e8",
+            backgroundColor: "rgba(150, 55, 232, 0.3)",
+            fill: "#9637e8"
+        },{
+            pointBorderColor: 'transparent',
+            pointBackgroundColor: "#37e8d2",
+            borderColor: "#37e8d2",
+            backgroundColor: "rgba(55, 232, 210, 0.3)",
+            fill: "#37e8d2"
+        }];
+    //  }
 
       $(window).resize(function(){
         $scope.needsResize = true;
@@ -115,8 +155,9 @@ happyLeaf.component('largeTimeChart', {
           });
           //console.log(dataPointsToShow);
           var timeOffset = 1;
-          if(dataPointsToShow.length > 150) {
-            timeOffset = 1 + (dataPointsToShow.length / 150);
+          var width = $("#time-chart").width() / 5;
+          if(dataPointsToShow.length > width) {
+            timeOffset = 1 + (dataPointsToShow.length / width);
           }
           var timeDifference = timeOffset * 29999;
 
@@ -197,30 +238,61 @@ happyLeaf.component('largeTimeChart', {
         console.log(points, evt);
       };
 
-      $scope.options = {
-        scaleOverride: true,
-        legend: {
-          display: true,
-          position: 'bottom'
-        },
-        animation : false,
-        animateScale: true,
-        scales: {
-          yAxes: [
-            {
-              id: 'y-axis-1',
-              type: 'linear',
-              display: true,
-              position: 'left'
-            },
-            {
-              id: 'y-axis-2',
-              type: 'linear',
-              display: true,
-              position: 'right'
+      var formatKwValue = function(value){
+        return Math.round(value / 1000) + "kWh";
+      }
+
+      var calculateOptions = function(){
+
+        $scope.options = {
+          elements: {
+              point: {
+                  radius: 2
+              }
+          },
+          scaleOverride: true,
+          legend: {
+            display: true,
+            position: 'bottom',
+            labels: {
+              fontColor: self.showDarkTheme ? 'white' : 'black',
+              fontSize: 10
             }
-          ]
+          },
+          animation : false,
+          animateScale: true,
+          scales: {
+            xAxes: [
+              {
+                ticks: {
+                  fontColor: self.showDarkTheme ? 'white' : 'black'
+                }
+              }
+            ],
+            yAxes: [
+              {
+                id: 'y-axis-1',
+                type: 'linear',
+                display: true,
+                position: 'left',
+                ticks: {
+                  fontColor: self.showDarkTheme ? 'white' : 'black',
+                  callback:formatKwValue
+                }
+              },
+              {
+                id: 'y-axis-2',
+                type: 'linear',
+                display: true,
+                position: 'right',
+                ticks: {
+                  fontColor: self.showDarkTheme ? 'white' : 'black',
+                }
+              }
+            ]
+          }
         }
+        calculateOptions();
       };
     }
   });

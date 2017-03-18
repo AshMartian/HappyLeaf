@@ -11,8 +11,8 @@ md-card-content > h2 {
   -webkit-margin-after: 0.15em;
 }
 
-md-card b {
-  font-size: 28px;
+md-card-content {
+  padding: 12px !important;
 }
 
 small.title {
@@ -97,8 +97,36 @@ small.tiny {
 }
 
 .content {
-  margin-top: 70px;
+  margin-top: 20px;
+  padding-top: 40px;
   width: 100vw;
+
+  background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #A7A7A7),
+      color-stop(0.51, #E4E4E4)
+  );
+  background-attachment:fixed;
+}
+
+main.dark .content {
+  color: white;
+  background-image:linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-webkit-linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-ms-linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #2a3261),
+      color-stop(0.51, #000000)
+  );
+  background-attachment:fixed;
 }
 
 .soc-container {
@@ -132,6 +160,14 @@ h3.small {
   -webkit-transform: translate3d(0,0,0);
 }
 
+main.dark #LEAF text {
+  fill: white;
+}
+
+#Motor_x5F_Speed {
+  fill: black !important;
+}
+
 #Charger_x5F_Flow, #Charging_x5F_Plug {
   opacity: 0.4;
   stroke-dasharray: 4;
@@ -144,6 +180,11 @@ h3.small {
 }
 
 #Headlights {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+#Foglights {
   opacity: 0;
   transition: opacity 2s ease;
 }
@@ -163,6 +204,10 @@ h3.small {
 }
 
 #LEAFOUTTER.headlights #Headlights {
+  opacity: 1;
+}
+
+#LEAFOUTTER.foglights #Foglights {
   opacity: 1;
 }
 
@@ -423,6 +468,43 @@ h3.small {
     margin-top: -35px;
     z-index: 2;
   }
+  md-card h2 {
+    font-size: 3vw;
+  }
+  md-card h2 big {
+    font-size: 8vw;
+  }
+  .md-toolbar-tools small {
+    font-size: 1.3vh !important;
+  }
+
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 3.6vh !important;
+  }
+  md-card b {
+    font-size: 2.8vh;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  md-card h2 {
+    font-size: 2vw;
+  }
+  md-card h2 big {
+    font-size: 5vw;
+  }
+  .md-toolbar-tools small {
+    font-size: 1.6vw !important;
+  }
+
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 4vw !important;
+  }
+  md-card b {
+    font-size: 2.8vw;
+  }
 
 }
 
@@ -433,12 +515,6 @@ h3.small {
   .content {
     margin-top: 50px;
     width: 100vw;
-  }
-  md-card h2 {
-    font-size: 0.5em;
-  }
-  md-card h2 big {
-    font-size: 30px;
   }
 
   md-card b {
@@ -456,11 +532,15 @@ h3.small {
   md-card-content {
     padding-bottom: 5px !important;
   }
-  .md-toolbar-tools small {
-    font-size: 10px !important;
-  }
 
   .SOC-Text {
     font-size: 110%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 2.6vw !important;
   }
 }

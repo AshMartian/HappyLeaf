@@ -456,11 +456,11 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/com.fabiorogeriosj.sensors/www/sensors.js",
-        "id": "com.fabiorogeriosj.sensors.sensors",
-        "pluginId": "com.fabiorogeriosj.sensors",
+        "file": "plugins/cordova-plugin-lightSensor/www/light.js",
+        "id": "cordova-plugin-lightSensor.light",
+        "pluginId": "cordova-plugin-lightSensor",
         "clobbers": [
-            "sensors"
+            "cordova-plugin-lightSensor"
         ]
     }
 ];
@@ -486,7 +486,7 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-sqlite-storage": "2.0.2",
-    "com.fabiorogeriosj.sensors": "0.7.0"
+    "cordova-plugin-lightSensor": "0.2.1"
 }
 // BOTTOM OF METADATA
 });

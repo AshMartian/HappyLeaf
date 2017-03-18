@@ -10,9 +10,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
       }
     };
   }
+  if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
+  if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
+  if($localStorage.settings.experiance.lightSensitivity == null) $localStorage.settings.experiance.lightSensitivity = 6;
+  if($localStorage.settings.experiance.darkModeHeadlights == null) $localStorage.settings.experiance.darkModeHeadlights = false;
 
   $localStorage.settings.about = {
-    version: "0.1.5.9"
+    version: "0.1.6"
   };
 
   $scope.devices = [];
@@ -38,8 +42,8 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
 
   	$scope.ready = true;
     window.plugins.insomnia.keepAwake();
-    sensors.enableSensor("LIGHT");
-
+    window.light = cordova.require("cordova-plugin-lightSensor.light");
+    window.light.enableSensor();
     //storageManager.startupDB();
 
   	bluetoothSerial.enable(

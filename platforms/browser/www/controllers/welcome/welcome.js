@@ -7,12 +7,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
       data: {
         graphTimeEnd: 86400000,
         showLatestGraph: false,
-      },
-      about: {
-        version: "0.1.5.5"
       }
     };
   }
+
+  $localStorage.settings.about = {
+    version: "0.1.5.9"
+  };
 
   $scope.devices = [];
   $scope.scanIcon = "autorenew";
@@ -37,8 +38,8 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
 
   	$scope.ready = true;
     window.plugins.insomnia.keepAwake();
-    sensors.enableSensor("LIGHT");
-
+    window.light = cordova.require("cordova-plugin-lightSensor.light");
+    window.light.enableSensor();
     //storageManager.startupDB();
 
   	bluetoothSerial.enable(

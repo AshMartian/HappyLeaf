@@ -73,7 +73,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Sensors\"><param name=\"android-package\" value=\"com.fabiorogeriosj.plugin.Sensors\" /></feature>",
+                            "xml": "<feature name=\"Light\"><param name=\"android-package\" value=\"tools.mango.cordova.plugin.android.LightSensorListener\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ],
@@ -181,7 +181,7 @@
         "cordova-sqlite-storage": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "com.fabiorogeriosj.sensors": {
+        "cordova-plugin-lightSensor": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
@@ -496,10 +496,10 @@
             ]
         },
         {
-            "file": "plugins/com.fabiorogeriosj.sensors/www/sensors.js",
-            "id": "com.fabiorogeriosj.sensors.sensors",
+            "file": "plugins/cordova-plugin-lightSensor/www/light.js",
+            "id": "cordova-plugin-lightSensor.light",
             "clobbers": [
-                "sensors"
+                "cordova-plugin-lightSensor"
             ]
         }
     ],
@@ -523,6 +523,6 @@
         "cordova-plugin-bluetooth-serial": "0.4.5",
         "cordova-plugin-insomnia": "4.3.0",
         "cordova-sqlite-storage": "2.0.2",
-        "com.fabiorogeriosj.sensors": "0.7.0"
+        "cordova-plugin-lightSensor": "0.2.1"
     }
 }

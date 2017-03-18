@@ -12,6 +12,7 @@ happyLeaf.factory('connectionManager', function(){
           //console.log("Got connected " + connected);
         }, function(err){
           console.log("is Disconnected " + err);
+
           self.isConnected = false;
         });
       }, 2000);

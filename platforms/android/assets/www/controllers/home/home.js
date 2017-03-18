@@ -87,9 +87,23 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
 
     $scope.showDarkTheme = false;
 
+    $scope.toggleDark = function(){
+      $scope.userOverrideTheme = true;
+      $scope.showDarkTheme = $scope.showDarkTheme ? false : true;
+    }
+    
     deviceReady(function(){
       storageManager.startupDB();
-      sensors.enableSensor("LIGHT");
+/*
+      window.cordova.plugins.SensorList.getAvailableSensors(function(sensorsList) {
+            //$scope.sensorsList = sensorsList;
+            alert(sensorsList);
+            // For some reason change detection is not working!
+            //$scope.$apply();
+        }, function(ex) {
+            alert('Error', ex);
+        });*/
+
     });
 
     $scope.$on('$viewContentLoaded', function(){
@@ -115,6 +129,27 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         $scope.log("Setting history point");
         storageManager.createHistoryPoint();
       }, 30000);
+
+      var onSuccess = function(state) {
+        dataManager.lightSensor = state;
+        var sensitivity = 10 - $localStorage.settings.experiance.lightSensitivity;
+        if(state < sensitivity && !$scope.userOverrideTheme) {
+          $scope.showDarkTheme = true;
+        } else if(!$scope.userOverrideTheme) {
+          $scope.showDarkTheme = false;
+        }
+        $scope.$digest();
+      };
+
+      setInterval(function(){
+        if(window.light && $localStorage.settings.experiance.darkModeAmbient){
+          window.light.getLightState(onSuccess);
+        }
+        if($localStorage.settings.experiance.darkModeHeadlights && !$scope.userOverrideTheme) {
+          $scope.showDarkTheme = dataManager.headLights;
+          $scope.$digest();
+        }
+      }, 5000);
 
       $scope.bufferCount = 0;
       var lastResponse = "";

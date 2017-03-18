@@ -8,6 +8,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.local = $localStorage;
 
     $scope.logText = "HappyLeaf Version " + $localStorage.settings.about.version + "\r\n";
+    $scope.fullLog = $scope.logText;
     $scope.logIcon = "play_arrow";
     $scope.renderLog = false;
     $scope.logOutput = $scope.logText;
@@ -84,11 +85,20 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
       }
     }
 
-    $scope.showDarkTheme = false;
+    $scope.showDarkTheme = true;
 
     deviceReady(function(){
       storageManager.startupDB();
-      sensors.enableSensor("LIGHT");
+/*
+      window.cordova.plugins.SensorList.getAvailableSensors(function(sensorsList) {
+            //$scope.sensorsList = sensorsList;
+            alert(sensorsList);
+            // For some reason change detection is not working!
+            //$scope.$apply();
+        }, function(ex) {
+            alert('Error', ex);
+        });*/
+
     });
 
     $scope.$on('$viewContentLoaded', function(){
@@ -114,6 +124,17 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         $scope.log("Setting history point");
         storageManager.createHistoryPoint();
       }, 30000);
+
+      var onSuccess = function(state) {
+        alert('Light Sensor state: ' + state);
+      };
+
+      setInterval(function(){
+        if(window.light){
+          window.light.getLightState(onSuccess);
+        }
+
+      }, 1000);
 
       $scope.bufferCount = 0;
       var lastResponse = "";
@@ -232,7 +253,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         bluetoothSend.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
           $scope.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + bluetoothSend.failedSend.length + " force send requests");
-          if(bluetoothSend.failedSend.length > 20 && $scope.messagesReceived.length < 100) {
+          if(bluetoothSend.failedSend.length >= 20 && $scope.messagesReceived.length < 100) {
             $scope.failedMessages = true;
           }
           $scope.messagesReceived = [];
@@ -477,7 +498,8 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         });
       } else {
         //console.log(log);
-        $scope.logText = log + "\r\n" + $scope.logText.substring(0, 30000);
+        $scope.logFull = log + "\r\n" + $scope.logFull;
+        $scope.logText = $scope.logFull.substring(0, 30000);
       }
     }
     //$scope.init();

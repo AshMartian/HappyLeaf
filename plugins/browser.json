@@ -58,7 +58,7 @@
         "cordova-sqlite-storage": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "com.fabiorogeriosj.sensors": {
+        "cordova-plugin-lightSensor": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },

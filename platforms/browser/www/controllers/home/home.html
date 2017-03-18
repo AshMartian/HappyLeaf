@@ -16,15 +16,15 @@
       <!-- fill up the space between left and right area -->
       <span flex></span>
       <span ng-if="data.outsideTemp">
-        {{data.outsideTemp}}&deg;
+        {{data.outsideTemp | number:1}}&deg;
       </span>
-      <connection-status></connection-status>
+      <connection-status failed-messages="failedMessages"></connection-status>
       <settings-dialog></settings-dialog>
     </div>
   </md-toolbar>
 </header>
 
-<main class="fixed" id="home">
+<main class="fixed" ng-class="{'dark': showDarkTheme}" id="home" >
   <div class="content">
     <div layout="row" class="main-top-row">
       <div layout="column">
@@ -54,7 +54,7 @@
                 <md-menu-item ng-repeat="item in menuOptions">
                   <md-button ng-click="item.clicked()">
                       <div layout="row" flex>
-                        <ng-md-icon class="menu-icon" icon="{{item.icon}}" size="30px" style="fill: 'black'; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+                        <ng-md-icon class="menu-icon" icon="{{item.icon}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
                         <p flex>{{item.title}}</p>
                       </div>
                   </md-button>
