@@ -60,6 +60,7 @@ happyLeaf.factory('bluetoothSend', function(){
       });
     },
     send: function(array, callback){
+      self.failedSend = [];
       if(Array.isArray(array)) {
         self.currentCommands = array;
         var log = [];
@@ -68,7 +69,7 @@ happyLeaf.factory('bluetoothSend', function(){
               shouldSend = true;
               self.failedSend.push(self.lastCommand);
               console.log("Forcing send");
-          }, 400);
+          }, 320);
 
           var wait = function(){
             if(shouldSend){

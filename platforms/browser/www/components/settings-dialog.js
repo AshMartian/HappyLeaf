@@ -7,40 +7,97 @@ happyLeaf.component('settingsDialog', {
     // The controller that handles our component logic
     controller: function ($scope, $rootScope, dataManager, $filter, $localStorage, $mdDialog) {
       $scope.settingsIcon = "settings";
+      $scope.dialogOpen = false;
 
-      $localStorage.settings = {
-        data: {
-          graphTimeEnd: 1000 * 60 * 60 * 12,
-          showLatestGraph: false,
+      $scope.local = $localStorage;
 
+      $scope.toggleDialog = function(ev) {
+        if(!$scope.dialogOpen){
+          $scope.settingsIcon = "close";
+          $scope.dialogOpen = true;
+          $mdDialog.show({
+            controller: DialogController,
+            templateUrl: 'components/tab-dialog.html',
+            parent: angular.element(document.body),
+            targetEvent: ev,
+            clickOutsideToClose:true
+          }).then(function(answer) {
+                $scope.status = 'You said the information was "' + answer + '".';
+                $scope.dialogOpen = false;
+                $scope.settingsIcon = "settings";
+              }, function() {
+                $scope.status = 'You cancelled the dialog.';
+                $scope.dialogOpen = false;
+                $scope.settingsIcon = "settings";
+              });
+        } else {
+          $mdDialog.cancel();
+          $scope.dialogOpen = false;
+          $scope.settingsIcon = "settings";
         }
+
       };
 
-      $scope.openDialog = function(ev) {
-        $mdDialog.show({
-          controller: DialogController,
-          templateUrl: 'components/tab-dialog.html',
-          parent: angular.element(document.body),
-          targetEvent: ev,
-          clickOutsideToClose:true
-        }).then(function(answer) {
-              $scope.status = 'You said the information was "' + answer + '".';
-            }, function() {
-              $scope.status = 'You cancelled the dialog.';
-            });
-      };
+      function DialogController($scope, $mdDialog, $localStorage, dataManager) {
+        $scope.local = $localStorage;
+        $scope.loveIcon = "favorite";
+        $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"]
 
-      function DialogController($scope, $mdDialog) {
+        setInterval(function(){
+          var randomIconInt = Math.floor(Math.random() * $scope.availableIcons.length)
+          $scope.loveIcon = $scope.availableIcons[randomIconInt];
+          $scope.$digest();
+        }, 2000);
+
+        var cleanUpKeys = function(array){
+          return array.map(function (c, index) {
+            var cParts = c.replace(/([A-Z])/g, ' $1').replace(/^./, function(str){ return str.toUpperCase(); });
+                                              // uppercase the first character
+              var data = {
+                name: cParts,
+                key: c
+              };
+              return data;
+          });
+        }
+
+        $scope.allDataKeys = cleanUpKeys(Object.keys(dataManager)).filter(function(key) {
+            return typeof dataManager[key.key] == 'number' && !key.key.match(/time/i);
+        });
+        $scope.dataKeys = cleanUpKeys($localStorage.settings.data.drivingDataAttributes)
+        
+        $scope.filterSelected = true;
+
+        var createFilterFor= function(query) {
+          var lowercaseQuery = angular.lowercase(query);
+          return function filterFn(key) {
+            return (key.key.indexOf(lowercaseQuery) != -1);
+          };
+        }
+        $scope.querySearch = function(criteria) {
+          console.log($scope.allDataKeys);
+          console.log($scope.allDataKeys.filter(createFilterFor(criteria)));
+          return criteria ? $scope.allDataKeys.filter(createFilterFor(criteria)) : [];
+        }
+
+
+
         $scope.hide = function() {
           $mdDialog.hide();
+          $scope.dialogOpen = false;
+          $scope.settingsIcon = "settings";
         };
 
         $scope.cancel = function() {
           $mdDialog.cancel();
+          $scope.dialogOpen = false;
+          $scope.settingsIcon = "settings";
         };
 
         $scope.answer = function(answer) {
           $mdDialog.hide(answer);
+          $scope.dialogOpen = false;
+          $scope.settingsIcon = "settings";
         };
       }
     }

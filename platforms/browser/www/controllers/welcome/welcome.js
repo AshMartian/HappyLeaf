@@ -1,6 +1,19 @@
 happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope, $localStorage, deviceReady, bluetoothSend, connectionManager, storageManager) {
   $scope.ready = false;
 
+  if(!$localStorage.settings){
+    $localStorage.mileDriven = 0;
+    $localStorage.settings = {
+      data: {
+        graphTimeEnd: 86400000,
+        showLatestGraph: false,
+      },
+      about: {
+        version: "0.1.5.5"
+      }
+    };
+  }
+
   $scope.devices = [];
   $scope.scanIcon = "autorenew";
   $scope.scanClass = "";
@@ -20,10 +33,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $rootScope
 
   deviceReady(function(){
   	console.log("Device is ready!");
+
+
   	$scope.ready = true;
     window.plugins.insomnia.keepAwake();
+    sensors.enableSensor("LIGHT");
 
-    storageManager.startupDB();
+    //storageManager.startupDB();
 
   	bluetoothSerial.enable(
 	    function() {

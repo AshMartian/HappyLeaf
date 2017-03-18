@@ -6,6 +6,12 @@
 <filter  id="AI_GaussianBlur_4">
 	<feGaussianBlur  stdDeviation="1"></feGaussianBlur>
 </filter>
+<g filter="url(#AI_GaussianBlur_4)">
+	<polyline fill="none" stroke="#686868" stroke-width="0.3" stroke-miterlimit="10" points="62.031,15.129 67.875,11.717 
+		75.625,9.75 	"/>
+	<polyline fill="none" stroke="#686868" stroke-width="0.3" stroke-miterlimit="10" points="108.625,15.129 102.781,11.717 
+		95.031,9.75 	"/>
+</g>
 <line display="none" fill="none" stroke="#2B2B2B" stroke-width="0.6" stroke-miterlimit="10" x1="61.833" y1="16.5" x2="75.667" y2="9.167"/>
 <line display="none" fill="none" stroke="#2B2B2B" stroke-width="0.6" stroke-miterlimit="10" x1="109.5" y1="17.334" x2="95.334" y2="9.667"/>
 <g display="none">

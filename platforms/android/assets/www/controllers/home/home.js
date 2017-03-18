@@ -8,6 +8,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.local = $localStorage;
 
     $scope.logText = "HappyLeaf Version " + $localStorage.settings.about.version + "\r\n";
+    $scope.fullLog = $scope.logText;
     $scope.logIcon = "play_arrow";
     $scope.renderLog = false;
     $scope.logOutput = $scope.logText;
@@ -21,7 +22,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
           this.title = "Use Watts/" + dataManager.distanceUnits;
           $scope.wattDisplay = 'perWatt';
         } else {
-          this.title = "Use " + dataManager.distanceUnits + "/KW";
+          this.title = "Use " + dataManager.distanceUnits + "/kW";
           $scope.wattDisplay = 'perDistance';
         }
       }
@@ -183,8 +184,8 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.requestSOC = function(){
       //console.log("Requesting ALL");
       $scope.bufferCount = 0;
-      var commandsToSend = ["ATAR", "ATE0", "ATIB10", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
-      //var commandstoSend = ["ATE0", "ATL0", "ATCAF0", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF5BF", "ATMA", "X", "ATCM7FE", "ATCF385", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF510", "ATMA", "X", "ATCRA355", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X", "ATCM7FE", "ATCF284", "ATMA", "X", "ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATAR"];
+      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
+      //var commandstoSend = ["ATE0", "ATIB10", "ATL0", "ATCAF0", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF5BF", "ATMA", "X", "ATCM7FE", "ATCF385", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF510", "ATMA", "X", "ATCRA355", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X", "ATCM7FE", "ATCF284", "ATMA", "X", "ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATAR"];
       //var commandstoSend = ["ATE0", "ATH1", "STI", "ATSP6", "ATS0", "ATRV", "ATCAF0", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF358", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X"];
       //"ATAR", "ATSH797", "ATFCH797", "ATFCSD300000", "0210C0", "03221304", "03221156", "0322132A", "03221103", "03221183", "0322124E", "0322115D", "03221203", "03221205", "0322124E", "0322115D", "03221261", "03221262", "03221152", "03221151", "03221146", "03221255", "03221234", "0322114E", "03221236", "03221255"
       async.each($scope.knownMessages, function(message){
@@ -232,7 +233,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         bluetoothSend.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
           $scope.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + bluetoothSend.failedSend.length + " force send requests");
-          if(bluetoothSend.failedSend.length > 20 && $scope.messagesReceived.length < 100) {
+          if(bluetoothSend.failedSend.length >= 20 && $scope.messagesReceived.length < 100) {
             $scope.failedMessages = true;
           }
           $scope.messagesReceived = [];
@@ -477,7 +478,8 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         });
       } else {
         //console.log(log);
-        $scope.logText = log + "\r\n" + $scope.logText.substring(0, 30000);
+        $scope.logFull = log + "\r\n" + $scope.logFull;
+        $scope.logText = $scope.logFull.substring(0, 30000);
       }
     }
     //$scope.init();

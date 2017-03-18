@@ -1,22 +1,38 @@
 happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootScope, $localStorage){
-  var lastHistoryKey = Object.keys($localStorage.history)
-  var lastHistoryItem = $localStorage.history[lastHistoryKey[lastHistoryKey.length - 1]];
-  console.log("Last history item ", lastHistoryItem);
+  if($localStorage.history){
+    var lastHistoryKey = Object.keys($localStorage.history)
+    var lastHistoryItem = $localStorage.history[lastHistoryKey[lastHistoryKey.length - 1]];
+    console.log("Last history item ", lastHistoryItem);
+  }
+
   if(!lastHistoryItem) {
     lastHistoryItem = {};
   }
 
   var self = {
 
-    SOH: 0 || lastHistoryItem.SOH,
-    GIDs: 0,
-
+    SOH: lastHistoryItem.SOH || 0,
+    GIDs: lastHistoryItem.GIDs || 0,
+    batteryTemp: 0,
+    isCharging: lastHistoryItem.isCharging || null,
     headLights: false,
     fogLights: false,
-    turnSignal: "off",
-    odometer: 0 || lastHistoryItem.odometer,
-    distanceUnits: "",
-    transmission: "T" || lastHistoryItem.transmission,
+    turnSignal: "Off",
+    odometer: lastHistoryItem.odometer || 0,
+    distanceUnits: lastHistoryItem.distanceUnits || "M",
+    readableDistanceUnits: function(){
+      if(self.distanceUnits == "M") {
+        return "Miles";
+      } else {
+        return "Km";
+      }
+    },
+    distanceTraveled: 0,
+    rawDistanceTraveled: null,
+    calculatedDistanceTraveled: null,
+    distancePerKW: lastHistoryItem.distancePerKW || 0,
+    wattsPerDistance: lastHistoryItem.wattsPerDistance || 0,
+    transmission:  lastHistoryItem.transmission || "T",
 
     speed: 0,
     averageSpeed: 0,
@@ -24,14 +40,18 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
 
     turnAngle: 0,
 
-    watts: 0,
-    killowatts: 0,
+    watts: lastHistoryItem.watts || 0,
+    killowatts: lastHistoryItem.killowatts || 0,
 
-    wattsUsed: 0 || lastHistoryItem.wattsUsed,
-    wattsStarted: 0 || lastHistoryItem.wattsStarted,
-    wattsStartedTime: null || lastHistoryItem.wattsStartedTime,
+    wattsUsed: lastHistoryItem.wattsUsed || 0,
+    wattsStarted: lastHistoryItem.wattsStarted || 0,
+    wattsStartedTime: lastHistoryItem.wattsStartedTime || null,
+    wattsStartedCharging: null,
 
     regenWatts: 0,
+    availableRegen: 0,
+    targetRegenBraking: null,
+    targetRegen: null,
 
     motorWatts: 0,
     rawMotorAmps: null,
@@ -47,22 +67,25 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
     outsideTemp: null,
 
     climateConsumption: 0,
+    ACUsage: null,
+    alternateClimateUsage: null,
     averageClimateUsage: null,
 
-    actualSOC: 100,
-    capacityAH: 0 || lastHistoryItem.capacityAH,
+    actualSOC: lastHistoryItem.actualSOC || 100,
+    SOCDifference: 0,
+    capacityAH: lastHistoryItem.capacityAH || 0,
 
-    accVolts: null,
+    accVolts: lastHistoryItem.accVolts || null,
 
-    wattsPerSOC: null || lastHistoryItem.wattsPerSOC,
+    wattsPerSOC: lastHistoryItem.wattsPerSOC || null,
     wattsPerSOCWatcher: 0,
 
     chargingVolts: 0,
     chargingAmps: 0,
 
-    parkingBreakOn: false || lastHistoryItem.parkingBreakOn,
+    parkingBreakOn: lastHistoryItem.parkingBreakOn || false,
 
-    isCharging: null,
+
     cruiseControlOn: null,
 
     isBuckled: null,
@@ -77,6 +100,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
       //clear any averages
       self.startTime = (new Date()).getTime();
       self.endTime = null;
+      self.startWatts = self.watts;
       self.averageClimateUsage = 0;
       self.averageMotorAmps = 0;
       self.averageRegen = 0;
@@ -114,7 +138,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    setTurnSignal: function(splitMsg){//expects array of two length strings
       var byte=splitMsg[1];
       if(byte == "06") {
-       self.turnSignal = "off";
+       self.turnSignal = "Off";
       } else if(byte == "26") {
        self.turnSignal = "right";
       } else if(byte == "46") {
@@ -124,11 +148,21 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
     },
 
    setSOH: function(splitMsg){
+     if(splitMsg.length < 7){
+       return;
+     }
      var previousGIDs = self.GIDs;
+
       var SOHbyte = splitMsg[1];
      self.SOH = (parseInt(SOHbyte, 16) / 2);
       var GIDByte = splitMsg[5];
      self.GIDs = parseInt(GIDByte, 16);
+
+     var tempByte = splitMsg[0];
+     self.batteryTemp = (parseInt(tempByte) * .25);
+     if(self.distanceUnits == "M"){
+       self.batteryTemp = ((self.batteryTemp * 9) / 5) + 32; //convert to F
+     }
 
      /*
       Calculate the kwh remaining in the battery
@@ -139,27 +173,30 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
 
      */
      var newWatts = self.GIDs * 77.5;
-     if(self.GIDs != previousGIDs && self.actualSOC != self.wattsPerSOCWatcher) {
-       var wattDifference = Math.abs(newWatts - self.watts); //Watt difference, should be 77.5, maybe more
-       var SOCDifference = Math.abs(self.actualSOC - self.wattsPerSOCWatcher);
-       $rootScope.$broadcast('log', {log: "SOC difference = " + SOCDifference});
-       self.wattsPerSOC = wattDifference / (1 / SOCDifference);
-       self.wattsPerSOCWatcher = self.actualSOC;
-       //self.wattsPerSOC = self.wattsPerSOC * (1 / SOCDifference);
-     } else if(self.actualSOC != 0 & !self.wattsPerSOCWatcher) {
-       self.wattsPerSOCWatcher = self.actualSOC;
+     if(previousGIDs != self.GIDs || newWatts > self.watts + 77.5 || newWatts < self.watts - 77.5){
+       self.wattDifference = newWatts - self.watts;
+       self.watts = newWatts;
+       self.killowatts = self.watts / 1000;
+       self.getWattsPerSOC();
+     } else if(previousGIDs != self.GIDs){
+       self.getWattsPerSOC();
      }
 
-     self.watts = newWatts;
-     self.killowatts = self.watts / 1000;
-
      if(self.wattsStarted == 0 || !self.wattsStartedTime || self.wattsStartedTime < self.startTime - (1000 * 60 * 60 * 12)) {
-       self.wattsStarted = self.watts;
-       self.wattsStartedTime = self.startTime;
+       self.setWattsWatcher();
      } else {
        self.wattsUsed = self.wattsStarted - self.watts;
      }
      $rootScope.$broadcast('dataUpdate', self);
+   },
+
+   setWattsWatcher: function(){
+     self.wattsStarted = self.watts;
+     self.wattsStartedTime = self.startTime;
+     self.wattsStartedCharging = self.isCharging;
+     self.wattsStartedODO = self.odometer;
+     self.wattsUsed = 0;
+     self.distanceTraveled = 0;
    },
 
    set12vBattery: function(splitMsg) {
@@ -169,9 +206,25 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
 
    setOdometer: function(splitMsg){
       var ODObyte = splitMsg[1] + splitMsg[2] + splitMsg[3];
-     console.log("ODO " + ODObyte);
-     self.odometer = parseInt(ODObyte, 16);
-     $rootScope.$broadcast('dataUpdate', self);
+      var rawUnits = splitMsg[7];
+      if(rawUnits == "40"){
+        self.distanceUnits = "K";
+      }
+      var lastODO = self.odometer;
+      self.odometer = parseInt(ODObyte, 16);
+
+     /*if(lastODO < self.odometer && self.distanceWatcher) { //if the rawDistanceTraveled is more than the watcher, it must have reset
+       self.distancePerMile = self.rawDistanceTraveled - self.distanceWatcher;
+     }*/
+
+     if(lastODO < self.odometer) {
+       $localStorage.mileDriven += 1;
+       $localStorage.milesDrivenToday += 1;
+       var odoAtBeginning = $localStorage.history[self.wattsStartedTime].odometer + $localStorage.history[self.wattsStartedTime].distanceOffset;
+       self.lastODOTime = (new Date()).getTime();
+       self.distanceTraveled = self.odometer - odoAtBeginning;
+     }
+     //$rootScope.$broadcast('dataUpdate', self);
    },
 
    setSpeed: function(splitMsg) {
@@ -187,9 +240,19 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
         self.distanceUnits = "M";
        console.log("Vehicle set to Miles")
       }
+      var now = (new Date()).getTime()
+      if(self.lastSpeedTime){
+        var timeDifference = now - self.lastSpeedTime;
+        var distanceSinceLastSpeed = parseInt(self.speed) / ((1000 * 60 * 60) / timeDifference);
+        self.distanceTraveled += distanceSinceLastSpeed;
+        self.distanceOffset = self.distanceTraveled % 1;
+      }
 
-      self.averageSpeed = self.getAverage('speed', self.speed);
-      $rootScope.$broadcast('dataUpdate', self);
+      self.lastSpeedTime = now;
+
+      self.averageSpeed = self.getAverage('speed', parseInt(self.speed));
+
+      //$rootScope.$broadcast('dataUpdate', self);
     },
 
    setTransmission: function(splitMsg) {
@@ -206,7 +269,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
       } else if(transmissionByte == "38") {
        self.transmission = "E";
       }
-      $rootScope.$broadcast('dataUpdate', self);
+      //$rootScope.$broadcast('dataUpdate', self);
     },
 
     setChargeStatus: function(splitMsg){
@@ -217,9 +280,14 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
       } else {
         self.isCharging = false;
       }
-      if(self.isCharging != currentCharging) {
-        self.wattsStarted = self.watts;
-        self.wattsStartedTime = self.startTime;
+      if(self.isCharging != currentCharging || self.isCharging !== self.wattsStartedCharging || self.startTime > self.wattsStartedCharging + 16000) {
+        $rootScope.$broadcast('changeCharging');
+        setTimeout(function(){
+          if(self.isCharging !== currentCharging) {
+            self.setWattsWatcher();
+          }
+        }, 15000);
+
       }
     },
 
@@ -244,10 +312,10 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
     },
 
     setParkingBreak: function(splitMsg){
-      var PBOn = splitMsg[0].charAt(0);
-      if(PBOn == "1") {
+      var PBOn = splitMsg[0];
+      if(PBOn == "16") {
         self.parkingBreakOn = true;
-      } else if(CCOn == "0") {
+      } else {
         self.parkingBreakOn = false;
       }
     },
@@ -255,7 +323,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    setTurnDegrees: function(splitMsg) {
       var degreesHex = splitMsg[0] + splitMsg[1];
      turnAngle = parseInt(degreesHex, 16) / 10;
-     $rootScope.$broadcast('dataUpdate', self);
+     //$rootScope.$broadcast('dataUpdate', self);
    },
 
    setTirePressures: function(splitMsg) {
@@ -301,10 +369,10 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    setClimateConsumption: function(splitMsg){
      var oldConsumption = self.climateConsumption;
      var consumption = parseInt(splitMsg[3], 16);
-     self.climateConsumption = (consumption / .25) * 1000;
+     self.climateConsumption = (consumption * .25) * 100;
 
      var outsideRaw = parseInt(splitMsg[7], 16);
-     self.outsideTemp = outsideRaw - 54;
+     self.outsideTemp = outsideRaw - 56;
      if(oldConsumption != self.climateConsumption){
        $rootScope.$broadcast('dataUpdate', self);
        $rootScope.$broadcast('dataUpdate:Climate', self);
@@ -314,10 +382,26 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
 
    parseCellVoltage: function(splitMsg){
      var group = parseInt(splitMsg[0], 16);
+     if(splitMsg.length < 7){
+       return;
+     }
      if(splitMsg[0] == "24"){
        var fullSOC = parseInt(splitMsg[5] + splitMsg[6] + splitMsg[7], 16);
        //console.log("OMG GOT FULL SOC " + fullSOC);
+       var previousSOC = self.actualSOC;
        self.actualSOC = fullSOC / 10000;
+       if(self.wattsPerSOC) {
+         self.wattDifference = (self.actualSOC - previousSOC) * self.wattsPerSOC;
+         self.watts = self.watts + self.wattDifference;
+         self.killowatts = self.watts / 1000;
+         self.wattsUsed = self.wattsStarted - self.watts;
+         if(self.wattsUsed < 0) {
+           self.isCharging = true;
+         }
+         self.getWattsPerMinute();
+       }
+       self.getDistancePerWatt();
+
        $rootScope.$broadcast('dataUpdate:SOC', self);
      } else if(splitMsg[0] == "25"){
        var AH = parseInt(splitMsg[2] + splitMsg[3] + splitMsg[4], 16);
@@ -329,8 +413,41 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      $rootScope.$broadcast('dataUpdate', self);
    },
 
-   checkShouldResetWatts: function(){
+   getWattsPerSOC: function() {
+     var wattsFromGIDs = self.GIDs * 77.5;
+     if(wattsFromGIDs != self.wattsPerSOCWatcher && self.GIDs > 0) {
+       var wattDifference = Math.abs(self.wattsPerSOCWatcher - self.watts); //Watt difference, should be 77.5, maybe more
+       var SOCDifference = Math.abs(self.actualSOC - self.lastSOC);
+       //var wattsToSOCRound = wattDifference * (1 / SOCDifference);
 
+       //$rootScope.$broadcast('log', {log: "SOC difference = " + SOCDifference});
+       self.wattsPerSOC = wattsFromGIDs / self.actualSOC;
+       self.wattsPerSOCWatcher = self.watts;
+       self.lastSOC = self.actualSOC;
+       self.SOCDifference = SOCDifference;
+       //self.wattsPerSOC = self.wattsPerSOC * (1 / SOCDifference);
+     } else if(self.actualSOC != 0 && !self.wattsPerSOCWatcher) {
+       self.wattsPerSOCWatcher = wattsFromGIDs;
+       self.lastSOC = self.actualSOC;
+     } else if(self.GIDs == 0 && self.wattsPerSOC){
+       //calculate based off of Watts per SOC
+       self.watts = self.actualSOC * self.wattsPerSOC;
+     }
+   },
+
+   getWattsPerMinute: function(){
+     var now = (new Date()).getTime();
+     var timeDifference = (now - self.startTime);
+     var wattDifference = self.watts - self.startWatts;
+     var timeToMinutes = (1000 * 60) / timeDifference;
+     self.wattsPerMinute = wattDifference * timeToMinutes;
+   },
+
+   getDistancePerWatt: function(){
+     if(self.distanceTraveled) {
+       self.distancePerKW = self.distanceTraveled / (self.wattsUsed / 1000);
+       self.wattsPerDistance = self.wattsUsed / self.distanceTraveled;
+     }
    },
 
    parseCarCan: function(splitMsg) {
@@ -352,26 +469,43 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      var currentCharging = self.isCharging;
      var currentWatts = self.watts;
 
-     if(self.chargingVolts > 50){
+     if(self.chargingVolts > 50 || (self.wattsUsed < 0 && self.wattDifference > 20)){
        self.isCharging = true;
      } else {
        self.isCharging = false;
      }
 
-     if(currentCharging !== self.isCharging && currentWatts == self.watts && self.chargingVolts == 0){
-       self.wattsStarted = self.watts;
-       self.wattsStartedTime = self.startTime;
+     if(currentCharging !== self.isCharging && currentWatts == self.watts && self.chargingVolts < 1){
+       setTimeout(function(){
+         if(self.isCharging !== currentCharging) {
+           self.setWattsWatcher();
+         }
+       }, 15000);
      }
 
+     $rootScope.$broadcast('dataUpdate', self);
+   },
+
+   setQCStatus: function(splitMsg){
+     self.chargingVolts = parseInt(splitMsg[3], 16);
+     self.chargingAmps = parseInt(splitMsg[4], 16);
+     if(self.chargingVolts > 10){
+       self.isCharging = true;
+     } else {
+       self.isCharging = false;
+     }
      $rootScope.$broadcast('dataUpdate', self);
    },
 
    setMotorAmps: function(splitMsg){
      var oldAmps = self.rawMotorAmps;
      self.rawMotorAmps = parseInt(splitMsg[2] + splitMsg[3], 16);
-     self.averageMotorAmps = self.getAverage('motorAmps', self.motorAmps);
+     if(self.rawMotorAmps > 40000) {
+       self.rawMotorAmps = (0 - 65535) + self.rawMotorAmps;
+     }
+     self.averageMotorAmps = self.getAverage('motorAmps', self.rawMotorAmps);
      if(self.rawMotorVolts){
-       self.motorWatts = self.rawMotorAmps * self.rawMotorVolts * 0.0000345;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 3.6 / 2;
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
      }
      if(oldAmps != self.rawMotorAmps){
@@ -383,10 +517,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    setMotorVolts: function(splitMsg){
      var oldVolts = self.rawMotorVolts;
      self.rawMotorVolts = parseInt(splitMsg[2] + splitMsg[3], 16);
-     self.averageMotorVolts = self.getAverage('motorVolts', self.motorVolts);
+     self.averageMotorVolts = self.getAverage('motorVolts', self.rawMotorVolts);
      if(self.rawMotorAmps){
-       self.motorWatts = self.rawMotorAmps * self.rawMotorVolts * 0.0000345;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 3.6 / 3.6; //this shouldn't need /2?
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
+       if(self.motorWatts < 0) {
+         self.averageRegen = self.getAverage('regenWatts', Math.abs(self.motorWatts));
+       }
      }
      if(oldVolts != self.rawMotorVolts){
        $rootScope.$broadcast('dataUpdate:Motor', self);
@@ -395,12 +532,37 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      //console.log("Trying to numberize motoramps " + $factories('number')(self.motorAmps));
    },
 
+   setAvailableRegen: function(splitMsg){
+     self.availableRegen = parseInt(splitMsg[1], 16);
+   },
+
+   setBraking: function(splitMsg) {
+     self.targetRegenBraking = parseInt(splitMsg[0] + splitMsg[1], 16);
+     self.targetRegen = parseInt(splitMsg[2] + splitMsg[3], 16);
+     $rootScope.$broadcast('dataUpdate', self);
+   },
+
    setRegen: function(splitMsg) {
-     self.regenWatts = parseInt(splitMsg[1] + splitMsg[2], 16) * self.rawMotorVolts * 0.00002875;
+     self.regenWatts = parseInt(splitMsg[1] + splitMsg[2]) * self.rawMotorVolts * 0.00002875;
      self.averageRegen = self.getAverage('regenWatts', self.regenWatts);
      $rootScope.$broadcast('dataUpdate', self);
-   }
+   },
 
+   setACUsage:function(splitMsg){
+     self.ACUsage = parseInt(splitMsg[2], 16) * 50;
+     self.alternateClimateUsage = parseInt(splitMsg[5], 16) * 300;
+   },
+
+   setDistanceTraveled: function(splitMsg) {
+     var newDistanceTraveled = parseInt(splitMsg[6] + splitMsg[7], 16);
+     if(newDistanceTraveled > self.rawDistanceTraveled && self.totalRawDistanceTraveled) {
+       self.totalRawDistanceTraveled = self.totalRawDistanceTraveled + Math.abs(self.rawDistanceTraveled - newDistanceTraveled);
+     } else {
+       self.totalRawDistanceTraveled = newDistanceTraveled;
+     }
+     self.rawDistanceTraveled = newDistanceTraveled;
+
+   }
   }
   return self;
 }]);

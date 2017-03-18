@@ -80,7 +80,7 @@ happyLeaf.component('leafDisplay', {
           $scope.updateSOC();
         });
 
-
+        $scope.leafClass = '';
         $scope.updateDOM = function(){
           //console.log("Updating DOM");
           if($scope.SOCChart.width == 10 || $scope.needsResize) {
@@ -119,7 +119,7 @@ happyLeaf.component('leafDisplay', {
 
         var graphedSOC = 0;
         $scope.updateSOC = function(){
-          if(graphedSOC != dataManager.actualSOC){
+          if(graphedSOC != dataManager.actualSOC || $scope.needsResize){
             graphedSOC = dataManager.actualSOC;
             //$("#SOC").text($filter('number')(dataManager.actualSOC, 1) + "%");
             var batteryCircle = document.getElementById("Battery_x5F_Outline");
@@ -192,6 +192,24 @@ happyLeaf.component('leafDisplay', {
 
         $rootScope.$on('dataUpdate:Motor', function(){
           $scope.updateMotor();
+
+          if(dataManager.motorWatts > 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'motor-usage') {
+            $scope.leafClass = '';
+            $scope.$digest();
+            setTimeout(function(){
+                $scope.leafClass = 'motor-usage';
+                $scope.$digest();
+            }, 20);
+          } else if(dataManager.motorWatts < 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'regening') {
+            $scope.leafClass = '';
+            $scope.$digest();
+            setTimeout(function(){
+                $scope.leafClass = 'regening';
+                $scope.$digest();
+            }, 20);
+          } else if(dataManager.speed == 0 || dataManager.motorWatts == 0){
+            $scope.leafClass = '';
+          }
         });
 
 
@@ -201,7 +219,9 @@ happyLeaf.component('leafDisplay', {
           $scope.AmpsChart.width = ExtraContainer.getBoundingClientRect().width;
           $scope.AmpsChart.height = $scope.AmpsChart.width;
           if(dataManager.rawMotorVolts){
-            $("#Motor_x5F_Speed").text(Math.round(dataManager.rawMotorVolts) + "v");
+            $("#Motor_x5F_Speed").text(Math.round(dataManager.rawMotorVolts / 20) + "v");
+          } else {
+            $("#Motor_x5F_Speed").text("0v");
           }
 
 
@@ -216,13 +236,24 @@ happyLeaf.component('leafDisplay', {
           }
           //console.log("Width: " + $scope.SOCChart.width)
 
-          if(dataManager.motorWatts && dataManager.motorWatts > 0 ) {
-
-            var motorKW = dataManager.motorWatts / 1000;
-            $scope.AmpsChart.data = [motorKW, 80 - motorKW];
+          if(dataManager.motorWatts && dataManager.motorWatts !== 0) {
+            if(dataManager.targetRegenBraking < 10 && dataManager.motorWatts > 0){
+              var motorKW = dataManager.motorWatts / 1000;
+              $scope.AmpsChart.data = [motorKW, 80 - motorKW];
+              $scope.AmpsChart.colors = ["#ff993e", "#9B9B9B"];
+            } else if(dataManager.motorWatts < 0){
+              var motorKW = dataManager.motorWatts / 1000;
+              $scope.AmpsChart.data = [30 - Math.abs(motorKW), Math.abs(motorKW)];
+              $scope.AmpsChart.colors = ["#9B9B9B", "#62C50F"];
+            } else {
+              var regenKw = dataManager.targetRegenBraking;
+              $scope.AmpsChart.data = [30 - regenKw, regenKw];
+              $scope.AmpsChart.colors = ["#9B9B9B", "#62C50F"];
+            }
             //console.log("Got motor watts " + $scope.AmpsChart.data);
           } else {
             $scope.AmpsChart.data = [0, 80];
+            $scope.AmpsChart.colors = ["#ff993e", "#9B9B9B"];
           }
         }
 
@@ -245,14 +276,14 @@ happyLeaf.component('leafDisplay', {
           }
           //console.log("Width: " + $scope.SOCChart.width)
 
-
-          if(dataManager.climateConsumption > 0) {
+          if(dataManager.alternateClimateUsage) {
+            $scope.ClimateChart.data = [dataManager.alternateClimateUsage / 1000, 6 - (dataManager.alternateClimateUsage / 1000)];
+          } else if(dataManager.climateConsumption > 0) {
             $scope.ClimateChart.data = [dataManager.climateConsumption / 1000, 6 - (dataManager.climateConsumption / 1000)];
             //$rootScope.$broadcast('log', "Changing climate " + JSON.stringify($scope.ClimateChart.data));
           } else {
             $scope.ClimateChart.data = [0, 1];
           }
-
 
         }
         //$scope.updateDOM();

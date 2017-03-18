@@ -52,13 +52,31 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', '$localStorage
   };
 
   console.log("Cleaning up history older than 24 hours");
-  var ONE_DAY = 60 * 60 * 1000 * 24;
-  var now = (new Date()).getTime();
-  async.forEach(Object.keys($localStorage.history), function(key){
-    if((parseInt(now) - parseInt(key)) > ONE_DAY) {
-      delete $localStorage.history[key];
-    }
-  });
+  if($localStorage.history){
+    var ONE_DAY = 172800000;
+    var now = (new Date()).getTime();
+    $localStorage.milesDrivenToday = 0;
+    var lastDrivenToday = 0;
+    async.forEach(Object.keys($localStorage.history), function(key){
+      var historyDataPoint = $localStorage.history[key];
+      if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer > lastDrivenToday && historyDataPoint.odometer < 400000) {
+        if(lastDrivenToday == 0) {
+          $localStorage.milesDrivenToday += 1;
+        } else {
+          $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
+        }
+
+        lastDrivenToday = historyDataPoint.odometer;
+      }
+
+      //Goodbye
+      if(parseInt(now) - ONE_DAY > parseInt(key)) {
+        delete $localStorage.history[key];
+      }
+    });
+  } else {
+    $localStorage.history = {};
+  }
 
   return self;
 }]);
