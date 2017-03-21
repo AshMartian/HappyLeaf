@@ -13,6 +13,7 @@ md-card-content > h2 {
 
 md-card-content {
   padding: 12px !important;
+  padding-right: 0px !important;
 }
 
 small.title {
@@ -71,7 +72,7 @@ small.tiny {
   font-weight: bolder;
   transition: opacity 8s ease;
   position: absolute;
-  right: 30px;
+  right: 4.5vw;
 }
 
 .clear {
@@ -91,6 +92,37 @@ small.tiny {
   color: red;
 }
 
+md-badge{
+  margin: 0 -12px 0 8px;
+  background-color: #02a72e;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.unread-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #02a72e;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.notifications-btn {
+  min-width: 55px;
+}
+
+.two-line {
+  height: auto;
+}
+.two-line p {
+  line-height: 15px;
+}
+
+.notification-icon {
+  z-index: -1;
+}
+
 .log-container {
   position: absolute;
   width: calc(100vw - 25px);
@@ -106,15 +138,15 @@ small.tiny {
   padding-top: 40px;
   width: 100vw;
 
-  background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-  background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-  background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-webkit-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-ms-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
   background-image:-webkit-gradient(
       linear,
       left top,
       left bottom,
-      color-stop(0, #A7A7A7),
-      color-stop(0.51, #E4E4E4)
+      color-stop(0, #E4E4E4),
+      color-stop(0.51, #ffffff)
   );
   background-attachment:fixed;
 }
@@ -413,12 +445,21 @@ main.dark #LEAF text {
   width: 100%;
 }
 
-.SOC-Text {
+.SOC-Text, .Temp-Text, .Volt-Text {
   position: absolute;
   text-align: center;
   font-size: 185%;
   font-weight: bold;
   z-index: 3;
+}
+.Temp-Text {
+  font-weight: lighter;
+  font-size: 103%;
+  opacity: 0.7;
+}
+.Volt-Text {
+  opacity: 0.9;
+  font-size: 130%;
 }
 
 .Motor-Text, .Climate-Text {
@@ -492,6 +533,12 @@ main.dark #LEAF text {
   }
   .SOC-Text {
     font-size: 3vh;
+  }
+  .Motor-Text, .Climate-Text {
+    font-size: 1.5vh;
+  }
+  .Motor-Text > small, .Climate-Text > small {
+    font-size: 1.2vh;
   }
 }
 

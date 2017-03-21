@@ -180,7 +180,7 @@ happyLeaf.component('leafDisplay', {
               if(chartData <= 1 && index < $scope.SOCChart.data.length - 1 || dataManager.actualSOC > 99.8) {
                 $scope.SOCChart.colors.push("#62c50f");
               } else {
-                $scope.SOCChart.colors.push("#ff0303");
+                $scope.SOCChart.colors.push("#c54646");
               }
             });
           }

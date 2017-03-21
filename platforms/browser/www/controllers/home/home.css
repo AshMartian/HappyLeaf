@@ -13,6 +13,7 @@ md-card-content > h2 {
 
 md-card-content {
   padding: 12px !important;
+  padding-right: 0px !important;
 }
 
 small.title {
@@ -36,8 +37,8 @@ md-menu {
 }
 
 .widget-icon-right {
-  margin-top: -12px;
-  margin-left: -12px;
+  margin-top: -10px;
+  margin-left: -10px;
   position: absolute;
 }
 
@@ -49,6 +50,11 @@ md-menu {
 .more-button {
   position: absolute;
   right: 2vw;
+}
+
+.left-button {
+  position: absolute;
+  z-index: 2;
 }
 
 .more-button.up {
@@ -66,7 +72,7 @@ small.tiny {
   font-weight: bolder;
   transition: opacity 8s ease;
   position: absolute;
-  right: 30px;
+  right: 4.5vw;
 }
 
 .clear {
@@ -86,6 +92,37 @@ small.tiny {
   color: red;
 }
 
+md-badge{
+  margin: 0 -12px 0 8px;
+  background-color: #02a72e;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.unread-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #02a72e;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.notifications-btn {
+  min-width: 55px;
+}
+
+.two-line {
+  height: auto;
+}
+.two-line p {
+  line-height: 15px;
+}
+
+.notification-icon {
+  z-index: -1;
+}
+
 .log-container {
   position: absolute;
   width: calc(100vw - 25px);
@@ -101,15 +138,15 @@ small.tiny {
   padding-top: 40px;
   width: 100vw;
 
-  background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-  background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-  background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-webkit-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-ms-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
   background-image:-webkit-gradient(
       linear,
       left top,
       left bottom,
-      color-stop(0, #A7A7A7),
-      color-stop(0.51, #E4E4E4)
+      color-stop(0, #E4E4E4),
+      color-stop(0.51, #ffffff)
   );
   background-attachment:fixed;
 }
@@ -472,7 +509,7 @@ main.dark #LEAF text {
     font-size: 3vw;
   }
   md-card h2 big {
-    font-size: 8vw;
+    font-size: 10vw;
   }
   .md-toolbar-tools small {
     font-size: 1.3vh !important;
@@ -485,6 +522,15 @@ main.dark #LEAF text {
   md-card b {
     font-size: 2.8vh;
   }
+  .SOC-Text {
+    font-size: 3vh;
+  }
+  .Motor-Text, .Climate-Text {
+    font-size: 1.5vh;
+  }
+  .Motor-Text > small, .Climate-Text > small {
+    font-size: 1.2vh;
+  }
 }
 
 @media screen and (orientation:landscape) {
@@ -492,7 +538,7 @@ main.dark #LEAF text {
     font-size: 2vw;
   }
   md-card h2 big {
-    font-size: 5vw;
+    font-size: 6.6vw;
   }
   .md-toolbar-tools small {
     font-size: 1.6vw !important;
@@ -506,15 +552,28 @@ main.dark #LEAF text {
     font-size: 2.8vw;
   }
 
+  .SOC-Text {
+    font-size: 3vw;
+  }
+
+  .data-column {
+    max-width: 60vw;
+  }
+
 }
 
 @media (max-width: 520px), (max-height: 520px) {
   .status {
     font-size: 20px !important;
   }
+
+  .more-button {
+    right: 0;
+  }
+
   .content {
-    margin-top: 50px;
-    width: 100vw;
+    margin-top: 10px;
+    padding-top: 35px;
   }
 
   md-card b {
@@ -533,9 +592,6 @@ main.dark #LEAF text {
     padding-bottom: 5px !important;
   }
 
-  .SOC-Text {
-    font-size: 110%;
-  }
 }
 
 @media (min-width: 1020px) {

@@ -1,4 +1,4 @@
-happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootScope, $localStorage){
+happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', function($rootScope, $localStorage, logManager){
   if($localStorage.history){
     var lastHistoryKey = Object.keys($localStorage.history)
     var lastHistoryItem = $localStorage.history[lastHistoryKey[lastHistoryKey.length - 1]];
@@ -15,6 +15,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
     GIDs: lastHistoryItem.GIDs || 0,
     batteryTemp: 0,
     isCharging: lastHistoryItem.isCharging || false,
+    batteryVolts: lastHistoryItem.batteryVolts || 0,
     headLights: false,
     fogLights: false,
     turnSignal: "Off",
@@ -27,7 +28,14 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
         return "Km";
       }
     },
-    distanceTraveled: 0,
+    readableTempUnits: function(){
+      if(self.distanceUnits == "M") {
+        return "F";
+      } else {
+        return "C";
+      }
+    },
+    distanceTraveled: lastHistoryItem.distanceTraveled || 0,
     rawDistanceTraveled: null,
     calculatedDistanceTraveled: null,
     distancePerKW: lastHistoryItem.distancePerKW || 0,
@@ -46,7 +54,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
     wattsUsed: lastHistoryItem.wattsUsed || 0,
     wattsStarted: lastHistoryItem.wattsStarted || 0,
     wattsStartedTime: lastHistoryItem.wattsStartedTime || null,
-    wattsStartedCharging: null,
+    wattsStartedCharging: lastHistoryItem.wattsStartedCharging || null,
 
     regenWatts: 0,
     availableRegen: 0,
@@ -152,44 +160,67 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    setSOH: function(splitMsg){
      if(splitMsg.length < 7){
        return;
-     }
-     var previousGIDs = self.GIDs;
-
-      var SOHbyte = splitMsg[1];
-     self.SOH = (parseInt(SOHbyte, 16) / 2);
-      var GIDByte = splitMsg[5];
-     self.GIDs = parseInt(GIDByte, 16);
-
-     var tempByte = splitMsg[0];
-     self.batteryTemp = (parseInt(tempByte) * .25);
-     if(self.distanceUnits == "M"){
-       self.batteryTemp = ((self.batteryTemp * 9) / 5) + 32; //convert to F
-     }
-
-     /*
-      Calculate the kwh remaining in the battery
-
-      Need to usitilize this calculation when temprature is obtained
-
-      (((281 - 6 Unusable) * 80) * .9705 energy recovery factor) * 0% temp correction = 21.351kWh usable
-
-     */
-     var newWatts = self.GIDs * 77.5;
-     if(previousGIDs != self.GIDs || newWatts > self.watts + 77.5 || newWatts < self.watts - 77.5){
-       self.wattDifference = newWatts - self.watts;
-       self.watts = newWatts;
-       self.killowatts = self.watts / 1000;
-       self.getWattsPerSOC();
-     } else if(previousGIDs != self.GIDs){
-       self.getWattsPerSOC();
-     }
-
-     if(self.wattsStarted == 0 || !self.wattsStartedTime || self.wattsStartedTime < self.startTime - (1000 * 60 * 60 * 12)) {
-       self.setWattsWatcher();
      } else {
-       self.wattsUsed = self.wattsStarted - self.watts;
+       var previousGIDs = self.GIDs;
+
+       var SOHbyte = splitMsg[1];
+       self.SOH = (parseInt(SOHbyte, 16) / 2);
+       var GIDByte = splitMsg[5];
+       if(GIDByte.length == 2){
+         self.GIDs = parseInt(GIDByte, 16);
+       }
+
+       var tempByte = splitMsg[0];
+       var batteryTempC = (parseInt(tempByte) * .25);
+       self.batteryTemp = batteryTempC;
+       if(self.distanceUnits == "M"){
+         self.batteryTemp = ((self.batteryTemp * 9) / 5) + 32; //convert to F
+       }
+       if(batteryTempC > 46) {
+         $rootScope.$broadcast('notification', {
+           title: "High Battery Temprature",
+           time: (new Date()).getTime(),
+           seen: false,
+           content: "<h1>High Battery Temprature</h1><p>High battery tempratures can cause irriversable damage, avoid quick charging until the battery has cooled.<br/>Your battery temprature was read at: "+self.batteryTemp+"&deg. </p>",
+           icon: "whatshot"
+         });
+       }
+
+       if(batteryTempC < 0) {
+         $rootScope.$broadcast('notification', {
+           title: "Low Battery Temprature",
+           time: (new Date()).getTime(),
+           seen: false,
+           content: "<h1>Low Battery Temprature</h1><p>Low battery tempratures can cause irriversable damage. Connect to a charger to activate battery heater. <br/>Your battery temprature was read at: "+self.batteryTemp+"&deg. </p>",
+           icon: "ac_unit"
+         });
+       }
+
+       /*
+        Calculate the kwh remaining in the battery
+
+        Need to usitilize this calculation when temprature is obtained
+
+        (((281 - 6 Unusable) * 80) * .9705 energy recovery factor) * 0% temp correction = 21.351kWh usable
+
+       */
+       var newWatts = self.GIDs * 77.5;
+       if(previousGIDs != self.GIDs || newWatts > self.watts + 77.5 || newWatts < self.watts - 77.5){
+         self.wattDifference = newWatts - self.watts;
+         self.watts = newWatts;
+         self.killowatts = self.watts / 1000;
+         self.getWattsPerSOC();
+       } else if(previousGIDs != self.GIDs){
+         self.getWattsPerSOC();
+       }
+
+       if(self.wattsStarted == 0 || !self.wattsStartedTime || self.wattsStartedTime < self.startTime - (1000 * 60 * 60 * 12)) {
+         self.setWattsWatcher();
+       } else {
+         self.wattsUsed = self.wattsStarted - self.watts;
+       }
+       $rootScope.$broadcast('dataUpdate', self);
      }
-     $rootScope.$broadcast('dataUpdate', self);
    },
 
    setWattsWatcher: function(){
@@ -204,19 +235,36 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
    set12vBattery: function(splitMsg) {
      self.accBattVolts = parseInt(splitMsg[3], 16) / 10;
      $rootScope.$broadcast('dataUpdate', self);
+
+     if(self.accBattVolts < 12.5) {
+       $rootScope.$broadcast('notification', {
+         title: "12v Battery Low",
+         time: (new Date()).getTime(),
+         seen: false,
+         content: "<h1>Check your battery!</h1><p>It appears your 12v battery is low. <br/>Your battery was read at: "+self.accBattVolts+" volts. </p>",
+         icon: "battery_20"
+       });
+     }
    },
 
    setOdometer: function(splitMsg){
+     if(splitMsg.length < 7){
+       return;
+     }
       var ODObyte = splitMsg[1] + splitMsg[2] + splitMsg[3];
       var rawUnits = splitMsg[7];
       if(rawUnits == "40"){
         self.distanceUnits = "K";
       }
       var lastODO = self.odometer;
-      self.odometer = parseInt(ODObyte, 16);
+
+      var newODO = parseInt(ODObyte, 16);
+      if(newODO > lastODO){
+        self.odometer = newODO;
+      }
       if(self.distanceUnits != self.ODOUnits) {
         if(self.ODOUnits == "M") {
-          self.odometer = self.odometer * 1.621371;
+          self.odometer = self.odometer * 1.60934;
         }
       }
 
@@ -280,7 +328,12 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
       } else if(transmissionByte == "10") {
        self.transmission = "R";
       } else if(transmissionByte == "38") {
-       self.transmission = "E";
+        if(self.distanceUnits == "M" || self.ODOUnits == "M"){
+          self.transmission = "E";
+        } else {
+          self.transmission = "B";
+        }
+
       }
       //$rootScope.$broadcast('dataUpdate', self);
     },
@@ -345,6 +398,48 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      self.tire3 = parseInt(splitMsg[4], 16) / 4;
      self.tire4 = parseInt(splitMsg[5], 16) / 4;
 
+     var alertLowTire = function(tire, value) {
+       $rootScope.$broadcast('notification', {
+         title: tire + " Tire Pressure Low",
+         time: (new Date()).getTime(),
+         seen: false,
+         content: "<h1>Low " + tire + " Tire pressure</h1><p>Low tire pressures may cause poor efficiency<br/>"+tire+" tire was read at: "+value+" psi. </p>",
+         icon: "panorama_horizontal"
+       });
+     }
+     var alertHighTire = function(tire, value) {
+       $rootScope.$broadcast('notification', {
+         title: tire + " Tire Pressure High",
+         time: (new Date()).getTime(),
+         seen: false,
+         content: "<h1>High " + tire + " Tire pressure</h1><p>High tire pressures may cause poor efficiency.<br/>"+tire+" tire was read at: "+value+" psi. </p>",
+         icon: "panorama_wide_angle"
+       });
+     }
+
+     if(self.tire1 < 24 && self.tire1 !== 0) {
+       alertLowTire("Front Right", self.tire1);
+     } else if(self.tire1 > 40) {
+       alertHighTire("Front Right", self.tire1)
+     }
+     if(self.tire2 < 24 && self.tire2 !== 0) {
+       alertLowTire("Front Left", self.tire2);
+     } else if(self.tire2 > 40) {
+       alertHighTire("Front Left", self.tire2)
+     }
+
+     if(self.tire3 < 24 && self.tire3 !== 0) {
+       alertLowTire("Rear Right", self.tire3);
+     } else if(self.tire3 > 40) {
+       alertHighTire("Rear Right", self.tire3)
+     }
+
+     if(self.tire4 < 24 && self.tire4 !== 0) {
+       alertLowTire("Rear Left", self.tire4);
+     } else if(self.tire4 > 40) {
+       alertHighTire("Rear Left", self.tire4)
+     }
+
      $rootScope.$broadcast('dataUpdate', self);
    },
 
@@ -385,9 +480,19 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      self.climateConsumption = (consumption * .25) * 100;
 
      var outsideRaw = parseInt(splitMsg[7], 16);
-     self.outsideTemp = outsideRaw - 56 * 1.1388;
+     self.outsideTemp = (outsideRaw - 56);
+
      if(self.distanceUnits == "K") {
        self.outsideTemp = ((self.outsideTemp - 32) * 5 ) / 9
+     }
+     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 0)) {
+       $rootScope.$broadcast('notification', {
+         title: "Watch For Ice",
+         time: (new Date()).getTime(),
+         seen: false,
+         content: "<h1>Low temp outside</h1><p>It is below freezing outside, watch for Ice. Outside temp was read at: "+self.outsideTemp+"&deg. </p>",
+         icon: "ac_unit"
+       });
      }
      if(oldConsumption != self.climateConsumption){
        $rootScope.$broadcast('dataUpdate', self);
@@ -403,16 +508,34 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      }
      if(splitMsg[0] == "24"){
        self.hx = parseInt(splitMsg[2] + splitMsg[3], 16) / 100;
+       if(self.hx < 50) {
+         $rootScope.$broadcast('notification', {
+           title: "Low HX",
+           time: (new Date()).getTime(),
+           seen: false,
+           content: "<h1>Battery HX is low</h1><p>HX is corrilated to health, and it's looking low.<br/>Your battery HX was read at: "+self.hx+"%. </p>",
+           icon: "battery_alert"
+         });
+       }
        var fullSOC = parseInt(splitMsg[5] + splitMsg[6] + splitMsg[7], 16);
        //console.log("OMG GOT FULL SOC " + fullSOC);
        var previousSOC = self.actualSOC;
        self.actualSOC = fullSOC / 10000;
+       if(self.actualSOC < 20) {
+         $rootScope.$broadcast('notification', {
+           title: "Battery Low",
+           time: (new Date()).getTime(),
+           seen: false,
+           content: "<h1>Low battery charge!</h1><p>You're running out of energy! Get to a charger fast! <br/>Your battery was read at: "+self.actualSOC+"%. </p>",
+           icon: "battery_20"
+         });
+       }
        if(self.wattsPerSOC) {
          self.wattDifference = (self.actualSOC - previousSOC) * self.wattsPerSOC;
          self.watts = self.watts + self.wattDifference;
          self.killowatts = self.watts / 1000;
          self.wattsUsed = self.wattsStarted - self.watts;
-         if(self.wattsUsed < 400) {
+         if(self.wattsUsed < -400) {
            self.isCharging = true;
          }
          self.getWattsPerMinute();
@@ -426,6 +549,17 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', function($rootS
      } else if(splitMsg[0] == "23"){
        var VCC = parseInt(splitMsg[3] + splitMsg[4], 16);
        self.accVolts = VCC / 1024;
+       self.batteryVolts = parseInt(splitMsg[1] + splitMsg[2], 16) / 100;
+       logManager.log("Got battery volts: " + self.batteryVolts);
+       if(self.accVolts < 12.5) {
+         $rootScope.$broadcast('notification', {
+           title: "12v Battery Low",
+           time: (new Date()).getTime(),
+           seen: false,
+           content: "<h1>Check your 12v battery!</h1><p>It appears your 12v battery is low. <br/>Your battery was read at: "+self.accVolts+" volts. </p>",
+           icon: "battery_20"
+         });
+       }
      }
      $rootScope.$broadcast('dataUpdate', self);
    },

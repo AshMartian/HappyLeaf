@@ -6,7 +6,7 @@
           Happy Leaf
         </span>
         <br/>
-        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number}} {{data.readableDistanceUnits()}}</small>
+        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
         &nbsp; &nbsp;
         <small ng-if="local.mileDriven > 0" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} Happy</small>
         &nbsp; &nbsp;
@@ -19,6 +19,7 @@
         {{data.outsideTemp | number:1}}&deg;
       </span>
       <connection-status failed-messages="failedMessages"></connection-status>
+      <notification-view></notification-view>
       <settings-dialog></settings-dialog>
     </div>
   </md-toolbar>
@@ -33,6 +34,7 @@
             <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
           </md-button>
           <md-menu-content width="2">
+            <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
             <md-menu-item>
               <md-button md-theme-watch="true" ng-click="toggleDark()">
                   <div layout="row" flex>
@@ -67,6 +69,7 @@
                 <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
               </md-button>
               <md-menu-content width="3">
+                <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
                 <md-menu-item ng-repeat="item in menuOptions">
                   <md-button md-theme-watch="true" ng-click="item.clicked()">
                       <div layout="row" flex>
@@ -87,7 +90,7 @@
            </md-card-content>
            <md-card-footer>
              <span ng-if="data.isCharging">
-               <b>{{data.wattsPerMinute | number:2}}</b> Watts per minute
+               <b>{{data.wattsPerMinute | number:2}}</b> Watts per min
              </span>
              <span ng-if="!data.isCharging">
                <span ng-if="wattDisplay == 'perWatt'"><b>{{data.distancePerKW | number:2}}</b> {{data.readableDistanceUnits()}}/kW</span>
@@ -107,7 +110,7 @@
     </div>
 
     </div>
-    <div flex>
+    <div flex ng-if="!local.settings.experiance.displayAllData">
       <md-grid-list
         md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
         md-row-height-gt-md="1:1" md-row-height="4:2"
@@ -144,7 +147,7 @@
         Speed: <b>{{data.speed}}</b>
         History Enteries: {{local.historyCount}}
       </p-->
-  </div>
+    </div>
   </div>
 
   <div class="log-container">

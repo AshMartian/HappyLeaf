@@ -16126,11 +16126,13 @@
 </g>
 <g id="Charger_x5F_Flow">
 	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M85.333,11.167
-		C85,18.834,84.758,20.796,91.5,21.625c8.75,1.625,9.75,9.875,14.5,23.875c3,9.75,4.5,9.5,9.5,14.75c7,6.75,11.75,10.25,19,28.25"/>
+		C85,18.834,84.758,20.796,91.5,21.625c8.75,1.625,9.75,9.875,14.5,23.875c3,9.75,4.5,9.5,9.5,14.75
+		c7,6.75,10.174,10.507,17.424,28.507"/>
 </g>
 <g id="M_x5F_Flow">
 	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M75.5,41.75
-		c0,0,2.75,6.25-5.5,10.25c-5.25,3.75-9,5.5-12.75,9.25c-13.75,12-19,25.75-19,25.75"/>
+		c0,0,1.999,5.854-4.168,9.877c-4.25,2.321-4.739,2.808-11.982,5.873c-5.98,2.346-14.569,8.753-15.659,14.518
+		c-1.054,5.577-1.642,6.165-5.233,18.854"/>
 </g>
 <g id="FL_x5F_Tire">
 	<g>
@@ -18114,10 +18116,10 @@
 </linearGradient>
 <line fill="none" stroke="url(#SVGID_7_)" stroke-width="3" stroke-miterlimit="10" x1="24.334" y1="184.167" x2="41.75" y2="184.167"/>
 <g id="Tires">
-	<text id="Tire_x5F_1" transform="matrix(1 0 0 1 14.2134 30.4248)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
-	<text id="Tire_x5F_2" transform="matrix(1 0 0 1 151.0898 30.3418)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
-	<text id="Tire_x5F_3" transform="matrix(1 0 0 1 15.2134 164.0078)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
-	<text id="Tire_x5F_4" transform="matrix(1 0 0 1 151.0898 164.0078)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
+	<text id="Tire_x5F_2_1_" transform="matrix(1 0 0 1 14.2134 30.4248)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
+	<text id="Tire_x5F_1" transform="matrix(1 0 0 1 151.0898 30.3418)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
+	<text id="Tire_x5F_4_1_" transform="matrix(1 0 0 1 15.2134 164.0078)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
+	<text id="Tire_x5F_3" transform="matrix(1 0 0 1 151.0898 164.0078)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
 </g>
 <rect x="38.047" y="102.5" fill="none" width="96" height="14"/>
 <text transform="matrix(1 0 0 1 60.4194 108.1797)" opacity="0.5" enable-background="new    " font-family="'MyriadPro-Regular'" font-size="8">State of Charge</text>
@@ -18128,18 +18130,20 @@
 </linearGradient>
 <line fill="none" stroke="url(#SVGID_8_)" stroke-width="3" stroke-miterlimit="10" x1="130.25" y1="184.167" x2="146.75" y2="184.167"/>
 <g id="M_x5F_Flow_1_">
-	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M65.667,170.502
-		c0,0,0.708-3.75,1.458-4.875c2.375-3.459,3.583-2.417,8.708-2.792c15.001,2,28.417-6.083,28.417-6.083"/>
+	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M56.332,167.833
+		c0,0,0-6.167,6.167-6.167c7.386,0.276,7.386,0.276,13.334,1.169c10.671,1.593,22.579-3.425,30.032-9.707
+		c5.095-4.294,9.917-7.471,9.917-7.471"/>
 </g>
-<rect id="Extra_x5F_1" x="45.772" y="171.1" fill="none" width="39.142" height="36.258"/>
-<rect id="Extra_x5F_2" x="85.874" y="171.1" fill="none" width="39.142" height="36.258"/>
+<rect id="Extra_x5F_1" x="32.076" y="167.833" fill="none" width="52.672" height="48.791"/>
+<rect id="Extra_x5F_2" x="86.04" y="167.833" fill="none" width="52.672" height="48.791"/>
 <g id="M_x5F_Flow_2_">
-	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M104.75,170.875
-		c0,0-0.125-2.25,0.25-3.75c1.875-4.125,2.25-4.75,6-8.5c10.75-12.125,19-21.875,19-21.875"/>
+	<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M111.33,167.833
+		c0,0,0-3.825,1.046-7.5c1.875-4.125,4.518-5.25,8.268-9c3.297-3.942,7.479-7.316,7.615-12.2c0.166-5.98,2.903-12.291,2.903-12.291"
+		/>
 </g>
 <rect x="9.667" y="74.001" fill="none" width="49.52" height="36.153"/>
 <text id="Trans" transform="matrix(1 0 0 1 9.6675 89.5322)" font-family="'MyriadPro-Regular'" font-size="21.874">T</text>
-<circle id="Battery_x5F_Outline" fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" cx="86.047" cy="108" r="52.149"/>
+<circle id="Battery_x5F_Outline" fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" cx="86.047" cy="105.676" r="49.824"/>
 <g id="P_x5F_Brake">
 	<rect x="12.167" y="98.001" fill="none" width="34.716" height="25.345"/>
 	

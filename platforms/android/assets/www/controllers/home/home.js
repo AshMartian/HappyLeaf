@@ -1,4 +1,4 @@
-happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, bluetoothSend, deviceReady, dataManager, connectionManager, storageManager, $localStorage) {
+happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
     $scope.deviceready = false;
     $scope.settingsIcon = "settings";
 
@@ -6,12 +6,11 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.leafSVG = null;
 
     $scope.local = $localStorage;
+    $scope.logger = logManager;
 
-    $scope.logText = "HappyLeaf Version " + $localStorage.settings.about.version + "\r\n";
-    $scope.fullLog = $scope.logText;
     $scope.logIcon = "play_arrow";
     $scope.renderLog = false;
-    $scope.logOutput = $scope.logText;
+    $scope.logOutput = logManager.logText;
     $scope.wattDisplay = 'perWatt';
 
     $scope.menuOptions = [{
@@ -91,42 +90,32 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
       $scope.userOverrideTheme = true;
       $scope.showDarkTheme = $scope.showDarkTheme ? false : true;
     }
-    
+
     deviceReady(function(){
-      storageManager.startupDB();
-/*
-      window.cordova.plugins.SensorList.getAvailableSensors(function(sensorsList) {
-            //$scope.sensorsList = sensorsList;
-            alert(sensorsList);
-            // For some reason change detection is not working!
-            //$scope.$apply();
-        }, function(ex) {
-            alert('Error', ex);
-        });*/
+      //storageManager.startupDB();
 
     });
 
     $scope.$on('$viewContentLoaded', function(){
-      $scope.log("init");
+      logManager.log("init");
       //$scope.init();
     });
     $scope.$on('$routeChangeSuccess', function(){
-      $scope.log("Route Changed");
+      logManager.log("Route Changed");
       $rootScope.$broadcast('dataUpdate', null);
       $scope.init();
     });
 
-    $rootScope.$on('log', function(data){
-      $scope.log(data.log);
-    });
 
 
     $scope.lastMsg = "";
     $scope.messagesReceived = [];
 
     $scope.init = function(){
+
+
       setInterval(function(){
-        $scope.log("Setting history point");
+        logManager.log("Setting history point");
         storageManager.createHistoryPoint();
       }, 30000);
 
@@ -154,7 +143,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
       $scope.bufferCount = 0;
       var lastResponse = "";
       bluetoothSerial.subscribe("\r", function(output){
-        //$scope.log("this is the output " + output);
+        //logManager.log("this is the output " + output);
         var parse = function(){
           var lastCommand = bluetoothSend.lastCommand;
           //if(output.indexOf("?") > -1){
@@ -180,23 +169,31 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
           bluetoothSerial.write('ATBD', function(){
 
           }, function(){
-            $scope.log("Ran into an issue clearing the buffer");
+            logManager.log("Ran into an issue clearing the buffer");
           });
-          $scope.log("Clearing all the data in the buffer ");
+          logManager.log("Clearing all the data in the buffer ");
 
         } else {
           parse();
         }*/
       }, function(err){
-        $scope.log(err);
+        logManager.log(JSON.stringify(err));
       });
 
       /*var commandstoSend = ["ATL0", "ATI", "STI", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCH797", "ATFCSD300000", "ATFCSM1", "0210C0", "03221304", "03221156", "0322132A", "03221103", "03221183", "03221203", "03221205", "0322124E", "0322115D", "03221261", "03221262", "03221152", "03221151", "03221234", "0322114E", "03221236", "03221255"];
       bluetoothSend.shouldSend();
       bluetoothSend.send(commandstoSend, function(log){
-        $scope.log(JSON.stringify(log));
+        logManager.log(JSON.stringify(log));
         $scope.$apply();*/
-      $scope.requestSOC();
+      /*$threadRun($scope.requestSOC).then(function (result) {
+         // ...
+         logManager.log("Thread for SOC ended.");
+       }, function (err) {
+         // ...
+         logManager.log("Thread for SOC errored.");
+       });*/
+       $scope.requestSOC();
+
       setInterval(function(){
         //eventually try all modules
         $scope.failedMessages = false;
@@ -206,20 +203,20 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         $scope.$digest();
 
         sensors.getState(function(values){
-          console.log("Got " + values.length + " ambient light " + values[0]);
-          $scope.log("Got " + values.length + " ambient light " + values[0]);
+          //console.log("Got " + values.length + " ambient light " + values[0]);
+          logManager.log("Got " + values.length + " ambient light " + values[0]);
         });
       }, 5000);
     }
 
-    $scope.knownMessages = ["79A", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"];
+    $scope.knownMessages = ["79A", "763", "765", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "54C", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"];
     $scope.failedMessages = false;
 
     $scope.lastRequestTime = null;
     $scope.requestSOC = function(){
       //console.log("Requesting ALL");
       $scope.bufferCount = 0;
-      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
+      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH743", "ATFCSH743", "ATFCSH743", "ATFCSD300100", "022101", "ATSH745", "ATFCSH745", "ATFCSD300000", "022110", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
       //var commandstoSend = ["ATE0", "ATIB10", "ATL0", "ATCAF0", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF5BF", "ATMA", "X", "ATCM7FE", "ATCF385", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF510", "ATMA", "X", "ATCRA355", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X", "ATCM7FE", "ATCF284", "ATMA", "X", "ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATAR"];
       //var commandstoSend = ["ATE0", "ATH1", "STI", "ATSP6", "ATS0", "ATRV", "ATCAF0", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF358", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X"];
       //"ATAR", "ATSH797", "ATFCH797", "ATFCSD300000", "0210C0", "03221304", "03221156", "0322132A", "03221103", "03221183", "0322124E", "0322115D", "03221203", "03221205", "0322124E", "0322115D", "03221261", "03221262", "03221152", "03221151", "03221146", "03221255", "03221234", "0322114E", "03221236", "03221255"
@@ -227,14 +224,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         //commandsToSend.push.apply(commandsToSend, ["ATCRA" + message, "ATCF" + message, "ATMT" + message, "ATMA", "X"]);
       });
 
-      $scope.log("Sending " + commandsToSend.length + " commands");
+      logManager.log("Sending " + commandsToSend.length + " commands");
 
       if(connectionManager.isConnected){
         $scope.lastRequestTime = (new Date()).getTime();
-        $scope.log("Connected to " + connectionManager.lastConnected);
+        logManager.log("Connected to " + connectionManager.lastConnected);
         bluetoothSend.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
-          $scope.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms");
+          logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms");
 
           //$scope.requestCode('792', function(){
           if(!$scope.failedMessages){
@@ -247,12 +244,12 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
 
         });
       } else {
-        $scope.log("Connection failed, trying to reconnect");
+        logManager.log("Connection failed, trying to reconnect");
         var now = new Date();
         connectionManager.reconnect(function(){
           $scope.requestSOC();
         }, function(err){
-          $scope.log("Connection error " + err);
+          logManager.log("Connection error " + err);
           $scope.requestSOC();
         });
       }
@@ -261,13 +258,28 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
 
     $scope.listenForMessages = function() {
       if(connectionManager.isConnected && $scope.failedMessages == false) {
-        $scope.log("Watching CAN for known messages");
-        var commandsToSend = ["ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR"];
+        var commandsToSend = [];
+        if($localStorage.settings.experimental.debugCodes){
+          logManager.log("Going to loop over all possible commands!");
+          var hexCodes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "X"];
+          async.each(hexCodes, function(code1){
+            async.each(hexCodes, function(code2){
+              async.each(hexCodes, function(code3){
+                var code = code1 + code2 + code3;
+                commandsToSend = commandsToSend.concat(["ATCM7FE", "ATCF" + code, "ATCRA" + code, "ATMA", "X"]);
+              });
+            });
+          });
+          logManager.log("Generated " + commandsToSend.length + " commads!");
+        } else {
+          logManager.log("Watching CAN for known messages");
+          commandsToSend = ["ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
+        }
         $scope.lastRequestTime = (new Date()).getTime();
         bluetoothSend.shouldSend();
         bluetoothSend.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
-          $scope.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + bluetoothSend.failedSend.length + " force send requests");
+          logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + bluetoothSend.failedSend.length + " force send requests");
           if(bluetoothSend.failedSend.length >= 20 && $scope.messagesReceived.length < 100) {
             $scope.failedMessages = true;
           }
@@ -299,13 +311,13 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     */
 
     $scope.parseResponse = function(response, request) {
-      //$scope.log("Response: " + response);
+      //logManager.log("Response: " + response);
       response = response.replace(/>/g, '');
 
-      $scope.log("Sent " + request);
+      logManager.log("Sent " + request);
       if(response.length >= 3 && response.indexOf("OK") == -1) {
         //console.log(response);
-        $scope.log("Parsing " + response.substring(0, 3));
+        logManager.log("Parsing " + response.substring(0, 3));
       }
 
       async.each($scope.knownMessages, function(responseMsg){
@@ -314,18 +326,18 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
           var splitResponseMsg = response.split(responseMsg);
           async.each(splitResponseMsg, function(msg){
             if(msg.length > 1){
-              //$scope.log("Found " + responseMsg + " message: " + msg);
+              //logManager.log("Found " + responseMsg + " message: " + msg);
               $scope.parseMsg(responseMsg, msg);
             }
           });
           //response = response.substring(response.indexOf(responseMsg), 16 + response.indexOf(responseMsg));
-          //$scope.log("Parsed response ", response);
+          //logManager.log("Parsed response ", response);
         }
       });
       //
         if($scope.renderLog) { //this take the dom to it's knees
           $scope.$apply(function(){
-            $scope.logOutput = $scope.logText;
+            $scope.logOutput = logManager.logText;
           });
         }
       //});
@@ -337,149 +349,166 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
       $scope.lastMsg = msg;
       switch (code) {
         case "7BB":
-          $scope.log("Got 7BB cell voltage  " + msg);
+          logManager.log("Got 7BB cell voltage  " + msg);
           dataManager.parseCellVoltage(splitMsg);
           $scope.$digest();
           break;
         case "79A":
-          $scope.log("Got 79A " + msg);
+          logManager.log("Got 79A " + msg);
           dataManager.parseCarCan(splitMsg);
           break;
+        case "763":
+          logManager.log("Got 763 " + msg);
+          //dataManager.parseCarCan(splitMsg);
+          break;
+        case "765":
+          logManager.log("Got 765 " + msg);
+          //dataManager.parseCarCan(splitMsg);
+          break;
         case "793":
-          $scope.log("Got 793 " + msg);
+          logManager.log("Got 793 " + msg);
           dataManager.parseCarCan(splitMsg);
           break;
         case "625":
-          $scope.log("Got Headlight status: " + msg);
+          logManager.log("Got Headlight status: " + msg);
           dataManager.setheadLights(splitMsg);
+          bluetoothSend.shouldSend();
           break;
         case "60D":
-          $scope.log("Got Turn Signal status: " + msg);
+          logManager.log("Got Turn Signal status: " + msg);
           dataManager.setTurnSignal(splitMsg);
           break;
         case "5B3":
-          $scope.log("Got battery SOH: " + msg);
+          logManager.log("Got battery SOH: " + msg);
           dataManager.setSOH(splitMsg);
           break;
         case "54F":
-          $scope.log("Got Climate Data " + msg);
+          logManager.log("Got Climate Data " + msg);
           self.setACUsage(splitMsg);
           break;
         case "5BF":
-          $scope.log("Got charging status?? " + msg);
+          logManager.log("Got charging status?? " + msg);
           break;
         case "002":
-          $scope.log("Got turning angle! " + msg);
+          logManager.log("Got turning angle! " + msg);
           dataManager.setTurnDegrees(splitMsg);
           break;
         case "385":
-          $scope.log("Got tire pressures " + msg);
+          logManager.log("Got tire pressures " + msg);
           dataManager.setTirePressures(splitMsg);
           break;
         case "355":
-          $scope.log("Got Vehicle speed! " + msg);
+          logManager.log("Got Vehicle speed! " + msg);
           dataManager.setSpeed(splitMsg);
           break;
         case "5C5":
-          $scope.log("Got ODO! " + msg);
+          logManager.log("Got ODO! " + msg);
           dataManager.setOdometer(splitMsg);
           break;
         case "55B":
-          $scope.log("Got SOC! " + msg);
+          logManager.log("Got SOC! " + msg);
           break;
         case "100":
-          $scope.log("Got battery watts " + msg);
+          logManager.log("Got battery watts " + msg);
           break;
         case "421":
-          $scope.log("Got 'transmission' status " + msg);
+          logManager.log("Got 'transmission' status " + msg);
           dataManager.setTransmission(splitMsg);
           break;
         case "102":
-          $scope.log("Got charging current " + msg);
+          logManager.log("Got charging current " + msg);
           break;
         case "108":
-          $scope.log("Got available output current " + msg);
+          logManager.log("Got available output current " + msg);
           break;
         case "108":
-          $scope.log("Got output current " + msg);
+          logManager.log("Got output current " + msg);
           break;
         case "260":
-          $scope.log("Got available regen " + msg);
+          logManager.log("Got available regen " + msg);
           dataManager.setAvailableRegen(splitMsg);
           break;
         case "5C0":
-          $scope.log("Got possible charging/discharging current " + msg);
+          logManager.log("Got possible charging/discharging current " + msg);
           break;
         case "180":
-          $scope.log("Got motor Amps " + msg);
+          logManager.log("Got motor Amps " + msg);
           bluetoothSend.shouldSend();
           dataManager.setMotorAmps(splitMsg);
           break;
         case "176":
-          $scope.log("Got motor Volts " + msg);
+          logManager.log("Got motor Volts " + msg);
           bluetoothSend.shouldSend();
           dataManager.setMotorVolts(splitMsg);
           break;
         case "54B":
-          $scope.log("Got Climate data " + msg);
+          logManager.log("Got Climate data " + msg);
           bluetoothSend.shouldSend();
           dataManager.setClimateDataB(splitMsg);
           break;
         case "1DB":
-            $scope.log("Got Battery current " + msg);
+            logManager.log("Got Battery current " + msg);
           break;
         case "1DC":
-            $scope.log("Got Battery KW usage " + msg);
+            logManager.log("Got Battery KW usage " + msg);
             dataManager.setBatteryWatts(splitMsg);
           break;
         case "284":
-            $scope.log("Got distance traveled " + msg);
+            logManager.log("Got distance traveled " + msg);
             //dataManager.setDistanceTraveled(splitMsg);
           break;
         case "510":
-            $scope.log("Got climate power usage " + msg);
+            logManager.log("Got climate power usage " + msg);
             dataManager.setClimateConsumption(splitMsg);
           break;
         case "1F2":
-            $scope.log("Got charging state " + msg);
+            logManager.log("Got charging state " + msg);
           break;
         case "59B":
-            $scope.log("Got charging status 1 " + msg);
+            logManager.log("Got charging status 1 " + msg);
           break;
         case "59C":
-            $scope.log("Got charging status 2 " + msg);
+            logManager.log("Got charging status 2 " + msg);
           break;
         case "292":
-            $scope.log("Got 12v Battery voltage " + msg);
+            logManager.log("Got 12v Battery voltage " + msg);
             dataManager.set12vBattery(splitMsg);
           break;
         case "1D5":
-            $scope.log("Got regen braking " + msg);
+            logManager.log("Got regen braking " + msg);
             dataManager.setRegen(splitMsg);
             //$scope.$apply();
           break;
         case "1CB":
-            $scope.log("Got target braking " + msg);
+            logManager.log("Got target braking " + msg);
             dataManager.setBraking(splitMsg);
           break;
         case "58A":
-            $scope.log("Got Parking Brake " + msg);
+            logManager.log("Got Parking Brake " + msg);
             dataManager.setParkingBreak(splitMsg);
           break;
         case "5A9":
-            //$scope.log("Got maybe important 5A9 " + msg);
+            logManager.log("Got maybe important 5A9 " + msg);
             //dataManager.setChargeStatus(splitMsg);
           break;
         case "551":
-            $scope.log("Got Cruise Control " + msg);
+            logManager.log("Got Cruise Control " + msg);
             dataManager.setCruiseControl(splitMsg);
           break;
+        case "54C":
+            logManager.log("Got Outside Temp " + msg);
+            //dataManager.setCruiseControl(splitMsg);
+          break;
+        case "35D":
+            logManager.log("Got Wiper status, maybe more " + msg);
+            //dataManager.setCruiseControl(splitMsg);
+          break;
         case "280":
-            $scope.log("Got Seat Belts " + msg);
+            logManager.log("Got Seat Belts " + msg);
             dataManager.setSeatBelts(splitMsg);
           break;
         case "380":
-          $scope.log("Got QC status " + msg);
+          logManager.log("Got QC status " + msg);
           dataManager.setQCStatus(splitMsg);
           break;
         default:
@@ -502,20 +531,17 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         $scope.logIcon = "pause";
         $scope.renderLog = true;
       }
-      $scope.$digest();
+      //$scope.$digest();
     };
 
-    $scope.log = function(log) {
-      if(typeof arguments == "array"){
-        //console.log(arguments.join());
-        async.eachSeries(arguments, function(logToAdd){
-          $scope.logText = logToAdd + "\r\n" + $scope.logText;
-        });
-      } else {
-        //console.log(log);
-        $scope.logFull = log + "\r\n" + $scope.logFull;
-        $scope.logText = $scope.logFull.substring(0, 30000);
-      }
-    }
+    /*setTimeout(function(){ //Test notifications
+      $rootScope.$broadcast('notification', {
+        title: "Hello world",
+        time: (new Date()).getTime(),
+        seen: false,
+        content: "<h1>Check your battery!</h1><b>Text!</b>",
+        icon: "adb"
+      });
+    }, 3000);*/
     //$scope.init();
 });

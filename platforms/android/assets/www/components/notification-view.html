@@ -1,0 +1,44 @@
+<div class="recent-notification" ng-if="recentNotification">
+
+</div>
+
+
+<md-menu md-position-mode="target-right target">
+  <md-button class="notifications-btn" ng-click="$mdOpenMenu($event)">
+    <md-badge ng-if="unreadNotifications > 0"><b>{{unreadNotifications}}</b></md-badge>
+    <ng-md-icon class="refresh-icon notification-icon rotate" options='{"rotation": "counterclock"}' icon="{{notificationIcon}}" size="40px" style="fill: white;"></ng-md-icon>
+  </md-button>
+  <md-menu-content width="5">
+    <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
+    <md-menu-item ng-repeat="notification in local.notifications">
+      <md-button class="two-line" ng-click="openNotification($event, notification, $index)">
+          <div layout="row" flex>
+            <ng-md-icon class="menu-icon" icon="{{notification.icon}}" size="30px" style="fill: black; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+            <p flex><b>{{notification.title}}</b>
+              <br/>
+              <small am-time-ago="notification.time"></small>
+            </p>
+            <div class="unread-icon" ng-if="!notification.seen"></div>
+          </div>
+      </md-button>
+    </md-menu-item>
+
+    <md-menu-item ng-if="local.notifications.length == 0">
+      <md-button>
+          <div layout="row" flex>
+            <ng-md-icon class="menu-icon" icon="notifications_paused" size="30px" style="fill: black; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+            <p flex>No notifications yet!</p>
+          </div>
+      </md-button>
+    </md-menu-item>
+
+    <md-menu-item ng-if="local.notifications.length > 0">
+      <md-button ng-click="clearAll()">
+          <div layout="row" flex>
+            <ng-md-icon class="menu-icon" icon="notifications_off" size="30px" style="fill: black; margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+            <p flex><b>Clear All</b></p>
+          </div>
+      </md-button>
+    </md-menu-item>
+  </md-menu-content>
+</md-menu>

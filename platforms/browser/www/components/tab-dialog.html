@@ -6,18 +6,66 @@
         <span flex></span>
       </div>
     </md-toolbar>
-    <md-dialog-content style="max-width:800px;max-height:810px; ">
+    <md-dialog-content style="max-width:97%;max-height:90%; ">
       <md-tabs md-dynamic-height md-border-bottom>
         <md-tab label="settings">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Tab One</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi.</p>
+
+            <md-list>
+
+              <md-subheader class="md-no-sticky">Display</md-subheader>
+              <md-list-item >
+                <p>Hide extra data
+                <br/><small>May improve performance</small></p>
+                <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
+              </md-list-item>
+
+              <md-subheader class="md-no-sticky">Theme / Dark Mode</md-subheader>
+              <md-list-item >
+                <p>Ambient Light sensor</p>
+                <md-switch ng-model="local.settings.experiance.darkModeAmbient" ng-disabled="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
+              </md-list-item>
+
+              <md-list-item>
+                <p>Ambient Light Sensitivity</p><br/>
+                <md-slider flex min="0" max="10" md-discrete ng-disabled="!local.settings.experiance.darkModeAmbient || local.settings.experiance.darkModeHeadlights" ng-model="local.settings.experiance.lightSensitivity"></md-slider>
+              </md-list-item>
+
+
+
+              <md-list-item>
+                <p>Activate Dark with Headlights</p>
+                <md-switch ng-model="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
+              </md-list-item>
+
+
+              <md-subheader class="md-no-sticky">Experimental</md-subheader>
+              <md-list-item >
+                <p>Save OBD log file <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
+                <md-switch ng-model="local.settings.experimental.logOBDFile" aria-label="Debug Codes"></md-switch>
+              </md-list-item>
+
+              <md-list-item >
+                <p>Save History log file <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
+                <md-switch ng-model="local.settings.experimental.logHistoryFile" aria-label="Debug Codes"></md-switch>
+              </md-list-item>
+
+              <md-list-item >
+                <p>Send debug codes <br/><small>(very slow)</small></p>
+                <md-switch ng-model="local.settings.experimental.debugCodes" aria-label="Debug Codes"></md-switch>
+              </md-list-item>
+
+            </md-list>
+
           </md-content>
         </md-tab>
         <md-tab label="data">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Graph Options</h1>
-            <md-contact-chips
+            <h3 class="md-display-2">Clear History</h3>
+            <md-button class="md-raised md-warn" ng-click="clearHistory($event)">
+              Delete
+            </md-button>
+            <!--md-contact-chips
                 ng-model="dataKeys"
                 md-contacts="querySearch($query)"
                 md-contact-name="name"
@@ -25,7 +73,7 @@
                 md-highlight-flags="i"
                 filter-selected="filterSelected"
                 placeholder="Data to Graph">
-            </md-contact-chips>
+            </md-contact-chips-->
           </md-content>
         </md-tab>
         <md-tab label="about">
@@ -35,7 +83,7 @@
             <p>Happy Leaf Version {{local.settings.about.version}}</p>
             <p>Build with <ng-md-icon class="love-icon rotate" options='{"rotation": "counterclock"}' icon="{{loveIcon}}" size="35px" style="fill: black;"></ng-md-icon> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by Brandon Martin</p>
             <p>Powered by Angular 1.5, Phonegap, and other open source technology</p>
-            <big>Spacial thanks to <a href="http://www.mynissanleaf.com/">My Nissan Leaf Forums</a></big>
+            <big>Special thanks to <a href="http://www.mynissanleaf.com/">My Nissan Leaf Forums</a></br>And all the Happy Leaf Beta Testers!</big>
           </md-content>
         </md-tab>
       </md-tabs>

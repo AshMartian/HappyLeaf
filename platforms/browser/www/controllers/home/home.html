@@ -6,7 +6,7 @@
           Happy Leaf
         </span>
         <br/>
-        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number}} {{data.readableDistanceUnits()}}</small>
+        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
         &nbsp; &nbsp;
         <small ng-if="local.mileDriven > 0" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} Happy</small>
         &nbsp; &nbsp;
@@ -19,6 +19,7 @@
         {{data.outsideTemp | number:1}}&deg;
       </span>
       <connection-status failed-messages="failedMessages"></connection-status>
+      <notification-view></notification-view>
       <settings-dialog></settings-dialog>
     </div>
   </md-toolbar>
@@ -28,12 +29,29 @@
   <div class="content">
     <div layout="row" class="main-top-row">
       <div layout="column">
+        <md-menu class="left-button" flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-position-mode="target-right target">
+          <md-button aria-label="Open menu" class="md-icon-button left-button up" ng-click="$mdOpenMenu($event)">
+            <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
+          </md-button>
+          <md-menu-content width="2">
+            <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
+            <md-menu-item>
+              <md-button md-theme-watch="true" ng-click="toggleDark()">
+                  <div layout="row" flex>
+                    <p flex>{{showDarkTheme ? "Switch to Light" : "Switch to Dark"}}</p>&nbsp;&nbsp;
+                    <ng-md-icon options='{"rotation": "counterclock"}' icon="{{showDarkTheme ? 'wb_sunny' :'brightness_3'}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+                  </div>
+              </md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+
         <leaf-display></leaf-display>
       </div>
-      <div layout="column" class="main-top-stats">
+      <div layout="column" class="main-top-stats data-column">
         <div layout="row">
         <div flex>
-          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+          <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
            <md-card-content>
              <small class="title">Remaining</small>
              <h2><big>{{data.killowatts | number:2}}</big> kWh</h2>
@@ -45,14 +63,15 @@
           </md-card>
         </div>
         <div flex>
-          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
-            <md-menu  md-position-mode="target-right target">
-              <md-button aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdOpenMenu($event)">
+          <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+            <md-menu md-position-mode="target-right target">
+              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdOpenMenu($event)">
                 <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
               </md-button>
               <md-menu-content width="3">
+                <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
                 <md-menu-item ng-repeat="item in menuOptions">
-                  <md-button ng-click="item.clicked()">
+                  <md-button md-theme-watch="true" ng-click="item.clicked()">
                       <div layout="row" flex>
                         <ng-md-icon class="menu-icon" icon="{{item.icon}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
                         <p flex>{{item.title}}</p>
@@ -71,7 +90,7 @@
            </md-card-content>
            <md-card-footer>
              <span ng-if="data.isCharging">
-               <b>{{data.wattsPerMinute | number:2}}</b> Watts per minute
+               <b>{{data.wattsPerMinute | number:2}}</b> Watts per min
              </span>
              <span ng-if="!data.isCharging">
                <span ng-if="wattDisplay == 'perWatt'"><b>{{data.distancePerKW | number:2}}</b> {{data.readableDistanceUnits()}}/kW</span>
@@ -81,24 +100,24 @@
           </md-card>
         </div>
       </div>
-        <div flex>
-          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
-           <md-card-content>
-             <large-time-chart></large-time-chart>
-           </md-card-content>
-          </md-card>
-        </div>
+      <div flex layout="column" class="data-column">
+        <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+         <md-card-content>
+           <large-time-chart show-dark-theme="showDarkTheme"></large-time-chart>
+         </md-card-content>
+        </md-card>
       </div>
+    </div>
 
     </div>
-    <div flex>
+    <div flex ng-if="local.settings.experiance.displayAllData">
       <md-grid-list
         md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
         md-row-height-gt-md="1:1" md-row-height="4:2"
         md-gutter="2px" md-gutter-gt-sm="2px" >
 
       <md-grid-tile flex-xs ng-repeat="key in dataKeys" ng-if="dataDisplay(data[key])">
-        <md-card flex  md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+        <md-card flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
           <md-card-content class="info-box">
             <small>{{key}}</small>
             <h3 ng-class="{'small': key.toLowerCase().indexOf('time') > 0}">{{renderDisplay(key)}}</h3>
@@ -107,7 +126,7 @@
       </md-grid-tile>
 
       <md-grid-tile flex-xs>
-        <md-card flex md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
+        <md-card flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
           <md-card-content class="info-box">
             <small>History Enteries</small>
             <h3>{{local.historyCount}}</h3>
@@ -128,7 +147,7 @@
         Speed: <b>{{data.speed}}</b>
         History Enteries: {{local.historyCount}}
       </p-->
-  </div>
+    </div>
   </div>
 
   <div class="log-container">

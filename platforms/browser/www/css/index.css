@@ -147,6 +147,14 @@ md-radio-button > .md-label {
   top: 7px;
 }
 
+md-dialog {
+    max-width: 98% !important;
+}
+
+.md-open-menu-container {
+  z-index: 9999;
+}
+
 .rotate {
     position: absolute;
 }

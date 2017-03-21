@@ -60,6 +60,9 @@
         },
         "cordova-plugin-lightSensor": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
     "dependent_plugins": {
@@ -67,6 +70,9 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-app-event": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     }

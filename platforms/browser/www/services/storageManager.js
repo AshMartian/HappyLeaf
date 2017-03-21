@@ -1,4 +1,4 @@
-happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', '$localStorage', function($rootScope, dataManager, $localStorage){
+happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', '$localStorage', function($rootScope, dataManager, logManager, $localStorage){
 
   var self = {
     db: null,
@@ -18,9 +18,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', '$localStorage
       dataManager.historyCreated();
       $rootScope.$broadcast('historyUpdated');
       $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
-      console.log("Creating history point with this data");
-      console.log($localStorage.history);
-      console.log(self);
+      //console.log("Creating history point");
     },
 
     startupDB: function(){
@@ -47,12 +45,11 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', '$localStorage
        console.log('Populated database OK');
      });*/
 
-
    }
   };
 
   console.log("Cleaning up history older than 24 hours");
-  if($localStorage.history){
+  if($localStorage.history) {
     var ONE_DAY = 172800000;
     var now = (new Date()).getTime();
     $localStorage.milesDrivenToday = 0;

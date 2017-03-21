@@ -1,17 +1,17 @@
-happyLeaf.factory('connectionManager', function(){
+happyLeaf.factory('connectionManager', ['logManager', function(logManager){
   var self = {
     availableDevices: [],
     isConnected: false,
     lastConnected: "",
 
     scanDevices: function(success, failure) {
-      console.log("Scanning inside manager");
+      logManager.log("Scanning inside manager");
       setInterval(function(){
         bluetoothSerial.isConnected(function(connected){
           self.isConnected = true;
-          //console.log("Got connected " + connected);
+          //logManager.log("Got connected " + connected);
         }, function(err){
-          console.log("is Disconnected " + err);
+          logManager.log("is Disconnected " + err);
 
           self.isConnected = false;
         });
@@ -20,8 +20,8 @@ happyLeaf.factory('connectionManager', function(){
 
       bluetoothSerial.list(function(results) {
         self.availableDevices = results;
-      	console.log("got "+results.length+" bluetooth accessories")
-      	console.log(JSON.stringify(results));
+      	logManager.log("got "+results.length+" bluetooth accessories")
+      	logManager.log(JSON.stringify(results));
         success(results);
         bluetoothSerial.setDiscoverable(function(){
           bluetoothSerial.discoverUnpaired(function(devices){
@@ -45,7 +45,7 @@ happyLeaf.factory('connectionManager', function(){
     connectDevice: function(deviceMac, success, failure) {
       self.lastConnected = deviceMac;
       async.waterfall(function(callback){
-        if(isConnected){
+        if(self.isConnected){
           bluetoothSerial.disconnect(function(){
             callback();
           });
@@ -53,20 +53,24 @@ happyLeaf.factory('connectionManager', function(){
           callback();
         }
       }, function(callback){
+        setTimeout(function(){
+          logManager.log("Connection Timeout..");
+          failure("Connection Timeout");
+        }, 10000);
         bluetoothSerial.connect(deviceMac, function(result){
-          console.log("I am now connected");
-          console.log(result);
+          logManager.log("I am now connected");
+          logManager.log(JSON.stringify(result));
           self.isConnected = true;
           success(result);
           //bluetoothSerial.subscribeRaw('\r', $scope.newMessage, $scope.substribeFailure);
         }, function(err){
-          console.log("Connection failed " + err)
+          logManager.log("Connection failed " + err)
           failure(err);
-          console.log(err);
+          logManager.log(JSON.stringify(err));
         });
       });
     }
   };
 
   return self;
-});
+}]);

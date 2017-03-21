@@ -314,6 +314,30 @@ module.exports = [
         "clobbers": [
             "cordova-plugin-lightSensor"
         ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "cordova.plugins.notification.local",
+            "plugin.notification.local"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification-core.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification.Core",
+        "clobbers": [
+            "cordova.plugins.notification.local.core",
+            "plugin.notification.local.core"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification-util.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification.Util",
+        "merges": [
+            "cordova.plugins.notification.local.core",
+            "plugin.notification.local.core"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -338,7 +362,9 @@ module.exports.metadata =
     "cordova-plugin-bluetooth-serial": "0.4.5",
     "cordova-plugin-insomnia": "4.3.0",
     "cordova-sqlite-storage": "2.0.2",
-    "cordova-plugin-lightSensor": "0.2.1"
+    "cordova-plugin-lightSensor": "0.2.1",
+    "cordova-plugin-app-event": "1.2.0",
+    "de.appplant.cordova.plugin.local-notification": "0.8.4"
 };
 // BOTTOM OF METADATA
 });

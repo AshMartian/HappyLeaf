@@ -38,7 +38,7 @@ happyLeaf.component('settingsDialog', {
 
       };
 
-      function DialogController($scope, $mdDialog, $localStorage, dataManager) {
+      function DialogController($scope, $mdDialog, $localStorage, dataManager, logManager) {
         $scope.local = $localStorage;
         $scope.loveIcon = "favorite";
         $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"]
@@ -48,6 +48,21 @@ happyLeaf.component('settingsDialog', {
           $scope.loveIcon = $scope.availableIcons[randomIconInt];
           $scope.$digest();
         }, 2000);
+
+        $scope.clearHistory = function(ev){
+          var confirm = $mdDialog.confirm()
+           .title('Delete all history?')
+           .textContent('This will perminantly delete all history for today, if you do not have logs enabled, this data will be lost forever. Are you sure?')
+           .targetEvent(ev)
+           .ok('Yes, reset!')
+           .cancel('Nevermind');
+
+           $mdDialog.show(confirm).then(function() {
+             logManager.historyLogName = moment().format("MM-DD-YYYY") + "-after-reset-history.json";
+             $localStorage.history = [];
+           }, function() {
+           });
+        }
 
         var cleanUpKeys = function(array){
           return array.map(function (c, index) {
@@ -65,7 +80,7 @@ happyLeaf.component('settingsDialog', {
             return typeof dataManager[key.key] == 'number' && !key.key.match(/time/i);
         });
         $scope.dataKeys = cleanUpKeys($localStorage.settings.data.drivingDataAttributes)
-        
+
         $scope.filterSelected = true;
 
         var createFilterFor= function(query) {

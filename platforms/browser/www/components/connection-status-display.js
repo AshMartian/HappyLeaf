@@ -5,9 +5,9 @@ happyLeaf.component('connectionStatus', {
     templateUrl:'components/connection-status-display.html',
     displayStyle: 'background-color: black;',
 
-    bindings: [
+    bindings:{
       failedMessages: "="
-    ],
+    },
 
     controller: function($scope, connectionManager, bluetoothSend){
       this.connectedColor = "#76FF03";
@@ -16,11 +16,13 @@ happyLeaf.component('connectionStatus', {
       this.offColor = "#FF9800";
       this.errorColor = "#ff3e3e";
 
+      var self = this;
+
       if(!connectionManager.isConnected) {
         $scope.displayStyle = 'background-color: '+self.errorColor+';';
       }
 
-      var self = this;
+
       bluetoothSend.onWaiting(function(isWaiting){
         $scope.apply(function(){
           if(isWaiting) {
@@ -32,8 +34,8 @@ happyLeaf.component('connectionStatus', {
       });
       //console.log("Watch got isWaiting " + bluetoothSend.isWaiting + "  " + self.waitingColor);
 
-      $scope.$watch('failedMessages', function(){
-        if($scope.failedMessages) {
+      $scope.$watch('$ctrl.failedMessages', function(){
+        if(self.failedMessages) {
           $scope.displayStyle = 'background-color: '+self.offColor+';';
         } else if(connectionManager.isConnected) {
           $scope.displayStyle = 'background-color: '+self.connectedColor+';';
