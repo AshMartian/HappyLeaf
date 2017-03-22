@@ -22,11 +22,9 @@ happyLeaf.component('settingsDialog', {
             targetEvent: ev,
             clickOutsideToClose:true
           }).then(function(answer) {
-                $scope.status = 'You said the information was "' + answer + '".';
                 $scope.dialogOpen = false;
                 $scope.settingsIcon = "settings";
               }, function() {
-                $scope.status = 'You cancelled the dialog.';
                 $scope.dialogOpen = false;
                 $scope.settingsIcon = "settings";
               });
@@ -38,7 +36,7 @@ happyLeaf.component('settingsDialog', {
 
       };
 
-      function DialogController($scope, $mdDialog, $localStorage, dataManager, logManager) {
+      function DialogController($scope, $mdDialog, $translate, $localStorage, dataManager, logManager) {
         $scope.local = $localStorage;
         $scope.loveIcon = "favorite";
         $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"]
@@ -59,7 +57,8 @@ happyLeaf.component('settingsDialog', {
 
            $mdDialog.show(confirm).then(function() {
              logManager.historyLogName = moment().format("MM-DD-YYYY") + "-after-reset-history.json";
-             $localStorage.history = [];
+             $localStorage.history = {};
+             dataManager.reset();
            }, function() {
            });
         }

@@ -1,4 +1,4 @@
-happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
+happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $translate, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
     $scope.deviceready = false;
     $scope.settingsIcon = "settings";
 
@@ -12,30 +12,30 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.renderLog = false;
     $scope.logOutput = logManager.logText;
     $scope.wattDisplay = 'perWatt';
+    $scope.distanceToDisplay = 0;
 
     $scope.menuOptions = [{
-      title: "Use Watts/" + dataManager.distanceUnits,
+      title: $translate.instant("HOME.MENUS.USE_WATTS", {units: dataManager.distanceUnits}),
       icon: "swap_horiz",
       clicked: function(){
         if($scope.wattDisplay == 'perDistance'){
-          this.title = "Use Watts/" + dataManager.distanceUnits;
+          this.title = $translate.instant("HOME.MENUS.USE_WATTS", {units: dataManager.distanceUnits});
           $scope.wattDisplay = 'perWatt';
         } else {
-          this.title = "Use " + dataManager.distanceUnits + "/kW";
+          this.title = $translate.instant("HOME.MENUS.USE_KW", {units: dataManager.distanceUnits});
           $scope.wattDisplay = 'perDistance';
         }
       }
     },{
-      title: "Reset",
+      title: $translate.instant("HOME.MENUS.RESET"),
       icon: "cached",
       clicked: function(ev){
         var confirm = $mdDialog.confirm()
-         .title('Reset Watt Meter?')
-         .textContent('This will reset the current Watt measurement and set the Watt start time to now. Are you sure?')
-         .ariaLabel('Lucky day')
+         .title($translate.instant("HOME.RESET_WARNING.TITLE"))
+         .textContent($translate.instant("HOME.RESET_WARNING.CONTENT"))
          .targetEvent(ev)
-         .ok('Yes, reset!')
-         .cancel('Nevermind');
+         .ok($translate.instant("HOME.RESET_WARNING.CONTINUE"))
+         .cancel($translate.instant("HOME.RESET_WARNING.NEVERMIND"));
 
          $mdDialog.show(confirm).then(function() {
            dataManager.setWattsWatcher();
@@ -44,17 +44,16 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
          });
       }
     }, {
-      title: "Explain",
+      title: $translate.instant("HOME.MENUS.EXPLAIN"),
       icon: "info",
       clicked: function(ev){
         $mdDialog.show(
           $mdDialog.alert()
             .parent(angular.element(document.querySelector('#home')))
             .clickOutsideToClose(true)
-            .title('Watt Meter')
-            .textContent('Watts are the measurement of energy transfer, being able to track Watt usage is key to increase efficiency. This widget measures the Watt change from a specified time, and can be reset anytime.')
-            .ariaLabel('Alert Dialog Demo')
-            .ok('Got it!')
+            .title($translate.instant("HOME.EXPLAIN_METER.TITLE"))
+            .textContent($translate.instant("HOME.EXPLAIN_METER.CONTENT"))
+            .ok($translate.instant("HOME.EXPLAIN_METER.OKAY"))
             .targetEvent(ev)
         );
       }
@@ -111,8 +110,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.lastMsg = "";
     $scope.messagesReceived = [];
 
-    $scope.init = function(){
+    $scope.cycleDistance = function(){
+      $scope.distanceToDisplay ++;
+      if($scope.distanceToDisplay > 2 && $localStorage.milesDrivenToday) $scope.distanceToDisplay = 0;
+      if($scope.distanceToDisplay > 1 && !$localStorage.milesDrivenToday) $scope.distanceToDisplay = 0;
+    }
 
+    $scope.init = function(){
+      setInterval($scope.cycleDistance, 5000);
 
       setInterval(function(){
         logManager.log("Setting history point");
@@ -209,14 +214,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
       }, 5000);
     }
 
-    $scope.knownMessages = ["79A", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "54C", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"];
+    $scope.knownMessages = ["79A", "763", "765", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "54C", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"];
     $scope.failedMessages = false;
 
     $scope.lastRequestTime = null;
     $scope.requestSOC = function(){
       //console.log("Requesting ALL");
       $scope.bufferCount = 0;
-      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
+      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH743", "ATFCSH743", "ATFCSH743", "ATFCSD300100", "022101", "ATSH745", "ATFCSH745", "ATFCSD300000", "022110", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
       //var commandstoSend = ["ATE0", "ATIB10", "ATL0", "ATCAF0", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF5BF", "ATMA", "X", "ATCM7FE", "ATCF385", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF510", "ATMA", "X", "ATCRA355", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X", "ATCM7FE", "ATCF284", "ATMA", "X", "ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATAR"];
       //var commandstoSend = ["ATE0", "ATH1", "STI", "ATSP6", "ATS0", "ATRV", "ATCAF0", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF358", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X"];
       //"ATAR", "ATSH797", "ATFCH797", "ATFCSD300000", "0210C0", "03221304", "03221156", "0322132A", "03221103", "03221183", "0322124E", "0322115D", "03221203", "03221205", "0322124E", "0322115D", "03221261", "03221262", "03221152", "03221151", "03221146", "03221255", "03221234", "0322114E", "03221236", "03221255"
@@ -261,18 +266,19 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         var commandsToSend = [];
         if($localStorage.settings.experimental.debugCodes){
           logManager.log("Going to loop over all possible commands!");
-          var hexCodes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
+          var hexCodes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "X"];
           async.each(hexCodes, function(code1){
             async.each(hexCodes, function(code2){
               async.each(hexCodes, function(code3){
-                commandsToSend = commandsToSend.concat(["ATCM7FE", "ATCF" + code1 + code2 + code3, "ATMA", "X"]);
+                var code = code1 + code2 + code3;
+                commandsToSend = commandsToSend.concat(["ATCM7FE", "ATCF" + code, "ATCRA" + code, "ATMA", "X"]);
               });
             });
           });
           logManager.log("Generated " + commandsToSend.length + " commads!");
         } else {
           logManager.log("Watching CAN for known messages");
-          commandsToSend = ["ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATDB", "ATCF1DB", "ATCRA1BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR"];
+          commandsToSend = ["ATBD", "ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
         }
         $scope.lastRequestTime = (new Date()).getTime();
         bluetoothSend.shouldSend();
@@ -355,6 +361,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         case "79A":
           logManager.log("Got 79A " + msg);
           dataManager.parseCarCan(splitMsg);
+          break;
+        case "763":
+          logManager.log("Got 763 " + msg);
+          //dataManager.parseCarCan(splitMsg);
+          break;
+        case "765":
+          logManager.log("Got 765 " + msg);
+          //dataManager.parseCarCan(splitMsg);
           break;
         case "793":
           logManager.log("Got 793 " + msg);

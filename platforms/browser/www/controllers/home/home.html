@@ -1,18 +1,16 @@
 <header class="fixed">
   <md-toolbar>
     <div class="md-toolbar-tools">
-      <div>
-        <span>
-          Happy Leaf
+      <div class="Happy-Leaf" ng-click="cycleDistance()">
+        <span translate>
+          HOME.TITLE
         </span>
         <br/>
-        <small ng-if="data.odometer > 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
-        &nbsp; &nbsp;
-        <small ng-if="local.mileDriven > 0" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} Happy</small>
-        &nbsp; &nbsp;
-        <small ng-if="local.milesDrivenToday > 0" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} Today</small>
+        <small ng-if="data.odometer > 0 && distanceToDisplay == 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
+        <small ng-if="local.mileDriven > 0 && distanceToDisplay == 1" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} {{'HOME.HAPPY' | translate}}</small>
+        <small ng-if="local.milesDrivenToday > 0 && distanceToDisplay == 2" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} {{'HOME.TODAY' | translate}}</small>
       </div>
-
+      
       <!-- fill up the space between left and right area -->
       <span flex></span>
       <span ng-if="data.outsideTemp">
@@ -38,7 +36,7 @@
             <md-menu-item>
               <md-button md-theme-watch="true" ng-click="toggleDark()">
                   <div layout="row" flex>
-                    <p flex>{{showDarkTheme ? "Switch to Light" : "Switch to Dark"}}</p>&nbsp;&nbsp;
+                    <p flex translate>{{showDarkTheme ? "HOME.MENUS.TO_LIGHT" : "HOME.MENUS.TO_DARK"}}</p>&nbsp;&nbsp;
                     <ng-md-icon options='{"rotation": "counterclock"}' icon="{{showDarkTheme ? 'wb_sunny' :'brightness_3'}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
                   </div>
               </md-button>
@@ -53,12 +51,12 @@
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
            <md-card-content>
-             <small class="title">Remaining</small>
+             <small class="title" translate>HOME.REMAINING</small>
              <h2><big>{{data.killowatts | number:2}}</big> kWh</h2>
-             <small><span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} to 0</span></small>
+             <small><span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} {{'HOME.TO' | translate}} 0</span></small>
            </md-card-content>
            <md-card-footer>
-             <span>GIDs: <b>{{data.GIDs}}</b> Health: <b>{{data.SOH}}%</b></span>
+             <span>GIDs: <b>{{data.GIDs}}</b> {{'HOME.HEALTH' | translate}}: <b>{{data.SOH}}%</b></span>
            </md-card-footer>
           </md-card>
         </div>
@@ -81,16 +79,16 @@
               </md-menu-content>
             </md-menu>
            <md-card-content>
-             <small class="title" ng-if="data.wattsUsed >= 0">Used</small>
-             <small class="title" ng-if="data.wattsUsed < 0">Gained</small>
+             <small class="title" ng-if="data.wattsUsed >= 0" translate>HOME.USED</small>
+             <small class="title" ng-if="data.wattsUsed < 0" translate>HOME.GAINED</small>
              <h2 ng-if="data.wattsUsed < 10000 && data.wattsUsed > -10000"><big>{{data.wattsUsed | makePositive | number:1}}</big> Wh</h2>
              <h2 ng-if="data.wattsUsed >= 10000 || data.wattsUsed <= -10000"><big>{{(data.wattsUsed / 1000) | makePositive | number:2}}</big> kWh</h2>
              <small class="tiny clear" ng-class="{'green': data.wattDifference > 0, 'red': data.wattDifference < 0}" highlight-on-change="{{data.wattDifference}}"><span ng-if="data.wattDifference > 0">+ </span>{{data.wattDifference | number:1}}</small>
-             <small class="sub-text"><span ng-if="data.distanceTraveled > 0"><b>{{data.distanceTraveled | number:1}}</b> {{data.readableDistanceUnits()}} </span>since <span am-time-ago="data.wattsStartedTime"></span></small>
+             <small class="sub-text"><span ng-if="data.distanceTraveled > 0"><b>{{data.distanceTraveled | number:1}}</b> {{data.readableDistanceUnits()}} </span>{{'HOME.SINCE' | translate}} <span am-time-ago="data.wattsStartedTime"></span></small>
            </md-card-content>
            <md-card-footer>
              <span ng-if="data.isCharging">
-               <b>{{data.wattsPerMinute | number:2}}</b> Watts per min
+               <b>{{data.wattsPerMinute | number:2}}</b> {{'HOME.WATTS_MIN' | translate}}
              </span>
              <span ng-if="!data.isCharging">
                <span ng-if="wattDisplay == 'perWatt'"><b>{{data.distancePerKW | number:2}}</b> {{data.readableDistanceUnits()}}/kW</span>
@@ -110,7 +108,7 @@
     </div>
 
     </div>
-    <div flex ng-if="local.settings.experiance.displayAllData">
+    <div flex ng-if="!local.settings.experiance.displayAllData">
       <md-grid-list
         md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
         md-row-height-gt-md="1:1" md-row-height="4:2"

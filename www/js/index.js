@@ -17,7 +17,7 @@
  * under the License.
  */
 
-var happyLeaf = angular.module('happyLeaf', ['ngRoute', 'angularMoment', 'ngMaterial', 'ngMdIcons', 'chart.js', 'LocalStorageModule', 'ngStorage', 'ngThread']);
+var happyLeaf = angular.module('happyLeaf', ['ngRoute', 'angularMoment', 'ngMaterial', 'ngMdIcons', 'chart.js', 'LocalStorageModule', 'ngStorage', 'ngThread', 'pascalprecht.translate']);
 
 /*
 var app = {

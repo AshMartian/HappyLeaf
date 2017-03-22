@@ -18129,7 +18129,6 @@
 	<text id="Tire_x5F_3" transform="matrix(1 0 0 1 151.0898 164.0078)" font-family="'MyriadPro-Regular'" font-size="10.2214">0</text>
 </g>
 <rect x="38.047" y="102.5" fill="none" width="96" height="14"/>
-<text transform="matrix(1 0 0 1 60.4194 103.1797)" opacity="0.5" enable-background="new    " font-family="'MyriadPro-Regular'" font-size="8">State of Charge</text>
 <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="786.5" y1="1919.667" x2="786.5" y2="1916.667" gradientTransform="matrix(1 0 0 1 -648 -1734)">
 	<stop  offset="0" style="stop-color:#828282;stop-opacity:0.4"/>
 	<stop  offset="0.5" style="stop-color:#000000;stop-opacity:0.6"/>
@@ -18190,11 +18189,11 @@
 </g>
 <g id="Charging_x5F_Container">
 	<g id="Charging_x5F_Plug">
-		<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M34.427-2.5
-			c3.825,0,6.823-4,16.907,0.042c6.5,2.083,13.039,2.333,20.416-0.015C85.771-7,85.184,0.847,85.184,4.865"/>
+		<path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M85.641,5.243
+			c0-4.018-0.588-11.865,13.434-7.338c7.377,2.348,13.916,2.098,20.416,0.015c10.084-4.042,13.082-0.042,16.907-0.042"/>
 	</g>
-	<rect y="-6" fill="none" width="34.625" height="16.375"/>
-	<text id="Charging_x5F_Text" transform="matrix(1 0 0 1 0 2.5195)" font-family="'MyriadPro-Regular'" font-size="12">120.9v</text>
+	<rect x="134.047" y="-7.888" fill="none" width="34.625" height="16.375"/>
+	<text id="Charging_x5F_Text" transform="matrix(1 0 0 1 137.0469 2.6318)" font-family="'MyriadPro-Regular'" font-size="12">120.9v</text>
 </g>
 <path fill="none" stroke="#9B9B9B" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="5,2" d="M0,18.75"/>
 </svg>

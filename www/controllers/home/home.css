@@ -205,11 +205,17 @@ main.dark #LEAF text {
   fill: black !important;
 }
 
-#Charger_x5F_Flow, #Charging_x5F_Plug {
+#Charger_x5F_Flow {
   opacity: 0.4;
   stroke-dasharray: 4;
   stroke-dashoffset: 200;
   animation-fill-mode: forwards;
+}
+
+#Charging_x5F_Plug {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
 }
 
 #Charging_x5F_Container {
@@ -269,19 +275,35 @@ main.dark #LEAF text {
   opacity: 1;
 }
 
-#LEAFOUTTER.charging.fast:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.fast #Charger_x5F_Flow, #LEAFOUTTER.charging.fast #Charging_x5F_Plug {
+#LEAFOUTTER.charging.fast:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.fast #Charger_x5F_Flow {
   animation: dash 6s 0s linear infinite;
   -webkit-animation: dash 6s 0s linear infinite;
 }
+#LEAFOUTTER.charging.fast #Charging_x5F_Plug {
+  animation: dash 6s 0s linear reverse infinite;
+  -webkit-animation: dash 6s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
 
-#LEAFOUTTER.charging.medium:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.medium #Charger_x5F_Flow, #LEAFOUTTER.charging.medium #Charging_x5F_Plug {
+#LEAFOUTTER.charging.medium:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.medium #Charger_x5F_Flow {
   animation: dash 12s 0s linear infinite;
   -webkit-animation: dash 12s 0s linear infinite;
 }
+#LEAFOUTTER.charging.medium #Charging_x5F_Plug {
+  animation: dash 12s 0s linear reverse infinite;
+  -webkit-animation: dash 12s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
 
-#LEAFOUTTER.charging.slow:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.slow #Charger_x5F_Flow, #LEAFOUTTER.charging.slow #Charging_x5F_Plug {
+#LEAFOUTTER.charging.slow:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.slow #Charger_x5F_Flow {
   animation: dash 26s 0s linear infinite;
   -webkit-animation: dash 26s 0s linear infinite;
+}
+
+#LEAFOUTTER.charging.slow #Charging_x5F_Plug {
+  animation: dash 26s 0s linear reverse infinite;
+  -webkit-animation: dash 26s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
 }
 
 #Battery_x5F_Outline {
@@ -445,7 +467,7 @@ main.dark #LEAF text {
   width: 100%;
 }
 
-.SOC-Text, .Temp-Text, .Volt-Text {
+.SOC-Text, .Temp-Text, .Volt-Text, .SOC-Text-Label {
   position: absolute;
   text-align: center;
   font-size: 185%;
@@ -454,12 +476,11 @@ main.dark #LEAF text {
 }
 .Temp-Text {
   font-weight: lighter;
-  font-size: 103%;
-  opacity: 0.7;
+  opacity: 0.6;
 }
-.Volt-Text {
-  opacity: 0.9;
-  font-size: 130%;
+.Volt-Text, .SOC-Text-Label {
+  opacity: 0.8;
+  font-weight: normal;;
 }
 
 .Motor-Text, .Climate-Text {
@@ -526,7 +547,18 @@ main.dark #LEAF text {
 
   .md-toolbar-tools span {
     margin-top: 5px;
-    font-size: 3.6vh !important;
+    font-size: 3vh !important;
+  }
+
+  .Happy-Leaf{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    border-style:none;
+   outline-style:none;
+   -webkit-appearance: textarea;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   md-card b {
     font-size: 2.8vh;
@@ -534,12 +566,22 @@ main.dark #LEAF text {
   .SOC-Text {
     font-size: 3vh;
   }
+  .SOC-Text-Label {
+    font-size: 1.8vh;
+  }
+  .Temp-Text {
+    font-size: 2vh;
+  }
+  .Volt-Text {
+    font-size: 2.6vh;
+  }
   .Motor-Text, .Climate-Text {
     font-size: 1.5vh;
   }
   .Motor-Text > small, .Climate-Text > small {
     font-size: 1.2vh;
   }
+
 }
 
 @media screen and (orientation:landscape) {
@@ -555,7 +597,7 @@ main.dark #LEAF text {
 
   .md-toolbar-tools span {
     margin-top: 5px;
-    font-size: 4vw !important;
+    font-size: 3vw !important;
   }
   md-card b {
     font-size: 2.8vw;
@@ -564,9 +606,23 @@ main.dark #LEAF text {
   .SOC-Text {
     font-size: 3vw;
   }
+  .SOC-Text-Label {
+    font-size: 1.8vw;
+  }
+  .Temp-Text {
+    font-size: 2vw;
+  }
+  .Volt-Text {
+    font-size: 2.6vw;
+  }
 
   .data-column {
     max-width: 60vw;
+  }
+
+  .content {
+    margin-top: 10px;
+    padding-top: 40px;
   }
 
 }
@@ -578,11 +634,6 @@ main.dark #LEAF text {
 
   .more-button {
     right: 0;
-  }
-
-  .content {
-    margin-top: 10px;
-    padding-top: 35px;
   }
 
   md-card b {
@@ -603,9 +654,20 @@ main.dark #LEAF text {
 
 }
 
-@media (min-width: 1020px) {
+@media (min-height: 520px) {
+  .content {
+    margin-top: 10px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 1025px) {
   .md-toolbar-tools span {
     margin-top: 5px;
     font-size: 2.6vw !important;
+  }
+  .content {
+    margin-top: 10px;
+    padding-top: 80px;
   }
 }

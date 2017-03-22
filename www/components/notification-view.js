@@ -5,7 +5,7 @@ happyLeaf.component('notificationView', {
     templateUrl:'components/notification-view.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $localStorage, $mdDialog) {
+    controller: function ($scope, $rootScope, dataManager, $localStorage, $mdDialog, deviceReady) {
       $scope.local = $localStorage;
       $scope.recentNotification = null;
       $scope.notificationIcon = "notifications";
@@ -45,7 +45,7 @@ happyLeaf.component('notificationView', {
           async.forEach($localStorage.notifications, function(notification){
             if(!notification.seen) $scope.unreadNotifications ++;
             console.log(now - notification.time);
-            if(notification.title == data.title && now - notification.time < 300000) {
+            if(notification.title == data.title && now - notification.time < 25200000) {
               shouldAdd = false;
             }
           });
@@ -55,7 +55,7 @@ happyLeaf.component('notificationView', {
             $scope.unreadNotifications ++;
             $scope.recentNotification = data;
             $scope.$digest();
-            if(cordova){
+            if(cordova && $localStorage.settings.notifications.enablePush){
               cordova.plugins.notification.local.schedule({
                   id: $localStorage.notifications.length,
                   title: data.title,
@@ -66,17 +66,20 @@ happyLeaf.component('notificationView', {
           }
         }
       });
-      if(cordova){
-        cordova.plugins.notification.local.on("trigger", function(notification) {
-          var index = null;
-          logManager.log("Opening notification: " + JSON.stringify(notification));
-          for (var i = 0; i < $localStorage.notifications.length; i++) {
-            if(JSON.stringify($localStorage.notifications[i]) == JSON.string(notification)) {
-              openNotification(null, notification, i);
+
+      deviceReady(function(){
+        if(cordova){
+          cordova.plugins.notification.local.on("trigger", function(notification) {
+            var index = null;
+            logManager.log("Opening notification: " + JSON.stringify(notification));
+            for (var i = 0; i < $localStorage.notifications.length; i++) {
+              if(JSON.stringify($localStorage.notifications[i]) == JSON.string(notification)) {
+                openNotification(null, notification, i);
+              }
             }
-          }
-        });
-      }
+          });
+        }
+      });
 
 
       $scope.openNotification = function(ev, notification, notificationIndex) {
@@ -110,11 +113,11 @@ happyLeaf.component('notificationView', {
 
       $scope.clearAll = function(ev){
         var confirm = $mdDialog.confirm()
-         .title('Reset all notifications?')
-         .textContent('This will perminantly delete all current notifications, are you sure?')
+         .title($translate.instant('NOTIFICATIONS.RESET_DIALOG.TITLE'))
+         .textContent($translate.instant('NOTIFICATIONS.RESET_DIALOG.CONTENT'))
          .targetEvent(ev)
-         .ok('Yes, reset!')
-         .cancel('Nevermind');
+         .ok($translate.instant('NOTIFICATIONS.RESET_DIALOG.OKAY'))
+         .cancel($translate.instant('NOTIFICATIONS.RESET_DIALOG.NEVERMIND'));
 
          $mdDialog.show(confirm).then(function() {
            $localStorage.notifications = [];

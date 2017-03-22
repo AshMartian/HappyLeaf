@@ -5,7 +5,7 @@ happyLeaf.component('leafDisplay', {
     templateUrl:'components/leaf-display.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $filter) {
+    controller: function ($scope, $rootScope, dataManager, $filter, $translate) {
         this.headLights = dataManager.headLights;
         this.turnSignal = dataManager.turnSignal;
         this.turnAngle = dataManager.turnAngle;
@@ -17,7 +17,7 @@ happyLeaf.component('leafDisplay', {
         $scope.SOCChart = {
           data: [],
           colors: [],
-          options: {cutoutPercentage: 78, animation : false, scaleOverride: true, tooltips: { enabled: false }, animateScale: true},
+          options: {cutoutPercentage: 78, animation : false, scaleOverride: false, tooltips: { enabled: false }, animateScale: true},
           width: 10,
           height: 10,
           left: 0,
@@ -101,6 +101,7 @@ happyLeaf.component('leafDisplay', {
           }
 
           $("#Trans").text(dataManager.transmission);
+          $("#SOC_x5F_Text").text($translate.instant("LEAF_DISPLAY.SOC"));
 
           if(dataManager.tire1){
             $("#Tire_x5F_1").text(dataManager.tire1);

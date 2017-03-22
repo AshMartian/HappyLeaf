@@ -2,7 +2,7 @@
   <form>
     <md-toolbar>
       <div class="md-toolbar-tools">
-        <h2>Manage</h2>
+        <h2 translate>SETTINGS.TITLE</h2>
         <span flex></span>
       </div>
     </md-toolbar>
@@ -13,45 +13,49 @@
 
             <md-list>
 
-              <md-subheader class="md-no-sticky">Display</md-subheader>
+              <md-subheader class="md-no-sticky">{{'SETTINGS.DISPLAY.TITLE' | translate}}</md-subheader>
               <md-list-item >
-                <p>Hide extra data
-                <br/><small>May improve performance</small></p>
+                <p>{{'SETTINGS.DISPLAY.EXTRA_DATA' | translate}}
+                <br/><small translate>SETTINGS.DISPLAY.EXTRA_DATA_DETAIL</small></p>
                 <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
               </md-list-item>
 
-              <md-subheader class="md-no-sticky">Theme / Dark Mode</md-subheader>
+              <md-subheader class="md-no-sticky" translate>{{'SETTINGS.DARK_MODE.TITLE' | translate}}</md-subheader>
               <md-list-item >
-                <p>Ambient Light sensor</p>
+                <p translate>SETTINGS.DARK_MODE.AMBIENT</p>
                 <md-switch ng-model="local.settings.experiance.darkModeAmbient" ng-disabled="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
               </md-list-item>
 
               <md-list-item>
-                <p>Ambient Light Sensitivity</p><br/>
+                <p translate>SETTINGS.DARK_MODE.AMBIENT_SENSITIVITY</p><br/>
                 <md-slider flex min="0" max="10" md-discrete ng-disabled="!local.settings.experiance.darkModeAmbient || local.settings.experiance.darkModeHeadlights" ng-model="local.settings.experiance.lightSensitivity"></md-slider>
               </md-list-item>
 
-
-
               <md-list-item>
-                <p>Activate Dark with Headlights</p>
+                <p translate>SETTINGS.DARK_MODE.DARK_HEADLIGHTS</p>
                 <md-switch ng-model="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
               </md-list-item>
 
+              <md-subheader class="md-no-sticky">{{'SETTINGS.NOTIFICATIONS.TITLE' | translate}}</md-subheader>
 
-              <md-subheader class="md-no-sticky">Experimental</md-subheader>
+              <md-list-item>
+                <p translate>SETTINGS.NOTIFICATIONS.ENABLE_DEVICE</p>
+                <md-switch ng-model="local.settings.notifications.enablePush"></md-switch>
+              </md-list-item>
+
+              <md-subheader class="md-no-sticky">{{'SETTINGS.EXPERIMENTAL.TITLE' | translate}}</md-subheader>
               <md-list-item >
-                <p>Save OBD log file <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
+                <p>{{'SETTINGS.EXPERIMENTAL.SAVE_OBD' | translate}} <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
                 <md-switch ng-model="local.settings.experimental.logOBDFile" aria-label="Debug Codes"></md-switch>
               </md-list-item>
 
               <md-list-item >
-                <p>Save History log file <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
+                <p>{{'SETTINGS.EXPERIMENTAL.SAVE_HISTORY' | translate}} <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
                 <md-switch ng-model="local.settings.experimental.logHistoryFile" aria-label="Debug Codes"></md-switch>
               </md-list-item>
 
               <md-list-item >
-                <p>Send debug codes <br/><small>(very slow)</small></p>
+                <p>{{'SETTINGS.EXPERIMENTAL.DEBUG_CODES' | translate}} <br/><small translate>SETTINGS.EXPERIMENTAL.DEBUG_EXPLAIN</small></p>
                 <md-switch ng-model="local.settings.experimental.debugCodes" aria-label="Debug Codes"></md-switch>
               </md-list-item>
 
@@ -61,9 +65,9 @@
         </md-tab>
         <md-tab label="data">
           <md-content class="md-padding">
-            <h3 class="md-display-2">Clear History</h3>
+            <h3 class="md-display-2" translate>SETTINGS.DATA.CLEAR</h3>
             <md-button class="md-raised md-warn" ng-click="clearHistory($event)">
-              Delete
+              {{'SETTINGS.DATA.DELETE' | translate}}
             </md-button>
             <!--md-contact-chips
                 ng-model="dataKeys"

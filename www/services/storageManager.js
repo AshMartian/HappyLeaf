@@ -1,23 +1,25 @@
-happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', '$localStorage', function($rootScope, dataManager, logManager, $localStorage){
+happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionManager', 'logManager', '$localStorage', function($rootScope, dataManager, connectionManager, logManager, $localStorage){
 
   var self = {
     db: null,
 
     createHistoryPoint: function(){
-      var now = (new Date()).getTime();
-      dataManager.endTime = now;
-      var currentDataManager = {};
-      async.forEach(Object.keys(dataManager), function(key){
-        if(typeof dataManager[key] !== 'function'){
-          currentDataManager[key] = dataManager[key];
-        }
-      });
+      if(connectionManager.isConnected){
+        var now = (new Date()).getTime();
+        dataManager.endTime = now;
+        var currentDataManager = {};
+        async.forEach(Object.keys(dataManager), function(key){
+          if(typeof dataManager[key] !== 'function'){
+            currentDataManager[key] = dataManager[key];
+          }
+        });
 
-      $localStorage.history[now] = currentDataManager;
-      $localStorage.historyCount = Object.keys($localStorage.history).length;
-      dataManager.historyCreated();
-      $rootScope.$broadcast('historyUpdated');
-      $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
+        $localStorage.history[now] = currentDataManager;
+        $localStorage.historyCount = Object.keys($localStorage.history).length;
+        dataManager.historyCreated();
+        $rootScope.$broadcast('historyUpdated');
+        $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
+      }
       //console.log("Creating history point");
     },
 

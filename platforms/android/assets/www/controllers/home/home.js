@@ -1,4 +1,4 @@
-happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
+happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $translate, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
     $scope.deviceready = false;
     $scope.settingsIcon = "settings";
 
@@ -12,30 +12,30 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.renderLog = false;
     $scope.logOutput = logManager.logText;
     $scope.wattDisplay = 'perWatt';
+    $scope.distanceToDisplay = 0;
 
     $scope.menuOptions = [{
-      title: "Use Watts/" + dataManager.distanceUnits,
+      title: $translate.instant("HOME.MENUS.USE_WATTS", {units: dataManager.distanceUnits}),
       icon: "swap_horiz",
       clicked: function(){
         if($scope.wattDisplay == 'perDistance'){
-          this.title = "Use Watts/" + dataManager.distanceUnits;
+          this.title = $translate.instant("HOME.MENUS.USE_WATTS", {units: dataManager.distanceUnits});
           $scope.wattDisplay = 'perWatt';
         } else {
-          this.title = "Use " + dataManager.distanceUnits + "/kW";
+          this.title = $translate.instant("HOME.MENUS.USE_KW", {units: dataManager.distanceUnits});
           $scope.wattDisplay = 'perDistance';
         }
       }
     },{
-      title: "Reset",
+      title: $translate.instant("HOME.MENUS.RESET"),
       icon: "cached",
       clicked: function(ev){
         var confirm = $mdDialog.confirm()
-         .title('Reset Watt Meter?')
-         .textContent('This will reset the current Watt measurement and set the Watt start time to now. Are you sure?')
-         .ariaLabel('Lucky day')
+         .title($translate.instant("HOME.RESET_WARNING.TITLE"))
+         .textContent($translate.instant("HOME.RESET_WARNING.CONTENT"))
          .targetEvent(ev)
-         .ok('Yes, reset!')
-         .cancel('Nevermind');
+         .ok($translate.instant("HOME.RESET_WARNING.CONTINUE"))
+         .cancel($translate.instant("HOME.RESET_WARNING.NEVERMIND"));
 
          $mdDialog.show(confirm).then(function() {
            dataManager.setWattsWatcher();
@@ -44,17 +44,16 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
          });
       }
     }, {
-      title: "Explain",
+      title: $translate.instant("HOME.MENUS.EXPLAIN"),
       icon: "info",
       clicked: function(ev){
         $mdDialog.show(
           $mdDialog.alert()
             .parent(angular.element(document.querySelector('#home')))
             .clickOutsideToClose(true)
-            .title('Watt Meter')
-            .textContent('Watts are the measurement of energy transfer, being able to track Watt usage is key to increase efficiency. This widget measures the Watt change from a specified time, and can be reset anytime.')
-            .ariaLabel('Alert Dialog Demo')
-            .ok('Got it!')
+            .title($translate.instant("HOME.EXPLAIN_METER.TITLE"))
+            .textContent($translate.instant("HOME.EXPLAIN_METER.CONTENT"))
+            .ok($translate.instant("HOME.EXPLAIN_METER.OKAY"))
             .targetEvent(ev)
         );
       }
@@ -77,7 +76,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
         } else if(typeof dataManager[key] == 'number') {
           return Math.round(dataManager[key] * 100) / 100;
         } else if(typeof dataManager[key] == 'boolean') {
-          return dataManager[key] ? "Yes": "No";
+          return dataManager[key] ? $translate.instant('HOME.YES'): $translate.instant('HOME.NO');
         } else {
           return dataManager[key];
         }
@@ -111,8 +110,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
     $scope.lastMsg = "";
     $scope.messagesReceived = [];
 
-    $scope.init = function(){
+    $scope.cycleDistance = function(){
+      $scope.distanceToDisplay ++;
+      if($scope.distanceToDisplay > 2 && $localStorage.milesDrivenToday) $scope.distanceToDisplay = 0;
+      if($scope.distanceToDisplay > 1 && !$localStorage.milesDrivenToday) $scope.distanceToDisplay = 0;
+    }
 
+    $scope.init = function(){
+      setInterval($scope.cycleDistance, 5000);
 
       setInterval(function(){
         logManager.log("Setting history point");
@@ -273,7 +278,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, b
           logManager.log("Generated " + commandsToSend.length + " commads!");
         } else {
           logManager.log("Watching CAN for known messages");
-          commandsToSend = ["ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
+          commandsToSend = ["ATBD", "ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
         }
         $scope.lastRequestTime = (new Date()).getTime();
         bluetoothSend.shouldSend();

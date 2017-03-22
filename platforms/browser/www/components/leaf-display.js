@@ -5,7 +5,7 @@ happyLeaf.component('leafDisplay', {
     templateUrl:'components/leaf-display.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $filter) {
+    controller: function ($scope, $rootScope, dataManager, $filter, $translate) {
         this.headLights = dataManager.headLights;
         this.turnSignal = dataManager.turnSignal;
         this.turnAngle = dataManager.turnAngle;
@@ -101,6 +101,7 @@ happyLeaf.component('leafDisplay', {
           }
 
           $("#Trans").text(dataManager.transmission);
+          $("#SOC_x5F_Text").text($translate.instant("LEAF_DISPLAY.SOC"));
 
           if(dataManager.tire1){
             $("#Tire_x5F_1").text(dataManager.tire1);
@@ -199,14 +200,14 @@ happyLeaf.component('leafDisplay', {
             setTimeout(function(){
                 $scope.leafClass = 'motor-usage';
                 $scope.$digest();
-            }, 20);
+            }, 50);
           } else if(dataManager.motorWatts < 0 && parseInt(dataManager.speed) > 0 && $scope.leafClass !== 'regening') {
             $scope.leafClass = '';
             $scope.$digest();
             setTimeout(function(){
                 $scope.leafClass = 'regening';
                 $scope.$digest();
-            }, 20);
+            }, 50);
           } else if(dataManager.speed == 0 || dataManager.motorWatts == 0){
             $scope.leafClass = '';
           }
@@ -237,22 +238,22 @@ happyLeaf.component('leafDisplay', {
           //console.log("Width: " + $scope.SOCChart.width)
 
           if(dataManager.motorWatts && dataManager.motorWatts !== 0) {
-            if(dataManager.targetRegenBraking < 10 && dataManager.motorWatts > 0){
+            if(dataManager.motorWatts > 0){
               var motorKW = dataManager.motorWatts / 1000;
-              $scope.AmpsChart.data = [motorKW, 80 - motorKW];
+              $scope.AmpsChart.data = [motorKW, 90 - motorKW];
               $scope.AmpsChart.colors = ["#ff993e", "#9B9B9B"];
             } else if(dataManager.motorWatts < 0){
               var motorKW = dataManager.motorWatts / 1000;
-              $scope.AmpsChart.data = [30 - Math.abs(motorKW), Math.abs(motorKW)];
+              $scope.AmpsChart.data = [40 - Math.abs(motorKW), Math.abs(motorKW)];
               $scope.AmpsChart.colors = ["#9B9B9B", "#62C50F"];
             } else {
               var regenKw = dataManager.targetRegenBraking;
-              $scope.AmpsChart.data = [30 - regenKw, regenKw];
+              $scope.AmpsChart.data = [40 - regenKw, regenKw];
               $scope.AmpsChart.colors = ["#9B9B9B", "#62C50F"];
             }
             //console.log("Got motor watts " + $scope.AmpsChart.data);
           } else {
-            $scope.AmpsChart.data = [0, 80];
+            $scope.AmpsChart.data = [0, 90];
             $scope.AmpsChart.colors = ["#ff993e", "#9B9B9B"];
           }
         }

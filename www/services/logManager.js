@@ -1,16 +1,19 @@
 happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootScope, $localStorage){
-
+  var currentVersion = "(fresh install)";
+  if($localStorage.settings) {
+    currentVersion = $localStorage.settings.about.version;
+  }
 
   var self = {
-    logText: "HappyLeaf Version " + $localStorage.settings.about.version + "\r\n",
-    logFull: "HappyLeaf Version " + $localStorage.settings.about.version + "\r\n",
+    logText: "HappyLeaf Version " + currentVersion + "\r\n",
+    logFull: "HappyLeaf Version " + currentVersion + "\r\n",
 
     historyLogName: moment().format("MM-DD-YYYY") + "-history.json",
     canLogName: moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt",
 
     betaDirectory: null,
     happyLeafDir: null,
-
+    
     setupFilesystem: function(){
       self.log("Root file directory: " + cordova.file.externalRootDirectory);
       self.createLogDirectory(cordova.file.externalRootDirectory, function(){
