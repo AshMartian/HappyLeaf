@@ -14,6 +14,9 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
     $scope.wattDisplay = 'perWatt';
     $scope.distanceToDisplay = 0;
 
+    if($localStorage.lang) $translate.use($localStorage.lang);
+    moment.locale($translate.use());
+
     $scope.menuOptions = [{
       title: $translate.instant("HOME.MENUS.USE_WATTS", {units: dataManager.distanceUnits}),
       icon: "swap_horiz",

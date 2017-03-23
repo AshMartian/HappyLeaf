@@ -39,7 +39,19 @@ happyLeaf.component('settingsDialog', {
       function DialogController($scope, $mdDialog, $translate, $localStorage, dataManager, logManager) {
         $scope.local = $localStorage;
         $scope.loveIcon = "favorite";
-        $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"]
+        $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"];
+        $scope.languages = [{
+          name: "SETTINGS.DISPLAY.LANGUAGE.ENGLISH",
+          short: "en"
+        },{
+          name: "SETTINGS.DISPLAY.LANGUAGE.FRENCH",
+          short: "fr"
+        }];
+
+        $scope.setLanguage = function(shortCode) {
+          $localStorage.lang = shortCode;
+          $translate.use(shortCode);
+        };
 
         setInterval(function(){
           var randomIconInt = Math.floor(Math.random() * $scope.availableIcons.length)

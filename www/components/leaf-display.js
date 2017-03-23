@@ -17,7 +17,7 @@ happyLeaf.component('leafDisplay', {
         $scope.SOCChart = {
           data: [],
           colors: [],
-          options: {cutoutPercentage: 78, animation : false, scaleOverride: false, tooltips: { enabled: false }, animateScale: true},
+          options: {cutoutPercentage: 78, animation : false, scaleOverride: true, tooltips: { enabled: false }, animateScale: true},
           width: 10,
           height: 10,
           left: 0,

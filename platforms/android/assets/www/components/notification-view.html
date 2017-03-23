@@ -4,7 +4,7 @@
 
 
 <md-menu md-position-mode="target-right target">
-  <md-button class="notifications-btn" ng-click="$mdOpenMenu($event)">
+  <md-button class="notifications-btn" ng-click="$mdMenu.open($event)">
     <md-badge ng-if="unreadNotifications > 0"><b>{{unreadNotifications}}</b></md-badge>
     <ng-md-icon class="refresh-icon notification-icon rotate" options='{"rotation": "counterclock"}' icon="{{notificationIcon}}" size="40px" style="fill: white;"></ng-md-icon>
   </md-button>

@@ -25,7 +25,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
 
   $localStorage.settings.about = {
-    version: "0.1.8.3"
+    version: "0.1.8.5"
   };
 
 
@@ -52,6 +52,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   deviceReady(function(){
     logManager.log("Translating to " + $translate.use());
   	logManager.log("Device is ready!");
+    if($localStorage.lang) $translate.use($localStorage.lang);
     moment.locale($translate.use());
 
   	$scope.ready = true;

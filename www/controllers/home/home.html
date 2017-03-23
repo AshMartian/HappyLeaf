@@ -10,7 +10,7 @@
         <small ng-if="local.mileDriven > 0 && distanceToDisplay == 1" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} {{'HOME.HAPPY' | translate}}</small>
         <small ng-if="local.milesDrivenToday > 0 && distanceToDisplay == 2" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} {{'HOME.TODAY' | translate}}</small>
       </div>
-      
+
       <!-- fill up the space between left and right area -->
       <span flex></span>
       <span ng-if="data.outsideTemp">
@@ -28,7 +28,7 @@
     <div layout="row" class="main-top-row">
       <div layout="column">
         <md-menu class="left-button" flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-position-mode="target-right target">
-          <md-button aria-label="Open menu" class="md-icon-button left-button up" ng-click="$mdOpenMenu($event)">
+          <md-button aria-label="Open menu" class="md-icon-button left-button up dark-button" ng-click="$mdMenu.open($event)">
             <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
           </md-button>
           <md-menu-content width="2">
@@ -63,7 +63,7 @@
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
             <md-menu md-position-mode="target-right target">
-              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdOpenMenu($event)">
+              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdMenu.open($event)">
                 <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
               </md-button>
               <md-menu-content width="3">
