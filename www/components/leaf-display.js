@@ -95,7 +95,7 @@ happyLeaf.component('leafDisplay', {
 
           if(dataManager.isCharging) {
             //$("#Charger_x5F_Flow lineargradient stop").attr('style', 'stop-color: #62C50F;');
-            $('#Charging_x5F_Text').text((Math.round(dataManager.chargingVolts * 10) / 10) + "v");
+            $('#Charging_x5F_Text').text((Math.round(dataManager.chargingWatts * 10) / 10) + "Wh");
           } else {
             //$("#Charger_x5F_Flow lineargradient stop").attr('style', 'stop-color: #A0A2A4;');
           }

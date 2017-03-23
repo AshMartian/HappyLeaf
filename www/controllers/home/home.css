@@ -561,7 +561,7 @@ main.dark #LEAF text {
    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   md-card b {
-    font-size: 2.8vh;
+    font-size: 2.6vh;
   }
   .SOC-Text {
     font-size: 3vh;
@@ -621,8 +621,12 @@ main.dark #LEAF text {
   }
 
   .content {
-    margin-top: 10px;
+    margin-top: 15px;
     padding-top: 40px;
+  }
+
+  .status {
+  	font-size: 2vw !important;
   }
 
 }

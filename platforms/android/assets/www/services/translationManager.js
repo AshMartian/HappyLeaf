@@ -8,6 +8,7 @@ var translationsEN = {
     TESTING: 'Testing...',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
+    DEVICE_TIPS: "If you do not see your ODB, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
     BLUETOOTH_ERROR: {
       TITLE: "ODB Bluetooth Needed",
       CONTENT: "Bluetooth must be enabled to communicate with OBD device.",

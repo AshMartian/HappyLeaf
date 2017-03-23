@@ -44,7 +44,7 @@ happyLeaf.component('notificationView', {
           $scope.unreadNotifications = 0;
           async.forEach($localStorage.notifications, function(notification){
             if(!notification.seen) $scope.unreadNotifications ++;
-            console.log(now - notification.time);
+            //console.log(now - notification.time);
             if(notification.title == data.title && now - notification.time < 25200000) {
               shouldAdd = false;
             }
@@ -73,7 +73,7 @@ happyLeaf.component('notificationView', {
             var index = null;
             logManager.log("Opening notification: " + JSON.stringify(notification));
             for (var i = 0; i < $localStorage.notifications.length; i++) {
-              if(JSON.stringify($localStorage.notifications[i]) == JSON.string(notification)) {
+              if($localStorage.notifications[i].title == notification.title) {
                 openNotification(null, notification, i);
               }
             }

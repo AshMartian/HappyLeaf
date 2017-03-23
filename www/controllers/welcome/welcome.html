@@ -16,12 +16,18 @@
 </header>
 
 <main flex id="welcome">
-  <md-content>
+  <md-content class="device-list">
   	<md-radio-group ng-model="selected">
   	  <md-radio-button ng-click="connectDevice(device.address)" ng-repeat="device in devices" ng-value="device.address" aria-label="{{ device.name}}">
   	     <span class="device-name">{{ device.name }}</span>
   	  </md-radio-button>
   	</md-radio-group>
+    <md-list-item>
+      <span translate>
+          WELCOME.DEVICE_TIPS
+      </span>
+    </md-list-item>
+
   </md-content>
 </main>
 

@@ -25,7 +25,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
 
   $localStorage.settings.about = {
-    version: "0.1.7.4"
+    version: "0.1.8.1"
   };
 
 
@@ -110,11 +110,11 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
     });
 
-    $scope.$watch('connectionManager.connected', function(connected){
+    $scope.$watch('connectionManager.isConnected', function(connected){
       logManager.log("Devices connected " + connected);
     });
     //logManager.log(connectionManager);
-    if(connectionManager.connected){
+    if(connectionManager.isConnected){
       $scope.canContinue = true;
     } else {
       connectionManager.scanDevices(function(results){
@@ -157,7 +157,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $localStorage.lastConnected = deviceAddress;
 
     connectionManager.connectDevice(deviceAddress, function(){
-      $scope.status = $translate.instant("WELCOME.CONNECTED");
+      $scope.status = $translate.instant("WELCOME.isConnected");
       logManager.log("Connected welcome");
       $scope.testDevice();
     }, function(err){
@@ -235,7 +235,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.continue = function(){
-    if($scope.canContinue || connectionManager.connected){
+    if($scope.canContinue || connectionManager.isConnected){
       logManager.log("Going to home");
       $location.path("/home");
     } else if($localStorage.historyCount > 0) {

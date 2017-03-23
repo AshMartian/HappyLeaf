@@ -265,7 +265,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
          title: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE"),
          time: (new Date()).getTime(),
          seen: false,
-         content: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE", {volts: self.accBattVolts}),
+         content: $translate.instant("NOTIFICATIONS.LOW_12V.CONTENT", {volts: self.accBattVolts}),
          icon: "battery_20"
        });
      }
