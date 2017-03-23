@@ -25,7 +25,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
 
   $localStorage.settings.about = {
-    version: "0.1.8.1"
+    version: "0.1.8.3"
   };
 
 
