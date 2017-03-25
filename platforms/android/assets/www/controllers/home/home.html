@@ -46,7 +46,7 @@
 
         <leaf-display></leaf-display>
       </div>
-      <div layout="column" class="main-top-stats data-column">
+      <div layout="column" class="main-top-stats data-column fade-in fade-long">
         <div layout="row">
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
@@ -108,7 +108,7 @@
     </div>
 
     </div>
-    <div flex ng-if="!local.settings.experiance.displayAllData">
+    <div flex class="other-bottom-stats fade-in fade-super-long" ng-if="!local.settings.experiance.displayAllData">
       <md-grid-list
         md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
         md-row-height-gt-md="1:1" md-row-height="4:2"
@@ -148,10 +148,11 @@
     </div>
   </div>
 
-  <div class="log-container">
+  <div class="log-container fade-super-long">
     <ng-md-icon class="log-icon" icon="{{logIcon}}" size="40px" style="fill: black;" ng-click="toggleLog()" options='{"rotation": "none"}'></ng-md-icon>
     <p class="log">
       {{logOutput}}
+      {{SETTINGS.DATA.LOG_LOCATION | translate:'{ location: "local.settings.data.logLocation" }'}}
     </p>
   </div>
 </main>

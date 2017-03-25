@@ -5,6 +5,7 @@ var translationsEN = {
     SCANNING: "Scanning...",
     CONNECTING: 'Connecting...',
     CONNECTED: 'Connected!',
+    NO_BLUETOOTH: 'Could not find Bluetooth interface',
     TESTING: 'Testing...',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
@@ -107,11 +108,15 @@ var translationsEN = {
     },
     HIGH_TIRE: {
       TITLE: "{{tire}} Tire Pressure High",
-      CONTENT: "<h1>High {{tire}} Tire pressure</h1><p>High tire pressures may cause poor efficiency.<br/>{{tire}} tire was read at: {{value}} psi. </p>",
+      CONTENT: "<h1>High {{tire}} Tire pressure</h1><p>High tire pressures may cause poor efficiency.<br/>{{tire}} tire was read at: {{value}} psi.<br />Current threshold is {{threshold}}. </p>",
     },
     LOW_TIRE: {
       TITLE: "{{tire}} Tire Pressure Low",
-      CONTENT: "<h1>Low {{tire}} Tire pressure</h1><p>Low tire pressures may cause poor efficiency<br/>{{tire}} tire was read at: {{value}} psi. </p>"
+      CONTENT: "<h1>Low {{tire}} Tire pressure</h1><p>Low tire pressures may cause poor efficiency<br/>{{tire}} tire was read at: {{value}} psi.<br/>Current threshold is {{threshold}}. </p>"
+    },
+    TIRE_DELTA: {
+      TITLE: "High Tire Delta",
+      CONTENT: "<h1>Tire Delta {{value}}</h1><p>This is more than the defined threshold of {{threshold}}. The PSI difference between the most inflated tire and least inflated tire is {{value}}</p>"
     }
   },
   SETTINGS: {
@@ -120,10 +125,19 @@ var translationsEN = {
       DATA: "Data",
       ABOUT: "About"
     },
+    DELETE_CONFIRM: {
+      TITLE: 'Delete all history?',
+      CONTENT: 'This will perminantly delete all history for today, if you do not have logs enabled, this data will be lost forever. Are you sure?',
+      CONFIRM: 'Yes, reset!',
+      NEVERMIND: 'Nevermind'
+    },
     TITLE: "Manage",
     NOTIFICATIONS: {
       TITLE: "Notifications",
-      ENABLE_DEVICE: "Send notifications to OS"
+      ENABLE_DEVICE: "Send notifications to OS",
+      TIRE_HIGH_THRESHOLD: "High Tire PSI",
+      TIRE_LOW_THRESHOLD: "Low Tire PSI",
+      TIRE_DELTA_THRESHOLD: "Tire Delta Limit"
     },
     DISPLAY: {
       TITLE: "Display",
@@ -132,6 +146,7 @@ var translationsEN = {
       LANGUAGE: {
         ENGLISH: "English",
         FRENCH: "French",
+        RUSSIAN: "Russian",
         TITLE: "Language"
       }
     },
@@ -150,7 +165,8 @@ var translationsEN = {
     },
     DATA: {
       CLEAR: "Clear History",
-      DELETE: "Delete"
+      DELETE: "Delete",
+      LOG_LOCATION: "Find more logs at {{location}}"
     }
   }
 };
@@ -280,7 +296,9 @@ var translationsFR = {
     TITLE: "Gérer",
     NOTIFICATIONS: {
       TITLE: "Notifications",
-      ENABLE_DEVICE: "Envoyez notifications à Android"
+      ENABLE_DEVICE: "Envoyez notifications à Android",
+      TIRE_HIGH_THRESHOLD: "PSI à pneus hauts",
+      TIRE_LOW_THRESHOLD: "Pneus bas PSI"
     },
     DISPLAY: {
       TITLE: "Affichage",
@@ -289,6 +307,7 @@ var translationsFR = {
       LANGUAGE: {
         ENGLISH: "Anglais",
         FRENCH: "Français",
+        RUSSIAN: "russe",
         TITLE: "La langue"
       }
     },
@@ -312,11 +331,173 @@ var translationsFR = {
   }
 };
 
+
+var translationsRU = {
+  WELCOME: {
+    TITLE: 'Добро пожаловать',
+    LOADING_TEXT: 'Загрузка...',
+    SCANNING: "Сканирование...",
+    CONNECTING: 'Соединение...',
+    CONNECTED: 'Подсоединено!',
+    TESTING: 'Тестирование...',
+    SUCCESS: 'Подсоединено к {{output}}!',
+    FOUND: 'Найдено {{length}} сопряженных устройства',
+    DEVICE_TIPS: "Если вы не увидели ваше ODB устройство, установите сопряжение в Настройки -> Bluetooth в вашей OS.<br/>Убедитесь, что другие приложения не используют Bluetooth.",
+    BLUETOOTH_ERROR: {
+      TITLE: "Требуется ODB Bluetooth устройство",
+      CONTENT: "Bluetooth должен быть включен для соединения с OBD устройством.",
+      RETRY: "Попробовать еще"
+    },
+    OFFLINE_WARNING: {
+      TITLE: "Оффлайн режим",
+      CONTENT: "В данный момент нет подключения к OBD устройству. Будут загружены последние данные из истории. Если последнее подсоединенное устройство bluetooth доступно, попытка переподключения произойдет автоматически.",
+      CONTINUE: "Продолжить"
+    }
+  },
+  HOME: {
+    TITLE: "Happy Leaf",
+    USED: "Использовано",
+    REMAINING: "Осталось",
+    GAINED: "Получено",
+    HAPPY: "Счастливый",
+    TODAY: "Сегодня",
+    TO: "к",
+    YES: "Да",
+    NO: "Нет",
+    HEALTH: "Здоровье",
+    SINCE: "с",
+    WATTS_MIN: "Ватт/мин.",
+    MENUS: {
+      TO_DARK: "Переключить на темную",
+      TO_LIGHT: "Переключить на светлую",
+      USE_WATTS: "Использовать Ватты/{{units}}",
+      USE_KW: "Использовать {{units}}/кВатт",
+      RESET: "Сброс",
+      EXPLAIN: "Пояснение"
+    },
+    RESET_WARNING: {
+      TITLE: 'Сбросить Ваттметр?',
+      CONTENT: 'Это очистит ваши текущие показания Ваттметра и установит текущее время старта. Вы уверены? ',
+      CONTINUE: 'Да, сбросить!',
+      NEVERMIND: 'Не нужно'
+    },
+    EXPLAIN_METER: {
+      TITLE: 'Ваттметр',
+      CONTENT: 'Ватты являются измерением передачи энергии, и могут отследить потребление для повышения эффективности. Этот виджет измеряет изменение Ваттов за промежуток времени и может быть сброшен в любое время.',
+      OKAY: 'Понял!'
+    }
+  },
+  LEAF_DISPLAY: {
+    SOC: "Уровень заряда (SOC)",
+    MOTOR: "Двигатель",
+    CLIMATE: "Климат"
+  },
+  NOTIFICATIONS: {
+    CLEAR_ALL: "Очистить все",
+    NONE_YET: "Нет напоминаний!",
+    RESET_DIALOG: {
+      TITLE: 'Очистить все уведомления?',
+      CONTENT: 'Это действие полностью очистит все текущие уведомления, вы уверены? ',
+      OKAY: 'Да, очистить!',
+      NEVERMIND: 'Не нужно'
+    },
+    HIGH_BAT_TEMP: {
+      TITLE: "Высокая температура батареи",
+      CONTENT: "<h1>Высокая температура батареи</h1><p>Высокая температура батареи может нанести необратимый ущерб, не используйте быстрые зарядки до охлаждения батареи.<br/> Температура батареи: {{temp}}&град. </p>"
+    },
+    LOW_BAT_TEMP: {
+      TITLE: "Низкая температура батареи",
+      CONTENT: "<h1>Низкая температура батареи</h1><p> Низкая температура батареи может нанести необратимый ущерб. Подсоедините зарядное устройство для активации обогревателя батареи. <br/>Температура батареи: {{temp}}&град. </p>"
+    },
+    RAPID_TEMP: {
+      TITLE: "Быстрое увеличение температуры батареи",
+      CONTENT: "<h1>Температура батареи растет слишком быстро</h1><p>Температура батареи увеличилась на 1&град.; слишком быстро.<br/> Температура батареи: {{temp}}&град. с увеличением на  {{increase}}&град;. </p>"
+    },
+    LOW_12V: {
+      TITLE: "12v Аккумулятор разряжен",
+      CONTENT: "<h1>Проверьте 12v аккумулятор!</h1><p>Кажется, что ваш 12v аккумулятор разряжен. <br/>Уровень его заряда: {{volts}} ваольт. </p>"
+    },
+    LOW_TRACTION: {
+      TITLE: "Батарея разряжена",
+      CONTENT: "<h1>Низкий заряд батареи!</h1><p>У вас кончается заряд! Быстро найдите зарядное устройство! <br/>Уровень заряда батареи: {{SOC}}%. </p>"
+    },
+    LOW_HX: {
+      TITLE: "Низкий HX",
+      CONTENT: "<h1>Показатель HX батареи низкий</h1><p>HX показывает здоровье батареи, и он, похоже, низкий.<br/>Уровень HX батареи: {{hx}}%. </p>"
+    },
+    LOW_OUTSIDE_TEMP: {
+      TITLE: "Внимание, возможен гололёд",
+      CONTENT: "<h1>Низкая температура снаружи</h1><p>Температура ниже 0, возможен гололед. Температура снаружи: {{temp}}&град. </p>"
+    },
+    HIGH_OUTPUT: {
+      TITLE: "Высокое потребление энергии",
+      CONTENT: "<h1>Высокий расход батареи</h1><p>Наверняка быстро ездить весело, но этом может нанести вред вашей батарее.<br/>Избегайте быстрого разгона чтобы продлить срок службы батареи как можно дольше. Потребление энергии: {{watts}}Ватт/час</p>"
+    },
+    TIRES: {
+      R_FRONT: "Передняя Правая",
+      L_FRONT: "Передняя Левая",
+      R_REAR: "Задняя Правая",
+      L_REAR: "Задняя Левая"
+    },
+    HIGH_TIRE: {
+      TITLE: "{{tire}} Высокое давление в шине",
+      CONTENT: "<h1>Высокое {{tire}} давление в шине</h1><p>Высокое давление снижает эффективность и увеличивает потребление энергии<br/>{{tire}} давление в шине: {{value}} psi. </p>",
+    },
+    LOW_TIRE: {
+      TITLE: "{{tire}} Низкое давление в шине",
+      CONTENT: "<h1> Низкое {{tire}} давление в шине</h1><p>Низкое давление снижает эффективность и увеличивает потребление энергии<br/>{{tire}} давление в шине: {{value}} psi. </p>"
+    }
+  },
+  SETTINGS: {
+    TABS: {
+      SETTINGS: "Настройки",
+      DATA: "Данные",
+      ABOUT: "О программе"
+    },
+    TITLE: "Управление",
+    NOTIFICATIONS: {
+      TITLE: "Уведомления",
+      ENABLE_DEVICE: "Отправлять уведомления в OS",
+      TIRE_LOW_THRESHOLD: "Низкая шина PSI",
+      TIRE_HIGH_THRESHOLD: "Высокие шины PSI"
+    },
+    DISPLAY: {
+      TITLE: "Экран",
+      EXTRA_DATA: "Спрятать дополнительную информацию",
+      EXTRA_DATA_DETAIL: "Увеличит быстродействие",
+      LANGUAGE: {
+        ENGLISH: "Английский",
+        FRENCH: "Французский",
+        RUSSIAN: "русский",
+        TITLE: "Language"
+      }
+    },
+    DARK_MODE: {
+      TITLE: "Тёмная тема",
+      AMBIENT: "Датчик освещенности",
+      AMBIENT_SENSITIVITY: "Чувствительность датчика освещенности",
+      DARK_HEADLIGHTS: "Включить темную тему с ближним светом"
+    },
+    EXPERIMENTAL: {
+      TITLE: "Экспериментальные настройки",
+      SAVE_OBD: "Сохранить OBD log-файл",
+      SAVE_HISTORY: "Сохранить Историю в файл",
+      DEBUG_CODES: "Показать отладочные коды",
+      DEBUG_EXPLAIN: "(очень медленно)"
+    },
+    DATA: {
+      CLEAR: "Очистить Историю",
+      DELETE: "Удалить"
+    }
+  }
+};
+
 happyLeaf.config(['$translateProvider', function($translateProvider) {
   $translateProvider
     .translations('en', translationsEN)
     .translations('fr', translationsFR)
-    .registerAvailableLanguageKeys(['en', 'fr'], {
+    .translations('ru', translationsRU)
+    .registerAvailableLanguageKeys(['en', 'fr', 'ru'], {
       'en_US': 'en',
       'en_UK': 'en',
       'de_DE': 'de',
@@ -324,7 +505,11 @@ happyLeaf.config(['$translateProvider', function($translateProvider) {
       'fr-BE': 'fr',
       'fr-CA': 'fr',
       'fr-FR': 'fr',
-      'fr-LU': 'fr'
+      'fr-LU': 'fr',
+      'ro': 'ru',
+      'rm': 'ru',
+      'qu': 'ru'
     })
-    .determinePreferredLanguage();
+    .determinePreferredLanguage()
+    .fallbackLanguage('en');;
 }]);

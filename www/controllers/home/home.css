@@ -190,11 +190,21 @@ h3.small {
   min-width: 55vw;
 }
 
-#LEAF {
+#LEAF, .leaf-loading {
   width: 40vw;
   height: 88vh;
+  display: block;
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
+}
+
+.LEAF-Text {
+  opacity: 0;
+}
+
+.loading-container {
+  position: absolute;
+  top: 45px;
 }
 
 main.dark #LEAF text {
@@ -478,14 +488,20 @@ main.dark #LEAF text {
   font-size: 185%;
   font-weight: bold;
   z-index: 3;
+  word-break: break-word;
 }
 .Temp-Text {
   font-weight: lighter;
   opacity: 0.6;
 }
+
 .Volt-Text, .SOC-Text-Label {
   opacity: 0.8;
   font-weight: normal;;
+}
+
+.main-top-stats, .other-bottom-stats {
+  opacity: 0;
 }
 
 .Motor-Text, .Climate-Text {
@@ -528,7 +544,7 @@ main.dark #LEAF text {
 }
 
 @media screen and (orientation:portrait) {
-  #LEAF {
+  #LEAF, .leaf-loading {
     width: 100vw;
     max-height: 50vh;
   }
@@ -566,7 +582,7 @@ main.dark #LEAF text {
    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   md-card b {
-    font-size: 2.6vh;
+    font-size: 2.5vh;
   }
   .SOC-Text {
     font-size: 3vh;
@@ -593,6 +609,7 @@ main.dark #LEAF text {
   md-card h2 {
     font-size: 2vw;
   }
+
   md-card h2 big {
     font-size: 6.6vw;
   }
@@ -606,6 +623,10 @@ main.dark #LEAF text {
   }
   md-card b {
     font-size: 2.8vw;
+  }
+
+  .loading-container {
+    margin-right: 5px;
   }
 
   .SOC-Text {

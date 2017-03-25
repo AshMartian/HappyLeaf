@@ -9,11 +9,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     lastHistoryItem = {};
   }
 
+  var GIDsConfirmed = false;
+
   var self = {
 
     SOH: lastHistoryItem.SOH || 0,
     GIDs: lastHistoryItem.GIDs || 0,
-    batteryTemp: lastHistoryItem.isCharging || 0,
+    batteryTemp: lastHistoryItem.batteryTemp || 0,
     isCharging: lastHistoryItem.isCharging || false,
     batteryVolts: lastHistoryItem.batteryVolts || 0,
     headLights: false,
@@ -52,6 +54,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     rawMotorAmps: null,
     rawMotorVolts: null,
     averageMotorWatts: null,
+    peakMotorWatts: 0,
     averageMotorAmps: null,
     averageMotorVolts: null,
 
@@ -73,8 +76,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
     accVolts: lastHistoryItem.accVolts || null,
 
-    wattsPerSOC: lastHistoryItem.wattsPerSOC || null,
-    wattsPerSOCWatcher: 0,
+    wattsPerSOC: lastHistoryItem.wattsPerSOC || 170,
 
     chargingVolts: 0,
     chargingAmps: 0,
@@ -102,6 +104,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
       self.averageMotorAmps = 0;
       self.averageRegen = 0;
       self.averageMotorVolts = 0;
+      self.peakMotorWatts = 0;
       averageLogs = {};
     },
 
@@ -171,26 +174,51 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     },
 
    setSOH: function(splitMsg){
-     if(splitMsg.length < 7){
+     if(splitMsg.length < 6){
+       logManager.log("Message length invalid " + splitMsg.length);
        return;
      } else {
        var previousGIDs = self.GIDs;
+       var tempByte = splitMsg[0];
+       var previousBatteryTemp = self.batteryTemp;
+       var batteryTempC = (parseInt(tempByte) * .25);
+       var batteryTempF = ((batteryTempC * 9) / 5) + 32;
 
        var SOHbyte = splitMsg[1];
        self.SOH = (parseInt(SOHbyte, 16) / 2);
        var GIDByte = splitMsg[5];
        self.GIDs = parseInt(GIDByte, 16);
-       if(self.SOC > 70 && self.GIDs < 100) {
-         self.GIDs = self.GIDs + 255;
+
+       //self.tempOffset = Math.abs(((batteryTempF / 70 * 100) / 4));
+       var tempDifference = 70 - batteryTempF;
+       if(tempDifference > 0) {
+         tempDifference = tempDifference / 4;
+       } else {
+         tempDifference = tempDifference / 8;
+       }
+       self.tempOffset = 100 - tempDifference;
+
+       var wattsFromGIDs = Math.abs((self.GIDs * 0.775) * self.tempOffset);
+       var kWFromGIDs = wattsFromGIDs / 1000;
+       logManager.log("GID Temp: "+batteryTempF+" offset = " + self.tempOffset + " GID watts " + wattsFromGIDs);
+       //Essentially calculate Kw from SOC and make sure it roughly aligns with GIDs. If it doesn't likley over 255..
+       if(self.actualSOC && self.wattsPerSOC) {
+         var kWFromSOC = Math.round((self.actualSOC * self.wattsPerSOC) / 1000);
+
+         if(kWFromSOC > kWFromGIDs + 3) {
+           self.GIDs = self.GIDs + 255;
+           wattsFromGIDs = (self.GIDs * 0.775) * self.tempOffset;
+           kWFromGIDs = wattsFromGIDs / 1000;
+         }
+         GIDsConfirmed = true;
        }
 
-       var tempByte = splitMsg[0];
-       var previousBatteryTemp = self.batteryTemp;
-       var batteryTempC = (parseInt(tempByte) * .25);
-       self.batteryTemp = batteryTempC;
-       if(self.distanceUnits == "M"){
-         self.batteryTemp = ((self.batteryTemp * 9) / 5) + 32; //convert to F
+       if(self.ODOUnits == "M"){
+         self.batteryTemp =  batteryTempF; //convert to F
+       } else {
+         self.batteryTemp = batteryTempC;
        }
+
        if(batteryTempC > 46) {
          $rootScope.$broadcast('notification', {
            title: $translate.instant("NOTIFICATIONS.HIGH_BAT_TEMP.TITLE"),
@@ -211,7 +239,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
          });
        }
 
-       if(self.isCharging && self.batteryTemp > previousBatteryTemp + 1 && (previousBatteryTemp > 1 || previousBatteryTemp < 1)) {
+       if(self.isCharging && self.batteryTemp > previousBatteryTemp + 1 && (previousBatteryTemp > 2 || previousBatteryTemp < 2)) {
          $rootScope.$broadcast('notification', {
            title: $translation.instant("NOTIFICATIONS.RAPID_TEMP.TITLE"),
            time: (new Date()).getTime(),
@@ -228,11 +256,10 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
         (((281 - 6 Unusable) * 80) * .9705 energy recovery factor) * 0% temp correction = 21.351kWh usable
 
        */
-       var newWatts = self.GIDs * 77.5;
-       if(previousGIDs != self.GIDs || newWatts > self.watts + 77.5 || newWatts < self.watts - 77.5){
-         self.wattDifference = newWatts - self.watts;
-         self.watts = newWatts;
-         self.killowatts = self.watts / 1000;
+       if(previousGIDs != self.GIDs || wattsFromGIDs > self.watts + 77.5 || wattsFromGIDs < self.watts - 77.5){
+         self.wattDifference = wattsFromGIDs - self.watts;
+         self.watts = wattsFromGIDs;
+         self.killowatts = kWFromGIDs;
          self.getWattsPerSOC();
        } else if(previousGIDs != self.GIDs){
          self.getWattsPerSOC();
@@ -273,6 +300,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
    setOdometer: function(splitMsg){
      if(splitMsg.length < 7){
+       logManager.log("Odometer message invalid length");
        return;
      }
       var ODObyte = splitMsg[1] + splitMsg[2] + splitMsg[3];
@@ -289,6 +317,9 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
       if(self.distanceUnits != self.ODOUnits && self.distanceUnits != null && self.ODOUnits !== null) {
         if(self.ODOUnits == "M" && self.distanceUnits == "K") {
           self.odometer = self.odometer * 1.60934;
+        }
+        if(self.ODOUnits == "K" && self.distanceUnits == "M") {
+          self.odometer = self.odometer * 0.621371;
         }
       }
 
@@ -318,7 +349,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
       }
       if(units == "00") {
         self.speed = KMH + "kmh";
-        console.log("Vehicle set to Kilometers");
+        logManager.log("Vehicle set to Kilometers");
         self.distanceUnits = "K";
      } else if (units == "20") {
         self.speed = parseInt(KMH * 0.621371) + "mph";
@@ -421,13 +452,26 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.tire2 = parseInt(splitMsg[3], 16) / 4;
      self.tire3 = parseInt(splitMsg[4], 16) / 4;
      self.tire4 = parseInt(splitMsg[5], 16) / 4;
+     self.tireHighest = Math.max(self.tire1, self.tire2, self.tire3, self.tire4);
+     self.tireLowest = Math.min(self.tire1, self.tire2, self.tire3, self.tire4);
+     self.tireDelta = Math.abs(self.tireHighest - self.tireLowest);
+
+     if(self.tireDelta > $localStorage.settings.notifications.tireDeltaThreshold) {
+       $rootScope.$broadcast('notification', {
+         title: $translate.instant('NOTIFICATIONS.TIRE_DELTA.TITLE', {tire: tire}),
+         time: (new Date()).getTime(),
+         seen: false,
+         content: $translate.instant('NOTIFICATIONS.TIRE_DELTA.CONTENT', {value: self.tireDelta, threshold: $localStorage.settings.notifications.tireLowThreshold}),
+         icon: "swap_vert"
+       });
+     }
 
      var alertLowTire = function(tire, value) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant('NOTIFICATIONS.LOW_TIRE.TITLE', {tire: tire}),
          time: (new Date()).getTime(),
          seen: false,
-         content: $translate.instant('NOTIFICATIONS.LOW_TIRE.CONTENT', {tire: tire, value: value}),
+         content: $translate.instant('NOTIFICATIONS.LOW_TIRE.CONTENT', {tire: tire, value: value, threshold: $localStorage.settings.notifications.tireLowThreshold}),
          icon: "panorama_horizontal"
        });
      }
@@ -436,31 +480,31 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
          title: $translate.instant('NOTIFICATIONS.HIGH_TIRE.TITLE', {tire: tire}),
          time: (new Date()).getTime(),
          seen: false,
-         content: $translate.instant('NOTIFICATIONS.HIGH_TIRE.CONTENT', {tire: tire, value: value}),
+         content: $translate.instant('NOTIFICATIONS.HIGH_TIRE.CONTENT', {tire: tire, value: value, threshold: $localStorage.settings.notifications.tireHighThreshold}),
          icon: "panorama_wide_angle"
        });
      }
 
-     if(self.tire1 < 24 && self.tire1 !== 0) {
+     if(self.tire1 < $localStorage.settings.notifications.tireLowThreshold && self.tire1 > 5) {
        alertLowTire($translate.instant('NOTIFICATIONS.TIRES.R_FRONT'), self.tire1);
-     } else if(self.tire1 > 40) {
+     } else if(self.tire1 > $localStorage.settings.notifications.tireHighThreshold) {
        alertHighTire($translate.instant('NOTIFICATIONS.TIRES.R_FRONT'), self.tire1)
      }
-     if(self.tire2 < 24 && self.tire2 !== 0) {
+     if(self.tire2 < $localStorage.settings.notifications.tireLowThreshold && self.tire2 > 5) {
        alertLowTire($translate.instant('NOTIFICATIONS.TIRES.L_FRONT'), self.tire2);
-     } else if(self.tire2 > 40) {
+     } else if(self.tire2 > $localStorage.settings.notifications.tireHighThreshold) {
        alertHighTire($translate.instant('NOTIFICATIONS.TIRES.L_FRONT'), self.tire2)
      }
 
-     if(self.tire3 < 24 && self.tire3 !== 0) {
+     if(self.tire3 < $localStorage.settings.notifications.tireLowThreshold && self.tire3 > 5) {
        alertLowTire($translate.instant('NOTIFICATIONS.TIRES.R_REAR'), self.tire3);
-     } else if(self.tire3 > 40) {
+     } else if(self.tire3 > $localStorage.settings.notifications.tireHighThreshold) {
        alertHighTire($translate.instant('NOTIFICATIONS.TIRES.R_REAR'), self.tire3)
      }
 
-     if(self.tire4 < 24 && self.tire4 !== 0) {
+     if(self.tire4 < $localStorage.settings.notifications.tireLowThreshold && self.tire4 > 5) {
        alertLowTire($translate.instant('NOTIFICATIONS.TIRES.L_REAR'), self.tire4);
-     } else if(self.tire4 > 40) {
+     } else if(self.tire4 > $localStorage.settings.notifications.tireHighThreshold) {
        alertHighTire($translate.instant('NOTIFICATIONS.TIRES.L_REAR'), self.tire4)
      }
 
@@ -504,12 +548,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.climateConsumption = (consumption * .25) * 100;
 
      var outsideRaw = parseInt(splitMsg[7], 16);
+     var lastOutsideTemp = self.outsideTemp;
      self.outsideTemp = (outsideRaw - 56);
 
      if(self.distanceUnits == "K") {
        self.outsideTemp = ((self.outsideTemp - 32) * 5 ) / 9
      }
-     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 0)) {
+     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 0) && Math.round(lastOutsideTemp) == Math.round(self.outsideTemp)) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant("NOTIFICATIONS.LOW_OUTSIDE_TEMP.TITLE"),
          time: (new Date()).getTime(),
@@ -575,7 +620,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.accVolts = VCC / 1024;
        self.batteryVolts = parseInt(splitMsg[1] + splitMsg[2], 16) / 100;
        logManager.log("Got battery volts: " + self.batteryVolts);
-       if(self.accVolts < 10.9) {
+       if(self.batteryVolts < 11 && self.batteryVolts > 6) {
          $rootScope.$broadcast('notification', {
            title: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE"),
            time: (new Date()).getTime(),
@@ -589,7 +634,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    getWattsPerSOC: function() {
-     var wattsFromGIDs = self.GIDs * 77.5;
+     var wattsFromGIDs = (self.GIDs * 0.775) * self.tempOffset;
      if(wattsFromGIDs != self.wattsPerSOCWatcher && self.GIDs > 0) {
        var wattDifference = Math.abs(self.wattsPerSOCWatcher - self.watts); //Watt difference, should be 77.5, maybe more
        var SOCDifference = Math.abs(self.actualSOC - self.lastSOC);
@@ -619,7 +664,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    getDistancePerWatt: function(){
-     if(self.distanceTraveled && self.wattsUsed > 0 && !self.isCharging) {
+     if(self.distanceTraveled && self.wattsUsed > 0 && !self.isCharging && GIDsConfirmed) {
        self.distancePerKW = self.distanceTraveled / (self.wattsUsed / 1000);
        self.wattsPerDistance = self.wattsUsed / self.distanceTraveled;
      }
@@ -644,8 +689,11 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      var currentCharging = self.isCharging;
      var currentWatts = self.watts;
 
-     if(self.chargingVolts > 50 || (self.wattsUsed < 0 && self.wattDifference > 20)){
+     if(self.chargingVolts > 50 || (self.wattsUsed < 0 && self.wattsPerMinute > 60)){
        self.isCharging = true;
+       if(self.wattsUsed > 0) {
+         self.setWattsWatcher();
+       }
      } else {
        self.isCharging = false;
      }
@@ -680,8 +728,11 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      }
      self.averageMotorAmps = self.getAverage('motorAmps', self.rawMotorAmps);
      if(self.rawMotorVolts){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 3.6 / 4.2;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.65;
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
+       if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
+     } else {
+       self.motorWatts = 0;
      }
      if(oldAmps != self.rawMotorAmps){
        $rootScope.$broadcast('dataUpdate:Motor', self);
@@ -694,10 +745,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.rawMotorVolts = parseInt(splitMsg[2] + splitMsg[3], 16);
      self.averageMotorVolts = self.getAverage('motorVolts', self.rawMotorVolts);
      if(self.rawMotorAmps){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 3.6 / 4.2; //this shouldn't need /?
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.65; //this shouldn't need /?
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
+       if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
        if(self.motorWatts < 0) {
          self.averageRegen = self.getAverage('regenWatts', Math.abs(self.motorWatts));
+       } else {
+         self.motorWatts = 0;
        }
        if(self.motorWatts > 70000) {
          $rootScope.$broadcast('notification', {

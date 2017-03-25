@@ -541,15 +541,6 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       }
       //$scope.$digest();
     };
-
-    /*setTimeout(function(){ //Test notifications
-      $rootScope.$broadcast('notification', {
-        title: "Hello world",
-        time: (new Date()).getTime(),
-        seen: false,
-        content: "<h1>Check your battery!</h1><b>Text!</b>",
-        icon: "adb"
-      });
-    }, 3000);*/
+    
     //$scope.init();
 });

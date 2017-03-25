@@ -62,6 +62,21 @@
                 <md-switch ng-model="local.settings.notifications.enablePush"></md-switch>
               </md-list-item>
 
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_HIGH_THRESHOLD</span> ({{tireHighThreshold}})</p><br/>
+                <md-slider flex min="30" max="48" md-discrete ng-model="tireHighThreshold"></md-slider>
+              </md-list-item>
+
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_LOW_THRESHOLD</span> ({{tireLowThreshold}})</p><br/>
+                <md-slider flex min="20" max="38" md-discrete ng-model="tireLowThreshold"></md-slider>
+              </md-list-item>
+              
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_DELTA_THRESHOLD</span> ({{local.settings.notifications.tireDeltaThreshold}})</p><br/>
+                <md-slider flex min="0.5" max="5" md-discrete ng-model="local.settings.notifications.tireDeltaThreshold"></md-slider>
+              </md-list-item>
+
               <md-subheader class="md-no-sticky">{{'SETTINGS.EXPERIMENTAL.TITLE' | translate}}</md-subheader>
               <md-list-item >
                 <p>{{'SETTINGS.EXPERIMENTAL.SAVE_OBD' | translate}} <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>

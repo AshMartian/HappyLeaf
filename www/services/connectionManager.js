@@ -7,14 +7,20 @@ happyLeaf.factory('connectionManager', ['logManager', function(logManager){
     scanDevices: function(success, failure) {
       logManager.log("Scanning inside manager");
       setInterval(function(){
-        bluetoothSerial.isConnected(function(connected){
-          self.isConnected = true;
-          //logManager.log("Got connected " + connected);
-        }, function(err){
-          logManager.log("is Disconnected " + err);
+        if(bluetoothSerial){
+          bluetoothSerial.isConnected(function(connected){
+            self.isConnected = true;
+            //logManager.log("Got connected " + connected);
+          }, function(err){
+            logManager.log("is Disconnected " + err);
 
-          self.isConnected = false;
-        });
+            self.isConnected = false;
+          });
+        } else {
+          logManager.log("Cannot find bluetooth");
+          self.status = $translate.instant("WELCOME.NO_BLUETOOTH");
+        }
+
       }, 2000);
 
 

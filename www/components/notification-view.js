@@ -5,7 +5,18 @@ happyLeaf.component('notificationView', {
     templateUrl:'components/notification-view.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $localStorage, $mdDialog, deviceReady) {
+    controller: function ($scope, $rootScope, dataManager, logManager, $translate, $localStorage, $mdDialog, deviceReady) {
+      /*
+      setTimeout(function(){ //Test notifications
+        $rootScope.$broadcast('notification', {
+          title: "Hello world",
+          time: (new Date()).getTime(),
+          seen: false,
+          content: "<h1>Check your battery!</h1><b>Text!</b>",
+          icon: "adb"
+        });
+      }, 3000);*/
+
       $scope.local = $localStorage;
       $scope.recentNotification = null;
       $scope.notificationIcon = "notifications";
@@ -20,6 +31,7 @@ happyLeaf.component('notificationView', {
         });
       }
       setTimeout(function(){
+        //Because something isn't threading right.
         calculateUnread();
         $scope.$digest();
       }, 1500);
@@ -37,7 +49,7 @@ happyLeaf.component('notificationView', {
       if(!$localStorage.notifications) $localStorage.notifications = [];
 
       $rootScope.$on('notification', function(e, data){
-        console.log("adding notification ", data);
+        logManager.log("Adding notification ", JSON.stringify(data));
         if(data){
           var shouldAdd = true;
           var now = (new Date()).getTime();

@@ -5,7 +5,7 @@ happyLeaf.component('settingsDialog', {
     templateUrl:'components/settings-dialog.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $filter, $localStorage, $mdDialog) {
+    controller: function ($scope, $rootScope, dataManager, $filter, $localStorage, storageManager, $mdDialog) {
       $scope.settingsIcon = "settings";
       $scope.dialogOpen = false;
 
@@ -46,7 +46,27 @@ happyLeaf.component('settingsDialog', {
         },{
           name: "SETTINGS.DISPLAY.LANGUAGE.FRENCH",
           short: "fr"
+        },{
+          name: "SETTINGS.DISPLAY.LANGUAGE.RUSSIAN",
+          short: "ru"
         }];
+        $scope.tireLowThreshold = $localStorage.settings.notifications.tireLowThreshold;
+        $scope.tireHighThreshold = $localStorage.settings.notifications.tireHighThreshold;
+        $scope.$watch('tireLowThreshold', function(){
+          if($scope.tireLowThreshold >= $scope.tireHighThreshold) {
+            $scope.tireHighThreshold = $scope.tireLowThreshold + 2;
+          }
+
+          $localStorage.settings.notifications.tireHighThreshold = $scope.tireHighThreshold;
+          $localStorage.settings.notifications.tireLowThreshold = $scope.tireLowThreshold;
+        });
+        $scope.$watch('tireHighThreshold', function(){
+          if($scope.tireHighThreshold <= $scope.tireLowThreshold) {
+            $scope.tireLowThreshold = $scope.tireHighThreshold - 2;
+          }
+          $localStorage.settings.notifications.tireHighThreshold = $scope.tireHighThreshold;
+          $localStorage.settings.notifications.tireLowThreshold = $scope.tireLowThreshold;
+        })
 
         $scope.setLanguage = function(shortCode) {
           $localStorage.lang = shortCode;
@@ -61,11 +81,11 @@ happyLeaf.component('settingsDialog', {
 
         $scope.clearHistory = function(ev){
           var confirm = $mdDialog.confirm()
-           .title('Delete all history?')
-           .textContent('This will perminantly delete all history for today, if you do not have logs enabled, this data will be lost forever. Are you sure?')
+           .title($translate.instant("SETTINGS.DELETE_CONFIRM.TITLE"))
+           .textContent($translate.instant("SETTINGS.DELETE_CONFIRM.CONTENT"))
            .targetEvent(ev)
-           .ok('Yes, reset!')
-           .cancel('Nevermind');
+           .ok($translate.instant("SETTINGS.DELETE_CONFIRM.CONFIRM"))
+           .cancel($translate.instant("SETTINGS.DELETE_CONFIRM.NEVERMIND"));
 
            $mdDialog.show(confirm).then(function() {
              logManager.historyLogName = moment().format("MM-DD-YYYY") + "-after-reset-history.json";

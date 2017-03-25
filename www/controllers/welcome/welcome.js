@@ -1,32 +1,6 @@
 happyLeaf.controller('WelcomeController', function($scope, $location, $translate, $rootScope, $localStorage, $mdDialog, deviceReady, bluetoothSend, connectionManager, storageManager, logManager) {
   $scope.ready = false;
   $scope.local = $localStorage;
-  if(!$localStorage.settings || !$localStorage.settings.data){
-    $localStorage.mileDriven = 0;
-    $localStorage.settings = {
-      data: {
-        graphTimeEnd: 86400000,
-        showLatestGraph: false,
-      }
-    };
-  }
-  if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
-  if($localStorage.settings.experiance.displayAllData == null) $localStorage.settings.experiance.displayAllData = true;
-  if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
-  if($localStorage.settings.experiance.lightSensitivity == null) $localStorage.settings.experiance.lightSensitivity = 6;
-  if($localStorage.settings.experiance.darkModeHeadlights == null) $localStorage.settings.experiance.darkModeHeadlights = false;
-
-  if($localStorage.settings.notifications == null) $localStorage.settings.notifications = {};
-  if($localStorage.settings.notifications.enablePush == null) $localStorage.settings.notifications.enablePush = true;
-
-  if($localStorage.settings.experimental == null) $localStorage.settings.experimental = {};
-  if($localStorage.settings.experimental.darkModeAmbient == null) $localStorage.settings.experimental.debugCodes = false;
-  if($localStorage.settings.experimental.logOBDFile == null) $localStorage.settings.experimental.logOBDFile = false;
-  if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
-
-  $localStorage.settings.about = {
-    version: "0.1.8.5"
-  };
 
 
   $scope.devices = [];

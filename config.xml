@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="life.brandonmartin.happyleaf" version="0.1.8.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="life.brandonmartin.happyleaf" version="0.1.8.6" android-versionCode="1086" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Happy Leaf</name>
     <description>
         Happy Leaf monitors OBDII data of the Nissan Leaf to provide drivers feedback and ease of range anxiety.
