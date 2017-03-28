@@ -177,5 +177,37 @@
         },
         "is_top_level": false,
         "variables": {}
+    },
+    "cz.blocshop.socketsforcordova": {
+        "source": {
+            "type": "registry",
+            "id": "cz.blocshop.socketsforcordova"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-fullscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-fullscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-background-mode": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-background-mode"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.pylonproducts.wifiwizard": {
+        "source": {
+            "type": "registry",
+            "id": "wifiwizard"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

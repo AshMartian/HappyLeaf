@@ -27,7 +27,7 @@ happyLeaf.component('leafDisplay', {
         $scope.AmpsChart = {
           data: [],
           colors: ["#ff993e", "#9B9B9B"],
-          options: {cutoutPercentage: 60, scaleOverride: true, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
+          options: {cutoutPercentage: 60, animation: false, scaleOverride: true, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
           width: 10,
           height: 10,
           left: 0,
@@ -64,7 +64,7 @@ happyLeaf.component('leafDisplay', {
 
         $scope.$on('chart-create', function (evt, chart) {
           console.log("Chart created");
-          console.log(chart);
+          //console.log(chart);
         });
 
         $(window).resize(function(){

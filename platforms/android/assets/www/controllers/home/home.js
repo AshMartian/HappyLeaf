@@ -87,10 +87,33 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
     }
 
     $scope.showDarkTheme = false;
+    $scope.showFullscreen = false;
+    $scope.showFullscreenDisabled = false;
 
     $scope.toggleDark = function(){
       $scope.userOverrideTheme = true;
       $scope.showDarkTheme = $scope.showDarkTheme ? false : true;
+    }
+
+    $scope.toggleFullscreen = function() {
+      if(typeof cordova !== 'undefined' && typeof AndroidFullScreen !== 'undefined') {
+        AndroidFullScreen.isSupported(function(){
+          if(!$scope.showFullscreen){
+            AndroidFullScreen.showSystemUI(function(){
+              $scope.showFullscreen = true;
+            }, null);
+          } else {
+            AndroidFullScreen.immersiveMode(function(){
+              $scope.showFullscreen = false;
+            }, null);
+          }
+        }, function(){
+          $scope.showFullscreenDisabled = true;
+        });
+      } else {
+        $scope.showFullscreenDisabled = true;
+      }
+      //$scope.showFullscreen = $scope.showDarkTheme ? false : true;
     }
 
     deviceReady(function(){
@@ -106,6 +129,10 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       logManager.log("Route Changed");
       $rootScope.$broadcast('dataUpdate', null);
       $scope.init();
+      cordova.plugins.backgroundMode.on('disable', function(){
+        self.requestSOC();
+      });
+      self.requestSOC();
     });
 
 
@@ -150,20 +177,26 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
       $scope.bufferCount = 0;
       var lastResponse = "";
-      bluetoothSerial.subscribe("\r", function(output){
+      connectionManager.subscribe("\r", function(output){
         //logManager.log("this is the output " + output);
         var parse = function(){
-          var lastCommand = bluetoothSend.lastCommand;
+          var lastCommand = connectionManager.lastCommand;
           //if(output.indexOf("?") > -1){
           /*if(false){
             bluetoothSend.resendLast();
 
           } else {*/
             if(output.indexOf(">") > 0 || output.indexOf("OK") > 0){ //|| lastResponse.substring(0, 3) == output.substring(0, 3)
-              bluetoothSend.shouldSend();
+              connectionManager.shouldSend();
             }
             lastResponse = output;
-            $scope.messagesReceived.push(output);
+            if(!output.match(/ok/i) && !output.match(/stopped/i)){
+              $scope.messagesReceived.push(output);
+            }
+            if(output.match(/no/i)) {
+              //$scope.failedMessages = true;
+            }
+            connectionManager.shouldSend();
             $scope.parseResponse(output, lastCommand);
           //}
         }
@@ -209,11 +242,12 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
       setInterval(function(){
         $scope.$digest();
-
-        sensors.getState(function(values){
-          //console.log("Got " + values.length + " ambient light " + values[0]);
-          logManager.log("Got " + values.length + " ambient light " + values[0]);
-        });
+        if(typeof sensors !== 'undefined'){
+          sensors.getState(function(values){
+            //console.log("Got " + values.length + " ambient light " + values[0]);
+            logManager.log("Got " + values.length + " ambient light " + values[0]);
+          });
+        }
       }, 5000);
     }
 
@@ -224,7 +258,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
     $scope.requestSOC = function(){
       //console.log("Requesting ALL");
       $scope.bufferCount = 0;
-      var commandsToSend = ["ATAR", "ATE0", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH743", "ATFCSH743", "ATFCSH743", "ATFCSD300100", "022101", "ATSH745", "ATFCSH745", "ATFCSD300000", "022110", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
+      var commandsToSend = ["ATAR", "ATE0", "ATH1", "ATL0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATSH743", "ATFCSH743", "ATFCSH743", "ATFCSD300100", "022101", "ATSH745", "ATFCSH745", "ATFCSD300000", "022110", "ATSH792", "ATFCSH792", "03221210", "03221230", "ATAR"];
       //var commandstoSend = ["ATE0", "ATIB10", "ATL0", "ATCAF0", "ATSP6", "ATH1", "ATS0", "ATCAF0", "ATSH797", "ATFCSH797", "ATFCSD300000", "ATFCSM1", "0210C0", "ATSH79B", "ATFCSH79B", "022101", "022104", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF5BF", "ATMA", "X", "ATCM7FE", "ATCF385", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF510", "ATMA", "X", "ATCRA355", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X", "ATCM7FE", "ATCF284", "ATMA", "X", "ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATAR"];
       //var commandstoSend = ["ATE0", "ATH1", "STI", "ATSP6", "ATS0", "ATRV", "ATCAF0", "ATCM7FE", "ATCF60D", "ATMA", "X", "ATCM7FE", "ATCF5B3", "ATMA", "X", "ATCM7FE", "ATCF358", "ATMA", "X", "ATCM7FE", "ATCF421", "ATMA", "X", "ATCM7FE", "ATCF625", "ATMA", "X"];
       //"ATAR", "ATSH797", "ATFCH797", "ATFCSD300000", "0210C0", "03221304", "03221156", "0322132A", "03221103", "03221183", "0322124E", "0322115D", "03221203", "03221205", "0322124E", "0322115D", "03221261", "03221262", "03221152", "03221151", "03221146", "03221255", "03221234", "0322114E", "03221236", "03221255"
@@ -234,10 +268,10 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
       logManager.log("Sending " + commandsToSend.length + " commands");
 
-      if(connectionManager.isConnected){
+      if(connectionManager.isConnected ){
         $scope.lastRequestTime = (new Date()).getTime();
         logManager.log("Connected to " + connectionManager.lastConnected);
-        bluetoothSend.send(commandsToSend, function(log){
+        connectionManager.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
           logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms");
 
@@ -249,9 +283,8 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
           }
 
           //});
-
         });
-      } else {
+      } else if(!cordova.plugins.backgroundMode.isActive()) {
         logManager.log("Connection failed, trying to reconnect");
         var now = new Date();
         connectionManager.reconnect(function(){
@@ -261,7 +294,6 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
           $scope.requestSOC();
         });
       }
-
     }
 
     $scope.listenForMessages = function() {
@@ -281,14 +313,15 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
           logManager.log("Generated " + commandsToSend.length + " commads!");
         } else {
           logManager.log("Watching CAN for known messages");
-          commandsToSend = ["ATBD", "ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
+          //"ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR",
+          commandsToSend = ["ATBD", "ATCF5B3", "ATCRA5BX", "ATMA", "X", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF3FF", "ATCRA3FX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "ATBD", "ATAR"];
         }
         $scope.lastRequestTime = (new Date()).getTime();
-        bluetoothSend.shouldSend();
-        bluetoothSend.send(commandsToSend, function(log){
+        connectionManager.shouldSend();
+        connectionManager.send(commandsToSend, function(log){
           var now = (new Date()).getTime();
-          logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + bluetoothSend.failedSend.length + " force send requests");
-          if(bluetoothSend.failedSend.length >= 20 && $scope.messagesReceived.length < 100) {
+          logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + connectionManager.failedSend.length + " force send requests");
+          if(connectionManager.failedSend.length >= 20 && $scope.messagesReceived.length < 100) {
             $scope.failedMessages = true;
           }
           $scope.messagesReceived = [];
@@ -380,11 +413,12 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
         case "625":
           logManager.log("Got Headlight status: " + msg);
           dataManager.setheadLights(splitMsg);
-          bluetoothSend.shouldSend();
+          connectionManager.shouldSend();
           break;
         case "60D":
           logManager.log("Got Turn Signal status: " + msg);
           dataManager.setTurnSignal(splitMsg);
+          connectionManager.shouldSend();
           break;
         case "5B3":
           logManager.log("Got battery SOH: " + msg);
@@ -441,17 +475,17 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
           break;
         case "180":
           logManager.log("Got motor Amps " + msg);
-          bluetoothSend.shouldSend();
+          connectionManager.shouldSend();
           dataManager.setMotorAmps(splitMsg);
           break;
         case "176":
           logManager.log("Got motor Volts " + msg);
-          bluetoothSend.shouldSend();
+          connectionManager.shouldSend();
           dataManager.setMotorVolts(splitMsg);
           break;
         case "54B":
           logManager.log("Got Climate data " + msg);
-          bluetoothSend.shouldSend();
+          connectionManager.shouldSend();
           dataManager.setClimateDataB(splitMsg);
           break;
         case "1DB":
@@ -526,7 +560,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
     $scope.requestCode = function(code, callback) {
       var commandSequence = ["ATSH" + code, "ATFCH" + code, "ATFCSD300000", "30221210", "X"];
-      bluetoothSend.send(commandSequence, callback);
+      connectionManager.send(commandSequence, callback);
     }
 
 
@@ -541,6 +575,6 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       }
       //$scope.$digest();
     };
-    
+
     //$scope.init();
 });

@@ -11,9 +11,10 @@
     'buckled': data.isBuckled, 'parked': data.parkingBreakOn, 'climate-usage': data.climateConsumption > 0}" onload="updateDOM()">
   </div>
   <div ng-hide="SOCChart.width != 10" class="leaf-loading">
-    <div class='loading-container'>
-      <i class='preloader'></i>
-    </div>
+
+  </div>
+  <div ng-class="{'fade-out': SOCChart.width != 10}" class='loading-container'>
+    <i class='preloader'></i>
   </div>
 
   <div class="soc-container" ng-style="{'top': SOCChart.top, 'width': SOCChart.width, 'left': SOCChart.left, 'height': SOCChart.height}">

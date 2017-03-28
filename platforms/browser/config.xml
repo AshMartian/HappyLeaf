@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="1090" id="life.brandonmartin.happyleaf" version="0.1.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Device">
         <param name="browser-package" value="Device" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="browser-package" value="BackgroundMode" />
     </feature>
     <name>Happy Leaf</name>
     <description>
         Happy Leaf monitors OBDII data of the Nissan Leaf to provide drivers feedback and ease of range anxiety.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="support@brandonmartin.life">
+        Brandon Martin
     </author>
     <content src="index.html" />
     <icon src="icon.png" />
@@ -21,5 +24,5 @@
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="loadUrlTimeoutValue" value="700000" />
+    <preference name="loadUrlTimeoutValue" value="7000" />
 </widget>

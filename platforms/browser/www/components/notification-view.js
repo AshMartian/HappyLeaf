@@ -5,7 +5,18 @@ happyLeaf.component('notificationView', {
     templateUrl:'components/notification-view.html',
 
     // The controller that handles our component logic
-    controller: function ($scope, $rootScope, dataManager, $localStorage, $mdDialog, deviceReady) {
+    controller: function ($scope, $rootScope, dataManager, logManager, $translate, $localStorage, $mdDialog, deviceReady) {
+      /*
+      setTimeout(function(){ //Test notifications
+        $rootScope.$broadcast('notification', {
+          title: "Hello world",
+          time: (new Date()).getTime(),
+          seen: false,
+          content: "<h1>Check your battery!</h1><b>Text!</b>",
+          icon: "adb"
+        });
+      }, 3000);*/
+
       $scope.local = $localStorage;
       $scope.recentNotification = null;
       $scope.notificationIcon = "notifications";
@@ -20,6 +31,7 @@ happyLeaf.component('notificationView', {
         });
       }
       setTimeout(function(){
+        //Because something isn't threading right.
         calculateUnread();
         $scope.$digest();
       }, 1500);
@@ -37,14 +49,14 @@ happyLeaf.component('notificationView', {
       if(!$localStorage.notifications) $localStorage.notifications = [];
 
       $rootScope.$on('notification', function(e, data){
-        console.log("adding notification ", data);
+        logManager.log("Adding notification ", JSON.stringify(data));
         if(data){
           var shouldAdd = true;
           var now = (new Date()).getTime();
           $scope.unreadNotifications = 0;
           async.forEach($localStorage.notifications, function(notification){
             if(!notification.seen) $scope.unreadNotifications ++;
-            console.log(now - notification.time);
+            //console.log(now - notification.time);
             if(notification.title == data.title && now - notification.time < 25200000) {
               shouldAdd = false;
             }
@@ -73,7 +85,7 @@ happyLeaf.component('notificationView', {
             var index = null;
             logManager.log("Opening notification: " + JSON.stringify(notification));
             for (var i = 0; i < $localStorage.notifications.length; i++) {
-              if(JSON.stringify($localStorage.notifications[i]) == JSON.string(notification)) {
+              if($localStorage.notifications[i].title == notification.title) {
                 openNotification(null, notification, i);
               }
             }

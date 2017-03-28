@@ -15,6 +15,7 @@ happyLeaf.component('connectionStatus', {
       this.waitingColor = "#eee574";
       this.offColor = "#FF9800";
       this.errorColor = "#ff3e3e";
+      $scope.connction = connectionManager;
 
       var self = this;
 

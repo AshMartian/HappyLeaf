@@ -1,7 +1,7 @@
 <div id="large-chart-container">
   <ng-md-icon class="widget-icon-right" options='{"rotation": "counterclock"}' icon="{{isCharging ? 'ev_station' : 'directions_car'}}" size="20px" ng-style="{fill: $ctrl.showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
   <md-menu md-position-mode="target-right target">
-    <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button up" ng-click="$mdOpenMenu($event)">
+    <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button up" ng-click="$mdMenu.open($event)">
       <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: $ctrl.showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
     </md-button>
     <md-menu-content width="2">

@@ -63,6 +63,18 @@
         },
         "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-fullscreen": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
         }
     },
     "dependent_plugins": {

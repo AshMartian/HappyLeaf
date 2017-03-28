@@ -16,6 +16,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     SOH: lastHistoryItem.SOH || 0,
     GIDs: lastHistoryItem.GIDs || 0,
     batteryTemp: lastHistoryItem.batteryTemp || 0,
+    tempOffset: lastHistoryItem.tempOffset || 100,
     isCharging: lastHistoryItem.isCharging || false,
     batteryVolts: lastHistoryItem.batteryVolts || 0,
     headLights: false,
@@ -77,6 +78,12 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     accVolts: lastHistoryItem.accVolts || null,
 
     wattsPerSOC: lastHistoryItem.wattsPerSOC || 170,
+
+    tire1: lastHistoryItem.tire1 || 0,
+    tire2: lastHistoryItem.tire2 || 0,
+    tire3: lastHistoryItem.tire3 || 0,
+    tire4: lastHistoryItem.tire4 || 0,
+    tireDelta: lastHistoryItem.tireDelta || 0,
 
     chargingVolts: 0,
     chargingAmps: 0,
@@ -200,18 +207,19 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
        var wattsFromGIDs = Math.abs((self.GIDs * 0.775) * self.tempOffset);
        var kWFromGIDs = wattsFromGIDs / 1000;
-       logManager.log("GID Temp: "+batteryTempF+" offset = " + self.tempOffset + " GID watts " + wattsFromGIDs);
+
        //Essentially calculate Kw from SOC and make sure it roughly aligns with GIDs. If it doesn't likley over 255..
        if(self.actualSOC && self.wattsPerSOC) {
          var kWFromSOC = Math.round((self.actualSOC * self.wattsPerSOC) / 1000);
 
-         if(kWFromSOC > kWFromGIDs + 3) {
+         if(kWFromSOC > kWFromGIDs + 3 && self.GIDs < 200) {
            self.GIDs = self.GIDs + 255;
            wattsFromGIDs = (self.GIDs * 0.775) * self.tempOffset;
            kWFromGIDs = wattsFromGIDs / 1000;
          }
          GIDsConfirmed = true;
        }
+       logManager.log("GIDs: " +self.GIDs+" Temp: "+batteryTempF+" offset = " + self.tempOffset + " GID watts " + wattsFromGIDs);
 
        if(self.ODOUnits == "M"){
          self.batteryTemp =  batteryTempF; //convert to F
@@ -287,7 +295,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.accBattVolts = parseInt(splitMsg[3], 16) / 10;
      $rootScope.$broadcast('dataUpdate', self);
 
-     if(self.accBattVolts < 10.8) {
+     if(self.accBattVolts < 10.8 && self.accBattVolts > 5) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE"),
          time: (new Date()).getTime(),
@@ -675,7 +683,9 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      var type = splitMsg[3];
      if(type == "10") {
        var amps = parseInt(splitMsg[4] + splitMsg[5], 16) / 16;
-       self.chargingAmps = amps;
+       if(amps < 150){
+         self.chargingAmps = amps;
+       }
      }
      if(type == "30") {
        var volts = parseInt(splitMsg[4] + splitMsg[5], 16) / 128;
@@ -684,6 +694,8 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
      if(self.chargingAmps && self.chargingVolts){
        self.chargingWatts = self.chargingAmps * self.chargingVolts;
+     } else {
+       self.chargingWatts = 0;
      }
 
      var currentCharging = self.isCharging;
@@ -728,7 +740,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      }
      self.averageMotorAmps = self.getAverage('motorAmps', self.rawMotorAmps);
      if(self.rawMotorVolts){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.65;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.625;
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
      } else {
@@ -745,7 +757,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.rawMotorVolts = parseInt(splitMsg[2] + splitMsg[3], 16);
      self.averageMotorVolts = self.getAverage('motorVolts', self.rawMotorVolts);
      if(self.rawMotorAmps){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.65; //this shouldn't need /?
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.625; //this shouldn't need /?
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
        if(self.motorWatts < 0) {

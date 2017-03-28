@@ -13,12 +13,6 @@
 
             <md-list>
 
-              <md-subheader class="md-no-sticky">{{'SETTINGS.DISPLAY.TITLE' | translate}}</md-subheader>
-              <md-list-item>
-                <p>{{'SETTINGS.DISPLAY.EXTRA_DATA' | translate}}
-                <br/><small translate>SETTINGS.DISPLAY.EXTRA_DATA_DETAIL</small></p>
-                <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
-              </md-list-item>
 
               <md-list-item>
                 <p translate>SETTINGS.DISPLAY.LANGUAGE.TITLE</p>
@@ -71,11 +65,25 @@
                 <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_LOW_THRESHOLD</span> ({{tireLowThreshold}})</p><br/>
                 <md-slider flex min="20" max="38" md-discrete ng-model="tireLowThreshold"></md-slider>
               </md-list-item>
-              
+
               <md-list-item>
                 <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_DELTA_THRESHOLD</span> ({{local.settings.notifications.tireDeltaThreshold}})</p><br/>
                 <md-slider flex min="0.5" max="5" md-discrete ng-model="local.settings.notifications.tireDeltaThreshold"></md-slider>
               </md-list-item>
+
+              <md-subheader class="md-no-sticky">{{'SETTINGS.DISPLAY.TITLE' | translate}}</md-subheader>
+              <md-list-item>
+                <p>{{'SETTINGS.DISPLAY.EXTRA_DATA' | translate}}
+                <br/><small translate>SETTINGS.DISPLAY.EXTRA_DATA_DETAIL</small></p>
+                <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
+              </md-list-item>
+
+              <md-list-item>
+                <p>{{'SETTINGS.DISPLAY.EXTRA_LOGS' | translate}}
+                <br/><small translate>SETTINGS.DISPLAY.EXTRA_LOGS_DETAIL</small></p>
+                <md-switch ng-disabled="!local.settings.experimental.logOBDFile" ng-model="local.settings.experiance.displayLogs"></md-switch>
+              </md-list-item>
+
 
               <md-subheader class="md-no-sticky">{{'SETTINGS.EXPERIMENTAL.TITLE' | translate}}</md-subheader>
               <md-list-item >
@@ -95,6 +103,28 @@
 
             </md-list>
 
+          </md-content>
+        </md-tab>
+        <md-tab label="{{'SETTINGS.TABS.CONNECTION' | translate}}">
+          <md-content class="md-padding">
+            <md-list>
+
+              <md-subheader class="md-no-sticky">{{'SETTINGS.WIFI.TITLE' | translate}}</md-subheader>
+              <md-list-item>
+                <md-input-container class="md-icon-float md-icon-right md-block">
+                  <label>{{'SETTINGS.WIFI.IP' | translate}}</label>
+                  <input ng-model="local.settings.wifi.ipaddress" type="text"></input>
+                </md-input-container>
+              </md-list-item>
+
+              <md-list-item>
+                <md-input-container class="md-icon-float md-icon-right md-block">
+                  <label>{{'SETTINGS.WIFI.PORT' | translate}}</label>
+                  <input ng-model="local.settings.wifi.port" type="number" step="1"></input>
+                </md-input-container>
+              </md-list-item>
+
+            </md-list>
           </md-content>
         </md-tab>
         <md-tab label="{{'SETTINGS.TABS.DATA' | translate}}">

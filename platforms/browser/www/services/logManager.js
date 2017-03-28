@@ -3,7 +3,7 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
   if($localStorage.settings) {
     currentVersion = $localStorage.settings.about.version;
   }
-  
+
   var self = {
     logText: "HappyLeaf Version " + currentVersion + "\r\n",
     logFull: "HappyLeaf Version " + currentVersion + "\r\n",
@@ -46,14 +46,14 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         self.betaDirectory.getFile(self.canLogName, { create: true }, function( fileEntry ) {
           fileEntry.createWriter( function( fileWriter ) {
               fileWriter.onwriteend = function( result ) {
-                logManager.log('OBD log file write done.');
+                self.log('OBD log file write done.');
               };
               fileWriter.onerror = function( error ) {
-                logManager.log( JSON.stringify(error) );
+                self.log( JSON.stringify(error) );
               };
               fileWriter.write(self.logFull);
-          }, function( error ) { logManager.log( JSON.stringify(error) ); } );
-        }, function( error ) { logManager.log( JSON.stringify(error) ); } );
+          }, function( error ) { self.log( JSON.stringify(error) ); } );
+        }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
     },
 
@@ -62,14 +62,14 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         self.betaDirectory.getFile(self.historyLogName, { create: true }, function( fileEntry ) {
           fileEntry.createWriter( function( fileWriter ) {
               fileWriter.onwriteend = function( result ) {
-                logManager.log('History file write done.');
+                self.log('History file write done.');
               };
               fileWriter.onerror = function( error ) {
-                logManager.log( JSON.stringify(error) );
+                self.log( JSON.stringify(error) );
               };
               fileWriter.write( JSON.stringify($localStorage.history) );
-          }, function( error ) { logManager.log( JSON.stringify(error) ); } );
-        }, function( error ) { logManager.log( JSON.stringify(error) ); } );
+          }, function( error ) { self.log( JSON.stringify(error) ); } );
+        }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
     },
 
@@ -81,8 +81,9 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
           self.logFull = now + logToAdd + "\r\n" + self.logFull;
         });
       } else {
-        //console.log(log);
+        console.log(log);
         self.logFull = now + log + "\r\n" + self.logFull;
+        //console.log(log);
       }
       self.logText = self.logFull.substring(0, 30000);
     }

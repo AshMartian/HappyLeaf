@@ -489,6 +489,45 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
+    },
+    {
+        "file": "plugins/cz.blocshop.socketsforcordova/socket.js",
+        "id": "cz.blocshop.socketsforcordova.Socket",
+        "pluginId": "cz.blocshop.socketsforcordova",
+        "clobbers": [
+            "window.Socket"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js",
+        "id": "cordova-plugin-fullscreen.AndroidFullScreen",
+        "pluginId": "cordova-plugin-fullscreen",
+        "clobbers": [
+            "AndroidFullScreen"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-background-mode/www/background-mode.js",
+        "id": "cordova-plugin-background-mode.BackgroundMode",
+        "pluginId": "cordova-plugin-background-mode",
+        "clobbers": [
+            "cordova.plugins.backgroundMode",
+            "plugin.backgroundMode"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-background-mode/src/browser/BackgroundModeProxy.js",
+        "id": "cordova-plugin-background-mode.BackgroundMode.Proxy",
+        "pluginId": "cordova-plugin-background-mode",
+        "runs": true
+    },
+    {
+        "file": "plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js",
+        "id": "com.pylonproducts.wifiwizard.WifiWizard",
+        "pluginId": "com.pylonproducts.wifiwizard",
+        "clobbers": [
+            "window.WifiWizard"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -515,7 +554,11 @@ module.exports.metadata =
     "cordova-sqlite-storage": "2.0.2",
     "cordova-plugin-lightSensor": "0.2.1",
     "cordova-plugin-app-event": "1.2.0",
-    "de.appplant.cordova.plugin.local-notification": "0.8.4"
+    "de.appplant.cordova.plugin.local-notification": "0.8.4",
+    "cz.blocshop.socketsforcordova": "1.1.0",
+    "cordova-plugin-fullscreen": "1.1.0",
+    "cordova-plugin-background-mode": "0.7.2",
+    "com.pylonproducts.wifiwizard": "0.2.11"
 }
 // BOTTOM OF METADATA
 });

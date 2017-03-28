@@ -9,6 +9,13 @@ md-card-content > h2 {
   padding: 0;
   -webkit-margin-before: 0.4em;
   -webkit-margin-after: 0.15em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+md-card-footer {
+  padding-right: 0 !important;
 }
 
 md-card-content {
@@ -26,8 +33,16 @@ md-menu {
   padding: 0 !important;
 }
 
+.temp-offset {
+  float: right;
+  margin-right: calc(10% + 25px);
+  transition: opacity 8s ease;
+  line-height: 5px;
+}
+
 .log {
   white-space: pre-line;
+  word-break: break-all;
   font-size: 16px;
 }
 
@@ -130,7 +145,9 @@ md-badge{
   margin-top: 50vh;
   height: 100vh;
   max-height: calc(100vh - 55px);
-  overflow: scroll;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .content {
@@ -544,7 +561,7 @@ main.dark #LEAF text {
 }
 
 @media screen and (orientation:portrait) {
-  #LEAF, .leaf-loading {
+  #LEAF, .leaf-loading, .loading-container {
     width: 100vw;
     max-height: 50vh;
   }
@@ -660,6 +677,10 @@ main.dark #LEAF text {
 @media (max-width: 520px), (max-height: 520px) {
   .status {
     font-size: 20px !important;
+  }
+
+  md-card h2 big {
+    font-size: 6.5vw;
   }
 
   .more-button {

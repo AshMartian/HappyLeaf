@@ -9,12 +9,18 @@ happyLeaf.component('connectionStatus', {
       failedMessages: "="
     },
 
-    controller: function($scope, connectionManager, bluetoothSend){
+    controller: function($scope, $interval, connectionManager){
       this.connectedColor = "#76FF03";
       this.pendingColor = "#bebebe";
       this.waitingColor = "#eee574";
       this.offColor = "#FF9800";
       this.errorColor = "#ff3e3e";
+      $scope.connction = connectionManager;
+      $scope.progress = 0;
+
+      /*$interval(function(){
+        $scope.$digest();
+      }, 1500);*/
 
       var self = this;
 
@@ -22,20 +28,10 @@ happyLeaf.component('connectionStatus', {
         $scope.displayStyle = 'background-color: '+self.errorColor+';';
       }
 
-
-      bluetoothSend.onWaiting(function(isWaiting){
-        $scope.apply(function(){
-          if(isWaiting) {
-            $scope.displayStyle = 'background-color: '+self.waitingColor+';';
-          } else {
-            $scope.displayStyle = 'background-color: '+self.connectedColor+';';
-          }
-        });
-      });
       //console.log("Watch got isWaiting " + bluetoothSend.isWaiting + "  " + self.waitingColor);
 
-      $scope.$watch('$ctrl.failedMessages', function(){
-        if(self.failedMessages) {
+      $scope.$watch('connectionManager.failedSend', function(){
+        if(self.failedSend.length > 3) {
           $scope.displayStyle = 'background-color: '+self.offColor+';';
         } else if(connectionManager.isConnected) {
           $scope.displayStyle = 'background-color: '+self.connectedColor+';';
@@ -45,8 +41,14 @@ happyLeaf.component('connectionStatus', {
       $scope.$watch('connectionManager.isConnected', function(){
         //console.log("Is connected has changed");
         if(connectionManager.isConnected){
+          cordova.plugins.backgroundMode.configure({
+            text: $translate.instant("HOME.CONNECTED")
+          });
           $scope.displayStyle = 'background-color: '+self.connectedColor+';';
         } else {
+          cordova.plugins.backgroundMode.configure({
+            text: $translate.instant("HOME.DISCONNECTED")
+          });
           $scope.displayStyle = 'background-color: '+self.errorColor+';';
         }
       });

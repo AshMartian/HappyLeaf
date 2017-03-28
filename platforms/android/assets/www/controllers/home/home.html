@@ -5,7 +5,7 @@
         <span translate>
           HOME.TITLE
         </span>
-        <br/>
+        <br ng-if="!showFullscreen"/>
         <small ng-if="data.odometer > 0 && distanceToDisplay == 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
         <small ng-if="local.mileDriven > 0 && distanceToDisplay == 1" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} {{'HOME.HAPPY' | translate}}</small>
         <small ng-if="local.milesDrivenToday > 0 && distanceToDisplay == 2" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} {{'HOME.TODAY' | translate}}</small>
@@ -41,6 +41,14 @@
                   </div>
               </md-button>
             </md-menu-item>
+            <md-menu-item>
+              <md-button md-theme-watch="true" ng-disabled="showFullscreenDisabled" ng-click="toggleFullscreen()">
+                  <div layout="row" flex>
+                    <p flex translate>{{showFullScreen ? "HOME.MENUS.OUT_FULLSCREEN" : "HOME.MENUS.TO_FULLSCREEN"}}</p>&nbsp;&nbsp;
+                    <ng-md-icon options='{"rotation": "counterclock"}' icon="{{showFullScreen ? 'fullscreen_exit' : 'fullscreen'}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+                  </div>
+              </md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
 
@@ -51,8 +59,12 @@
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
            <md-card-content>
+             <small class="temp-offset clear" ng-if="data.tempOffset" ng-class="{'green': data.tempOffset > 100, 'red': data.tempOffset <= 90}" highlight-on-change="{{data.tempOffset}}">&deg;{{data.tempOffset | number:1}}%</small>
              <small class="title" translate>HOME.REMAINING</small>
-             <h2><big>{{data.killowatts | number:2}}</big> kWh</h2>
+
+             <h2 class="kwh-reamining">
+               <big>{{data.killowatts | number:2}}</big> <span>kWh</span>
+             </h2>
              <small><span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} {{'HOME.TO' | translate}} 0</span></small>
            </md-card-content>
            <md-card-footer>
@@ -148,7 +160,7 @@
     </div>
   </div>
 
-  <div class="log-container fade-super-long">
+  <div ng-if="!local.settings.experiance.displayLogs" class="log-container fade-super-long">
     <ng-md-icon class="log-icon" icon="{{logIcon}}" size="40px" style="fill: black;" ng-click="toggleLog()" options='{"rotation": "none"}'></ng-md-icon>
     <p class="log">
       {{logOutput}}

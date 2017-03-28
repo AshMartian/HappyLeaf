@@ -174,7 +174,54 @@ md-dialog {
   min-width: 15px;
   min-height: 15px;
   display: block;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 9px !important;
 }
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+}
+.fade-out {
+  opacity: 1;
+  -webkit-animation:fadeOut ease-in 1;
+  -moz-animation:fadeOut ease-in 1;
+  animation:fadeOut ease-in 1;
+}
+
+.fade-in, .fade-out {
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-long {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.fade-super-long {
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
 
 @keyframes rotate {
     from {transform: rotate(0deg);}

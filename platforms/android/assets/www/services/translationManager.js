@@ -3,12 +3,15 @@ var translationsEN = {
     TITLE: 'Welcome',
     LOADING_TEXT: 'Loading...',
     SCANNING: "Scanning...",
-    CONNECTING: 'Connecting...',
+    CONNECTING: 'Connecting, {{name}}',
     CONNECTED: 'Connected!',
+    DISCONNECTED: 'Could not connect to device',
     NO_BLUETOOTH: 'Could not find Bluetooth interface',
+    WIFI_ERROR: "Could not connect to network",
     TESTING: 'Testing...',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
+    DEVICES: 'Devices',
     DEVICE_TIPS: "If you do not see your ODB, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
     BLUETOOTH_ERROR: {
       TITLE: "ODB Bluetooth Needed",
@@ -40,7 +43,9 @@ var translationsEN = {
       USE_WATTS: "Use Watts/{{units}}",
       USE_KW: "Use {{units}}/kW",
       RESET: "Reset",
-      EXPLAIN: "Explain"
+      EXPLAIN: "Explain",
+      OUT_FULLSCREEN: "Exit Fullscreen",
+      TO_FULLSCREEN: "Enter Fullscreen"
     },
     RESET_WARNING: {
       TITLE: 'Reset Watt Meter?',
@@ -123,7 +128,8 @@ var translationsEN = {
     TABS: {
       SETTINGS: "Settings",
       DATA: "Data",
-      ABOUT: "About"
+      ABOUT: "About",
+      CONNECTION: "Connection"
     },
     DELETE_CONFIRM: {
       TITLE: 'Delete all history?',
@@ -143,6 +149,8 @@ var translationsEN = {
       TITLE: "Display",
       EXTRA_DATA: "Hide extra data",
       EXTRA_DATA_DETAIL: "Will improve performance",
+      EXTRA_LOGS: "Hide Logs",
+      EXTRA_LOGS_DETAIL: "Will improve performance. Disable display only.",
       LANGUAGE: {
         ENGLISH: "English",
         FRENCH: "French",
@@ -167,6 +175,14 @@ var translationsEN = {
       CLEAR: "Clear History",
       DELETE: "Delete",
       LOG_LOCATION: "Find more logs at {{location}}"
+    },
+    WIFI: {
+      TITLE: "Wifi",
+      IP: "IP Address",
+      PORT: "Port Number"
+    },
+    BLUETOOTH: {
+      TITLE: "Bluetooth"
     }
   }
 };

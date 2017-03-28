@@ -338,6 +338,35 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
+    },
+    {
+        "file": "plugins/cz.blocshop.socketsforcordova/socket.js",
+        "id": "cz.blocshop.socketsforcordova.Socket",
+        "clobbers": [
+            "window.Socket"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js",
+        "id": "cordova-plugin-fullscreen.AndroidFullScreen",
+        "clobbers": [
+            "AndroidFullScreen"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-background-mode/www/background-mode.js",
+        "id": "cordova-plugin-background-mode.BackgroundMode",
+        "clobbers": [
+            "cordova.plugins.backgroundMode",
+            "plugin.backgroundMode"
+        ]
+    },
+    {
+        "file": "plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js",
+        "id": "com.pylonproducts.wifiwizard.WifiWizard",
+        "clobbers": [
+            "window.WifiWizard"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -364,7 +393,11 @@ module.exports.metadata =
     "cordova-sqlite-storage": "2.0.2",
     "cordova-plugin-lightSensor": "0.2.1",
     "cordova-plugin-app-event": "1.2.0",
-    "de.appplant.cordova.plugin.local-notification": "0.8.4"
+    "de.appplant.cordova.plugin.local-notification": "0.8.4",
+    "cz.blocshop.socketsforcordova": "1.1.0",
+    "cordova-plugin-fullscreen": "1.1.0",
+    "cordova-plugin-background-mode": "0.7.2",
+    "com.pylonproducts.wifiwizard": "0.2.11"
 };
 // BOTTOM OF METADATA
 });

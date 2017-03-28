@@ -4,16 +4,22 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     currentVersion = $localStorage.settings.about.version;
   }
 
+  setTimeout(function(){
+    //don't run out of memory
+    self.logFull = "HappyLeaf Version " + currentVersion + "\r\n";
+    self.canLogName = moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt";
+  }, 2000000);
+
   var self = {
     logText: "HappyLeaf Version " + currentVersion + "\r\n",
     logFull: "HappyLeaf Version " + currentVersion + "\r\n",
-
+    
     historyLogName: moment().format("MM-DD-YYYY") + "-history.json",
     canLogName: moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt",
 
     betaDirectory: null,
     happyLeafDir: null,
-    
+
     setupFilesystem: function(){
       self.log("Root file directory: " + cordova.file.externalRootDirectory);
       self.createLogDirectory(cordova.file.externalRootDirectory, function(){
@@ -46,14 +52,14 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         self.betaDirectory.getFile(self.canLogName, { create: true }, function( fileEntry ) {
           fileEntry.createWriter( function( fileWriter ) {
               fileWriter.onwriteend = function( result ) {
-                logManager.log('OBD log file write done.');
+                self.log('OBD log file write done.');
               };
               fileWriter.onerror = function( error ) {
-                logManager.log( JSON.stringify(error) );
+                self.log( JSON.stringify(error) );
               };
               fileWriter.write(self.logFull);
-          }, function( error ) { logManager.log( JSON.stringify(error) ); } );
-        }, function( error ) { logManager.log( JSON.stringify(error) ); } );
+          }, function( error ) { self.log( JSON.stringify(error) ); } );
+        }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
     },
 
@@ -62,29 +68,32 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         self.betaDirectory.getFile(self.historyLogName, { create: true }, function( fileEntry ) {
           fileEntry.createWriter( function( fileWriter ) {
               fileWriter.onwriteend = function( result ) {
-                logManager.log('History file write done.');
+                self.log('History file write done.');
               };
               fileWriter.onerror = function( error ) {
-                logManager.log( JSON.stringify(error) );
+                self.log( JSON.stringify(error) );
               };
               fileWriter.write( JSON.stringify($localStorage.history) );
-          }, function( error ) { logManager.log( JSON.stringify(error) ); } );
-        }, function( error ) { logManager.log( JSON.stringify(error) ); } );
+          }, function( error ) { self.log( JSON.stringify(error) ); } );
+        }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
     },
 
     log: function(log) {
-      var now = "[ " + moment().format("MM-DD-YYYY hh:mm:ss a") + " ]  ";
-      if(typeof arguments == "array"){
-        //console.log(arguments.join());
-        async.eachSeries(arguments, function(logToAdd){
-          self.logFull = now + logToAdd + "\r\n" + self.logFull;
-        });
-      } else {
-        //console.log(log);
-        self.logFull = now + log + "\r\n" + self.logFull;
+      if($localStorage.settings.experimental.logOBDFile){
+        var now = "[ " + moment().format("MM-DD-YYYY hh:mm:ss a") + " ]  ";
+        if(typeof arguments == "array"){
+          //console.log(arguments.join());
+          async.eachSeries(arguments, function(logToAdd){
+            self.logFull = now + logToAdd + "\r\n" + self.logFull;
+          });
+        } else {
+          console.log(log);
+          self.logFull = now + log + "\r\n" + self.logFull;
+          //console.log(log);
+        }
+        self.logText = self.logFull.substring(0, 30000);
       }
-      self.logText = self.logFull.substring(0, 30000);
     }
   };
 

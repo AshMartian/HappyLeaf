@@ -17,11 +17,20 @@
 
 <main flex id="welcome">
   <md-content class="device-list">
+    <md-subheader class="md-no-sticky">{{'WELCOME.DEVICES' | translate}}</md-subheader>
   	<md-radio-group ng-model="selected">
-  	  <md-radio-button ng-click="connectDevice(device.address)" ng-repeat="device in devices" ng-value="device.address" aria-label="{{ device.name}}">
+  	  <md-radio-button ng-click="connectDevice(device.address)" ng-repeat="device in connection.availableDevices" ng-value="device.address" aria-label="{{ device.name}}">
   	     <span class="device-name">{{ device.name }}</span>
   	  </md-radio-button>
   	</md-radio-group>
+
+    <md-subheader ng-if="wifiNetworks.length > 0" class="md-no-sticky">{{'SETTINGS.WIFI.TITLE' | translate}}</md-subheader>
+    <md-radio-group ng-if="wifiNetworks.length > 0">
+  	  <md-radio-button ng-click="connectWifi(network.SSID)" ng-selected="currentWifi == network" ng-repeat="network in wifiNetworks" ng-value="network.SSID" aria-label="{{network.SSID}}">
+  	     <span class="device-name">{{ network.SSID }}</span>
+  	  </md-radio-button>
+  	</md-radio-group>
+
     <md-list-item>
       <span translate>
           WELCOME.DEVICE_TIPS

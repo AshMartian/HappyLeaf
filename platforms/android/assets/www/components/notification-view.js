@@ -6,8 +6,8 @@ happyLeaf.component('notificationView', {
 
     // The controller that handles our component logic
     controller: function ($scope, $rootScope, dataManager, logManager, $translate, $localStorage, $mdDialog, deviceReady) {
-      /*
-      setTimeout(function(){ //Test notifications
+
+      /*setTimeout(function(){ //Test notifications
         $rootScope.$broadcast('notification', {
           title: "Hello world",
           time: (new Date()).getTime(),
@@ -23,7 +23,7 @@ happyLeaf.component('notificationView', {
       $scope.unreadNotifications = 0;
       var selectedNotification = null;
       var selectedNotificationIndex = null;
-
+      
       var calculateUnread = function(){
         $scope.unreadNotifications = 0;
         async.forEach($localStorage.notifications, function(notification){

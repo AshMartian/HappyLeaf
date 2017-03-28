@@ -14,6 +14,12 @@ md-radio-button {
 md-radio-button > .device-name {
 
 }
+.device-list {
+	 max-height: calc(100vh - 130px);
+	 overflow-y: scroll;
+	 min-height: 50vh;
+	 max-width: 99%;
+}
 
 .scan-btn {
   min-width: 40px;

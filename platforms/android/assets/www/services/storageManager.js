@@ -10,6 +10,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   }
   if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
   if($localStorage.settings.experiance.displayAllData == null) $localStorage.settings.experiance.displayAllData = true;
+  if($localStorage.settings.experiance.displayLogs == null) $localStorage.settings.experiance.displayLogs = true;
   if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
   if($localStorage.settings.experiance.lightSensitivity == null) $localStorage.settings.experiance.lightSensitivity = 6;
   if($localStorage.settings.experiance.darkModeHeadlights == null) $localStorage.settings.experiance.darkModeHeadlights = false;
@@ -27,8 +28,12 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
 
   if($localStorage.settings.data.drivingDataAttributes == null) $localStorage.settings.data.drivingDataAttributes = [];
 
+  if($localStorage.settings.wifi == null) $localStorage.settings.wifi = {};
+  if($localStorage.settings.wifi.ipaddress == null) $localStorage.settings.wifi.ipaddress = "192.168.0.10";
+  if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
+
   $localStorage.settings.about = {
-    version: "0.1.8.6"
+    version: "0.1.9.1"
   };
 
 
@@ -36,7 +41,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     db: null,
 
     createHistoryPoint: function(){
-      if(connectionManager.isConnected){
+      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive()){
         var now = (new Date()).getTime();
         dataManager.endTime = now;
         var currentDataManager = {};

@@ -9,6 +9,13 @@ md-card-content > h2 {
   padding: 0;
   -webkit-margin-before: 0.4em;
   -webkit-margin-after: 0.15em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+md-card-footer {
+  padding-right: 0 !important;
 }
 
 md-card-content {
@@ -26,8 +33,16 @@ md-menu {
   padding: 0 !important;
 }
 
+.temp-offset {
+  float: right;
+  margin-right: 10%;
+  transition: opacity 8s ease;
+  line-height: 5px;
+}
+
 .log {
   white-space: pre-line;
+  word-break: break-all;
   font-size: 16px;
 }
 
@@ -130,7 +145,9 @@ md-badge{
   margin-top: 50vh;
   height: 100vh;
   max-height: calc(100vh - 55px);
-  overflow: scroll;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .content {
@@ -190,15 +207,30 @@ h3.small {
   min-width: 55vw;
 }
 
-#LEAF {
+#LEAF, .leaf-loading {
   width: 40vw;
   height: 88vh;
+  display: block;
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
 }
 
+.LEAF-Text {
+  opacity: 0;
+}
+
+.loading-container {
+  position: absolute;
+  top: 45px;
+}
+
 main.dark #LEAF text {
   fill: white;
+}
+
+.dark-button {
+  width: 80px;
+  height: 80px;
 }
 
 #Motor_x5F_Speed {
@@ -473,14 +505,20 @@ main.dark #LEAF text {
   font-size: 185%;
   font-weight: bold;
   z-index: 3;
+  word-break: break-word;
 }
 .Temp-Text {
   font-weight: lighter;
   opacity: 0.6;
 }
+
 .Volt-Text, .SOC-Text-Label {
   opacity: 0.8;
   font-weight: normal;;
+}
+
+.main-top-stats, .other-bottom-stats {
+  opacity: 0;
 }
 
 .Motor-Text, .Climate-Text {
@@ -523,7 +561,7 @@ main.dark #LEAF text {
 }
 
 @media screen and (orientation:portrait) {
-  #LEAF {
+  #LEAF, .leaf-loading, .loading-container {
     width: 100vw;
     max-height: 50vh;
   }
@@ -561,13 +599,13 @@ main.dark #LEAF text {
    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   md-card b {
-    font-size: 2.8vh;
+    font-size: 2.5vh;
   }
   .SOC-Text {
     font-size: 3vh;
   }
   .SOC-Text-Label {
-    font-size: 1.8vh;
+    font-size: 1.6vh;
   }
   .Temp-Text {
     font-size: 2vh;
@@ -588,6 +626,7 @@ main.dark #LEAF text {
   md-card h2 {
     font-size: 2vw;
   }
+
   md-card h2 big {
     font-size: 6.6vw;
   }
@@ -603,11 +642,15 @@ main.dark #LEAF text {
     font-size: 2.8vw;
   }
 
+  .loading-container {
+    margin-right: 5px;
+  }
+
   .SOC-Text {
     font-size: 3vw;
   }
   .SOC-Text-Label {
-    font-size: 1.8vw;
+    font-size: 1.6vw;
   }
   .Temp-Text {
     font-size: 2vw;
@@ -621,8 +664,12 @@ main.dark #LEAF text {
   }
 
   .content {
-    margin-top: 10px;
+    margin-top: 15px;
     padding-top: 40px;
+  }
+
+  .status {
+  	font-size: 2vw !important;
   }
 
 }
@@ -630,6 +677,10 @@ main.dark #LEAF text {
 @media (max-width: 520px), (max-height: 520px) {
   .status {
     font-size: 20px !important;
+  }
+
+  md-card h2 big {
+    font-size: 6.5vw;
   }
 
   .more-button {

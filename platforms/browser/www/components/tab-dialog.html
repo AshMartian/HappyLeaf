@@ -1,4 +1,4 @@
-<md-dialog aria-label="Mango (Fruit)">
+<md-dialog>
   <form>
     <md-toolbar>
       <div class="md-toolbar-tools">
@@ -8,17 +8,30 @@
     </md-toolbar>
     <md-dialog-content style="max-width:97%;max-height:90%; ">
       <md-tabs md-dynamic-height md-border-bottom>
-        <md-tab label="settings">
+        <md-tab label="{{'SETTINGS.TABS.SETTINGS' | translate}}">
           <md-content class="md-padding">
 
             <md-list>
 
-              <md-subheader class="md-no-sticky">{{'SETTINGS.DISPLAY.TITLE' | translate}}</md-subheader>
-              <md-list-item >
-                <p>{{'SETTINGS.DISPLAY.EXTRA_DATA' | translate}}
-                <br/><small translate>SETTINGS.DISPLAY.EXTRA_DATA_DETAIL</small></p>
-                <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
+
+              <md-list-item>
+                <p translate>SETTINGS.DISPLAY.LANGUAGE.TITLE</p>
+
+                <md-menu class="md-secondary">
+                  <md-button class="md-icon-button" ng-click="$mdMenu.open($event)">
+                    <ng-md-icon class="menu-icon" icon="translate" size="30px" style="fill: black;"></ng-md-icon>
+                  </md-button>
+                  <md-menu-content width="4">
+                    <md-menu-item ng-repeat="lang in languages">
+                      <md-button ng-click="setLanguage(lang.short)">
+                        {{lang.name | translate}}
+                      </md-button>
+                    </md-menu-item>
+                  </md-menu-content>
+                </md-menu>
+
               </md-list-item>
+
 
               <md-subheader class="md-no-sticky" translate>{{'SETTINGS.DARK_MODE.TITLE' | translate}}</md-subheader>
               <md-list-item >
@@ -43,6 +56,35 @@
                 <md-switch ng-model="local.settings.notifications.enablePush"></md-switch>
               </md-list-item>
 
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_HIGH_THRESHOLD</span> ({{tireHighThreshold}})</p><br/>
+                <md-slider flex min="30" max="48" md-discrete ng-model="tireHighThreshold"></md-slider>
+              </md-list-item>
+
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_LOW_THRESHOLD</span> ({{tireLowThreshold}})</p><br/>
+                <md-slider flex min="20" max="38" md-discrete ng-model="tireLowThreshold"></md-slider>
+              </md-list-item>
+
+              <md-list-item>
+                <p><span translate>SETTINGS.NOTIFICATIONS.TIRE_DELTA_THRESHOLD</span> ({{local.settings.notifications.tireDeltaThreshold}})</p><br/>
+                <md-slider flex min="0.5" max="5" md-discrete ng-model="local.settings.notifications.tireDeltaThreshold"></md-slider>
+              </md-list-item>
+
+              <md-subheader class="md-no-sticky">{{'SETTINGS.DISPLAY.TITLE' | translate}}</md-subheader>
+              <md-list-item>
+                <p>{{'SETTINGS.DISPLAY.EXTRA_DATA' | translate}}
+                <br/><small translate>SETTINGS.DISPLAY.EXTRA_DATA_DETAIL</small></p>
+                <md-switch ng-model="local.settings.experiance.displayAllData"></md-switch>
+              </md-list-item>
+
+              <md-list-item>
+                <p>{{'SETTINGS.DISPLAY.EXTRA_LOGS' | translate}}
+                <br/><small translate>SETTINGS.DISPLAY.EXTRA_LOGS_DETAIL</small></p>
+                <md-switch ng-model="local.settings.experiance.displayLogs"></md-switch>
+              </md-list-item>
+
+
               <md-subheader class="md-no-sticky">{{'SETTINGS.EXPERIMENTAL.TITLE' | translate}}</md-subheader>
               <md-list-item >
                 <p>{{'SETTINGS.EXPERIMENTAL.SAVE_OBD' | translate}} <br/><small>/sdcard/Happy_Leaf/BETA/</small></p>
@@ -63,7 +105,29 @@
 
           </md-content>
         </md-tab>
-        <md-tab label="data">
+        <md-tab label="{{'SETTINGS.TABS.CONNECTION' | translate}}">
+          <md-content class="md-padding">
+            <md-list>
+
+              <md-subheader class="md-no-sticky">{{'SETTINGS.WIFI.TITLE' | translate}}</md-subheader>
+              <md-list-item>
+                <md-input-container class="md-icon-float md-icon-right md-block">
+                  <label>{{'SETTINGS.WIFI.IP' | translate}}</label>
+                  <input ng-model="local.settings.wifi.ipaddress" type="text"></input>
+                </md-input-container>
+              </md-list-item>
+
+              <md-list-item>
+                <md-input-container class="md-icon-float md-icon-right md-block">
+                  <label>{{'SETTINGS.WIFI.PORT' | translate}}</label>
+                  <input ng-model="local.settings.wifi.port" type="number" step="1"></input>
+                </md-input-container>
+              </md-list-item>
+
+            </md-list>
+          </md-content>
+        </md-tab>
+        <md-tab label="{{'SETTINGS.TABS.DATA' | translate}}">
           <md-content class="md-padding">
             <h3 class="md-display-2" translate>SETTINGS.DATA.CLEAR</h3>
             <md-button class="md-raised md-warn" ng-click="clearHistory($event)">
@@ -80,7 +144,7 @@
             </md-contact-chips-->
           </md-content>
         </md-tab>
-        <md-tab label="about">
+        <md-tab label="{{'SETTINGS.TABS.ABOUT' | translate}}">
           <md-content class="md-padding">
             <h1 class="md-display-2">Happy Leaf</h1>
             <hr/>

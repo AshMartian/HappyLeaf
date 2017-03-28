@@ -5,12 +5,12 @@
         <span translate>
           HOME.TITLE
         </span>
-        <br/>
+        <br ng-if="!showFullscreen"/>
         <small ng-if="data.odometer > 0 && distanceToDisplay == 0" class="title-odo">{{data.odometer | number:1}} {{data.readableDistanceUnits()}}</small>
         <small ng-if="local.mileDriven > 0 && distanceToDisplay == 1" class="title-odo">{{local.mileDriven | number}} {{data.readableDistanceUnits()}} {{'HOME.HAPPY' | translate}}</small>
         <small ng-if="local.milesDrivenToday > 0 && distanceToDisplay == 2" class="title-odo">{{local.milesDrivenToday | number}} {{data.readableDistanceUnits()}} {{'HOME.TODAY' | translate}}</small>
       </div>
-      
+
       <!-- fill up the space between left and right area -->
       <span flex></span>
       <span ng-if="data.outsideTemp">
@@ -28,7 +28,7 @@
     <div layout="row" class="main-top-row">
       <div layout="column">
         <md-menu class="left-button" flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-position-mode="target-right target">
-          <md-button aria-label="Open menu" class="md-icon-button left-button up" ng-click="$mdOpenMenu($event)">
+          <md-button aria-label="Open menu" class="md-icon-button left-button up dark-button" ng-click="$mdMenu.open($event)">
             <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
           </md-button>
           <md-menu-content width="2">
@@ -41,18 +41,30 @@
                   </div>
               </md-button>
             </md-menu-item>
+            <md-menu-item>
+              <md-button md-theme-watch="true" ng-disabled="showFullscreenDisabled" ng-click="toggleFullscreen()">
+                  <div layout="row" flex>
+                    <p flex translate>{{showFullScreen ? "HOME.MENUS.OUT_FULLSCREEN" : "HOME.MENUS.TO_FULLSCREEN"}}</p>&nbsp;&nbsp;
+                    <ng-md-icon options='{"rotation": "counterclock"}' icon="{{showFullScreen ? 'fullscreen_exit' : 'fullscreen'}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
+                  </div>
+              </md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
 
         <leaf-display></leaf-display>
       </div>
-      <div layout="column" class="main-top-stats data-column">
+      <div layout="column" class="main-top-stats data-column fade-in fade-long">
         <div layout="row">
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
            <md-card-content>
+             <small class="temp-offset clear" ng-if="data.tempOffset" ng-class="{'green': data.tempOffset > 100, 'red': data.tempOffset <= 90}" highlight-on-change="{{data.tempOffset}}">&deg;{{data.tempOffset | number:1}}%</small>
              <small class="title" translate>HOME.REMAINING</small>
-             <h2><big>{{data.killowatts | number:2}}</big> kWh</h2>
+
+             <h2 class="kwh-reamining">
+               <big>{{data.killowatts | number:2}}</big> <span>kWh</span>
+             </h2>
              <small><span><b>{{(data.distancePerKW * data.killowatts) | number:1}}</b> {{data.readableDistanceUnits()}} {{'HOME.TO' | translate}} 0</span></small>
            </md-card-content>
            <md-card-footer>
@@ -63,7 +75,7 @@
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
             <md-menu md-position-mode="target-right target">
-              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdOpenMenu($event)">
+              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdMenu.open($event)">
                 <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
               </md-button>
               <md-menu-content width="3">
@@ -108,7 +120,7 @@
     </div>
 
     </div>
-    <div flex ng-if="!local.settings.experiance.displayAllData">
+    <div flex class="other-bottom-stats fade-in fade-super-long" ng-if="!local.settings.experiance.displayAllData">
       <md-grid-list
         md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="6"
         md-row-height-gt-md="1:1" md-row-height="4:2"
@@ -148,10 +160,11 @@
     </div>
   </div>
 
-  <div class="log-container">
+  <div ng-if="!local.settings.experiance.displayLogs" class="log-container fade-super-long">
     <ng-md-icon class="log-icon" icon="{{logIcon}}" size="40px" style="fill: black;" ng-click="toggleLog()" options='{"rotation": "none"}'></ng-md-icon>
     <p class="log">
       {{logOutput}}
+      {{SETTINGS.DATA.LOG_LOCATION | translate:'{ location: "local.settings.data.logLocation" }'}}
     </p>
   </div>
 </main>

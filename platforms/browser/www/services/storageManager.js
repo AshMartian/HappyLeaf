@@ -1,10 +1,47 @@
-happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', '$localStorage', function($rootScope, dataManager, connectionManager, logManager, $localStorage){
+happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionManager', 'logManager', '$localStorage', function($rootScope, dataManager, connectionManager, logManager, $localStorage){
+  if(!$localStorage.settings || !$localStorage.settings.data){
+    $localStorage.mileDriven = 0;
+    $localStorage.settings = {
+      data: {
+        graphTimeEnd: 86400000,
+        showLatestGraph: false,
+      }
+    };
+  }
+  if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
+  if($localStorage.settings.experiance.displayAllData == null) $localStorage.settings.experiance.displayAllData = true;
+  if($localStorage.settings.experiance.displayLogs == null) $localStorage.settings.experiance.displayLogs = true;
+  if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
+  if($localStorage.settings.experiance.lightSensitivity == null) $localStorage.settings.experiance.lightSensitivity = 6;
+  if($localStorage.settings.experiance.darkModeHeadlights == null) $localStorage.settings.experiance.darkModeHeadlights = false;
+
+  if($localStorage.settings.notifications == null) $localStorage.settings.notifications = {};
+  if($localStorage.settings.notifications.enablePush == null) $localStorage.settings.notifications.enablePush = true;
+  if($localStorage.settings.notifications.tireHighThreshold == null) $localStorage.settings.notifications.tireHighThreshold = 42;
+  if($localStorage.settings.notifications.tireLowThreshold == null) $localStorage.settings.notifications.tireLowThreshold = 32;
+  if($localStorage.settings.notifications.tireDeltaThreshold == null) $localStorage.settings.notifications.tireDeltaThreshold = 2;
+
+  if($localStorage.settings.experimental == null) $localStorage.settings.experimental = {};
+  if($localStorage.settings.experimental.darkModeAmbient == null) $localStorage.settings.experimental.debugCodes = false;
+  if($localStorage.settings.experimental.logOBDFile == null) $localStorage.settings.experimental.logOBDFile = false;
+  if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
+
+  if($localStorage.settings.data.drivingDataAttributes == null) $localStorage.settings.data.drivingDataAttributes = [];
+
+  if($localStorage.settings.wifi == null) $localStorage.settings.wifi = {};
+  if($localStorage.settings.wifi.ipaddress == null) $localStorage.settings.wifi.ipaddress = "192.168.0.10";
+  if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
+
+  $localStorage.settings.about = {
+    version: "0.1.9"
+  };
+
 
   var self = {
     db: null,
 
     createHistoryPoint: function(){
-      if(connectionManager.connected){
+      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive()){
         var now = (new Date()).getTime();
         dataManager.endTime = now;
         var currentDataManager = {};
@@ -13,7 +50,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', 
             currentDataManager[key] = dataManager[key];
           }
         });
-        
+
         $localStorage.history[now] = currentDataManager;
         $localStorage.historyCount = Object.keys($localStorage.history).length;
         dataManager.historyCreated();
@@ -50,7 +87,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', 
    }
   };
 
-  console.log("Cleaning up history older than 24 hours");
+  logManager.log("Cleaning up history older than 24 hours");
   if($localStorage.history) {
     var ONE_DAY = 172800000;
     var now = (new Date()).getTime();
@@ -58,19 +95,26 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'logManager', 
     var lastDrivenToday = 0;
     async.forEach(Object.keys($localStorage.history), function(key){
       var historyDataPoint = $localStorage.history[key];
+
+      //Check if is same day.
       if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer > lastDrivenToday && historyDataPoint.odometer < 400000) {
         if(lastDrivenToday == 0) {
           $localStorage.milesDrivenToday += 1;
-        } else {
+        } else if(historyDataPoint.odometer < lastDrivenToday + 200 && historyDataPoint.odometer > lastDrivenToday ) { // I don't think a leaf could go 200 miles since last opened today? Need to filter out abnormalities.
           $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
+        } else if(historyDataPoint.odometer < lastDrivenToday) {
+          historyDataPoint.odometer = lastDrivenToday;
+        } else {
+          $localStorage.milesDrivenToday -= lastDrivenToday - historyDataPoint.odometer;
         }
-
         lastDrivenToday = historyDataPoint.odometer;
       }
 
       //Goodbye
       if(parseInt(now) - ONE_DAY > parseInt(key)) {
         delete $localStorage.history[key];
+      } else {
+        $localStorage.history[key] = historyDataPoint; //Place history back with corrections.
       }
     });
   } else {

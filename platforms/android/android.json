@@ -79,6 +79,30 @@
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocketsForCordova\"><param name=\"android-package\" value=\"cz.blocshop.socketsforcordova.SocketPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AndroidFullScreen\"><param name=\"android-package\" value=\"com.mesmotronic.plugins.FullScreenPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BackgroundMode\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.background.BackgroundMode\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"KeepRunning\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"AndroidLaunchMode\" value=\"singleInstance\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"WifiWizard\"><param name=\"android-package\" value=\"com.pylonproducts.wifiwizard.WifiWizard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ],
                     "/widget": [
@@ -129,6 +153,26 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 1
                         }
                     ],
                     "/manifest/application": [
@@ -158,6 +202,10 @@
                         },
                         {
                             "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.notification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"de.appplant.cordova.plugin.background.ForegroundService\" />",
                             "count": 1
                         }
                     ]
@@ -231,6 +279,18 @@
         },
         "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-fullscreen": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
         }
     },
     "dependent_plugins": {},
@@ -573,6 +633,35 @@
                 "cordova.plugins.notification.local.core",
                 "plugin.notification.local.core"
             ]
+        },
+        {
+            "file": "plugins/cz.blocshop.socketsforcordova/socket.js",
+            "id": "cz.blocshop.socketsforcordova.Socket",
+            "clobbers": [
+                "window.Socket"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js",
+            "id": "cordova-plugin-fullscreen.AndroidFullScreen",
+            "clobbers": [
+                "AndroidFullScreen"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-background-mode/www/background-mode.js",
+            "id": "cordova-plugin-background-mode.BackgroundMode",
+            "clobbers": [
+                "cordova.plugins.backgroundMode",
+                "plugin.backgroundMode"
+            ]
+        },
+        {
+            "file": "plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js",
+            "id": "com.pylonproducts.wifiwizard.WifiWizard",
+            "clobbers": [
+                "window.WifiWizard"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -597,6 +686,10 @@
         "cordova-sqlite-storage": "2.0.2",
         "cordova-plugin-lightSensor": "0.2.1",
         "cordova-plugin-app-event": "1.2.0",
-        "de.appplant.cordova.plugin.local-notification": "0.8.4"
+        "de.appplant.cordova.plugin.local-notification": "0.8.4",
+        "cz.blocshop.socketsforcordova": "1.1.0",
+        "cordova-plugin-fullscreen": "1.1.0",
+        "cordova-plugin-background-mode": "0.7.2",
+        "com.pylonproducts.wifiwizard": "0.2.11"
     }
 }

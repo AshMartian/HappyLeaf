@@ -2,7 +2,10 @@
   <form ng-cloak>
     <md-toolbar>
       <div class="md-toolbar-tools">
-        <h2><ng-md-icon options='{"rotation": "counterclock"}' icon="{{notification.icon}}" size="30px" style="fill: white;"></ng-md-icon> {{notification.title}}</h2>
+        <h2>
+          <ng-md-icon options='{"rotation": "counterclock"}' icon="{{notification.icon}}" size="30px" style="fill: white;"></ng-md-icon>
+          {{notification.title}}
+        </h2>
         <span flex></span>
         <md-button class="md-icon-button" ng-click="cancel()">
           <ng-md-icon class="" options='{"rotation": "counterclock"}' icon="close" size="30px" style="fill: white;"></ng-md-icon>
@@ -11,7 +14,11 @@
     </md-toolbar>
 
     <md-dialog-content>
-      <p class="md-dialog-content" ng-bind-html="notification.content"></p>
+      <p class="md-dialog-content">
+        <span ng-bind-html="notification.content"></span>
+        <br />
+        <small class="text-center" am-time-ago="notification.time"></small>
+      </p>
     </md-dialog-content>
 
     <md-dialog-actions layout="row">
