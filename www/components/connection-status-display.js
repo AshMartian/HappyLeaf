@@ -30,15 +30,15 @@ happyLeaf.component('connectionStatus', {
 
       //console.log("Watch got isWaiting " + bluetoothSend.isWaiting + "  " + self.waitingColor);
 
-      $scope.$watch('connectionManager.failedSend', function(){
-        if(self.failedSend.length > 3) {
+      $scope.$watch('connection.failedSend', function(){
+        if(connectionManager.failedSend.length > 3) {
           $scope.displayStyle = 'background-color: '+self.offColor+';';
         } else if(connectionManager.isConnected) {
           $scope.displayStyle = 'background-color: '+self.connectedColor+';';
         }
       });
 
-      $scope.$watch('connectionManager.isConnected', function(){
+      $scope.$watch('connection.isConnected', function(){
         //console.log("Is connected has changed");
         if(connectionManager.isConnected){
           cordova.plugins.backgroundMode.configure({

@@ -86,13 +86,28 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       }
     }
 
-    $scope.showDarkTheme = false;
-    $scope.showFullscreen = false;
+    if(!$localStorage.settings.experiance.darkModeAmbient && !$localStorage.settings.experiance.darkModeHeadlights) {
+      if($localStorage.settings.experiance.darkMode) {
+        $scope.showDarkTheme = $localStorage.settings.experiance.darkMode;
+      } else {
+        $scope.showDarkTheme = false;
+      }
+    } else {
+      $scope.showDarkTheme = false;
+    }
+
+    $scope.showFullscreen = $localStorage.settings.experiance.fullScreen ? $localStorage.settings.experiance.fullScreen : false;
+    if($scope.showFullscreen){
+      AndroidFullScreen.immersiveMode(function(){
+
+      }, null);
+    }
     $scope.showFullscreenDisabled = false;
 
     $scope.toggleDark = function(){
       $scope.userOverrideTheme = true;
-      $scope.showDarkTheme = $scope.showDarkTheme ? false : true;
+      $localStorage.settings.experiance.darkMode = $scope.showDarkTheme ? false : true;
+      $scope.showDarkTheme = $localStorage.settings.experiance.darkMode;
     }
 
     $scope.toggleFullscreen = function() {
@@ -100,12 +115,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
         AndroidFullScreen.isSupported(function(){
           if(!$scope.showFullscreen){
             AndroidFullScreen.showSystemUI(function(){
-              $scope.showFullscreen = true;
+
             }, null);
+            $scope.showFullscreen = true;
           } else {
             AndroidFullScreen.immersiveMode(function(){
-              $scope.showFullscreen = false;
+
             }, null);
+            $scope.showFullscreen = false;
           }
         }, function(){
           $scope.showFullscreenDisabled = true;
@@ -139,6 +156,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
     $scope.lastMsg = "";
     $scope.messagesReceived = [];
+    $scope.messagesWithoutData = [];
 
     $scope.cycleDistance = function(){
       $scope.distanceToDisplay ++;
@@ -192,12 +210,13 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
             lastResponse = output;
             if(!output.match(/ok/i) && !output.match(/stopped/i)){
               $scope.messagesReceived.push(output);
+              $scope.parseResponse(output, lastCommand);
             }
-            if(output.match(/no/i)) {
+            if(output.match(/no data/i)) {
               //$scope.failedMessages = true;
+              $scope.messagesWithoutData.push(lastCommand);
             }
-            connectionManager.shouldSend();
-            $scope.parseResponse(output, lastCommand);
+            //connectionManager.shouldSend();
           //}
         }
 

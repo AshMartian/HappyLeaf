@@ -155,7 +155,8 @@ var translationsEN = {
         ENGLISH: "English",
         FRENCH: "French",
         RUSSIAN: "Russian",
-        TITLE: "Language"
+        PORTUGUESE: "Portuguese",
+        TITLE: "Language",
       }
     },
     DARK_MODE: {
@@ -508,12 +509,175 @@ var translationsRU = {
   }
 };
 
+
+var translationsPT = {
+  WELCOME: {
+    TITLE: 'Bem vindo',
+    LOADING_TEXT: 'A carregar...',
+    SCANNING: "A detectar...",
+    CONNECTING: 'A ligar...',
+    CONNECTED: 'Ligado!',
+    TESTING: 'A testar...',
+    SUCCESS: 'Ligado a {{output}}!',
+    FOUND: 'Encontrados {{length}} dispositivos emparelhados',
+    DEVICE_TIPS: "Se n„o vir o seu dispositivo OBD, emparelhe em DefiniÁıes -> Bluetooth no seu SO.<br/>Certifique-se que n„o h· outra App a usar o seu dispositivo Bluetooth.",
+    BLUETOOTH_ERROR: {
+      TITLE: "Necess·rio um ODB Bluetooth",
+      CONTENT: "O Bluetooth tem de estar ligado para comunicar com o dispositivo OBD.",
+      RETRY: "Tente novamente"
+    },
+    OFFLINE_WARNING: {
+      TITLE: "Modo Offline",
+      CONTENT: "Desligado de qualquer dispositivo OBD. Ser„o carregados os dados da ultima ligaÁ„o. Ser· tentada a ligaÁ„o ao ultimo dispositivo ligado se estiver ao alcance.",
+      CONTINUE: "Continuar"
+    }
+  },
+  HOME: {
+    TITLE: "Happy Leaf",
+    USED: "Usado",
+    REMAINING: "Remanescente",
+    GAINED: "Ganho",
+    HAPPY: "Happy",
+    TODAY: "Hoje",
+    TO: "para",
+    YES: "Sim",
+    NO: "N„o",
+    HEALTH: "Sa˙de",
+    SINCE: "desde",
+    WATTS_MIN: "Watts por min",
+    MENUS: {
+      TO_DARK: "Mudar para escuro",
+      TO_LIGHT: "Mudar para claro",
+      USE_WATTS: "Usar Watts/{{units}}",
+      USE_KW: "Usar {{units}}/kW",
+      RESET: "Limpar",
+      EXPLAIN: "ExplicaÁ„o"
+    },
+    RESET_WARNING: {
+      TITLE: 'Limpar o medidor de Watts?',
+      CONTENT: 'Isto vai limpar as mediÁıes atuais de Watts e recomÁar. Tem a certeza?',
+      CONTINUE: 'Sim, limpar!',
+      NEVERMIND: 'N„o limpar'
+    },
+    EXPLAIN_METER: {
+      TITLE: 'Medidor de Watts',
+      CONTENT: 'Watt È a medida de transferÍncia de energia, ser capaz de medir a utilizaÁ„o dos Watts È essencial para aumentar a eficiÍncia. Este widget mede as alteraÁıes de Watts a partir de determinada altura e pode ser inicializado em qualquer momento.',
+      OKAY: 'Percebi!'
+    }
+  },
+  LEAF_DISPLAY: {
+    SOC: "Estado da carga",
+    MOTOR: "Motor",
+    CLIMATE: "Climatiz."
+  },
+  NOTIFICATIONS: {
+    CLEAR_ALL: "Limpar tudo",
+    NONE_YET: "Ainda sem notificaÁıes!",
+    RESET_DIALOG: {
+      TITLE: 'Limpar todas as notificaÁıes?',
+      CONTENT: 'Isto vai limpar de vez todas as notificaÁıes atuais, tem a certeza?',
+      OKAY: 'Sim, limpar!',
+      NEVERMIND: 'N„o limpar'
+    },
+    HIGH_BAT_TEMP: {
+      TITLE: "Temperatura da bateria alta",
+      CONTENT: "<h1>Temperatura da bateria alta</h1><p>Temperaturas de bateria altas podem causar danos irreversÌveis, evite carregamentos r·pidos atÈ a bateria arrefecer.<br/>Temperatura da bateria: {{temp}}&deg. </p>"
+    },
+    LOW_BAT_TEMP: {
+      TITLE: "Temperatura da bateria baixa",
+      CONTENT: "<h1>Temperatura da bateria baixa</h1><p>Temperaturas de bateria baixas podem causar danos irreversÌveis. Ligue a um carregador para ativar o aquecedor da bateria. <br/>Temperatura da bateria: {{temp}}&deg. </p>"
+    },
+    RAPID_TEMP: {
+      TITLE: "Aumento r·pido da temperatura da bateria",
+      CONTENT: "<h1>A temperatura da bateria aumentou rapidamente</h1><p>A temperatura da bateria aumentou 1&deg; muito r·pido.<br/>Temperatura da bateria: {{temp}}&deg aumentou {{increase}}&deg;. </p>"
+    },
+    LOW_12V: {
+      TITLE: "Bateria de 12v com pouca carga",
+      CONTENT: "<h1>Verifique a bateria de 12v!</h1><p>A bateria de 12v est· com pouca carga. <br/>Voltagem da bateria de 12v: {{volts}} volts. </p>"
+    },
+    LOW_TRACTION: {
+      TITLE: "Bateria com pouca carga",
+      CONTENT: "<h1>A carga da bateria est· baixa!</h1><p>Est· a ficar sem energia! Encontre um carregador r·pidamente! <br/>Carga da bateria: {{SOC}}%. </p>"
+    },
+    LOW_HX: {
+      TITLE: "HX baixo",
+      CONTENT: "<h1>O HX da bateria est· baixo</h1><p>O HX È uma medida relacionada com a sa˙de da bateria e est· baixo.<br/>HX da bateria: {{hx}}%. </p>"
+    },
+    LOW_OUTSIDE_TEMP: {
+      TITLE: "Perigo, gelo",
+      CONTENT: "<h1>Temperaturas baixas l· fora</h1><p>Est· muito frio l· fora, cuidado com o gelo. A temperatura exterior È: {{temp}}&deg. </p>"
+    },
+    HIGH_OUTPUT: {
+      TITLE: "Descarga r·pida de bateria",
+      CONTENT: "<h1>Descarga r·pida de bateria</h1><p>Pode ser divertido fazer aceleraÁıes r·pidas mas isso È prejudicial para a bateria.<br/>Evite aceleraÁıes r·pidas para assegurar maior longevidade. A descarga do motor foi de {{watts}}Wh</p>"
+    },
+    TIRES: {
+      R_FRONT: "frente direita",
+      L_FRONT: "frente esquerda",
+      R_REAR: "traseira direita",
+      L_REAR: "traseira esquerda"
+    },
+    HIGH_TIRE: {
+      TITLE: "Pneu da {{tire}} tem demasiada press„o",
+      CONTENT: "<h1>A press„o do pneu da {{tire}} est· alta</h1><p>Pneus com muita press„o causam fraca eficiÍncia<br/>O pneu da {{tire}} tem: {{value}} psi. </p>",
+    },
+    LOW_TIRE: {
+      TITLE: "Pneu da {{tire}} tem pouca press„o",
+      CONTENT: "<h1>A press„o do pneu da {{tire}} est· baixa</h1><p>Pneus com pouca press„o causam fraca eficiÍncia<br/>O pneu da {{tire}} tem: {{value}} psi. </p>"
+    }
+  },
+  SETTINGS: {
+    TABS: {
+      SETTINGS: "ConfiguraÁıes",
+      DATA: "Dados",
+      ABOUT: "Acerca"
+    },
+    TITLE: "Gest„o",
+    NOTIFICATIONS: {
+      TITLE: "NotificaÁıes",
+      ENABLE_DEVICE: "Enviar notificaÁıes para o SO",
+      TIRE_HIGH_THRESHOLD: "Press„o m·xima",
+      TIRE_LOW_THRESHOLD: "Press„o minima",
+      TIRE_DELTA_THRESHOLD: "DiferenÁa de press„o"
+    },
+    DISPLAY: {
+      TITLE: "Display",
+      EXTRA_DATA: "Esconder dados extra",
+      EXTRA_DATA_DETAIL: "Melhora o desempenho",
+      LANGUAGE: {
+        ENGLISH: "English",
+        FRENCH: "French",
+        PORTUGUESE: "PortuguÍs",
+        TITLE: "Lingua"
+      }
+    },
+    DARK_MODE: {
+      TITLE: "Modo escuro",
+      AMBIENT: "Sensor de luz ambiente",
+      AMBIENT_SENSITIVITY: "Sensibilidade ‡ luz ambiente",
+      DARK_HEADLIGHTS: "Activar escuro com farÛis"
+    },
+    EXPERIMENTAL: {
+      TITLE: "Experimental",
+      SAVE_OBD: "Gravar ficheiro de log OBD",
+      SAVE_HISTORY: "Gravar ficheiro de histÛrico do log",
+      DEBUG_CODES: "Enviar cÛdigos de depuraÁ„o",
+      DEBUG_EXPLAIN: "(muito lento)"
+    },
+    DATA: {
+      CLEAR: "Limpar histÛria",
+      DELETE: "Apagar"
+    }
+  }
+};
+
 happyLeaf.config(['$translateProvider', function($translateProvider) {
   $translateProvider
     .translations('en', translationsEN)
     .translations('fr', translationsFR)
     .translations('ru', translationsRU)
-    .registerAvailableLanguageKeys(['en', 'fr', 'ru'], {
+    .translations('pt', translationsPT)
+    .registerAvailableLanguageKeys(['en', 'fr', 'ru', 'pt'], {
       'en_US': 'en',
       'en_UK': 'en',
       'de_DE': 'de',
@@ -524,7 +688,9 @@ happyLeaf.config(['$translateProvider', function($translateProvider) {
       'fr-LU': 'fr',
       'ro': 'ru',
       'rm': 'ru',
-      'qu': 'ru'
+      'qu': 'ru',
+      'pt_PT': 'pt',
+      'pt_BR': 'pt'
     })
     .determinePreferredLanguage()
     .fallbackLanguage('en');;

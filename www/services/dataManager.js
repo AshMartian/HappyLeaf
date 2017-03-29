@@ -628,12 +628,12 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.accVolts = VCC / 1024;
        self.batteryVolts = parseInt(splitMsg[1] + splitMsg[2], 16) / 100;
        logManager.log("Got battery volts: " + self.batteryVolts);
-       if(self.batteryVolts < 11 && self.batteryVolts > 6) {
+       if(self.accVolts < 11 && self.accVolts > 6) {
          $rootScope.$broadcast('notification', {
            title: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE"),
            time: (new Date()).getTime(),
            seen: false,
-           content: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE", {volts: self.accBattVolts}),
+           content: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE", {volts: self.accVolts}),
            icon: "battery_20"
          });
        }

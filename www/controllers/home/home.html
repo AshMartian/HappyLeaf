@@ -27,12 +27,11 @@
   <div class="content">
     <div layout="row" class="main-top-row">
       <div layout="column">
-        <md-menu class="left-button" flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-position-mode="target-right target">
+        <md-menu class="left-button" flex md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-position-mode="target-left target">
           <md-button aria-label="Open menu" class="md-icon-button left-button up dark-button" ng-click="$mdMenu.open($event)">
             <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
           </md-button>
           <md-menu-content width="2">
-            <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
             <md-menu-item>
               <md-button md-theme-watch="true" ng-click="toggleDark()">
                   <div layout="row" flex>
@@ -74,13 +73,12 @@
         </div>
         <div flex>
           <md-card md-theme-watch="true" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}">
-            <md-menu md-position-mode="target-right target">
-              <md-button md-theme-watch="true" aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdMenu.open($event)">
+            <md-menu md-position-mode="target-right target" >
+              <md-button aria-label="Open menu" class="md-icon-button more-button" ng-click="$mdMenu.open($event)">
                 <ng-md-icon class="more-icon rotate" options='{"rotation": "counterclock"}' icon="more_horiz" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }"></ng-md-icon>
               </md-button>
               <md-menu-content width="3">
-                <md-menu-item ng-hide="true"></md-menu-item><!--Stupid md-menu bug: https://github.com/angular/material/issues/3352-->
-                <md-menu-item ng-repeat="item in menuOptions">
+                <md-menu-item ng-repeat="item in menuOptions" >
                   <md-button md-theme-watch="true" ng-click="item.clicked()">
                       <div layout="row" flex>
                         <ng-md-icon class="menu-icon" icon="{{item.icon}}" size="30px" ng-style="{fill: showDarkTheme ? 'white' : 'black' }" style="margin-top: 11px;margin-right: 5px;"></ng-md-icon>
