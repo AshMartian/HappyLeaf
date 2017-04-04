@@ -49,6 +49,12 @@ happyLeaf.component('settingsDialog', {
         },{
           name: "SETTINGS.DISPLAY.LANGUAGE.RUSSIAN",
           short: "ru"
+        },{
+          name: "SETTINGS.DISPLAY.LANGUAGE.PORTUGUESE",
+          short: "pt"
+        },{
+          name: "SETTINGS.DISPLAY.LANGUAGE.SPANISH",
+          short: "es"
         }];
         $scope.tireLowThreshold = $localStorage.settings.notifications.tireLowThreshold;
         $scope.tireHighThreshold = $localStorage.settings.notifications.tireHighThreshold;

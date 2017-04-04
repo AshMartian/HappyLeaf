@@ -33,7 +33,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
 
   $localStorage.settings.about = {
-    version: "0.1.9.1"
+    version: "0.1.9.6"
   };
 
 
@@ -56,6 +56,9 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
         dataManager.historyCreated();
         $rootScope.$broadcast('historyUpdated');
         $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
+        if(!$localStorage.currentTripStart || $localStorage.currentTripStart == null) {
+          $localStorage.currentTripStart = currentDataManager;
+        }
       }
       //console.log("Creating history point");
     },

@@ -11,6 +11,8 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
   var GIDsConfirmed = false;
 
+  var averageLogs = {};
+
   var self = {
 
     SOH: lastHistoryItem.SOH || 0,
@@ -39,7 +41,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     turnAngle: 0,
 
     watts: lastHistoryItem.watts || 0,
-    killowatts: lastHistoryItem.killowatts || 0,
+    kilowatts: lastHistoryItem.kilowatts || 0,
 
     wattsUsed: lastHistoryItem.wattsUsed || 0,
     wattsStarted: lastHistoryItem.wattsStarted || 0,
@@ -94,13 +96,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     cruiseControlOn: null,
 
     isBuckled: null,
-    ODOUnits: lastHistoryItem.ODOUnits || null,
+    ODOUnits: lastHistoryItem.ODOUnits || "M",
+
+    distanceOffset: lastHistoryItem.distanceOffset || 0,
 
 
     startTime: (new Date()).getTime(),
     endTime: null,
-
-    averageLogs: {},
 
     historyCreated: function() {
       //clear any averages
@@ -181,14 +183,14 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     },
 
    setSOH: function(splitMsg){
-     if(splitMsg.length < 6){
-       logManager.log("Message length invalid " + splitMsg.length);
+     if(splitMsg.length !== 8){
+       logManager.log("SOH Message length invalid " + splitMsg.length);
        return;
      } else {
        var previousGIDs = self.GIDs;
        var tempByte = splitMsg[0];
        var previousBatteryTemp = self.batteryTemp;
-       var batteryTempC = (parseInt(tempByte) * .25);
+       var batteryTempC = (parseInt(tempByte, 16) * .25);
        var batteryTempF = ((batteryTempC * 9) / 5) + 32;
 
        var SOHbyte = splitMsg[1];
@@ -209,8 +211,8 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        var kWFromGIDs = wattsFromGIDs / 1000;
 
        //Essentially calculate Kw from SOC and make sure it roughly aligns with GIDs. If it doesn't likley over 255..
-       if(self.actualSOC && self.wattsPerSOC) {
-         var kWFromSOC = Math.round((self.actualSOC * self.wattsPerSOC) / 1000);
+       if(self.actualSOC) {
+         var kWFromSOC = Math.round((self.actualSOC * 170) / 1000);
 
          if(kWFromSOC > kWFromGIDs + 3 && self.GIDs < 200) {
            self.GIDs = self.GIDs + 255;
@@ -267,7 +269,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        if(previousGIDs != self.GIDs || wattsFromGIDs > self.watts + 77.5 || wattsFromGIDs < self.watts - 77.5){
          self.wattDifference = wattsFromGIDs - self.watts;
          self.watts = wattsFromGIDs;
-         self.killowatts = kWFromGIDs;
+         self.kilowatts = kWFromGIDs;
          self.getWattsPerSOC();
        } else if(previousGIDs != self.GIDs){
          self.getWattsPerSOC();
@@ -289,6 +291,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.wattsStartedODO = self.odometer;
      self.wattsUsed = 0;
      self.distanceTraveled = 0;
+     $localStorage.currentTripStart = null;
    },
 
    set12vBattery: function(splitMsg) {
@@ -307,13 +310,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    setOdometer: function(splitMsg){
-     if(splitMsg.length < 7){
-       logManager.log("Odometer message invalid length");
+     if(splitMsg.length !== 8){
+       logManager.log("Odometer message invalid length " + splitMsg.length);
        return;
      }
       var ODObyte = splitMsg[1] + splitMsg[2] + splitMsg[3];
       var rawUnits = splitMsg[7];
-      if(rawUnits == "40"){
+      if(rawUnits == "40") {
         self.distanceUnits = "K";
       }
       var lastODO = self.odometer;
@@ -338,14 +341,21 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      if(lastODO < self.odometer) {
        $localStorage.mileDriven += 1;
        $localStorage.milesDrivenToday += 1;
-       var odoAtBeginning = $localStorage.history[self.wattsStartedTime].odometer - $localStorage.history[self.wattsStartedTime].distanceOffset;
+       if($localStorage.currentTripStart !== null && $localStorage.currentTripStart.odometer){
+         var odoAtBeginning = $localStorage.currentTripStart.odometer - $localStorage.currentTripStart.distanceOffset;
+         self.distanceTraveled = self.odometer - odoAtBeginning;
+       }
+
        self.lastODOTime = (new Date()).getTime();
-       self.distanceTraveled = self.odometer - odoAtBeginning;
      }
      //$rootScope.$broadcast('dataUpdate', self);
    },
 
    setSpeed: function(splitMsg) {
+     if(splitMsg.length < 7){
+       logManager.log("Speed message invalid length");
+       return;
+     }
       var rawSpeed = parseInt(splitMsg[0] + splitMsg[1], 16);
       var units = splitMsg[4];
       var KMH = rawSpeed / 100;
@@ -456,6 +466,10 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    setTirePressures: function(splitMsg) {
+     if(splitMsg.length !== 7){
+       logManager.log("Speed message invalid length");
+       return;
+     }
      self.tire1 = parseInt(splitMsg[2], 16) / 4;
      self.tire2 = parseInt(splitMsg[3], 16) / 4;
      self.tire3 = parseInt(splitMsg[4], 16) / 4;
@@ -551,9 +565,19 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    setClimateConsumption: function(splitMsg){
+     if(splitMsg.length !== 8){
+       logManager.log("Climate message invalid length");
+       return;
+     }
      var oldConsumption = self.climateConsumption;
-     var consumption = parseInt(splitMsg[3], 16);
-     self.climateConsumption = (consumption * .25) * 100;
+     var consumption = parseInt(splitMsg[3], 16).toString(2);
+     consumption = consumption.substring(4, consumption.length);
+     var totalConsumption = 0;
+     for(var i = 0; i < consumption.length; i++){
+       totalConsumption = totalConsumption + parseInt(consumption.charAt(i));
+     }
+     logManager.log("Climate Usage LSB: " + totalConsumption);
+     self.climateConsumption = (totalConsumption * .25) * 1000;
 
      var outsideRaw = parseInt(splitMsg[7], 16);
      var lastOutsideTemp = self.outsideTemp;
@@ -578,16 +602,17 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      }
    },
 
-   parseCellVoltage: function(splitMsg){
+   parseLBCData: function(splitMsg){
      var group = parseInt(splitMsg[0], 16);
-     if(splitMsg.length < 7){
+     if(splitMsg.length !== 8){
+       logManager.log("Cannot parse 7BB, invalid length: " + splitMsg.length);
        return;
      }
      if(splitMsg[0] == "24"){
        self.hx = parseInt(splitMsg[2] + splitMsg[3], 16) / 100;
-       if(self.hx < 50) {
+       if(self.hx < 50 && self.hx !== 0) {
          $rootScope.$broadcast('notification', {
-           title: $translation.instant("NOTIFICATIONS.LOW_HX.TITLE"),
+           title: $translate.instant("NOTIFICATIONS.LOW_HX.TITLE"),
            time: (new Date()).getTime(),
            seen: false,
            content: $translation.instant("NOTIFICATIONS.LOW_HX.CONTENT", {hx: self.hx}),
@@ -610,7 +635,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        if(self.wattsPerSOC) {
          self.wattDifference = (self.actualSOC - previousSOC) * self.wattsPerSOC;
          self.watts = self.watts + self.wattDifference;
-         self.killowatts = self.watts / 1000;
+         self.kilowatts = self.watts / 1000;
          self.wattsUsed = self.wattsStarted - self.watts;
          if(self.wattsUsed < -400) {
            self.isCharging = true;
@@ -628,17 +653,29 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.accVolts = VCC / 1024;
        self.batteryVolts = parseInt(splitMsg[1] + splitMsg[2], 16) / 100;
        logManager.log("Got battery volts: " + self.batteryVolts);
-       if(self.batteryVolts < 11 && self.batteryVolts > 6) {
+       if(self.accVolts < 11 && self.accVolts > 6) {
          $rootScope.$broadcast('notification', {
            title: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE"),
            time: (new Date()).getTime(),
            seen: false,
-           content: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE", {volts: self.accBattVolts}),
+           content: $translate.instant("NOTIFICATIONS.LOW_12V.TITLE", {volts: self.accVolts}),
            icon: "battery_20"
          });
        }
      }
      $rootScope.$broadcast('dataUpdate', self);
+   },
+
+   parseCellVoltage: function(splitMsg) {
+     logManager.log("parsing cell voltage");
+   },
+
+   parseCellTemp: function(splitMsg) {
+
+   },
+
+   parseCellShunt: function(splitMsg) {
+
    },
 
    getWattsPerSOC: function() {
@@ -679,7 +716,11 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
    },
 
    parseCarCan: function(splitMsg) {
-
+     if(splitMsg.length !== 8){
+       logManager.log("EVSE message invalid length: " + splitMsg.length);
+       self.isCharging = false;
+       return;
+     }
      var type = splitMsg[3];
      if(type == "10") {
        var amps = parseInt(splitMsg[4] + splitMsg[5], 16) / 16;
@@ -692,14 +733,13 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.chargingVolts = volts;
      }
 
-     if(self.chargingAmps && self.chargingVolts){
-       self.chargingWatts = self.chargingAmps * self.chargingVolts;
+     if(parseInt(self.chargingAmps) && parseInt(self.chargingVolts)){
+       self.chargingWatts = parseInt(self.chargingAmps * self.chargingVolts);
      } else {
        self.chargingWatts = 0;
      }
 
      var currentCharging = self.isCharging;
-     var currentWatts = self.watts;
 
      if(self.chargingVolts > 50 || (self.wattsUsed < 0 && self.wattsPerMinute > 60)){
        self.isCharging = true;
@@ -710,7 +750,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.isCharging = false;
      }
 
-     if(currentCharging !== self.isCharging && currentWatts == self.watts && self.chargingVolts < 1 && parseInt(self.speed) == 0){
+     if(currentCharging !== self.isCharging && self.chargingVolts < 1 && parseInt(self.speed) == 0){
        setTimeout(function(){
          if(self.isCharging !== currentCharging) {
            self.setWattsWatcher();
@@ -740,7 +780,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      }
      self.averageMotorAmps = self.getAverage('motorAmps', self.rawMotorAmps);
      if(self.rawMotorVolts){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.625;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8;
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
      } else {
@@ -757,7 +797,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      self.rawMotorVolts = parseInt(splitMsg[2] + splitMsg[3], 16);
      self.averageMotorVolts = self.getAverage('motorVolts', self.rawMotorVolts);
      if(self.rawMotorAmps){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 7.625; //this shouldn't need /?
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8; //this shouldn't need /?
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
        if(self.motorWatts < 0) {
@@ -812,7 +852,36 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      }
      self.rawDistanceTraveled = newDistanceTraveled;
 
+   },
+
+   parseDTC: function(responseType, splitResponseMsg) {
+     switch (responseType) {
+       case "764":
+
+         break;
+       case "7BB":
+
+         break;
+       case "76D":
+
+         break;
+       case "763":
+
+         break;
+       case "78C":
+
+         break;
+       case "767":
+
+         break;
+       case "7BD":
+
+         break;
+       default:
+
+     }
    }
+
   }
   return self;
 }]);

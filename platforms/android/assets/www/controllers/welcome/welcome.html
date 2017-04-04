@@ -1,5 +1,5 @@
 <header>
-  <md-toolbar>
+  <md-toolbar class="{{platform}}">
     <div class="md-toolbar-tools">
       <span translate>WELCOME.TITLE</span>
       <!-- fill up the space between left and right area -->
@@ -20,7 +20,8 @@
     <md-subheader class="md-no-sticky">{{'WELCOME.DEVICES' | translate}}</md-subheader>
   	<md-radio-group ng-model="selected">
   	  <md-radio-button ng-click="connectDevice(device.address)" ng-repeat="device in connection.availableDevices" ng-value="device.address" aria-label="{{ device.name}}">
-  	     <span class="device-name">{{ device.name }}</span>
+  	     <span ng-if="device.name" class="device-name">{{ device.name }}</span>
+         <span ng-if="!device.name" class="device-name">{{'WELCOME.UNKNOWN' | translate}}</span>
   	  </md-radio-button>
   	</md-radio-group>
 

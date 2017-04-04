@@ -8,7 +8,7 @@
   <div ng-include="'img/HappyLeaf.svg'" id="LEAFOUTTER" class="{{leafClass}} fade-in"
     ng-class="{'headlights': data.headLights, 'foglights': data.fogLights, 'blinker-right': data.turnSignal == 'right', 'blinker-left': data.turnSignal == 'left',
     'charging': data.isCharging, 'fast': data.chargingVolts > 260, 'medium': data.chargingVolts > 140, 'slow': data.chargingVolts < 140,
-    'buckled': data.isBuckled, 'parked': data.parkingBreakOn, 'climate-usage': data.climateConsumption > 0}" onload="updateDOM()">
+    'buckled': data.isBuckled, 'parked': data.parkingBrakeOn, 'climate-usage': data.climateConsumption > 0}" onload="updateDOM()">
   </div>
   <div ng-hide="SOCChart.width != 10" class="leaf-loading">
 

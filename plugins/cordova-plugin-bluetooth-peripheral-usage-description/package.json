@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-bluetooth-peripheral-usage-description",
+  "version": "1.0.0",
+  "description": "Set Bluetooth Peripheral Usage Description on iOS",
+  "cordova": {
+    "id": "cordova-plugin-bluetooth-peripheral-usage-description",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description"
+  },
+  "keywords": [
+    "bluetooth",
+    "bluetoothle",
+    "bluetooth le",
+    "background",
+    "peripheral",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Rand Dusing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description/issues"
+  },
+  "homepage": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description#readme"
+}

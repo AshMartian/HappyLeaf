@@ -1,4 +1,4 @@
-happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $translate, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
+happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $mdDialog, $translate, bluetoothSend, deviceReady, logManager, dataManager, connectionManager, storageManager, $localStorage, $threadRun) {
     $scope.deviceready = false;
     $scope.settingsIcon = "settings";
 
@@ -86,13 +86,28 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       }
     }
 
-    $scope.showDarkTheme = false;
-    $scope.showFullscreen = false;
+    if(!$localStorage.settings.experiance.darkModeAmbient && !$localStorage.settings.experiance.darkModeHeadlights) {
+      if($localStorage.settings.experiance.darkMode) {
+        $scope.showDarkTheme = $localStorage.settings.experiance.darkMode;
+      } else {
+        $scope.showDarkTheme = false;
+      }
+    } else {
+      $scope.showDarkTheme = false;
+    }
+
+    $scope.showFullscreen = $localStorage.settings.experiance.fullScreen ? $localStorage.settings.experiance.fullScreen : false;
+    if($scope.showFullscreen){
+      AndroidFullScreen.immersiveMode(function(){
+
+      }, null);
+    }
     $scope.showFullscreenDisabled = false;
 
     $scope.toggleDark = function(){
       $scope.userOverrideTheme = true;
-      $scope.showDarkTheme = $scope.showDarkTheme ? false : true;
+      $localStorage.settings.experiance.darkMode = $scope.showDarkTheme ? false : true;
+      $scope.showDarkTheme = $localStorage.settings.experiance.darkMode;
     }
 
     $scope.toggleFullscreen = function() {
@@ -100,12 +115,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
         AndroidFullScreen.isSupported(function(){
           if(!$scope.showFullscreen){
             AndroidFullScreen.showSystemUI(function(){
-              $scope.showFullscreen = true;
+
             }, null);
+            $scope.showFullscreen = true;
           } else {
             AndroidFullScreen.immersiveMode(function(){
-              $scope.showFullscreen = false;
+
             }, null);
+            $scope.showFullscreen = false;
           }
         }, function(){
           $scope.showFullscreenDisabled = true;
@@ -123,11 +140,13 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
     $scope.$on('$viewContentLoaded', function(){
       logManager.log("init");
+      $rootScope.$broadcast('dataUpdate', {refresh: true});
       //$scope.init();
     });
     $scope.$on('$routeChangeSuccess', function(){
       logManager.log("Route Changed");
-      $rootScope.$broadcast('dataUpdate', null);
+      $scope.freshPage = true;
+      $rootScope.$broadcast('dataUpdate', {refresh: true});
       $scope.init();
       cordova.plugins.backgroundMode.on('disable', function(){
         self.requestSOC();
@@ -139,6 +158,8 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
 
     $scope.lastMsg = "";
     $scope.messagesReceived = [];
+    $scope.messagesWithoutData = [];
+    $scope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";;
 
     $scope.cycleDistance = function(){
       $scope.distanceToDisplay ++;
@@ -146,9 +167,13 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
       if($scope.distanceToDisplay > 1 && !$localStorage.milesDrivenToday) $scope.distanceToDisplay = 0;
     }
 
+    $scope.back = function(){
+      $location.path("/welcome");
+    }
+
     $scope.init = function(){
       setInterval($scope.cycleDistance, 5000);
-
+      $rootScope.$broadcast('dataUpdate', {refresh: true});
       setInterval(function(){
         logManager.log("Setting history point");
         storageManager.createHistoryPoint();
@@ -192,9 +217,13 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
             lastResponse = output;
             if(!output.match(/ok/i) && !output.match(/stopped/i)){
               $scope.messagesReceived.push(output);
+              $scope.parseResponse(output, lastCommand);
             }
-            connectionManager.shouldSend();
-            $scope.parseResponse(output, lastCommand);
+            if(output.match(/no data/i)) {
+              //$scope.failedMessages = true;
+              $scope.messagesWithoutData.push(lastCommand);
+            }
+            //connectionManager.shouldSend();
           //}
         }
 
@@ -245,7 +274,11 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
             logManager.log("Got " + values.length + " ambient light " + values[0]);
           });
         }
-      }, 5000);
+        var now = (new Date()).getTime();
+        if(now - connectionManager.lastMessageTime > 8000) {
+          $scope.requestSOC();
+        }
+      }, 10000);
     }
 
     $scope.knownMessages = ["79A", "763", "765", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "54C", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"];
@@ -311,7 +344,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $mdDialog, $
         } else {
           logManager.log("Watching CAN for known messages");
           //"ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR",
-          commandsToSend = ["ATBD", "ATCF5B3", "ATCRA5BX", "ATMA", "X", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATBD", "ATAR"];
+          commandsToSend = ["ATBD", "ATCF5B3", "ATCRA5BX", "ATMA", "X", "ATCF54F", "ATCRA5XX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF3FF", "ATCRA3FX", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "ATBD", "ATAR"];
         }
         $scope.lastRequestTime = (new Date()).getTime();
         connectionManager.shouldSend();

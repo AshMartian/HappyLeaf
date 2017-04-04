@@ -18,6 +18,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   $scope.commandSequence = ["ATE1", "ATZ", "ATDP", "STSBR 2000000", "ATSP6", "ATH1", "ATS0", "ATI", "ATE0"];
 
   $scope.status = $translate.instant('WELCOME.LOADING_TEXT');
+  $scope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
 
 
   logManager.log("I'm running angular!");
@@ -34,7 +35,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     logManager.setupFilesystem();
     window.light.enableSensor();
     //storageManager.startupDB();
-    
+
     cordova.plugins.backgroundMode.enable();
     cordova.plugins.backgroundMode.setDefaults({
         title: "Happy Leaf",
@@ -55,13 +56,9 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
       }
     }, 60000);
 
-    setTimeout(function(){
-      $scope.scanDevices();
-    }, 1500);
 
     var enableBluetooth = function(){
-    	bluetoothSerial.enable(
-  	    function() {
+    	bluetoothSerial.enable(function() {
   	        logManager.log("Bluetooth is enabled");
             $scope.scanDevices();
   	    },
@@ -82,8 +79,12 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
   	    });
       }
-      if(!connectionManager.lastWifi){
-        enableBluetooth();
+
+      enableBluetooth();
+      if(connectionManager.lastWifi || $scope.platform !== "Android"){
+        setTimeout(function(){
+          $scope.scanDevices();
+        }, 1800);
       }
   });
 
@@ -94,15 +95,29 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.scanIcon = "settings_backup_restore"
     $scope.scanClass = "start";
 
+    if(connectionManager.isConnected && !connectionManager.lastWifi || $scope.canContinue){
+      $scope.continueIcon = "done";
+      $scope.continueClass = "";
+    }
+
     if(typeof WifiWizard !== 'undefined') {
       WifiWizard.setWifiEnabled(true, function(){
         WifiWizard.getCurrentSSID(function(currentWifi){
           $scope.currentWifi = currentWifi;
+          $scope.$digest();
         });
         WifiWizard.startScan(function(){
           WifiWizard.getScanResults(function(networks){
             logManager.log("Listing wifi networks");
             $scope.wifiNetworks = networks;
+            setTimeout(function(){
+              connectionManager.scanDevices();
+            }, 4000);
+            async.forEach(networks, function(network){
+              if(network == $localStorage.lastConnectedWifi && $scope.currentWifi !== network){
+                $scope.connectWifi(network);
+              }
+            });
           }, function(){
             logManager.log("Could not get Wifi networks");
           });
@@ -124,7 +139,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
       if(lastConnected){
         $scope.status += " remembering " + lastConnected;
         async.forEach(connectionManager.availableDevices, function(scannedDevice){
-          if(scannedDevice.address == lastConnected && scannedDevice.address.match(":")) {
+          if(scannedDevice.address == lastConnected && scannedDevice.address.match(":") && !connectionManager.isConnected) {
             logManager.log("Found last connected device: " + lastConnected);
             $scope.connectBluetoothDevice(lastConnected);
           } else if(scannedDevice.address == lastConnected && scannedDevice.address.match(".")) {
@@ -134,20 +149,21 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
         });
       }
 
-
-
-
     });
 
     $scope.$watch('connection.isConnected', function(connected){
       if(!connectionManager.isConnected) {
-        $scope.status = $translate.instant('DISCONNECTED');
+        //$scope.status = $translate.instant('DISCONNECTED');
+      } else if($scope.canContinue){
+        $scope.continueIcon = "done";
+        $scope.continueClass = "";
       }
       logManager.log("Device connected " + connectionManager.isConnected);
     });
     //logManager.log(connectionManager);
-    if(connectionManager.isConnected){
+    if(connectionManager.isConnected && $scope.canContinue){
       $scope.$digest();
+      setTimeout($scope.continue, 500);
     } else {
       connectionManager.scanDevices(function(results){
         //Will return either wifi or bluetooth device
@@ -161,6 +177,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.connectDevice = function(address) {
+    $localStorage.lastConnected = address;
     $scope.canContinue = false;
     if(address.match(":")) {
       $scope.connectBluetoothDevice(address);
@@ -182,7 +199,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     connectionManager.connectBluetoothDevice(deviceAddress, function(){
       $scope.status = $translate.instant("WELCOME.CONNECTED");
       logManager.log("Connected welcome");
-      $scope.testDevice();
+      setTimeout($scope.testDevice, 1500);
     }, function(err){
       $scope.hasError = true;
       $scope.$apply(function(){
@@ -201,6 +218,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     logManager.log("Connecting to wifi: " + deviceAddress);
     if(connectionManager.isConnected) {
       $localStorage.lastConnected = deviceAddress;
+      $localStorage.lastConnectedWifi = $scope.currentWifi;
       $scope.testDevice();
     }
 
@@ -211,7 +229,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     WifiWizard.connectNetwork(SSID, function(){
       setTimeout(function(){
         $scope.scanDevices();
-      }, 8000);
+      }, 3000);
 
     }, function(){
       $scope.status = $translate.instant("WELCOME.WIFI_ERROR");
@@ -224,49 +242,50 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.status = $translate.instant('WELCOME.TESTING');
 
     var responses = [];
+      connectionManager.subscribe(">", function(output){
+        logManager.log("Subscribe got: " + output);
+        output = output.substring(0, output.length - 1);
+        connectionManager.shouldSend();
+        responses.push(output);
 
-    connectionManager.subscribe(">", function(output){
-      logManager.log("Subscribe got: " + output);
-      output = output.substring(0, output.length - 1);
-      connectionManager.shouldSend();
-      responses.push(output);
-
-      if(output.indexOf("ELM") !== -1){
-        logManager.log("Success!");
-        setTimeout(function(){
-          $scope.$apply($scope.continue);
-        }, 2000);
-        $scope.$apply(function(){
-          output = output.substring(output.indexOf("ELM"));
-          $scope.status = $translate.instant('WELCOME.SUCCESS', {output: output});
-          $scope.canContinue = true;
-          $scope.continueIcon = "done";
-          $scope.continueClass = "";
-        });
-      } else if(responses.length > $scope.commandSequence.length) {
-        $scope.testDevice();
-      } else if(!$scope.canContinue) {
-        $scope.$apply(function(){
-          $scope.status = "Reading: " + output;
-        });
-      }
-    }, function(err){
-      logManager.log(err);
-    });
-
-    if(!$scope.canContinue){
-      connectionManager.send($scope.commandSequence, function(log){
-        logManager.log(JSON.stringify(log));
-        setTimeout(function(){
-          if(!$scope.canContinue) {
-            $scope.testDevice()
-          }
-        }, 2800);
+        if(output.indexOf("ELM") !== -1){
+          logManager.log("Success!");
+          setTimeout(function(){
+            $scope.$apply($scope.continue);
+          }, 2000);
+          $scope.$apply(function(){
+            output = output.substring(output.indexOf("ELM"));
+            $scope.status = $translate.instant('WELCOME.SUCCESS', {output: output});
+            $scope.canContinue = true;
+            $scope.continueIcon = "done";
+            $scope.continueClass = "";
+          });
+        } else if(responses.length > $scope.commandSequence.length) {
+          $scope.testDevice();
+        } else if(!$scope.canContinue) {
+          $scope.$apply(function(){
+            $scope.status = "Reading: " + output;
+          });
+        }
+      }, function(err){
+        logManager.log(err);
       });
-      logManager.log("Testing...");
-    } else {
-      logManager.log("Not testing because already can continue");
-    }
+
+      if(!$scope.canContinue){
+        connectionManager.send($scope.commandSequence, function(log){
+          logManager.log(JSON.stringify(log));
+          setTimeout(function(){
+            if(!$scope.canContinue) {
+              $scope.testDevice()
+            }
+          }, 2000);
+        });
+        logManager.log("Testing...");
+
+      } else {
+        logManager.log("Not testing because already can continue");
+
+      }
   }
 
   $scope.newMessage = function(date){
@@ -280,6 +299,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.continue = function(){
+    $rootScope.needsRefresh = true;
     if($scope.canContinue || connectionManager.isConnected){
       logManager.log("Going to home");
       $location.path("/home");

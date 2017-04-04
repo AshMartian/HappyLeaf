@@ -17,7 +17,7 @@ happyLeaf.component('leafDisplay', {
         $scope.SOCChart = {
           data: [],
           colors: [],
-          options: {cutoutPercentage: 78, animation : false, scaleOverride: true, tooltips: { enabled: false }, animateScale: true},
+          options: {cutoutPercentage: 78, animation : false, scaleOverride: false, tooltips: { enabled: false }, animateScale: true},
           width: 10,
           height: 10,
           left: 0,
@@ -27,7 +27,7 @@ happyLeaf.component('leafDisplay', {
         $scope.AmpsChart = {
           data: [],
           colors: ["#ff993e", "#9B9B9B"],
-          options: {cutoutPercentage: 60, animation: false, scaleOverride: true, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
+          options: {cutoutPercentage: 60, animation: false, scaleOverride: false, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
           width: 10,
           height: 10,
           left: 0,
@@ -37,7 +37,7 @@ happyLeaf.component('leafDisplay', {
         $scope.ClimateChart = {
           data: [],
           colors: ["#ff993e", "#9B9B9B"],
-          options: {cutoutPercentage: 60, scaleOverride: true, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
+          options: {cutoutPercentage: 60, scaleOverride: false, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
           width: 10,
           height: 10,
           left: 0,
@@ -59,9 +59,6 @@ happyLeaf.component('leafDisplay', {
 
         }, 50);*/
 
-
-
-
         $scope.$on('chart-create', function (evt, chart) {
           console.log("Chart created");
           //console.log(chart);
@@ -69,10 +66,15 @@ happyLeaf.component('leafDisplay', {
 
         $(window).resize(function(){
           $scope.needsResize = true;
+          console.log("Resize");
           $scope.updateDOM();
         });
 
         $rootScope.$on('dataUpdate', function(dataM) {
+          if(dataM.refresh || $rootScope.needsRefresh) {
+            $rootScope.needsRefresh = false;
+            $scope.needsResize = true;
+          }
           $scope.updateDOM();
         });
 
@@ -83,15 +85,22 @@ happyLeaf.component('leafDisplay', {
         $scope.leafClass = '';
         $scope.updateDOM = function(){
           //console.log("Updating DOM");
-          if($scope.SOCChart.width == 10 || $scope.needsResize) {
-            $scope.updateSOC();
-          }
-          if($scope.AmpsChart.width == 10 || $scope.needsResize){
+
+          if($scope.AmpsChart.width == 10 || $scope.needsResize || $rootScope.needsRefresh){
             $scope.updateMotor();
           }
-          if($scope.ClimateChart.width == 10 || $scope.needsResize){
+          if($scope.ClimateChart.width == 10 || $scope.needsResize || $rootScope.needsRefresh){
             $scope.updateClimate();
           }
+          if($scope.SOCChart.width == 10 || $scope.needsResize || $rootScope.needsRefresh) {
+            $scope.updateSOC();
+          }
+          if($scope.needsResize || $rootScope.needsRefresh){
+            $scope.$digest();
+            $scope.needsResize = false;
+            $rootScope.needsRefresh = false;
+          }
+
 
           if(dataManager.isCharging) {
             //$("#Charger_x5F_Flow lineargradient stop").attr('style', 'stop-color: #62C50F;');
@@ -120,7 +129,8 @@ happyLeaf.component('leafDisplay', {
 
         var graphedSOC = 0;
         $scope.updateSOC = function(){
-          if(graphedSOC != dataManager.actualSOC || $scope.needsResize){
+          if(graphedSOC != dataManager.actualSOC || $scope.needsResize || $rootScope.needsRefresh){
+
             graphedSOC = dataManager.actualSOC;
             //$("#SOC").text($filter('number')(dataManager.actualSOC, 1) + "%");
             var batteryCircle = document.getElementById("Battery_x5F_Outline");
@@ -133,12 +143,13 @@ happyLeaf.component('leafDisplay', {
             var chart = document.getElementById("SOC-circle").getContext("2d");
             //console.log("Chart width " + chart.canvas.width);
             //console.log("New width " + $scope.SOCChart.width);
-            if(chart.canvas.width !== Math.round($scope.SOCChart.width)) {
+            if(chart.canvas.width !== Math.round($scope.SOCChart.width) || $scope.needsResize || $rootScope.needsRefresh) {
               chart.canvas.width = Math.round($scope.SOCChart.width);
               chart.canvas.height = Math.round($scope.SOCChart.height);
               $scope.SOCChart.top = Math.round(batteryCircle.getBoundingClientRect().top + offset + window.scrollY);
               $scope.SOCChart.left = batteryCircle.getBoundingClientRect().left + offset;
             }
+
             //console.log("Width: " + $scope.SOCChart.width)
 
 
@@ -209,7 +220,11 @@ happyLeaf.component('leafDisplay', {
                 $scope.$digest();
             }, 50);
           } else if(dataManager.speed == 0 || dataManager.motorWatts == 0){
-            $scope.leafClass = '';
+            setTimeout(function(){
+              if(dataManager.speed == 0 || dataManager.motorWatts == 0){
+                $scope.leafClass = '';
+              }
+            }, 1500);
           }
         });
 
@@ -229,7 +244,7 @@ happyLeaf.component('leafDisplay', {
           var chart = document.getElementById("Amps-Meter").getContext("2d");
           //console.log("Chart width " + chart.canvas.width);
           //console.log("New width " + $scope.SOCChart.width);
-          if(chart.canvas.width !== Math.round($scope.AmpsChart.width)) {
+          if(chart.canvas.width !== Math.round($scope.AmpsChart.width) || $scope.needsResize) {
             chart.canvas.width = Math.round($scope.AmpsChart.width);
             chart.canvas.height = Math.round($scope.AmpsChart.height);
             $scope.AmpsChart.top = Math.round(ExtraContainer.getBoundingClientRect().top + window.scrollY);
@@ -269,7 +284,7 @@ happyLeaf.component('leafDisplay', {
           var chart = document.getElementById("Climate-Meter").getContext("2d");
           //console.log("Chart width " + chart.canvas.width);
           //console.log("New width " + $scope.SOCChart.width);
-          if(chart.canvas.width !== Math.round($scope.ClimateChart.width)) {
+          if(chart.canvas.width !== Math.round($scope.ClimateChart.width) || $scope.needsResize) {
             chart.canvas.width = Math.round($scope.ClimateChart.width);
             chart.canvas.height = Math.round($scope.ClimateChart.height);
             $scope.ClimateChart.top = Math.round(ExtraContainer.getBoundingClientRect().top + window.scrollY);

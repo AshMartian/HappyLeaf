@@ -150,7 +150,11 @@ happyLeaf.component('largeTimeChart', {
           var now = (new Date()).getTime();
           async.forEach($localStorage.history, function(historyDataPoint){
             if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > parseInt(now) - $localStorage.settings.data.graphTimeEnd && historyDataPoint.isCharging == $scope.isCharging) { // &&
-              dataPointsToShow.push(historyDataPoint);
+              if(!$scope.isCharging && historyDataPoint.transmission !== "P") {
+                dataPointsToShow.push(historyDataPoint);
+              } else if($scope.isCharging){
+                dataPointsToShow.push(historyDataPoint);
+              }
             }
           });
           //console.log(dataPointsToShow);

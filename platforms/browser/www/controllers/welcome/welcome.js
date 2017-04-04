@@ -10,12 +10,15 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   $scope.continueClass = "";
   $scope.hasError = false;
 
+  $scope.wifiNetworks = [];
+  $scope.currentWifi = "";
 
   $scope.canContinue = false;
 
   $scope.commandSequence = ["ATE1", "ATZ", "ATDP", "STSBR 2000000", "ATSP6", "ATH1", "ATS0", "ATI", "ATE0"];
 
   $scope.status = $translate.instant('WELCOME.LOADING_TEXT');
+  $scope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
 
 
   logManager.log("I'm running angular!");
@@ -34,6 +37,15 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     //storageManager.startupDB();
 
     cordova.plugins.backgroundMode.enable();
+    cordova.plugins.backgroundMode.setDefaults({
+        title: "Happy Leaf",
+        text: "Running",
+        icon: 'icon', // this will look for icon.png in platforms/android/res/drawable|mipmap
+        color: "", // hex format like 'F14F4D'
+        resume: true,
+        hidden: true,
+        bigText: "Happy Leaf"
+    });
 
     setInterval(function(){
       if(!cordova.plugins.backgroundMode.isActive()){
@@ -83,6 +95,24 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.scanIcon = "settings_backup_restore"
     $scope.scanClass = "start";
 
+    if(typeof WifiWizard !== 'undefined') {
+      WifiWizard.setWifiEnabled(true, function(){
+        WifiWizard.getCurrentSSID(function(currentWifi){
+          $scope.currentWifi = currentWifi;
+        });
+        WifiWizard.startScan(function(){
+          WifiWizard.getScanResults(function(networks){
+            logManager.log("Listing wifi networks");
+            $scope.wifiNetworks = networks;
+          }, function(){
+            logManager.log("Could not get Wifi networks");
+          });
+        });
+      }, function(){
+        logManager.log("Could not enable Wifi");
+      });
+    }
+
     $scope.$watch('connection.availableDevices', function(newDevices){
       logManager.log("Devices changed " + JSON.stringify(connectionManager.availableDevices));
       var lastConnected = $localStorage.lastConnected;
@@ -110,7 +140,10 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
     });
 
-    $scope.$watch('connectionManager.isConnected', function(connected){
+    $scope.$watch('connection.isConnected', function(connected){
+      if(!connectionManager.isConnected) {
+        $scope.status = $translate.instant('DISCONNECTED');
+      }
       logManager.log("Device connected " + connectionManager.isConnected);
     });
     //logManager.log(connectionManager);
@@ -140,7 +173,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   $scope.shouldReconnect = true;
   $scope.connectBluetoothDevice = function(deviceAddress){
   	logManager.log("Connecting to: " + deviceAddress);
-    $scope.status = $translate.instant('WELCOME.CONNECTING');
+    $scope.status = $translate.instant('WELCOME.CONNECTING', {name: deviceAddress});
 
     $scope.continueIcon = "settings_bluetooth";
     $scope.continueClass = "blink";
@@ -167,9 +200,24 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.continueIcon = "wifi";
 
     logManager.log("Connecting to wifi: " + deviceAddress);
-    $localStorage.lastConnected = deviceAddress;
-    $scope.testDevice();
+    if(connectionManager.isConnected) {
+      $localStorage.lastConnected = deviceAddress;
+      $scope.testDevice();
+    }
+
   };
+
+  $scope.connectWifi = function(SSID){
+    $scope.status = $translate.instant("WELCOME.CONNECTING", {name: SSID});
+    WifiWizard.connectNetwork(SSID, function(){
+      setTimeout(function(){
+        $scope.scanDevices();
+      }, 8000);
+
+    }, function(){
+      $scope.status = $translate.instant("WELCOME.WIFI_ERROR");
+    });
+  }
 
   $scope.testDevice = function() {
     logManager.log("Testing device");
