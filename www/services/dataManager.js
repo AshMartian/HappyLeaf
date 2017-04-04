@@ -562,7 +562,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      if(self.distanceUnits == "K") {
        self.outsideTemp = ((self.outsideTemp - 32) * 5 ) / 9
      }
-     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 0) && Math.round(lastOutsideTemp) == Math.round(self.outsideTemp)) {
+     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 1) && Math.round(lastOutsideTemp) == Math.round(self.outsideTemp)) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant("NOTIFICATIONS.LOW_OUTSIDE_TEMP.TITLE"),
          time: (new Date()).getTime(),
