@@ -546,7 +546,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.ventMode = "Off";
      }
 
-     self.fanSpeed = parseInt(splitMsg[4], 16);
+     self.fanSpeed = parseInt((splitMsg[4], 16)-4)/8;
      $rootScope.$broadcast('dataUpdate', self);
    },
 
