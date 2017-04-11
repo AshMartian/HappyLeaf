@@ -19,7 +19,7 @@
   <md-content class="device-list">
     <md-subheader class="md-no-sticky">{{'WELCOME.DEVICES' | translate}}</md-subheader>
   	<md-radio-group ng-model="selected">
-  	  <md-radio-button ng-click="connectDevice(device.address)" ng-repeat="device in connection.availableDevices" ng-value="device.address" aria-label="{{ device.name}}">
+  	  <md-radio-button ng-click="connectDevice(device)" ng-repeat="device in connection.availableDevices" ng-value="device.address" aria-label="{{ device.name}}">
   	     <span ng-if="device.name" class="device-name">{{ device.name }}</span>
          <span ng-if="!device.name" class="device-name">{{'WELCOME.UNKNOWN' | translate}}</span>
   	  </md-radio-button>

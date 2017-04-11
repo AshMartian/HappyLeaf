@@ -7,13 +7,15 @@ var translationsEN = {
     CONNECTED: 'Connected!',
     DISCONNECTED: 'Could not connect to device',
     NO_BLUETOOTH: 'Could not find Bluetooth interface',
+    CONNECTION_FAILED: "Connection failed",
+    TIMEOUT: "connection timeout",
     WIFI_ERROR: "Could not connect to network",
     TESTING: 'Testing...',
     UNKNOWN: 'Unknown Name',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
     DEVICES: 'Devices',
-    DEVICE_TIPS: "If you do not see your ODB, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
+    DEVICE_TIPS: "If you do not see your OBD, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
     BLUETOOTH_ERROR: {
       TITLE: "OBD Bluetooth Needed",
       CONTENT: "Bluetooth must be enabled to communicate with OBD device.",
@@ -200,9 +202,9 @@ var translationsFR = {
     TESTING: 'Test...',
     SUCCESS: 'Connecté à {{output}}!',
     FOUND: '{{length}} dispositif trouvé',
-    DEVICE_TIPS: "Si vous ne voyez pas votre ODB, couplez un périphérique dans Paramètres -> Bluetooth de votre OS. <br/> Assurez-vous qu'aucune autre application n'utilise votre périphérique Bluetooth.",
+    DEVICE_TIPS: "Si vous ne voyez pas votre OBD, couplez un périphérique dans Paramètres -> Bluetooth de votre OS. <br/> Assurez-vous qu'aucune autre application n'utilise votre périphérique Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Dispositif ODB Bluetooth demandé",
+      TITLE: "Dispositif OBD Bluetooth demandé",
       CONTENT: "Vous devez activer la fonction Bluetooth afin de communiquer avec votre dispositif OBD.",
       RETRY: "Essayez encore"
     },
@@ -361,9 +363,9 @@ var translationsRU = {
     TESTING: 'Тестирование...',
     SUCCESS: 'Подсоединено к {{output}}!',
     FOUND: 'Найдено {{length}} сопряженных устройства',
-    DEVICE_TIPS: "Если вы не увидели ваше ODB устройство, установите сопряжение в Настройки -> Bluetooth в вашей OS.<br/>Убедитесь, что другие приложения не используют Bluetooth.",
+    DEVICE_TIPS: "Если вы не увидели ваше OBD устройство, установите сопряжение в Настройки -> Bluetooth в вашей OS.<br/>Убедитесь, что другие приложения не используют Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Требуется ODB Bluetooth устройство",
+      TITLE: "Требуется OBD Bluetooth устройство",
       CONTENT: "Bluetooth должен быть включен для соединения с OBD устройством.",
       RETRY: "Попробовать еще"
     },
@@ -522,13 +524,15 @@ var translationsPT = {
     DISCONNECTED: 'Não foi possivel ligar',
     NO_BLUETOOTH: 'Bluetooth não encontrado',
     WIFI_ERROR: 'Não foi possivel ligar',
+    CONNECTION_FAILED: 'Ligação falhou',
+    TIMEOUT: 'expirou o tempo',
     TESTING: 'A testar...',
     SUCCESS: 'Ligado a {{output}}!',
     FOUND: 'Encontrados {{length}} dispositivos emparelhados',
     DEVICES: 'Dispositivos',
     DEVICE_TIPS: "Se não vir o seu dispositivo OBD, emparelhe em Definições -> Bluetooth no seu SO.<br/>Certifique-se que não há outra App a usar o seu dispositivo Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Necessário um ODB Bluetooth",
+      TITLE: "Necessário um OBD Bluetooth",
       CONTENT: "O Bluetooth tem de estar ligado para comunicar com o dispositivo OBD.",
       RETRY: "Tente novamente"
     },
@@ -670,6 +674,7 @@ var translationsPT = {
         FRENCH: "Francês",
         RUSSIAN: "Russo",
         PORTUGUESE: "Português",
+        SPANISH: "Espanhol",
         TITLE: "Língua"
       }
     },
@@ -716,9 +721,9 @@ var translationsES = {
     SUCCESS: 'Conectado a {{output}}!',
     FOUND: 'Encontrado {{length}} dispositivos emparejados',
     DEVICES: 'Dispositivos',
-    DEVICE_TIPS: "Si no ve su ODB, empareje un dispositivo en Configuración -> Bluetooth de su sistema operativo. <br/> Asegúrese de que ninguna otra aplicación esté utilizando su dispositivo Bluetooth.",
+    DEVICE_TIPS: "Si no ve su OBD, empareje un dispositivo en Configuración -> Bluetooth de su sistema operativo. <br/> Asegúrese de que ninguna otra aplicación esté utilizando su dispositivo Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "ODB Bluetooth necesario",
+      TITLE: "OBD Bluetooth necesario",
       CONTENT: "Bluetooth debe estar activo para comunicarse con el dispositivo OBD",
       RETRY: "Inténtelo de nuevo"
     },

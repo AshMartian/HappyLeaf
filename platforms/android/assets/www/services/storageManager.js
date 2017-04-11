@@ -36,12 +36,12 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     version: "0.1.9.6"
   };
 
-
+  var lastHistoryItem = {lastUpdate: (new Date()).getTime()};
   var self = {
     db: null,
 
     createHistoryPoint: function(){
-      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive()){
+      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive() && dataManager.lastUpdate > lastHistoryItem.lastUpdate){
         var now = (new Date()).getTime();
         dataManager.endTime = now;
         var currentDataManager = {};
@@ -50,10 +50,11 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
             currentDataManager[key] = dataManager[key];
           }
         });
-
+        
         $localStorage.history[now] = currentDataManager;
         $localStorage.historyCount = Object.keys($localStorage.history).length;
         dataManager.historyCreated();
+        lastHistoryItem = currentDataManager;
         $rootScope.$broadcast('historyUpdated');
         $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
         if(!$localStorage.currentTripStart || $localStorage.currentTripStart == null) {
@@ -96,6 +97,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     var now = (new Date()).getTime();
     $localStorage.milesDrivenToday = 0;
     var lastDrivenToday = 0;
+    var index = 0;
     async.forEach(Object.keys($localStorage.history), function(key){
       var historyDataPoint = $localStorage.history[key];
 
@@ -114,11 +116,13 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
       }
 
       //Goodbye
-      if(parseInt(now) - ONE_DAY > parseInt(key)) {
+      //if(parseInt(now) - ONE_DAY > parseInt(key)) { //Used to delete based on time
+      if(index > 2000) { //Now delete if this is too much to store
         delete $localStorage.history[key];
       } else {
         $localStorage.history[key] = historyDataPoint; //Place history back with corrections.
       }
+      index ++;
     });
   } else {
     $localStorage.history = {};

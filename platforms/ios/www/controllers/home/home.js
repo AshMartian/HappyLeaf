@@ -216,6 +216,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         //logManager.log("this is the output " + output);
         $scope.lastMessageTime = (new Date()).getTime();
         var parse = function(){
+
           var lastCommand = connectionManager.lastCommand;
           //if(output.indexOf("?") > -1){
           /*if(false){
@@ -346,7 +347,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         } else {
           logManager.log("Watching CAN for known messages");
           //"ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR",
-          commandsToSend = ["ATBD", "ATMA", "X", "ATCF5CF", "ATCRA5BX", "ATMA", "X", "ATCF62F", "ATCRA62X", "ATMA", "X", "ATCF35F", "ATCRA35X", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "ATBD", "ATAR"];
+          commandsToSend = ["ATBD", "ATAR", "ATCF5BB", "ATCRA5BX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATAR", "ATCRA", "ATMA", "ATBD", "ATAR"];
         }
         $scope.lastRequestTime = (new Date()).getTime();
         connectionManager.shouldSend();
@@ -419,20 +420,30 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         var splitResponseMsg = response.split(response);
         dataManager.parseDTC(responseType, splitResponseMsg)
       } else {
-        async.each($scope.knownMessages, function(responseMsg){
-          if(response.substring(0, 3) == responseMsg) {
-            responseMsg = responseMsg.substring(responseMsg.indexOf(responseMsg));
-            var splitResponseMsg = response.split(responseMsg);
-            async.each(splitResponseMsg, function(msg){
-              if(msg.length > 1){
-                //logManager.log("Found " + responseMsg + " message: " + msg);
-                $scope.parseMsg(responseMsg, msg, request);
-              }
-            });
-            //response = response.substring(response.indexOf(responseMsg), 16 + response.indexOf(responseMsg));
-            //logManager.log("Parsed response ", response);
-          }
-        });
+        var responseType = response.substring(0, 3);
+        //some 7BB are split between lines
+        if(responseType == "7BB" && request.match("022102")){
+          dataManager.parseCellVoltage(response);
+        } else if(responseType == "7BB" && request.match("022104")){
+          dataManager.parseCellTemp(response);
+        } else if(responseType == "7BB" && request.match("022106")){
+          dataManager.parseCellShunt(response);
+        } else {
+          async.each($scope.knownMessages, function(responseMsg){
+            if(responseType == responseMsg) {
+              //responseMsg = responseMsg.substring(responseMsg.indexOf(responseMsg));
+              var splitResponseMsg = response.split(responseMsg);
+              async.each(splitResponseMsg, function(msg){
+                if(msg.length > 1){
+                  //logManager.log("Found " + responseMsg + " message: " + msg);
+                  $scope.parseMsg(responseMsg, msg, request);
+                }
+              });
+              //response = response.substring(response.indexOf(responseMsg), 16 + response.indexOf(responseMsg));
+              //logManager.log("Parsed response ", response);
+            }
+          });
+        }
       }
 
       //
@@ -451,15 +462,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
       switch (code) {
         case "7BB":
           logManager.log("Got 7BB BMS message " + msg + " for requst " + request);
-          if (request.match("022101")) {
-            dataManager.parseLBCData(splitMsg);
-          } else if(request.match("022104")) {
-            dataManager.parseCellTemp(splitMsg);
-          } else if(request.match("022106")) {
-            dataManager.parseCellShunt(splitMsg);
-          } else {
-            dataManager.parseCellVoltage(splitMsg);
-          }
+          dataManager.parseLBCData(splitMsg);
 
           $scope.$digest();
           break;

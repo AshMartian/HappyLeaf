@@ -53,6 +53,7 @@
         </md-menu>
 
         <leaf-display></leaf-display>
+        <p class="last-update" ng-if="data.lastUpdate">{{'HOME.UPDATED' | translate}}<span am-time-ago="data.lastUpdate"></span></p>
       </div>
       <div layout="column" class="main-top-stats data-column fade-in fade-long">
         <div layout="row">

@@ -141,6 +141,7 @@ md-bottom-sheet {
 footer > md-toolbar {
   position: absolute;
   bottom: 0;
+  overflow: hidden;
 }
 
 md-radio-button > .md-label {

@@ -110,6 +110,7 @@ happyLeaf.component('leafDisplay', {
           }
 
           $("#Trans").text(dataManager.transmission);
+          $("#ACCV").text((Math.round(dataManager.accVolts * 10) / 10) + "v");
           $("#SOC_x5F_Text").text($translate.instant("LEAF_DISPLAY.SOC"));
 
           if(dataManager.tire1){
@@ -124,6 +125,11 @@ happyLeaf.component('leafDisplay', {
           if(dataManager.tire4){
             $("#Tire_x5F_4").text(dataManager.tire4);
           }
+
+          var ACCCont = document.getElementById("ACC_x5F_Cont");
+
+          $("#ACC_x5F_charge").attr('height', (parseInt(ACCCont.getAttribute("height")) / 1.3) * Math.max(0.2, (dataManager.accVolts - 9) / 5));
+          $("#ACC_x5F_charge").attr('y', parseInt(ACCCont.getAttribute("y")) + (parseInt(ACCCont.getAttribute("height")) - parseInt($("#ACC_x5F_charge").attr('height'))) - 1);
           //console.log($scope.SOCChart.colors);
         };
 

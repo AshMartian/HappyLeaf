@@ -9,12 +9,16 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     lastHistoryItem = {};
   }
 
+  $rootScope.$on('dataUpdate', function(){
+    self.lastUpdate = (new Date()).getTime();
+  });
+
   var GIDsConfirmed = false;
 
   var averageLogs = {};
 
   var self = {
-
+    lastUpdate: lastHistoryItem.lastUpdate || null,
     SOH: lastHistoryItem.SOH || 0,
     GIDs: lastHistoryItem.GIDs || 0,
     batteryTemp: lastHistoryItem.batteryTemp || 0,
@@ -77,7 +81,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
     SOCDifference: 0,
     capacityAH: lastHistoryItem.capacityAH || 0,
 
-    accVolts: lastHistoryItem.accVolts || null,
+    accVolts: lastHistoryItem.accVolts || 0,
 
     wattsPerSOC: lastHistoryItem.wattsPerSOC || 170,
 
@@ -386,7 +390,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
 
       self.averageSpeed = self.getAverage('speed', parseInt(self.speed));
 
-      //$rootScope.$broadcast('dataUpdate', self);
+      $rootScope.$broadcast('dataUpdate', self);
     },
 
    setTransmission: function(splitMsg) {
@@ -408,7 +412,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
         }
 
       }
-      //$rootScope.$broadcast('dataUpdate', self);
+      $rootScope.$broadcast('dataUpdate', self);
     },
 
     setChargeStatus: function(splitMsg){
@@ -560,7 +564,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
        self.ventMode = "Off";
      }
 
-     self.fanSpeed = parseInt(splitMsg[4], 16);
+     self.fanSpeed = parseInt((splitMsg[4], 16)-4)/8;
      $rootScope.$broadcast('dataUpdate', self);
    },
 
@@ -586,7 +590,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      if(self.distanceUnits == "K") {
        self.outsideTemp = ((self.outsideTemp - 32) * 5 ) / 9
      }
-     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 0) && Math.round(lastOutsideTemp) == Math.round(self.outsideTemp)) {
+     if((self.distanceUnits == "M" && self.outsideTemp < 30) || (self.distanceUnits == "K" && self.outsideTemp < 1) && Math.round(lastOutsideTemp) == Math.round(self.outsideTemp)) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant("NOTIFICATIONS.LOW_OUTSIDE_TEMP.TITLE"),
          time: (new Date()).getTime(),
@@ -666,16 +670,25 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
      $rootScope.$broadcast('dataUpdate', self);
    },
 
-   parseCellVoltage: function(splitMsg) {
-     logManager.log("parsing cell voltage");
+   parseCellVoltage: function(response) {
+     logManager.log("parsing cell voltage " + response);
+     response = response.replace(/7BB/g, '');
+     var splitMsg = response.match(/.{1,2}/g);
+     var simpleVoltages = [];
+     for(var i = 3; i < (splitMsg.length / 2) - 3; i += 2){
+       simpleVoltages.push(parseInt(splitMsg[i - 1] + splitMsg[i], 16));
+     }
+     console.log(simpleVoltages);
    },
 
-   parseCellTemp: function(splitMsg) {
-
+   parseCellTemp: function(response) {
+     response = response.replace(/7BB/g, '');
+     var splitMsg = response.match(/.{1,2}/g);
    },
 
-   parseCellShunt: function(splitMsg) {
-
+   parseCellShunt: function(response) {
+     response = response.replace(/7BB/g, '');
+     var splitMsg = response.match(/.{1,2}/g);
    },
 
    getWattsPerSOC: function() {

@@ -1,14 +1,15 @@
-happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootScope", function(logManager, $localStorage, $rootScope){
+happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootScope", "$translate", function(logManager, $localStorage, $rootScope, $translate){
   var shouldSend = false;
   var gotMessage = false;
   var forceSend = true;
+  var platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
 
   var sendCode = function(code, next){
     shouldSend = false;
     if(!self.lastWifi){
       bluetoothSerial.write(code, function(output){
         logManager.log("sent: " + code + " got: " + output);
-        self.lastCommand = output;
+        self.lastCommand = code;
         self.sentCommands.push(self.lastCommand);
         next();
       }, function(err){
@@ -105,27 +106,34 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
       });
       bluetoothSerial.list(function(results1) {
         self.availableDevices = self.availableDevices.concat(results1);
-        bluetoothSerial.discoverUnpaired(function(unpaired){
-          self.availableDevices = self.availableDevices.concat(unpaired);
-          logManager.log("got "+unpaired.length+" unpaired bluetooth accessories")
-          logManager.log(JSON.stringify(unpaired));
-          bluetoothSerial.list(function(results) {
-            self.availableDevices = self.availableDevices.concat(results);
-            self.availableDevices = _.uniqBy(self.availableDevices, 'address');
-          	logManager.log("got "+results.length+" bluetooth accessories")
-          	logManager.log(JSON.stringify(results));
-            success(self.availableDevices);
+        console.log("got "+results1.length+" unpaired bluetooth accessories");
+        console.log(JSON.stringify(results1));
+        success(self.availableDevices);
+        if(platform == "Android"){
+          bluetoothSerial.discoverUnpaired(function(unpaired){
+            self.availableDevices = self.availableDevices.concat(unpaired);
+            logManager.log("got "+unpaired.length+" unpaired bluetooth accessories")
+            logManager.log(JSON.stringify(unpaired));
+            bluetoothSerial.list(function(results) {
+              self.availableDevices = self.availableDevices.concat(results);
+              self.availableDevices = _.uniqBy(self.availableDevices, 'address');
+            	logManager.log("got "+results.length+" bluetooth accessories")
+            	logManager.log(JSON.stringify(results));
 
-            bluetoothSerial.setDiscoverable(function(){
-              bluetoothSerial.discoverUnpaired(function(devices){
-                self.availableDevices = self.availableDevices.concat(devices);
+              bluetoothSerial.setDiscoverable(function(){
+                bluetoothSerial.discoverUnpaired(function(devices){
+                  self.availableDevices = self.availableDevices.concat(devices);
+                  self.availableDevices = _.uniqBy(self.availableDevices, 'address');
+                });
               });
+            },
+            function(err) {
+              failure(err);
             });
-          },
-          function(error) {
-            failure(err);
           });
-        });
+        }
+      }, function(err){
+        failure(err);
       })
     },
 
@@ -256,7 +264,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
         var connectionTimeout = setTimeout(function(){
           logManager.log("Connection Timeout..");
           self.isConnected = false;
-          failure("Connection Timeout");
+          failure($translate.instant("WELCOME.TIMEOUT"));
         }, 20000);
 
         bluetoothSerial.connect(deviceMac, function(result){
@@ -267,6 +275,9 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
           self.isConnected = true;
           self.lastWifi = false;
           $localStorage.lastWifi = false;
+          bluetoothSerial.readRSSI(function(ssi){
+            console.log("Got Bluetooth SSI: " + ssi);
+          })
 
           success(result);
           //bluetoothSerial.subscribeRaw('\r', $scope.newMessage, $scope.substribeFailure);
