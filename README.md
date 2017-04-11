@@ -1,9 +1,10 @@
-##Happy Leaf
+#Happy Leaf
+
 0.1.9.7
-_____
+_______
 
 
-###Introduction
+##Introduction
 
 Happy Leaf aims to be the missing interface from the original Nissan Leaf. First gen EV drivers were given a very restructive view of the future of transportation. Ease range anxiety by knowing exactly how much energy you have left, with a more intiutive overview of your vehicle.
 
