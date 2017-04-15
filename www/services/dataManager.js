@@ -10,7 +10,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
   }
 
   $rootScope.$on('dataUpdate', function(){
-    self.lastUpdate = (new Date()).getTime();
+    self.lastUpdateTime = (new Date()).getTime();
   });
 
   var GIDsConfirmed = false;
@@ -18,7 +18,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'logManager', '
   var averageLogs = {};
 
   var self = {
-    lastUpdate: lastHistoryItem.lastUpdate || null,
+    lastUpdateTime: lastHistoryItem.lastUpdateTime || null,
     SOH: lastHistoryItem.SOH || 0,
     GIDs: lastHistoryItem.GIDs || 0,
     batteryTemp: lastHistoryItem.batteryTemp || 0,
