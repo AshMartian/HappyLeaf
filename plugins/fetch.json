@@ -209,5 +209,15 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-bluetooth-peripheral-usage-description": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-bluetooth-peripheral-usage-description"
+        },
+        "is_top_level": true,
+        "variables": {
+            "TEXT": "Connects to Bluetooth OBD device."
+        }
     }
 }

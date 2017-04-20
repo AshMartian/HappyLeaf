@@ -35,7 +35,7 @@ md-menu {
 
 .temp-offset {
   float: right;
-  margin-right: 10%;
+  margin-right: calc(5% + 25px);
   transition: opacity 8s ease;
   line-height: 5px;
 }
@@ -148,6 +148,7 @@ md-badge{
   overflow-y: scroll;
   word-wrap: break-word;
   word-break: break-all;
+  -webkit-overflow-scrolling: touch;
 }
 
 .content {
@@ -201,6 +202,10 @@ h3.small {
   font-size: 0.8em;
 }
 
+notification-view {
+  margin-right: -15px;
+}
+
 #large-chart-container {
   width: 100% !important;
   height: 200px !important;
@@ -226,6 +231,9 @@ h3.small {
 
 main.dark #LEAF text {
   fill: white;
+}
+#LEAF text {
+  font-family: '-apple-system','HelveticaNeue';
 }
 
 .dark-button {
@@ -560,6 +568,13 @@ main.dark #LEAF text {
   }
 }
 
+md-toolbar.iPhone, md-toolbar.iPad {
+  padding-top: 8px;
+}
+div.md-dialog-container {
+  top: 10px;
+}
+
 @media screen and (orientation:portrait) {
   #LEAF, .leaf-loading, .loading-container {
     width: 100vw;
@@ -580,7 +595,7 @@ main.dark #LEAF text {
     font-size: 10vw;
   }
   .md-toolbar-tools small {
-    font-size: 1.3vh !important;
+    font-size: 1.4vh !important;
   }
 
   .md-toolbar-tools span {
@@ -698,11 +713,24 @@ main.dark #LEAF text {
   md-card-footer {
     padding-top: 0px !important;
     padding-bottom: 5px !important;
+    padding-left: 5px !important;
   }
   md-card-content {
     padding-bottom: 5px !important;
   }
+  .md-toolbar-tools {
+    line-height: 15px;
+  }
 
+}
+
+@media (max-width: 350px) {
+  .outside-temp {
+    display: none;
+  }
+  .md-toolbar-tools small {
+    font-size: 12px !important;
+  }
 }
 
 @media (min-height: 520px) {

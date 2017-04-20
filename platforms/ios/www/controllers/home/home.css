@@ -1,0 +1,761 @@
+.title-odo {
+  font-style: italic;
+}
+
+h2 > big {
+  font-size: 2em;
+}
+md-card-content > h2 {
+  padding: 0;
+  -webkit-margin-before: 0.4em;
+  -webkit-margin-after: 0.15em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+md-card-footer {
+  padding-right: 0 !important;
+}
+
+md-card-content {
+  padding: 12px !important;
+  padding-right: 0px !important;
+}
+
+small.title {
+  display: inline-flex;
+  margin-top: -10px;
+  position: absolute;
+}
+
+md-menu {
+  padding: 0 !important;
+}
+
+.temp-offset {
+  float: right;
+  margin-right: calc(5% + 25px);
+  transition: opacity 8s ease;
+  line-height: 5px;
+}
+
+.log {
+  white-space: pre-line;
+  word-break: break-all;
+  font-size: 16px;
+}
+
+.log-icon {
+  float: right;
+  margin-top: 3%;
+}
+
+.widget-icon-right {
+  margin-top: -10px;
+  margin-left: -10px;
+  position: absolute;
+}
+
+.sub-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.more-button {
+  position: absolute;
+  right: 2vw;
+}
+
+.left-button {
+  position: absolute;
+  z-index: 2;
+}
+
+.more-button.up {
+  margin-top: -15px;
+}
+
+.more-icon {
+  margin-top: -40%;
+  margin-left: -40%;
+}
+
+small.tiny {
+  float: right;
+  margin-top: -13px;
+  font-weight: bolder;
+  transition: opacity 8s ease;
+  position: absolute;
+  right: 4.5vw;
+}
+
+.clear {
+  opacity: 0.3;
+}
+
+.highlight {
+  opacity: 1;
+  transition: opacity 0s !important;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+md-badge{
+  margin: 0 -12px 0 8px;
+  background-color: #02a72e;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.unread-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #02a72e;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.notifications-btn {
+  min-width: 55px;
+}
+
+.two-line {
+  height: auto;
+}
+.two-line p {
+  line-height: 15px;
+}
+
+.notification-icon {
+  z-index: -1;
+}
+
+.log-container {
+  position: absolute;
+  width: calc(100vw - 25px);
+  padding: 10px;
+  margin-top: 50vh;
+  height: 100vh;
+  max-height: calc(100vh - 55px);
+  overflow-y: scroll;
+  word-wrap: break-word;
+  word-break: break-all;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content {
+  margin-top: 20px;
+  padding-top: 40px;
+  width: 100vw;
+
+  background-image:linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-webkit-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-ms-linear-gradient(top, #E4E4E4 0%, #ffffff 51%);
+  background-image:-webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #E4E4E4),
+      color-stop(0.51, #ffffff)
+  );
+  background-attachment:fixed;
+}
+
+main.dark .content {
+  color: white;
+  background-image:linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-webkit-linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-ms-linear-gradient(top, #2a3261 0%, #000000 51%);
+  background-image:-webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, #2a3261),
+      color-stop(0.51, #000000)
+  );
+  background-attachment:fixed;
+}
+
+.soc-container {
+  position: absolute;
+  pointer-events: none;
+}
+
+.info-box small{
+    text-overflow: ellipsis;
+}
+.info-box h3 {
+  padding: 3px;
+  margin: 0px;
+  text-overflow: ellipsis;
+}
+
+h3.small {
+  font-size: 0.8em;
+}
+
+notification-view {
+  margin-right: -15px;
+}
+
+#large-chart-container {
+  width: 100% !important;
+  height: 200px !important;
+  min-width: 55vw;
+}
+
+#LEAF, .leaf-loading {
+  width: 40vw;
+  height: 88vh;
+  display: block;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.LEAF-Text {
+  opacity: 0;
+}
+
+.loading-container {
+  position: absolute;
+  top: 45px;
+}
+
+main.dark #LEAF text {
+  fill: white;
+}
+#LEAF text {
+  font-family: '-apple-system','HelveticaNeue';
+}
+
+.dark-button {
+  width: 80px;
+  height: 80px;
+}
+
+#Motor_x5F_Speed {
+  fill: black !important;
+}
+
+#Charger_x5F_Flow {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+}
+
+#Charging_x5F_Plug {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+}
+
+#Charging_x5F_Container {
+  opacity: 0;
+}
+
+#Headlights {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+#Foglights {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+#R_x5F_Blinker, #L_x5F_Blinker {
+  animation:fade 500ms infinite;
+  -webkit-animation:fade 500ms infinite;
+  display: none;
+}
+
+#LEAFOUTTER.blinker-right #R_x5F_Blinker {
+  display: inherit;
+}
+
+#LEAFOUTTER.blinker-left #L_x5F_Blinker {
+  display: inherit;
+}
+
+#LEAFOUTTER.headlights #Headlights {
+  opacity: 1;
+}
+
+#LEAFOUTTER.foglights #Foglights {
+  opacity: 1;
+}
+
+#LEAFOUTTER.charging #Charger_x5F_Flow, #LEAFOUTTER.charging #Charging_x5F_Plug {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#LEAFOUTTER.charging #Charger_x5F_Flow lineargradient stop {
+  stop-color: #62C50F !important;
+}
+
+#LEAFOUTTER.charging #Battery_x5F_Outline, #LEAFOUTTER.charging #Charging_x5F_Plug > path, #LEAFOUTTER.charging #Charger_x5F_Flow > path {
+  stroke: #62C50F;
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#LEAFOUTTER.charging:not(.regening) #Charging_x5F_Container {
+  opacity: 1;
+}
+
+#LEAFOUTTER.charging.fast:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.fast #Charger_x5F_Flow {
+  animation: dash 6s 0s linear infinite;
+  -webkit-animation: dash 6s 0s linear infinite;
+}
+#LEAFOUTTER.charging.fast #Charging_x5F_Plug {
+  animation: dash 6s 0s linear reverse infinite;
+  -webkit-animation: dash 6s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
+
+#LEAFOUTTER.charging.medium:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.medium #Charger_x5F_Flow {
+  animation: dash 12s 0s linear infinite;
+  -webkit-animation: dash 12s 0s linear infinite;
+}
+#LEAFOUTTER.charging.medium #Charging_x5F_Plug {
+  animation: dash 12s 0s linear reverse infinite;
+  -webkit-animation: dash 12s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
+
+#LEAFOUTTER.charging.slow:not(.regening) #Battery_x5F_Outline, #LEAFOUTTER.charging.slow #Charger_x5F_Flow {
+  animation: dash 26s 0s linear infinite;
+  -webkit-animation: dash 26s 0s linear infinite;
+}
+
+#LEAFOUTTER.charging.slow #Charging_x5F_Plug {
+  animation: dash 26s 0s linear reverse infinite;
+  -webkit-animation: dash 26s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
+
+#Battery_x5F_Outline {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  transform-origin: 50%;
+  transform: rotate(-90deg);
+  z-index: 1000;
+}
+
+#R_x5F_Flow > path {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#M_x5F_Flow > path, #L_x5F_Flow > path, #M_x5F_Flow_2_ > path, #M_x5F_Flow_1_ > path {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#ACC_x5F_Flow {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#LEAFOUTTER.climate-usage #M_x5F_Flow_2_ lineargradient stop, #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path {
+  stop-color: #ff993e !important;
+  stroke: #ff993e;
+}
+
+#Charger_x5F_Flow lineargradient stop:first-child, #M_x5F_Flow_2_ lineargradient stop:first-child, #M_x5F_Flow_1_ lineargradient stop:first-child {
+  stop-opacity: 0;
+}
+
+
+#LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path, #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 10s 0s linear reverse infinite;
+  -webkit-animation: dash 10s 0s linear reverse infinite;
+}
+
+#LEAFOUTTER.climate-usage:not(.regening) #Battery_x5F_Outline {
+  stroke: #ff993e;
+  opacity: 1;
+  animation-fill-mode: reverse;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 10s 0s linear infinite;
+  -webkit-animation: dash 10s 0s linear infinite;
+  -webkit-animation-direction: forwards; /* Safari 4.0 - 8.0 */
+  animation-direction: forwards;
+}
+
+#LEAFOUTTER.motor-usage #M_x5F_Flow > path, #LEAFOUTTER.motor-usage #R_x5F_Flow > path, #LEAFOUTTER.motor-usage #L_x5F_Flow > path, #LEAFOUTTER.motor-usage #M_x5F_Flow_1_ > path {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 15s 0s linear reverse infinite;
+  -webkit-animation: dash 15s 0s linear reverse infinite;
+  animation-fill-mode: backwards;
+}
+
+#LEAFOUTTER.motor-usage #R_x5F_Flow > path, #LEAFOUTTER.motor-usage #L_x5F_Flow > path, #LEAFOUTTER.motor-usage #M_x5F_Flow > path, #LEAFOUTTER.motor-usage #M_x5F_Flow_1_ > path {
+  stroke: #ff993e !important;
+}
+
+#LEAFOUTTER.motor-usage #M_x5F_Flow lineargradient stop, #LEAFOUTTER.motor-usage #M_x5F_Flow_1_ lineargradient stop {
+  stop-color: #ff993e !important;
+}
+
+#LEAFOUTTER.motor-usage:not(.regening) #Battery_x5F_Outline {
+  stroke: #ff993e;
+  opacity: 1;
+  animation-fill-mode: reverse;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 15s 0s linear infinite;
+  -webkit-animation: dash 15s 0s linear infinite;
+  -webkit-animation-direction: forwards; /* Safari 4.0 - 8.0 */
+  animation-direction: forwards;
+}
+
+
+
+#LEAFOUTTER.regening #M_x5F_Flow > path, #LEAFOUTTER.regening #R_x5F_Flow > path, #LEAFOUTTER.regening #L_x5F_Flow > path, #LEAFOUTTER.regening #M_x5F_Flow_1_ > path {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 15s 0s linear forwards infinite;
+  -webkit-animation: dash 15s 0s linear forwards infinite;
+  animation-fill-mode: forwards;
+}
+
+#LEAFOUTTER.regening #R_x5F_Flow > path, #LEAFOUTTER.regening #L_x5F_Flow > path, #LEAFOUTTER.regening #M_x5F_Flow_1_ > path, #LEAFOUTTER.regening #M_x5F_Flow > path {
+  stroke: #62C50F !important;
+}
+
+#LEAFOUTTER.regening #M_x5F_Flow lineargradient stop, #LEAFOUTTER.regening #M_x5F_Flow_1_ lineargradient stop {
+  stop-color: #62C50F !important;
+}
+
+#LEAFOUTTER.regening #Battery_x5F_Outline {
+  stroke: #62C50F;
+  opacity: 1;
+  animation-fill-mode: backwards !important;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 15s 0s linear reverse infinite !important;
+  -webkit-animation: dash 15s 0s linear reverse infinite !important
+
+}
+
+/*#LEAF path, #LEAF circle { //Too laggy
+  transition: opacity 1s ease, stroke 1s ease;
+}*/
+
+#LEAFOUTTER #Belts {
+  fill: #ff0303;
+  opacity: 1;
+  transition: fill 2s ease;
+  animation:fade 2000ms infinite;
+  -webkit-animation:fade 2000ms infinite;
+}
+
+#LEAFOUTTER.buckled #Belts {
+  fill: #62C50F;
+  opacity: 0.5;
+  animation: none;
+  -webkit-animation: none;
+}
+
+#LEAFOUTTER #P_x5F_Brake {
+  opacity: 0.1;
+}
+
+#LEAFOUTTER.parked #P_x5F_Brake {
+  opacity: 1;
+}
+
+#Tires > text {
+    font-size: 13px;
+    text-align: center;
+    text-anchor: middle;
+}
+
+#Charging_x5F_Container > text {
+  font-size: 12px;
+  text-align: right;
+}
+
+#SOC {
+  width: 100%;
+}
+
+.SOC-Text, .Temp-Text, .Volt-Text, .SOC-Text-Label {
+  position: absolute;
+  text-align: center;
+  font-size: 185%;
+  font-weight: bold;
+  z-index: 3;
+  word-break: break-word;
+}
+.Temp-Text {
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.Volt-Text, .SOC-Text-Label {
+  opacity: 0.8;
+  font-weight: normal;;
+}
+
+.main-top-stats, .other-bottom-stats {
+  opacity: 0;
+}
+
+.Motor-Text, .Climate-Text {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.Motor-Text > small, .Climate-Text > small {
+  opacity: 0.5;
+  font-size: 1.2vw;
+}
+
+
+.extras-container {
+  position: absolute;
+}
+
+#time-chart {
+  padding-top: 15px;
+}
+
+@keyframes dash {
+  from {
+     stroke-dashoffset : 200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash {
+  from {
+     stroke-dashoffset : 200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+md-toolbar.iPhone, md-toolbar.iPad {
+  padding-top: 8px;
+}
+div.md-dialog-container {
+  top: 10px;
+}
+
+@media screen and (orientation:portrait) {
+  #LEAF, .leaf-loading, .loading-container {
+    width: 100vw;
+    max-height: 50vh;
+  }
+  .main-top-row {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .main-top-stats {
+    margin-top: -35px;
+    z-index: 2;
+  }
+  md-card h2 {
+    font-size: 3vw;
+  }
+  md-card h2 big {
+    font-size: 10vw;
+  }
+  .md-toolbar-tools small {
+    font-size: 1.4vh !important;
+  }
+
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 3vh !important;
+  }
+
+  .Happy-Leaf{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    border-style:none;
+   outline-style:none;
+   -webkit-appearance: textarea;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  md-card b {
+    font-size: 2.5vh;
+  }
+  .SOC-Text {
+    font-size: 3vh;
+  }
+  .SOC-Text-Label {
+    font-size: 1.6vh;
+  }
+  .Temp-Text {
+    font-size: 2vh;
+  }
+  .Volt-Text {
+    font-size: 2.6vh;
+  }
+  .Motor-Text, .Climate-Text {
+    font-size: 1.5vh;
+  }
+  .Motor-Text > small, .Climate-Text > small {
+    font-size: 1.2vh;
+  }
+
+}
+
+@media screen and (orientation:landscape) {
+  md-card h2 {
+    font-size: 2vw;
+  }
+
+  md-card h2 big {
+    font-size: 6.6vw;
+  }
+  .md-toolbar-tools small {
+    font-size: 1.6vw !important;
+  }
+
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 3vw !important;
+  }
+  md-card b {
+    font-size: 2.8vw;
+  }
+
+  .loading-container {
+    margin-right: 5px;
+  }
+
+  .SOC-Text {
+    font-size: 3vw;
+  }
+  .SOC-Text-Label {
+    font-size: 1.6vw;
+  }
+  .Temp-Text {
+    font-size: 2vw;
+  }
+  .Volt-Text {
+    font-size: 2.6vw;
+  }
+
+  .data-column {
+    max-width: 60vw;
+  }
+
+  .content {
+    margin-top: 15px;
+    padding-top: 40px;
+  }
+
+  .status {
+  	font-size: 2vw !important;
+  }
+
+}
+
+@media (max-width: 520px), (max-height: 520px) {
+  .status {
+    font-size: 20px !important;
+  }
+
+  md-card h2 big {
+    font-size: 7.2vw;
+  }
+
+  .more-button {
+    right: 0;
+  }
+
+  md-card b {
+    font-size: 16px;
+  }
+
+  small, md-card span {
+    font-size: 12px;
+  }
+
+  md-card-footer {
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+    padding-left: 5px !important;
+  }
+  md-card-content {
+    padding-bottom: 5px !important;
+  }
+  .md-toolbar-tools {
+    line-height: 15px;
+  }
+
+}
+
+@media (max-width: 350px) {
+  .outside-temp {
+    display: none;
+  }
+  .md-toolbar-tools small {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-height: 520px) {
+  .content {
+    margin-top: 10px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .md-toolbar-tools span {
+    margin-top: 5px;
+    font-size: 2.6vw !important;
+  }
+  .content {
+    margin-top: 10px;
+    padding-top: 80px;
+  }
+}

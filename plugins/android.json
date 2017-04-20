@@ -75,6 +75,10 @@
         },
         "com.pylonproducts.wifiwizard": {
             "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-bluetooth-peripheral-usage-description": {
+            "TEXT": "Connects to Bluetooth OBD device.",
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
         }
     },
     "dependent_plugins": {

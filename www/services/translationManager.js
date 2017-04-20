@@ -7,14 +7,17 @@ var translationsEN = {
     CONNECTED: 'Connected!',
     DISCONNECTED: 'Could not connect to device',
     NO_BLUETOOTH: 'Could not find Bluetooth interface',
+    CONNECTION_FAILED: "Connection failed",
+    TIMEOUT: "connection timeout",
     WIFI_ERROR: "Could not connect to network",
     TESTING: 'Testing...',
+    UNKNOWN: 'Unknown Name',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
     DEVICES: 'Devices',
-    DEVICE_TIPS: "If you do not see your ODB, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
+    DEVICE_TIPS: "If you do not see your OBD, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
     BLUETOOTH_ERROR: {
-      TITLE: "ODB Bluetooth Needed",
+      TITLE: "OBD Bluetooth Needed",
       CONTENT: "Bluetooth must be enabled to communicate with OBD device.",
       RETRY: "Try Again"
     },
@@ -36,7 +39,12 @@ var translationsEN = {
     NO: "No",
     HEALTH: "Health",
     SINCE: "since",
-    WATTS_MIN: "Watts per min",
+    WATTS_MIN: "Wh per min",
+    UPDATED: "Updated ",
+    MILES: "Miles",
+    KILOMETERS: "Km",
+    TEMPC: "Celsius",
+    TEMPF: "Fahrenheit",
     MENUS: {
       TO_DARK: "Switch to Dark",
       TO_LIGHT: "Switch to Light",
@@ -105,6 +113,10 @@ var translationsEN = {
       TITLE: "High Battery Output",
       CONTENT: "<h1>High Battery Output</h1><p>It may be fun to rapidly accelerate but this could be harmful to your battery.<br/>Avoid rapid acceleration to ensure maximum battery longevity. Your motor output was read at {{watts}}Wh</p>"
     },
+    SOH_CHANGE: {
+      TITLE: "State of Health Changed",
+      CONTENT: "<h1>State of Health Changed</h1><p>Previous State of Health {{lastSOH}}%<br/>Current State of Health {{SOH}}%<br/>Current odometer {{odometer}}.</p>"
+    },
     TIRES: {
       R_FRONT: "Front Right",
       L_FRONT: "Front Left",
@@ -133,7 +145,7 @@ var translationsEN = {
     },
     DELETE_CONFIRM: {
       TITLE: 'Delete all history?',
-      CONTENT: 'This will perminantly delete all history for today, if you do not have logs enabled, this data will be lost forever. Are you sure?',
+      CONTENT: 'This will permanently delete all history for today, if you do not have logs enabled, this data will be lost forever. Are you sure?',
       CONFIRM: 'Yes, reset!',
       NEVERMIND: 'Nevermind'
     },
@@ -155,9 +167,12 @@ var translationsEN = {
         ENGLISH: "English",
         FRENCH: "French",
         RUSSIAN: "Russian",
+        SPANISH: "Spanish",
         PORTUGUESE: "Portuguese",
         TITLE: "Language",
-      }
+      },
+      DISTANCE: "Distance Units",
+      TEMP: "Temperature Units"
     },
     DARK_MODE: {
       TITLE: "Theme/Dark Mode",
@@ -180,7 +195,9 @@ var translationsEN = {
     WIFI: {
       TITLE: "Wifi",
       IP: "IP Address",
-      PORT: "Port Number"
+      PORT: "Port Number",
+      ALLOW: "Allow Wifi",
+      ALLOW_ENABLE: "Enable Wifi on start, auto attemp connect to wifi."
     },
     BLUETOOTH: {
       TITLE: "Bluetooth"
@@ -198,9 +215,9 @@ var translationsFR = {
     TESTING: 'Test...',
     SUCCESS: 'Connecté à {{output}}!',
     FOUND: '{{length}} dispositif trouvé',
-    DEVICE_TIPS: "Si vous ne voyez pas votre ODB, couplez un périphérique dans Paramètres -> Bluetooth de votre OS. <br/> Assurez-vous qu'aucune autre application n'utilise votre périphérique Bluetooth.",
+    DEVICE_TIPS: "Si vous ne voyez pas votre OBD, couplez un périphérique dans Paramètres -> Bluetooth de votre OS. <br/> Assurez-vous qu'aucune autre application n'utilise votre périphérique Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Dispositif ODB Bluetooth demandé",
+      TITLE: "Dispositif OBD Bluetooth demandé",
       CONTENT: "Vous devez activer la fonction Bluetooth afin de communiquer avec votre dispositif OBD.",
       RETRY: "Essayez encore"
     },
@@ -359,9 +376,9 @@ var translationsRU = {
     TESTING: 'Тестирование...',
     SUCCESS: 'Подсоединено к {{output}}!',
     FOUND: 'Найдено {{length}} сопряженных устройства',
-    DEVICE_TIPS: "Если вы не увидели ваше ODB устройство, установите сопряжение в Настройки -> Bluetooth в вашей OS.<br/>Убедитесь, что другие приложения не используют Bluetooth.",
+    DEVICE_TIPS: "Если вы не увидели ваше OBD устройство, установите сопряжение в Настройки -> Bluetooth в вашей OS.<br/>Убедитесь, что другие приложения не используют Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Требуется ODB Bluetooth устройство",
+      TITLE: "Требуется OBD Bluetooth устройство",
       CONTENT: "Bluetooth должен быть включен для соединения с OBD устройством.",
       RETRY: "Попробовать еще"
     },
@@ -515,20 +532,26 @@ var translationsPT = {
     TITLE: 'Bem vindo',
     LOADING_TEXT: 'A carregar...',
     SCANNING: "A detectar...",
-    CONNECTING: 'A ligar...',
+    CONNECTING: 'A ligar {{name}}',
     CONNECTED: 'Ligado!',
+    DISCONNECTED: 'Não foi possivel ligar',
+    NO_BLUETOOTH: 'Bluetooth não encontrado',
+    WIFI_ERROR: 'Não foi possivel ligar',
+    CONNECTION_FAILED: 'Ligação falhou',
+    TIMEOUT: 'expirou o tempo',
     TESTING: 'A testar...',
     SUCCESS: 'Ligado a {{output}}!',
     FOUND: 'Encontrados {{length}} dispositivos emparelhados',
-    DEVICE_TIPS: "Se n„o vir o seu dispositivo OBD, emparelhe em DefiniÁıes -> Bluetooth no seu SO.<br/>Certifique-se que n„o h· outra App a usar o seu dispositivo Bluetooth.",
+    DEVICES: 'Dispositivos',
+    DEVICE_TIPS: "Se não vir o seu dispositivo OBD, emparelhe em Definições -> Bluetooth no seu SO.<br/>Certifique-se que não há outra App a usar o seu dispositivo Bluetooth.",
     BLUETOOTH_ERROR: {
-      TITLE: "Necess·rio um ODB Bluetooth",
+      TITLE: "Necessário um OBD Bluetooth",
       CONTENT: "O Bluetooth tem de estar ligado para comunicar com o dispositivo OBD.",
       RETRY: "Tente novamente"
     },
     OFFLINE_WARNING: {
       TITLE: "Modo Offline",
-      CONTENT: "Desligado de qualquer dispositivo OBD. Ser„o carregados os dados da ultima ligaÁ„o. Ser· tentada a ligaÁ„o ao ultimo dispositivo ligado se estiver ao alcance.",
+      CONTENT: "Desligado de qualquer dispositivo OBD. Serão carregados os dados da ultima ligação. Será tentada a ligação ao ultimo dispositivo ligado se estiver ao alcance.",
       CONTINUE: "Continuar"
     }
   },
@@ -541,8 +564,8 @@ var translationsPT = {
     TODAY: "Hoje",
     TO: "para",
     YES: "Sim",
-    NO: "N„o",
-    HEALTH: "Sa˙de",
+    NO: "Não",
+    HEALTH: "Saúde",
     SINCE: "desde",
     WATTS_MIN: "Watts por min",
     MENUS: {
@@ -551,17 +574,19 @@ var translationsPT = {
       USE_WATTS: "Usar Watts/{{units}}",
       USE_KW: "Usar {{units}}/kW",
       RESET: "Limpar",
-      EXPLAIN: "ExplicaÁ„o"
+      EXPLAIN: "Explicação",
+      OUT_FULLSCREEN: "Sair de ecrã completo",
+      TO_FULLSCREEN: "Ir para ecrã completo"
     },
     RESET_WARNING: {
       TITLE: 'Limpar o medidor de Watts?',
-      CONTENT: 'Isto vai limpar as mediÁıes atuais de Watts e recomÁar. Tem a certeza?',
+      CONTENT: 'Isto vai limpar as medições atuais de Watts e recomeçar. Tem a certeza?',
       CONTINUE: 'Sim, limpar!',
-      NEVERMIND: 'N„o limpar'
+      NEVERMIND: 'Não limpar'
     },
     EXPLAIN_METER: {
       TITLE: 'Medidor de Watts',
-      CONTENT: 'Watt È a medida de transferÍncia de energia, ser capaz de medir a utilizaÁ„o dos Watts È essencial para aumentar a eficiÍncia. Este widget mede as alteraÁıes de Watts a partir de determinada altura e pode ser inicializado em qualquer momento.',
+      CONTENT: 'Watt é a medida de transferência de energia, ser capaz de medir a utilização dos Watts é essencial para aumentar a eficiência. Este widget mede as alterações de Watts a partir de determinada altura e pode ser inicializado em qualquer momento.',
       OKAY: 'Percebi!'
     }
   },
@@ -572,44 +597,44 @@ var translationsPT = {
   },
   NOTIFICATIONS: {
     CLEAR_ALL: "Limpar tudo",
-    NONE_YET: "Ainda sem notificaÁıes!",
+    NONE_YET: "Ainda sem notificações!",
     RESET_DIALOG: {
-      TITLE: 'Limpar todas as notificaÁıes?',
-      CONTENT: 'Isto vai limpar de vez todas as notificaÁıes atuais, tem a certeza?',
+      TITLE: 'Limpar todas as notificações?',
+      CONTENT: 'Isto vai limpar de vez todas as notificações atuais, tem a certeza?',
       OKAY: 'Sim, limpar!',
-      NEVERMIND: 'N„o limpar'
+      NEVERMIND: 'Não limpar'
     },
     HIGH_BAT_TEMP: {
       TITLE: "Temperatura da bateria alta",
-      CONTENT: "<h1>Temperatura da bateria alta</h1><p>Temperaturas de bateria altas podem causar danos irreversÌveis, evite carregamentos r·pidos atÈ a bateria arrefecer.<br/>Temperatura da bateria: {{temp}}&deg. </p>"
+      CONTENT: "<h1>Temperatura da bateria alta</h1><p>Temperaturas de bateria altas podem causar danos irreversíveis, evite carregamentos rápidos até a bateria arrefecer.<br/>Temperatura da bateria: {{temp}}&deg. </p>"
     },
     LOW_BAT_TEMP: {
       TITLE: "Temperatura da bateria baixa",
-      CONTENT: "<h1>Temperatura da bateria baixa</h1><p>Temperaturas de bateria baixas podem causar danos irreversÌveis. Ligue a um carregador para ativar o aquecedor da bateria. <br/>Temperatura da bateria: {{temp}}&deg. </p>"
+      CONTENT: "<h1>Temperatura da bateria baixa</h1><p>Temperaturas de bateria baixas podem causar danos irreversíveis. Ligue a um carregador para ativar o aquecedor da bateria. <br/>Temperatura da bateria: {{temp}}&deg. </p>"
     },
     RAPID_TEMP: {
-      TITLE: "Aumento r·pido da temperatura da bateria",
-      CONTENT: "<h1>A temperatura da bateria aumentou rapidamente</h1><p>A temperatura da bateria aumentou 1&deg; muito r·pido.<br/>Temperatura da bateria: {{temp}}&deg aumentou {{increase}}&deg;. </p>"
+      TITLE: "Aumento rápido da temperatura da bateria",
+      CONTENT: "<h1>A temperatura da bateria aumentou rapidamente</h1><p>A temperatura da bateria aumentou 1&deg; muito rápido.<br/>Temperatura da bateria: {{temp}}&deg aumentou {{increase}}&deg;. </p>"
     },
     LOW_12V: {
       TITLE: "Bateria de 12v com pouca carga",
-      CONTENT: "<h1>Verifique a bateria de 12v!</h1><p>A bateria de 12v est· com pouca carga. <br/>Voltagem da bateria de 12v: {{volts}} volts. </p>"
+      CONTENT: "<h1>Verifique a bateria de 12v!</h1><p>A bateria de 12v está com pouca carga. <br/>Voltagem da bateria de 12v: {{volts}} volts. </p>"
     },
     LOW_TRACTION: {
       TITLE: "Bateria com pouca carga",
-      CONTENT: "<h1>A carga da bateria est· baixa!</h1><p>Est· a ficar sem energia! Encontre um carregador r·pidamente! <br/>Carga da bateria: {{SOC}}%. </p>"
+      CONTENT: "<h1>A carga da bateria está baixa!</h1><p>Está a ficar sem energia! Encontre um carregador rapidamente! <br/>Carga da bateria: {{SOC}}%. </p>"
     },
     LOW_HX: {
       TITLE: "HX baixo",
-      CONTENT: "<h1>O HX da bateria est· baixo</h1><p>O HX È uma medida relacionada com a sa˙de da bateria e est· baixo.<br/>HX da bateria: {{hx}}%. </p>"
+      CONTENT: "<h1>O HX da bateria está baixo</h1><p>O HX é uma medida relacionada com a saúde da bateria e está baixo.<br/>HX da bateria: {{hx}}%. </p>"
     },
     LOW_OUTSIDE_TEMP: {
       TITLE: "Perigo, gelo",
-      CONTENT: "<h1>Temperaturas baixas l· fora</h1><p>Est· muito frio l· fora, cuidado com o gelo. A temperatura exterior È: {{temp}}&deg. </p>"
+      CONTENT: "<h1>Temperaturas baixas lá fora</h1><p>Está muito frio lá fora, cuidado com o gelo. A temperatura exterior é: {{temp}}&deg. </p>"
     },
     HIGH_OUTPUT: {
-      TITLE: "Descarga r·pida de bateria",
-      CONTENT: "<h1>Descarga r·pida de bateria</h1><p>Pode ser divertido fazer aceleraÁıes r·pidas mas isso È prejudicial para a bateria.<br/>Evite aceleraÁıes r·pidas para assegurar maior longevidade. A descarga do motor foi de {{watts}}Wh</p>"
+      TITLE: "Descarga rápida de bateria",
+      CONTENT: "<h1>Descarga rápida de bateria</h1><p>Pode ser divertido fazer acelerações rápidas mas isso é prejudicial para a bateria.<br/>Evite acelerações rápidas para assegurar maior longevidade. A descarga do motor foi de {{watts}}Wh</p>"
     },
     TIRES: {
       R_FRONT: "frente direita",
@@ -618,55 +643,270 @@ var translationsPT = {
       L_REAR: "traseira esquerda"
     },
     HIGH_TIRE: {
-      TITLE: "Pneu da {{tire}} tem demasiada press„o",
-      CONTENT: "<h1>A press„o do pneu da {{tire}} est· alta</h1><p>Pneus com muita press„o causam fraca eficiÍncia<br/>O pneu da {{tire}} tem: {{value}} psi. </p>",
+      TITLE: "Pneu da {{tire}} tem demasiada pressão",
+      CONTENT: "<h1>A pressão do pneu da {{tire}} está alta</h1><p>Pneus com muita pressão causam fraca eficiência<br/>O pneu da {{tire}} tem: {{value}} psi. </p>",
     },
     LOW_TIRE: {
-      TITLE: "Pneu da {{tire}} tem pouca press„o",
-      CONTENT: "<h1>A press„o do pneu da {{tire}} est· baixa</h1><p>Pneus com pouca press„o causam fraca eficiÍncia<br/>O pneu da {{tire}} tem: {{value}} psi. </p>"
+      TITLE: "Pneu da {{tire}} tem pouca pressão",
+      CONTENT: "<h1>A pressão do pneu da {{tire}} está baixa</h1><p>Pneus com pouca pressão causam fraca eficiência<br/>O pneu da {{tire}} tem: {{value}} psi. </p>"
+    },
+    TIRE_DELTA: {
+      TITLE: "Grande diferença de pressões",
+      CONTENT: "<h1>A diferença de pressões é {{value}}</h1><p>A diferença supera o limite definido de {{threshold}}. A diferença de pressão entre o pneu mais cheio e o mais vazio é {{value}}</p>"
     }
   },
   SETTINGS: {
     TABS: {
-      SETTINGS: "ConfiguraÁıes",
+      SETTINGS: "Configurações",
       DATA: "Dados",
-      ABOUT: "Acerca"
+      ABOUT: "Acerca",
+      CONNECTION: "Ligação"
     },
-    TITLE: "Gest„o",
+    DELETE_CONFIRM: {
+      TITLE: 'Apagar histórico?',
+      CONTENT: 'Vai apagar os histórico diário, se não tiver os logs ligado, estes dados não serão recuperáveis. Tem a certeza?',
+      CONFIRM: 'Sim, apagar!',
+      NEVERMIND: 'Não apagar!'
+    },
+    TITLE: "Gestão",
     NOTIFICATIONS: {
-      TITLE: "NotificaÁıes",
-      ENABLE_DEVICE: "Enviar notificaÁıes para o SO",
-      TIRE_HIGH_THRESHOLD: "Press„o m·xima",
-      TIRE_LOW_THRESHOLD: "Press„o minima",
-      TIRE_DELTA_THRESHOLD: "DiferenÁa de press„o"
+      TITLE: "Notificações",
+      ENABLE_DEVICE: "Enviar notificações para o SO",
+      TIRE_HIGH_THRESHOLD: "Pressão máxima",
+      TIRE_LOW_THRESHOLD: "Pressão mínima",
+      TIRE_DELTA_THRESHOLD: "Diferença de pressão"
     },
     DISPLAY: {
       TITLE: "Display",
       EXTRA_DATA: "Esconder dados extra",
       EXTRA_DATA_DETAIL: "Melhora o desempenho",
+      EXTRA_LOGS: "Esconder Logs",
+      EXTRA_LOGS_DETAIL: "Melhora o desempenho. Desligar só a exibição.",
       LANGUAGE: {
-        ENGLISH: "English",
-        FRENCH: "French",
-        PORTUGUESE: "PortuguÍs",
-        TITLE: "Lingua"
+        ENGLISH: "Inglês",
+        FRENCH: "Francês",
+        RUSSIAN: "Russo",
+        PORTUGUESE: "Português",
+        SPANISH: "Espanhol",
+        TITLE: "Língua"
       }
     },
     DARK_MODE: {
       TITLE: "Modo escuro",
       AMBIENT: "Sensor de luz ambiente",
-      AMBIENT_SENSITIVITY: "Sensibilidade ‡ luz ambiente",
-      DARK_HEADLIGHTS: "Activar escuro com farÛis"
+      AMBIENT_SENSITIVITY: "Sensibilidade à luz ambiente",
+      DARK_HEADLIGHTS: "Activar escuro com faróis"
     },
     EXPERIMENTAL: {
       TITLE: "Experimental",
       SAVE_OBD: "Gravar ficheiro de log OBD",
-      SAVE_HISTORY: "Gravar ficheiro de histÛrico do log",
-      DEBUG_CODES: "Enviar cÛdigos de depuraÁ„o",
+      SAVE_HISTORY: "Gravar ficheiro de histórico do log",
+      DEBUG_CODES: "Enviar códigos de depuração",
       DEBUG_EXPLAIN: "(muito lento)"
     },
     DATA: {
-      CLEAR: "Limpar histÛria",
-      DELETE: "Apagar"
+      CLEAR: "Limpar histórico?",
+      DELETE: "Limpar",
+      LOG_LOCATION: "Encontre mais logs em {{location}}"
+    },
+    WIFI: {
+      TITLE: "Wifi",
+      IP: "Endereço IP",
+      PORT: "Número da porta"
+    },
+    BLUETOOTH: {
+      TITLE: "Bluetooth"
+    }
+  }
+};
+
+var translationsES = {
+  WELCOME: {
+    TITLE: 'Bienvenido',
+    LOADING_TEXT: 'Cargando..',
+    SCANNING: "Buscando...",
+    CONNECTING: 'Conectando, {{name}}',
+    CONNECTED: 'Conectado!',
+    DISCONNECTED: 'No se pudo conectar al dispositivo',
+    NO_BLUETOOTH: 'No se pudo encontrar la interfaz Bluetooth',
+    WIFI_ERROR: "No se pudo conectar a la red",
+    TESTING: 'Probando...',
+    SUCCESS: 'Conectado a {{output}}!',
+    FOUND: 'Encontrado {{length}} dispositivos emparejados',
+    DEVICES: 'Dispositivos',
+    DEVICE_TIPS: "Si no ve su OBD, empareje un dispositivo en Configuración -> Bluetooth de su sistema operativo. <br/> Asegúrese de que ninguna otra aplicación esté utilizando su dispositivo Bluetooth.",
+    BLUETOOTH_ERROR: {
+      TITLE: "OBD Bluetooth necesario",
+      CONTENT: "Bluetooth debe estar activo para comunicarse con el dispositivo OBD",
+      RETRY: "Inténtelo de nuevo"
+    },
+    OFFLINE_WARNING: {
+      TITLE: "Modo sin conexión",
+      CONTENT: "Actualmente no está conectado a un dispositivo OBD, se cargaran los últimos datos del historial conocidos. Si el último dispositivo Bluetooth conectado está en rango, se intentará reconectarse automáticamente",
+      CONTINUE: "Continuar"
+    }
+  },
+  HOME: {
+    TITLE: "Happy Leaf",
+    USED: "Usado",
+    REMAINING: "Restante",
+    GAINED: "Ganado",
+    HAPPY: "Feliz",
+    TODAY: "Hoy",
+    TO: "a",
+    YES: "Si",
+    NO: "No",
+    HEALTH: "Salud",
+    SINCE: "desde",
+    WATTS_MIN: "Watts por min",
+    MENUS: {
+      TO_DARK: "Cambiar a oscuro",
+      TO_LIGHT: "Switch a claro",
+      USE_WATTS: "Vatio usados/{{units}}",
+      USE_KW: "{{units}} usados/kW",
+      RESET: "Reiniciar",
+      EXPLAIN: "Explicar",
+      OUT_FULLSCREEN: "Salir de pantalla completa",
+      TO_FULLSCREEN: "Entrar a pantalla completa"
+    },
+    RESET_WARNING: {
+      TITLE: 'Reiniciar el medidor de vatios?',
+      CONTENT: 'Esto restablecerá la medida actual de Wvatios y establecerá la hora de inicio de vatios hasta ahora. ¿Estás seguro?',
+      CONTINUE: 'Si, reiniciar!',
+      NEVERMIND: 'No'
+    },
+    EXPLAIN_METER: {
+      TITLE: 'Neddor de vatios',
+      CONTENT: 'Los vatios son la medida de la transferencia de energía, siendo capaz de rastrear el uso de vatios es clave para aumentar la eficiencia. Este widget mide el cambio de vatios de un tiempo especificado, y puede ser restablecido en cualquier momento.',
+      OKAY: 'Lo tengo!'
+    }
+  },
+  LEAF_DISPLAY: {
+    SOC: "Estado de la carga",
+    MOTOR: "Motor",
+    CLIMATE: "Climatizado"
+  },
+  NOTIFICATIONS: {
+    CLEAR_ALL: "Borrar todo",
+    NONE_YET: "Todavía no hay notificaciones !",
+    RESET_DIALOG: {
+      TITLE: 'Restablecer todas las notificaciones?',
+      CONTENT: 'Esto borrará permanentemente todas las notificaciones actuales, ¿estás seguro?',
+      OKAY: 'Si, borrar!',
+      NEVERMIND: 'No'
+    },
+    HIGH_BAT_TEMP: {
+      TITLE: "Temperatura alta de la batería",
+      CONTENT: "<h1>Alta temperatura de la batería</h1><p>Las temperaturas altas de las baterías pueden causar daños irreversibles, evitar la carga rápida hasta que la batería se enfríe. <br/> La temperatura de la batería se ha leído a las {{temp}}&deg. </p>"
+    },
+    LOW_BAT_TEMP: {
+      TITLE: "Temperatura baja de la batería",
+      CONTENT: "<h1>emperatura baja de la batería </ h1> <p> Las temperaturas bajas de las baterías pueden causar daños irrivibles.Conecte a un cargador para activar el calentador de la batería. <br/> La temperatura de la batería fue leída a las {{temp}}&deg. </p>"
+    },
+    RAPID_TEMP: {
+      TITLE: "Rapid Battery Temperature Increase",
+      CONTENT: "<h1>La temperatura de la batería aumentó rápidamente </ h1> <p> La temperatura de la batería ha aumentado en más de 1&deg; muy rápidamente.<br/>Se leyó la temperatura de la batería a las : {{temp}}&deg con el aumento de {{increase}}&deg;. </p>"
+    },
+    LOW_12V: {
+      TITLE: "Batería 12v baja",
+      CONTENT: "<H1> Compruebe la batería! </ H1> <p> Parece que su batería de 12v está baja. <br/> Se leyó la batería a las : {{volts}} volts. </p>"
+    },
+    LOW_TRACTION: {
+      TITLE: "Batería baja",
+      CONTENT: "<h1> ¡Carga de batería baja! </ H1> <p> ¡Se está quedando sin energía! ¡Acceda rápidamente a un cargador! <br/> Se leyó su batería a las : {{SOC}}%. </p>"
+    },
+    LOW_HX: {
+      TITLE: "HX bajo",
+      CONTENT: "<h1> La batería HX es baja </ h1> <p> X se correlaciona con la salud, y se ve bajo. <br/> Su batería HX fue leída a las : {{hx}}%. </p>"
+    },
+    LOW_OUTSIDE_TEMP: {
+      TITLE: "Cuidado con el hielo",
+      CONTENT: "<h1> Baja temperatura exterior </ h1> <p> Está por debajo de la congelación en el exterior, observe Ice. La temperatura exterior se ha leído a las : {{temp}}&deg. </p>"
+    },
+    HIGH_OUTPUT: {
+      TITLE: "Alto rendimiento de la batería ",
+      CONTENT: "<h1> Salida de batería alta </ h1> <p> Puede ser divertido acelerar rápidamente, pero esto podría ser perjudicial para la batería. <br/> Evite la aceleración rápida para asegurar la máxima duración de la batería. La salida del motor se leyó en  {{watts}}Wh</p>"
+    },
+    TIRES: {
+      R_FRONT: "Frontal derecho",
+       L_FRONT: "Delantero izquierdo",
+       R_REAR: "Derecha trasera",
+       L_REAR: "Izquierda trasera"
+    },
+    HIGH_TIRE: {
+      TITLE: "{{tire}} Presión de los neumáticos alta",
+      CONTENT: "<h1>High {{tire}} Tire pressure</h1><p>Las presiones de los neumáticos alta pueden causar una mala eficiencia.<br/>El neumático {{tire}} fue leído con {{value}} psi.<br />El umbral actual es {{threshold}}. </p>",
+    },
+    LOW_TIRE: {
+      TITLE: "{{tire}} Presión de los neumáticos baja",
+      CONTENT: "<h1>Low {{tire}} Tire pressure</h1><p>Las presiones de los neumáticos bajos pueden causar una mala eficienciay<br/>El neumático {{tire}} fue leído con {{value}} psi<br/>El umbral actual es {{threshold}}. </p>"
+    },
+    TIRE_DELTA: {
+      TITLE: "Delta del neumático alto",
+      CONTENT: "<h1>Tire Delta {{value}}</h1><p>Esto es más que el umbral definido de {{threshold}}. La diferencia de PSI entre el neumático más inflado y el neumático menos inflado es {{value}}</p>"
+    }
+  },
+  SETTINGS: {
+    TABS: {
+      SETTINGS: "Configuración",
+      DATA: "Datos",
+      ABOUT: "Sobre",
+      CONNECTION: "Conexión"
+    },
+    DELETE_CONFIRM: {
+      TITLE: 'Eliminar todo el historial?',
+      CONTENT: 'Esto borrará permanentemente todo el historial de hoy, si no tiene los registros habilitados, estos datos se perderán para siempre. ¿Estás seguro?',
+      CONFIRM: 'Si, borrar',
+      NEVERMIND: 'No'
+    },
+    TITLE: "Gestionar",
+    NOTIFICATIONS: {
+      TITLE: "Notificaciones",
+      ENABLE_DEVICE: "Enviar notificaciones al sistema operativo",
+      TIRE_HIGH_THRESHOLD: "Alto neumático PSI",
+      TIRE_LOW_THRESHOLD: "Low PSI de los neumáticos",
+      TIRE_DELTA_THRESHOLD: "Límite del Delta del neumático"
+    },
+    DISPLAY: {
+      TITLE: "Monitor",
+       EXTRA_DATA: "Ocultar datos adicionales",
+       EXTRA_DATA_DETAIL: "Mejorará el rendimiento",
+       EXTRA_LOGS: "Ocultar registros",
+       EXTRA_LOGS_DETAIL: "Mejorará el rendimiento, deshabilitará la visualización solamente.",
+      LANGUAGE: {
+        ENGLISH: "English",
+        FRENCH: "French",
+        RUSSIAN: "Russian",
+        SPANISH: "Español",
+        PORTUGUESE: "Portuguese",
+        TITLE: "Idiomas",
+      }
+    },
+    DARK_MODE: {
+      TITLE: "Tema / Modo oscuro ",
+      AMBIENT: "Sensor de luz ambiental",
+       AMBIENT_SENSITIVITY: "Sensibilidad a la luz ambiental",
+       DARK_HEADLIGHTS: "Activar oscuro con faros"
+    },
+    EXPERIMENTAL: {
+      TITLE: "Experimental",
+       SAVE_OBD: "Guardar archivo de registro OBD",
+       SAVE_HISTORY: "Guardar archivo de registro del historial",
+       DEBUG_CODES: "Enviar códigos de depuración",
+       DEBUG_EXPLAIN: "(muy lento)"
+    },
+    DATA: {
+      CLEAR: "Borrar el historial",
+      DELETE: "Borrar",
+      LOG_LOCATION: "Encuentra más registros en {{location}}"
+    },
+    WIFI: {
+      TITLE: "Wifi",
+      IP: "Dirección IP",
+      PORT: "Número de puerto"
+    },
+    BLUETOOTH: {
+      TITLE: "Bluetooth"
     }
   }
 };
@@ -677,7 +917,8 @@ happyLeaf.config(['$translateProvider', function($translateProvider) {
     .translations('fr', translationsFR)
     .translations('ru', translationsRU)
     .translations('pt', translationsPT)
-    .registerAvailableLanguageKeys(['en', 'fr', 'ru', 'pt'], {
+    .translations('es', translationsES)
+    .registerAvailableLanguageKeys(['en', 'fr', 'ru', 'pt', 'es'], {
       'en_US': 'en',
       'en_UK': 'en',
       'de_DE': 'de',
@@ -690,7 +931,10 @@ happyLeaf.config(['$translateProvider', function($translateProvider) {
       'rm': 'ru',
       'qu': 'ru',
       'pt_PT': 'pt',
-      'pt_BR': 'pt'
+      'pt_BR': 'pt',
+      'es-DO': 'es',
+      'es-EC': 'es',
+      'es-ES': 'es'
     })
     .determinePreferredLanguage()
     .fallbackLanguage('en');;

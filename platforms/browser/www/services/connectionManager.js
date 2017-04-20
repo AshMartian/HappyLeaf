@@ -1,4 +1,4 @@
-happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(logManager, $localStorage){
+happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootScope", function(logManager, $localStorage, $rootScope){
   var shouldSend = false;
   var forceSend = true;
   var sendBluetoothCode = function(code, callback){
@@ -34,6 +34,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
           next();
         }, function(error){
           logManager.log("Error writing to Wifi device " + JSON.stringify(error));
+          self.isConnected = false;
           next();
         });
       } else if(self.shouldReconnect){
@@ -50,12 +51,14 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
     isConnected: false,
     lastConnected: "",
     lastWifi: $localStorage.lastWifi || false,
-
+    lastMessageTime: null,
     onMessage: null,
 
     wifiSocket: typeof Socket == 'undefined' ? null : new Socket(),
 
     checkConnection: function(){
+      var now = (new Date()).getTime();
+
       if(typeof bluetoothSerial !== 'undefined' && !self.lastWifi){
         bluetoothSerial.isConnected(function(connected){
           self.isConnected = true;
@@ -69,11 +72,20 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
         self.status = $translate.instant("WELCOME.NO_BLUETOOTH");
       }
       if(self.wifiSocket !== null && self.lastWifi) {
-        if(self.wifiSocket == Socket.State.OPENED) {
+        if(self.wifiSocket.state == Socket.State.OPENED) {
           self.isConnected = true;
-        } else if(self.wifiSocket == Socket.State.CLOSED){
+        } else if(self.wifiSocket.state == Socket.State.CLOSED){
           self.isConnected = false;
+          self.reconnect(function(){
+            self.isConnected = true;
+          }, function(){
+            self.checkConnection();
+          });
         }
+      }
+      if(now - self.lastMessageTime > 8000) {
+        logManager.log("Forcing not connected... " + now - self.lastMessageTime +"ms since last message");
+        self.isConnected = false;
       }
     },
 
@@ -109,18 +121,27 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
     subscribe: function(string, subscriptionFunction){
       self.onMessage = subscriptionFunction;
       if(!self.lastWifi){
-        bluetoothSerial.subscribe(string, subscriptionFunction);
+        bluetoothSerial.subscribe(string, function(date){
+          subscriptionFunction(data);
+          self.lastMessageTime = (new Date()).getTime();
+        });
       } else {
         logManager.log("Subscribing to Wifi ELM");
         self.wifiSocket.onData = function(data) {
           // invoked after new batch of data is received (typed array of bytes Uint8Array)
-          var output = new TextDecoder("utf-8").decode(data);
+          var output = Utf8ArrayToStr(data);
           logManager.log("Received from wifi: " + output);
+          self.lastMessageTime = (new Date()).getTime();
           if(output.match(string)){
             var stringArray = output.split(string);
             if(stringArray.length > 1) {
+              var lastOutput = "";
               async.forEach(stringArray, function(outputSplit){
-                subscriptionFunction(outputSplit);
+                if(outputSplit.substring(0, 5) != lastOutput){
+                  lastOutput = outputSplit.substring(0, 5);
+                  subscriptionFunction(outputSplit);
+                }
+
               })
             } else {
               subscriptionFunction(output);
@@ -149,6 +170,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
     },
     send: function(array, callback){
       self.failedSend = [];
+      self.sentCommands = [];
       if(Array.isArray(array)) {
         self.currentCommands = array;
         var log = [];
@@ -184,10 +206,12 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
     },
 
     reconnect: function(success, failure){
-      if(!self.lastWifi) {
-        self.connectBluetoothDevice($localStorage.lastConnected, success, failure);
-      } else {
-        self.connectWifiDevice($localStorage.settings.wifi.ipaddress, $localStorage.settings.wifi.port, success, failure);
+      if(!cordova.plugins.backgroundMode.isActive()){
+        if(!self.lastWifi) {
+          self.connectBluetoothDevice($localStorage.lastConnected, success, failure);
+        } else {
+          self.connectWifiDevice($localStorage.settings.wifi.ipaddress, $localStorage.settings.wifi.port, success, failure);
+        }
       }
     },
 
@@ -225,7 +249,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
       });
     },
 
-    connectWifiDevice: function(ip, port, next) {
+    connectWifiDevice: function(ip, port, next, error) {
       if(self.wifiSocket) {
         self.wifiSocket.close();
       }
@@ -240,15 +264,21 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
             self.lastWifi = true;
             self.isConnected = true;
             logManager.log("Connected to Wifi!");
-            self.wifiSocket.onError(self.wifiError);
-            self.wifiSocket.onClose(self.wifiClose);
+            self.wifiSocket.onError(function(err) {
+              if(self.lastWifi) self.isConnected = false;
+              logManager.log("There was an error with Wifi: " + JSON.stringify(err));
+            });
+            self.wifiSocket.onClose(function(error){
+              if(self.lastWifi) self.isConnected = false;
+              logManager.log("Wifi has been disconnected: " + JSON.stringify(err));
+            });
             next();
           },
           function(errorMessage) {
             self.lastWifi = false;
             logManager.log("Could not connect to wifi " + JSON.stringify(errorMessage));
             // invoked after unsuccessful opening of socket
-            next();
+            error(errorMessage);
         });
       } else {
         logManager.log("Wifi Socket null :(");
@@ -257,6 +287,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
     },
 
     wifiError: function(err) {
+      if(self.lastWifi) self.isConnected = false;
       logManager.log("There was an error with Wifi: " + JSON.stringify(err));
     },
 
@@ -270,3 +301,37 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", function(
 
   setInterval(self.checkConnection, 1000);
 }]);
+
+function Utf8ArrayToStr(array) {
+    var out, i, len, c;
+    var char2, char3;
+
+    out = "";
+    len = array.length;
+    i = 0;
+    while(i < len) {
+    c = array[i++];
+    switch(c >> 4)
+    {
+      case 0: case 1: case 2: case 3: case 4: case 5: case 6: case 7:
+        // 0xxxxxxx
+        out += String.fromCharCode(c);
+        break;
+      case 12: case 13:
+        // 110x xxxx   10xx xxxx
+        char2 = array[i++];
+        out += String.fromCharCode(((c & 0x1F) << 6) | (char2 & 0x3F));
+        break;
+      case 14:
+        // 1110 xxxx  10xx xxxx  10xx xxxx
+        char2 = array[i++];
+        char3 = array[i++];
+        out += String.fromCharCode(((c & 0x0F) << 12) |
+                       ((char2 & 0x3F) << 6) |
+                       ((char3 & 0x3F) << 0));
+        break;
+    }
+    }
+
+    return out;
+}

@@ -1,0 +1,95 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-fullscreen": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-lightSensor": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-bluetooth-peripheral-usage-description": {
+            "TEXT": "Connects to Bluetooth OBD device.",
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        }
+    }
+}

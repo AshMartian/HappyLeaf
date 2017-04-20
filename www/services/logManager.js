@@ -13,7 +13,7 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
   var self = {
     logText: "HappyLeaf Version " + currentVersion + "\r\n",
     logFull: "HappyLeaf Version " + currentVersion + "\r\n",
-    
+
     historyLogName: moment().format("MM-DD-YYYY") + "-history.json",
     canLogName: moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt",
 
@@ -21,8 +21,15 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     happyLeafDir: null,
 
     setupFilesystem: function(){
-      self.log("Root file directory: " + cordova.file.externalRootDirectory);
-      self.createLogDirectory(cordova.file.externalRootDirectory, function(){
+      var location = null;
+      if($rootScope.platform == "Android") {
+        location = cordova.file.externalRootDirectory;
+      } else {
+        location = cordova.file.syncedDataDirectory;
+        return;
+      }
+      self.log("Root file directory: " + location);
+      self.createLogDirectory(location, function(){
         self.saveLog();
         self.saveHistory();
       });

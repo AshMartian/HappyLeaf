@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="life.brandonmartin.happyleaf" version="0.1.9.1" android-versionCode="1091" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget ios-CFBundleVersion="1096" android-versionCode="1096" id="life.brandonmartin.happyleaf" version="0.1.9.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Happy Leaf</name>
     <description>
         Happy Leaf monitors OBDII data of the Nissan Leaf to provide drivers feedback and ease of range anxiety.
     </description>
-    <author email="support@brandonmartin.life" >
+    <author email="support@brandonmartin.life">
         Brandon Martin
     </author>
     <content src="index.html" />
@@ -12,6 +12,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="loadUrlTimeoutValue" value="7000" />
+    <preference name="orientation" value="all" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
@@ -49,6 +50,9 @@
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Connects to Bluetooth OBD device.</string>
+        </config-file>
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
@@ -114,4 +118,5 @@
     </platform>
     <engine name="android" spec="~5.1.1" />
     <plugin name="cordova-sqlite-storage" spec="~2.0.2" />
+    <engine name="ios" spec="~4.0.0" />
 </widget>

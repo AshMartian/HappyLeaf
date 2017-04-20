@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-bluetooth-peripheral-usage-description" version="1.0.0">
+  <name>Bluetooth Peripheral Usage Description</name>
+  <description>Set Bluetooth Peripheral Usage Description on iOS</description>
+  <author>Rand Dusing</author>
+  <keywords>bluetooth,background,peripheral</keywords>
+  <license>MIT</license>
+  <preference name="TEXT" />
+  <platform name="ios">
+    <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+      <string>$TEXT</string>
+    </config-file>
+  </platform>
+</plugin>

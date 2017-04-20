@@ -33,7 +33,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
 
   $localStorage.settings.about = {
-    version: "0.1.9"
+    version: "0.1.9.3"
   };
 
 

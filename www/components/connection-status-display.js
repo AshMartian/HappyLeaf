@@ -9,13 +9,13 @@ happyLeaf.component('connectionStatus', {
       failedMessages: "="
     },
 
-    controller: function($scope, $interval, connectionManager){
+    controller: function($scope, $interval, $translate, connectionManager){
       this.connectedColor = "#76FF03";
       this.pendingColor = "#bebebe";
       this.waitingColor = "#eee574";
       this.offColor = "#FF9800";
       this.errorColor = "#ff3e3e";
-      $scope.connction = connectionManager;
+      //$scope.connction = connectionManager;
       $scope.progress = 0;
 
       /*$interval(function(){
@@ -26,19 +26,21 @@ happyLeaf.component('connectionStatus', {
 
       if(!connectionManager.isConnected) {
         $scope.displayStyle = 'background-color: '+self.errorColor+';';
+      } else {
+        $scope.displayStyle = 'background-color: '+self.pendingColor+';';
       }
 
       //console.log("Watch got isWaiting " + bluetoothSend.isWaiting + "  " + self.waitingColor);
 
-      $scope.$watch('connection.failedSend', function(){
-        if(connectionManager.failedSend.length > 3) {
+      $scope.$on('failedMessage', function(){
+        if(connectionManager.failedMessages) {
           $scope.displayStyle = 'background-color: '+self.offColor+';';
         } else if(connectionManager.isConnected) {
           $scope.displayStyle = 'background-color: '+self.connectedColor+';';
         }
       });
 
-      $scope.$watch('connection.isConnected', function(){
+      $scope.$on('connected', function(){
         //console.log("Is connected has changed");
         if(connectionManager.isConnected){
           cordova.plugins.backgroundMode.configure({

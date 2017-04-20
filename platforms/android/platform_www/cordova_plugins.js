@@ -397,7 +397,8 @@ module.exports.metadata =
     "cz.blocshop.socketsforcordova": "1.1.0",
     "cordova-plugin-fullscreen": "1.1.0",
     "cordova-plugin-background-mode": "0.7.2",
-    "com.pylonproducts.wifiwizard": "0.2.11"
+    "com.pylonproducts.wifiwizard": "0.2.11",
+    "cordova-plugin-bluetooth-peripheral-usage-description": "1.0.0"
 };
 // BOTTOM OF METADATA
 });

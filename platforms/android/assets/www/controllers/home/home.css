@@ -35,7 +35,7 @@ md-menu {
 
 .temp-offset {
   float: right;
-  margin-right: calc(10% + 25px);
+  margin-right: calc(5% + 25px);
   transition: opacity 8s ease;
   line-height: 5px;
 }
@@ -148,6 +148,7 @@ md-badge{
   overflow-y: scroll;
   word-wrap: break-word;
   word-break: break-all;
+  -webkit-overflow-scrolling: touch;
 }
 
 .content {
@@ -197,8 +198,18 @@ main.dark .content {
   text-overflow: ellipsis;
 }
 
+.last-update {
+  float: left;
+  padding: 10px;
+  margin-top: -35px;
+}
+
 h3.small {
   font-size: 0.8em;
+}
+
+notification-view {
+  margin-right: -15px;
 }
 
 #large-chart-container {
@@ -226,6 +237,9 @@ h3.small {
 
 main.dark #LEAF text {
   fill: white;
+}
+#LEAF text {
+  font-family: '-apple-system','HelveticaNeue';
 }
 
 .dark-button {
@@ -368,6 +382,15 @@ main.dark #LEAF text {
   -webkit-animation-iteration-count: infinite;
 }
 
+#ACC_x5F_Flow {
+  opacity: 0.4;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 200;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
 #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ lineargradient stop, #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path {
   stop-color: #ff993e !important;
   stroke: #ff993e;
@@ -449,7 +472,7 @@ main.dark #LEAF text {
 #LEAFOUTTER.regening #Battery_x5F_Outline {
   stroke: #62C50F;
   opacity: 1;
-  animation-fill-mode: backwards;
+  animation-fill-mode: backwards !important;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation: dash 15s 0s linear reverse infinite !important;
@@ -560,6 +583,13 @@ main.dark #LEAF text {
   }
 }
 
+md-toolbar.iPhone, md-toolbar.iPad {
+  padding-top: 8px;
+}
+div.md-dialog-container {
+  top: 10px;
+}
+
 @media screen and (orientation:portrait) {
   #LEAF, .leaf-loading, .loading-container {
     width: 100vw;
@@ -580,7 +610,7 @@ main.dark #LEAF text {
     font-size: 10vw;
   }
   .md-toolbar-tools small {
-    font-size: 1.3vh !important;
+    font-size: 1.4vh !important;
   }
 
   .md-toolbar-tools span {
@@ -680,7 +710,7 @@ main.dark #LEAF text {
   }
 
   md-card h2 big {
-    font-size: 6.5vw;
+    font-size: 7.2vw;
   }
 
   .more-button {
@@ -698,11 +728,24 @@ main.dark #LEAF text {
   md-card-footer {
     padding-top: 0px !important;
     padding-bottom: 5px !important;
+    padding-left: 5px !important;
   }
   md-card-content {
     padding-bottom: 5px !important;
   }
+  .md-toolbar-tools {
+    line-height: 15px;
+  }
 
+}
+
+@media (max-width: 350px) {
+  .outside-temp {
+    display: none;
+  }
+  .md-toolbar-tools small {
+    font-size: 12px !important;
+  }
 }
 
 @media (min-height: 520px) {

@@ -9,6 +9,8 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     };
   }
   if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
+  //if($localStorage.settings.experiance.distanceUnits == null) $localStorage.settings.experiance.distanceUnits = null; //Use null value to auto set on first launch
+  //if($localStorage.settings.experiance.tempUnits == null) $localStorage.settings.experiance.tempUnits = null;
   if($localStorage.settings.experiance.displayAllData == null) $localStorage.settings.experiance.displayAllData = true;
   if($localStorage.settings.experiance.displayLogs == null) $localStorage.settings.experiance.displayLogs = true;
   if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
@@ -31,17 +33,18 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.wifi == null) $localStorage.settings.wifi = {};
   if($localStorage.settings.wifi.ipaddress == null) $localStorage.settings.wifi.ipaddress = "192.168.0.10";
   if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
+  if($localStorage.settings.wifi.allow == null) $localStorage.settings.wifi.allow = true;
 
   $localStorage.settings.about = {
-    version: "0.1.9.1"
+    version: "0.1.9.7"
   };
 
-
+  var lastHistoryItem = {lastUpdateTime: (new Date()).getTime()};
   var self = {
     db: null,
 
     createHistoryPoint: function(){
-      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive()){
+      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive() && dataManager.lastUpdateTime > lastHistoryItem.lastUpdateTime){
         var now = (new Date()).getTime();
         dataManager.endTime = now;
         var currentDataManager = {};
@@ -54,8 +57,12 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
         $localStorage.history[now] = currentDataManager;
         $localStorage.historyCount = Object.keys($localStorage.history).length;
         dataManager.historyCreated();
+        lastHistoryItem = currentDataManager;
         $rootScope.$broadcast('historyUpdated');
-        $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
+        logManager.log("Created history, now have " + $localStorage.historyCount);
+        if(!$localStorage.currentTripStart || $localStorage.currentTripStart == null) {
+          $localStorage.currentTripStart = currentDataManager;
+        }
       }
       //console.log("Creating history point");
     },
@@ -93,13 +100,14 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     var now = (new Date()).getTime();
     $localStorage.milesDrivenToday = 0;
     var lastDrivenToday = 0;
+    var index = 0;
     async.forEach(Object.keys($localStorage.history), function(key){
       var historyDataPoint = $localStorage.history[key];
 
       //Check if is same day.
       if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer > lastDrivenToday && historyDataPoint.odometer < 400000) {
         if(lastDrivenToday == 0) {
-          $localStorage.milesDrivenToday += 1;
+          //$localStorage.milesDrivenToday += 1;
         } else if(historyDataPoint.odometer < lastDrivenToday + 200 && historyDataPoint.odometer > lastDrivenToday ) { // I don't think a leaf could go 200 miles since last opened today? Need to filter out abnormalities.
           $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
         } else if(historyDataPoint.odometer < lastDrivenToday) {
@@ -111,11 +119,13 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
       }
 
       //Goodbye
-      if(parseInt(now) - ONE_DAY > parseInt(key)) {
+      //if(parseInt(now) - ONE_DAY > parseInt(key)) { //Used to delete based on time
+      if(index > 2000) { //Now delete if this is too much to store
         delete $localStorage.history[key];
       } else {
         $localStorage.history[key] = historyDataPoint; //Place history back with corrections.
       }
+      index ++;
     });
   } else {
     $localStorage.history = {};

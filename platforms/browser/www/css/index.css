@@ -149,6 +149,7 @@ md-radio-button > .md-label {
 
 md-dialog {
     max-width: 98% !important;
+    width: 100% !important;
 }
 
 .md-open-menu-container {
@@ -174,18 +175,22 @@ md-dialog {
   min-width: 15px;
   min-height: 15px;
   display: block;
-  position: absolute;
-  margin-left: 8px;
-  margin-top: 9px !important;
+/*  position: absolute;
+  margin-left: 7.5px;
+  margin-top: 7.5px !important;*/
+}
+
+md-menu-content.md-dark-grey-theme {
+    background-color: rgb(66, 66, 66);
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
-@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
-@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; display:none; } }
+@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; display: none;} }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; display: none;} }
 
 .fade-in {
   opacity: 0;
