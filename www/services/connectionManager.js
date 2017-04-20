@@ -57,6 +57,8 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     lastWifi: $localStorage.lastWifi || false,
     lastMessageTime: null,
     onMessage: null,
+    failedMessages: false,
+    forceSendTimeout: 100,
 
     wifiSocket: typeof Socket == 'undefined' ? null : new Socket(),
 
@@ -70,6 +72,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
         }, function(err){
           logManager.log("is Disconnected " + err);
           self.isConnected = false;
+          $rootScope.$broadcast('connected', false);
         });
       } else {
         logManager.log("Cannot find bluetooth");
@@ -78,10 +81,13 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
       if(self.wifiSocket !== null && self.lastWifi) {
         if(self.wifiSocket.state == Socket.State.OPENED) {
           self.isConnected = true;
+          $rootScope.$broadcast('connected', true);
         } else if(self.wifiSocket.state == Socket.State.CLOSED){
           self.isConnected = false;
+          $rootScope.$broadcast('connected', false);
           self.reconnect(function(){
             self.isConnected = true;
+            $rootScope.$broadcast('connected', true);
           }, function(){
             self.checkConnection();
           });
@@ -90,6 +96,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
       if(now - self.lastMessageTime > 8000) {
         logManager.log("Forcing not connected... " + now - self.lastMessageTime +"ms since last message");
         self.isConnected = false;
+        $rootScope.$broadcast('connected', false);
       }
     },
 
@@ -206,7 +213,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
                 shouldSend = true;
                 self.failedSend.push(self.lastCommand);
                 console.log("Forcing send");
-            }, 320);
+            }, self.forceSendTimeout);
 
             var wait = function(){
               if(shouldSend){
@@ -226,10 +233,12 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             wait();
           }
         }, function(err){
-          self.sendingCommands = false;
-          if(!err){
-            callback(log);
-          }
+          setTimeout(function(){
+            self.sendingCommands = false;
+            if(!err){
+              callback(log);
+            }
+          }, self.forceSendTimeout);
         });
       } else {
         sendCode(array + "\r", function(){
@@ -241,7 +250,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     },
 
     reconnect: function(success, failure){
-      if(!cordova.plugins.backgroundMode.isActive()){
+      if(!cordova.plugins.backgroundMode.isActive() || self.shouldReconnect){
         if(!self.lastWifi) {
           self.connectBluetoothDevice($localStorage.lastConnected, success, failure);
         } else {
@@ -273,6 +282,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
           logManager.log("I am now connected to Bluetooth");
           logManager.log(JSON.stringify(result));
           self.isConnected = true;
+          $rootScope.$broadcast('connected', true);
           self.lastWifi = false;
           $localStorage.lastWifi = false;
           bluetoothSerial.readRSSI(function(ssi){
@@ -287,6 +297,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             logManager.log(JSON.stringify(err));
             clearTimeout(connectionTimeout);
             connectionTimeout = null;
+            $rootScope.$broadcast('connected', false);
             failure(err);
           } else {
             clearTimeout(connectionTimeout);

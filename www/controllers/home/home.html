@@ -1,9 +1,9 @@
 <header class="fixed">
-  <md-toolbar class="{{platform}}">
+  <md-toolbar class="{{platform}}" ng-class="{'fullscreen': showFullscreen}" >
     <div class="md-toolbar-tools">
       <ng-md-icon ng-if="platform != 'Android'" class="back-button" ng-click="back()" icon="keyboard_arrow_left" size="30px" style="fill: white; margin-left: -17px;"></ng-md-icon>
       <div class="Happy-Leaf" ng-click="cycleDistance()">
-        <span translate>
+        <span ng-if="!showFullScreen" translate>
           HOME.TITLE
         </span>
         <br ng-if="!showFullscreen"/>
@@ -18,8 +18,8 @@
         {{data.outsideTemp | number:1}}&deg;
       </span>
       <connection-status failed-messages="failedMessages"></connection-status>
-      <notification-view></notification-view>
-      <settings-dialog></settings-dialog>
+      <notification-view ng-if="!showFullscreen"></notification-view>
+      <settings-dialog ng-if="!showFullscreen"></settings-dialog>
     </div>
   </md-toolbar>
 </header>

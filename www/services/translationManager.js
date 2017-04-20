@@ -41,6 +41,10 @@ var translationsEN = {
     SINCE: "since",
     WATTS_MIN: "Wh per min",
     UPDATED: "Updated ",
+    MILES: "Miles",
+    KILOMETERS: "Km",
+    TEMPC: "Celsius",
+    TEMPF: "Fahrenheit",
     MENUS: {
       TO_DARK: "Switch to Dark",
       TO_LIGHT: "Switch to Light",
@@ -109,6 +113,10 @@ var translationsEN = {
       TITLE: "High Battery Output",
       CONTENT: "<h1>High Battery Output</h1><p>It may be fun to rapidly accelerate but this could be harmful to your battery.<br/>Avoid rapid acceleration to ensure maximum battery longevity. Your motor output was read at {{watts}}Wh</p>"
     },
+    SOH_CHANGE: {
+      TITLE: "State of Health Changed",
+      CONTENT: "<h1>State of Health Changed</h1><p>Previous State of Health {{lastSOH}}%<br/>Current State of Health {{SOH}}%<br/>Current odometer {{odometer}}.</p>"
+    },
     TIRES: {
       R_FRONT: "Front Right",
       L_FRONT: "Front Left",
@@ -162,7 +170,9 @@ var translationsEN = {
         SPANISH: "Spanish",
         PORTUGUESE: "Portuguese",
         TITLE: "Language",
-      }
+      },
+      DISTANCE: "Distance Units",
+      TEMP: "Temperature Units"
     },
     DARK_MODE: {
       TITLE: "Theme/Dark Mode",
@@ -185,7 +195,9 @@ var translationsEN = {
     WIFI: {
       TITLE: "Wifi",
       IP: "IP Address",
-      PORT: "Port Number"
+      PORT: "Port Number",
+      ALLOW: "Allow Wifi",
+      ALLOW_ENABLE: "Enable Wifi on start, auto attemp connect to wifi."
     },
     BLUETOOTH: {
       TITLE: "Bluetooth"

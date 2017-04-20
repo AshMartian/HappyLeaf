@@ -18,10 +18,18 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   $scope.commandSequence = ["ATE1", "ATZ", "ATDP", "STSBR 2000000", "ATSP6", "ATH1", "ATS0", "ATI", "ATE0"];
 
   $scope.status = $translate.instant('WELCOME.LOADING_TEXT');
-  $scope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
-
+  $rootScope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+  $scope.platform = $rootScope.platform;
 
   logManager.log("I'm running angular!");
+
+  if(connectionManager.lastWifi || $rootScope.platform !== "Android"){
+    setTimeout(function(){
+      if($scope.scanDevices){
+        $scope.scanDevices();
+      }
+    }, 2000);
+  }
 
   deviceReady(function(){
     logManager.log("Translating to " + $translate.use());
@@ -34,6 +42,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     window.light = cordova.require("cordova-plugin-lightSensor.light");
     logManager.setupFilesystem();
     window.light.enableSensor();
+
     //storageManager.startupDB();
 
     cordova.plugins.backgroundMode.enable();
@@ -81,11 +90,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
       }
 
       enableBluetooth();
-      if(connectionManager.lastWifi || $scope.platform !== "Android"){
-        setTimeout(function(){
-          $scope.scanDevices();
-        }, 2500);
-      }
+
   });
 
   var watchingDevices = null;
@@ -101,7 +106,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
       return;
     }
 
-    if(typeof WifiWizard !== 'undefined') {
+    if(typeof WifiWizard !== 'undefined' && $localStorage.settings.wifi.allow) {
       WifiWizard.setWifiEnabled(true, function(){
         WifiWizard.getCurrentSSID(function(currentWifi){
           $scope.currentWifi = currentWifi;
@@ -255,11 +260,12 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.testDevice = function() {
-    logManager.log("Testing device");
-    connectionManager.shouldSend();
-    $scope.status = $translate.instant('WELCOME.TESTING');
+    if(!$scope.canContinue){
+      logManager.log("Testing device");
+      connectionManager.shouldSend();
+      $scope.status = $translate.instant('WELCOME.TESTING');
 
-    var responses = [];
+      var responses = [];
       connectionManager.subscribe(">", function(output){
         logManager.log("Subscribe got: " + output);
         output = output.substring(0, output.length - 1);
@@ -289,7 +295,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
         logManager.log(err);
       });
 
-      if(!$scope.canContinue){
+
         connectionManager.send($scope.commandSequence, function(log){
           logManager.log(JSON.stringify(log));
           setTimeout(function(){
@@ -302,7 +308,6 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
       } else {
         logManager.log("Not testing because already can continue");
-
       }
   }
 
