@@ -109,7 +109,7 @@ CBUUID *writeCharacteristicUUID;
 -(NSString *) CBUUIDToString:(CBUUID *) cbuuid;
 {
     NSData *data = cbuuid.data;
-
+    NSLog(@"Length of UUID: %lu", (unsigned long)[data length]);
     if ([data length] == 2)
     {
         const unsigned char *tokenBytes = [data bytes];
@@ -208,12 +208,12 @@ CBUUID *writeCharacteristicUUID;
 
     [NSTimer scheduledTimerWithTimeInterval:(float)timeout target:self selector:@selector(scanTimer:) userInfo:nil repeats:NO];
 
-/*#if TARGET_OS_IPHONE
     obdServiceUUID = [CBUUID UUIDWithString:@OBD_SERVICE_UUID];
     redBearLabsServiceUUID = [CBUUID UUIDWithString:@RBL_SERVICE_UUID];
     adafruitServiceUUID = [CBUUID UUIDWithString:@ADAFRUIT_SERVICE_UUID];
     lairdServiceUUID = [CBUUID UUIDWithString:@LAIRD_SERVICE_UUID];
     blueGigaServiceUUID = [CBUUID UUIDWithString:@BLUEGIGA_SERVICE_UUID];
+/*#if TARGET_OS_IPHONE
     NSArray *services = @[redBearLabsServiceUUID, adafruitServiceUUID, lairdServiceUUID, blueGigaServiceUUID, obdServiceUUID];
     [self.CM scanForPeripheralsWithServices:services options: nil];
 #else*/
@@ -513,9 +513,7 @@ static bool done = false;
                 break;
             }
         }
-    }
-    else
-    {
+    } else {
         NSLog(@"Characteristic discorvery unsuccessful!");
     }
 }
@@ -559,7 +557,7 @@ static bool done = false;
                 writeCharacteristicUUID = [CBUUID UUIDWithString:@OBD_CHAR_RX_UUID];
                 break;
             } else {
-              NSLog(@"Could not find service for %@", service.UUID);
+              NSLog(@"Could not find service for %@ want %@", service.UUID, obdServiceUUID);
                 // ignore unknown services
             }
         }

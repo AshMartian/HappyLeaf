@@ -590,6 +590,11 @@ div.md-dialog-container {
   top: 10px;
 }
 
+md-toolbar.fullscreen {
+  min-height: 25px;
+  height: 25px;
+}
+
 @media screen and (orientation:portrait) {
   #LEAF, .leaf-loading, .loading-container {
     width: 100vw;

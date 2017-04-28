@@ -135,9 +135,9 @@
 
 - (void)list:(CDVInvokedUrlCommand*)command {
 
-    [self scanForBLEPeripherals:5];
+    [self scanForBLEPeripherals:3];
 
-    [NSTimer scheduledTimerWithTimeInterval:(float)5.0
+    [NSTimer scheduledTimerWithTimeInterval:(float)3.0
                                      target:self
                                    selector:@selector(listPeripheralsTimer:)
                                    userInfo:[command.callbackId copy]

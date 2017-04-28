@@ -4,12 +4,6 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     currentVersion = $localStorage.settings.about.version;
   }
 
-  setTimeout(function(){
-    //don't run out of memory
-    self.logFull = "HappyLeaf Version " + currentVersion + "\r\n";
-    self.canLogName = moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt";
-  }, 2000000);
-
   var self = {
     logText: "HappyLeaf Version " + currentVersion + "\r\n",
     logFull: "HappyLeaf Version " + currentVersion + "\r\n",
@@ -64,7 +58,9 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
               fileWriter.onerror = function( error ) {
                 self.log( JSON.stringify(error) );
               };
+              fileWriter.seek(fileWriter.length);
               fileWriter.write(self.logFull);
+              self.logFull = "";
           }, function( error ) { self.log( JSON.stringify(error) ); } );
         }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
@@ -92,21 +88,17 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         if(typeof arguments == "array"){
           //console.log(arguments.join());
           async.eachSeries(arguments, function(logToAdd){
-            self.logFull = now + logToAdd + "\r\n" + self.logFull;
+            self.logFull = self.logFull + "\r\n" + now + log;
           });
         } else {
           console.log(log);
-          self.logFull = now + log + "\r\n" + self.logFull;
+          self.logFull = self.logFull + "\r\n" + now + log;
           //console.log(log);
         }
-        self.logText = self.logFull.substring(0, 30000);
       }
+      self.logText = now + log + "\r\n" + self.logText.substring(0, 30000);
     }
   };
-
-  $rootScope.$on('log', function(data){
-    self.log(data.log);
-  });
 
   return self;
 }]);

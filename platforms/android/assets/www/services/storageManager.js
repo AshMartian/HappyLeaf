@@ -9,6 +9,8 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
     };
   }
   if($localStorage.settings.experiance == null) $localStorage.settings.experiance = {};
+  //if($localStorage.settings.experiance.distanceUnits == null) $localStorage.settings.experiance.distanceUnits = null; //Use null value to auto set on first launch
+  //if($localStorage.settings.experiance.tempUnits == null) $localStorage.settings.experiance.tempUnits = null;
   if($localStorage.settings.experiance.displayAllData == null) $localStorage.settings.experiance.displayAllData = true;
   if($localStorage.settings.experiance.displayLogs == null) $localStorage.settings.experiance.displayLogs = true;
   if($localStorage.settings.experiance.darkModeAmbient == null) $localStorage.settings.experiance.darkModeAmbient = true;
@@ -31,17 +33,18 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.wifi == null) $localStorage.settings.wifi = {};
   if($localStorage.settings.wifi.ipaddress == null) $localStorage.settings.wifi.ipaddress = "192.168.0.10";
   if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
+  if($localStorage.settings.wifi.allow == null) $localStorage.settings.wifi.allow = true;
 
   $localStorage.settings.about = {
-    version: "0.1.9.6"
+    version: "0.1.9.7"
   };
 
-  var lastHistoryItem = {lastUpdate: (new Date()).getTime()};
+  var lastHistoryItem = {lastUpdateTime: (new Date()).getTime()};
   var self = {
     db: null,
 
     createHistoryPoint: function(){
-      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive() && dataManager.lastUpdate > lastHistoryItem.lastUpdate){
+      if(connectionManager.isConnected && !cordova.plugins.backgroundMode.isActive() && dataManager.lastUpdateTime > lastHistoryItem.lastUpdateTime){
         var now = (new Date()).getTime();
         dataManager.endTime = now;
         var currentDataManager = {};
@@ -50,13 +53,13 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
             currentDataManager[key] = dataManager[key];
           }
         });
-        
+
         $localStorage.history[now] = currentDataManager;
         $localStorage.historyCount = Object.keys($localStorage.history).length;
         dataManager.historyCreated();
         lastHistoryItem = currentDataManager;
         $rootScope.$broadcast('historyUpdated');
-        $rootScope.$broadcast('log', {log: "Created history, now have " + $localStorage.historyCount});
+        logManager.log("Created history, now have " + $localStorage.historyCount);
         if(!$localStorage.currentTripStart || $localStorage.currentTripStart == null) {
           $localStorage.currentTripStart = currentDataManager;
         }
@@ -91,23 +94,24 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
    }
   };
 
-  logManager.log("Cleaning up history older than 24 hours");
+  logManager.log("Cleaning up history");
   if($localStorage.history) {
     var ONE_DAY = 172800000;
     var now = (new Date()).getTime();
     $localStorage.milesDrivenToday = 0;
     var lastDrivenToday = 0;
     var index = 0;
-    async.forEach(Object.keys($localStorage.history), function(key){
+    var timesToProcess = Object.keys($localStorage.history).reverse(); //Loop from newest to oldest
+    async.forEach(timesToProcess, function(key){
       var historyDataPoint = $localStorage.history[key];
 
       //Check if is same day.
-      if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer > lastDrivenToday && historyDataPoint.odometer < 400000) {
+      if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer < lastDrivenToday && historyDataPoint.odometer < 800000) {
         if(lastDrivenToday == 0) {
-          $localStorage.milesDrivenToday += 1;
-        } else if(historyDataPoint.odometer < lastDrivenToday + 200 && historyDataPoint.odometer > lastDrivenToday ) { // I don't think a leaf could go 200 miles since last opened today? Need to filter out abnormalities.
+          //$localStorage.milesDrivenToday += 1;
+        } else if(historyDataPoint.odometer < lastDrivenToday ) {
           $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
-        } else if(historyDataPoint.odometer < lastDrivenToday) {
+        } else if(historyDataPoint.odometer > lastDrivenToday + 100) {
           historyDataPoint.odometer = lastDrivenToday;
         } else {
           $localStorage.milesDrivenToday -= lastDrivenToday - historyDataPoint.odometer;

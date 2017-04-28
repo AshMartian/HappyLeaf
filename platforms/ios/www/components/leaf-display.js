@@ -85,6 +85,9 @@ happyLeaf.component('leafDisplay', {
         $scope.leafClass = '';
         $scope.updateDOM = function(){
           //console.log("Updating DOM");
+          if($rootScope.platform != "Android") {
+            $scope.needsRefresh = true;
+          }
 
           if($scope.AmpsChart.width == 10 || $scope.needsResize || $rootScope.needsRefresh){
             $scope.updateMotor();

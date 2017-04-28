@@ -196,7 +196,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         $scope.$digest();
       };
 
-      setInterval(function(){
+      var watchEnv = function(){
         if(window.light && $localStorage.settings.experiance.darkModeAmbient){
           window.light.getLightState(onSuccess);
         }
@@ -205,47 +205,22 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
           $scope.$digest();
         }
         var now = (new Date()).getTime();
-        if(now - connectionManager.lastMessageTime > 5000 && !connectionManager.sendingCommands || !connectionManager.isConnected) {
+        if(now - connectionManager.lastMessageTime > 5000 && !connectionManager.sendingCommands) {
           $scope.requestSOC();
-          $rootScope.$broadcast('connected', false);
+          //$rootScope.$broadcast('connected', false);
         }
-      }, 5000);
+      }
+
+      setInterval(watchEnv, 5000);
+      watchEnv();
 
       $scope.bufferCount = 0;
       var lastResponse = "";
-      connectionManager.subscribe("\r", function(output){
-        //logManager.log("this is the output " + output);
-        $scope.lastMessageTime = (new Date()).getTime();
-        var parse = function(){
-
-          var lastCommand = connectionManager.lastCommand;
-          //if(output.indexOf("?") > -1){
-          /*if(false){
-            bluetoothSend.resendLast();
-
-          } else {*/
-            if(output.indexOf(">") > 0 || output.match(/ok/i)){ //|| lastResponse.substring(0, 3) == output.substring(0, 3)
-              connectionManager.shouldSend();
-            }
-            lastResponse = output;
-            if(!output.match(/ok|stopped|no/i)){
-              $scope.messagesReceived.push(output);
-              dataManager.parseResponse(output, lastCommand);
-            }
-            if(output.match(/no/i)) {
-              $scope.messagesWithoutData.push(lastCommand);
-            }
-            //connectionManager.shouldSend();
-          //}
-        }
-
-
-        parse();
-      }, function(err){
+      connectionManager.subscribe("\r", $scope.parseMessages, function(err){
         logManager.log(JSON.stringify(err));
       });
 
-      $scope.requestSOC();
+      //$scope.requestSOC();
 
       setInterval(function(){
         //eventually try all modules
@@ -255,12 +230,38 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
     }
     connectionManager.failedMessages = false;
 
+    $scope.parseMessages = function(output){
+      $scope.lastMessageTime = (new Date()).getTime();
+      var lastCommand = connectionManager.lastCommand;
+      //if(output.indexOf("?") > -1){
+      /*if(false){
+        bluetoothSend.resendLast();
+
+      } else {*/
+        if(output.indexOf(">") > 0 || output.match(/ok/i)){ //|| lastResponse.substring(0, 3) == output.substring(0, 3)
+          connectionManager.shouldSend();
+        }
+        lastResponse = output;
+        if(!output.match(/ok|stopped|no/i)){
+          $scope.messagesReceived.push(output);
+          dataManager.parseResponse(output, lastCommand);
+        }
+        if(output.match(/no/i)) {
+          $scope.messagesWithoutData.push(lastCommand);
+        }
+        //connectionManager.shouldSend();
+      //}
+      if($scope.renderLog) { //this take the dom to it's knees
+        $scope.logOutput = logManager.logText;
+      }
+    };
+
     $scope.lastRequestTime = null;
     $scope.requestSOC = function(){
       if(connectionManager.isConnected){
         $scope.lastRequestTime = (new Date()).getTime();
         logManager.log("Connected to " + connectionManager.lastConnected);
-        if(dataManager.transmission == "P"){ //chech for dtc every 10 minutes
+        if(dataManager.transmission == "P" && !dataManager.isCharging){ //chech for dtc every 10 minutes
           if(now - flowManager.lastDTCRequest > 600000){
             flowManager.requestDTC(function(err, status){
               $scope.requestSOC();
@@ -270,9 +271,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
               $scope.requestSOC();
             });
           }
+        } else if(dataManager.isCharging) {
+          if(dataManager.transmission == "T") dataManager.transmission = "P";
+          flowManager.requestCharging(function(err, status){
+            $scope.requestSOC();
+          });
         } else {
           flowManager.requestDriving(function(err, status){
-            self.requestSOC();
+            $scope.requestSOC();
           });
         }
 
@@ -280,51 +286,14 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         logManager.log("Connection failed, trying to reconnect");
         var now = new Date();
         connectionManager.reconnect(function(){
+          connectionManager.subscribe("\r", $scope.parseMessages, function(err){
+            logManager.log(JSON.stringify(err));
+          });
           $scope.requestSOC();
         }, function(err) {
           logManager.log("Connection error " + err);
           $scope.requestSOC();
         });
-      }
-    }
-
-    $scope.listenForMessages = function() {
-      if(connectionManager.isConnected && connectionManager.failedMessages == false) {
-        var commandsToSend = [];
-        if($localStorage.settings.experimental.debugCodes){
-          logManager.log("Going to loop over all possible commands!");
-          var hexCodes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "X"];
-          async.each(hexCodes, function(code1){
-            async.each(hexCodes, function(code2){
-              async.each(hexCodes, function(code3){
-                var code = code1 + code2 + code3;
-                commandsToSend = commandsToSend.concat(["ATCM7FE", "ATCF" + code, "ATCRA" + code, "ATMA", "X"]);
-              });
-            });
-          });
-          logManager.log("Generated " + commandsToSend.length + " commads!");
-        } else {
-          logManager.log("Watching CAN for known messages");
-          //"ATAR", "ATCRA", "ATMA", "X", "ATBD", "ATAR",
-          commandsToSend = ["ATBD", "ATAR", "ATOF0", "ATCF5B3", "ATCRA5BX", "ATMA", "X", "ATCF62F", "ATCRA6XX", "ATMA", "X", "ATCF35F", "ATCRA35X", "ATMA", "X", "ATCF38F", "ATCRA38X", "ATMA", "X", "ATCM7FE", "ATCF5C5", "ATMA", "X", "ATCM", "ATCRA", "ATMA", "X", "ATBD", "ATAR"];
-        }
-        $scope.lastRequestTime = (new Date()).getTime();
-        connectionManager.shouldSend();
-        connectionManager.send(commandsToSend, function(log){
-          var now = (new Date()).getTime();
-          logManager.log("Completed command sequence, took " + (now - $scope.lastRequestTime) + "ms, received " + $scope.messagesReceived.length + " messages, " + connectionManager.failedSend.length + " force send requests " + $scope.messagesWithoutData.length + " messages without data");
-          if(connectionManager.failedSend.length >= 20 && $scope.messagesReceived.length < 110) {
-            connectionManager.failedMessages = true;
-            $rootScope.$broadcast('failedMessage', true);
-          } else {
-            connectionManager.failedMessages = false;
-            $rootScope.$broadcast('failedMessage', false);
-          }
-          $scope.messagesReceived = [];
-          $scope.requestSOC();
-        });
-      } else {
-        $scope.requestSOC();
       }
     }
 
@@ -334,13 +303,6 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
       var commandSequence = ["ATSH" + code, "ATFCH" + code, "ATFCSD300000", "30221210", "X"];
       connectionManager.send(commandSequence, callback);
     }*/
-    $scope.$on('log', function(){
-      if($scope.renderLog) { //this take the dom to it's knees
-        $scope.$apply(function(){
-          $scope.logOutput = logManager.logText;
-        });
-      }
-    });
 
     $scope.toggleLog = function(){
       if($scope.renderLog){

@@ -1,4 +1,4 @@
-happyLeaf.controller('WelcomeController', function($scope, $location, $translate, $rootScope, $localStorage, $mdDialog, deviceReady, connectionManager, storageManager, logManager) {
+happyLeaf.controller('WelcomeController', function($scope, $location, $translate, $rootScope, $localStorage, $mdDialog, deviceReady, connectionManager, storageManager, logManager, flowManager) {
   $scope.ready = false;
   $scope.local = $localStorage;
   $scope.connection = connectionManager;
@@ -18,10 +18,18 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   $scope.commandSequence = ["ATE1", "ATZ", "ATDP", "STSBR 2000000", "ATSP6", "ATH1", "ATS0", "ATI", "ATE0"];
 
   $scope.status = $translate.instant('WELCOME.LOADING_TEXT');
-  $scope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
-
+  $rootScope.platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+  $scope.platform = $rootScope.platform;
 
   logManager.log("I'm running angular!");
+
+  if(connectionManager.lastWifi || $rootScope.platform !== "Android"){
+    setTimeout(function(){
+      if($scope.scanDevices){
+        $scope.scanDevices();
+      }
+    }, 2000);
+  }
 
   deviceReady(function(){
     logManager.log("Translating to " + $translate.use());
@@ -34,6 +42,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     window.light = cordova.require("cordova-plugin-lightSensor.light");
     logManager.setupFilesystem();
     window.light.enableSensor();
+
     //storageManager.startupDB();
 
     cordova.plugins.backgroundMode.enable();
@@ -81,11 +90,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
       }
 
       enableBluetooth();
-      if(connectionManager.lastWifi || $scope.platform !== "Android"){
-        setTimeout(function(){
-          $scope.scanDevices();
-        }, 2500);
-      }
+
   });
 
   var watchingDevices = null;
@@ -95,13 +100,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.scanIcon = "settings_backup_restore"
     $scope.scanClass = "start";
 
-    if(connectionManager.isConnected && !connectionManager.lastWifi || $scope.canContinue){
+    if((connectionManager.isConnected && !connectionManager.lastWifi) || $scope.canContinue){
       $scope.continueIcon = "done";
       $scope.continueClass = "";
       return;
     }
 
-    if(typeof WifiWizard !== 'undefined') {
+    if(typeof WifiWizard !== 'undefined' && $localStorage.settings.wifi.allow) {
       WifiWizard.setWifiEnabled(true, function(){
         WifiWizard.getCurrentSSID(function(currentWifi){
           $scope.currentWifi = currentWifi;
@@ -142,39 +147,38 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
       $scope.status = $translate.instant("WELCOME.FOUND", {length: connectionManager.availableDevices.length});
 
-      if(lastConnected && $scope.shouldReconnect && $scope.retryCount < 3){
-        $scope.status += " remembering " + lastConnected;
+      if((lastConnected.address || lastConnected.uuid) && $scope.shouldReconnect && $scope.retryCount < 3){
+        $scope.status += " remembering " + lastConnected.name;
         async.forEach(connectionManager.availableDevices, function(scannedDevice){
           if(scannedDevice.address){
-            if(scannedDevice.address == lastConnected && scannedDevice.address.match(":") && !connectionManager.isConnected && !connectionManager.lastWifi) {
+            if(scannedDevice.address == lastConnected.address && scannedDevice.address.match(":") && !connectionManager.isConnected && !connectionManager.lastWifi) {
               logManager.log("Found last connected device: " + lastConnected);
-              $scope.connectBluetoothDevice(lastConnected);
-            } else if(scannedDevice.address == lastConnected && scannedDevice.address.match(".")) {
+              $scope.connectBluetoothDevice(lastConnected.address);
+            } else if(scannedDevice.address == lastConnected.address && scannedDevice.address.match(".")) {
               logManager.log("Found last connected wifi device: " + lastConnected);
-              $scope.connectWifiDevice(lastConnected);
+              $scope.connectWifiDevice(lastConnected.address);
             }
-          } else if(scannedDevice.uuid && scannedDevice.uuid == lastConnected) {
-            $scope.connectBluetoothDevice(lastConnected)
+          } else if(scannedDevice.uuid && scannedDevice.uuid == lastConnected.uuid) {
+            $scope.connectBluetoothDevice(lastConnected.uuid)
           }
-
         });
       }
     });
 
     //$scope.$watch('connection.isConnected', function(connected){
-      if(!connectionManager.isConnected) {
-        //$scope.status = $translate.instant('DISCONNECTED');
-      } else if($scope.canContinue){
-        $scope.continueIcon = "done";
-        $scope.continueClass = "";
-      }
-      logManager.log("Device connected " + connectionManager.isConnected);
+    if(!connectionManager.isConnected) {
+      //$scope.status = $translate.instant('DISCONNECTED');
+    } else if($scope.canContinue){
+      $scope.continueIcon = "done";
+      $scope.continueClass = "";
+    }
+    logManager.log("Device connected " + connectionManager.isConnected);
     //});
     //logManager.log(connectionManager);
     if(connectionManager.isConnected && $scope.canContinue){
       $scope.$digest();
       setTimeout($scope.continue, 500);
-    } else {
+    } else if(!connectionManager.isConnected) {
       connectionManager.scanDevices(function(results){
         //Will return either wifi or bluetooth device
         logManager.log("Scanned");
@@ -187,13 +191,13 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.connectDevice = function(device) {
-    $localStorage.lastConnected = device.address || device.uuid;
+    $localStorage.lastConnected = device;
     $scope.canContinue = false;
     $scope.retryCount = 0;
-    if($localStorage.lastConnected.match(":") || $localStorage.lastConnected.match("-")) {
-      $scope.connectBluetoothDevice($localStorage.lastConnected);
-    } else if($localStorage.lastConnected.match(".")) {
-      $scope.connectWifiDevice($localStorage.lastConnected);
+    if(($localStorage.lastConnected.address && ($localStorage.lastConnected.address.match(":")) || ($localStorage.lastConnected.uuid && $localStorage.lastConnected.uuid.match("-")))) {
+      $scope.connectBluetoothDevice($localStorage.lastConnected.address || $localStorage.lastConnected.uuid);
+    } else if($localStorage.lastConnected.address.match(".")) {
+      $scope.connectWifiDevice($localStorage.lastConnected.address);
     }
   }
 
@@ -206,7 +210,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $scope.continueIcon = "settings_bluetooth";
     $scope.continueClass = "blink";
 
-    $localStorage.lastConnected = deviceAddress;
+    //$localStorage.lastConnected = deviceAddress;
 
     connectionManager.connectBluetoothDevice(deviceAddress, function(){
       $scope.status = $translate.instant("WELCOME.CONNECTED");
@@ -217,7 +221,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
         $scope.hasError = true;
         if($scope.retryCount < 3){
           $scope.retryCount ++;
-          setTimeout($scope.scanDevices, 1500);
+          //setTimeout($scope.scanDevices, 1500);
         }
 
         $scope.$apply(function(){
@@ -236,7 +240,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
     logManager.log("Connecting to wifi: " + deviceAddress);
     if(connectionManager.isConnected) {
-      $localStorage.lastConnected = deviceAddress;
+      //$localStorage.lastConnected = deviceAddress;
       $localStorage.lastConnectedWifi = $scope.currentWifi;
       $scope.testDevice();
     }
@@ -247,7 +251,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     WifiWizard.connectNetwork(SSID, function(){
       setTimeout(function(){
         $scope.scanDevices();
-      }, 3000);
+      }, 5000);
 
     }, function(){
       $scope.status = $translate.instant("WELCOME.WIFI_ERROR");
@@ -255,11 +259,12 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
   }
 
   $scope.testDevice = function() {
-    logManager.log("Testing device");
-    connectionManager.shouldSend();
-    $scope.status = $translate.instant('WELCOME.TESTING');
+    if(!$scope.canContinue){
+      logManager.log("Testing device");
+      connectionManager.shouldSend();
+      $scope.status = $translate.instant('WELCOME.TESTING');
 
-    var responses = [];
+      var responses = [];
       connectionManager.subscribe(">", function(output){
         logManager.log("Subscribe got: " + output);
         output = output.substring(0, output.length - 1);
@@ -278,7 +283,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
             $scope.continueIcon = "done";
             $scope.continueClass = "";
           });
-        } else if(responses.length > $scope.commandSequence.length) {
+        } else if(responses.length > $scope.commandSequence.length && !$scope.canContinue) {
           $scope.testDevice();
         } else if(!$scope.canContinue) {
           $scope.$apply(function(){
@@ -289,21 +294,19 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
         logManager.log(err);
       });
 
-      if(!$scope.canContinue){
-        connectionManager.send($scope.commandSequence, function(log){
-          logManager.log(JSON.stringify(log));
-          setTimeout(function(){
-            if(!$scope.canContinue) {
-              $scope.testDevice()
-            }
-          }, 2000);
-        });
-        logManager.log("Testing...");
 
-      } else {
-        logManager.log("Not testing because already can continue");
+      flowManager.requestConnecting(function(){
+        setTimeout(function(){
+          if(!$scope.canContinue) {
+            $scope.testDevice()
+          }
+        }, 2000);
+      });
+      logManager.log("Testing...");
 
-      }
+    } else {
+      logManager.log("Not testing because already can continue");
+    }
   }
 
   $scope.newMessage = function(date){

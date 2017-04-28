@@ -4,16 +4,10 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     currentVersion = $localStorage.settings.about.version;
   }
 
-  setTimeout(function(){
-    //don't run out of memory
-    self.logFull = "HappyLeaf Version " + currentVersion + "\r\n";
-    self.canLogName = moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt";
-  }, 2000000);
-
   var self = {
     logText: "HappyLeaf Version " + currentVersion + "\r\n",
     logFull: "HappyLeaf Version " + currentVersion + "\r\n",
-    
+
     historyLogName: moment().format("MM-DD-YYYY") + "-history.json",
     canLogName: moment().format("MM-DD-YYYY_HH-mm") + "-OBD-log.txt",
 
@@ -21,8 +15,15 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     happyLeafDir: null,
 
     setupFilesystem: function(){
-      self.log("Root file directory: " + cordova.file.externalRootDirectory);
-      self.createLogDirectory(cordova.file.externalRootDirectory, function(){
+      var location = null;
+      if($rootScope.platform == "Android") {
+        location = cordova.file.externalRootDirectory;
+      } else {
+        location = cordova.file.syncedDataDirectory;
+        return;
+      }
+      self.log("Root file directory: " + location);
+      self.createLogDirectory(location, function(){
         self.saveLog();
         self.saveHistory();
       });
@@ -57,7 +58,9 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
               fileWriter.onerror = function( error ) {
                 self.log( JSON.stringify(error) );
               };
+              fileWriter.seek(fileWriter.length);
               fileWriter.write(self.logFull);
+              self.logFull = "";
           }, function( error ) { self.log( JSON.stringify(error) ); } );
         }, function( error ) { self.log( JSON.stringify(error) ); } );
       }
@@ -85,15 +88,15 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
         if(typeof arguments == "array"){
           //console.log(arguments.join());
           async.eachSeries(arguments, function(logToAdd){
-            self.logFull = now + logToAdd + "\r\n" + self.logFull;
+            self.logFull = self.logFull + "\r\n" + now + log;
           });
         } else {
           console.log(log);
-          self.logFull = now + log + "\r\n" + self.logFull;
+          self.logFull = self.logFull + "\r\n" + now + log;
           //console.log(log);
         }
-        self.logText = self.logFull.substring(0, 30000);
       }
+      self.logText = now + log + "\r\n" + self.logText.substring(0, 30000);
     }
   };
 

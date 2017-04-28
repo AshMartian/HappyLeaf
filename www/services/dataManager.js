@@ -104,7 +104,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
     ODOUnits: lastHistoryItem.ODOUnits || "M",
 
     distanceOffset: lastHistoryItem.distanceOffset || 0,
-
+    carIsOff: false,
 
     startTime: (new Date()).getTime(),
     endTime: null,
@@ -501,10 +501,23 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
        logManager.log("Speed message invalid length");
        return;
      }
-     self.tire1 = parseInt(splitMsg[2], 16) / 4;
-     self.tire2 = parseInt(splitMsg[3], 16) / 4;
-     self.tire3 = parseInt(splitMsg[4], 16) / 4;
-     self.tire4 = parseInt(splitMsg[5], 16) / 4;
+     var tire1 = parseInt(splitMsg[2], 16) / 4;
+     var tire2 = parseInt(splitMsg[3], 16) / 4;
+     var tire3 = parseInt(splitMsg[4], 16) / 4;
+     var tire4 = parseInt(splitMsg[5], 16) / 4;
+     if(tire1 != 0) {
+       self.tire1 = tire1;
+     }
+     if(tire2 != 0) {
+       self.tire2 = tire2;
+     }
+     if(tire3 != 0) {
+       self.tire3 = tire3;
+     }
+     if(tire4 != 0) {
+       self.tire4 = tire4;
+     }
+
      self.tireHighest = Math.max(self.tire1, self.tire2, self.tire3, self.tire4);
      self.tireLowest = Math.min(self.tire1, self.tire2, self.tire3, self.tire4);
      self.tireDelta = Math.abs(self.tireHighest - self.tireLowest);
@@ -835,7 +848,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
      }
      self.averageMotorAmps = self.getAverage('motorAmps', self.rawMotorAmps);
      if(self.rawMotorVolts){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8;
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8.1;
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
      } else {
@@ -852,7 +865,7 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
      self.rawMotorVolts = parseInt(splitMsg[2] + splitMsg[3], 16);
      self.averageMotorVolts = self.getAverage('motorVolts', self.rawMotorVolts);
      if(self.rawMotorAmps){
-       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8; //this shouldn't need /?
+       self.motorWatts = ((self.rawMotorAmps / 2) * (self.rawMotorVolts / 20)) / 8.1; //this shouldn't need /?
        self.averageMotorWatts = self.getAverage('motorWatts', self.motorWatts);
        if(self.motorWatts > self.peakMotorWatts) self.peakMotorWatts = self.motorWatts;
        if(self.motorWatts < 0) {
@@ -1001,12 +1014,10 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
        case "358":
          logManager.log("Got Headlight status: " + msg);
          self.setheadLights(splitMsg);
-         connectionManager.shouldSend();
          break;
        case "60D":
          logManager.log("Got Turn Signal status: " + msg);
          self.setTurnSignal(splitMsg);
-         connectionManager.shouldSend();
          break;
        case "5B3":
          logManager.log("Got battery SOH: " + msg);
@@ -1015,11 +1026,9 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
        case "54F":
          logManager.log("Got Climate Data " + msg);
          self.setACUsage(splitMsg);
-         connectionManager.shouldSend();
          break;
        case "5BF":
          logManager.log("Got charging status?? " + msg);
-         connectionManager.shouldSend();
          break;
        case "002":
          logManager.log("Got turning angle! " + msg);

@@ -209,11 +209,15 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             next(null, 'invalid');
           } else {
             index ++;
+            var speed = 400;
+            if(command == "ATMA"){
+              speed = self.forceSendTimeout;
+            }
             var forceSend = setTimeout(function(){
                 shouldSend = true;
                 self.failedSend.push(self.lastCommand);
                 console.log("Forcing send");
-            }, self.forceSendTimeout);
+            }, speed);
 
             var wait = function(){
               if(shouldSend){
@@ -233,12 +237,21 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             wait();
           }
         }, function(err){
-          setTimeout(function(){
-            self.sendingCommands = false;
-            if(!err){
-              callback(log);
+          if(err) callback(err);
+          var forceFinish = function(){
+            shouldSend = true;
+          };
+          setTimeout(forceFinish, 400); //Don't freeze...
+          var finish = function(){
+            if(shouldSend){
+              clearTimeout(forceFinish);
+              self.sendingCommands = false;
+              callback(null, log);
+            } else {
+              setTimeout(finish, 5);
             }
-          }, self.forceSendTimeout);
+          }
+          finish();
         });
       } else {
         sendCode(array + "\r", function(){
@@ -252,7 +265,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     reconnect: function(success, failure){
       if(!cordova.plugins.backgroundMode.isActive() || self.shouldReconnect){
         if(!self.lastWifi) {
-          self.connectBluetoothDevice($localStorage.lastConnected, success, failure);
+          self.connectBluetoothDevice($localStorage.lastConnected.address, success, failure);
         } else {
           self.connectWifiDevice($localStorage.settings.wifi.ipaddress, $localStorage.settings.wifi.port, success, failure);
         }
@@ -328,7 +341,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             next();
           },
           function(errorMessage) {
-            self.lastWifi = false;
+            //self.lastWifi = false;
             logManager.log("Could not connect to wifi " + JSON.stringify(errorMessage));
             // invoked after unsuccessful opening of socket
             error(errorMessage);

@@ -94,23 +94,24 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
    }
   };
 
-  logManager.log("Cleaning up history older than 24 hours");
+  logManager.log("Cleaning up history");
   if($localStorage.history) {
     var ONE_DAY = 172800000;
     var now = (new Date()).getTime();
     $localStorage.milesDrivenToday = 0;
     var lastDrivenToday = 0;
     var index = 0;
-    async.forEach(Object.keys($localStorage.history), function(key){
+    var timesToProcess = Object.keys($localStorage.history).reverse(); //Loop from newest to oldest
+    async.forEach(timesToProcess, function(key){
       var historyDataPoint = $localStorage.history[key];
 
       //Check if is same day.
-      if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer > lastDrivenToday && historyDataPoint.odometer < 400000) {
+      if(moment().isSame(moment(historyDataPoint.startTime), 'day') && historyDataPoint.odometer < lastDrivenToday && historyDataPoint.odometer < 800000) {
         if(lastDrivenToday == 0) {
           //$localStorage.milesDrivenToday += 1;
-        } else if(historyDataPoint.odometer < lastDrivenToday + 200 && historyDataPoint.odometer > lastDrivenToday ) { // I don't think a leaf could go 200 miles since last opened today? Need to filter out abnormalities.
+        } else if(historyDataPoint.odometer < lastDrivenToday ) {
           $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
-        } else if(historyDataPoint.odometer < lastDrivenToday) {
+        } else if(historyDataPoint.odometer > lastDrivenToday + 100) {
           historyDataPoint.odometer = lastDrivenToday;
         } else {
           $localStorage.milesDrivenToday -= lastDrivenToday - historyDataPoint.odometer;

@@ -17,9 +17,9 @@
 #define BLUEGIGA_CHAR_RX_UUID                         "AF20fBAC-2518-4998-9AF7-AF42540731B3"
 
 // OBD Service "00001800-0000-1000-8000-00805F9B34FB"
-#define OBD_SERVICE_UUID                         "F440BD41-F977-46A8-872E-4D782EDFB5F6"
-#define OBD_CHAR_TX_UUID                         "7CFAF9DE-BEB7-FD2A-AFFD-6777E5FCCBE7"
-#define OBD_CHAR_RX_UUID                         "7CFAF9DE-BEB7-FD2A-AFFD-6777E5FCCBE7"
+#define OBD_SERVICE_UUID                         "FFE0"
+#define OBD_CHAR_TX_UUID                         "FFE1"
+#define OBD_CHAR_RX_UUID                         "FFE1"
 
 // RBL Service
 #define RBL_SERVICE_UUID                         "713D0000-503E-4C75-BA94-3148F18D941E"

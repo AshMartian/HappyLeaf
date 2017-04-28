@@ -36,9 +36,10 @@ happyLeaf.component('settingsDialog', {
 
       };
 
-      function DialogController($scope, $mdDialog, $translate, $localStorage, dataManager, logManager) {
+      function DialogController($scope, $rootScope, $mdDialog, $translate, $localStorage, dataManager, logManager) {
         $scope.local = $localStorage;
         $scope.loveIcon = "favorite";
+        $scope.platform = $rootScope.platform;
         $scope.availableIcons = ["favorite", "hourglass_full", "favorite", "gavel", "http", "favorite", "query_builder", "weekend", "favorite", "lightbulb_outline", "important_devices", "favorite", "bug_report", "android", "battery_charging_60", "favorite", "battery_charging_20", "github-circle", "apple", "favorite_border"];
         $scope.languages = [{
           name: "SETTINGS.DISPLAY.LANGUAGE.ENGLISH",
@@ -74,10 +75,18 @@ happyLeaf.component('settingsDialog', {
           $localStorage.settings.notifications.tireLowThreshold = $scope.tireLowThreshold;
         })
 
-        $scope.setLanguage = function(shortCode) {
-          $localStorage.lang = shortCode;
-          $translate.use(shortCode);
+        $scope.setLanguage = function(lang) {
+          $localStorage.lang = lang.short;
+          $localStorage.langName = lang.name;
+          $translate.use(lang.short);
         };
+
+        $scope.setDistance = function(newDistanceUnit) {
+          $localStorage.settings.experiance.distanceUnits = newDistanceUnit;
+        }
+        $scope.setTemp = function(newTempUnit) {
+          $localStorage.settings.experiance.tempUnits = newTempUnit;
+        }
 
         setInterval(function(){
           var randomIconInt = Math.floor(Math.random() * $scope.availableIcons.length)

@@ -81,10 +81,12 @@ happyLeaf.component('leafDisplay', {
         $rootScope.$on('dataUpdate:SOC', function(){
           $scope.updateSOC();
         });
-
         $scope.leafClass = '';
         $scope.updateDOM = function(){
           //console.log("Updating DOM");
+          if($rootScope.platform != "Android") {
+            $scope.needsRefresh = true;
+          }
 
           if($scope.AmpsChart.width == 10 || $scope.needsResize || $rootScope.needsRefresh){
             $scope.updateMotor();
@@ -135,7 +137,7 @@ happyLeaf.component('leafDisplay', {
 
         var graphedSOC = 0;
         $scope.updateSOC = function(){
-          if(graphedSOC != dataManager.actualSOC || $scope.needsResize || $rootScope.needsRefresh){
+          if(graphedSOC != dataManager.actualSOC || $scope.needsResize || $rootScope.needsRefresh || $rootScope.platform != "Android"){
 
             graphedSOC = dataManager.actualSOC;
             //$("#SOC").text($filter('number')(dataManager.actualSOC, 1) + "%");
@@ -149,7 +151,7 @@ happyLeaf.component('leafDisplay', {
             var chart = document.getElementById("SOC-circle").getContext("2d");
             //console.log("Chart width " + chart.canvas.width);
             //console.log("New width " + $scope.SOCChart.width);
-            if(chart.canvas.width !== Math.round($scope.SOCChart.width) || $scope.needsResize || $rootScope.needsRefresh) {
+            if(chart.canvas.width !== Math.round($scope.SOCChart.width) || $scope.needsResize || $rootScope.needsRefresh || $rootScope.platform != "Android") {
               chart.canvas.width = Math.round($scope.SOCChart.width);
               chart.canvas.height = Math.round($scope.SOCChart.height);
               $scope.SOCChart.top = Math.round(batteryCircle.getBoundingClientRect().top + offset + window.scrollY);

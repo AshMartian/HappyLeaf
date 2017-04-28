@@ -14,7 +14,7 @@ var translationsEN = {
     UNKNOWN: 'Unknown Name',
     SUCCESS: 'Connected to {{output}}!',
     FOUND: 'Found {{length}} paired devices',
-    DEVICES: 'Devices',
+    DEVICES: 'Nearby Devices',
     DEVICE_TIPS: "If you do not see your OBD, pair a device in Settings -> Bluetooth of your OS.<br/>Ensure no other applications are using your Bluetooth device.",
     BLUETOOTH_ERROR: {
       TITLE: "OBD Bluetooth Needed",
