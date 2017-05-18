@@ -75,7 +75,9 @@ happyLeaf.component('leafDisplay', {
             $rootScope.needsRefresh = false;
             $scope.needsResize = true;
           }
-          $scope.updateDOM();
+          if($("#LEAF").length){
+            $scope.updateDOM();
+          }
         });
 
         $rootScope.$on('dataUpdate:SOC', function(){

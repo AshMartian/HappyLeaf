@@ -9,6 +9,9 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     if(!self.lastWifi){
       bluetoothSerial.write(code, function(output){
         logManager.log("sent: " + code + " got: " + output);
+        /*if(output.match(/OK/g) && (!code.match(/ATM/g) && !code == "X" && !code.match(/0/g))){
+          shouldSend = true;
+        }*/
         self.lastCommand = code;
         self.sentCommands.push(self.lastCommand);
         next();
@@ -275,13 +278,9 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     connectBluetoothDevice: function(deviceMac, success, failure) {
       self.lastConnected = deviceMac;
       async.waterfall(function(callback){
-        if(self.isConnected){
-          bluetoothSerial.disconnect(function(){
-            callback();
-          });
-        } else {
+        bluetoothSerial.disconnect(function(){
           callback();
-        }
+        });
       }, function(callback){
         var connectionTimeout = setTimeout(function(){
           logManager.log("Connection Timeout..");

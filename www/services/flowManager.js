@@ -223,7 +223,7 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
       getOdometer: {
         codes: ["ATCM7FE", "ATCF5C5", "ATMA", "X"],
         priority: 20,
-        speed: 100,
+        speed: 2,
         lastSent: null,
         requestName: 'getOdometer'
       },
@@ -237,7 +237,7 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
       getMotorWatts: {
         codes: ["ATCM7FE", "ATCF180", "ATMA", "X\r", "ATCM7FE", "ATCF176", "ATMA", "X\r", "ATBD"],
         priority: 2,
-        speed: 2,
+        speed: 5,
         lastSent: null,
         requestName: 'getMotorWatts'
       },
@@ -251,21 +251,21 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
       getSpeed: {
         codes: ["ATCF35F", "ATCRA35X", "ATMA", "X"],
         priority: 3,
-        speed: 3,
+        speed: 10,
         lastSent: null,
         requestName: 'getSpeed'
       },
       getHeadlights: {
-        codes: ["ATCF62F", "ATCRA62X", "ATMA", "X\r"],
+        codes: ["ATCF62F", "ATCRA62X", "ATMA", "X"],
         priority: 20,
-        speed: 2,
+        speed: 10,
         lastSent: null,
         requestName: 'getHeadlights'
       },
       getAll: {
-        codes: ["ATCM", "ATCRA", "ATMA", "X"],
+        codes: ["ATAR", "ATCM", "ATCM", "ATCRA", "ATMA", "ATBD"],
         priority: 10,
-        speed: 150,
+        speed: 30,
         lastSent: null,
         requestName: 'getAll'
       },

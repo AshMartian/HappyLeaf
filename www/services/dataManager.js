@@ -497,8 +497,8 @@ happyLeaf.factory('dataManager', ['$rootScope', '$localStorage', 'flowManager', 
    },
 
    setTirePressures: function(splitMsg) {
-     if(splitMsg.length !== 7){
-       logManager.log("Speed message invalid length");
+     if(splitMsg.length < 7){
+       logManager.log("Tire message invalid length");
        return;
      }
      var tire1 = parseInt(splitMsg[2], 16) / 4;

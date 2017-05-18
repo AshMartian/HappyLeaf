@@ -115,7 +115,7 @@ var translationsEN = {
     },
     SOH_CHANGE: {
       TITLE: "State of Health Changed",
-      CONTENT: "<h1>State of Health Changed</h1><p>Previous State of Health {{lastSOH}}%<br/>Current State of Health {{SOH}}%<br/>Current odometer {{odometer}}.</p>"
+      CONTENT: "<h1>State of Health Changed</h1><p>Previous State of Health {{lastSOH}}%<br/>Current State of Health {{SOH}}%<br/>Odometer at change {{odometer}}.</p>"
     },
     TIRES: {
       R_FRONT: "Front Right",

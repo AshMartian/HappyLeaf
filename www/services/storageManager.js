@@ -36,7 +36,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.wifi.allow == null) $localStorage.settings.wifi.allow = true;
 
   $localStorage.settings.about = {
-    version: "0.1.9.7"
+    version: "0.2"
   };
 
   var lastHistoryItem = {lastUpdateTime: (new Date()).getTime()};
