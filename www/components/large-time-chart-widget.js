@@ -12,6 +12,7 @@ happyLeaf.component('largeTimeChart', {
     controller: function($scope, $rootScope, storageManager, $localStorage, dataManager){
       $scope.local = $localStorage;
       $scope.lastDataGraphed = null;
+      var chartObject = null;
       var self = this;
 
       $scope.showDarkTheme = self.showDarkTheme;
@@ -37,7 +38,7 @@ happyLeaf.component('largeTimeChart', {
       }
 
       $scope.labels = [];
-      //if(!$localStorage.settings.data.colors){
+      if(!$localStorage.settings.data.colors){
         $localStorage.settings.data.colors = [{ //What a pain in the A$$
             pointBorderColor: 'transparent',
             pointBackgroundColor: "#62c50f",
@@ -48,8 +49,8 @@ happyLeaf.component('largeTimeChart', {
             pointBorderColor: 'transparent',
             pointBackgroundColor: "#3785e8",
             borderColor: "#3785e8",
-            backgroundColor: "rgba(55, 133, 232, 0.3)",
-            fill: "#3785e8"
+            backgroundColor: "rgba(55, 133, 232, 0.06)",
+            fill: "rgba(55, 133, 232, 0.06)"
         },{
             pointBorderColor: 'transparent',
             pointBackgroundColor: "#d45e55",
@@ -69,14 +70,22 @@ happyLeaf.component('largeTimeChart', {
             backgroundColor: "rgba(55, 232, 210, 0.3)",
             fill: "#37e8d2"
         }];
-    //  }
+    }
+
+    $scope.$on('chart-create', function (evt, chart) {
+      chartObject = chart;
+      setTimeout(function(){
+        $scope.updateChart();
+      }, 250);
+    });
+
 
       $(window).resize(function(){
         $scope.needsResize = true;
         $scope.updateChart();
       });
 
-
+      var chargingOverride = false;
 
       $scope.toggleCharging = function(){
         if($scope.isCharging){
@@ -84,7 +93,7 @@ happyLeaf.component('largeTimeChart', {
         } else {
           $scope.isCharging = true;
         }
-
+        chargingOverride = true;
         console.log("Wow" + $scope.isCharging);
         $scope.updateChart(true);
       }
@@ -112,7 +121,9 @@ happyLeaf.component('largeTimeChart', {
       $scope.updateChart = function(force){
         if($scope.lastDataGraphed !== dataManager.startTime || !$scope.lastDataGraphed || force) {
           $scope.lastDataGraphed = dataManager.startTime;
-
+          if(!chargingOverride){
+            $scope.isCharging = dataManager.isCharging;
+          }
           if($scope.isCharging) {
             $scope.series =  $localStorage.settings.data.chargingDataAttributes;
             $scope.datasetOverride = [{ yAxisID: 'y-axis-2' }, { yAxisID: 'y-axis-1' }]; //try to do this automagically
@@ -142,7 +153,7 @@ happyLeaf.component('largeTimeChart', {
             newData.push([]);
           });
 
-          console.log("About to generate chart using " + Object.keys($localStorage.history).length + " enteries");
+          //console.log("About to generate chart using " + Object.keys($localStorage.history).length + " enteries");
 
 
           var dataPointsToShow = [];
@@ -159,13 +170,13 @@ happyLeaf.component('largeTimeChart', {
           });
           //console.log(dataPointsToShow);
           var timeOffset = 1;
-          var width = $("#time-chart").width() / 5;
+          var width = $("#time-chart").width() / 3.5; // 3.5 is arbritrary..
           if(dataPointsToShow.length > width) {
             timeOffset = 1 + (dataPointsToShow.length / width);
           }
           var timeDifference = timeOffset * 29999;
 
-          /* OVerly complex, doesn't seem to make good graphs
+          /* Overly complex, doesn't seem to make good graphs
           if($localStorage.historyCount > 100) {
             var relaventHistory = 0;
             var historyKeys = Object.keys($localStorage.history);
@@ -208,6 +219,10 @@ happyLeaf.component('largeTimeChart', {
           $scope.labels = newLabels;
           $scope.data = newData;
           //console.log($scope.data);
+          if(chartObject !== undefined) {
+            //chartObject.redraw();
+            chartObject.render();
+          }
         }
       }
 
@@ -233,11 +248,6 @@ happyLeaf.component('largeTimeChart', {
         $scope.updateChart();
       });
 
-      $scope.data = [
-        [65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40],
-        [28, 48, 40, 19, 86, 27, 90, 28, 48, 40, 19, 86, 27, 90],
-        [5, 6, 4, 5, 3, 2, 1, 5, 6, 4, 5, 3, 2, 1]
-      ];
       $scope.onClick = function (points, evt) {
         console.log(points, evt);
       };
@@ -269,7 +279,9 @@ happyLeaf.component('largeTimeChart', {
             xAxes: [
               {
                 ticks: {
-                  fontColor: self.showDarkTheme ? 'white' : 'black'
+                  fontColor: self.showDarkTheme ? 'white' : 'black',
+                  autoSkip: true,
+                  autoSkipPadding: 20,
                 }
               }
             ],
@@ -296,7 +308,7 @@ happyLeaf.component('largeTimeChart', {
             ]
           }
         }
-        calculateOptions();
+        //calculateOptions();
       };
     }
   });

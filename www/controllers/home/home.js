@@ -183,7 +183,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
       setInterval(function(){
         logManager.log("Setting history point");
         storageManager.createHistoryPoint();
-      }, 30000);
+      }, 15000);
 
       var onSuccess = function(state) {
         dataManager.lightSensor = state;
@@ -193,7 +193,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         } else if(!$scope.userOverrideTheme) {
           $scope.showDarkTheme = false;
         }
-        $scope.$digest();
+        //$scope.$digest();
       };
 
       var watchEnv = function(){
@@ -202,16 +202,17 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         }
         if($localStorage.settings.experiance.darkModeHeadlights && !$scope.userOverrideTheme) {
           $scope.showDarkTheme = dataManager.headLights;
-          $scope.$digest();
+          //$scope.$digest();
         }
         var now = (new Date()).getTime();
         if(now - connectionManager.lastMessageTime > 5000 && !connectionManager.sendingCommands) {
           $scope.requestSOC();
           //$rootScope.$broadcast('connected', false);
         }
+        //$scope.$digest();
       }
 
-      setInterval(watchEnv, 5000);
+      setInterval(watchEnv, 2000);
       watchEnv();
 
       $scope.bufferCount = 0;
@@ -226,6 +227,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
         //eventually try all modules
         connectionManager.failedMessages = false;
         $rootScope.$broadcast('failedMessage', false);
+        $scope.$digest();
       }, 30000);
     }
     connectionManager.failedMessages = false;
@@ -233,6 +235,7 @@ happyLeaf.controller('HomeController', function($scope, $rootScope, $location, $
     $scope.parseMessages = function(output){
       $scope.lastMessageTime = (new Date()).getTime();
       var lastCommand = connectionManager.lastCommand;
+      console.log("Parsing message: " + output);
       //if(output.indexOf("?") > -1){
       /*if(false){
         bluetoothSend.resendLast();

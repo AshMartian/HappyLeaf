@@ -153,6 +153,10 @@ md-dialog {
     width: 100% !important;
 }
 
+.md-dialog-container {
+  z-index: 2000;
+}
+
 .md-open-menu-container {
   z-index: 9999;
 }
@@ -223,9 +227,9 @@ md-menu-content.md-dark-grey-theme {
 }
 
 .fade-super-long {
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 

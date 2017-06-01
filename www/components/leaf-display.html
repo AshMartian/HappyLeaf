@@ -8,7 +8,7 @@
   <div ng-include="'img/HappyLeaf.svg'" id="LEAFOUTTER" class="{{leafClass}} fade-in"
     ng-class="{'headlights': data.headLights, 'foglights': data.fogLights, 'blinker-right': data.turnSignal == 'right', 'blinker-left': data.turnSignal == 'left',
     'charging': data.isCharging, 'fast': data.chargingVolts > 260, 'medium': data.chargingVolts > 140, 'slow': data.chargingVolts < 140,
-    'buckled': data.isBuckled, 'parked': data.parkingBrakeOn, 'climate-usage': data.climateConsumption > 0}" onload="updateDOM()">
+    'buckled': data.isBuckled, 'parked': data.parkingBrakeOn, 'climate-usage': data.climateConsumption > 0, 'acc-usage': data.accVolts > 13.9}" onload="updateDOM()">
   </div>
   <div ng-hide="SOCChart.width != 10" class="leaf-loading">
 
@@ -17,7 +17,7 @@
     <i class='preloader'></i>
   </div>
 
-  <div class="soc-container" ng-style="{'top': SOCChart.top, 'width': SOCChart.width, 'left': SOCChart.left, 'height': SOCChart.height}">
+  <div class="soc-container" ng-style="{'top': SOCChart.top, 'width': SOCChart.width, 'left': SOCChart.left, 'height': SOCChart.height, 'opacity': data.hasDataFor('actualSOC') ? 1 : 0.5}">
     <canvas id="SOC-circle" class="chart chart-doughnut"
       chart-data="SOCChart.data" chart-colors="SOCChart.colors" chart-options="SOCChart.options"
       ng-style="{'height': SOCChart.height, 'width': SOCChart.width}" height="0"  ng-style="{'width': SOCChart.width, 'height': SOCChart.height}">
@@ -25,8 +25,9 @@
   </div>
 
   <div class="LEAF-Text" class="LEAF-Text" ng-class="{'fade-in': SOCChart.width != 10}">
+
     <span class="Motor-Text" ng-style="{'width': AmpsChart.width, 'left': AmpsChart.left, 'top': AmpsChart.top + (AmpsChart.height / 5)}"><small translate>LEAF_DISPLAY.MOTOR</small><br/>{{data.motorWatts / 1000 | number:1}} KWh</span>
-    <div class="extras-container" ng-style="{'top': AmpsChart.top - (AmpsChart.height / 2.7), 'left': AmpsChart.left}">
+    <div class="extras-container" ng-style="{'top': AmpsChart.top - (AmpsChart.height / 2.7), 'left': AmpsChart.left, 'opacity': data.hasDataFor('motorWatts') ? 1 : 0.5}">
       <canvas id="Amps-Meter" class="chart chart-doughnut"
         chart-data="AmpsChart.data" chart-colors="AmpsChart.colors" chart-options="AmpsChart.options"
         ng-style="{'height': AmpsChart.height, 'width': AmpsChart.width}" height="0"  ng-style="{'width': AmpsChart.width, 'height': AmpsChart.height}">
@@ -34,7 +35,7 @@
     </div>
 
     <span class="Climate-Text" ng-style="{'width': ClimateChart.width, 'left': ClimateChart.left, 'top': ClimateChart.top + (ClimateChart.height / 5)}"><small translate>LEAF_DISPLAY.CLIMATE</small><br/>{{data.climateConsumption / 1000 | number:1}} KWh</span>
-    <div class="extras-container" ng-style="{'top': ClimateChart.top - (ClimateChart.height / 2.7), 'left': ClimateChart.left}">
+    <div class="extras-container" ng-style="{'top': ClimateChart.top - (ClimateChart.height / 2.7), 'left': ClimateChart.left, 'opacity': data.hasDataFor('climateConsumption') ? 1 : 0.5}">
       <canvas id="Climate-Meter" class="chart chart-doughnut"
         chart-data="ClimateChart.data" chart-colors="ClimateChart.colors" chart-options="ClimateChart.options"
         ng-style="{'height': ClimateChart.height, 'width': ClimateChart.width}" height="0"  ng-style="{'width': ClimateChart.width, 'height': ClimateChart.height}">

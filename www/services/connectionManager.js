@@ -3,17 +3,21 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
   var gotMessage = false;
   var forceSend = true;
   var platform = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+  var tempLast = null;
 
   var sendCode = function(code, next){
     shouldSend = false;
     if(!self.lastWifi){
       bluetoothSerial.write(code, function(output){
         logManager.log("sent: " + code + " got: " + output);
-        /*if(output.match(/OK/g) && (!code.match(/ATM/g) && !code == "X" && !code.match(/0/g))){
-          shouldSend = true;
-        }*/
-        self.lastCommand = code;
-        self.sentCommands.push(self.lastCommand);
+        if(code !== "\n") tempLast = code;
+        self.sentCommands.push(code);
+        if(output.match(/OK/g) && (!code.match(/ATM/g) && !code == "X" && !code.match(/0/g))){
+          setTimeout(function(){
+            shouldSend = true;
+          }, 15);
+        }
+
         next();
       }, function(err){
         logManager.log("ran into an error " + JSON.stringify(err));
@@ -31,7 +35,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
         }
         try {
           self.wifiSocket.write(data, function(data){
-            self.lastCommand = code;
+            if(code !== "\n") tempLast = code;
             self.sentCommands.push(self.lastCommand);
             next();
           }, function(error){
@@ -62,6 +66,7 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
     onMessage: null,
     failedMessages: false,
     forceSendTimeout: 100,
+    connectionAttempts: 0,
 
     wifiSocket: typeof Socket == 'undefined' ? null : new Socket(),
 
@@ -151,18 +156,25 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
       self.onMessage = subscriptionFunction;
       if(!self.lastWifi){
         bluetoothSerial.subscribe(string, function(data){
+          self.lastCommand = tempLast;
+          //shouldSend = true;
           subscriptionFunction(data);
 
           self.lastMessageTime = (new Date()).getTime();
         });
       } else {
         logManager.log("Subscribing to Wifi ELM");
+        var outputCache = "";
         self.wifiSocket.onData = function(data) {
+          self.lastCommand = tempLast;
+          //shouldSend = true;
           // invoked after new batch of data is received (typed array of bytes Uint8Array)
           var output = Utf8ArrayToStr(data).replace(/ /g, "");
           logManager.log("Received from wifi: " + output);
           self.lastMessageTime = (new Date()).getTime();
-          if(output.match(string)){
+
+          if(output.match(string)) {
+            outputCache = "";
             var stringArray = output.split(string);
             if(stringArray.length > 1) {
               var lastOutput = "";
@@ -172,10 +184,12 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
                   subscriptionFunction(outputSplit);
                 }
 
-              })
+              });
             } else {
               subscriptionFunction(output);
             }
+          } else {
+            outputCache = outputCache + output;
           }
         };
       }
@@ -207,12 +221,12 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
         var log = [];
         var index = 0;
         async.eachSeries(array, function(command, next) {
-          if(self.currentCommands[index] != command){
+          /*if(self.currentCommands[index] != command){
             logManager.log("Canceling current send request.")
             next(null, 'invalid');
-          } else {
+          } else {*/
             index ++;
-            var speed = 400;
+            var speed = 200;
             if(command == "ATMA"){
               speed = self.forceSendTimeout;
             }
@@ -233,18 +247,18 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
                 sendCode(commandstoSend, next);
               } else {
                 self.isWaiting = true;
-                setTimeout(wait, 8);
+                setTimeout(wait, 16);
               }
             }
 
             wait();
-          }
+          //}
         }, function(err){
           if(err) callback(err);
           var forceFinish = function(){
             shouldSend = true;
           };
-          setTimeout(forceFinish, 400); //Don't freeze...
+          setTimeout(forceFinish, 200); //Don't freeze...
           var finish = function(){
             if(shouldSend){
               clearTimeout(forceFinish);
@@ -273,6 +287,9 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
           self.connectWifiDevice($localStorage.settings.wifi.ipaddress, $localStorage.settings.wifi.port, success, failure);
         }
       }
+      if(self.connectionAttempts > 3){
+        self.shouldReconnect = false;
+      }
     },
 
     connectBluetoothDevice: function(deviceMac, success, failure) {
@@ -285,11 +302,11 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
         var connectionTimeout = setTimeout(function(){
           logManager.log("Connection Timeout..");
           self.isConnected = false;
-          failure($translate.instant("WELCOME.TIMEOUT"));
-        }, 20000);
+          if(failure) failure($translate.instant("WELCOME.TIMEOUT"));
+        }, 30000);
 
         bluetoothSerial.connect(deviceMac, function(result){
-          clearTimeout(connectionTimeout);
+          window.clearTimeout(connectionTimeout);
           connectionTimeout = null;
           logManager.log("I am now connected to Bluetooth");
           logManager.log(JSON.stringify(result));
@@ -304,16 +321,16 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
           success(result);
           //bluetoothSerial.subscribeRaw('\r', $scope.newMessage, $scope.substribeFailure);
         }, function(err){
-          if(connectionTimeout){
+          if(!self.shouldReconnect){
             logManager.log("Connection failed " + err)
             logManager.log(JSON.stringify(err));
-            clearTimeout(connectionTimeout);
+            window.clearTimeout(connectionTimeout);
             connectionTimeout = null;
             $rootScope.$broadcast('connected', false);
             failure(err);
           } else {
-            clearTimeout(connectionTimeout);
-            self.connectBluetoothDevice(deviceMac, success, failure);
+            window.clearTimeout(connectionTimeout);
+            self.reconnect(success, failure);
           }
         });
       });
@@ -343,7 +360,12 @@ happyLeaf.factory('connectionManager', ['logManager', "$localStorage", "$rootSco
             //self.lastWifi = false;
             logManager.log("Could not connect to wifi " + JSON.stringify(errorMessage));
             // invoked after unsuccessful opening of socket
-            error(errorMessage);
+            if(self.shouldReconnect) {
+              self.reconnect(next, error);
+            } else {
+              error(errorMessage);
+            }
+
         });
       } else {
         logManager.log("Wifi Socket null :(");

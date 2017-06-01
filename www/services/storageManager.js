@@ -29,14 +29,14 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
   if($localStorage.settings.experimental.logHistoryFile == null) $localStorage.settings.experimental.logHistoryFile = false;
 
   if($localStorage.settings.data.drivingDataAttributes == null) $localStorage.settings.data.drivingDataAttributes = [];
-
+  
   if($localStorage.settings.wifi == null) $localStorage.settings.wifi = {};
   if($localStorage.settings.wifi.ipaddress == null) $localStorage.settings.wifi.ipaddress = "192.168.0.10";
   if($localStorage.settings.wifi.port == null) $localStorage.settings.wifi.port = 35000;
   if($localStorage.settings.wifi.allow == null) $localStorage.settings.wifi.allow = true;
 
   $localStorage.settings.about = {
-    version: "0.2"
+    version: "0.2.1"
   };
 
   var lastHistoryItem = {lastUpdateTime: (new Date()).getTime()};
@@ -110,7 +110,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
         if(lastDrivenToday == 0) {
           //$localStorage.milesDrivenToday += 1;
         } else if(historyDataPoint.odometer < lastDrivenToday ) {
-          $localStorage.milesDrivenToday += historyDataPoint.odometer - lastDrivenToday;
+          $localStorage.milesDrivenToday += lastDrivenToday - historyDataPoint.odometer;
         } else if(historyDataPoint.odometer > lastDrivenToday + 100) {
           historyDataPoint.odometer = lastDrivenToday;
         } else {
@@ -121,7 +121,7 @@ happyLeaf.factory('storageManager', ['$rootScope', 'dataManager', 'connectionMan
 
       //Goodbye
       //if(parseInt(now) - ONE_DAY > parseInt(key)) { //Used to delete based on time
-      if(index > 2000) { //Now delete if this is too much to store
+      if(index > 1500 && !moment().isSame(moment(historyDataPoint.startTime), 'day')) { //Now delete if this is too much to store
         delete $localStorage.history[key];
       } else {
         $localStorage.history[key] = historyDataPoint; //Place history back with corrections.

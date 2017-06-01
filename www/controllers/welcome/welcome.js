@@ -1,4 +1,4 @@
-happyLeaf.controller('WelcomeController', function($scope, $location, $translate, $rootScope, $localStorage, $mdDialog, deviceReady, connectionManager, storageManager, logManager, flowManager) {
+happyLeaf.controller('WelcomeController', function($scope, $location, $translate, $rootScope, $localStorage, $mdDialog, deviceReady, connectionManager, storageManager, logManager, flowManager, $thread) {
   $scope.ready = false;
   $scope.local = $localStorage;
   $scope.connection = connectionManager;
@@ -147,7 +147,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
 
       $scope.status = $translate.instant("WELCOME.FOUND", {length: connectionManager.availableDevices.length});
 
-      if((lastConnected.address || lastConnected.uuid) && $scope.shouldReconnect && $scope.retryCount < 3){
+      if((lastConnected.address || lastConnected.uuid) && connectionManager.shouldReconnect && $scope.retryCount < 3){
         $scope.status += " remembering " + lastConnected.name;
         async.forEach(connectionManager.availableDevices, function(scannedDevice){
           if(scannedDevice.address){
@@ -194,6 +194,8 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     $localStorage.lastConnected = device;
     $scope.canContinue = false;
     $scope.retryCount = 0;
+    connectionManager.shouldReconnect = true;
+    connectionManager.connectionAttempts = 0;
     if(($localStorage.lastConnected.address && ($localStorage.lastConnected.address.match(":")) || ($localStorage.lastConnected.uuid && $localStorage.lastConnected.uuid.match("-")))) {
       $scope.connectBluetoothDevice($localStorage.lastConnected.address || $localStorage.lastConnected.uuid);
     } else if($localStorage.lastConnected.address.match(".")) {
@@ -201,7 +203,7 @@ happyLeaf.controller('WelcomeController', function($scope, $location, $translate
     }
   }
 
-  $scope.shouldReconnect = true;
+  connectionManager.shouldReconnect = true;
   $scope.retryCount = 0;
   $scope.connectBluetoothDevice = function(deviceAddress){
   	logManager.log("Connecting to: " + deviceAddress);

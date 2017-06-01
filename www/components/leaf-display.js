@@ -37,7 +37,7 @@ happyLeaf.component('leafDisplay', {
         $scope.ClimateChart = {
           data: [],
           colors: ["#ff993e", "#9B9B9B"],
-          options: {cutoutPercentage: 60, scaleOverride: false, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
+          options: {cutoutPercentage: 60, animation: false, scaleOverride: false, tooltips: { enabled: false }, rotation: 1 * Math.PI, circumference: 1 * Math.PI},
           width: 10,
           height: 10,
           left: 0,
@@ -62,6 +62,11 @@ happyLeaf.component('leafDisplay', {
         $scope.$on('chart-create', function (evt, chart) {
           console.log("Chart created");
           //console.log(chart);
+          $scope.needsRefresh = true;
+          setTimeout(function(){
+            $scope.updateDOM();
+            if(chart) chart.render();
+          }, 250);
         });
 
         $(window).resize(function(){
@@ -114,7 +119,7 @@ happyLeaf.component('leafDisplay', {
           }
 
           $("#Trans").text(dataManager.transmission);
-          $("#ACCV").text((Math.round(dataManager.accVolts * 10) / 10) + "v");
+          $("#ACCV").text((Math.round(dataManager.accVolts * 100) / 100));
           $("#SOC_x5F_Text").text($translate.instant("LEAF_DISPLAY.SOC"));
 
           if(dataManager.tire1){
@@ -128,6 +133,24 @@ happyLeaf.component('leafDisplay', {
           }
           if(dataManager.tire4){
             $("#Tire_x5F_4").text(dataManager.tire4);
+          }
+
+          if(dataManager.hasDataFor('tires')) {
+            $('#Tires').attr('fill-opacity', 1);
+          } else {
+            $('#Tires').attr('fill-opacity', 0.5);
+          }
+
+          if(dataManager.hasDataFor('transmission')) {
+            $('#Trans').attr('fill-opacity', 1);
+          } else {
+            $('#Trans').attr('fill-opacity', 0.5);
+          }
+
+          if(dataManager.hasDataFor('accVolts')) {
+            $('#_x31_2v').attr('fill-opacity', 1);
+          } else {
+            $('#_x31_2v').attr('fill-opacity', 0.6);
           }
 
           var ACCCont = document.getElementById("ACC_x5F_Cont");
@@ -144,6 +167,11 @@ happyLeaf.component('leafDisplay', {
             graphedSOC = dataManager.actualSOC;
             //$("#SOC").text($filter('number')(dataManager.actualSOC, 1) + "%");
             var batteryCircle = document.getElementById("Battery_x5F_Outline");
+            if(dataManager.hasDataFor('actualSOC')) {
+              $('.soc-container').fadeTo(1);
+            } else {
+              $('.soc-container').fadeTo(0.7);
+            }
 
             var circleWidth = (batteryCircle.getBoundingClientRect().width);
             var offset = circleWidth / 30;

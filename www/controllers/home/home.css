@@ -64,12 +64,24 @@ md-menu {
 }
 .more-button {
   position: absolute;
+  z-index: 5;
+  padding: 30px !important;
+}
+
+.more-button.right {
   right: 2vw;
 }
 
 .left-button {
   position: absolute;
-  z-index: 2;
+  z-index: 200;
+  left: 28px;
+  padding: 10px !important;
+}
+
+.left-button .more-button {
+  position: absolute;
+  z-index: 1000;
 }
 
 .more-button.up {
@@ -79,6 +91,16 @@ md-menu {
 .more-icon {
   margin-top: -40%;
   margin-left: -40%;
+}
+
+.cell-info {
+  margin-top: -12px;
+  float: left;
+}
+.temp-info {
+  margin-top: -12px;
+  padding-right: 20px;
+  float: right;
 }
 
 small.tiny {
@@ -382,7 +404,7 @@ main.dark #LEAF text {
   -webkit-animation-iteration-count: infinite;
 }
 
-#ACC_x5F_Flow {
+#ACC_x5F_Flow > path {
   opacity: 0.4;
   stroke-dasharray: 4;
   stroke-dashoffset: 200;
@@ -391,7 +413,7 @@ main.dark #LEAF text {
   -webkit-animation-iteration-count: infinite;
 }
 
-#LEAFOUTTER.climate-usage #M_x5F_Flow_2_ lineargradient stop, #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path {
+#LEAFOUTTER.climate-usage #M_x5F_Flow_2_ lineargradient stop, #LEAFOUTTER.climate-usage #M_x5F_Flow_2_ > path, #LEAFOUTTER.acc-usage #ACC_x5F_Flow > path {
   stop-color: #ff993e !important;
   stroke: #ff993e;
 }
@@ -409,7 +431,27 @@ main.dark #LEAF text {
   -webkit-animation: dash 10s 0s linear reverse infinite;
 }
 
-#LEAFOUTTER.climate-usage:not(.regening) #Battery_x5F_Outline {
+#LEAFOUTTER.acc-usage #ACC_x5F_Flow > path {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 30s 0s linear reverse infinite;
+  -webkit-animation: dash 30s 0s linear reverse infinite;
+}
+
+#LEAFOUTTER.acc-usage:not(.regening):not(.motor-usage) #Battery_x5F_Outline {
+  stroke: #ff993e;
+  opacity: 1;
+  animation-fill-mode: reverse;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation: dash 30s 0s linear infinite;
+  -webkit-animation: dash 30s 0s linear infinite;
+  -webkit-animation-direction: forwards; /* Safari 4.0 - 8.0 */
+  animation-direction: forwards;
+}
+
+#LEAFOUTTER.climate-usage:not(.regening):not(.motor-usage) #Battery_x5F_Outline {
   stroke: #ff993e;
   opacity: 1;
   animation-fill-mode: reverse;
@@ -420,6 +462,8 @@ main.dark #LEAF text {
   -webkit-animation-direction: forwards; /* Safari 4.0 - 8.0 */
   animation-direction: forwards;
 }
+
+
 
 #LEAFOUTTER.motor-usage #M_x5F_Flow > path, #LEAFOUTTER.motor-usage #R_x5F_Flow > path, #LEAFOUTTER.motor-usage #L_x5F_Flow > path, #LEAFOUTTER.motor-usage #M_x5F_Flow_1_ > path {
   opacity: 1;
@@ -563,6 +607,16 @@ main.dark #LEAF text {
 
 #time-chart {
   padding-top: 15px;
+  margin-right: 3px;
+}
+
+.array-chart {
+  height: 100%;
+  margin-right: 3px;
+}
+
+.main-top-row {
+  padding-top: 1vh;
 }
 
 @keyframes dash {

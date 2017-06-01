@@ -83,8 +83,8 @@ happyLeaf.factory('logManager', ['$rootScope', '$localStorage', function($rootSc
     },
 
     log: function(log) {
+      var now = "[ " + moment().format("MM-DD-YYYY hh:mm:ss a") + " ]  ";
       if($localStorage.settings.experimental.logOBDFile){
-        var now = "[ " + moment().format("MM-DD-YYYY hh:mm:ss a") + " ]  ";
         if(typeof arguments == "array"){
           //console.log(arguments.join());
           async.eachSeries(arguments, function(logToAdd){

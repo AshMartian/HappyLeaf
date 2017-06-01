@@ -35,15 +35,15 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
 
     requestDriving: function(finished){
       self.currentRequest = "driving";
-      self.commands.getSpeed.priority = 2;
+      self.commands.getSpeed.priority = 3;
       self.commands.getTires.priority = 7;
       self.commands.getMotorWatts.priority = 2;
       self.commands.getSOH.priority = 4;
-      self.commands.getOdometer.priority = 3;
+      self.commands.getOdometer.priority = 5;
       self.commands.getHeadlights.priority = 15;
-      self.commands.getAll.priority = 1;
+      self.commands.getAll.priority = 0;
       self.commands.getBatteryCharge.priority = 1;
-      self.commands.getBatteryVolts.priority = 15;
+      self.commands.getBatteryVolts.priority = 10;
       self.commands.getESVE.priority = 30;
       self.commands.getOutsideTemp.priority = 15;
       self.commands.getUnknown.priority = 10;
@@ -71,7 +71,7 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
       //}
       self.commands.getOdometer.priority = 45;
       self.commands.getBatteryCharge.priority = 1;
-      self.commands.getBatteryVolts.priority = 10;
+      self.commands.getBatteryVolts.priority = 2;
       self.commands.getESVE.priority = 2;
       self.commands.getOutsideTemp.priority = 5;
       self.commands.getUnknown.priority = 15;
@@ -100,14 +100,17 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
     },
 
     requestMessages: function(desiredRequest, finished){
-      var atmaCommands = [self.commands.getSpeed, self.commands.getOdometer, self.commands.getTransmission, self.commands.getSOH, self.commands.getAll, self.commands.getHeadlights, self.commands.getTires];
-      var atcfCommands = [self.commands.getBatteryCharge, self.commands.getBatteryVolts, self.commands.getESVE, self.commands.getOutsideTemp, self.commands.getUnknown];
+      var atmaCommands = [self.commands.getSpeed, self.commands.getOdometer, self.commands.getTransmission, self.commands.getSOH, self.commands.getAll, self.commands.getHeadlights, self.commands.getTires, self.commands.getOutsideTemp];
+      var atcfCommands = [self.commands.getBatteryCharge, self.commands.getBatteryVolts, self.commands.getESVE, self.commands.getUnknown];
       atcfCommands = _.sortBy(atcfCommands, 'priority').reverse();
       atmaCommands = _.sortBy(atmaCommands, 'priority').reverse();
       console.log("About to request messages", atmaCommands, " and ATCF", atcfCommands);
 
       async.waterfall([function(callback){
-        if(self.currentRequest !== desiredRequest) callback('request', null);
+        if(self.currentRequest !== desiredRequest){
+          console.log("Not sending ATCF because not equaled desired request");
+          callback('request', null);
+        }
         var commandsToSend = ["ATBD", "ATAR", "ATE0", "ATH1", "ATL0", "ATCAF0", "ATFCSM1"];
 
         self.lastRequestTime = (new Date()).getTime();
@@ -119,13 +122,17 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
           callback(null, log);
         });
       }, function(previous, callback) {
-        if(self.currentRequest !== desiredRequest) callback('request', null);
-        console.log('about to loop atcf commands');
+        if(self.currentRequest !== desiredRequest){
+          console.log("Not sending ATCF because not equaled desired request");
+          callback('request', null);
+        }
+        //console.log('about to loop atcf commands');
         async.eachSeries(atcfCommands, function(command, next){
           if(typeof command !== 'object') next();
           var now = (new Date()).getTime();
+          self.lastRequestTime = now;
           var timeDifference = (now - command.lastSent) / 1000;
-          console.log("Running command " + command.requestName + " time ago " + timeDifference);
+          //console.log("Running command " + command.requestName + " time ago " + timeDifference);
           if(timeDifference > command.priority || !command.lastSent){
             self.commands[command.requestName].lastSent = now;
             connectionManager.forceSendTimeout = command.speed;
@@ -143,7 +150,7 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
           callback(err, log);
         });
       }, function(previous, callback){
-        console.log("About to request ATMA commands");
+        //console.log("About to request ATMA commands");
         if(self.currentRequest !== desiredRequest || !self.shouldSendATMA) callback('request', null);
 
         var commandsToSend = ["ATAR", "ATAR", "ATOF0"];
@@ -157,12 +164,14 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
         });
       }, function(previous, callback){
         if(self.currentRequest !== desiredRequest || !self.shouldSendATMA) callback('request', null);
+
         async.eachSeries(atmaCommands, function(command, next){
           if(typeof command !== 'object') next();
           var now = (new Date()).getTime();
+          self.lastRequestTime = now;
           var timeDifference = (now - command.lastSent) / 1000;
-          console.log("Running command " + command.requestName + " time ago " + timeDifference);
-          if(timeDifference > command.priority){
+          //console.log("Running command " + command.requestName + " time ago " + timeDifference);
+          if(timeDifference > command.priority || !command.lastSent){
             self.commands[command.requestName].lastSent = now;
             connectionManager.forceSendTimeout = command.speed;
             connectionManager.send(command.codes, function(log){
@@ -262,6 +271,13 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
         lastSent: null,
         requestName: 'getHeadlights'
       },
+      getOutsideTemp: {
+        codes: ["ATCF510", "ATCRA510", "ATMA", "X"],
+        priority: 25,
+        speed: 100,
+        lastSent: null,
+        requestName: 'getOutsideTemp'
+      },
       getAll: {
         codes: ["ATAR", "ATCM", "ATCM", "ATCRA", "ATMA", "ATBD"],
         priority: 10,
@@ -269,6 +285,7 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
         lastSent: null,
         requestName: 'getAll'
       },
+
 
       //atma commands
 
@@ -296,12 +313,20 @@ happyLeaf.factory('flowManager', ['$rootScope', '$localStorage', 'logManager', '
         requestName: 'getESVE'
       },
 
-      getOutsideTemp: {
-        codes: ["ATSH797", "ATFCSH797", "0210C0", "03221304", "03221156"],
-        priority: 25,
+      getChargeCount: {
+        codes: ["ATSH797", "ATFCSH797", "03221203", "03221205"],
+        priority: 10,
         speed: 100,
         lastSent: null,
-        requestName: 'getOutsideTemp'
+        requestName: 'getChargeCount'
+      },
+
+      getAlternateTires: {
+        codes: ["ATSH745", "ATFCSH745", "022110", "030018"],
+        priority: 8,
+        speed: 10,
+        lastSent: null,
+        requestName: 'getAlternateTires'
       },
 
       getUnknown: {

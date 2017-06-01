@@ -6,7 +6,7 @@
         <span flex></span>
       </div>
     </md-toolbar>
-    <md-dialog-content style="max-width:97%;max-height:90%; ">
+    <md-dialog-content style="max-width:97%;max-height:90%; " ng-if="dialogOpen">
       <md-tabs md-dynamic-height md-border-bottom>
         <md-tab label="{{'SETTINGS.TABS.SETTINGS' | translate}}">
           <md-content class="md-padding">
@@ -85,8 +85,8 @@
               </md-menu>
             </md-list-item>
 
+            <md-subheader class="md-no-sticky" translate>{{'SETTINGS.DARK_MODE.TITLE' | translate}}</md-subheader>
             <div ng-if="platform == 'Android'">
-              <md-subheader class="md-no-sticky" translate>{{'SETTINGS.DARK_MODE.TITLE' | translate}}</md-subheader>
               <md-list-item >
                 <p translate>SETTINGS.DARK_MODE.AMBIENT</p>
                 <md-switch ng-model="local.settings.experiance.darkModeAmbient" ng-disabled="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
@@ -97,11 +97,13 @@
                 <md-slider flex min="0" max="10" md-discrete ng-disabled="!local.settings.experiance.darkModeAmbient || local.settings.experiance.darkModeHeadlights" ng-model="local.settings.experiance.lightSensitivity"></md-slider>
               </md-list-item>
 
+            </div>
+
               <md-list-item>
                 <p translate>SETTINGS.DARK_MODE.DARK_HEADLIGHTS</p>
                 <md-switch ng-model="local.settings.experiance.darkModeHeadlights" aria-label="Dark Mode Ambient Light"></md-switch>
               </md-list-item>
-            </div>
+
               <md-subheader class="md-no-sticky">{{'SETTINGS.NOTIFICATIONS.TITLE' | translate}}</md-subheader>
 
               <md-list-item>
