@@ -1,0 +1,41 @@
+{{yield}}
+
+{{#paper-toolbar}}
+  {{#paper-toolbar-tools}}
+    {{#paper-button iconButton=true}}
+      {{paper-icon "menu"}}
+    {{/paper-button}}
+
+    <h2>
+      {{t 'WELCOME.TITLE'}}
+    </h2>
+
+    <span class="flex"></span>
+
+    {{connection-icon}}
+
+    {{#paper-button iconButton=true}}
+      {{paper-icon scanIcon}}
+    {{/paper-button}}
+
+    {{settings-icon}}
+  {{/paper-toolbar-tools}}
+{{/paper-toolbar}}
+
+{{#paper-content class="device-list"}}
+  {{ui/welcome-devices connectDevice="connectDevice" devices=discoveredDevices connectWifi="connectWifi" wifi=wifiNetworks}}
+{{/paper-content}}
+
+<footer>
+  {{#paper-toolbar}}
+    {{#paper-toolbar-tools}}
+      <h3> {{status}} </h3>
+
+      <span class="flex"></span>
+
+      {{#paper-button iconButton=true}}
+        {{paper-icon continueIcon}}
+      {{/paper-button}}
+    {{/paper-toolbar-tools}}
+  {{/paper-toolbar}}
+</footer>

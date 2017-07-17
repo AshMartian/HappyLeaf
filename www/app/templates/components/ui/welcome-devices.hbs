@@ -1,0 +1,20 @@
+{{yield}}
+
+{{#paper-subheader}}{{t 'WELCOME.DEVICES'}}{{/paper-subheader}}
+
+{{#paper-radio-group groupValue=(readonly selectedDevice) onChange=(action 'connectDevice') as |group|}}
+  {{#each devices as |device|}}
+    {{#group.radio value=device primary=true}} {{device.name}} {{/group.radio}}
+    {{paper-divider}}
+  {{/each}}
+{{/paper-radio-group}}
+
+{{#if wifi}}
+  {{#paper-subheader}}{{t 'SETTINGS.WIFI.TITLE'}}{{/paper-subheader}}
+  {{#paper-radio-group groupValue=(readonly selectedNetwork) onChange=(action 'connectWifi') as |group|}}
+    {{#each wifi as |network|}}
+      {{#group.radio value=network primary=true}} {{network}} {{/group.radio}}
+      {{paper-divider}}
+    {{/each}}
+  {{/paper-radio-group}}
+{{/if}}
