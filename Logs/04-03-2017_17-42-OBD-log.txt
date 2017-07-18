@@ -1,1793 +1,0 @@
-[ 04-03-2017 05:44:06 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:06 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-03-2017 05:44:05 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:05 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:05 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:05 pm ]  Received from wifi: >
-[ 04-03-2017 05:44:05 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:44:05 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:05 pm ]  Sent 022104
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  211E110226100229
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022104
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  10106104021A1102
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022104
-[ 04-03-2017 05:44:04 pm ]  Received from wifi: 7BB10106104021A11027BB211E1102261002297BB22101000FFFFFFFF
-[ 04-03-2017 05:44:04 pm ]  Received from wifi: >
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  2500089FD9016705
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  245C1C650007B4E0
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Got battery volts: 379.2
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  23942032F3038900
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  21028700002397FF
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Got 7BB cell voltage  1029610100002D05
-[ 04-03-2017 05:44:04 pm ]  Parsing 7BB
-[ 04-03-2017 05:44:04 pm ]  Sent 022101
-[ 04-03-2017 05:44:04 pm ]  Received from wifi: 7BB1029610100002D057BB21028700002397FF7BB22FFFFFFFFFF2AF87BB23942032F30389007BB245C1C650007B4E07BB2500089FD9016705
-[ 04-03-2017 05:44:04 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:03 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:03 pm ]  Received from wifi: >
-[ 04-03-2017 05:44:03 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:44:03 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:44:03 pm ]  Parsing 79A
-[ 04-03-2017 05:44:03 pm ]  Sent 0210C0
-[ 04-03-2017 05:44:03 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:44:03 pm ]  Setting history point
-[ 04-03-2017 05:44:03 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:02 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:02 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:02 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:01 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:01 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:01 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:44:00 pm ]  Connected to 
-[ 04-03-2017 05:44:00 pm ]  Sending 28 commands
-[ 04-03-2017 05:44:00 pm ]  Completed command sequence, took 5754ms, received 204 messages, 14 force send requests 0 messages without data
-[ 04-03-2017 05:43:59 pm ]  Parsing 0B0
-[ 04-03-2017 05:43:59 pm ]  Sent ATBD
-[ 04-03-2017 05:43:59 pm ]  Received from wifi: 0B000001CBFFD000006001031C>
-[ 04-03-2017 05:43:59 pm ]  Parsing BUF
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got target braking FFD0000060
-[ 04-03-2017 05:43:59 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 130
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 354
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 285
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got distance traveled 0000000000001399
-[ 04-03-2017 05:43:59 pm ]  Parsing 284
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:59 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:43:59 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got turning angle! E8FF0007BA
-[ 04-03-2017 05:43:59 pm ]  Parsing 002
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got motor Amps 0000000000002900
-[ 04-03-2017 05:43:59 pm ]  Parsing 180
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got motor Volts 00000000000009
-[ 04-03-2017 05:43:59 pm ]  Parsing 176
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 174
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:43:59 pm ]  Parsing 355
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:59 pm ]  Parsing 280
-[ 04-03-2017 05:43:59 pm ]  Sent ATMA
-[ 04-03-2017 05:43:59 pm ]  Received from wifi: 28003FFC0000000FFC02DE000000000000021C35500000000200060174000000AA09000000176000000000000091800000000000002900002E8FF0007BA1CA00000000050054C81CBFFD000006000861D500000001D71F900000000000000002840000000000001399285000000000000139A35400000000A01000181300112442DE000000000000021C1CBFFD0000060BUFFERFULL>
-[ 04-03-2017 05:43:59 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:58 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:58 pm ]  Parsing BUF
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got Seat Belts 03FFC0000000FF
-[ 04-03-2017 05:43:58 pm ]  Parsing 280
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got ODO! 4C00AA4C000C0000
-[ 04-03-2017 05:43:58 pm ]  Parsing 5C5
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 130
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 6F6
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 50A
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 300
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got 12v Battery voltage 7D87F68000000000
-[ 04-03-2017 05:43:58 pm ]  Parsing 292
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 216
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:58 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got motor Amps 0000000000002500
-[ 04-03-2017 05:43:58 pm ]  Parsing 180
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got motor Volts 00000000000005
-[ 04-03-2017 05:43:58 pm ]  Parsing 176
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 174
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 245
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 215
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got turning angle! E8FF000723
-[ 04-03-2017 05:43:58 pm ]  Parsing 002
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Got target braking FFD00000600103
-[ 04-03-2017 05:43:58 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:58 pm ]  Sent ATMA
-[ 04-03-2017 05:43:58 pm ]  Received from wifi: 1CBFFD000006001031CA0000000005005451002E8FF000723215FFF0FF00FFFF2457FF8011AD8007FF0174000000AA050000001760000000000000518000000000000025001D500000001D71F9000000000000000021642642927D87F680000000003000350A0453001500A06F68251551300113455C54C00AA4C000C000028003FFC0000000FFBUFFERFULL>
-[ 04-03-2017 05:43:58 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:57 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:57 pm ]  Parsing BUF
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got regen braking 00000000D6
-[ 04-03-2017 05:43:57 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got motor Amps 0000000000002000
-[ 04-03-2017 05:43:57 pm ]  Parsing 180
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got motor Volts 00000000000000
-[ 04-03-2017 05:43:57 pm ]  Parsing 176
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 174
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 6F6
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 130
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 300
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 5FB
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got 12v Battery voltage 7D87F68000000000
-[ 04-03-2017 05:43:57 pm ]  Parsing 292
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 245
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 5FC
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 216
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 5FA
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 215
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got turning angle! E8FF0007AB
-[ 04-03-2017 05:43:57 pm ]  Parsing 002
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Got target braking FFD00000600103
-[ 04-03-2017 05:43:57 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:57 pm ]  Sent ATMA
-[ 04-03-2017 05:43:57 pm ]  Received from wifi: 1CBFFD00000600103002E8FF0007AB1CA00000000050054D9215FFF0FF00FFFF5FAAC8A1800494A6021642645FC8ADAB168FFF0FF2457FF8011A9C007FF02927D87F680000000005FBFF1FE00000001500300031300113456F6825155174000000AA000000001760000000000000018000000000000020001D500000000D61F9BUFFERFULL>
-[ 04-03-2017 05:43:56 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:56 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:56 pm ]  Parsing BUF
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Got regen braking 00000002D8
-[ 04-03-2017 05:43:56 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Got motor Amps 0000000000002200
-[ 04-03-2017 05:43:56 pm ]  Parsing 180
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Got motor Volts 00000000000002
-[ 04-03-2017 05:43:56 pm ]  Parsing 176
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Parsing 174
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Parsing 130
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Parsing 354
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Parsing 285
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:56 pm ]  Got distance traveled 0000000000005BE1
-[ 04-03-2017 05:43:56 pm ]  Parsing 284
-[ 04-03-2017 05:43:56 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:43:55 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Got turning angle! E8FF0007BA
-[ 04-03-2017 05:43:55 pm ]  Parsing 002
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Parsing 5E3
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:43:55 pm ]  Parsing 355
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:55 pm ]  Parsing 280
-[ 04-03-2017 05:43:55 pm ]  Sent ATMA
-[ 04-03-2017 05:43:55 pm ]  Received from wifi: 28003FFC0000000FFC02DE000000000000021C355000000002000605E3830E0330002E8FF0007BA1CA00000000050054C81CBFFD000006000862840000000000005BE12850000000000005BE235400000000A0100018130011244174000000AA020000001760000000000000218000000000000022001D500000002D81F90000000000000BUFFERFULL>
-[ 04-03-2017 05:43:55 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:55 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:54 pm ]  Parsing BUF
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 5F9
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 50A
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:54 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got motor Amps 0000000000002D00
-[ 04-03-2017 05:43:54 pm ]  Parsing 180
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got motor Volts 0000000000000D
-[ 04-03-2017 05:43:54 pm ]  Parsing 176
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 174
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 130
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 354
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 285
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got distance traveled 0000000000001FA5
-[ 04-03-2017 05:43:54 pm ]  Parsing 284
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:43:54 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got turning angle! E8FF000732
-[ 04-03-2017 05:43:54 pm ]  Parsing 002
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:43:54 pm ]  Parsing 355
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:54 pm ]  Sent ATMA
-[ 04-03-2017 05:43:54 pm ]  Received from wifi: 2DE000000000000021C35500000000200060002E8FF0007321CBFFD000006000861CA00000000050054402840000000000001FA52850000000000001FA635400000000A0000018130011244174000000AA0D0000001760000000000000D1800000000000002D001D500000001D71F9000000000000000050A0453001500A05F9FFBFE00000FF00DBUFFERFULL>
-[ 04-03-2017 05:43:54 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:54 pm ]  Sent ATBD
-[ 04-03-2017 05:43:54 pm ]  Received from wifi: 0C00000793056212307C410000>
-[ 04-03-2017 05:43:54 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:54 pm ]  Watching CAN for known messages
-[ 04-03-2017 05:43:54 pm ]  Completed command sequence, took 9781ms
-[ 04-03-2017 05:43:54 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:54 pm ]  Got 793 056212307C410000
-[ 04-03-2017 05:43:54 pm ]  Parsing 793
-[ 04-03-2017 05:43:54 pm ]  Sent 03221230
-[ 04-03-2017 05:43:54 pm ]  Received from wifi: 793056212307C410000
-[ 04-03-2017 05:43:53 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:53 pm ]  Got 793 05621210010C0000
-[ 04-03-2017 05:43:53 pm ]  Parsing 793
-[ 04-03-2017 05:43:53 pm ]  Sent 03221210
-[ 04-03-2017 05:43:53 pm ]  Received from wifi: 79305621210010C0000
-[ 04-03-2017 05:43:52 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:52 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:52 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:52 pm ]  Got 765 210000F00000FFFF
-[ 04-03-2017 05:43:52 pm ]  Parsing 765
-[ 04-03-2017 05:43:52 pm ]  Sent 022110
-[ 04-03-2017 05:43:52 pm ]  Got 765 100B611000000000
-[ 04-03-2017 05:43:52 pm ]  Parsing 765
-[ 04-03-2017 05:43:52 pm ]  Sent 022110
-[ 04-03-2017 05:43:52 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 04-03-2017 05:43:51 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:51 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:51 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:51 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:51 pm ]  Got 763 2100000001120F00
-[ 04-03-2017 05:43:51 pm ]  Parsing 763
-[ 04-03-2017 05:43:51 pm ]  Sent 022101
-[ 04-03-2017 05:43:51 pm ]  Got 763 1082610100000000
-[ 04-03-2017 05:43:51 pm ]  Parsing 763
-[ 04-03-2017 05:43:51 pm ]  Sent 022101
-[ 04-03-2017 05:43:51 pm ]  Received from wifi: 76310826101000000007632100000001120F00
-[ 04-03-2017 05:43:50 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:50 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:49 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:49 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:49 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022104
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  211F110227100229
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022104
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  10106104021A1102
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022104
-[ 04-03-2017 05:43:49 pm ]  Received from wifi: 7BB10106104021A11027BB211F1102271002297BB22101000FFFFFFFF
-[ 04-03-2017 05:43:49 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  2500089FD9016901
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022101
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  245C1C650007B210
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022101
-[ 04-03-2017 05:43:49 pm ]  Got battery volts: 379.19
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  23941F32FA038900
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:49 pm ]  Sent 022101
-[ 04-03-2017 05:43:49 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:43:49 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:48 pm ]  Sent 022101
-[ 04-03-2017 05:43:48 pm ]  Got 7BB cell voltage  21028700002637FF
-[ 04-03-2017 05:43:48 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:48 pm ]  Sent 022101
-[ 04-03-2017 05:43:48 pm ]  Got 7BB cell voltage  10296101000035F8
-[ 04-03-2017 05:43:48 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:48 pm ]  Sent 022101
-[ 04-03-2017 05:43:48 pm ]  Received from wifi: 7BB10296101000035F87BB21028700002637FF7BB22FFFFFFFFFF2AF87BB23941F32FA0389007BB245C1C650007B2107BB2500089FD9016901
-[ 04-03-2017 05:43:48 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:48 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:48 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:47 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:47 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:47 pm ]  Parsing 79A
-[ 04-03-2017 05:43:47 pm ]  Sent 0210C0
-[ 04-03-2017 05:43:47 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:43:47 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:47 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:46 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:46 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:46 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:45 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:45 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:45 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:44 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:44 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:44 pm ]  Connected to 
-[ 04-03-2017 05:43:44 pm ]  Sending 28 commands
-[ 04-03-2017 05:43:44 pm ]  Completed command sequence, took 6315ms, received 189 messages, 15 force send requests 0 messages without data
-[ 04-03-2017 05:43:44 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:44 pm ]  Sent ATBD
-[ 04-03-2017 05:43:44 pm ]  Received from wifi: 0C0000028003FFC0000000FFC0>
-[ 04-03-2017 05:43:43 pm ]  Got climate power usage 7B02200008000068
-[ 04-03-2017 05:43:43 pm ]  Parsing 510
-[ 04-03-2017 05:43:43 pm ]  Sent ATMA
-[ 04-03-2017 05:43:43 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:43 pm ]  Sent ATMA
-[ 04-03-2017 05:43:43 pm ]  Received from wifi: 2DE000000000000021C5107B02200008000068002E8FF0007891CBFFD0000060038C1CA00000000050054BF2457FF8011A03007FF32927D87F67FF00000036F6825155130011143174000000AA0E0000001760000000000000E1800000000000002E001D500000002D81F9000000000000000026050281900300035C54C00AA4C000C000028003FFC0000000FFCBUFFERFULL>
-[ 04-03-2017 05:43:43 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:42 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:42 pm ]  Parsing BUF
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 02A
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got available regen 50281900
-[ 04-03-2017 05:43:42 pm ]  Parsing 260
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got regen braking 00000000D6
-[ 04-03-2017 05:43:42 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got motor Amps 0000000000002400
-[ 04-03-2017 05:43:42 pm ]  Parsing 180
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got motor Volts 00000000000004
-[ 04-03-2017 05:43:42 pm ]  Parsing 176
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 174
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 130
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 285
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got distance traveled 000000000000BC42
-[ 04-03-2017 05:43:42 pm ]  Parsing 284
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:42 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 216
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 215
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got turning angle! E8FF0007DC
-[ 04-03-2017 05:43:42 pm ]  Parsing 002
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:42 pm ]  Parsing 280
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Parsing 300
-[ 04-03-2017 05:43:42 pm ]  Sent ATMA
-[ 04-03-2017 05:43:42 pm ]  Received from wifi: 3000328003FFC0000000FFC02DE000000000000021C002E8FF0007DC215FFF0FF00FFFF21642641CBFFD000006002091CA00000000050054EA284000000000000BC42285000000000000BC43130011042174000000AA040000001760000000000000418000000000000024001D500000000D61F900000000000000002605028190002A0000002DE00000000BUFFERFULL>
-[ 04-03-2017 05:43:42 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:41 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:41 pm ]  Parsing BUF
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 50A
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got 'transmission' status 080000
-[ 04-03-2017 05:43:41 pm ]  Parsing 421
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:41 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got motor Amps 0000000000002F00
-[ 04-03-2017 05:43:41 pm ]  Parsing 180
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got motor Volts 0000000000000F
-[ 04-03-2017 05:43:41 pm ]  Parsing 176
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 174
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 130
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 285
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got distance traveled 0000000000008006
-[ 04-03-2017 05:43:41 pm ]  Parsing 284
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:41 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 216
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 215
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got turning angle! E8FF000754
-[ 04-03-2017 05:43:41 pm ]  Parsing 002
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:41 pm ]  Parsing 280
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Parsing 300
-[ 04-03-2017 05:43:41 pm ]  Sent ATMA
-[ 04-03-2017 05:43:41 pm ]  Received from wifi: 3000328003FFC0000000FFC02DE000000000000021C002E8FF000754215FFF0FF00FFFF21642641CBFFD000006002091CA000000000500546228400000000000080062850000000000008007130011042174000000AA0F0000001760000000000000F1800000000000002F001D500000003D91F9000000000000000042108000050A0473001500A0BUFFERFULL>
-[ 04-03-2017 05:43:40 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:40 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:40 pm ]  Parsing BUF
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 216
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:40 pm ]  Parsing 280
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 215
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 50D
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:40 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got motor Amps 0000000000002900
-[ 04-03-2017 05:43:40 pm ]  Parsing 180
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got motor Volts 00000000000009
-[ 04-03-2017 05:43:40 pm ]  Parsing 176
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 174
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 130
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got 12v Battery voltage 7D87F68000000000
-[ 04-03-2017 05:43:40 pm ]  Parsing 292
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 245
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got target braking FFD00000600103
-[ 04-03-2017 05:43:40 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Got turning angle! E8FF0007AB
-[ 04-03-2017 05:43:40 pm ]  Parsing 002
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:40 pm ]  Sent ATMA
-[ 04-03-2017 05:43:40 pm ]  Received from wifi: 2DE000000000000021C002E8FF0007AB1CBFFD000006001031CA00000000050054D92457FF8011A44007FF02927D87F68000000000130011345174000000AA090000001760000000000000918000000000000029001D500000001D71F9000000000000000050D0000000000000000215FFF0FF00FFFF28003FFC0000000FFC021642642DE000000000000021C00BUFFERFULL>
-[ 04-03-2017 05:43:39 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:39 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:38 pm ]  Parsing BUF
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 130
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 354
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 285
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got distance traveled 000000000000F97F
-[ 04-03-2017 05:43:38 pm ]  Parsing 284
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:38 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:43:38 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got motor Amps 0000000000002700
-[ 04-03-2017 05:43:38 pm ]  Parsing 180
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got motor Volts 00000000000007
-[ 04-03-2017 05:43:38 pm ]  Parsing 176
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 174
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 300
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got turning angle! E8FF000776
-[ 04-03-2017 05:43:38 pm ]  Parsing 002
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:43:38 pm ]  Parsing 355
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:38 pm ]  Parsing 280
-[ 04-03-2017 05:43:38 pm ]  Sent ATMA
-[ 04-03-2017 05:43:38 pm ]  Received from wifi: 28003FFC0000000FFC02DE000000000000021C35500000000200060002E8FF00077630003174000000AA070000001760000000000000718000000000000027001CA000000000500548C1CBFFD000006000861D500000003D91F90000000000000000284000000000000F97F285000000000000F98035400000000A008001813001124BUFFERFULL>
-[ 04-03-2017 05:43:38 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:38 pm ]  Sent ATBD
-[ 04-03-2017 05:43:38 pm ]  Received from wifi: 0C00000793056212307C6E0000>
-[ 04-03-2017 05:43:38 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:38 pm ]  Watching CAN for known messages
-[ 04-03-2017 05:43:38 pm ]  Completed command sequence, took 11405ms
-[ 04-03-2017 05:43:37 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:37 pm ]  Got 793 056212307C6E0000
-[ 04-03-2017 05:43:37 pm ]  Parsing 793
-[ 04-03-2017 05:43:37 pm ]  Sent 03221230
-[ 04-03-2017 05:43:37 pm ]  Received from wifi: 793056212307C6E0000
-[ 04-03-2017 05:43:37 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:37 pm ]  Got 793 05621210010C0000
-[ 04-03-2017 05:43:37 pm ]  Parsing 793
-[ 04-03-2017 05:43:37 pm ]  Sent 03221210
-[ 04-03-2017 05:43:37 pm ]  Received from wifi: 79305621210010C0000
-[ 04-03-2017 05:43:37 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:36 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:36 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:36 pm ]  Got 765 210000F00000FFFF
-[ 04-03-2017 05:43:36 pm ]  Parsing 765
-[ 04-03-2017 05:43:36 pm ]  Sent 022110
-[ 04-03-2017 05:43:36 pm ]  Got 765 100B611000000000
-[ 04-03-2017 05:43:36 pm ]  Parsing 765
-[ 04-03-2017 05:43:36 pm ]  Sent 022110
-[ 04-03-2017 05:43:36 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 04-03-2017 05:43:36 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:35 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:34 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:33 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:33 pm ]  undefined
-[ 04-03-2017 05:43:33 pm ]  Setting history point
-[ 04-03-2017 05:43:33 pm ]  Got 763 2100000001120F00
-[ 04-03-2017 05:43:33 pm ]  Parsing 763
-[ 04-03-2017 05:43:33 pm ]  Sent 022101
-[ 04-03-2017 05:43:33 pm ]  Got 763 1082610100000000
-[ 04-03-2017 05:43:33 pm ]  Parsing 763
-[ 04-03-2017 05:43:33 pm ]  Sent 022101
-[ 04-03-2017 05:43:33 pm ]  Received from wifi: 76310826101000000007632100000001120F00
-[ 04-03-2017 05:43:32 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:32 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:32 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:31 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:31 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022104
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  211E110226100229
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022104
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  10106104021A1102
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022104
-[ 04-03-2017 05:43:31 pm ]  Received from wifi: 7BB10106104021A11027BB211E1102261002297BB22101000FFFFFFFF
-[ 04-03-2017 05:43:31 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  2500089FD9016901
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  245C1C650007AED0
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Got battery volts: 379.1
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  23941632AB038900
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  21028700002564FF
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Got 7BB cell voltage  10296101000030ED
-[ 04-03-2017 05:43:31 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:31 pm ]  Sent 022101
-[ 04-03-2017 05:43:31 pm ]  Received from wifi: 7BB10296101000030ED7BB21028700002564FF7BB22FFFFFFFFFF2AF87BB23941632AB0389007BB245C1C650007AED07BB2500089FD9016901
-[ 04-03-2017 05:43:30 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:30 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:30 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:30 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:30 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:30 pm ]  Parsing 79A
-[ 04-03-2017 05:43:30 pm ]  Sent 0210C0
-[ 04-03-2017 05:43:30 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:43:29 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:29 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:29 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:28 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:28 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:28 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:27 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:27 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:27 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:26 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:26 pm ]  Connected to 
-[ 04-03-2017 05:43:26 pm ]  Sending 28 commands
-[ 04-03-2017 05:43:26 pm ]  Completed command sequence, took 5881ms, received 205 messages, 14 force send requests 0 messages without data
-[ 04-03-2017 05:43:26 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:26 pm ]  Sent ATBD
-[ 04-03-2017 05:43:26 pm ]  Received from wifi: 0C000002927D87F68000000000>
-[ 04-03-2017 05:43:26 pm ]  Parsing BUF
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got 12v Battery voltage 7D87F
-[ 04-03-2017 05:43:26 pm ]  Parsing 292
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got target braking FFD00000600103
-[ 04-03-2017 05:43:26 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 245
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:26 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:26 pm ]  Parsing 551
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got Climate data 0108801204000000
-[ 04-03-2017 05:43:26 pm ]  Parsing 54B
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 54A
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:26 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got motor Amps 0000000000002900
-[ 04-03-2017 05:43:26 pm ]  Parsing 180
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got motor Volts 00000000000009
-[ 04-03-2017 05:43:26 pm ]  Parsing 176
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 174
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 216
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Parsing 215
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Got turning angle! E8FF0007AB
-[ 04-03-2017 05:43:26 pm ]  Parsing 002
-[ 04-03-2017 05:43:26 pm ]  Sent ATMA
-[ 04-03-2017 05:43:26 pm ]  Received from wifi: 002E8FF0007AB215FFF0FF00FFFF2DE000000000000021C2164264174000000AA090000001760000000000000918000000000000029001D500000001D71F9000000000000000054ADA00700E0000005C54B010880120400000055100000080FF0000002457FF8011A94007FF01CA00000000050054D91CBFFD000006001032927D87FBUFFERFULL>
-[ 04-03-2017 05:43:25 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:25 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:25 pm ]  Parsing BUF
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 5E4
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 50D
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got 'transmission' status 080000
-[ 04-03-2017 05:43:25 pm ]  Parsing 421
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 130
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 285
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:25 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got distance traveled 00000000000058DE
-[ 04-03-2017 05:43:25 pm ]  Parsing 284
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:25 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got motor Amps 0000000000002500
-[ 04-03-2017 05:43:25 pm ]  Parsing 180
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got motor Volts 00000000000005
-[ 04-03-2017 05:43:25 pm ]  Parsing 176
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 174
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got Parking Brake 1602FD
-[ 04-03-2017 05:43:25 pm ]  Parsing 58A
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:25 pm ]  Parsing 280
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Got turning angle! E8FF000754
-[ 04-03-2017 05:43:25 pm ]  Parsing 002
-[ 04-03-2017 05:43:25 pm ]  Sent ATMA
-[ 04-03-2017 05:43:25 pm ]  Received from wifi: 002E8FF00075428003FFC0000000FFC02DE000000000000021C58A1602FD174000000AA050000001760000000000000518000000000000025001D500000001D71F9000000000000000028400000000000058DE1CA00000000050054621CBFFD0000060020928500000000000058DF13001104242108000050D00000000000000005E4040BUFFERFULL>
-[ 04-03-2017 05:43:24 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:24 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:24 pm ]  Parsing BUF
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 216
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 215
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 300
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 5E4
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Got available regen 50281900
-[ 04-03-2017 05:43:24 pm ]  Parsing 260
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Got regen braking 00000000D6
-[ 04-03-2017 05:43:24 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:24 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:24 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:24 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got motor Amps 0000000000002000
-[ 04-03-2017 05:43:23 pm ]  Parsing 180
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got motor Volts 00000000000000
-[ 04-03-2017 05:43:23 pm ]  Parsing 176
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Parsing 174
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Parsing 130
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Parsing 285
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got distance traveled 0000000000001CA2
-[ 04-03-2017 05:43:23 pm ]  Parsing 284
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:23 pm ]  Parsing 280
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got Parking Brake 1602FD
-[ 04-03-2017 05:43:23 pm ]  Parsing 58A
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Got turning angle! E8FF0007DC
-[ 04-03-2017 05:43:23 pm ]  Parsing 002
-[ 04-03-2017 05:43:23 pm ]  Sent ATMA
-[ 04-03-2017 05:43:23 pm ]  Received from wifi: 002E8FF0007DC58A1602FD28003FFC0000000FFC02DE000000000000021C2840000000000001CA22850000000000001CA3130011042174000000AA000000001760000000000000018000000000000020001CA00000000050054EA1CBFFD000006002091D500000000D61F90000000000000000260502819005E404000030003215FFF0FF00FFFF21642BUFFERFULL>
-[ 04-03-2017 05:43:23 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:23 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:22 pm ]  Parsing BUF
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 215
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 300
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 5E4
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:22 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 130
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 285
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got distance traveled 000000000000D65C
-[ 04-03-2017 05:43:22 pm ]  Parsing 284
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 5F9
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:22 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:22 pm ]  Parsing 551
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:22 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got motor Amps 0000000000002700
-[ 04-03-2017 05:43:22 pm ]  Parsing 180
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got motor Volts 00000000000007
-[ 04-03-2017 05:43:22 pm ]  Parsing 176
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 174
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:22 pm ]  Parsing 280
-[ 04-03-2017 05:43:22 pm ]  Sent ATMA
-[ 04-03-2017 05:43:22 pm ]  Received from wifi: 28003FFC0000000FFC02DE000000000000021C174000000AA070000001760000000000000718000000000000027001D500000003D91F9000000000000000055100000080FF0000005F9FFBFE00000FF0051284000000000000D65C285000000000000D65D1300110421CA00000000050054261CBFFD000006002095E404000030003215FFF0FBUFFERFULL>
-[ 04-03-2017 05:43:22 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:21 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:21 pm ]  Parsing BUF
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:21 pm ]  Parsing 280
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got ODO! 4C00AA4C000C0000
-[ 04-03-2017 05:43:21 pm ]  Parsing 5C5
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got turning angle! E8FF000776
-[ 04-03-2017 05:43:21 pm ]  Parsing 002
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 130
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 6F6
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got target braking FFD0000060038C
-[ 04-03-2017 05:43:21 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got 12v Battery voltage 7D87F68000000001
-[ 04-03-2017 05:43:21 pm ]  Parsing 292
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 245
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:21 pm ]  Got Cruise Control 00000080FF000000
-[ 04-03-2017 05:43:21 pm ]  Parsing 551
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:21 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got motor Amps 0000000000002F00
-[ 04-03-2017 05:43:21 pm ]  Parsing 180
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Got motor Volts 0000000000000F
-[ 04-03-2017 05:43:21 pm ]  Parsing 176
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 174
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:21 pm ]  Sent ATMA
-[ 04-03-2017 05:43:21 pm ]  Received from wifi: 2DE000000000000021C174000000AA0F0000001760000000000000F1800000000000002F001D500000003D91F9000000000000000055100000080FF0000002457FF8011A99007FF12927D87F680000000011CA00000000050054731CBFFD0000060038C6F6825155130011143002E8FF0007765C54C00AA4C000C000028003FFC0000000FFC02DE0000000000BUFFERFULL>
-[ 04-03-2017 05:43:20 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:20 pm ]  Sent ATBD
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: 0C00000793056212307C410000>
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:20 pm ]  Watching CAN for known messages
-[ 04-03-2017 05:43:20 pm ]  Completed command sequence, took 9665ms
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:20 pm ]  Got 793 056212307C410000
-[ 04-03-2017 05:43:20 pm ]  Parsing 793
-[ 04-03-2017 05:43:20 pm ]  Sent 03221230
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: 793056212307C410000
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:20 pm ]  Got 793 05621210010C0000
-[ 04-03-2017 05:43:20 pm ]  Parsing 793
-[ 04-03-2017 05:43:20 pm ]  Sent 03221210
-[ 04-03-2017 05:43:20 pm ]  Received from wifi: 79305621210010C0000
-[ 04-03-2017 05:43:19 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:19 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:19 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:19 pm ]  Got 765 210000F00000FFFF
-[ 04-03-2017 05:43:19 pm ]  Parsing 765
-[ 04-03-2017 05:43:19 pm ]  Sent 022110
-[ 04-03-2017 05:43:19 pm ]  Got 765 100B611000000000
-[ 04-03-2017 05:43:19 pm ]  Parsing 765
-[ 04-03-2017 05:43:19 pm ]  Sent 022110
-[ 04-03-2017 05:43:19 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 04-03-2017 05:43:18 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:18 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:18 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:17 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:17 pm ]  Got 763 2100000001120F00
-[ 04-03-2017 05:43:17 pm ]  Parsing 763
-[ 04-03-2017 05:43:17 pm ]  Sent 022101
-[ 04-03-2017 05:43:17 pm ]  Got 763 1082610100000000
-[ 04-03-2017 05:43:17 pm ]  Parsing 763
-[ 04-03-2017 05:43:17 pm ]  Sent 022101
-[ 04-03-2017 05:43:17 pm ]  Received from wifi: 76310826101000000007632100000001120F00
-[ 04-03-2017 05:43:17 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:17 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:16 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:16 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:16 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:16 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:43:16 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:16 pm ]  Sent 022104
-[ 04-03-2017 05:43:16 pm ]  Got 7BB cell voltage  211F110226100229
-[ 04-03-2017 05:43:16 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:16 pm ]  Sent 022104
-[ 04-03-2017 05:43:16 pm ]  Got 7BB cell voltage  10106104021A1102
-[ 04-03-2017 05:43:16 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:16 pm ]  Sent 022104
-[ 04-03-2017 05:43:16 pm ]  Received from wifi: 7BB10106104021A11027BB211F1102261002297BB22101000FFFFFFFF
-[ 04-03-2017 05:43:16 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  2500089FD9016C01
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  245C1C650007AC10
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Got battery volts: 379.07
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  23941332E8038900
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  21028700002579FF
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Got 7BB cell voltage  10296101000035F8
-[ 04-03-2017 05:43:15 pm ]  Parsing 7BB
-[ 04-03-2017 05:43:15 pm ]  Sent 022101
-[ 04-03-2017 05:43:15 pm ]  Received from wifi: 7BB10296101000035F87BB21028700002579FF7BB22FFFFFFFFFF2AF87BB23941332E80389007BB245C1C650007AC107BB2500089FD9016C01
-[ 04-03-2017 05:43:15 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:15 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:15 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:14 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:14 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:43:14 pm ]  Parsing 79A
-[ 04-03-2017 05:43:14 pm ]  Sent 0210C0
-[ 04-03-2017 05:43:14 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:43:14 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:14 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:13 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:13 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:12 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:12 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:12 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:11 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:11 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:11 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:11 pm ]  Connected to 
-[ 04-03-2017 05:43:11 pm ]  Sending 28 commands
-[ 04-03-2017 05:43:11 pm ]  Completed command sequence, took 8407ms, received 204 messages, 14 force send requests 0 messages without data
-[ 04-03-2017 05:43:10 pm ]  Parsing 0B0
-[ 04-03-2017 05:43:10 pm ]  Sent ATBD
-[ 04-03-2017 05:43:10 pm ]  Received from wifi: 0B000001760000000000000C00>
-[ 04-03-2017 05:43:10 pm ]  Parsing BUF
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 176
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 174
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 300
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got turning angle! E8FF000789
-[ 04-03-2017 05:43:10 pm ]  Parsing 002
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:43:10 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 130
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 285
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got distance traveled 0000000000008A10
-[ 04-03-2017 05:43:10 pm ]  Parsing 284
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 50A
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:10 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got motor Amps 0000000000002B00
-[ 04-03-2017 05:43:10 pm ]  Parsing 180
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got motor Volts 0000000000000B
-[ 04-03-2017 05:43:10 pm ]  Parsing 176
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 174
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:10 pm ]  Parsing 280
-[ 04-03-2017 05:43:10 pm ]  Sent ATMA
-[ 04-03-2017 05:43:10 pm ]  Received from wifi: 28003FFC0000000FFC02DE000000000000021C174000000AA0B0000001760000000000000B1800000000000002B001D500000003D91F9000000000000000050A0433001500A02840000000000008A102850000000000008A111300110421CBFFD000006002091CA00000000050054AE002E8FF0007892DE000000000000021C30003174000000AA0C0000001760BUFFERFULL>
-[ 04-03-2017 05:43:10 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:10 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:09 pm ]  Got climate power usage 7502000008000068
-[ 04-03-2017 05:43:09 pm ]  Parsing 510
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Got 'transmission' status 080000
-[ 04-03-2017 05:43:09 pm ]  Parsing 421
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 130
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Got 12v Battery voltage 7D87F67FF0000003
-[ 04-03-2017 05:43:09 pm ]  Parsing 292
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 245
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:09 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Got motor Amps 0000000000002700
-[ 04-03-2017 05:43:09 pm ]  Parsing 180
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Got motor Volts 00000000000007
-[ 04-03-2017 05:43:09 pm ]  Parsing 176
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 174
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 300
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:09 pm ]  Sent ATMA
-[ 04-03-2017 05:43:09 pm ]  Received from wifi: 2DE000000000000021C30003174000000AA070000001760000000000000718000000000000027001D500000003D91F900000000000000002457FF8011A4F007FF32927D87F67FF000000313001114342108000051075020000080000681CA00000000050054371CBFFD0000060038C215FFF0FF00FFFF2164264002E8FF00073228003FFC0000000FFC02DE00BUFFERFULL>
-[ 04-03-2017 05:43:09 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:08 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:08 pm ]  Parsing BUF
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:08 pm ]  Parsing 280
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got turning angle! E8FF0007FE
-[ 04-03-2017 05:43:08 pm ]  Parsing 002
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 216
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 215
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got target braking FFD0000060038C
-[ 04-03-2017 05:43:08 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 130
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got 12v Battery voltage 7D87F67FF0000001
-[ 04-03-2017 05:43:08 pm ]  Parsing 292
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 245
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 300
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got available regen 50281900
-[ 04-03-2017 05:43:08 pm ]  Parsing 260
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got regen braking 00000002D8
-[ 04-03-2017 05:43:08 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got motor Amps 0000000000002600
-[ 04-03-2017 05:43:08 pm ]  Parsing 180
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Got motor Volts 00000000000006
-[ 04-03-2017 05:43:08 pm ]  Parsing 176
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 174
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:08 pm ]  Sent ATMA
-[ 04-03-2017 05:43:08 pm ]  Received from wifi: 2DE000000000000021C174000000AA060000001760000000000000618000000000000026001D500000002D81F9000000000000000026050281900300032457FF8011A0D007FF12927D87F67FF00000011300111431CBFFD0000060038C1CA00000000050054FB215FFF0FF00FFFF2164264002E8FF0007FE28003FFC0000000FFC02DE000000000000021C35BUFFERFULL>
-[ 04-03-2017 05:43:07 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:07 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:07 pm ]  Parsing BUF
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got Seat Belts 03FFC0000000F
-[ 04-03-2017 05:43:07 pm ]  Parsing 280
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got turning angle! E8FF000754
-[ 04-03-2017 05:43:07 pm ]  Parsing 002
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got Headlight status: 0200FF1D2000
-[ 04-03-2017 05:43:07 pm ]  Parsing 625
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 216
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 215
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got target braking FFD00000600103
-[ 04-03-2017 05:43:07 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 130
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got 12v Battery voltage 7D87F68000000000
-[ 04-03-2017 05:43:07 pm ]  Parsing 292
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 245
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 300
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:43:07 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got motor Amps 0000000000002F00
-[ 04-03-2017 05:43:07 pm ]  Parsing 180
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Got motor Volts 0000000000000F
-[ 04-03-2017 05:43:07 pm ]  Parsing 176
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 174
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 02A
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Parsing 5E4
-[ 04-03-2017 05:43:07 pm ]  Sent ATMA
-[ 04-03-2017 05:43:07 pm ]  Received from wifi: 5E40400002DE000000000000021C02A000000174000000AA0F0000001760000000000000F1800000000000002F001D500000003D91F90000000000000000300032457FF8011AD0007FF02927D87F680000000001300113451CBFFD000006001031CA0000000005005451215FFF0FF00FFFF21642646250200FF1D2000002E8FF00075428003FFC0000000FBUFFERFULL>
-[ 04-03-2017 05:43:06 pm ]  History file write done.
-[ 04-03-2017 05:43:06 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:06 pm ]  OBD log file write done.
-[ 04-03-2017 05:43:06 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:43:06 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-03-2017 05:43:04 pm ]  Parsing BUF
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:43:04 pm ]  Parsing 280
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got turning angle! E8FF000732
-[ 04-03-2017 05:43:04 pm ]  Parsing 002
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 1CA
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got target braking FFD0000060038C
-[ 04-03-2017 05:43:04 pm ]  Parsing 1CB
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 300
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 130
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got 12v Battery voltage 7D87F67FF0000003
-[ 04-03-2017 05:43:04 pm ]  Parsing 292
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 216
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 245
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 215
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got maybe important 5A9 8310E00E03300000
-[ 04-03-2017 05:43:04 pm ]  Parsing 5A9
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Parsing 1F9
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got regen braking 00000001D7
-[ 04-03-2017 05:43:04 pm ]  Parsing 1D5
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:04 pm ]  Got motor Amps 0000000000002500
-[ 04-03-2017 05:43:04 pm ]  Parsing 180
-[ 04-03-2017 05:43:04 pm ]  Sent ATMA
-[ 04-03-2017 05:43:03 pm ]  Got motor Volts 00000000000005
-[ 04-03-2017 05:43:03 pm ]  Parsing 176
-[ 04-03-2017 05:43:03 pm ]  Sent ATMA
-[ 04-03-2017 05:43:03 pm ]  Parsing 174
-[ 04-03-2017 05:43:03 pm ]  Sent ATMA
-[ 04-03-2017 05:43:03 pm ]  Parsing 2DE
-[ 04-03-2017 05:43:03 pm ]  Sent ATMA
-[ 04-03-2017 05:43:03 pm ]  Received from wifi: 2DE000000000000021C174000000AA050000001760000000000000518000000000000025001D500000001D71F900000000000000005A98310E00E03300000215FFF0FF00FFFF2457FF8011A27007FF321642642927D87F67FF0000003130011143300031CBFFD0000060038C1CA0000000005005437002E8FF00073228003FFC0000000FFC02DE0000000000BUFFERFULL>
-[ 04-03-2017 05:43:03 pm ]  undefined
-[ 04-03-2017 05:43:03 pm ]  Setting history point
-[ 04-03-2017 05:43:02 pm ]  Parsing 0C0
-[ 04-03-2017 05:43:02 pm ]  Sent ATBD
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: 0C00000793056212307C410000>
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:02 pm ]  Watching CAN for known messages
-[ 04-03-2017 05:43:02 pm ]  Completed command sequence, took 9787ms
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:02 pm ]  Got 793 056212307C410000
-[ 04-03-2017 05:43:02 pm ]  Parsing 793
-[ 04-03-2017 05:43:02 pm ]  Sent 03221230
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: 793056212307C410000
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:02 pm ]  Got 793 05621210010C0000
-[ 04-03-2017 05:43:02 pm ]  Parsing 793
-[ 04-03-2017 05:43:02 pm ]  Sent 03221210
-[ 04-03-2017 05:43:02 pm ]  Received from wifi: 79305621210010C0000
-[ 04-03-2017 05:43:01 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:01 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:01 pm ]  Received from wifi: >
-[ 04-03-2017 05:43:01 pm ]  Got 765 210000F00000FFFF
-[ 04-03-2017 05:43:01 pm ]  Parsing 765
-[ 04-03-2017 05:43:01 pm ]  Sent 022110
-[ 04-03-2017 05:43:01 pm ]  Got 765 100B611000000000
-[ 04-03-2017 05:43:01 pm ]  Parsing 765
-[ 04-03-2017 05:43:01 pm ]  Sent 022110
-[ 04-03-2017 05:43:01 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 04-03-2017 05:43:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:43:00 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:59 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:59 pm ]  Got 763 2100000001120F00
-[ 04-03-2017 05:42:59 pm ]  Parsing 763
-[ 04-03-2017 05:42:59 pm ]  Sent 022101
-[ 04-03-2017 05:42:59 pm ]  Got 763 1082610100000000
-[ 04-03-2017 05:42:59 pm ]  Parsing 763
-[ 04-03-2017 05:42:59 pm ]  Sent 022101
-[ 04-03-2017 05:42:59 pm ]  Received from wifi: 76310826101000000007632100000001120F00
-[ 04-03-2017 05:42:59 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:59 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:58 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:58 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:58 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:58 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:42:58 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:58 pm ]  Sent 022104
-[ 04-03-2017 05:42:58 pm ]  Got 7BB cell voltage  211E110227100229
-[ 04-03-2017 05:42:58 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:58 pm ]  Sent 022104
-[ 04-03-2017 05:42:58 pm ]  Got 7BB cell voltage  10106104021C1102
-[ 04-03-2017 05:42:58 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:58 pm ]  Sent 022104
-[ 04-03-2017 05:42:58 pm ]  Received from wifi: 7BB10106104021C11027BB211E1102271002297BB22101000FFFFFFFF
-[ 04-03-2017 05:42:57 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  2500089FD9016A05
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  245C1C650007A8BE
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Got battery volts: 379
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  23940C32F3038900
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  2102870000242AFF
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Got 7BB cell voltage  10296101000030ED
-[ 04-03-2017 05:42:57 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:57 pm ]  Sent 022101
-[ 04-03-2017 05:42:57 pm ]  Received from wifi: 7BB10296101000030ED7BB2102870000242AFF7BB22FFFFFFFFFF2AF87BB23940C32F30389007BB245C1C650007A8BE7BB2500089FD9016A05
-[ 04-03-2017 05:42:57 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:56 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:56 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:56 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:42:56 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:42:56 pm ]  Parsing 79A
-[ 04-03-2017 05:42:56 pm ]  Sent 0210C0
-[ 04-03-2017 05:42:56 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:42:56 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:55 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:55 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:55 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:54 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:54 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:54 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:54 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:53 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:53 pm ]  Parsing 0C0
-[ 04-03-2017 05:42:53 pm ]  Sent ATAR
-[ 04-03-2017 05:42:53 pm ]  Received from wifi: 0C00000284000000000000F77D>OK>
-[ 04-03-2017 05:42:53 pm ]  Connected to 
-[ 04-03-2017 05:42:53 pm ]  Sending 28 commands
-[ 04-03-2017 05:42:53 pm ]  Completed command sequence, took 7345ms, received 205 messages, 14 force send requests 0 messages without data
-[ 04-03-2017 05:42:52 pm ]  Parsing BUF
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got distance traveled 0000000
-[ 04-03-2017 05:42:52 pm ]  Parsing 284
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:42:52 pm ]  Parsing 355
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:42:52 pm ]  Parsing 280
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 300
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got available regen 50281900
-[ 04-03-2017 05:42:52 pm ]  Parsing 260
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 1F9
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got regen braking 00000000D6
-[ 04-03-2017 05:42:52 pm ]  Parsing 1D5
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got turning angle! E8FF000732
-[ 04-03-2017 05:42:52 pm ]  Parsing 002
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 1CA
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got motor Amps 0000000000002000
-[ 04-03-2017 05:42:52 pm ]  Parsing 180
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got motor Volts 00000000000000
-[ 04-03-2017 05:42:52 pm ]  Parsing 176
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 174
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got target braking FFD0000060038C
-[ 04-03-2017 05:42:52 pm ]  Parsing 1CB
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 130
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Got 12v Battery voltage 7D87F68000000003
-[ 04-03-2017 05:42:52 pm ]  Parsing 292
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 245
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Parsing 02A
-[ 04-03-2017 05:42:52 pm ]  Sent ATMA
-[ 04-03-2017 05:42:52 pm ]  Received from wifi: 02A0000002DE000000000000021C2457FF8011AF7007FF32927D87F680000000031300111431CBFFD0000060038C174000000AA000000001760000000000000018000000000000020001CA0000000005005437002E8FF0007321D500000000D61F90000000000000000260502819003000328003FFC0000000FFC02DE000000000000021C355000000002000602840000000BUFFERFULL>
-[ 04-03-2017 05:42:52 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:51 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:51 pm ]  Parsing BUF
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got Seat Belts 03FFC0000000F
-[ 04-03-2017 05:42:51 pm ]  Parsing 280
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 5F8
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 5EB
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got 'transmission' status 080000
-[ 04-03-2017 05:42:51 pm ]  Parsing 421
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 300
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 1F9
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got regen braking 00000003D9
-[ 04-03-2017 05:42:51 pm ]  Parsing 1D5
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got motor Amps 0000000000002B00
-[ 04-03-2017 05:42:51 pm ]  Parsing 180
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got motor Volts 0000000000000B
-[ 04-03-2017 05:42:51 pm ]  Parsing 176
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 174
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got turning angle! E8FF0007BA
-[ 04-03-2017 05:42:51 pm ]  Parsing 002
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 1CA
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got target braking FFD0000060038C
-[ 04-03-2017 05:42:51 pm ]  Parsing 1CB
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 130
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Got 12v Battery voltage 7D87F68000000003
-[ 04-03-2017 05:42:51 pm ]  Parsing 292
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 245
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 02A
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:51 pm ]  Sent ATMA
-[ 04-03-2017 05:42:51 pm ]  Received from wifi: 2DE000000000000021C02A0000002457FF8011ABB007FF32927D87F680000000031300111431CBFFD0000060038C1CA00000000050054BF002E8FF0007BA174000000AA0B0000001760000000000000B1800000000000002B001D500000003D91F90000000000000000300034210800005EB003FFFFFFFFFFFFF5F8A88A37281EFBFC0028003FFC0000000FBUFFERFULL>
-[ 04-03-2017 05:42:50 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:50 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:50 pm ]  Parsing BUF
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got motor Amps 0000000
-[ 04-03-2017 05:42:50 pm ]  Parsing 180
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got motor Volts 00000000000003
-[ 04-03-2017 05:42:50 pm ]  Parsing 176
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 174
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got turning angle! E8FF0007EF
-[ 04-03-2017 05:42:50 pm ]  Parsing 002
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 1CA
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:42:50 pm ]  Parsing 1CB
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got Headlight status: 0200FF1D2000
-[ 04-03-2017 05:42:50 pm ]  Parsing 625
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 130
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 354
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 285
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 216
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got distance traveled 0000000000007D03
-[ 04-03-2017 05:42:50 pm ]  Parsing 284
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 215
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:42:50 pm ]  Parsing 355
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got Turn Signal status: 0006000000000000
-[ 04-03-2017 05:42:50 pm ]  Parsing 60D
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:42:50 pm ]  Parsing 280
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Parsing 300
-[ 04-03-2017 05:42:50 pm ]  Sent ATMA
-[ 04-03-2017 05:42:50 pm ]  Received from wifi: 3000328003FFC0000000FFC02DE000000000000021C60D000600000000000035500000000200060215FFF0FF00FFFF2840000000000007D0321642642850000000000007D0435400000000A01800181300112446250200FF1D20001CBFFD000006000861CA0000000005005404002E8FF0007EF174000000AA03000000176000000000000031800000000BUFFERFULL>
-[ 04-03-2017 05:42:48 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:48 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:47 pm ]  Parsing BUF
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got motor Volts 00000000000005
-[ 04-03-2017 05:42:47 pm ]  Parsing 176
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 174
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got turning angle! E8FF0007AB
-[ 04-03-2017 05:42:47 pm ]  Parsing 002
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 1CA
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got target braking FFD00000600086
-[ 04-03-2017 05:42:47 pm ]  Parsing 1CB
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got Turn Signal status: 0006000000000000
-[ 04-03-2017 05:42:47 pm ]  Parsing 60D
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 130
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 354
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 285
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got distance traveled 000000000000FB81
-[ 04-03-2017 05:42:47 pm ]  Parsing 284
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got Headlight status: 0200FF1D2000
-[ 04-03-2017 05:42:47 pm ]  Parsing 625
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 216
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 215
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got Vehicle speed! 00000000200060
-[ 04-03-2017 05:42:47 pm ]  Parsing 355
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:42:47 pm ]  Parsing 280
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Parsing 300
-[ 04-03-2017 05:42:47 pm ]  Sent ATMA
-[ 04-03-2017 05:42:47 pm ]  Received from wifi: 3000328003FFC0000000FFC02DE000000000000021C35500000000200060215FFF0FF00FFFF21642646250200FF1D2000284000000000000FB81285000000000000FB8235400000000A010001813001124460D00060000000000001CBFFD000006000861CA00000000050054C8002E8FF0007AB174000000AA050000001760000000000000518BUFFERFULL>
-[ 04-03-2017 05:42:46 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:46 pm ]  Received from wifi: ?>
-[ 04-03-2017 05:42:46 pm ]  Parsing BUF
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 260
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 1F9
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got target braking FFD00000600209
-[ 04-03-2017 05:42:46 pm ]  Parsing 1CB
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 1CA
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got turning angle! E8FF000789
-[ 04-03-2017 05:42:46 pm ]  Parsing 002
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got regen braking 00000002D8
-[ 04-03-2017 05:42:46 pm ]  Parsing 1D5
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got motor Amps 0000000000002600
-[ 04-03-2017 05:42:46 pm ]  Parsing 180
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got motor Volts 00000000000006
-[ 04-03-2017 05:42:46 pm ]  Parsing 176
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 174
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 130
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 285
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got distance traveled 000000000000BA40
-[ 04-03-2017 05:42:46 pm ]  Parsing 284
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got Headlight status: 0200FF1D2000
-[ 04-03-2017 05:42:46 pm ]  Parsing 625
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 2DE
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 216
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 04-03-2017 05:42:46 pm ]  Parsing 280
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 215
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Parsing 300
-[ 04-03-2017 05:42:46 pm ]  Sent ATMA
-[ 04-03-2017 05:42:46 pm ]  Received from wifi: 30003215FFF0FF00FFFF28003FFC0000000FFC021642642DE000000000000021C6250200FF1D2000284000000000000BA40285000000000000BA41130011042174000000AA060000001760000000000000618000000000000026001D500000002D8002E8FF0007891CA00000000050054AE1CBFFD000006002091F900000000000000002605BUFFERFULL>
-[ 04-03-2017 05:42:45 pm ]  Parsing 0C0
-[ 04-03-2017 05:42:45 pm ]  Sent ATBD
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: 0C00000793056212307C410000>
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:45 pm ]  Watching CAN for known messages
-[ 04-03-2017 05:42:45 pm ]  Completed command sequence, took 12487ms
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:45 pm ]  Got 793 056212307C410000
-[ 04-03-2017 05:42:45 pm ]  Parsing 793
-[ 04-03-2017 05:42:45 pm ]  Sent 03221230
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: 793056212307C410000
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:45 pm ]  Got 793 05621210010C0000
-[ 04-03-2017 05:42:45 pm ]  Parsing 793
-[ 04-03-2017 05:42:45 pm ]  Sent 03221210
-[ 04-03-2017 05:42:45 pm ]  Received from wifi: 79305621210010C0000
-[ 04-03-2017 05:42:44 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:44 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:44 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:44 pm ]  Got 765 210000F00000FFFF
-[ 04-03-2017 05:42:44 pm ]  Parsing 765
-[ 04-03-2017 05:42:44 pm ]  Sent 022110
-[ 04-03-2017 05:42:44 pm ]  Got 765 100B611000000000
-[ 04-03-2017 05:42:44 pm ]  Parsing 765
-[ 04-03-2017 05:42:44 pm ]  Sent 022110
-[ 04-03-2017 05:42:44 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 04-03-2017 05:42:43 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:43 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:42 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:42 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:42 pm ]  Got 763 2100000001120F00
-[ 04-03-2017 05:42:42 pm ]  Parsing 763
-[ 04-03-2017 05:42:42 pm ]  Sent 022101
-[ 04-03-2017 05:42:42 pm ]  Got 763 1082610100000000
-[ 04-03-2017 05:42:42 pm ]  Parsing 763
-[ 04-03-2017 05:42:42 pm ]  Sent 022101
-[ 04-03-2017 05:42:42 pm ]  Received from wifi: 76310826101000000007632100000001120F00
-[ 04-03-2017 05:42:42 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:41 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:41 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:41 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:41 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:41 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
-[ 04-03-2017 05:42:41 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:41 pm ]  Sent 022104
-[ 04-03-2017 05:42:41 pm ]  Got 7BB cell voltage  211F110226100229
-[ 04-03-2017 05:42:41 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:41 pm ]  Sent 022104
-[ 04-03-2017 05:42:41 pm ]  Got 7BB cell voltage  10106104021B1102
-[ 04-03-2017 05:42:41 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:41 pm ]  Sent 022104
-[ 04-03-2017 05:42:41 pm ]  Received from wifi: 7BB10106104021B11027BB211F1102261002297BB22101000FFFFFFFF
-[ 04-03-2017 05:42:40 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  2500089FD9016C05
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  245C1C650007A59B
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Got battery volts: 378.97
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  23940932FA038900
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  22FFFFFFFFFF2AF8
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  210287000025ADFF
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Got 7BB cell voltage  10296101000035F8
-[ 04-03-2017 05:42:40 pm ]  Parsing 7BB
-[ 04-03-2017 05:42:40 pm ]  Sent 022101
-[ 04-03-2017 05:42:40 pm ]  Received from wifi: 7BB10296101000035F87BB210287000025ADFF7BB22FFFFFFFFFF2AF87BB23940932FA0389007BB245C1C650007A59B7BB2500089FD9016C05
-[ 04-03-2017 05:42:40 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:39 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:39 pm ]  Received from wifi: >
-[ 04-03-2017 05:42:39 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:42:39 pm ]  Got 79A 0250C00000000000
-[ 04-03-2017 05:42:39 pm ]  Parsing 79A
-[ 04-03-2017 05:42:39 pm ]  Sent 0210C0
-[ 04-03-2017 05:42:39 pm ]  Received from wifi: 79A0250C00000000000
-[ 04-03-2017 05:42:39 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:38 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:38 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:37 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:37 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:37 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:36 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:36 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:33 pm ]  Received from wifi: OK>
-[ 04-03-2017 05:42:33 pm ]  Connected to 
-[ 04-03-2017 05:42:33 pm ]  Sending 28 commands
-[ 04-03-2017 05:42:33 pm ]  Subscribing to Wifi ELM
-[ 04-03-2017 05:42:29 pm ]  init
-[ 04-03-2017 05:42:29 pm ]  Home Controller
-[ 04-03-2017 05:42:29 pm ]  Device ready from home
-[ 04-03-2017 05:42:28 pm ]  Going to home
-[ 04-03-2017 05:42:27 pm ]  Not testing because already can continue
-[ 04-03-2017 05:42:27 pm ]  Subscribing to Wifi ELM
-[ 04-03-2017 05:42:27 pm ]  Testing device
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: 
-[ 04-03-2017 05:42:27 pm ]  Not testing because already can continue
-[ 04-03-2017 05:42:27 pm ]  Subscribing to Wifi ELM
-[ 04-03-2017 05:42:27 pm ]  Testing device
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: ATE0OK
-[ 04-03-2017 05:42:27 pm ]  Received from wifi: ATE0OK>
-[ 04-03-2017 05:42:27 pm ]  []
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: 
-[ 04-03-2017 05:42:27 pm ]  Success!
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: ATIELM327v1.5
-[ 04-03-2017 05:42:27 pm ]  Received from wifi: ATIELM327v1.5>
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: 
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: ATS0OK
-[ 04-03-2017 05:42:27 pm ]  Subscribe got: ATH1OK
-[ 04-03-2017 05:42:27 pm ]  Received from wifi: ATH1OK>ATS0OK>
-[ 04-03-2017 05:42:26 pm ]  Subscribe got: 
-[ 04-03-2017 05:42:26 pm ]  Success!
-[ 04-03-2017 05:42:26 pm ]  Subscribe got: ELM327v1.5
-[ 04-03-2017 05:42:26 pm ]  Received from wifi: ELM327v1.5>
-[ 04-03-2017 05:42:26 pm ]  Received from wifi: ATZ
-[ 04-03-2017 05:42:26 pm ]  Subscribe got: 
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:162"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:169"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:170"}]
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:162"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:169"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:170"}]
-[ 04-03-2017 05:42:25 pm ]  Subscribe got: ATE1?
-[ 04-03-2017 05:42:25 pm ]  Received from wifi: ATE1?>
-[ 04-03-2017 05:42:25 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 1 bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 1 bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:162"}]
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:162"}]
-[ 04-03-2017 05:42:25 pm ]  Scanned
-[ 04-03-2017 05:42:25 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 1 bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"}]
-[ 04-03-2017 05:42:25 pm ]  Testing...
-[ 04-03-2017 05:42:25 pm ]  Subscribing to Wifi ELM
-[ 04-03-2017 05:42:25 pm ]  Testing device
-[ 04-03-2017 05:42:25 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-03-2017 05:42:25 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:120"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:121"},{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060,"$$hashKey":"object:122"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:123"},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936,"$$hashKey":"object:124"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:125"}]
-[ 04-03-2017 05:42:25 pm ]  Scanned
-[ 04-03-2017 05:42:25 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 1 bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  []
-[ 04-03-2017 05:42:25 pm ]  got 0 unpaired bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  []
-[ 04-03-2017 05:42:25 pm ]  got 0 unpaired bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  [{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 1 unpaired bluetooth accessories
-[ 04-03-2017 05:42:25 pm ]  [{"name":"Roku Player","address":"CC:6D:A0:6B:B1:1C","id":"CC:6D:A0:6B:B1:1C","class":1060},{"address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936}]
-[ 04-03-2017 05:42:25 pm ]  got 2 unpaired bluetooth accessories
-[ 04-03-2017 05:42:11 pm ]  Connected to Wifi!
-[ 04-03-2017 05:42:11 pm ]  Scanning inside manager
-[ 04-03-2017 05:42:10 pm ]  Connected to Wifi!
-[ 04-03-2017 05:42:10 pm ]  Scanning inside manager
-[ 04-03-2017 05:42:09 pm ]  Connected to Wifi!
-[ 04-03-2017 05:42:07 pm ]  Listing wifi networks
-[ 04-03-2017 05:42:07 pm ]  Device connected true
-[ 04-03-2017 05:42:07 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:77"}]
-[ 04-03-2017 05:42:07 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:77"}]
-[ 04-03-2017 05:42:07 pm ]  Scanning inside manager
-[ 04-03-2017 05:42:07 pm ]  Scanning...
-[ 04-03-2017 05:42:07 pm ]  History file write done.
-[ 04-03-2017 05:42:06 pm ]  Device connected true
-[ 04-03-2017 05:42:06 pm ]  Connected to Wifi!
-[ 04-03-2017 05:42:06 pm ]  OBD log file write done.
-[ 04-03-2017 05:42:06 pm ]  Listing wifi networks
-[ 04-03-2017 05:42:06 pm ]  Device connected false
-[ 04-03-2017 05:42:06 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
-[ 04-03-2017 05:42:06 pm ]  Scanning inside manager
-[ 04-03-2017 05:42:06 pm ]  Scanning...
-[ 04-03-2017 05:42:06 pm ]  Bluetooth is enabled
-[ 04-03-2017 05:42:06 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-03-2017 05:42:05 pm ]  Root file directory: file:///storage/emulated/0/
-[ 04-03-2017 05:42:05 pm ]  Device is ready!
-[ 04-03-2017 05:42:05 pm ]  Translating to en
-[ 04-03-2017 05:42:04 pm ]  I'm running angular!
-[ 04-03-2017 05:42:04 pm ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.5

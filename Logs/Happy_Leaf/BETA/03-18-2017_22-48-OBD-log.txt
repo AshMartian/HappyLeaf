@@ -1,6 +1,0 @@
-[ 03-18-2017 10:48:46 pm ]  Bluetooth is enabled
-[ 03-18-2017 10:48:46 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-18-2017 10:48:43 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-18-2017 10:48:43 pm ]  Device is ready!
-[ 03-18-2017 10:48:42 pm ]  I'm running angular!
-HappyLeaf Version 0.1.6

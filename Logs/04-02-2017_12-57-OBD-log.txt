@@ -1,372 +1,0 @@
-[ 04-02-2017 12:59:09 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-02-2017 12:59:09 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:59:09 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:59:08 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:59:08 pm ]  sent: ATSH743 got: OK
-[ 04-02-2017 12:59:08 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:59:07 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:59:07 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:59:07 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:59:06 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:59:05 pm ]  Connected to 
-[ 04-02-2017 12:59:05 pm ]  Sending 28 commands
-[ 04-02-2017 12:59:05 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:59:05 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:59:05 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:59:00 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:59:00 pm ]  Connected to 
-[ 04-02-2017 12:59:00 pm ]  Sending 28 commands
-[ 04-02-2017 12:59:00 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:59:00 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:59 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:59 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:59 pm ]  undefined
-[ 04-02-2017 12:58:59 pm ]  Setting history point
-[ 04-02-2017 12:58:59 pm ]  sent: ATSH743 got: OK
-[ 04-02-2017 12:58:58 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:58 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:58 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:57 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:57 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:57 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:56 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:55 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:55 pm ]  Connected to 
-[ 04-02-2017 12:58:55 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:55 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:58:55 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:54 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:54 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:54 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:54 pm ]  sent: ATZ got: OK
-[ 04-02-2017 12:58:54 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:54 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:53 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:53 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:53 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:52 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:52 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:52 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:51 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:50 pm ]  Connected to 
-[ 04-02-2017 12:58:50 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:50 pm ]  sent: ATSH743 got: OK
-[ 04-02-2017 12:58:50 pm ]  sent: 022104 got: OK
-[ 04-02-2017 12:58:50 pm ]  sent: 022101 got: OK
-[ 04-02-2017 12:58:49 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:58:49 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:49 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:48 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:48 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:48 pm ]  sent: 022104 got: OK
-[ 04-02-2017 12:58:47 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:47 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:47 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:46 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:45 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:45 pm ]  Connected to 
-[ 04-02-2017 12:58:45 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:45 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:45 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:58:44 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:44 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:44 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:43 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:43 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:43 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:42 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:42 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:42 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:41 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:40 pm ]  Connected to 
-[ 04-02-2017 12:58:40 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:40 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:40 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:40 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:39 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:39 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:39 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:38 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:38 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:38 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:37 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:37 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:37 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:36 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:35 pm ]  Connected to 
-[ 04-02-2017 12:58:35 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:35 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:30 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:30 pm ]  Connected to 
-[ 04-02-2017 12:58:30 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:30 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:30 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:29 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:29 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:29 pm ]  undefined
-[ 04-02-2017 12:58:29 pm ]  Setting history point
-[ 04-02-2017 12:58:29 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:28 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:28 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:28 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:27 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:27 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:27 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:26 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:25 pm ]  Connected to 
-[ 04-02-2017 12:58:25 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:25 pm ]  []
-[ 04-02-2017 12:58:25 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:25 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:25 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:25 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:24 pm ]  sent: 022101 got: OK
-[ 04-02-2017 12:58:24 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:24 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:24 pm ]  Canceling current send request.
-[ 04-02-2017 12:58:24 pm ]  sent: ATZ got: OK
-[ 04-02-2017 12:58:24 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:23 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:23 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:23 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:22 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:22 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:22 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:21 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:20 pm ]  Connected to 
-[ 04-02-2017 12:58:20 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:20 pm ]  sent: 022104 got: OK
-[ 04-02-2017 12:58:20 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:58:20 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:19 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:19 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:19 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:18 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:18 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:18 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:17 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:17 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:17 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:16 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:15 pm ]  Connected to 
-[ 04-02-2017 12:58:15 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:15 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:15 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:15 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:58:14 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:58:14 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:14 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:13 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:13 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:13 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:12 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:12 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:12 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:11 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:10 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:10 pm ]  History file write done.
-[ 04-02-2017 12:58:10 pm ]  Connected to 
-[ 04-02-2017 12:58:10 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:10 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:58:10 pm ]  OBD log file write done.
-[ 04-02-2017 12:58:09 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-02-2017 12:58:09 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:58:08 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:58:08 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:58:08 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:58:07 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:58:07 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:58:07 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:58:06 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:58:05 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:05 pm ]  Connected to 
-[ 04-02-2017 12:58:05 pm ]  Sending 28 commands
-[ 04-02-2017 12:58:00 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:58:00 pm ]  Connected to 
-[ 04-02-2017 12:58:00 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:59 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:57:59 pm ]  undefined
-[ 04-02-2017 12:57:59 pm ]  Setting history point
-[ 04-02-2017 12:57:58 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:57:58 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:58 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:57:57 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:57:57 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:57:57 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:57:56 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:57:56 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:57:56 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:55 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:57:55 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:57:54 pm ]  Connected to 
-[ 04-02-2017 12:57:54 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  Scanned
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  Scanned
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  Scanned
-[ 04-02-2017 12:57:52 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 04-02-2017 12:57:52 pm ]  got 1 bluetooth accessories
-[ 04-02-2017 12:57:52 pm ]  []
-[ 04-02-2017 12:57:52 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:52 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:52 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:52 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:52 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:52 pm ]  sent: STSBR 2000000 got: OK
-[ 04-02-2017 12:57:51 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:57:51 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:57:51 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:50 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:57:50 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:57:49 pm ]  Connected to 
-[ 04-02-2017 12:57:49 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:49 pm ]  sent: 022101 got: OK
-[ 04-02-2017 12:57:49 pm ]  sent: ATFCSH79B got: OK
-[ 04-02-2017 12:57:49 pm ]  sent: ATSH79B got: OK
-[ 04-02-2017 12:57:48 pm ]  sent: 0210C0 got: OK
-[ 04-02-2017 12:57:48 pm ]  sent: ATFCSM1 got: OK
-[ 04-02-2017 12:57:48 pm ]  sent: ATFCSD300000 got: OK
-[ 04-02-2017 12:57:47 pm ]  sent: ATFCSH797 got: OK
-[ 04-02-2017 12:57:47 pm ]  sent: ATSH797 got: OK
-[ 04-02-2017 12:57:46 pm ]  sent: ATCAF0 got: OK
-[ 04-02-2017 12:57:46 pm ]  sent: ATL0 got: OK
-[ 04-02-2017 12:57:46 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:45 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:57:45 pm ]  sent: ATAR got: OK
-[ 04-02-2017 12:57:44 pm ]  Connected to 
-[ 04-02-2017 12:57:44 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:41 pm ]  []
-[ 04-02-2017 12:57:41 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:41 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:41 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:41 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:40 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:40 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:40 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:40 pm ]  sent: ATZ got: OK
-[ 04-02-2017 12:57:39 pm ]  Connected to 
-[ 04-02-2017 12:57:39 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:37 pm ]  []
-[ 04-02-2017 12:57:37 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:37 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:37 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:37 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:36 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:36 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:36 pm ]  Canceling current send request.
-[ 04-02-2017 12:57:36 pm ]  sent: ATZ got: OK
-[ 04-02-2017 12:57:34 pm ]  Connected to 
-[ 04-02-2017 12:57:34 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:30 pm ]  []
-[ 04-02-2017 12:57:30 pm ]  sent: ATE0 got: OK
-[ 04-02-2017 12:57:29 pm ]  Connected to 
-[ 04-02-2017 12:57:29 pm ]  Sending 28 commands
-[ 04-02-2017 12:57:29 pm ]  sent: ATI got: OK
-[ 04-02-2017 12:57:24 pm ]  init
-[ 04-02-2017 12:57:24 pm ]  Home Controller
-[ 04-02-2017 12:57:24 pm ]  Device ready from home
-[ 04-02-2017 12:57:24 pm ]  Devices changed []
-[ 04-02-2017 12:57:24 pm ]  Devices changed []
-[ 04-02-2017 12:57:24 pm ]  Devices changed []
-[ 04-02-2017 12:57:24 pm ]  Going to home
-[ 04-02-2017 12:57:24 pm ]  sent: ATS0 got: OK
-[ 04-02-2017 12:57:24 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
-[ 04-02-2017 12:57:24 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:23 pm ]  sent: ATH1 got: OK
-[ 04-02-2017 12:57:23 pm ]  sent: ATSP6 got: OK
-[ 04-02-2017 12:57:23 pm ]  sent: STSBR 2000000 got: OK
-[ 04-02-2017 12:57:22 pm ]  sent: ATDP got: OK
-[ 04-02-2017 12:57:22 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
-[ 04-02-2017 12:57:22 pm ]  Connected to Wifi!
-[ 04-02-2017 12:57:22 pm ]  Received from wifi: ATZ
-[ 04-02-2017 12:57:22 pm ]  Subscribe got: 
-[ 04-02-2017 12:57:22 pm ]  Success!
-[ 04-02-2017 12:57:22 pm ]  Subscribe got: ELM327v1.5
-[ 04-02-2017 12:57:22 pm ]  Received from wifi: ELM327v1.5>
-[ 04-02-2017 12:57:21 pm ]  Received from wifi: ATZ
-[ 04-02-2017 12:57:20 pm ]  Listing wifi networks
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: 
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: ATE1OK
-[ 04-02-2017 12:57:20 pm ]  Received from wifi: ATE1OK>
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: 
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: OK
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: ?
-[ 04-02-2017 12:57:20 pm ]  Received from wifi: ?>OK>
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: 
-[ 04-02-2017 12:57:20 pm ]  Subscribe got: ?
-[ 04-02-2017 12:57:20 pm ]  Received from wifi: ?>
-[ 04-02-2017 12:57:20 pm ]  Device connected true
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:20 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:20 pm ]  Testing device
-[ 04-02-2017 12:57:20 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:20 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:20 pm ]  Testing device
-[ 04-02-2017 12:57:20 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:67"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:68"}]
-[ 04-02-2017 12:57:20 pm ]  Device connected true
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:20 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:20 pm ]  Testing device
-[ 04-02-2017 12:57:20 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:20 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:20 pm ]  Testing device
-[ 04-02-2017 12:57:20 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:67"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:68"}]
-[ 04-02-2017 12:57:20 pm ]  Device connected true
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:20 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:20 pm ]  Testing device
-[ 04-02-2017 12:57:20 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:20 pm ]  Testing...
-[ 04-02-2017 12:57:19 pm ]  Subscribing to Wifi ELM
-[ 04-02-2017 12:57:19 pm ]  Testing device
-[ 04-02-2017 12:57:19 pm ]  Connecting to wifi: 192.168.0.10
-[ 04-02-2017 12:57:19 pm ]  Found last connected wifi device: 192.168.0.10
-[ 04-02-2017 12:57:19 pm ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:67"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:68"}]
-[ 04-02-2017 12:57:19 pm ]  Connected to Wifi!
-[ 04-02-2017 12:57:19 pm ]  Connected to Wifi!
-[ 04-02-2017 12:57:19 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:19 pm ]  Scanning...
-[ 04-02-2017 12:57:18 pm ]  Connected to Wifi!
-[ 04-02-2017 12:57:16 pm ]  Devices changed []
-[ 04-02-2017 12:57:16 pm ]  Devices changed []
-[ 04-02-2017 12:57:15 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:14 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:11 pm ]  History file write done.
-[ 04-02-2017 12:57:11 pm ]  Listing wifi networks
-[ 04-02-2017 12:57:11 pm ]  Device connected false
-[ 04-02-2017 12:57:11 pm ]  Devices changed []
-[ 04-02-2017 12:57:11 pm ]  Devices changed []
-[ 04-02-2017 12:57:11 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:11 pm ]  Scanning...
-[ 04-02-2017 12:57:11 pm ]  OBD log file write done.
-[ 04-02-2017 12:57:10 pm ]  Listing wifi networks
-[ 04-02-2017 12:57:10 pm ]  Device connected false
-[ 04-02-2017 12:57:10 pm ]  Devices changed []
-[ 04-02-2017 12:57:10 pm ]  Scanning inside manager
-[ 04-02-2017 12:57:10 pm ]  Scanning...
-[ 04-02-2017 12:57:10 pm ]  Bluetooth is enabled
-[ 04-02-2017 12:57:10 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 04-02-2017 12:57:09 pm ]  Root file directory: file:///storage/emulated/0/
-[ 04-02-2017 12:57:09 pm ]  Device is ready!
-[ 04-02-2017 12:57:09 pm ]  Translating to en
-[ 04-02-2017 12:57:04 pm ]  I'm running angular!
-[ 04-02-2017 12:57:03 pm ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.5

@@ -1,548 +1,0 @@
-[ 03-31-2017 06:26:33 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 06:26:32 am ]  []
-[ 03-31-2017 06:26:32 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:26:31 am ]  Connection Timeout..
-[ 03-31-2017 06:26:31 am ]  Connection Timeout..
-[ 03-31-2017 06:26:31 am ]  sent: ATI got: OK
-[ 03-31-2017 06:26:31 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:26:30 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:26:28 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:26:28 am ]  Listing wifi networks
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:28 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:28 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:268"}]
-[ 03-31-2017 06:26:28 am ]  Scanned
-[ 03-31-2017 06:26:28 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:26:28 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:26:28 am ]  Device connected false
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Devices changed []
-[ 03-31-2017 06:26:28 am ]  Scanning inside manager
-[ 03-31-2017 06:26:28 am ]  Scanning...
-[ 03-31-2017 06:26:26 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:26:26 am ]  Listing wifi networks
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:26 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:244"}]
-[ 03-31-2017 06:26:26 am ]  Scanned
-[ 03-31-2017 06:26:26 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:26:26 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:26:26 am ]  Device connected false
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Devices changed []
-[ 03-31-2017 06:26:26 am ]  Scanning inside manager
-[ 03-31-2017 06:26:26 am ]  Scanning...
-[ 03-31-2017 06:26:24 am ]  Listing wifi networks
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:24 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:24 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:224"}]
-[ 03-31-2017 06:26:24 am ]  Scanned
-[ 03-31-2017 06:26:24 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:26:24 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:26:24 am ]  Device connected false
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Devices changed []
-[ 03-31-2017 06:26:24 am ]  Scanning inside manager
-[ 03-31-2017 06:26:24 am ]  Scanning...
-[ 03-31-2017 06:26:24 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:26:23 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:26:23 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:26:23 am ]  Testing...
-[ 03-31-2017 06:26:23 am ]  Testing device
-[ 03-31-2017 06:26:20 am ]  []
-[ 03-31-2017 06:26:20 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:26:19 am ]  Listing wifi networks
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:19 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:19 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:204"}]
-[ 03-31-2017 06:26:19 am ]  Scanned
-[ 03-31-2017 06:26:19 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:26:19 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:26:19 am ]  Device connected false
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Devices changed []
-[ 03-31-2017 06:26:19 am ]  Scanning inside manager
-[ 03-31-2017 06:26:19 am ]  Scanning...
-[ 03-31-2017 06:26:19 am ]  sent: ATI got: OK
-[ 03-31-2017 06:26:19 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:26:18 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:26:18 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:26:18 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:26:17 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:26:16 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:26:16 am ]  Device connected false
-[ 03-31-2017 06:26:16 am ]  Device connected false
-[ 03-31-2017 06:26:16 am ]  Device connected false
-[ 03-31-2017 06:26:16 am ]  Device connected false
-[ 03-31-2017 06:26:16 am ]  Device connected false
-[ 03-31-2017 06:26:15 am ]  Device connected false
-[ 03-31-2017 06:26:15 am ]  Device connected false
-[ 03-31-2017 06:26:15 am ]  Connection Timeout..
-[ 03-31-2017 06:26:15 am ]  Listing wifi networks
-[ 03-31-2017 06:26:15 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:15 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:15 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:15 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:15 am ]  Device connected true
-[ 03-31-2017 06:26:15 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:15 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:15 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:26:15 am ]  Scanning...
-[ 03-31-2017 06:26:14 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:26:14 am ]  Testing...
-[ 03-31-2017 06:26:14 am ]  Testing device
-[ 03-31-2017 06:26:14 am ]  Listing wifi networks
-[ 03-31-2017 06:26:14 am ]  Device connected true
-[ 03-31-2017 06:26:14 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:14 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:14 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:26:14 am ]  Scanning...
-[ 03-31-2017 06:26:13 am ]  Listing wifi networks
-[ 03-31-2017 06:26:13 am ]  "Unable to connect to device"
-[ 03-31-2017 06:26:13 am ]  Connection failed Unable to connect to device
-[ 03-31-2017 06:26:13 am ]  Device connected true
-[ 03-31-2017 06:26:13 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:13 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:13 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:26:13 am ]  Scanning...
-[ 03-31-2017 06:26:11 am ]  []
-[ 03-31-2017 06:26:11 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:26:10 am ]  sent: ATI got: OK
-[ 03-31-2017 06:26:10 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:26:10 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:26:09 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:26:09 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:26:09 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:26:08 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:26:08 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:26:08 am ]  Testing...
-[ 03-31-2017 06:26:08 am ]  Testing device
-[ 03-31-2017 06:26:05 am ]  []
-[ 03-31-2017 06:26:05 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:26:05 am ]  sent: ATI got: OK
-[ 03-31-2017 06:26:05 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:26:04 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:26:04 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:26:04 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:26:03 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:26:02 am ]  Listing wifi networks
-[ 03-31-2017 06:26:02 am ]  Device connected true
-[ 03-31-2017 06:26:02 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:02 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:26:02 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:26:02 am ]  Scanning...
-[ 03-31-2017 06:26:02 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:26:02 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:26:02 am ]  Testing...
-[ 03-31-2017 06:26:02 am ]  Testing device
-[ 03-31-2017 06:25:59 am ]  []
-[ 03-31-2017 06:25:59 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:59 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:58 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:58 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:58 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:58 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:57 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:57 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:57 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:57 am ]  Testing...
-[ 03-31-2017 06:25:57 am ]  Testing device
-[ 03-31-2017 06:25:54 am ]  []
-[ 03-31-2017 06:25:54 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:53 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:53 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:53 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:52 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:52 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:52 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:51 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:51 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:51 am ]  Testing...
-[ 03-31-2017 06:25:51 am ]  Testing device
-[ 03-31-2017 06:25:48 am ]  []
-[ 03-31-2017 06:25:48 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:48 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:48 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:47 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:47 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:47 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:46 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:46 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:46 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:46 am ]  Testing...
-[ 03-31-2017 06:25:46 am ]  Testing device
-[ 03-31-2017 06:25:43 am ]  []
-[ 03-31-2017 06:25:43 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:42 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:42 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:42 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:42 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:41 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:41 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:41 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:40 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:40 am ]  Testing...
-[ 03-31-2017 06:25:40 am ]  Testing device
-[ 03-31-2017 06:25:37 am ]  []
-[ 03-31-2017 06:25:37 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:37 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:37 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:36 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:36 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:36 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:35 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:35 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:35 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:35 am ]  Testing...
-[ 03-31-2017 06:25:35 am ]  Testing device
-[ 03-31-2017 06:25:34 am ]  History file write done.
-[ 03-31-2017 06:25:34 am ]  OBD log file write done.
-[ 03-31-2017 06:25:33 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 06:25:32 am ]  []
-[ 03-31-2017 06:25:32 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:32 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:31 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:31 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:31 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:30 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:30 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:30 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:29 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:29 am ]  Testing...
-[ 03-31-2017 06:25:29 am ]  Testing device
-[ 03-31-2017 06:25:26 am ]  []
-[ 03-31-2017 06:25:26 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:26 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:26 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:25 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:25 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:25 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:25 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:24 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:24 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:24 am ]  Testing...
-[ 03-31-2017 06:25:24 am ]  Testing device
-[ 03-31-2017 06:25:22 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:22 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:22 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:21 am ]  []
-[ 03-31-2017 06:25:21 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:20 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:20 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:20 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:20 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:20 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:19 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:19 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:19 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:18 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:18 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:18 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:17 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:17 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:17 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:17 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:17 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:16 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:16 am ]  Testing...
-[ 03-31-2017 06:25:16 am ]  Testing device
-[ 03-31-2017 06:25:13 am ]  []
-[ 03-31-2017 06:25:13 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:13 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:13 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:12 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:12 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:12 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:11 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:11 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:11 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:11 am ]  Testing...
-[ 03-31-2017 06:25:11 am ]  Testing device
-[ 03-31-2017 06:25:10 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:10 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:09 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:08 am ]  []
-[ 03-31-2017 06:25:08 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:07 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:07 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:07 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:06 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:06 am ]  Listing wifi networks
-[ 03-31-2017 06:25:06 am ]  "Device connection was lost"
-[ 03-31-2017 06:25:05 am ]  Connection failed Device connection was lost
-[ 03-31-2017 06:25:05 am ]  Device connected true
-[ 03-31-2017 06:25:05 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:05 am ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:25:05 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:25:05 am ]  Device connected true
-[ 03-31-2017 06:25:05 am ]  Device connected true
-[ 03-31-2017 06:25:05 am ]  Scanning...
-[ 03-31-2017 06:25:05 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:25:05 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:25:05 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:25:04 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:25:04 am ]  Testing...
-[ 03-31-2017 06:25:04 am ]  Testing device
-[ 03-31-2017 06:25:01 am ]  []
-[ 03-31-2017 06:25:01 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:25:01 am ]  sent: ATI got: OK
-[ 03-31-2017 06:25:01 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:25:00 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:25:00 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:25:00 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:24:59 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:24:59 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:24:59 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:24:59 am ]  Testing...
-[ 03-31-2017 06:24:59 am ]  Testing device
-[ 03-31-2017 06:24:56 am ]  []
-[ 03-31-2017 06:24:56 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:24:56 am ]  sent: ATI got: OK
-[ 03-31-2017 06:24:55 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:24:55 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:24:55 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:24:54 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:24:54 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:24:54 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:24:53 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:24:53 am ]  Testing...
-[ 03-31-2017 06:24:53 am ]  Testing device
-[ 03-31-2017 06:24:50 am ]  []
-[ 03-31-2017 06:24:50 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:24:50 am ]  sent: ATI got: OK
-[ 03-31-2017 06:24:50 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:24:49 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:24:49 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:24:49 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:24:48 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:24:48 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:24:48 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:24:48 am ]  Testing...
-[ 03-31-2017 06:24:48 am ]  Testing device
-[ 03-31-2017 06:24:45 am ]  []
-[ 03-31-2017 06:24:45 am ]  sent: ATE0 got: OK
-[ 03-31-2017 06:24:45 am ]  sent: ATI got: OK
-[ 03-31-2017 06:24:44 am ]  sent: ATS0 got: OK
-[ 03-31-2017 06:24:44 am ]  sent: ATH1 got: OK
-[ 03-31-2017 06:24:44 am ]  sent: ATSP6 got: OK
-[ 03-31-2017 06:24:43 am ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 06:24:43 am ]  sent: ATDP got: OK
-[ 03-31-2017 06:24:43 am ]  sent: ATZ got: OK
-[ 03-31-2017 06:24:42 am ]  sent: ATE1 got: OK
-[ 03-31-2017 06:24:42 am ]  Testing...
-[ 03-31-2017 06:24:42 am ]  Testing device
-[ 03-31-2017 06:24:42 am ]  Connected welcome
-[ 03-31-2017 06:24:42 am ]  "OK"
-[ 03-31-2017 06:24:42 am ]  I am now connected to Bluetooth
-[ 03-31-2017 06:24:38 am ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 06:24:35 am ]  History file write done.
-[ 03-31-2017 06:24:35 am ]  Listing wifi networks
-[ 03-31-2017 06:24:35 am ]  Device connected false
-[ 03-31-2017 06:24:35 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:24:35 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
-[ 03-31-2017 06:24:35 am ]  Scanned
-[ 03-31-2017 06:24:35 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:24:35 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:24:35 am ]  Scanning inside manager
-[ 03-31-2017 06:24:35 am ]  Scanning...
-[ 03-31-2017 06:24:35 am ]  OBD log file write done.
-[ 03-31-2017 06:24:34 am ]  Listing wifi networks
-[ 03-31-2017 06:24:34 am ]  Device connected false
-[ 03-31-2017 06:24:34 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
-[ 03-31-2017 06:24:34 am ]  Scanned
-[ 03-31-2017 06:24:34 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 06:24:34 am ]  got 1 bluetooth accessories
-[ 03-31-2017 06:24:34 am ]  Scanning inside manager
-[ 03-31-2017 06:24:34 am ]  Scanning...
-[ 03-31-2017 06:24:34 am ]  Bluetooth is enabled
-[ 03-31-2017 06:24:34 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 06:24:33 am ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 06:24:33 am ]  Device is ready!
-[ 03-31-2017 06:24:33 am ]  Translating to en
-[ 03-31-2017 06:24:28 am ]  I'm running angular!
-[ 03-31-2017 06:24:28 am ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.3

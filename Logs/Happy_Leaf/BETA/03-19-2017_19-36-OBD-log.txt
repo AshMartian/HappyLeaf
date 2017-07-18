@@ -1,145 +1,0 @@
-[ 03-19-2017 07:49:02 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:48:56 pm ]  undefined
-[ 03-19-2017 07:48:56 pm ]  Setting history point
-[ 03-19-2017 07:48:47 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:48:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:48:26 pm ]  undefined
-[ 03-19-2017 07:48:26 pm ]  Setting history point
-[ 03-19-2017 07:48:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:48:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:47:56 pm ]  undefined
-[ 03-19-2017 07:47:56 pm ]  Setting history point
-[ 03-19-2017 07:47:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:47:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:47:26 pm ]  undefined
-[ 03-19-2017 07:47:26 pm ]  Setting history point
-[ 03-19-2017 07:47:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:47:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:46:56 pm ]  undefined
-[ 03-19-2017 07:46:56 pm ]  Setting history point
-[ 03-19-2017 07:46:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:46:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:46:26 pm ]  undefined
-[ 03-19-2017 07:46:26 pm ]  Setting history point
-[ 03-19-2017 07:46:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:46:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:45:56 pm ]  undefined
-[ 03-19-2017 07:45:56 pm ]  Setting history point
-[ 03-19-2017 07:45:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:45:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:45:26 pm ]  undefined
-[ 03-19-2017 07:45:26 pm ]  Setting history point
-[ 03-19-2017 07:45:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:45:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:44:56 pm ]  undefined
-[ 03-19-2017 07:44:56 pm ]  Setting history point
-[ 03-19-2017 07:44:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:44:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:44:26 pm ]  undefined
-[ 03-19-2017 07:44:26 pm ]  Setting history point
-[ 03-19-2017 07:44:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:44:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:43:56 pm ]  undefined
-[ 03-19-2017 07:43:56 pm ]  Setting history point
-[ 03-19-2017 07:43:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:43:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:43:26 pm ]  undefined
-[ 03-19-2017 07:43:26 pm ]  Setting history point
-[ 03-19-2017 07:43:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:43:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:42:56 pm ]  undefined
-[ 03-19-2017 07:42:56 pm ]  Setting history point
-[ 03-19-2017 07:42:45 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:42:30 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:42:26 pm ]  undefined
-[ 03-19-2017 07:42:26 pm ]  Setting history point
-[ 03-19-2017 07:42:15 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:42:00 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:41:56 pm ]  undefined
-[ 03-19-2017 07:41:56 pm ]  Setting history point
-[ 03-19-2017 07:41:43 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:41:28 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:41:24 pm ]  undefined
-[ 03-19-2017 07:41:24 pm ]  Setting history point
-[ 03-19-2017 07:41:13 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:40:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:40:54 pm ]  undefined
-[ 03-19-2017 07:40:54 pm ]  Setting history point
-[ 03-19-2017 07:40:43 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:40:28 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:40:24 pm ]  undefined
-[ 03-19-2017 07:40:24 pm ]  Setting history point
-[ 03-19-2017 07:40:13 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:39:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:39:54 pm ]  undefined
-[ 03-19-2017 07:39:54 pm ]  Setting history point
-[ 03-19-2017 07:39:43 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:39:27 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:39:24 pm ]  undefined
-[ 03-19-2017 07:39:24 pm ]  Setting history point
-[ 03-19-2017 07:39:13 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:38:57 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:38:54 pm ]  undefined
-[ 03-19-2017 07:38:54 pm ]  Setting history point
-[ 03-19-2017 07:38:42 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:38:27 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:38:18 pm ]  undefined
-[ 03-19-2017 07:38:18 pm ]  Setting history point
-[ 03-19-2017 07:38:13 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:37:57 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:37:49 pm ]  undefined
-[ 03-19-2017 07:37:48 pm ]  Setting history point
-[ 03-19-2017 07:37:43 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:37:27 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:37:19 pm ]  undefined
-[ 03-19-2017 07:37:18 pm ]  Setting history point
-[ 03-19-2017 07:37:12 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:36:57 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:36:54 pm ]  Connection Timeout..
-[ 03-19-2017 07:36:54 pm ]  Thread for SOC errored.
-[ 03-19-2017 07:36:53 pm ]  Going to home
-[ 03-19-2017 07:36:48 pm ]  Route Changed
-[ 03-19-2017 07:36:48 pm ]  init
-[ 03-19-2017 07:36:48 pm ]  Going to home
-[ 03-19-2017 07:36:47 pm ]  ATE0OK
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
-[ 03-19-2017 07:36:47 pm ]  Success!
-[ 03-19-2017 07:36:47 pm ]  ATIELM327 v1.5
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  ATS0OK
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  ATH1OK
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  ATSP6OK
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  STSBR 2000000?
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:47 pm ]  ATDPISO 15765-4 (CAN 11/500)
-[ 03-19-2017 07:36:47 pm ]  Subscribe got:
-[ 03-19-2017 07:36:46 pm ]  Success!
-[ 03-19-2017 07:36:46 pm ]  ATZELM327 v1.5
-[ 03-19-2017 07:36:46 pm ]  Subscribe got:
-[ 03-19-2017 07:36:45 pm ]  OK
-[ 03-19-2017 07:36:45 pm ]  Subscribe got:
-[ 03-19-2017 07:36:45 pm ]  Testing..
-[ 03-19-2017 07:36:45 pm ]  Connected welcome
-[ 03-19-2017 07:36:45 pm ]  "OK"
-[ 03-19-2017 07:36:45 pm ]  I am now connected
-[ 03-19-2017 07:36:44 pm ]  is Disconnected Not connected.
-[ 03-19-2017 07:36:42 pm ]  Devices connected undefined
-[ 03-19-2017 07:36:42 pm ]  Devices changed
-[ 03-19-2017 07:36:42 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-19-2017 07:36:42 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-19-2017 07:36:42 pm ]  scanned
-[ 03-19-2017 07:36:42 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-19-2017 07:36:42 pm ]  got 1 bluetooth accessories
-[ 03-19-2017 07:36:42 pm ]  Scanning inside manager
-[ 03-19-2017 07:36:42 pm ]  [object Object]
-[ 03-19-2017 07:36:42 pm ]  scanning...
-[ 03-19-2017 07:36:41 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-19-2017 07:36:41 pm ]  Bluetooth is enabled
-[ 03-19-2017 07:36:41 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-19-2017 07:36:41 pm ]  Device is ready!
-[ 03-19-2017 07:36:40 pm ]  I'm running angular!
-HappyLeaf Version 0.1.6

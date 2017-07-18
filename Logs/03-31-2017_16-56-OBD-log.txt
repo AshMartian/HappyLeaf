@@ -1,206 +1,0 @@
-[ 03-31-2017 04:57:58 pm ]  Testing...
-[ 03-31-2017 04:57:58 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 04:57:58 pm ]  Testing device
-[ 03-31-2017 04:57:57 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:57:56 pm ]  undefined
-[ 03-31-2017 04:57:56 pm ]  Setting history point
-[ 03-31-2017 04:57:51 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:51 pm ]  []
-[ 03-31-2017 04:57:51 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:46 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:46 pm ]  Sending 28 commands
-[ 03-31-2017 04:57:46 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:46 pm ]  Sending 28 commands
-[ 03-31-2017 04:57:46 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 04:57:46 pm ]  Route Changed
-[ 03-31-2017 04:57:46 pm ]  init
-[ 03-31-2017 04:57:46 pm ]  Testing...
-[ 03-31-2017 04:57:46 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 04:57:46 pm ]  Testing device
-[ 03-31-2017 04:57:46 pm ]  Connecting to wifi: 192.168.0.10
-[ 03-31-2017 04:57:44 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:57:44 pm ]  Completed command sequence, took 3613ms
-[ 03-31-2017 04:57:41 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:41 pm ]  Sending 28 commands
-[ 03-31-2017 04:57:39 pm ]  Listing wifi networks
-[ 03-31-2017 04:57:39 pm ]  Going to home
-[ 03-31-2017 04:57:39 pm ]  Device connected true
-[ 03-31-2017 04:57:39 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:39 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:39 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:32"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:247"}]
-[ 03-31-2017 04:57:39 pm ]  Scanning...
-[ 03-31-2017 04:57:39 pm ]  History file write done.
-[ 03-31-2017 04:57:38 pm ]  OBD log file write done.
-[ 03-31-2017 04:57:37 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:57:36 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 04:57:36 pm ]  Device is ready!
-[ 03-31-2017 04:57:36 pm ]  Translating to en
-[ 03-31-2017 04:57:36 pm ]  I'm running angular!
-[ 03-31-2017 04:57:31 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:57:31 pm ]  Sending 28 commands
-[ 03-31-2017 04:57:21 pm ]  undefined
-[ 03-31-2017 04:57:20 pm ]  Setting history point
-[ 03-31-2017 04:57:19 pm ]  Connected to Wifi!
-[ 03-31-2017 04:57:19 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:57:19 pm ]  Sending 28 commands
-[ 03-31-2017 04:57:19 pm ]  Completed command sequence, took 28818ms
-[ 03-31-2017 04:57:19 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:19 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:19 pm ]  Got 793  05 62 12 30 00 45 00 00 
-[ 03-31-2017 04:57:19 pm ]  Parsing 793
-[ 03-31-2017 04:57:19 pm ]  Sent 03221230
-[ 03-31-2017 04:57:19 pm ]  Received from wifi: 793 05 62 12 30 00 45 00 00 
-[ 03-31-2017 04:57:19 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:19 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:19 pm ]  Got 793  05 62 12 10 00 00 00 00 
-[ 03-31-2017 04:57:19 pm ]  Parsing 793
-[ 03-31-2017 04:57:19 pm ]  Sent 03221210
-[ 03-31-2017 04:57:19 pm ]  Received from wifi: 793 05 62 12 10 00 00 00 00 
-[ 03-31-2017 04:57:18 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:18 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:18 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:18 pm ]  Got 765  21 A2 00 F0 00 00 FF FF 
-[ 03-31-2017 04:57:18 pm ]  Parsing 765
-[ 03-31-2017 04:57:18 pm ]  Sent 022110
-[ 03-31-2017 04:57:18 pm ]  Got 765  10 0B 61 10 00 00 00 A1 
-[ 03-31-2017 04:57:18 pm ]  Parsing 765
-[ 03-31-2017 04:57:18 pm ]  Sent 022110
-[ 03-31-2017 04:57:18 pm ]  Received from wifi: 765 10 0B 61 10 00 00 00 A1 765 21 A2 00 F0 00 00 FF FF 
-[ 03-31-2017 04:57:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:16 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:16 pm ]  Got 763  21 3D 06 51 01 10 E0 00 
-[ 03-31-2017 04:57:16 pm ]  Parsing 763
-[ 03-31-2017 04:57:16 pm ]  Sent 022101
-[ 03-31-2017 04:57:16 pm ]  Got 763  10 82 61 01 00 00 00 06 
-[ 03-31-2017 04:57:16 pm ]  Parsing 763
-[ 03-31-2017 04:57:16 pm ]  Sent 022101
-[ 03-31-2017 04:57:16 pm ]  Received from wifi: 763 10 82 61 01 00 00 00 06 763 21 3D 06 51 01 10 E0 00 
-[ 03-31-2017 04:57:15 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:15 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:14 pm ]  Got 7BB cell voltage   21 11 12 02 18 12 02 1E 
-[ 03-31-2017 04:57:14 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:14 pm ]  Sent 022104
-[ 03-31-2017 04:57:14 pm ]  Got 7BB cell voltage   10 10 61 04 02 08 13 02 
-[ 03-31-2017 04:57:14 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:14 pm ]  Sent 022104
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: 7BB 10 10 61 04 02 08 13 02 7BB 21 11 12 02 18 12 02 1E 7BB 22 11 11 0C FF FF FF FF 
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:14 pm ]  Got 7BB cell voltage   21 02 88 FF FF BE 8C FF 
-[ 03-31-2017 04:57:14 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:14 pm ]  Sent 022101
-[ 03-31-2017 04:57:14 pm ]  Got 7BB cell voltage   10 29 61 01 FF FF A0 A1 
-[ 03-31-2017 04:57:14 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:14 pm ]  Sent 022101
-[ 03-31-2017 04:57:14 pm ]  Received from wifi: 7BB 10 29 61 01 FF FF A0 A1 7BB 21 02 88 FF FF BE 8C FF 7BB 22 FF FF FF 09 AA 2A F8 7BB 23 95 3D 32 E8 03 87 00 7BB 24 5C 1C 62 00 0A 99 6C 7BB 25 00 08 9F 56 80 00 01 
-[ 03-31-2017 04:57:13 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:13 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:13 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:13 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:13 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:13 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:13 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:13 pm ]  Parsing 79A
-[ 03-31-2017 04:57:13 pm ]  Sent ATSH79B
-[ 03-31-2017 04:57:13 pm ]  Received from wifi: 79A 02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:09 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:09 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:09 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:08 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:08 pm ]  Connection Timeout..
-[ 03-31-2017 04:57:08 pm ]  Got 763  21 B1 04 C0 01 10 E0 00 
-[ 03-31-2017 04:57:08 pm ]  Parsing 763
-[ 03-31-2017 04:57:08 pm ]  Sent 022101
-[ 03-31-2017 04:57:08 pm ]  Got 763  10 82 61 01 00 00 00 04 
-[ 03-31-2017 04:57:08 pm ]  Parsing 763
-[ 03-31-2017 04:57:08 pm ]  Sent 022101
-[ 03-31-2017 04:57:08 pm ]  Received from wifi: 763 10 82 61 01 00 00 00 04 763 21 B1 04 C0 01 10 E0 00 
-[ 03-31-2017 04:57:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:07 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:07 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:07 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:07 pm ]  Got 7BB cell voltage   21 11 12 02 18 12 02 1D 
-[ 03-31-2017 04:57:07 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:07 pm ]  Sent 022104
-[ 03-31-2017 04:57:07 pm ]  Got 7BB cell voltage   10 10 61 04 02 07 13 02 
-[ 03-31-2017 04:57:07 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:07 pm ]  Sent 022104
-[ 03-31-2017 04:57:07 pm ]  Received from wifi: 7BB 10 10 61 04 02 07 13 02 7BB 21 11 12 02 18 12 02 1D 7BB 22 11 11 0D FF FF FF FF 
-[ 03-31-2017 04:57:06 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:06 pm ]  Got 7BB cell voltage   21 02 88 FF FF DC 47 FF 
-[ 03-31-2017 04:57:06 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:06 pm ]  Sent 022101
-[ 03-31-2017 04:57:06 pm ]  Got 7BB cell voltage   10 29 61 01 FF FF CF 99 
-[ 03-31-2017 04:57:06 pm ]  Parsing 7BB
-[ 03-31-2017 04:57:06 pm ]  Sent 022101
-[ 03-31-2017 04:57:06 pm ]  Received from wifi: 7BB 10 29 61 01 FF FF CF 99 7BB 21 02 88 FF FF DC 47 FF 7BB 22 FF FF FF 09 A6 2A F8 7BB 23 95 5B 33 0C 03 87 00 7BB 24 5C 1C 62 00 0A 99 F5 7BB 25 00 08 9F 56 80 00 05 
-[ 03-31-2017 04:57:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:05 pm ]  Received from wifi: >
-[ 03-31-2017 04:57:05 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:05 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:05 pm ]  EVSE message invalid length
-[ 03-31-2017 04:57:05 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:05 pm ]  Parsing 79A
-[ 03-31-2017 04:57:05 pm ]  Sent 0210C0
-[ 03-31-2017 04:57:05 pm ]  Received from wifi: 79A 02 50 C0 00 00 00 00 00 
-[ 03-31-2017 04:57:04 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:04 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:04 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:02 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:01 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:57:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 04:56:56 pm ]  Received from wifi: ?>
-[ 03-31-2017 04:56:50 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:50 pm ]  Sending 28 commands
-[ 03-31-2017 04:56:50 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:50 pm ]  Sending 28 commands
-[ 03-31-2017 04:56:50 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 04:56:50 pm ]  Route Changed
-[ 03-31-2017 04:56:50 pm ]  init
-[ 03-31-2017 04:56:50 pm ]  Listing wifi networks
-[ 03-31-2017 04:56:50 pm ]  History file write done.
-[ 03-31-2017 04:56:50 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:56:50 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:56:50 pm ]  Going to home
-[ 03-31-2017 04:56:50 pm ]  Device connected true
-[ 03-31-2017 04:56:50 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:50 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:50 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:32"}]
-[ 03-31-2017 04:56:50 pm ]  Scanning...
-[ 03-31-2017 04:56:49 pm ]  Device connected true
-[ 03-31-2017 04:56:49 pm ]  OBD log file write done.
-[ 03-31-2017 04:56:48 pm ]  Listing wifi networks
-[ 03-31-2017 04:56:48 pm ]  Connected to Wifi!
-[ 03-31-2017 04:56:48 pm ]  Device connected false
-[ 03-31-2017 04:56:48 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:48 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:56:48 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
-[ 03-31-2017 04:56:48 pm ]  Scanned
-[ 03-31-2017 04:56:48 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 04:56:48 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 04:56:48 pm ]  Scanning inside manager
-[ 03-31-2017 04:56:48 pm ]  Scanning...
-[ 03-31-2017 04:56:48 pm ]  Bluetooth is enabled
-[ 03-31-2017 04:56:48 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:56:47 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 04:56:47 pm ]  Device is ready!
-[ 03-31-2017 04:56:47 pm ]  Translating to en
-[ 03-31-2017 04:56:41 pm ]  I'm running angular!
-[ 03-31-2017 04:56:41 pm ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.3

@@ -1,2714 +1,0 @@
-[ 03-31-2017 04:20:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:20:13 pm ]  sent: X got: OK
-[ 03-31-2017 04:20:13 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:20:13 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:20:13 pm ]  Parsing 79A
-[ 03-31-2017 04:20:13 pm ]  Sent OK
-[ 03-31-2017 04:20:13 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:20:13 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:20:13 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:20:13 pm ]  Got 79A 037F228000000000
-[ 03-31-2017 04:20:13 pm ]  Got 79A 037F228000000000
-[ 03-31-2017 04:20:13 pm ]  Parsing 79A
-[ 03-31-2017 04:20:13 pm ]  Sent OK
-[ 03-31-2017 04:20:13 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:20:13 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:20:13 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:20:13 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:20:12 pm ]  Parsing 0C 
-[ 03-31-2017 04:20:12 pm ]  Sent OK
-[ 03-31-2017 04:20:12 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:20:12 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:20:12 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:20:12 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:20:12 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:20:11 pm ]  sent: X got: OK
-[ 03-31-2017 04:20:11 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:20:11 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:20:11 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:20:11 pm ]  Parsing 79A
-[ 03-31-2017 04:20:11 pm ]  Sent OK
-[ 03-31-2017 04:20:11 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:20:10 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:20:06 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:20:06 pm ]  Sending 28 commands
-[ 03-31-2017 04:20:03 pm ]  undefined
-[ 03-31-2017 04:20:03 pm ]  Setting history point
-[ 03-31-2017 04:19:48 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:19:48 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:19:48 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 04:19:48 pm ]  Parsing 79A
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:19:48 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:19:48 pm ]  Parsing BUF
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got 12v Battery voltage 76
-[ 03-31-2017 04:19:48 pm ]  Parsing 292
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 245
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 2DE
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got Seat Belts 01FFC00003F5FFC0
-[ 03-31-2017 04:19:48 pm ]  Parsing 280
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got ODO! 4800A984000C0000
-[ 03-31-2017 04:19:48 pm ]  Parsing 5C5
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:19:48 pm ]  Parsing 625
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 1CA
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got target braking FFD00CC260025E
-[ 03-31-2017 04:19:48 pm ]  Parsing 1CB
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 216
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 215
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 300
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got available regen 5A0F1880
-[ 03-31-2017 04:19:48 pm ]  Parsing 260
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 1F9
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got turning angle! 08052C0704
-[ 03-31-2017 04:19:48 pm ]  Parsing 002
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:19:48 pm ]  Parsing 1D5
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got motor Amps 0000FF9FFA002900
-[ 03-31-2017 04:19:48 pm ]  Parsing 180
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Got motor Volts 005502AA000009
-[ 03-31-2017 04:19:48 pm ]  Parsing 176
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  Parsing 174
-[ 03-31-2017 04:19:48 pm ]  Sent OK
-[ 03-31-2017 04:19:48 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:19:48 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:47 pm ]  Parsing 0C 
-[ 03-31-2017 04:19:47 pm ]  Sent OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:19:47 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:19:46 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: X got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:19:45 pm ]  Parsing BUF
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got 12v Battery voltage 6F285A88
-[ 03-31-2017 04:19:45 pm ]  Parsing 292
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 245
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 1F9
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got regen braking 00000000D6
-[ 03-31-2017 04:19:45 pm ]  Parsing 1D5
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got motor Amps 0000FE3FE4002400
-[ 03-31-2017 04:19:45 pm ]  Parsing 180
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got motor Volts 00B605A5000004
-[ 03-31-2017 04:19:45 pm ]  Parsing 176
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 174
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 2DE
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got Seat Belts 01FFC000084AFFC0
-[ 03-31-2017 04:19:45 pm ]  Parsing 280
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 1CA
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got target braking FFD05D026002FF
-[ 03-31-2017 04:19:45 pm ]  Parsing 1CB
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 300
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got turning angle! 5CFB000728
-[ 03-31-2017 04:19:45 pm ]  Parsing 002
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 216
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 215
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Got Climate data 0108801204000000
-[ 03-31-2017 04:19:45 pm ]  Parsing 54B
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 54A
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  Parsing 130
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:19:45 pm ]  Got 763 037F2211FFFFFFFF
-[ 03-31-2017 04:19:45 pm ]  Parsing 763
-[ 03-31-2017 04:19:45 pm ]  Sent OK
-[ 03-31-2017 04:19:45 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:45 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:44 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:19:44 pm ]  Sending 28 commands
-[ 03-31-2017 04:19:35 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:19:35 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:19:35 pm ]  Sending 28 commands
-[ 03-31-2017 04:19:33 pm ]  undefined
-[ 03-31-2017 04:19:33 pm ]  Setting history point
-[ 03-31-2017 04:19:25 pm ]  Parsing BUF
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2000000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2F501043A0000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2EFFE0FFE0008A23
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2DC008C000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  History file write done.
-[ 03-31-2017 04:19:25 pm ]  Got 763 2C00369858705005
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2B00000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2A00000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 29000000FF000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2800000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2700000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2600000168000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2502000000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2400100000000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2300000040000000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 2200000000002000
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 21BB190B0110CD00
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  Got 763 1082610100000018
-[ 03-31-2017 04:19:25 pm ]  Parsing 763
-[ 03-31-2017 04:19:25 pm ]  Sent OK
-[ 03-31-2017 04:19:25 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:19:25 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:19:24 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:19:24 pm ]  Sending 28 commands
-[ 03-31-2017 04:19:24 pm ]  OBD log file write done.
-[ 03-31-2017 04:19:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:19:15 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:19:15 pm ]  sent: X got: OK
-[ 03-31-2017 04:19:15 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:19:14 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:19:14 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:19:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:19:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:19:06 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: X got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:19:05 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:19:04 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:19:04 pm ]  Sending 28 commands
-[ 03-31-2017 04:19:03 pm ]  undefined
-[ 03-31-2017 04:19:03 pm ]  Setting history point
-[ 03-31-2017 04:18:56 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:18:56 pm ]  Parsing BUF
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 50D
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:18:56 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got motor Amps 0000FD7FD7002E00
-[ 03-31-2017 04:18:56 pm ]  Parsing 180
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got motor Volts 0136099D00000E
-[ 03-31-2017 04:18:56 pm ]  Parsing 176
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 174
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 130
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got 12v Battery voltage 77481E8070000802
-[ 03-31-2017 04:18:56 pm ]  Parsing 292
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 245
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got turning angle! D6FF00071D
-[ 03-31-2017 04:18:56 pm ]  Parsing 002
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:56 pm ]  Sent OK
-[ 03-31-2017 04:18:56 pm ]  Got target braking FFD036C2600268
-[ 03-31-2017 04:18:55 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:18:55 pm ]  Parsing 625
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got Seat Belts 01FFC0000E2EFFC0
-[ 03-31-2017 04:18:55 pm ]  Parsing 280
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 216
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 215
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:55 pm ]  Parsing BUF
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got available regen 5A
-[ 03-31-2017 04:18:55 pm ]  Parsing 260
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:18:55 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got motor Amps 0000FD5FD6002500
-[ 03-31-2017 04:18:55 pm ]  Parsing 180
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got motor Volts 01490A34000005
-[ 03-31-2017 04:18:55 pm ]  Parsing 176
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 174
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 130
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got 12v Battery voltage 7888148040000701
-[ 03-31-2017 04:18:55 pm ]  Parsing 292
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 245
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got turning angle! D6FF0007F3
-[ 03-31-2017 04:18:55 pm ]  Parsing 002
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got target braking FFD02EC26000B2
-[ 03-31-2017 04:18:55 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got Vehicle speed! 0F091039200060
-[ 03-31-2017 04:18:55 pm ]  Parsing 355
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Got Seat Belts 01FFC0000F09FFC0
-[ 03-31-2017 04:18:55 pm ]  Parsing 280
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 216
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  Parsing 215
-[ 03-31-2017 04:18:55 pm ]  Sent OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: X got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:18:55 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:18:54 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:18:54 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:54 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:54 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:18:54 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:18:54 pm ]  Sending 28 commands
-[ 03-31-2017 04:18:44 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:18:44 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:18:44 pm ]  Sending 28 commands
-[ 03-31-2017 04:18:33 pm ]  undefined
-[ 03-31-2017 04:18:33 pm ]  Setting history point
-[ 03-31-2017 04:18:27 pm ]  sent: X got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:18:27 pm ]  Parsing BUF
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got 12v Battery voltage 98681480A000000
-[ 03-31-2017 04:18:27 pm ]  Parsing 292
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 245
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got target braking FFD00000600086
-[ 03-31-2017 04:18:27 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got Vehicle speed! 05F00467200060
-[ 03-31-2017 04:18:27 pm ]  Parsing 355
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:27 pm ]  Got Seat Belts 01FFC00005F0FFC0
-[ 03-31-2017 04:18:27 pm ]  Parsing 280
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got available regen 5A082750
-[ 03-31-2017 04:18:27 pm ]  Parsing 260
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  sent: X got: OK
-[ 03-31-2017 04:18:27 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 04:18:27 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got motor Amps 0000379379C7AF00
-[ 03-31-2017 04:18:27 pm ]  Parsing 180
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got motor Volts 0085042400000F
-[ 03-31-2017 04:18:27 pm ]  Parsing 176
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 174
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got turning angle! 4CFF00074B
-[ 03-31-2017 04:18:27 pm ]  Parsing 002
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 216
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 215
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:18:27 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:18:27 pm ]  Parsing BUF
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 245
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got target braking FFD00000600209
-[ 03-31-2017 04:18:27 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 50D
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got 'transmission' status 200000
-[ 03-31-2017 04:18:27 pm ]  Parsing 421
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got Seat Belts 01FFC0000000FFC0
-[ 03-31-2017 04:18:27 pm ]  Parsing 280
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got regen braking 00000000D6
-[ 03-31-2017 04:18:27 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:27 pm ]  Got motor Amps 000024724848A400
-[ 03-31-2017 04:18:27 pm ]  Parsing 180
-[ 03-31-2017 04:18:27 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Got motor Volts 001900C7000004
-[ 03-31-2017 04:18:26 pm ]  Parsing 176
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 174
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Got turning angle! 2C011907DD
-[ 03-31-2017 04:18:26 pm ]  Parsing 002
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 02A
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 216
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 215
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 35D
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  Parsing 130
-[ 03-31-2017 04:18:26 pm ]  Sent OK
-[ 03-31-2017 04:18:26 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:26 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:18:26 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 0C 
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:18:25 pm ]  Parsing BUF
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got target braking FFD00000600103
-[ 03-31-2017 04:18:25 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got turning angle! 87042C0764
-[ 03-31-2017 04:18:25 pm ]  Parsing 002
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 300
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 5F8
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 5EB
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 5E4
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got regen braking 00000000D6
-[ 03-31-2017 04:18:25 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got motor Amps 00001B61E324EC00
-[ 03-31-2017 04:18:25 pm ]  Parsing 180
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got motor Volts 0006003100000C
-[ 03-31-2017 04:18:25 pm ]  Parsing 176
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 174
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 130
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got 12v Battery voltage 8D27F68090000001
-[ 03-31-2017 04:18:25 pm ]  Parsing 292
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 245
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got target braking FFD00000600086
-[ 03-31-2017 04:18:25 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: X got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:18:25 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:18:25 pm ]  Parsing BUF
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Speed message invalid length
-[ 03-31-2017 04:18:25 pm ]  Got Vehicle speed! 016C01
-[ 03-31-2017 04:18:25 pm ]  Parsing 355
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got available regen 5A0A1800
-[ 03-31-2017 04:18:25 pm ]  Parsing 260
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:18:25 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got motor Amps 00000F815D002D00
-[ 03-31-2017 04:18:25 pm ]  Parsing 180
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got motor Volts 001D00EA00000D
-[ 03-31-2017 04:18:25 pm ]  Parsing 176
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 174
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  sent: X got: OK
-[ 03-31-2017 04:18:25 pm ]  Got Seat Belts 01FFC000016CFFC0
-[ 03-31-2017 04:18:25 pm ]  Parsing 280
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got turning angle! B00B4D07D3
-[ 03-31-2017 04:18:25 pm ]  Parsing 002
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got tire pressures 000099969C93F0
-[ 03-31-2017 04:18:25 pm ]  Parsing 385
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:18:25 pm ]  Parsing 625
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 216
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 215
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 130
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 285
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Got distance traveled 02A403250162B067
-[ 03-31-2017 04:18:25 pm ]  Parsing 284
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:25 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:25 pm ]  Sent OK
-[ 03-31-2017 04:18:24 pm ]  History file write done.
-[ 03-31-2017 04:18:24 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:24 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:18:24 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:24 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:18:24 pm ]  OBD log file write done.
-[ 03-31-2017 04:18:24 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:18:24 pm ]  Sending 28 commands
-[ 03-31-2017 04:18:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:18:16 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:16 pm ]  Parsing 5E3
-[ 03-31-2017 04:18:16 pm ]  Sent OK
-[ 03-31-2017 04:18:16 pm ]  Got ODO! 4400A983000C0000
-[ 03-31-2017 04:18:16 pm ]  Parsing 5C5
-[ 03-31-2017 04:18:16 pm ]  Sent OK
-[ 03-31-2017 04:18:16 pm ]  Parsing 5E4
-[ 03-31-2017 04:18:16 pm ]  Sent OK
-[ 03-31-2017 04:18:16 pm ]  Got ODO! 4400A983000C0000
-[ 03-31-2017 04:18:16 pm ]  Parsing 5C5
-[ 03-31-2017 04:18:16 pm ]  Sent OK
-[ 03-31-2017 04:18:16 pm ]  Parsing 5E4
-[ 03-31-2017 04:18:16 pm ]  Sent OK
-[ 03-31-2017 04:18:16 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:18:15 pm ]  Parsing BUF
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 02A
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 216
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 215
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got turning angle! CBF50907DE
-[ 03-31-2017 04:18:15 pm ]  Parsing 002
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 130
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got 12v Battery voltage 81E8148000000F02
-[ 03-31-2017 04:18:15 pm ]  Parsing 292
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got available regen 5A0A1900
-[ 03-31-2017 04:18:15 pm ]  Parsing 260
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 245
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:18:15 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got target braking FFD064026002F3
-[ 03-31-2017 04:18:15 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got motor Amps 0000004000002D00
-[ 03-31-2017 04:18:15 pm ]  Parsing 180
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got motor Volts 0000000000000D
-[ 03-31-2017 04:18:15 pm ]  Parsing 176
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 174
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got Seat Belts 01FFC0000000FFC0
-[ 03-31-2017 04:18:15 pm ]  Parsing 280
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:15 pm ]  Parsing BUF
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 6F6
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got 12v Battery voltage 8288148000001603
-[ 03-31-2017 04:18:15 pm ]  Parsing 292
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:18:15 pm ]  Got available regen 5A0A1900
-[ 03-31-2017 04:18:15 pm ]  Parsing 260
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 245
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 1F9
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got target braking FFD08B826000CD
-[ 03-31-2017 04:18:15 pm ]  Parsing 1CB
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 1CA
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:18:15 pm ]  Parsing 1D5
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got motor Amps 0000004013002900
-[ 03-31-2017 04:18:15 pm ]  Parsing 180
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got motor Volts 00000000000009
-[ 03-31-2017 04:18:15 pm ]  Parsing 176
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 174
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:18:15 pm ]  Parsing 355
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Parsing 2DE
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got Seat Belts 01FFC0000000FFC0
-[ 03-31-2017 04:18:15 pm ]  Parsing 280
-[ 03-31-2017 04:18:15 pm ]  Sent OK
-[ 03-31-2017 04:18:15 pm ]  Got ODO! 4400A983000C0000
-[ 03-31-2017 04:18:15 pm ]  Parsing 5C5
-[ 03-31-2017 04:18:14 pm ]  Sent OK
-[ 03-31-2017 04:18:14 pm ]  Got turning angle! A8F5000787
-[ 03-31-2017 04:18:14 pm ]  Parsing 002
-[ 03-31-2017 04:18:14 pm ]  Sent OK
-[ 03-31-2017 04:18:14 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:18:14 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:18:14 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:18:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:18:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:18:04 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:18:04 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:18:04 pm ]  Sending 28 commands
-[ 03-31-2017 04:18:03 pm ]  undefined
-[ 03-31-2017 04:18:03 pm ]  Setting history point
-[ 03-31-2017 04:17:54 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:54 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:54 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:44 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:44 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:44 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:35 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:17:34 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:34 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:33 pm ]  undefined
-[ 03-31-2017 04:17:33 pm ]  Setting history point
-[ 03-31-2017 04:17:26 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:26 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:17:25 pm ]  Parsing BUF
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 130
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got 12v Battery voltage 8288148010000003
-[ 03-31-2017 04:17:25 pm ]  Parsing 292
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 245
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:17:25 pm ]  Parsing 355
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 2DE
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got Seat Belts 03FFC0000000FFC0
-[ 03-31-2017 04:17:25 pm ]  Parsing 280
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got Parking Brake 1602FD
-[ 03-31-2017 04:17:25 pm ]  Parsing 58A
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got Cruise Control 00000080FF000000
-[ 03-31-2017 04:17:25 pm ]  Got Cruise Control 00000080FF000000
-[ 03-31-2017 04:17:25 pm ]  Parsing 551
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got 'transmission' status 080000
-[ 03-31-2017 04:17:25 pm ]  Parsing 421
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got target braking FFD0000060038C
-[ 03-31-2017 04:17:25 pm ]  Parsing 1CB
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 1CA
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 1F9
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:17:25 pm ]  Parsing 1D5
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got motor Amps 0000000000002600
-[ 03-31-2017 04:17:25 pm ]  Parsing 180
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got motor Volts 00000000000006
-[ 03-31-2017 04:17:25 pm ]  Parsing 176
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 174
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Parsing 216
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  Got turning angle! A8F500070F
-[ 03-31-2017 04:17:25 pm ]  Parsing 002
-[ 03-31-2017 04:17:25 pm ]  Sent OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:17:25 pm ]  History file write done.
-[ 03-31-2017 04:17:25 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:17:25 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:17:24 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:24 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:24 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:24 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:24 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:24 pm ]  OBD log file write done.
-[ 03-31-2017 04:17:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:17:16 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:17:15 pm ]  Parsing 0C 
-[ 03-31-2017 04:17:15 pm ]  Sent OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:15 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:15 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:15 pm ]  Completed command sequence, took 348ms, received 13 messages, 11 force send requests
-[ 03-31-2017 04:17:15 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:15 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:17:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:14 pm ]  Completed command sequence, took 374ms, received 17 messages, 22 force send requests
-[ 03-31-2017 04:17:14 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 0C 
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:17:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:14 pm ]  Completed command sequence, took 147ms, received 21 messages, 0 force send requests
-[ 03-31-2017 04:17:14 pm ]  sent: X got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:17:14 pm ]  Parsing BUF
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 2DE
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got Parking Brake 0600FD
-[ 03-31-2017 04:17:14 pm ]  Parsing 58A
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 1CA
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got target braking FFD037026002B2
-[ 03-31-2017 04:17:14 pm ]  Parsing 1CB
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 216
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 215
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 130
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got 12v Battery voltage 7748008000000800
-[ 03-31-2017 04:17:14 pm ]  Parsing 292
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got available regen 5A061750
-[ 03-31-2017 04:17:14 pm ]  Parsing 260
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 245
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 1F9
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 04:17:14 pm ]  Parsing 1D5
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got motor Amps 0000FD8FD9002300
-[ 03-31-2017 04:17:14 pm ]  Parsing 180
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got motor Volts 012108F6000003
-[ 03-31-2017 04:17:14 pm ]  Parsing 176
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got turning angle! F8FF000722
-[ 03-31-2017 04:17:14 pm ]  Parsing 002
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 174
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Parsing 2DE
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Got Seat Belts 01FFC0000D2BFFC0
-[ 03-31-2017 04:17:14 pm ]  Parsing 280
-[ 03-31-2017 04:17:14 pm ]  Sent OK
-[ 03-31-2017 04:17:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:14 pm ]  Completed command sequence, took 381ms, received 237 messages, 1 force send requests
-[ 03-31-2017 04:17:14 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:17:14 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:17:14 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:17:14 pm ]  Sending 28 commands
-[ 03-31-2017 04:17:03 pm ]  undefined
-[ 03-31-2017 04:17:03 pm ]  Setting history point
-[ 03-31-2017 04:16:57 pm ]  Got 7BB cell voltage  0250C0FFFFFFFFFF
-[ 03-31-2017 04:16:57 pm ]  Parsing 7BB
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:16:57 pm ]  Parsing BUF
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 1CA
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got target braking FFD00F026001A2
-[ 03-31-2017 04:16:57 pm ]  Parsing 1CB
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 351
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 130
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 354
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 285
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got distance traveled 205520320F75895A
-[ 03-31-2017 04:16:57 pm ]  Parsing 284
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 216
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got available regen 5A0516C0
-[ 03-31-2017 04:16:57 pm ]  Parsing 260
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 215
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 1F9
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 04:16:57 pm ]  Parsing 1D5
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got motor Amps 0000FD5FD5002F00
-[ 03-31-2017 04:16:57 pm ]  Parsing 180
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got motor Volts 01570AA400000F
-[ 03-31-2017 04:16:57 pm ]  Parsing 176
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 174
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:16:57 pm ]  Parsing 2DE
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  Got turning angle! E1FF0007D5
-[ 03-31-2017 04:16:57 pm ]  Parsing 002
-[ 03-31-2017 04:16:57 pm ]  Sent OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:16:57 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 0A 
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:56 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:16:56 pm ]  Completed command sequence, took 435ms
-[ 03-31-2017 04:16:56 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:56 pm ]  sent: X got: OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:56 pm ]  Parsing BUF
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 215
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got turning angle! E5FF0007B7
-[ 03-31-2017 04:16:56 pm ]  Parsing 002
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 1CA
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got target braking FFD00D8260028F
-[ 03-31-2017 04:16:56 pm ]  Parsing 1CB
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 50D
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 130
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got 12v Battery voltage 7C481E8020000102
-[ 03-31-2017 04:16:56 pm ]  Parsing 292
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 1F9
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:16:56 pm ]  Parsing 1D5
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got motor Amps 0000FD5FD4002200
-[ 03-31-2017 04:16:56 pm ]  Parsing 180
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got motor Volts 01570AA6000002
-[ 03-31-2017 04:16:56 pm ]  Parsing 176
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 174
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 245
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 300
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 2DE
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:16:56 pm ]  Got Seat Belts 01FFC0000FA3FFC0
-[ 03-31-2017 04:16:56 pm ]  Parsing 280
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got turning angle! E5FF0007A6
-[ 03-31-2017 04:16:56 pm ]  Parsing 002
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 764
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing BUF
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 385
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got target braking FFD00642600046
-[ 03-31-2017 04:16:56 pm ]  Parsing 1CB
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 1CA
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  GIDs: 227 Temp: 63.5 offset = 98.375 GID watts 17306.621875
-[ 03-31-2017 04:16:56 pm ]  Got battery SOH: 70ACFFFFFCE362CA
-[ 03-31-2017 04:16:56 pm ]  Parsing 5B3
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got available regen 5A0516D0
-[ 03-31-2017 04:16:56 pm ]  Parsing 260
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:16:56 pm ]  Completed command sequence, took 208ms
-[ 03-31-2017 04:16:56 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 1F9
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:16:56 pm ]  Parsing 1D5
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got motor Amps 0000FD5FD5002100
-[ 03-31-2017 04:16:56 pm ]  Parsing 180
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got motor Volts 01560A9D000001
-[ 03-31-2017 04:16:56 pm ]  Parsing 176
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 174
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 130
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got 12v Battery voltage 7CE8288020000001
-[ 03-31-2017 04:16:56 pm ]  Parsing 292
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 245
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 300
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got Vehicle speed! 0F930FD7200060
-[ 03-31-2017 04:16:56 pm ]  Parsing 355
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 2DE
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  Got Seat Belts 01FFC0000F93FFC0
-[ 03-31-2017 04:16:56 pm ]  Parsing 280
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:56 pm ]  Parsing 0C 
-[ 03-31-2017 04:16:56 pm ]  Sent OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:56 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:56 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:16:56 pm ]  Completed command sequence, took 307ms
-[ 03-31-2017 04:16:56 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:55 pm ]  Parsing BUF
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got distance traveled 200
-[ 03-31-2017 04:16:55 pm ]  Parsing 284
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:16:55 pm ]  Parsing 625
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 2DE
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 216
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 215
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got turning angle! E5FF000795
-[ 03-31-2017 04:16:55 pm ]  Parsing 002
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 02A
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got Cruise Control 00000080FF000000
-[ 03-31-2017 04:16:55 pm ]  Got Cruise Control 00000080FF000000
-[ 03-31-2017 04:16:55 pm ]  Parsing 551
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 1F9
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:16:55 pm ]  Parsing 1D5
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got motor Amps 0000FD5FD5002200
-[ 03-31-2017 04:16:55 pm ]  Parsing 180
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got motor Volts 01540A91000002
-[ 03-31-2017 04:16:55 pm ]  Parsing 176
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 174
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 1CA
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got target braking FFD003826000C4
-[ 03-31-2017 04:16:55 pm ]  Parsing 1CB
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 300
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 130
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Got 12v Battery voltage 7C48148020000001
-[ 03-31-2017 04:16:55 pm ]  Parsing 292
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 245
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 0C 
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:55 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:16:55 pm ]  Completed command sequence, took 429ms
-[ 03-31-2017 04:16:55 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 764
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  sent: 0319020F got: OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATFCSH744 got: OK
-[ 03-31-2017 04:16:55 pm ]  Parsing 0C 
-[ 03-31-2017 04:16:55 pm ]  Sent OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATSH744 got: OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:55 pm ]  Beginning DTC request
-[ 03-31-2017 04:16:55 pm ]  Completed command sequence, took 1181ms
-[ 03-31-2017 04:16:55 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:55 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:16:54 pm ]  Parsing BUF
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 5FB
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 5FC
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 5FA
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 130
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 354
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 285
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got distance traveled 1F031EED0ED7079F
-[ 03-31-2017 04:16:54 pm ]  Parsing 284
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 2DE
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 216
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got available regen 5A051700
-[ 03-31-2017 04:16:54 pm ]  Parsing 260
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 215
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 1F9
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:16:54 pm ]  Parsing 1D5
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got turning angle! F4FF0007D1
-[ 03-31-2017 04:16:54 pm ]  Parsing 002
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got motor Amps 0000FD6FD6002100
-[ 03-31-2017 04:16:54 pm ]  Parsing 180
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Got motor Volts 014A0A3C000001
-[ 03-31-2017 04:16:54 pm ]  Parsing 176
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  Parsing 174
-[ 03-31-2017 04:16:54 pm ]  Sent OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:16:54 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:54 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:54 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:44 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:16:44 pm ]  Parsing 0C 
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:16:44 pm ]  Parsing 354
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:44 pm ]  Got Headlight status: 000A800000000000
-[ 03-31-2017 04:16:44 pm ]  Parsing 358
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  Got Vehicle speed! 0F100F7D200060
-[ 03-31-2017 04:16:44 pm ]  Parsing 355
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:16:44 pm ]  Got Vehicle speed! 0F110F7D200060
-[ 03-31-2017 04:16:44 pm ]  Parsing 355
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:16:44 pm ]  Got Headlight status: 000A800000000000
-[ 03-31-2017 04:16:44 pm ]  Parsing 358
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  Parsing 354
-[ 03-31-2017 04:16:44 pm ]  Sent OK
-[ 03-31-2017 04:16:44 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:16:44 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:16:44 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:44 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:34 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:16:34 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:16:34 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:34 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:33 pm ]  undefined
-[ 03-31-2017 04:16:33 pm ]  Setting history point
-[ 03-31-2017 04:16:25 pm ]  History file write done.
-[ 03-31-2017 04:16:24 pm ]  OBD log file write done.
-[ 03-31-2017 04:16:24 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:16:24 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:24 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:16:10 pm ]  Parsing 5F8
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5EB
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E3
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got possible charging/discharging current C0686E1F90C81800
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C0
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FB
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FC
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FA
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5F9
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5F8
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5EB
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E3
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got possible charging/discharging current 806A701F90C81800
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C0
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FB
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FC
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5FA
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:10 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5F9
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5F8
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:10 pm ]  Parsing 5EB
-[ 03-31-2017 04:16:10 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:09 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:09 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:09 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  Parsing 5E4
-[ 03-31-2017 04:16:09 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  Got ODO! 4800A983000C0000
-[ 03-31-2017 04:16:09 pm ]  Parsing 5C5
-[ 03-31-2017 04:16:09 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:16:09 pm ]  Got Turn Signal status: 0006180000000000
-[ 03-31-2017 04:16:09 pm ]  Parsing 60D
-[ 03-31-2017 04:16:09 pm ]  Sent OK
-[ 03-31-2017 04:16:09 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:16:09 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:04 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:16:04 pm ]  Parsing 625
-[ 03-31-2017 04:16:04 pm ]  Sent OK
-[ 03-31-2017 04:16:04 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:04 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:04 pm ]  Completed command sequence, took 836ms, received 62 messages, 2 force send requests
-[ 03-31-2017 04:16:04 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:16:04 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:16:04 pm ]  Parsing 625
-[ 03-31-2017 04:16:04 pm ]  Sent OK
-[ 03-31-2017 04:16:04 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:16:04 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:16:04 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:16:04 pm ]  Sending 28 commands
-[ 03-31-2017 04:16:03 pm ]  undefined
-[ 03-31-2017 04:16:03 pm ]  Setting history point
-[ 03-31-2017 04:15:54 pm ]  Got 765 2E00FFFFFFFFFFFF
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2D00000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2C00000000000700
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2B00000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2A00000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2900000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2820000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2700040003000046
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2640018002D10080
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2500004300510000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2400000000000080
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2300000000000000
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2204003F8A00DE61
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 2107810101200401
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  Got 765 106261010004E166
-[ 03-31-2017 04:15:54 pm ]  Parsing 765
-[ 03-31-2017 04:15:54 pm ]  Sent OK
-[ 03-31-2017 04:15:54 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:15:54 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:15:54 pm ]  Sending 28 commands
-[ 03-31-2017 04:15:45 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: X got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:15:44 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:15:42 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:15:42 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:15:41 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:15:41 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:15:40 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:15:40 pm ]  Parsing BUF
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:40 pm ]  Parsing 2DE
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:40 pm ]  Parsing 130
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:40 pm ]  Got 12v Battery voltage 8008648000000E03
-[ 03-31-2017 04:15:40 pm ]  Parsing 292
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:40 pm ]  Parsing 245
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:40 pm ]  Got Seat Belts 01FFC0000000FFC0
-[ 03-31-2017 04:15:40 pm ]  Parsing 280
-[ 03-31-2017 04:15:40 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got Climate data 0108801204000000
-[ 03-31-2017 04:15:39 pm ]  Parsing 54B
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Parsing 54A
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got target braking FFD05E02600340
-[ 03-31-2017 04:15:39 pm ]  Parsing 1CB
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Parsing 1CA
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got climate power usage F600EF001000006C
-[ 03-31-2017 04:15:39 pm ]  Parsing 510
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Parsing 1F9
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:15:39 pm ]  Parsing 1D5
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got motor Amps 0000000000002200
-[ 03-31-2017 04:15:39 pm ]  Parsing 180
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Got motor Volts 00000000000002
-[ 03-31-2017 04:15:39 pm ]  Parsing 176
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Parsing 174
-[ 03-31-2017 04:15:39 pm ]  Sent OK
-[ 03-31-2017 04:15:39 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:15:39 pm ]  Sending 28 commands
-[ 03-31-2017 04:15:39 pm ]  Completed command sequence, took 5820ms, received 60 messages, 1 force send requests
-[ 03-31-2017 04:15:39 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:15:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:15:33 pm ]  Sending 28 commands
-[ 03-31-2017 04:15:33 pm ]  undefined
-[ 03-31-2017 04:15:33 pm ]  Setting history point
-[ 03-31-2017 04:15:26 pm ]  History file write done.
-[ 03-31-2017 04:15:24 pm ]  Got 763 0250C0FFFFFFFFFF
-[ 03-31-2017 04:15:24 pm ]  Parsing 763
-[ 03-31-2017 04:15:24 pm ]  Sent OK
-[ 03-31-2017 04:15:24 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:15:24 pm ]  OBD log file write done.
-[ 03-31-2017 04:15:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:15:23 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:15:23 pm ]  Sending 28 commands
-[ 03-31-2017 04:15:10 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:15:09 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:15:09 pm ]  Sending 28 commands
-[ 03-31-2017 04:15:03 pm ]  undefined
-[ 03-31-2017 04:15:03 pm ]  Setting history point
-[ 03-31-2017 04:14:55 pm ]  sent: X got: OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:14:55 pm ]  Parsing BUF
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got motor Volts 008304150
-[ 03-31-2017 04:14:55 pm ]  Parsing 176
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 174
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got turning angle! 2D000007B3
-[ 03-31-2017 04:14:55 pm ]  Parsing 002
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 35D
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 2DE
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 130
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 354
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 285
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got distance traveled 0C2A0C2E05D5B787
-[ 03-31-2017 04:14:55 pm ]  Parsing 284
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got available regen 5A0518E0
-[ 03-31-2017 04:14:55 pm ]  Parsing 260
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 1F9
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:14:55 pm ]  Got target braking FFD00000600086
-[ 03-31-2017 04:14:55 pm ]  Parsing 1CB
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 1CA
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:14:55 pm ]  Parsing 1D5
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got motor Amps 000002004C0C2D00
-[ 03-31-2017 04:14:55 pm ]  Parsing 180
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got motor Volts 0082040F00000D
-[ 03-31-2017 04:14:55 pm ]  Parsing 176
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Parsing 174
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:14:55 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:14:55 pm ]  Got 7BB cell voltage  220F0F0FFFFFFFFF
-[ 03-31-2017 04:14:55 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got 7BB cell voltage  212610022D100235
-[ 03-31-2017 04:14:55 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:55 pm ]  Got 7BB cell voltage  10106104021C1102
-[ 03-31-2017 04:14:55 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:55 pm ]  Sent OK
-[ 03-31-2017 04:14:54 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  24741C62000DEAAB
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:52 pm ]  Got battery volts: 389.04
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  2397F8385A038C00
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  22FFFFFF02B82AF8
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  210288000003B5FF
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:52 pm ]  Got 7BB cell voltage  10296101000007A0
-[ 03-31-2017 04:14:52 pm ]  Parsing 7BB
-[ 03-31-2017 04:14:52 pm ]  Sent OK
-[ 03-31-2017 04:14:51 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:14:50 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:14:50 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:14:49 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:14:49 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:14:49 pm ]  Parsing 79A
-[ 03-31-2017 04:14:49 pm ]  Sent OK
-[ 03-31-2017 04:14:49 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:14:48 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:14:48 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:14:47 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:14:46 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:14:46 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:14:45 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:14:45 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:14:44 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:14:44 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:14:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:43 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:42 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
-[ 03-31-2017 04:14:42 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
-[ 03-31-2017 04:14:42 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
-[ 03-31-2017 04:14:42 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
-[ 03-31-2017 04:14:34 pm ]  Got 763 037F2211FFFFFFFF
-[ 03-31-2017 04:14:34 pm ]  Parsing 763
-[ 03-31-2017 04:14:34 pm ]  Sent OK
-[ 03-31-2017 04:14:34 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:14:34 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:14:34 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:14:34 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:14:34 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:14:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:33 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:31 pm ]  undefined
-[ 03-31-2017 04:14:31 pm ]  Setting history point
-[ 03-31-2017 04:14:24 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:14:24 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:24 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:24 pm ]  Completed command sequence, took 434ms, received 199 messages, 1 force send requests
-[ 03-31-2017 04:14:24 pm ]  sent: X got: OK
-[ 03-31-2017 04:14:24 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:14:24 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:14:24 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:14:24 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:14:24 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:14:23 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:23 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:22 pm ]  History file write done.
-[ 03-31-2017 04:14:22 pm ]  OBD log file write done.
-[ 03-31-2017 04:14:21 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:14:14 pm ]  Got 765 106261010004E166
-[ 03-31-2017 04:14:14 pm ]  Parsing 765
-[ 03-31-2017 04:14:14 pm ]  Sent OK
-[ 03-31-2017 04:14:14 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:14:14 pm ]  Got 765 056104000303FFFF
-[ 03-31-2017 04:14:14 pm ]  Parsing 765
-[ 03-31-2017 04:14:14 pm ]  Sent OK
-[ 03-31-2017 04:14:14 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:14:14 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:14:13 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:13 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:04 pm ]  Got 765 106261010004E166
-[ 03-31-2017 04:14:04 pm ]  Parsing 765
-[ 03-31-2017 04:14:04 pm ]  Sent OK
-[ 03-31-2017 04:14:04 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:14:04 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:14:04 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:14:04 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:14:03 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:14:03 pm ]  Sending 28 commands
-[ 03-31-2017 04:14:01 pm ]  undefined
-[ 03-31-2017 04:14:01 pm ]  Setting history point
-[ 03-31-2017 04:13:53 pm ]  Got 793 037F211200000000
-[ 03-31-2017 04:13:53 pm ]  Parsing 793
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:53 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:53 pm ]  Parsing 793
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 0C 
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:13:53 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:13:53 pm ]  Completed command sequence, took 338ms
-[ 03-31-2017 04:13:53 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:13:53 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:13:53 pm ]  Parsing BUF
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 1CA
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got target braking FFD0840260029B
-[ 03-31-2017 04:13:53 pm ]  Parsing 1CB
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 2DE
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got Climate data 0108801204000000
-[ 03-31-2017 04:13:53 pm ]  Parsing 54B
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got turning angle! 2C000007C5
-[ 03-31-2017 04:13:53 pm ]  Parsing 002
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 54A
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 300
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 130
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 285
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got distance traveled 0000000000009016
-[ 03-31-2017 04:13:53 pm ]  Parsing 284
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got available regen 5A031900
-[ 03-31-2017 04:13:53 pm ]  Parsing 260
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 1F9
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 04:13:53 pm ]  Parsing 1D5
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got motor Amps 0000000000002300
-[ 03-31-2017 04:13:53 pm ]  Parsing 180
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got motor Volts 00000000000003
-[ 03-31-2017 04:13:53 pm ]  Parsing 176
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 174
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Parsing 1CA
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:53 pm ]  Got target braking FFD08402600191
-[ 03-31-2017 04:13:53 pm ]  Parsing 1CB
-[ 03-31-2017 04:13:53 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 0C 
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:13:52 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:13:52 pm ]  Completed command sequence, took 534ms
-[ 03-31-2017 04:13:52 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:13:52 pm ]  Parsing BUF
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 04:13:52 pm ]  Parsing 1D5
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got motor Amps 0000000000002B00
-[ 03-31-2017 04:13:52 pm ]  Parsing 180
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:52 pm ]  Got motor Volts 0000000000000B
-[ 03-31-2017 04:13:52 pm ]  Parsing 176
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 174
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 216
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 215
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 1CA
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got target braking FFD08C026000A4
-[ 03-31-2017 04:13:52 pm ]  Parsing 1CB
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 2DE
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got tire pressures 00000000000000
-[ 03-31-2017 04:13:52 pm ]  Parsing 385
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got Headlight status: 000A800000000000
-[ 03-31-2017 04:13:52 pm ]  Parsing 358
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got turning angle! 2B0000075B
-[ 03-31-2017 04:13:52 pm ]  Parsing 002
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 130
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 354
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 300
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 285
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Got distance traveled 00000000000073F9
-[ 03-31-2017 04:13:52 pm ]  Parsing 284
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  Parsing 0C 
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:52 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:13:52 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:13:52 pm ]  Completed command sequence, took 8692ms
-[ 03-31-2017 04:13:52 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:52 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:52 pm ]  Parsing 793
-[ 03-31-2017 04:13:52 pm ]  Sent OK
-[ 03-31-2017 04:13:52 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:51 pm ]  Got 793 0562121000000000
-[ 03-31-2017 04:13:51 pm ]  Parsing 793
-[ 03-31-2017 04:13:51 pm ]  Sent OK
-[ 03-31-2017 04:13:51 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:13:51 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:51 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:13:51 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 04:13:51 pm ]  Parsing 765
-[ 03-31-2017 04:13:51 pm ]  Sent OK
-[ 03-31-2017 04:13:51 pm ]  Got 765 100B611000000000
-[ 03-31-2017 04:13:51 pm ]  Parsing 765
-[ 03-31-2017 04:13:51 pm ]  Sent OK
-[ 03-31-2017 04:13:51 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:51 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:51 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:13:51 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:13:50 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:50 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:50 pm ]  Parsing 79A
-[ 03-31-2017 04:13:50 pm ]  Sent OK
-[ 03-31-2017 04:13:50 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:50 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:49 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:49 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:49 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  2500089F56800005
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  245C1C62000E0A5C
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  Got battery volts: 391.91
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  239917389B038D00
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  22FFFFFF015C2AF8
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  210288FFFFF33EFF
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  Got 7BB cell voltage  10296101FFFFF515
-[ 03-31-2017 04:13:49 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:49 pm ]  Sent OK
-[ 03-31-2017 04:13:49 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:49 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:49 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:48 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:48 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:48 pm ]  Parsing 79A
-[ 03-31-2017 04:13:48 pm ]  Sent OK
-[ 03-31-2017 04:13:48 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:48 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:48 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:48 pm ]  Parsing 793
-[ 03-31-2017 04:13:48 pm ]  Sent OK
-[ 03-31-2017 04:13:48 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:48 pm ]  Got 793 0562121000000000
-[ 03-31-2017 04:13:48 pm ]  Parsing 793
-[ 03-31-2017 04:13:48 pm ]  Sent OK
-[ 03-31-2017 04:13:48 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:13:47 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 04:13:47 pm ]  Parsing 765
-[ 03-31-2017 04:13:47 pm ]  Sent OK
-[ 03-31-2017 04:13:47 pm ]  Got 765 100B611000000000
-[ 03-31-2017 04:13:47 pm ]  Parsing 765
-[ 03-31-2017 04:13:47 pm ]  Sent OK
-[ 03-31-2017 04:13:47 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:13:47 pm ]  Got 763 210000000110CC00
-[ 03-31-2017 04:13:47 pm ]  Parsing 763
-[ 03-31-2017 04:13:47 pm ]  Sent OK
-[ 03-31-2017 04:13:47 pm ]  Got 763 1082610100000000
-[ 03-31-2017 04:13:47 pm ]  Parsing 763
-[ 03-31-2017 04:13:47 pm ]  Sent OK
-[ 03-31-2017 04:13:47 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:47 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  212710022C100235
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  10106104021D1102
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  245C1C62000E0ADA
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got battery volts: 392.04
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  239924382C039100
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  22FFFFFF015C2AF8
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  210288FFFFF2E1FF
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  Got 7BB cell voltage  10296101FFFFEB3C
-[ 03-31-2017 04:13:46 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:46 pm ]  Sent OK
-[ 03-31-2017 04:13:46 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:46 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:46 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:45 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:45 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:45 pm ]  Parsing 79A
-[ 03-31-2017 04:13:45 pm ]  Sent OK
-[ 03-31-2017 04:13:45 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:45 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:45 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:45 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:45 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:44 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:44 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:44 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:44 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:43 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:43 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:43 pm ]  "OK"
-[ 03-31-2017 04:13:43 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:43 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:43 pm ]  "OK"
-[ 03-31-2017 04:13:43 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:42 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:42 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:42 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:42 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:42 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:42 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:42 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:42 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:42 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:42 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:42 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:42 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:42 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:42 pm ]  Connection error Connection Timeout
-[ 03-31-2017 04:13:42 pm ]  Connection Timeout..
-[ 03-31-2017 04:13:42 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:13:41 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:40 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:40 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:13:38 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
-[ 03-31-2017 04:13:38 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:38 pm ]  Sent OK
-[ 03-31-2017 04:13:38 pm ]  Got 7BB cell voltage  212710022C100234
-[ 03-31-2017 04:13:38 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:38 pm ]  Sent OK
-[ 03-31-2017 04:13:38 pm ]  Got 7BB cell voltage  10106104021C1102
-[ 03-31-2017 04:13:38 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:38 pm ]  Sent OK
-[ 03-31-2017 04:13:33 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:13:33 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 04:13:33 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:33 pm ]  Sent OK
-[ 03-31-2017 04:13:33 pm ]  Got 7BB cell voltage  245C1C62000E0E08
-[ 03-31-2017 04:13:33 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:33 pm ]  Sent OK
-[ 03-31-2017 04:13:33 pm ]  Got battery volts: 392.18
-[ 03-31-2017 04:13:33 pm ]  Got 7BB cell voltage  2399323781037800
-[ 03-31-2017 04:13:33 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:33 pm ]  Sent OK
-[ 03-31-2017 04:13:33 pm ]  Got 7BB cell voltage  22FFFFFF01542AF8
-[ 03-31-2017 04:13:33 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:33 pm ]  Sent OK
-[ 03-31-2017 04:13:33 pm ]  Got 7BB cell voltage  210288FFFFF33DFF
-[ 03-31-2017 04:13:33 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:33 pm ]  Sent OK
-[ 03-31-2017 04:13:32 pm ]  Got 7BB cell voltage  10296101FFFFF025
-[ 03-31-2017 04:13:32 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:32 pm ]  Sent OK
-[ 03-31-2017 04:13:32 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:32 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:32 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:31 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:31 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:31 pm ]  Parsing 79A
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:31 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:31 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:31 pm ]  Completed command sequence, took 4211ms, received 229 messages, 7 force send requests
-[ 03-31-2017 04:13:31 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 0C 
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:13:31 pm ]  Parsing BUF
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got Seat Belts 01FFC0000000F
-[ 03-31-2017 04:13:31 pm ]  Parsing 280
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 130
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got 12v Battery voltage 7D87F68000000A02
-[ 03-31-2017 04:13:31 pm ]  Parsing 292
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 245
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got turning angle! 2A000007F0
-[ 03-31-2017 04:13:31 pm ]  Parsing 002
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 216
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 215
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got climate power usage D700AF001000006D
-[ 03-31-2017 04:13:31 pm ]  Parsing 510
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got 'transmission' status 080000
-[ 03-31-2017 04:13:31 pm ]  Parsing 421
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 300
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 351
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 1F9
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 04:13:31 pm ]  Parsing 1D5
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got motor Amps 0000000000002200
-[ 03-31-2017 04:13:31 pm ]  Parsing 180
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got motor Volts 00000000000002
-[ 03-31-2017 04:13:31 pm ]  Parsing 176
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 174
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Parsing 1CA
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  Got target braking FFD041C26000B1
-[ 03-31-2017 04:13:31 pm ]  Parsing 1CB
-[ 03-31-2017 04:13:31 pm ]  Sent OK
-[ 03-31-2017 04:13:31 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:30 pm ]  sent: ATCRA got: OK
-[ 03-31-2017 04:13:30 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:30 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 351
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 354
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:30 pm ]  Parsing 355
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 35D
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 354
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:30 pm ]  Parsing 355
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Headlight status: 000A800000000000
-[ 03-31-2017 04:13:30 pm ]  Parsing 358
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 354
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:30 pm ]  Parsing 355
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 351
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 35D
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 354
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:30 pm ]  Parsing 355
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 354
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Headlight status: 000A800000000000
-[ 03-31-2017 04:13:30 pm ]  Parsing 358
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:30 pm ]  Parsing 355
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  Parsing 351
-[ 03-31-2017 04:13:30 pm ]  Sent OK
-[ 03-31-2017 04:13:30 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:30 pm ]  undefined
-[ 03-31-2017 04:13:30 pm ]  Setting history point
-[ 03-31-2017 04:13:29 pm ]  sent: ATCRA35X got: OK
-[ 03-31-2017 04:13:29 pm ]  sent: ATCF35F got: OK
-[ 03-31-2017 04:13:29 pm ]  Got Turn Signal status: 4006000000000000
-[ 03-31-2017 04:13:29 pm ]  Parsing 60D
-[ 03-31-2017 04:13:29 pm ]  Sent OK
-[ 03-31-2017 04:13:29 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:29 pm ]  Got Headlight status: 0200FF1D2000
-[ 03-31-2017 04:13:29 pm ]  Parsing 625
-[ 03-31-2017 04:13:29 pm ]  Sent OK
-[ 03-31-2017 04:13:29 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:29 pm ]  sent: ATCRA62X got: OK
-[ 03-31-2017 04:13:29 pm ]  sent: ATCF62F got: OK
-[ 03-31-2017 04:13:29 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:29 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:29 pm ]  Sent OK
-[ 03-31-2017 04:13:29 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:29 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:28 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5FB
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5FC
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5FA
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E3
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5F9
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5F8
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5EB
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Got possible charging/discharging current 806A702090C81800
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C0
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:28 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:28 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:28 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got ODO! 4C00A983000C0000
-[ 03-31-2017 04:13:27 pm ]  Parsing 5C5
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 5E4
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:27 pm ]  sent: ATCRA5BX got: OK
-[ 03-31-2017 04:13:27 pm ]  Parsing BUF
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got target braking FFD06282600
-[ 03-31-2017 04:13:27 pm ]  Parsing 1CB
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 351
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got Vehicle speed! 00000000200060
-[ 03-31-2017 04:13:27 pm ]  Parsing 355
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 2DE
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  sent: ATCF5CF got: OK
-[ 03-31-2017 04:13:27 pm ]  Got Seat Belts 01FFC0000000FFC0
-[ 03-31-2017 04:13:27 pm ]  Parsing 280
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 300
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 130
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got 12v Battery voltage 7E27F68000000F01
-[ 03-31-2017 04:13:27 pm ]  Parsing 292
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got available regen 5A031900
-[ 03-31-2017 04:13:27 pm ]  Parsing 260
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 245
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 1F9
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 04:13:27 pm ]  Parsing 1D5
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got motor Amps 0000000000002900
-[ 03-31-2017 04:13:27 pm ]  Parsing 180
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got turning angle! 2A0000071E
-[ 03-31-2017 04:13:27 pm ]  Parsing 002
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Got motor Volts 00000000000009
-[ 03-31-2017 04:13:27 pm ]  Parsing 176
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 174
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 216
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  Parsing 215
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:27 pm ]  sent: X got: OK
-[ 03-31-2017 04:13:27 pm ]  sent: ATMA got: OK
-[ 03-31-2017 04:13:27 pm ]  sent: ATBD got: OK
-[ 03-31-2017 04:13:27 pm ]  Watching CAN for known messages
-[ 03-31-2017 04:13:27 pm ]  Completed command sequence, took 4653ms
-[ 03-31-2017 04:13:27 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:27 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:27 pm ]  Parsing 793
-[ 03-31-2017 04:13:27 pm ]  Sent OK
-[ 03-31-2017 04:13:26 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:26 pm ]  Got 793 0562121000000000
-[ 03-31-2017 04:13:26 pm ]  Parsing 793
-[ 03-31-2017 04:13:26 pm ]  Sent OK
-[ 03-31-2017 04:13:26 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:13:26 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:26 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:13:26 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 04:13:26 pm ]  Parsing 765
-[ 03-31-2017 04:13:26 pm ]  Sent OK
-[ 03-31-2017 04:13:26 pm ]  Got 765 100B611000000000
-[ 03-31-2017 04:13:26 pm ]  Parsing 765
-[ 03-31-2017 04:13:26 pm ]  Sent OK
-[ 03-31-2017 04:13:26 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:26 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:26 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:13:26 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:13:25 pm ]  Got 763 210000000110CC00
-[ 03-31-2017 04:13:25 pm ]  Parsing 763
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 763 1082610100000000
-[ 03-31-2017 04:13:25 pm ]  Parsing 763
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:25 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:13:25 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:25 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:25 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  212710022C100234
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  10106104021B1102
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  245C1C62000E0F47
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got battery volts: 392.66
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  2399622C9D039B00
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  22FFFFFF01342AF8
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:25 pm ]  Got 7BB cell voltage  2102880000036CFF
-[ 03-31-2017 04:13:25 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:25 pm ]  Sent OK
-[ 03-31-2017 04:13:24 pm ]  Got 7BB cell voltage  10296101000007A0
-[ 03-31-2017 04:13:24 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:24 pm ]  Sent OK
-[ 03-31-2017 04:13:24 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:24 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:24 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:24 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:24 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:24 pm ]  Parsing 79A
-[ 03-31-2017 04:13:24 pm ]  Sent OK
-[ 03-31-2017 04:13:24 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:23 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:23 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:23 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:23 pm ]  History file write done.
-[ 03-31-2017 04:13:22 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:22 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:22 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:22 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:22 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:22 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:22 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:22 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:22 pm ]  "OK"
-[ 03-31-2017 04:13:22 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:22 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:22 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:22 pm ]  "OK"
-[ 03-31-2017 04:13:22 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:22 pm ]  OBD log file write done.
-[ 03-31-2017 04:13:22 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:22 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:22 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:22 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:22 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:22 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:22 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:22 pm ]  Connection error Unable to connect to device
-[ 03-31-2017 04:13:22 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:13:22 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:13:21 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:21 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:21 pm ]  Connection error Unable to connect to device
-[ 03-31-2017 04:13:21 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:13:21 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:13:21 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:21 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:21 pm ]  Completed command sequence, took 4107ms
-[ 03-31-2017 04:13:21 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:21 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:21 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:21 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:21 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:21 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:21 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:21 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:21 pm ]  Connection error Connection Timeout
-[ 03-31-2017 04:13:21 pm ]  Connection Timeout..
-[ 03-31-2017 04:13:21 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:13:21 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:21 pm ]  Parsing 793
-[ 03-31-2017 04:13:21 pm ]  Sent OK
-[ 03-31-2017 04:13:21 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:20 pm ]  Got 793 0562121000000000
-[ 03-31-2017 04:13:20 pm ]  Parsing 793
-[ 03-31-2017 04:13:20 pm ]  Sent OK
-[ 03-31-2017 04:13:20 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:13:20 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:20 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:13:20 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 04:13:20 pm ]  Parsing 765
-[ 03-31-2017 04:13:20 pm ]  Sent OK
-[ 03-31-2017 04:13:20 pm ]  Got 765 100B611000000000
-[ 03-31-2017 04:13:20 pm ]  Parsing 765
-[ 03-31-2017 04:13:20 pm ]  Sent OK
-[ 03-31-2017 04:13:20 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:20 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:20 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:13:20 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:13:20 pm ]  Got 763 210000000110CC00
-[ 03-31-2017 04:13:20 pm ]  Parsing 763
-[ 03-31-2017 04:13:20 pm ]  Sent OK
-[ 03-31-2017 04:13:20 pm ]  Got 763 1082610100000000
-[ 03-31-2017 04:13:20 pm ]  Parsing 763
-[ 03-31-2017 04:13:20 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  212710022C100234
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  10106104021C1102
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  245C1C62000E0F47
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got battery volts: 392.56
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  2399582CAF039B00
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  22FFFFFF012E2AF8
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  210288000003EBFF
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  Got 7BB cell voltage  10296101000003B6
-[ 03-31-2017 04:13:19 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:19 pm ]  Sent OK
-[ 03-31-2017 04:13:19 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:19 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:17 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:17 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:17 pm ]  Parsing 79A
-[ 03-31-2017 04:13:17 pm ]  Sent OK
-[ 03-31-2017 04:13:17 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:17 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:17 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:17 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:17 pm ]  "OK"
-[ 03-31-2017 04:13:17 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:17 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:17 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:17 pm ]  "OK"
-[ 03-31-2017 04:13:17 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:17 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:17 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:17 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:17 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:17 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:17 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:17 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:17 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:17 pm ]  Completed command sequence, took 4716ms
-[ 03-31-2017 04:13:17 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:16 pm ]  Got 793 0562123000450000
-[ 03-31-2017 04:13:16 pm ]  Parsing 793
-[ 03-31-2017 04:13:16 pm ]  Sent OK
-[ 03-31-2017 04:13:16 pm ]  sent: 03221230 got: OK
-[ 03-31-2017 04:13:16 pm ]  Got 793 0562121000000000
-[ 03-31-2017 04:13:16 pm ]  Parsing 793
-[ 03-31-2017 04:13:16 pm ]  Sent OK
-[ 03-31-2017 04:13:16 pm ]  sent: 03221210 got: OK
-[ 03-31-2017 04:13:16 pm ]  sent: ATFCSH792 got: OK
-[ 03-31-2017 04:13:16 pm ]  sent: ATSH792 got: OK
-[ 03-31-2017 04:13:16 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 04:13:16 pm ]  Parsing 765
-[ 03-31-2017 04:13:16 pm ]  Sent OK
-[ 03-31-2017 04:13:16 pm ]  Got 765 100B611000000000
-[ 03-31-2017 04:13:16 pm ]  Parsing 765
-[ 03-31-2017 04:13:16 pm ]  Sent OK
-[ 03-31-2017 04:13:16 pm ]  sent: 022110 got: OK
-[ 03-31-2017 04:13:16 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:16 pm ]  sent: ATFCSH745 got: OK
-[ 03-31-2017 04:13:16 pm ]  sent: ATSH745 got: OK
-[ 03-31-2017 04:13:15 pm ]  Got 763 210000000110CC00
-[ 03-31-2017 04:13:15 pm ]  Parsing 763
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 763 1082610100000000
-[ 03-31-2017 04:13:15 pm ]  Parsing 763
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:15 pm ]  sent: ATFCSD300100 got: OK
-[ 03-31-2017 04:13:15 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:15 pm ]  sent: ATFCSH743 got: OK
-[ 03-31-2017 04:13:15 pm ]  sent: ATSH743 got: OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  212610022C100234
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  10106104021C1102
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  sent: 022104 got: OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  2500089F56800005
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  245C1C62000E0F47
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got battery volts: 392.55
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  2399572CE5039B00
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  22FFFFFF01362AF8
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:15 pm ]  Got 7BB cell voltage  2102880000045CFF
-[ 03-31-2017 04:13:15 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:15 pm ]  Sent OK
-[ 03-31-2017 04:13:14 pm ]  Got 7BB cell voltage  10296101FFFFFFCD
-[ 03-31-2017 04:13:14 pm ]  Parsing 7BB
-[ 03-31-2017 04:13:14 pm ]  Sent OK
-[ 03-31-2017 04:13:14 pm ]  sent: 022101 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATFCSH79B got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATSH79B got: OK
-[ 03-31-2017 04:13:14 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:14 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 04:13:14 pm ]  Parsing 79A
-[ 03-31-2017 04:13:14 pm ]  Sent OK
-[ 03-31-2017 04:13:14 pm ]  sent: 0210C0 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATFCSM1 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATFCSD300000 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATFCSH797 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATSH797 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATCAF0 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATL0 got: OK
-[ 03-31-2017 04:13:14 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:13:14 pm ]  Connection Timeout..
-[ 03-31-2017 04:13:14 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:13:13 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:12 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:12 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:11 pm ]  sent: ATAR got: OK
-[ 03-31-2017 04:13:11 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 04:13:11 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:11 pm ]  "OK"
-[ 03-31-2017 04:13:11 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:13:05 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:05 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:05 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:05 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:05 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:01 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:01 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:01 pm ]  Connection error Unable to connect to device
-[ 03-31-2017 04:13:01 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:13:01 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:13:01 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:01 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:01 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:01 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:01 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:01 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:01 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:01 pm ]  Connection error Unable to connect to device
-[ 03-31-2017 04:13:01 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:13:01 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:13:01 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:01 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:01 pm ]  Connection error Device connection was lost
-[ 03-31-2017 04:13:01 pm ]  "Device connection was lost"
-[ 03-31-2017 04:13:01 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:13:00 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:00 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:00 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 04:13:00 pm ]  Sending 28 commands
-[ 03-31-2017 04:13:00 pm ]  Route Changed
-[ 03-31-2017 04:13:00 pm ]  init
-[ 03-31-2017 04:12:59 pm ]  Going to home
-[ 03-31-2017 04:12:59 pm ]  Subscribe got: ATE0OK>
-[ 03-31-2017 04:12:59 pm ]  []
-[ 03-31-2017 04:12:59 pm ]  sent: ATE0 got: OK
-[ 03-31-2017 04:12:58 pm ]  Success!
-[ 03-31-2017 04:12:58 pm ]  Subscribe got: ATIELM327 v1.5>
-[ 03-31-2017 04:12:58 pm ]  sent: ATI got: OK
-[ 03-31-2017 04:12:58 pm ]  Subscribe got: ATS0OK>
-[ 03-31-2017 04:12:58 pm ]  sent: ATS0 got: OK
-[ 03-31-2017 04:12:58 pm ]  Subscribe got: ATH1OK>
-[ 03-31-2017 04:12:58 pm ]  sent: ATH1 got: OK
-[ 03-31-2017 04:12:58 pm ]  Subscribe got: ATSP6OK>
-[ 03-31-2017 04:12:58 pm ]  sent: ATSP6 got: OK
-[ 03-31-2017 04:12:58 pm ]  Subscribe got: STSBR 2000000?>
-[ 03-31-2017 04:12:57 pm ]  sent: STSBR 2000000 got: OK
-[ 03-31-2017 04:12:57 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
-[ 03-31-2017 04:12:57 pm ]  Device connected false
-[ 03-31-2017 04:12:57 pm ]  Device connected false
-[ 03-31-2017 04:12:57 pm ]  Device connected false
-[ 03-31-2017 04:12:57 pm ]  Device connected false
-[ 03-31-2017 04:12:57 pm ]  Connection Timeout..
-[ 03-31-2017 04:12:57 pm ]  sent: ATDP got: OK
-[ 03-31-2017 04:12:57 pm ]  Success!
-[ 03-31-2017 04:12:57 pm ]  Subscribe got: ATZELM327 v1.5>
-[ 03-31-2017 04:12:56 pm ]  sent: ATZ got: OK
-[ 03-31-2017 04:12:56 pm ]  Subscribe got: ATE1OK>
-[ 03-31-2017 04:12:56 pm ]  sent: ATE1 got: OK
-[ 03-31-2017 04:12:56 pm ]  Testing...
-[ 03-31-2017 04:12:56 pm ]  Testing device
-[ 03-31-2017 04:12:54 pm ]  Device connected true
-[ 03-31-2017 04:12:54 pm ]  Device connected true
-[ 03-31-2017 04:12:54 pm ]  Device connected true
-[ 03-31-2017 04:12:54 pm ]  Device connected true
-[ 03-31-2017 04:12:54 pm ]  Connected welcome
-[ 03-31-2017 04:12:54 pm ]  "OK"
-[ 03-31-2017 04:12:54 pm ]  I am now connected to Bluetooth
-[ 03-31-2017 04:12:53 pm ]  Listing wifi networks
-[ 03-31-2017 04:12:53 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:12:53 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:12:53 pm ]  "Device connection was lost"
-[ 03-31-2017 04:12:53 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:12:53 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:128"}]
-[ 03-31-2017 04:12:53 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:128"}]
-[ 03-31-2017 04:12:53 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:128"}]
-[ 03-31-2017 04:12:53 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:53 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:128"}]
-[ 03-31-2017 04:12:53 pm ]  Scanned
-[ 03-31-2017 04:12:53 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 04:12:53 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 04:12:53 pm ]  Device connected false
-[ 03-31-2017 04:12:53 pm ]  Devices changed []
-[ 03-31-2017 04:12:53 pm ]  Devices changed []
-[ 03-31-2017 04:12:53 pm ]  Devices changed []
-[ 03-31-2017 04:12:53 pm ]  Devices changed []
-[ 03-31-2017 04:12:53 pm ]  Scanning inside manager
-[ 03-31-2017 04:12:53 pm ]  Scanning...
-[ 03-31-2017 04:12:43 pm ]  Connection Timeout..
-[ 03-31-2017 04:12:42 pm ]  Connection Timeout..
-[ 03-31-2017 04:12:37 pm ]  Listing wifi networks
-[ 03-31-2017 04:12:37 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:12:37 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:12:37 pm ]  "Device connection was lost"
-[ 03-31-2017 04:12:37 pm ]  Connection failed Device connection was lost
-[ 03-31-2017 04:12:37 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:100"}]
-[ 03-31-2017 04:12:37 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:100"}]
-[ 03-31-2017 04:12:37 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:37 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:100"}]
-[ 03-31-2017 04:12:37 pm ]  Scanned
-[ 03-31-2017 04:12:37 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 04:12:37 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 04:12:37 pm ]  Device connected false
-[ 03-31-2017 04:12:37 pm ]  Devices changed []
-[ 03-31-2017 04:12:37 pm ]  Devices changed []
-[ 03-31-2017 04:12:37 pm ]  Devices changed []
-[ 03-31-2017 04:12:37 pm ]  Scanning inside manager
-[ 03-31-2017 04:12:37 pm ]  Scanning...
-[ 03-31-2017 04:12:24 pm ]  History file write done.
-[ 03-31-2017 04:12:24 pm ]  Listing wifi networks
-[ 03-31-2017 04:12:23 pm ]  "Unable to connect to device"
-[ 03-31-2017 04:12:23 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 04:12:23 pm ]  Device connected false
-[ 03-31-2017 04:12:23 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:23 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:23 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:72"}]
-[ 03-31-2017 04:12:23 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:23 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:23 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:72"}]
-[ 03-31-2017 04:12:23 pm ]  Scanned
-[ 03-31-2017 04:12:23 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 04:12:23 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 04:12:23 pm ]  Scanning inside manager
-[ 03-31-2017 04:12:23 pm ]  Scanning...
-[ 03-31-2017 04:12:23 pm ]  OBD log file write done.
-[ 03-31-2017 04:12:22 pm ]  Listing wifi networks
-[ 03-31-2017 04:12:22 pm ]  Device connected false
-[ 03-31-2017 04:12:22 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:22 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 04:12:22 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
-[ 03-31-2017 04:12:22 pm ]  Scanned
-[ 03-31-2017 04:12:22 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 04:12:22 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 04:12:22 pm ]  Scanning inside manager
-[ 03-31-2017 04:12:22 pm ]  Scanning...
-[ 03-31-2017 04:12:22 pm ]  Bluetooth is enabled
-[ 03-31-2017 04:12:22 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 04:12:21 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 04:12:21 pm ]  Device is ready!
-[ 03-31-2017 04:12:21 pm ]  Translating to en
-[ 03-31-2017 04:12:20 pm ]  I'm running angular!
-[ 03-31-2017 04:12:19 pm ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.3

@@ -1,5 +1,0 @@
-[ 03-20-2017 06:45:29 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-20-2017 06:45:29 am ]  Root file directory: file:///storage/emulated/0/
-[ 03-20-2017 06:45:29 am ]  Device is ready!
-[ 03-20-2017 06:45:28 am ]  I'm running angular!
-HappyLeaf Version 0.1.6

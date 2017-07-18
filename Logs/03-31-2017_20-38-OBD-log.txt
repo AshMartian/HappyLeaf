@@ -1,917 +1,0 @@
-[ 03-31-2017 08:43:59 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:43:59 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:59 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:59 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:59 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:59 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:54 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:53 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:53 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:53 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:53 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:52 pm ]  History file write done.
-[ 03-31-2017 08:43:51 pm ]  OBD log file write done.
-[ 03-31-2017 08:43:50 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:43:50 pm ]  undefined
-[ 03-31-2017 08:43:50 pm ]  Setting history point
-[ 03-31-2017 08:43:49 pm ]  Received from wifi: ?>
-[ 03-31-2017 08:43:48 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:48 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:48 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:48 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:48 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:43 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:43 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:43 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:41 pm ]  undefined
-[ 03-31-2017 08:43:40 pm ]  Setting history point
-[ 03-31-2017 08:43:39 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:39 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:39 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:38 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:38 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:38 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:38 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:34 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:34 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:33 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:33 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:29 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:29 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:28 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:28 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:28 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:28 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:28 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:23 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:22 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:22 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:22 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:22 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:20 pm ]  undefined
-[ 03-31-2017 08:43:20 pm ]  Setting history point
-[ 03-31-2017 08:43:18 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:18 pm ]  Got climate power usage 7720BF0018080067
-[ 03-31-2017 08:43:18 pm ]  Parsing 510
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 1F9
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got regen braking 00000002D8
-[ 03-31-2017 08:43:18 pm ]  Parsing 1D5
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got motor Amps 000003DFCE002200
-[ 03-31-2017 08:43:18 pm ]  Parsing 180
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got motor Volts 020C1043000002
-[ 03-31-2017 08:43:18 pm ]  Parsing 176
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 174
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 2DE
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 130
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got 12v Battery voltage 81481E8010000000
-[ 03-31-2017 08:43:18 pm ]  Parsing 292
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got target braking FFD00002600170
-[ 03-31-2017 08:43:18 pm ]  Parsing 1CB
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 1CA
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Parsing 245
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Got turning angle! CDFF01078F
-[ 03-31-2017 08:43:18 pm ]  Parsing 002
-[ 03-31-2017 08:43:18 pm ]  Sent ATMA
-[ 03-31-2017 08:43:18 pm ]  Received from wifi: 002CDFF01078F2457FF8011ACC007FF01CA00000000050054151CBFFD0000260017029281481E80100000001300113452DE00000000000002B2174000000BB02000000176020C1043000002180000003DFCE0022001D500000002D81F900000000000000005107720BF001808006730003215FFF0FF00FFFF2164260002CDFF0107702843186317A17B8CC831CA0000BUFFER FULL>
-[ 03-31-2017 08:43:18 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:17 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:17 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:17 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:17 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:12 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:12 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:11 pm ]  undefined
-[ 03-31-2017 08:43:10 pm ]  Setting history point
-[ 03-31-2017 08:43:09 pm ]  Received from wifi: >
-[ 03-31-2017 08:43:09 pm ]  Got 793 0562121000000000
-[ 03-31-2017 08:43:09 pm ]  Parsing 793
-[ 03-31-2017 08:43:09 pm ]  Sent 03221210
-[ 03-31-2017 08:43:09 pm ]  Received from wifi: 7930562121000000000
-[ 03-31-2017 08:43:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:08 pm ]  Parsing BUF
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 5FC
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 5FA
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 1F9
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got regen braking 00000000D6
-[ 03-31-2017 08:43:08 pm ]  Parsing 1D5
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got motor Amps 000008F08F2AA800
-[ 03-31-2017 08:43:08 pm ]  Parsing 180
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got motor Volts 01CE0E55000008
-[ 03-31-2017 08:43:08 pm ]  Parsing 176
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 174
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got Vehicle speed! 150B1595200060
-[ 03-31-2017 08:43:08 pm ]  Parsing 355
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 2DE
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got Seat Belts 01FFC000150BFFC0
-[ 03-31-2017 08:43:08 pm ]  Parsing 280
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 1CA
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got target braking FFD0000260027A
-[ 03-31-2017 08:43:08 pm ]  Parsing 1CB
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 130
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 285
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Got distance traveled 2B6E2B5014C8C238
-[ 03-31-2017 08:43:08 pm ]  Parsing 284
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Parsing 300
-[ 03-31-2017 08:43:08 pm ]  Sent ATMA
-[ 03-31-2017 08:43:08 pm ]  Received from wifi: 300032842B6E2B5014C8C2382852B4C2B6A0000C2551300110421CBFFD0000260027A1CA00000000050054EA28001FFC000150BFFC02DE00000000000002B2355150B1595200060174000000BB0800000017601CE0E55000008180000008F08F2AA8001D500000000D61F900000000000000005FAACA6F800483A405FCA60AB1683C1BUFFER FULL>
-[ 03-31-2017 08:43:07 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:07 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:07 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:07 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:43:02 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:02 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:02 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:43:02 pm ]  Sending 28 commands
-[ 03-31-2017 08:43:00 pm ]  History file write done.
-[ 03-31-2017 08:42:59 pm ]  OBD log file write done.
-[ 03-31-2017 08:42:59 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:42:58 pm ]  Got 793 0250C00000000000
-[ 03-31-2017 08:42:58 pm ]  Parsing 793
-[ 03-31-2017 08:42:58 pm ]  Sent 0210C0
-[ 03-31-2017 08:42:58 pm ]  Received from wifi: 7930250C00000000000
-[ 03-31-2017 08:42:58 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:57 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:57 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:57 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:57 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:57 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:52 pm ]  History file write done.
-[ 03-31-2017 08:42:52 pm ]  OBD log file write done.
-[ 03-31-2017 08:42:52 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:52 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:50 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:42:50 pm ]  undefined
-[ 03-31-2017 08:42:50 pm ]  Setting history point
-[ 03-31-2017 08:42:47 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:47 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:46 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:46 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:46 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:41 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:41 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:41 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:41 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:41 pm ]  undefined
-[ 03-31-2017 08:42:40 pm ]  Setting history point
-[ 03-31-2017 08:42:34 pm ]  Parsing NO 
-[ 03-31-2017 08:42:34 pm ]  Sent 022101
-[ 03-31-2017 08:42:34 pm ]  Received from wifi: NO DATA>
-[ 03-31-2017 08:42:33 pm ]  Received from wifi: STOPPED>
-[ 03-31-2017 08:42:33 pm ]  Got 793 037F211200000000
-[ 03-31-2017 08:42:33 pm ]  Parsing 793
-[ 03-31-2017 08:42:33 pm ]  Sent 022110
-[ 03-31-2017 08:42:33 pm ]  Received from wifi: 793037F211200000000
-[ 03-31-2017 08:42:33 pm ]  Parsing BUF
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 260
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 1F9
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got regen braking 00000001D7
-[ 03-31-2017 08:42:33 pm ]  Parsing 1D5
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got motor Amps 000004204219A100
-[ 03-31-2017 08:42:33 pm ]  Parsing 180
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got motor Volts 01C60E16000001
-[ 03-31-2017 08:42:33 pm ]  Parsing 176
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 174
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 216
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got turning angle! E3FF000793
-[ 03-31-2017 08:42:33 pm ]  Parsing 002
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 215
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got target braking FFD000026000F5
-[ 03-31-2017 08:42:33 pm ]  Parsing 1CB
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 1CA
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 2DE
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got Seat Belts 01FFC00014A4FFC0
-[ 03-31-2017 08:42:33 pm ]  Parsing 280
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 130
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 354
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Parsing 285
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Got distance traveled 2ABA2AA11474F5B2
-[ 03-31-2017 08:42:33 pm ]  Parsing 284
-[ 03-31-2017 08:42:33 pm ]  Sent ATMA
-[ 03-31-2017 08:42:33 pm ]  Received from wifi: 2842ABA2AA11474F5B22852A9B2AA70000F51235414740000A018001813001124428001FFC00014A4FFC02DE00000000000002D01CA00000000050054401CBFFD000026000F5215FFF0FF00FFFF002E3FF0007932164260174000000BB0100000017601C60E16000001180000004204219A1001D500000001D71F900000000000000002605BUFFER FULL>
-[ 03-31-2017 08:42:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:33 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:33 pm ]  Completed command sequence, took 2345ms, received 70 messages, 6 force send requests
-[ 03-31-2017 08:42:33 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:33 pm ]  Got 793 037F211200000000
-[ 03-31-2017 08:42:33 pm ]  Parsing 793
-[ 03-31-2017 08:42:33 pm ]  Sent 022104
-[ 03-31-2017 08:42:33 pm ]  Received from wifi: 793037F211200000000
-[ 03-31-2017 08:42:32 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:32 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:32 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:31 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:31 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:31 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:42:31 pm ]  Sending 28 commands
-[ 03-31-2017 08:42:22 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:22 pm ]  Got 793 037F211200000000
-[ 03-31-2017 08:42:22 pm ]  Parsing 793
-[ 03-31-2017 08:42:22 pm ]  Sent 022104
-[ 03-31-2017 08:42:22 pm ]  Received from wifi: 793037F211200000000
-[ 03-31-2017 08:42:22 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:22 pm ]  Watching CAN for known messages
-[ 03-31-2017 08:42:22 pm ]  Completed command sequence, took 337ms
-[ 03-31-2017 08:42:21 pm ]  Watching CAN for known messages
-[ 03-31-2017 08:42:21 pm ]  Completed command sequence, took 7799ms
-[ 03-31-2017 08:42:21 pm ]  Received from wifi: ?>
-[ 03-31-2017 08:42:21 pm ]  Received from wifi: ?>
-[ 03-31-2017 08:42:21 pm ]  undefined
-[ 03-31-2017 08:42:20 pm ]  Setting history point
-[ 03-31-2017 08:42:20 pm ]  Parsing BUF
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got 12v Battery voltage 85A7D877C0
-[ 03-31-2017 08:42:20 pm ]  Parsing 292
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 245
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got available regen 5A1C1A80
-[ 03-31-2017 08:42:20 pm ]  Parsing 260
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 1F9
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got regen braking 00000003D9
-[ 03-31-2017 08:42:20 pm ]  Parsing 1D5
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got motor Amps 00001581B732E300
-[ 03-31-2017 08:42:20 pm ]  Parsing 180
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got motor Volts 003F01F6000003
-[ 03-31-2017 08:42:20 pm ]  Parsing 176
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 174
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got target braking FFD00000600209
-[ 03-31-2017 08:42:20 pm ]  Parsing 1CB
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 1CA
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got Vehicle speed! 02B602B4200060
-[ 03-31-2017 08:42:20 pm ]  Parsing 355
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 2DE
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got turning angle! 3D0D1007C9
-[ 03-31-2017 08:42:20 pm ]  Parsing 002
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got Seat Belts 01FFC00002B6FFC0
-[ 03-31-2017 08:42:20 pm ]  Parsing 280
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 130
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 285
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Got distance traveled 052B062802B658F4
-[ 03-31-2017 08:42:20 pm ]  Parsing 284
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Parsing 300
-[ 03-31-2017 08:42:20 pm ]  Sent ATMA
-[ 03-31-2017 08:42:20 pm ]  Received from wifi: 3000C284052B062802B658F428504B605CC0000586A13001104228001FFC00002B6FFC00023D0D1007C92DE00000000000002D035502B602B42000601CA00000000050054AE1CBFFD00000600209174000000BB03000000176003F01F600000318000001581B732E3001D500000003D91F900000000000000002605A1C1A802457FF8011A59007FF129285A7D877C0BUFFER FULL>
-[ 03-31-2017 08:42:14 pm ]  Parsing 0C 
-[ 03-31-2017 08:42:14 pm ]  Sent ATBD
-[ 03-31-2017 08:42:14 pm ]  Received from wifi: 0C 00 00 07 93 05 62 12 30 00 45 00 00 >
-[ 03-31-2017 08:42:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:13 pm ]  Watching CAN for known messages
-[ 03-31-2017 08:42:13 pm ]  Completed command sequence, took 25299ms
-[ 03-31-2017 08:42:13 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:13 pm ]  Got 793 0562123000450000
-[ 03-31-2017 08:42:13 pm ]  Parsing 793
-[ 03-31-2017 08:42:13 pm ]  Sent 03221230
-[ 03-31-2017 08:42:13 pm ]  Received from wifi: 7930562123000450000
-[ 03-31-2017 08:42:13 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:13 pm ]  Got 793 0562121000000000
-[ 03-31-2017 08:42:13 pm ]  Parsing 793
-[ 03-31-2017 08:42:13 pm ]  Sent 03221210
-[ 03-31-2017 08:42:13 pm ]  Received from wifi: 7930562121000000000
-[ 03-31-2017 08:42:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:12 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:12 pm ]  Got 765 219E95F00000FFFF
-[ 03-31-2017 08:42:12 pm ]  Parsing 765
-[ 03-31-2017 08:42:12 pm ]  Sent 022110
-[ 03-31-2017 08:42:12 pm ]  Got 765 100B611000009A9D
-[ 03-31-2017 08:42:12 pm ]  Parsing 765
-[ 03-31-2017 08:42:12 pm ]  Sent 022110
-[ 03-31-2017 08:42:12 pm ]  Received from wifi: 765100B611000009A9D765219E95F00000FFFF
-[ 03-31-2017 08:42:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:11 pm ]  undefined
-[ 03-31-2017 08:42:10 pm ]  Setting history point
-[ 03-31-2017 08:42:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:09 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:08 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:08 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:08 pm ]  Got 7BB cell voltage  2213130FFFFFFFFF
-[ 03-31-2017 08:42:08 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:08 pm ]  Sent 022104
-[ 03-31-2017 08:42:08 pm ]  Got 7BB cell voltage  21EF1601FE140209
-[ 03-31-2017 08:42:08 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:08 pm ]  Sent 022104
-[ 03-31-2017 08:42:08 pm ]  Got 7BB cell voltage  1010610401E71701
-[ 03-31-2017 08:42:08 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:08 pm ]  Sent 022104
-[ 03-31-2017 08:42:08 pm ]  Received from wifi: 7BB1010610401E717017BB21EF1601FE1402097BB2213130FFFFFFFFF
-[ 03-31-2017 08:42:07 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  2500089F56800005
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  24601C6200088B92
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Got battery volts: 379.32
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  23942C32B2038600
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  22FFFFFF0B5A2AF8
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  210288FFFFF909FF
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Got 7BB cell voltage  10296101FFFFF32E
-[ 03-31-2017 08:42:07 pm ]  Parsing 7BB
-[ 03-31-2017 08:42:07 pm ]  Sent 022101
-[ 03-31-2017 08:42:07 pm ]  Received from wifi: 7BB10296101FFFFF32E7BB210288FFFFF909FF7BB22FFFFFF0B5A2AF87BB23942C32B20386007BB24601C6200088B927BB2500089F56800005
-[ 03-31-2017 08:42:07 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:06 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:06 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:06 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:42:06 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:42:06 pm ]  Parsing 79A
-[ 03-31-2017 08:42:06 pm ]  Sent 0210C0
-[ 03-31-2017 08:42:06 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:42:06 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:02 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:02 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:02 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:02 pm ]  Received from wifi: >
-[ 03-31-2017 08:42:01 pm ]  Got 763 217E089901111000
-[ 03-31-2017 08:42:01 pm ]  Parsing 763
-[ 03-31-2017 08:42:01 pm ]  Sent 022101
-[ 03-31-2017 08:42:01 pm ]  Got 763 1082610100000008
-[ 03-31-2017 08:42:01 pm ]  Parsing 763
-[ 03-31-2017 08:42:01 pm ]  Sent 022101
-[ 03-31-2017 08:42:01 pm ]  Received from wifi: 7631082610100000008763217E089901111000
-[ 03-31-2017 08:42:01 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:01 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:42:00 pm ]  OBD log file write done.
-[ 03-31-2017 08:42:00 pm ]  History file write done.
-[ 03-31-2017 08:41:59 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:59 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 08:41:59 pm ]  Got 79A 037F218000000000
-[ 03-31-2017 08:41:59 pm ]  Parsing 79A
-[ 03-31-2017 08:41:59 pm ]  Sent 022104
-[ 03-31-2017 08:41:59 pm ]  Received from wifi: 79A037F218000000000
-[ 03-31-2017 08:41:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:41:58 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:54 pm ]  Got 79A 066101A00200C000
-[ 03-31-2017 08:41:54 pm ]  Got 79A 066101A00200C000
-[ 03-31-2017 08:41:54 pm ]  Parsing 79A
-[ 03-31-2017 08:41:54 pm ]  Sent 022101
-[ 03-31-2017 08:41:54 pm ]  Received from wifi: 79A066101A00200C000
-[ 03-31-2017 08:41:53 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:53 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:53 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:53 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:53 pm ]  Parsing 79A
-[ 03-31-2017 08:41:53 pm ]  Sent 0210C0
-[ 03-31-2017 08:41:53 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:41:52 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:52 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:52 pm ]  History file write done.
-[ 03-31-2017 08:41:52 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:51 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:51 pm ]  OBD log file write done.
-[ 03-31-2017 08:41:50 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:50 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:41:50 pm ]  undefined
-[ 03-31-2017 08:41:50 pm ]  Setting history point
-[ 03-31-2017 08:41:50 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:49 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:48 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:48 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:48 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:48 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:48 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:43 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:43 pm ]  Got 7BB cell voltage  0250C0FFFFFFFFFF
-[ 03-31-2017 08:41:43 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:43 pm ]  Sent 0210C0
-[ 03-31-2017 08:41:43 pm ]  Received from wifi: 7BB0250C0FFFFFFFFFF
-[ 03-31-2017 08:41:42 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  24601C6200088FCC
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Got battery volts: 379.5
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  23943E32E1038700
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  22FFFFFF0B5A2AF8
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  210288FFFFFA1AFF
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Got 7BB cell voltage  10296101FFFFF613
-[ 03-31-2017 08:41:42 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:42 pm ]  Sent 022101
-[ 03-31-2017 08:41:42 pm ]  Received from wifi: 7BB10296101FFFFF6137BB210288FFFFFA1AFF7BB22FFFFFF0B5A2AF87BB23943E32E10387007BB24601C6200088FCC7BB2500089F56800001
-[ 03-31-2017 08:41:42 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:41 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:41 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:41 pm ]  undefined
-[ 03-31-2017 08:41:40 pm ]  Setting history point
-[ 03-31-2017 08:41:40 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:40 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:40 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:40 pm ]  Parsing 79A
-[ 03-31-2017 08:41:40 pm ]  Sent 0210C0
-[ 03-31-2017 08:41:40 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:41:40 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:39 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:39 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:37 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:36 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:36 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:36 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:36 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:36 pm ]  Parsing 79A
-[ 03-31-2017 08:41:36 pm ]  Sent 0210C0
-[ 03-31-2017 08:41:36 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:41:36 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:35 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:34 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:34 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:34 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:33 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:33 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:32 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:32 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:31 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:31 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:31 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:30 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:30 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:30 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:29 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:29 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:29 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:28 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:27 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:27 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:27 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:27 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:27 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:21 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:21 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:21 pm ]  Got 763 21DE05F101111000
-[ 03-31-2017 08:41:21 pm ]  Parsing 763
-[ 03-31-2017 08:41:21 pm ]  Sent 022101
-[ 03-31-2017 08:41:21 pm ]  Got 763 1082610100000005
-[ 03-31-2017 08:41:21 pm ]  Parsing 763
-[ 03-31-2017 08:41:21 pm ]  Sent 022101
-[ 03-31-2017 08:41:21 pm ]  Received from wifi: 763108261010000000576321DE05F101111000
-[ 03-31-2017 08:41:20 pm ]  undefined
-[ 03-31-2017 08:41:20 pm ]  Setting history point
-[ 03-31-2017 08:41:20 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:19 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:19 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:19 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:18 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  22131308FFFFFFFF
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022104
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  21EE1601FF14020A
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022104
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  1010610401E81601
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022104
-[ 03-31-2017 08:41:18 pm ]  Received from wifi: 7BB1010610401E816017BB21EE1601FF14020A7BB22131308FFFFFFFF
-[ 03-31-2017 08:41:18 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  245C1C620008912C
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Got battery volts: 379.37
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  23943132BD038400
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  22FFFFFF0B542AF8
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  210288FFFFFB67FF
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Got 7BB cell voltage  10296101FFFFF613
-[ 03-31-2017 08:41:18 pm ]  Parsing 7BB
-[ 03-31-2017 08:41:18 pm ]  Sent 022101
-[ 03-31-2017 08:41:18 pm ]  Received from wifi: 7BB10296101FFFFF6137BB210288FFFFFB67FF7BB22FFFFFF0B542AF87BB23943132BD0384007BB245C1C620008912C7BB2500089F56800001
-[ 03-31-2017 08:41:18 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:17 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:16 pm ]  Received from wifi: >
-[ 03-31-2017 08:41:16 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:15 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:41:15 pm ]  Parsing 79A
-[ 03-31-2017 08:41:15 pm ]  Sent 0210C0
-[ 03-31-2017 08:41:15 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:41:15 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:15 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:14 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:13 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:13 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:13 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:12 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:11 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:10 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:41:10 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:10 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:10 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:10 pm ]  Sending 28 commands
-[ 03-31-2017 08:41:10 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 08:41:05 pm ]  init
-[ 03-31-2017 08:41:05 pm ]  Home Controller
-[ 03-31-2017 08:41:05 pm ]  Device ready from home
-[ 03-31-2017 08:41:05 pm ]  Going to home
-[ 03-31-2017 08:41:02 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:41:02 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:58 pm ]  History file write done.
-[ 03-31-2017 08:40:58 pm ]  OBD log file write done.
-[ 03-31-2017 08:40:57 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:57 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:57 pm ]  History file write done.
-[ 03-31-2017 08:40:57 pm ]  Listing wifi networks
-[ 03-31-2017 08:40:57 pm ]  Device connected true
-[ 03-31-2017 08:40:57 pm ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:395"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:396"}]
-[ 03-31-2017 08:40:56 pm ]  Scanned
-[ 03-31-2017 08:40:56 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:40:56 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:40:56 pm ]  Connected to Wifi!
-[ 03-31-2017 08:40:56 pm ]  Scanning inside manager
-[ 03-31-2017 08:40:56 pm ]  Scanning...
-[ 03-31-2017 08:40:56 pm ]  OBD log file write done.
-[ 03-31-2017 08:40:56 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:40:51 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:40:50 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 08:40:50 pm ]  Device is ready!
-[ 03-31-2017 08:40:50 pm ]  Translating to en
-[ 03-31-2017 08:40:50 pm ]  I'm running angular!
-[ 03-31-2017 08:40:50 pm ]  undefined
-[ 03-31-2017 08:40:50 pm ]  Setting history point
-[ 03-31-2017 08:40:48 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:48 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:43 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:43 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:38 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:38 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:33 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:33 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:27 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:27 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:22 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:22 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:20 pm ]  undefined
-[ 03-31-2017 08:40:20 pm ]  Setting history point
-[ 03-31-2017 08:40:16 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:16 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:11 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:40:11 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:08 pm ]  Connected to Wifi!
-[ 03-31-2017 08:40:07 pm ]  Connection failed, trying to reconnect
-[ 03-31-2017 08:40:07 pm ]  Sending 28 commands
-[ 03-31-2017 08:40:07 pm ]  Completed command sequence, took 17660ms
-[ 03-31-2017 08:40:06 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:06 pm ]  Got 793 0562123000450000
-[ 03-31-2017 08:40:06 pm ]  Parsing 793
-[ 03-31-2017 08:40:06 pm ]  Sent 03221230
-[ 03-31-2017 08:40:06 pm ]  Received from wifi: 7930562123000450000
-[ 03-31-2017 08:40:06 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:06 pm ]  Got 793 0562121000000000
-[ 03-31-2017 08:40:06 pm ]  Parsing 793
-[ 03-31-2017 08:40:06 pm ]  Sent 03221210
-[ 03-31-2017 08:40:06 pm ]  Received from wifi: 7930562121000000000
-[ 03-31-2017 08:40:06 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:05 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:05 pm ]  Got 765 210000F00000FFFF
-[ 03-31-2017 08:40:05 pm ]  Parsing 765
-[ 03-31-2017 08:40:05 pm ]  Sent 022110
-[ 03-31-2017 08:40:05 pm ]  Got 765 100B611000000000
-[ 03-31-2017 08:40:05 pm ]  Parsing 765
-[ 03-31-2017 08:40:05 pm ]  Sent 022110
-[ 03-31-2017 08:40:05 pm ]  Received from wifi: 765100B611000000000765210000F00000FFFF
-[ 03-31-2017 08:40:05 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:04 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:04 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:04 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:04 pm ]  Got 763 2100000001111000
-[ 03-31-2017 08:40:04 pm ]  Parsing 763
-[ 03-31-2017 08:40:04 pm ]  Sent 022101
-[ 03-31-2017 08:40:04 pm ]  Got 763 1082610100000000
-[ 03-31-2017 08:40:04 pm ]  Parsing 763
-[ 03-31-2017 08:40:04 pm ]  Sent 022101
-[ 03-31-2017 08:40:04 pm ]  Received from wifi: 76310826101000000007632100000001111000
-[ 03-31-2017 08:40:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:03 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:02 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:01 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  22131300FFFFFFFF
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022104
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  21EE1601FE14020A
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022104
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  1010610401E71701
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022104
-[ 03-31-2017 08:40:01 pm ]  Received from wifi: 7BB1010610401E717017BB21EE1601FE14020A7BB22131300FFFFFFFF
-[ 03-31-2017 08:40:01 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  2500089F56800001
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  245C1C6200089757
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Got battery volts: 379.7
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  23945232E8038700
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  22FFFFFF0B502AF8
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  210288FFFFFB30FF
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Got 7BB cell voltage  10296101FFFFFEEC
-[ 03-31-2017 08:40:01 pm ]  Parsing 7BB
-[ 03-31-2017 08:40:01 pm ]  Sent 022101
-[ 03-31-2017 08:40:01 pm ]  Received from wifi: 7BB10296101FFFFFEEC7BB210288FFFFFB30FF7BB22FFFFFF0B502AF87BB23945232E80387007BB245C1C62000897577BB2500089F56800001
-[ 03-31-2017 08:40:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:00 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:40:00 pm ]  Received from wifi: >
-[ 03-31-2017 08:40:00 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:40:00 pm ]  Got 79A 0250C00000000000
-[ 03-31-2017 08:40:00 pm ]  Parsing 79A
-[ 03-31-2017 08:40:00 pm ]  Sent 0210C0
-[ 03-31-2017 08:40:00 pm ]  Received from wifi: 79A0250C00000000000
-[ 03-31-2017 08:39:59 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:59 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:59 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:58 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:58 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:58 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:58 pm ]  History file write done.
-[ 03-31-2017 08:39:57 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:56 pm ]  OBD log file write done.
-[ 03-31-2017 08:39:53 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:51 pm ]  Connection Timeout..
-[ 03-31-2017 08:39:51 pm ]  Connection Timeout..
-[ 03-31-2017 08:39:51 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:39:51 pm ]  Received from wifi: OK>
-[ 03-31-2017 08:39:50 pm ]  Connected to 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:50 pm ]  Sending 28 commands
-[ 03-31-2017 08:39:50 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 08:39:45 pm ]  init
-[ 03-31-2017 08:39:45 pm ]  Home Controller
-[ 03-31-2017 08:39:45 pm ]  Device ready from home
-[ 03-31-2017 08:39:44 pm ]  Going to home
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: ATE0OK
-[ 03-31-2017 08:39:44 pm ]  Received from wifi: ATE0OK>
-[ 03-31-2017 08:39:44 pm ]  []
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:44 pm ]  Success!
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: ATIELM327 v1.5
-[ 03-31-2017 08:39:44 pm ]  Received from wifi: ATIELM327 v1.5>
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: ATS0OK
-[ 03-31-2017 08:39:44 pm ]  Received from wifi: ATS0OK>
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:44 pm ]  Subscribe got: ATH1OK
-[ 03-31-2017 08:39:44 pm ]  Received from wifi: ATH1OK>
-[ 03-31-2017 08:39:43 pm ]  Not testing because already can continue
-[ 03-31-2017 08:39:43 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 08:39:43 pm ]  Testing device
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: ATSP6OK
-[ 03-31-2017 08:39:43 pm ]  Received from wifi: ATSP6OK>
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: STSBR 2000000?
-[ 03-31-2017 08:39:43 pm ]  Received from wifi: STSBR 2000000?>
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
-[ 03-31-2017 08:39:43 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
-[ 03-31-2017 08:39:43 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:42 pm ]  Success!
-[ 03-31-2017 08:39:42 pm ]  Subscribe got: ELM327 v1.5
-[ 03-31-2017 08:39:42 pm ]  Received from wifi: ELM327 v1.5>
-[ 03-31-2017 08:39:42 pm ]  Received from wifi: ATZ
-[ 03-31-2017 08:39:42 pm ]  Subscribe got: 
-[ 03-31-2017 08:39:42 pm ]  Subscribe got: ATE1?
-[ 03-31-2017 08:39:42 pm ]  Received from wifi: ATE1?>
-[ 03-31-2017 08:39:37 pm ]  Testing...
-[ 03-31-2017 08:39:37 pm ]  Subscribing to Wifi ELM
-[ 03-31-2017 08:39:37 pm ]  Testing device
-[ 03-31-2017 08:39:37 pm ]  Connecting to wifi: 192.168.0.10
-[ 03-31-2017 08:39:35 pm ]  Device connected true
-[ 03-31-2017 08:39:35 pm ]  Device connected true
-[ 03-31-2017 08:39:35 pm ]  Device connected true
-[ 03-31-2017 08:39:35 pm ]  Device connected true
-[ 03-31-2017 08:39:35 pm ]  Device connected true
-[ 03-31-2017 08:39:35 pm ]  Connected to Wifi!
-[ 03-31-2017 08:39:34 pm ]  Connection Timeout..
-[ 03-31-2017 08:39:34 pm ]  Device connected false
-[ 03-31-2017 08:39:34 pm ]  Device connected false
-[ 03-31-2017 08:39:34 pm ]  Device connected false
-[ 03-31-2017 08:39:34 pm ]  Device connected false
-[ 03-31-2017 08:39:34 pm ]  Device connected false
-[ 03-31-2017 08:39:34 pm ]  Connection Timeout..
-[ 03-31-2017 08:39:34 pm ]  Listing wifi networks
-[ 03-31-2017 08:39:34 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:156"}]
-[ 03-31-2017 08:39:34 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:156"}]
-[ 03-31-2017 08:39:34 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:156"}]
-[ 03-31-2017 08:39:34 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:156"}]
-[ 03-31-2017 08:39:34 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:156"}]
-[ 03-31-2017 08:39:34 pm ]  Scanned
-[ 03-31-2017 08:39:34 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:39:34 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:39:33 pm ]  Device connected true
-[ 03-31-2017 08:39:33 pm ]  Devices changed []
-[ 03-31-2017 08:39:33 pm ]  Devices changed []
-[ 03-31-2017 08:39:33 pm ]  Devices changed []
-[ 03-31-2017 08:39:33 pm ]  Devices changed []
-[ 03-31-2017 08:39:33 pm ]  Devices changed []
-[ 03-31-2017 08:39:33 pm ]  Scanning inside manager
-[ 03-31-2017 08:39:33 pm ]  Scanning...
-[ 03-31-2017 08:39:28 pm ]  Listing wifi networks
-[ 03-31-2017 08:39:28 pm ]  "Unable to connect to device"
-[ 03-31-2017 08:39:28 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 08:39:28 pm ]  "Unable to connect to device"
-[ 03-31-2017 08:39:28 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 08:39:28 pm ]  Device connected true
-[ 03-31-2017 08:39:28 pm ]  Device connected true
-[ 03-31-2017 08:39:28 pm ]  Device connected true
-[ 03-31-2017 08:39:28 pm ]  Device connected true
-[ 03-31-2017 08:39:28 pm ]  Connected to Wifi!
-[ 03-31-2017 08:39:28 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:136"}]
-[ 03-31-2017 08:39:28 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:136"}]
-[ 03-31-2017 08:39:28 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:136"}]
-[ 03-31-2017 08:39:28 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:28 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:136"}]
-[ 03-31-2017 08:39:28 pm ]  Scanned
-[ 03-31-2017 08:39:28 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:39:28 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:39:28 pm ]  Device connected false
-[ 03-31-2017 08:39:28 pm ]  Devices changed []
-[ 03-31-2017 08:39:28 pm ]  Devices changed []
-[ 03-31-2017 08:39:28 pm ]  Devices changed []
-[ 03-31-2017 08:39:28 pm ]  Devices changed []
-[ 03-31-2017 08:39:28 pm ]  Scanning inside manager
-[ 03-31-2017 08:39:28 pm ]  Scanning...
-[ 03-31-2017 08:39:13 pm ]  Listing wifi networks
-[ 03-31-2017 08:39:13 pm ]  "Unable to connect to device"
-[ 03-31-2017 08:39:13 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 08:39:13 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:124"}]
-[ 03-31-2017 08:39:13 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:124"}]
-[ 03-31-2017 08:39:13 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:13 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:124"}]
-[ 03-31-2017 08:39:13 pm ]  Scanned
-[ 03-31-2017 08:39:13 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:39:13 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:39:13 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
-[ 03-31-2017 08:39:13 pm ]  Device connected false
-[ 03-31-2017 08:39:13 pm ]  Devices changed []
-[ 03-31-2017 08:39:13 pm ]  Devices changed []
-[ 03-31-2017 08:39:13 pm ]  Devices changed []
-[ 03-31-2017 08:39:13 pm ]  Scanning inside manager
-[ 03-31-2017 08:39:13 pm ]  Scanning...
-[ 03-31-2017 08:39:08 pm ]  Connection Timeout..
-[ 03-31-2017 08:39:06 pm ]  "Unable to connect to device"
-[ 03-31-2017 08:39:06 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 08:39:05 pm ]  Listing wifi networks
-[ 03-31-2017 08:39:05 pm ]  "Unable to connect to device"
-[ 03-31-2017 08:39:05 pm ]  Connection failed Unable to connect to device
-[ 03-31-2017 08:39:05 pm ]  Device connected false
-[ 03-31-2017 08:39:05 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:05 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:05 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:112"}]
-[ 03-31-2017 08:39:05 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:05 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:39:05 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:112"}]
-[ 03-31-2017 08:39:05 pm ]  Scanned
-[ 03-31-2017 08:39:05 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:39:05 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:39:05 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
-[ 03-31-2017 08:39:05 pm ]  Scanning inside manager
-[ 03-31-2017 08:39:05 pm ]  Scanning...
-[ 03-31-2017 08:38:51 pm ]  History file write done.
-[ 03-31-2017 08:38:49 pm ]  OBD log file write done.
-[ 03-31-2017 08:38:48 pm ]  Listing wifi networks
-[ 03-31-2017 08:38:48 pm ]  Device connected false
-[ 03-31-2017 08:38:48 pm ]  Connecting to: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:38:48 pm ]  Found last connected device: 00:1D:A5:00:12:4A
-[ 03-31-2017 08:38:48 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
-[ 03-31-2017 08:38:48 pm ]  Scanned
-[ 03-31-2017 08:38:48 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
-[ 03-31-2017 08:38:48 pm ]  got 1 bluetooth accessories
-[ 03-31-2017 08:38:48 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
-[ 03-31-2017 08:38:48 pm ]  Scanning inside manager
-[ 03-31-2017 08:38:48 pm ]  Scanning...
-[ 03-31-2017 08:38:48 pm ]  Bluetooth is enabled
-[ 03-31-2017 08:38:48 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
-[ 03-31-2017 08:38:47 pm ]  Root file directory: file:///storage/emulated/0/
-[ 03-31-2017 08:38:47 pm ]  Device is ready!
-[ 03-31-2017 08:38:47 pm ]  Translating to en
-[ 03-31-2017 08:38:41 pm ]  I'm running angular!
-[ 03-31-2017 08:38:40 pm ]  Cleaning up history older than 24 hours
-HappyLeaf Version 0.1.9.3
