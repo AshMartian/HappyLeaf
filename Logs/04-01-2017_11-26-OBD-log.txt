@@ -1,0 +1,670 @@
+[ 04-01-2017 11:30:11 am ]  Parsing ATF
+[ 04-01-2017 11:30:11 am ]  Sent ATFCSD300100
+[ 04-01-2017 11:30:11 am ]  Received from wifi: ATFCSD300100OK>
+[ 04-01-2017 11:30:11 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 04-01-2017 11:30:09 am ]  Parsing ATF
+[ 04-01-2017 11:30:09 am ]  Sent ATFCSH743
+[ 04-01-2017 11:30:09 am ]  Received from wifi: ATFCSH743OK>
+[ 04-01-2017 11:30:05 am ]  undefined
+[ 04-01-2017 11:30:04 am ]  Setting history point
+[ 04-01-2017 11:30:04 am ]  Parsing ATF
+[ 04-01-2017 11:30:04 am ]  Sent ATFCSH743
+[ 04-01-2017 11:30:04 am ]  Received from wifi: ATFCSH743OK>
+[ 04-01-2017 11:30:03 am ]  Parsing ATS
+[ 04-01-2017 11:30:03 am ]  Sent ATSH743
+[ 04-01-2017 11:30:03 am ]  Received from wifi: ATSH743OK>
+[ 04-01-2017 11:30:02 am ]  Received from wifi: >
+[ 04-01-2017 11:30:02 am ]  Cannot parse 7BB, invalid length: 4
+[ 04-01-2017 11:30:02 am ]  Got 7BB cell voltage  037F0211
+[ 04-01-2017 11:30:02 am ]  Parsing 7BB
+[ 04-01-2017 11:30:02 am ]  Sent 022104
+[ 04-01-2017 11:30:02 am ]  Parsing 022
+[ 04-01-2017 11:30:02 am ]  Sent 022104
+[ 04-01-2017 11:30:02 am ]  Received from wifi: 0221047BB037F0211
+[ 04-01-2017 11:30:01 am ]  Received from wifi: >
+[ 04-01-2017 11:30:01 am ]  Cannot parse 7BB, invalid length: 4
+[ 04-01-2017 11:30:01 am ]  Got 7BB cell voltage  037F0211
+[ 04-01-2017 11:30:01 am ]  Parsing 7BB
+[ 04-01-2017 11:30:01 am ]  Sent 022101
+[ 04-01-2017 11:30:01 am ]  Parsing 022
+[ 04-01-2017 11:30:01 am ]  Sent 022101
+[ 04-01-2017 11:30:01 am ]  Received from wifi: 0221017BB037F0211
+[ 04-01-2017 11:30:00 am ]  Parsing ATF
+[ 04-01-2017 11:30:00 am ]  Sent ATFCSH79B
+[ 04-01-2017 11:30:00 am ]  Received from wifi: ATFCSH79BOK>
+[ 04-01-2017 11:29:59 am ]  Parsing ATS
+[ 04-01-2017 11:29:59 am ]  Sent ATSH79B
+[ 04-01-2017 11:29:59 am ]  Received from wifi: ATSH79BOK>
+[ 04-01-2017 11:29:57 am ]  Received from wifi: >
+[ 04-01-2017 11:29:56 am ]  EVSE message invalid length: 4
+[ 04-01-2017 11:29:56 am ]  Got 79A 037F0211
+[ 04-01-2017 11:29:56 am ]  EVSE message invalid length: 4
+[ 04-01-2017 11:29:56 am ]  Got 79A 037F0211
+[ 04-01-2017 11:29:56 am ]  Parsing 79A
+[ 04-01-2017 11:29:56 am ]  Sent 0210C0
+[ 04-01-2017 11:29:56 am ]  Parsing 021
+[ 04-01-2017 11:29:56 am ]  Sent 0210C0
+[ 04-01-2017 11:29:56 am ]  Received from wifi: 0210C079A037F0211
+[ 04-01-2017 11:29:55 am ]  Parsing ATF
+[ 04-01-2017 11:29:55 am ]  Sent ATFCSM1
+[ 04-01-2017 11:29:55 am ]  Received from wifi: ATFCSM1OK>
+[ 04-01-2017 11:29:54 am ]  Parsing ATF
+[ 04-01-2017 11:29:54 am ]  Sent ATFCSD300000
+[ 04-01-2017 11:29:54 am ]  Received from wifi: ATFCSD300000OK>
+[ 04-01-2017 11:29:53 am ]  Parsing ATF
+[ 04-01-2017 11:29:53 am ]  Sent ATFCSH797
+[ 04-01-2017 11:29:53 am ]  Received from wifi: ATFCSH797OK>
+[ 04-01-2017 11:29:52 am ]  Parsing ATS
+[ 04-01-2017 11:29:52 am ]  Sent ATSH797
+[ 04-01-2017 11:29:52 am ]  Received from wifi: ATSH797OK>
+[ 04-01-2017 11:29:50 am ]  Connected to 
+[ 04-01-2017 11:29:50 am ]  Sending 28 commands
+[ 04-01-2017 11:29:46 am ]  Parsing ATH
+[ 04-01-2017 11:29:46 am ]  Sent ATH1
+[ 04-01-2017 11:29:46 am ]  Received from wifi: ATH1OK>
+[ 04-01-2017 11:29:46 am ]  []
+[ 04-01-2017 11:29:46 am ]  Canceling current send request.
+[ 04-01-2017 11:29:46 am ]  Canceling current send request.
+[ 04-01-2017 11:29:46 am ]  Canceling current send request.
+[ 04-01-2017 11:29:46 am ]  Parsing ELM
+[ 04-01-2017 11:29:46 am ]  Sent ATZ
+[ 04-01-2017 11:29:46 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:29:46 am ]  Parsing ATZ
+[ 04-01-2017 11:29:46 am ]  Sent ATZ
+[ 04-01-2017 11:29:46 am ]  Received from wifi: ATZ
+[ 04-01-2017 11:29:45 am ]  Canceling current send request.
+[ 04-01-2017 11:29:45 am ]  Canceling current send request.
+[ 04-01-2017 11:29:45 am ]  Canceling current send request.
+[ 04-01-2017 11:29:44 am ]  Connected to 
+[ 04-01-2017 11:29:44 am ]  Sending 28 commands
+[ 04-01-2017 11:29:38 am ]  Parsing ELM
+[ 04-01-2017 11:29:38 am ]  Sent ATH1
+[ 04-01-2017 11:29:38 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:29:38 am ]  []
+[ 04-01-2017 11:29:38 am ]  Canceling current send request.
+[ 04-01-2017 11:29:38 am ]  Canceling current send request.
+[ 04-01-2017 11:29:38 am ]  Canceling current send request.
+[ 04-01-2017 11:29:37 am ]  Parsing ATZ
+[ 04-01-2017 11:29:37 am ]  Sent ATZ
+[ 04-01-2017 11:29:37 am ]  Received from wifi: ATZ
+[ 04-01-2017 11:29:37 am ]  Canceling current send request.
+[ 04-01-2017 11:29:37 am ]  Canceling current send request.
+[ 04-01-2017 11:29:37 am ]  Canceling current send request.
+[ 04-01-2017 11:29:37 am ]  Received from wifi: >
+[ 04-01-2017 11:29:37 am ]  Parsing 250
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Parsing 247
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Parsing 239
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Parsing 22F
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Parsing 210
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Got charging current 96101FFFFE638
+[ 04-01-2017 11:29:37 am ]  Parsing 102
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Parsing 022
+[ 04-01-2017 11:29:37 am ]  Sent 022101
+[ 04-01-2017 11:29:37 am ]  Received from wifi: 02210110296101FFFFE638210288FFFFF6CDFF22FFFFFF04C22AF823966A32F3038800247F1C62000DE34E2500089F56800001
+[ 04-01-2017 11:29:37 am ]  Parsing ATF
+[ 04-01-2017 11:29:37 am ]  Sent ATFCSH79B
+[ 04-01-2017 11:29:37 am ]  Received from wifi: ATFCSH79BOK>
+[ 04-01-2017 11:29:36 am ]  Parsing ATS
+[ 04-01-2017 11:29:36 am ]  Sent ATSH79B
+[ 04-01-2017 11:29:36 am ]  Received from wifi: ATSH79BOK>
+[ 04-01-2017 11:29:36 am ]  Received from wifi: >
+[ 04-01-2017 11:29:36 am ]  Parsing 025
+[ 04-01-2017 11:29:36 am ]  Sent 0210C0
+[ 04-01-2017 11:29:36 am ]  Parsing 021
+[ 04-01-2017 11:29:36 am ]  Sent 0210C0
+[ 04-01-2017 11:29:36 am ]  Received from wifi: 0210C00250C00000000000
+[ 04-01-2017 11:29:36 am ]  Parsing ATF
+[ 04-01-2017 11:29:36 am ]  Sent ATFCSM1
+[ 04-01-2017 11:29:36 am ]  Received from wifi: ATFCSM1OK>
+[ 04-01-2017 11:29:35 am ]  Parsing ATF
+[ 04-01-2017 11:29:35 am ]  Sent ATFCSD300000
+[ 04-01-2017 11:29:35 am ]  Received from wifi: ATFCSD300000OK>
+[ 04-01-2017 11:29:35 am ]  Parsing ATF
+[ 04-01-2017 11:29:35 am ]  Sent ATFCSH797
+[ 04-01-2017 11:29:35 am ]  Received from wifi: ATFCSH797OK>
+[ 04-01-2017 11:29:35 am ]  Parsing ATS
+[ 04-01-2017 11:29:35 am ]  Sent ATSH797
+[ 04-01-2017 11:29:35 am ]  Received from wifi: ATSH797OK>
+[ 04-01-2017 11:29:35 am ]  undefined
+[ 04-01-2017 11:29:34 am ]  Setting history point
+[ 04-01-2017 11:29:33 am ]  Parsing ATC
+[ 04-01-2017 11:29:33 am ]  Sent ATCAF0
+[ 04-01-2017 11:29:33 am ]  Received from wifi: ATCAF0OK>
+[ 04-01-2017 11:29:33 am ]  Parsing ATL
+[ 04-01-2017 11:29:33 am ]  Sent ATL0
+[ 04-01-2017 11:29:33 am ]  Received from wifi: ATL0OK>
+[ 04-01-2017 11:29:33 am ]  Parsing ELM
+[ 04-01-2017 11:29:33 am ]  Sent ATH1
+[ 04-01-2017 11:29:33 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:29:32 am ]  Canceling current send request.
+[ 04-01-2017 11:29:32 am ]  Canceling current send request.
+[ 04-01-2017 11:29:32 am ]  Canceling current send request.
+[ 04-01-2017 11:29:31 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:31 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:31 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:31 am ]  Received from wifi: >
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  220D0D32FFFFFFFF
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022104
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  213B0E023A0E024A
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022104
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  1010610402261002
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022104
+[ 04-01-2017 11:29:30 am ]  Received from wifi: 7BB10106104022610027BB213B0E023A0E024A7BB220D0D32FFFFFFFF
+[ 04-01-2017 11:29:30 am ]  Received from wifi: >
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  2500089F56800001
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022101
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  247F1C62000DE6CB
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022101
+[ 04-01-2017 11:29:30 am ]  Got battery volts: 384.46
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  23962E32FA038600
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022101
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  22FFFFFF047E2AF8
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022101
+[ 04-01-2017 11:29:30 am ]  Got 7BB cell voltage  210288FFFFA248FF
+[ 04-01-2017 11:29:30 am ]  Parsing 7BB
+[ 04-01-2017 11:29:30 am ]  Sent 022101
+[ 04-01-2017 11:29:29 am ]  Got 7BB cell voltage  10296101FFFF8173
+[ 04-01-2017 11:29:29 am ]  Parsing 7BB
+[ 04-01-2017 11:29:29 am ]  Sent 022101
+[ 04-01-2017 11:29:29 am ]  Received from wifi: 7BB10296101FFFF81737BB210288FFFFA248FF7BB22FFFFFF047E2AF87BB23962E32FA0386007BB247F1C62000DE6CB7BB2500089F56800001
+[ 04-01-2017 11:29:28 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:28 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:28 am ]  Received from wifi: >
+[ 04-01-2017 11:29:28 am ]  Got 79A 0250C00000000000
+[ 04-01-2017 11:29:28 am ]  Got 79A 0250C00000000000
+[ 04-01-2017 11:29:28 am ]  Parsing 79A
+[ 04-01-2017 11:29:28 am ]  Sent 0210C0
+[ 04-01-2017 11:29:28 am ]  Received from wifi: 79A0250C00000000000
+[ 04-01-2017 11:29:27 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:27 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:27 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:26 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:26 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:26 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:25 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:25 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:25 am ]  Parsing ATE
+[ 04-01-2017 11:29:25 am ]  Sent ATE0
+[ 04-01-2017 11:29:25 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:29:24 am ]  Parsing ATA
+[ 04-01-2017 11:29:24 am ]  Sent ATAR
+[ 04-01-2017 11:29:24 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:29:23 am ]  Connected to 
+[ 04-01-2017 11:29:23 am ]  Sending 28 commands
+[ 04-01-2017 11:29:16 am ]  Parsing ELM
+[ 04-01-2017 11:29:16 am ]  Sent ATH1
+[ 04-01-2017 11:29:16 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:29:16 am ]  []
+[ 04-01-2017 11:29:16 am ]  Canceling current send request.
+[ 04-01-2017 11:29:16 am ]  Canceling current send request.
+[ 04-01-2017 11:29:16 am ]  Canceling current send request.
+[ 04-01-2017 11:29:15 am ]  Canceling current send request.
+[ 04-01-2017 11:29:15 am ]  Canceling current send request.
+[ 04-01-2017 11:29:15 am ]  Canceling current send request.
+[ 04-01-2017 11:29:15 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:15 am ]  Received from wifi: OK>
+[ 04-01-2017 11:29:15 am ]  Parsing ATE
+[ 04-01-2017 11:29:15 am ]  Sent ATE0
+[ 04-01-2017 11:29:15 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:29:14 am ]  Parsing ATA
+[ 04-01-2017 11:29:14 am ]  Sent ATAR
+[ 04-01-2017 11:29:14 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:29:14 am ]  History file write done.
+[ 04-01-2017 11:29:13 am ]  Parsing ATA
+[ 04-01-2017 11:29:13 am ]  Sent ATAR
+[ 04-01-2017 11:29:13 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:29:13 am ]  OBD log file write done.
+[ 04-01-2017 11:29:13 am ]  Connected to 
+[ 04-01-2017 11:29:13 am ]  Sending 28 commands
+[ 04-01-2017 11:29:07 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 04-01-2017 11:29:07 am ]  Connected to 
+[ 04-01-2017 11:29:07 am ]  Sending 28 commands
+[ 04-01-2017 11:29:04 am ]  undefined
+[ 04-01-2017 11:29:03 am ]  Setting history point
+[ 04-01-2017 11:29:00 am ]  Parsing ELM
+[ 04-01-2017 11:29:00 am ]  Sent ATH1
+[ 04-01-2017 11:29:00 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:29:00 am ]  []
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:29:00 am ]  Canceling current send request.
+[ 04-01-2017 11:28:59 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:59 am ]  Received from wifi: >
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  220D0D2AFFFFFFFF
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022104
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  213B0E023A0E0249
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022104
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  1010610402251002
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022104
+[ 04-01-2017 11:28:58 am ]  Received from wifi: 7BB10106104022510027BB213B0E023A0E02497BB220D0D2AFFFFFFFF
+[ 04-01-2017 11:28:58 am ]  Received from wifi: >
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  2500089F56800005
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  24821C62000DF917
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Got battery volts: 384.01
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  239601387E038700
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  22FFFFFF03902AF8
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  210288FFFF7A2DFF
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Got 7BB cell voltage  10296101FFFF46BE
+[ 04-01-2017 11:28:58 am ]  Parsing 7BB
+[ 04-01-2017 11:28:58 am ]  Sent 022101
+[ 04-01-2017 11:28:58 am ]  Received from wifi: 7BB10296101FFFF46BE7BB210288FFFF7A2DFF7BB22FFFFFF03902AF87BB239601387E0387007BB24821C62000DF9177BB2500089F56800005
+[ 04-01-2017 11:28:56 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:56 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:56 am ]  Received from wifi: >
+[ 04-01-2017 11:28:56 am ]  Got 79A 0250C00000000000
+[ 04-01-2017 11:28:56 am ]  Got 79A 0250C00000000000
+[ 04-01-2017 11:28:56 am ]  Parsing 79A
+[ 04-01-2017 11:28:56 am ]  Sent 0210C0
+[ 04-01-2017 11:28:56 am ]  Received from wifi: 79A0250C00000000000
+[ 04-01-2017 11:28:55 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:55 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:55 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:54 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:54 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:54 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:53 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:53 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:53 am ]  Parsing ATE
+[ 04-01-2017 11:28:53 am ]  Sent ATE0
+[ 04-01-2017 11:28:53 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:28:52 am ]  Parsing ATA
+[ 04-01-2017 11:28:52 am ]  Sent ATAR
+[ 04-01-2017 11:28:52 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:28:51 am ]  Connected to 
+[ 04-01-2017 11:28:51 am ]  Sending 28 commands
+[ 04-01-2017 11:28:45 am ]  Parsing ELM
+[ 04-01-2017 11:28:45 am ]  Sent ATH1
+[ 04-01-2017 11:28:45 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:28:45 am ]  []
+[ 04-01-2017 11:28:45 am ]  Canceling current send request.
+[ 04-01-2017 11:28:45 am ]  Canceling current send request.
+[ 04-01-2017 11:28:45 am ]  Canceling current send request.
+[ 04-01-2017 11:28:44 am ]  Canceling current send request.
+[ 04-01-2017 11:28:44 am ]  Canceling current send request.
+[ 04-01-2017 11:28:44 am ]  Canceling current send request.
+[ 04-01-2017 11:28:44 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:44 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:43 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:43 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:43 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:42 am ]  Parsing ATE
+[ 04-01-2017 11:28:42 am ]  Sent ATE0
+[ 04-01-2017 11:28:42 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:28:41 am ]  Parsing ATA
+[ 04-01-2017 11:28:41 am ]  Sent ATAR
+[ 04-01-2017 11:28:41 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:28:41 am ]  Connected to 
+[ 04-01-2017 11:28:41 am ]  Sending 28 commands
+[ 04-01-2017 11:28:36 am ]  Connected to 
+[ 04-01-2017 11:28:36 am ]  Sending 28 commands
+[ 04-01-2017 11:28:34 am ]  undefined
+[ 04-01-2017 11:28:33 am ]  Setting history point
+[ 04-01-2017 11:28:29 am ]  Parsing ELM
+[ 04-01-2017 11:28:29 am ]  Sent ATH1
+[ 04-01-2017 11:28:29 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:28:28 am ]  []
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Canceling current send request.
+[ 04-01-2017 11:28:28 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:27 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:27 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:27 am ]  Parsing ATE
+[ 04-01-2017 11:28:27 am ]  Sent ATE0
+[ 04-01-2017 11:28:27 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:28:26 am ]  Parsing ATA
+[ 04-01-2017 11:28:26 am ]  Sent ATAR
+[ 04-01-2017 11:28:26 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:28:25 am ]  Connected to 
+[ 04-01-2017 11:28:25 am ]  Sending 28 commands
+[ 04-01-2017 11:28:21 am ]  Parsing ELM
+[ 04-01-2017 11:28:21 am ]  Sent ATH1
+[ 04-01-2017 11:28:21 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:28:20 am ]  []
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:20 am ]  Canceling current send request.
+[ 04-01-2017 11:28:19 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:19 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:19 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:18 am ]  Received from wifi: OK>
+[ 04-01-2017 11:28:18 am ]  Parsing ATE
+[ 04-01-2017 11:28:18 am ]  Sent ATE0
+[ 04-01-2017 11:28:18 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:28:17 am ]  Parsing ATA
+[ 04-01-2017 11:28:17 am ]  Sent ATAR
+[ 04-01-2017 11:28:17 am ]  Received from wifi: ATAROK>
+[ 04-01-2017 11:28:15 am ]  Connected to 
+[ 04-01-2017 11:28:15 am ]  Sending 28 commands
+[ 04-01-2017 11:28:13 am ]  History file write done.
+[ 04-01-2017 11:28:11 am ]  OBD log file write done.
+[ 04-01-2017 11:28:08 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 04-01-2017 11:28:07 am ]  Parsing ISO
+[ 04-01-2017 11:28:07 am ]  Sent ATDP
+[ 04-01-2017 11:28:07 am ]  Parsing ATD
+[ 04-01-2017 11:28:07 am ]  Sent ATDP
+[ 04-01-2017 11:28:07 am ]  Received from wifi: ATDPISO15765-4(CAN11/500)>
+[ 04-01-2017 11:28:05 am ]  []
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:05 am ]  Canceling current send request.
+[ 04-01-2017 11:28:04 am ]  Parsing ELM
+[ 04-01-2017 11:28:04 am ]  Sent ATZ
+[ 04-01-2017 11:28:04 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:28:03 am ]  Connected to 
+[ 04-01-2017 11:28:03 am ]  Sending 28 commands
+[ 04-01-2017 11:28:03 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:28:00 am ]  Subscribe got: 
+[ 04-01-2017 11:28:00 am ]  Subscribe got: OK
+[ 04-01-2017 11:28:00 am ]  Received from wifi: OK>
+[ 04-01-2017 11:27:59 am ]  []
+[ 04-01-2017 11:27:59 am ]  Subscribe got: 
+[ 04-01-2017 11:27:59 am ]  Success!
+[ 04-01-2017 11:27:59 am ]  Subscribe got: ELM327v1.5
+[ 04-01-2017 11:27:59 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:27:59 am ]  init
+[ 04-01-2017 11:27:58 am ]  Home Controller
+[ 04-01-2017 11:27:58 am ]  Device ready from home
+[ 04-01-2017 11:27:58 am ]  Subscribe got: 
+[ 04-01-2017 11:27:58 am ]  Subscribe got: OK
+[ 04-01-2017 11:27:58 am ]  Received from wifi: OK>
+[ 04-01-2017 11:27:58 am ]  Going to home
+[ 04-01-2017 11:27:58 am ]  Not testing because already can continue
+[ 04-01-2017 11:27:58 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:58 am ]  Testing device
+[ 04-01-2017 11:27:58 am ]  Subscribe got: 
+[ 04-01-2017 11:27:58 am ]  Subscribe got: OK
+[ 04-01-2017 11:27:58 am ]  Received from wifi: OK>
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: OK
+[ 04-01-2017 11:27:57 am ]  Received from wifi: OK>
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: ATE0OK
+[ 04-01-2017 11:27:57 am ]  Received from wifi: ATE0OK>
+[ 04-01-2017 11:27:57 am ]  []
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Success!
+[ 04-01-2017 11:27:57 am ]  Subscribe got: ATIELM327v1.5
+[ 04-01-2017 11:27:57 am ]  Received from wifi: ATIELM327v1.5>
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: ATS0OK
+[ 04-01-2017 11:27:57 am ]  Received from wifi: ATS0OK>
+[ 04-01-2017 11:27:57 am ]  Not testing because already can continue
+[ 04-01-2017 11:27:57 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:57 am ]  Testing device
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: ATH1OK
+[ 04-01-2017 11:27:57 am ]  Received from wifi: ATH1OK>
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: ATSP6OK
+[ 04-01-2017 11:27:57 am ]  Received from wifi: ATSP6OK>
+[ 04-01-2017 11:27:57 am ]  Subscribe got: 
+[ 04-01-2017 11:27:57 am ]  Subscribe got: STSBR2000000?
+[ 04-01-2017 11:27:57 am ]  Received from wifi: STSBR2000000?>
+[ 04-01-2017 11:27:56 am ]  Subscribe got: 
+[ 04-01-2017 11:27:56 am ]  Success!
+[ 04-01-2017 11:27:56 am ]  Subscribe got: ELM327v1.5
+[ 04-01-2017 11:27:56 am ]  Received from wifi: ELM327v1.5>
+[ 04-01-2017 11:27:55 am ]  Received from wifi: ATZ
+[ 04-01-2017 11:27:55 am ]  Subscribe got: 
+[ 04-01-2017 11:27:55 am ]  Subscribe got: ATE1OK
+[ 04-01-2017 11:27:55 am ]  Received from wifi: ATE1OK>
+[ 04-01-2017 11:27:55 am ]  Testing...
+[ 04-01-2017 11:27:55 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:55 am ]  Testing device
+[ 04-01-2017 11:27:55 am ]  Subscribe got: 
+[ 04-01-2017 11:27:55 am ]  Subscribe got: STSBR2000000?
+[ 04-01-2017 11:27:55 am ]  Received from wifi: STSBR2000000?>
+[ 04-01-2017 11:27:55 am ]  Subscribe got: 
+[ 04-01-2017 11:27:55 am ]  Subscribe got: ATDPISO15765-4(CAN11/500)
+[ 04-01-2017 11:27:55 am ]  Received from wifi: ATDPISO15765-4(CAN11/500)>
+[ 04-01-2017 11:27:54 am ]  Subscribe got: 
+[ 04-01-2017 11:27:54 am ]  Subscribe got: ATZ?
+[ 04-01-2017 11:27:54 am ]  Received from wifi: ATZ?>
+[ 04-01-2017 11:27:54 am ]  Subscribe got: LCU
+[ 04-01-2017 11:27:54 am ]  Subscribe got: OK
+[ 04-01-2017 11:27:54 am ]  Received from wifi: OK>LCU
+[ 04-01-2017 11:27:54 am ]  Subscribe got: 
+[ 04-01-2017 11:27:54 am ]  Subscribe got: ?
+[ 04-01-2017 11:27:54 am ]  Received from wifi: ?>
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:53 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:53 am ]  Testing device
+[ 04-01-2017 11:27:53 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:53 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:53 am ]  Testing device
+[ 04-01-2017 11:27:53 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:53 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:53 am ]  Testing device
+[ 04-01-2017 11:27:53 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:53 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:53 am ]  Testing device
+[ 04-01-2017 11:27:53 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:53 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:53 am ]  Testing device
+[ 04-01-2017 11:27:53 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:53 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:53 am ]  Testing...
+[ 04-01-2017 11:27:52 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:52 am ]  Testing device
+[ 04-01-2017 11:27:52 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:52 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:52 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:279"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:280"}]
+[ 04-01-2017 11:27:47 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:47 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:47 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:47 am ]  Subscribe got: 
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Devices changed []
+[ 04-01-2017 11:27:47 am ]  Subscribe got: ?
+[ 04-01-2017 11:27:47 am ]  Received from wifi: ?>
+[ 04-01-2017 11:27:47 am ]  Scanning inside manager
+[ 04-01-2017 11:27:47 am ]  Testing...
+[ 04-01-2017 11:27:47 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:47 am ]  Testing device
+[ 04-01-2017 11:27:47 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:47 am ]  Subscribe got: 
+[ 04-01-2017 11:27:47 am ]  Subscribe got: ?
+[ 04-01-2017 11:27:47 am ]  Received from wifi: ?>
+[ 04-01-2017 11:27:47 am ]  Subscribe got: 
+[ 04-01-2017 11:27:46 am ]  Subscribe got: ?
+[ 04-01-2017 11:27:46 am ]  Received from wifi: ?>
+[ 04-01-2017 11:27:41 am ]  Listing wifi networks
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Testing...
+[ 04-01-2017 11:27:41 am ]  Subscribing to Wifi ELM
+[ 04-01-2017 11:27:41 am ]  Testing device
+[ 04-01-2017 11:27:41 am ]  Connecting to wifi: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Found last connected wifi device: 192.168.0.10
+[ 04-01-2017 11:27:41 am ]  Devices changed [{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:231"},{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:232"}]
+[ 04-01-2017 11:27:41 am ]  Scanned
+[ 04-01-2017 11:27:41 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:41 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:41 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:41 am ]  Device connected true
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Devices changed []
+[ 04-01-2017 11:27:41 am ]  Scanning inside manager
+[ 04-01-2017 11:27:41 am ]  Scanning...
+[ 04-01-2017 11:27:33 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:33 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:33 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:33 am ]  Scanning inside manager
+[ 04-01-2017 11:27:32 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 04-01-2017 11:27:32 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 04-01-2017 11:27:32 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 04-01-2017 11:27:32 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 04-01-2017 11:27:32 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 04-01-2017 11:27:30 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:30 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:30 am ]  Scanning inside manager
+[ 04-01-2017 11:27:29 am ]  Listing wifi networks
+[ 04-01-2017 11:27:29 am ]  Device connected true
+[ 04-01-2017 11:27:29 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:187"}]
+[ 04-01-2017 11:27:29 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:187"}]
+[ 04-01-2017 11:27:29 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:187"}]
+[ 04-01-2017 11:27:29 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:187"}]
+[ 04-01-2017 11:27:29 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:187"}]
+[ 04-01-2017 11:27:29 am ]  Scanned
+[ 04-01-2017 11:27:29 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:29 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:29 am ]  Scanning inside manager
+[ 04-01-2017 11:27:29 am ]  Scanning...
+[ 04-01-2017 11:27:26 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:26 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:26 am ]  Listing wifi networks
+[ 04-01-2017 11:27:26 am ]  Device connected true
+[ 04-01-2017 11:27:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:139"}]
+[ 04-01-2017 11:27:26 am ]  Device connected true
+[ 04-01-2017 11:27:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:139"}]
+[ 04-01-2017 11:27:26 am ]  Device connected true
+[ 04-01-2017 11:27:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:139"}]
+[ 04-01-2017 11:27:26 am ]  Device connected true
+[ 04-01-2017 11:27:26 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:139"}]
+[ 04-01-2017 11:27:26 am ]  Scanned
+[ 04-01-2017 11:27:26 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:26 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:26 am ]  Scanning inside manager
+[ 04-01-2017 11:27:26 am ]  Scanning...
+[ 04-01-2017 11:27:25 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:24 am ]  Connected to Wifi!
+[ 04-01-2017 11:27:23 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:135"}]
+[ 04-01-2017 11:27:23 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:135"}]
+[ 04-01-2017 11:27:23 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:135"}]
+[ 04-01-2017 11:27:22 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:22 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:22 am ]  Scanning inside manager
+[ 04-01-2017 11:27:18 am ]  Listing wifi networks
+[ 04-01-2017 11:27:18 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:99"}]
+[ 04-01-2017 11:27:18 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:99"}]
+[ 04-01-2017 11:27:18 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:99"}]
+[ 04-01-2017 11:27:18 am ]  Scanned
+[ 04-01-2017 11:27:18 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:18 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:18 am ]  Device connected false
+[ 04-01-2017 11:27:18 am ]  Devices changed []
+[ 04-01-2017 11:27:18 am ]  Devices changed []
+[ 04-01-2017 11:27:18 am ]  Devices changed []
+[ 04-01-2017 11:27:18 am ]  Scanning inside manager
+[ 04-01-2017 11:27:18 am ]  Scanning...
+[ 04-01-2017 11:27:12 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:12 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:12 am ]  Scanning inside manager
+[ 04-01-2017 11:27:11 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:11 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:11 am ]  Scanning inside manager
+[ 04-01-2017 11:27:09 am ]  History file write done.
+[ 04-01-2017 11:27:08 am ]  OBD log file write done.
+[ 04-01-2017 11:27:08 am ]  Listing wifi networks
+[ 04-01-2017 11:27:07 am ]  Device connected false
+[ 04-01-2017 11:27:07 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
+[ 04-01-2017 11:27:07 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:27"}]
+[ 04-01-2017 11:27:07 am ]  Scanned
+[ 04-01-2017 11:27:07 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:07 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:07 am ]  Scanning inside manager
+[ 04-01-2017 11:27:07 am ]  Scanning...
+[ 04-01-2017 11:27:07 am ]  Listing wifi networks
+[ 04-01-2017 11:27:07 am ]  Device connected false
+[ 04-01-2017 11:27:07 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
+[ 04-01-2017 11:27:07 am ]  Scanned
+[ 04-01-2017 11:27:07 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 04-01-2017 11:27:07 am ]  got 1 bluetooth accessories
+[ 04-01-2017 11:27:07 am ]  Scanning inside manager
+[ 04-01-2017 11:27:07 am ]  Scanning...
+[ 04-01-2017 11:27:07 am ]  Bluetooth is enabled
+[ 04-01-2017 11:27:07 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 04-01-2017 11:27:05 am ]  Root file directory: file:///storage/emulated/0/
+[ 04-01-2017 11:27:05 am ]  Device is ready!
+[ 04-01-2017 11:27:05 am ]  Translating to en
+[ 04-01-2017 11:26:58 am ]  I'm running angular!
+[ 04-01-2017 11:26:57 am ]  Cleaning up history older than 24 hours
+HappyLeaf Version 0.1.9.3

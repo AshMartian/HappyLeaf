@@ -135,9 +135,9 @@
 
 - (void)list:(CDVInvokedUrlCommand*)command {
 
-    [self scanForBLEPeripherals:5];
+    [self scanForBLEPeripherals:3];
 
-    [NSTimer scheduledTimerWithTimeInterval:(float)5.0
+    [NSTimer scheduledTimerWithTimeInterval:(float)3.0
                                      target:self
                                    selector:@selector(listPeripheralsTimer:)
                                    userInfo:[command.callbackId copy]
@@ -200,9 +200,7 @@
 }
 
 - (void)clear:(CDVInvokedUrlCommand*)command {
-    long end = [_buffer length] - 1;
-    NSRange truncate = NSMakeRange(0, end);
-    [_buffer deleteCharactersInRange:truncate];
+    [self clearBuffer];
 }
 
 - (void)readRSSI:(CDVInvokedUrlCommand*)command {
@@ -246,6 +244,7 @@
 - (void)bleDidConnect {
     NSLog(@"bleDidConnect");
     CDVPluginResult *pluginResult = nil;
+    [self clearBuffer];
 
     if (_connectCallbackId) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
@@ -461,6 +460,12 @@
         }
     }
     return peripheral;
+}
+
+- (void)clearBuffer {
+    long end = [_buffer length];
+    NSRange truncate = NSMakeRange(0, end);
+    [_buffer deleteCharactersInRange:truncate];
 }
 
 @end

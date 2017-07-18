@@ -1,0 +1,651 @@
+[ 03-22-2017 12:03:20 am ]  Bluetooth is enabled
+[ 03-22-2017 12:03:20 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-22-2017 12:03:19 am ]  Root file directory: file:///storage/emulated/0/
+[ 03-22-2017 12:03:19 am ]  Device is ready!
+[ 03-22-2017 12:03:19 am ]  Translating to en
+[ 03-22-2017 12:03:19 am ]  I'm running angular!
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  2500089D49000A01
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  245C1C54000DA3FD
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got battery volts: 394.08
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  2399F03306038B00
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  22FFFFFF04AC2AF8
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  21028900000A5CFF
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Got 7BB cell voltage  1029610100000B8D
+[ 03-22-2017 12:03:19 am ]  Parsing 7BB
+[ 03-22-2017 12:03:19 am ]  Sent 022101
+[ 03-22-2017 12:03:19 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:03:19 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:03:19 am ]  Sent ATSH79B
+[ 03-22-2017 12:03:19 am ]  Sent ATSH79B
+[ 03-22-2017 12:03:19 am ]  Sent 0210C0
+[ 03-22-2017 12:03:18 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:03:18 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:03:18 am ]  Parsing 79A
+[ 03-22-2017 12:03:18 am ]  Sent 0210C0
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:03:18 am ]  undefined
+[ 03-22-2017 12:03:18 am ]  Setting history point
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSH797
+[ 03-22-2017 12:03:18 am ]  Sent ATFCSH797
+[ 03-22-2017 12:03:18 am ]  Sent ATSH797
+[ 03-22-2017 12:03:18 am ]  Sent ATSH797
+[ 03-22-2017 12:03:18 am ]  Sent ATCAF0
+[ 03-22-2017 12:03:18 am ]  Sent ATCAF0
+[ 03-22-2017 12:03:18 am ]  Sent ATL0
+[ 03-22-2017 12:03:18 am ]  Sent ATL0
+[ 03-22-2017 12:03:18 am ]  Sent ATE0
+[ 03-22-2017 12:03:18 am ]  Sent ATE0
+[ 03-22-2017 12:03:18 am ]  Sent ATAR
+[ 03-22-2017 12:03:18 am ]  Sent ATAR
+[ 03-22-2017 12:03:18 am ]  Sent ATAR
+[ 03-22-2017 12:03:18 am ]  Sent ATAR
+[ 03-22-2017 12:03:18 am ]  Connected to 00:1D:A5:00:12:4A
+[ 03-22-2017 12:03:18 am ]  Sending 27 commands
+[ 03-22-2017 12:03:18 am ]  Completed command sequence, took 16012ms, received 40 messages, 28 force send requests
+[ 03-22-2017 12:03:17 am ]  Sent ATBD
+[ 03-22-2017 12:03:17 am ]  Parsing 0C 
+[ 03-22-2017 12:03:17 am ]  Sent ATBD
+[ 03-22-2017 12:03:17 am ]  Sent X
+[ 03-22-2017 12:03:17 am ]  Parsing STO
+[ 03-22-2017 12:03:17 am ]  Sent X
+[ 03-22-2017 12:03:16 am ]  Sent ATCRA38X
+[ 03-22-2017 12:03:16 am ]  Sent ATCRA38X
+[ 03-22-2017 12:03:16 am ]  Sent ATCF38F
+[ 03-22-2017 12:03:16 am ]  Sent ATCF38F
+[ 03-22-2017 12:03:16 am ]  Sent X
+[ 03-22-2017 12:03:16 am ]  Parsing STO
+[ 03-22-2017 12:03:16 am ]  Sent X
+[ 03-22-2017 12:03:15 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:03:15 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:03:15 am ]  Sent ATCF62F
+[ 03-22-2017 12:03:15 am ]  Sent ATCF62F
+[ 03-22-2017 12:03:15 am ]  Sent X
+[ 03-22-2017 12:03:15 am ]  Parsing STO
+[ 03-22-2017 12:03:15 am ]  Sent X
+[ 03-22-2017 12:03:14 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:03:14 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:03:14 am ]  Sent ATCF54F
+[ 03-22-2017 12:03:14 am ]  Sent ATCF54F
+[ 03-22-2017 12:03:14 am ]  Sent ATAR
+[ 03-22-2017 12:03:14 am ]  Sent ATAR
+[ 03-22-2017 12:03:14 am ]  Sent ATBD
+[ 03-22-2017 12:03:14 am ]  Parsing 0C 
+[ 03-22-2017 12:03:14 am ]  Sent ATBD
+[ 03-22-2017 12:03:13 am ]  Sent X
+[ 03-22-2017 12:03:13 am ]  Parsing STO
+[ 03-22-2017 12:03:13 am ]  Sent X
+[ 03-22-2017 12:03:13 am ]  Sent X
+[ 03-22-2017 12:03:13 am ]  Parsing STO
+[ 03-22-2017 12:03:13 am ]  Sent X
+[ 03-22-2017 12:03:12 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:03:12 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:03:12 am ]  Sent ATCF62F
+[ 03-22-2017 12:03:12 am ]  Sent ATCF62F
+[ 03-22-2017 12:03:11 am ]  Sent ATCRA
+[ 03-22-2017 12:03:11 am ]  Sent ATCRA
+[ 03-22-2017 12:03:11 am ]  Sent ATCRA
+[ 03-22-2017 12:03:11 am ]  Parsing STO
+[ 03-22-2017 12:03:11 am ]  Sent ATCRA
+[ 03-22-2017 12:03:10 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:03:10 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:03:10 am ]  Sent ATCF54F
+[ 03-22-2017 12:03:10 am ]  Sent ATCF54F
+[ 03-22-2017 12:03:10 am ]  Sent ATAR
+[ 03-22-2017 12:03:10 am ]  Sent ATAR
+[ 03-22-2017 12:03:10 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-22-2017 12:03:10 am ]  Sent ATBD
+[ 03-22-2017 12:03:10 am ]  Parsing 0C 
+[ 03-22-2017 12:03:10 am ]  Sent ATBD
+[ 03-22-2017 12:03:10 am ]  Sent X
+[ 03-22-2017 12:03:10 am ]  Parsing STO
+[ 03-22-2017 12:03:10 am ]  Sent X
+[ 03-22-2017 12:03:09 am ]  Sent ATCRA
+[ 03-22-2017 12:03:09 am ]  Sent ATCRA
+[ 03-22-2017 12:03:09 am ]  Sent ATAR
+[ 03-22-2017 12:03:09 am ]  Sent ATAR
+[ 03-22-2017 12:03:09 am ]  Sent X
+[ 03-22-2017 12:03:09 am ]  Parsing STO
+[ 03-22-2017 12:03:09 am ]  Sent X
+[ 03-22-2017 12:03:08 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:03:08 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:03:08 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:08 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:08 am ]  Sent ATBD
+[ 03-22-2017 12:03:08 am ]  Parsing 0C 
+[ 03-22-2017 12:03:08 am ]  Sent ATBD
+[ 03-22-2017 12:03:08 am ]  Sent ATBD
+[ 03-22-2017 12:03:08 am ]  Sent ATBD
+[ 03-22-2017 12:03:08 am ]  Watching CAN for known messages
+[ 03-22-2017 12:03:08 am ]  Completed command sequence, took 14509ms
+[ 03-22-2017 12:03:08 am ]  Sent 03221230
+[ 03-22-2017 12:03:08 am ]  Parsing NO 
+[ 03-22-2017 12:03:08 am ]  Sent 03221230
+[ 03-22-2017 12:03:07 am ]  Sent 03221210
+[ 03-22-2017 12:03:07 am ]  Parsing NO 
+[ 03-22-2017 12:03:07 am ]  Sent 03221210
+[ 03-22-2017 12:03:07 am ]  Sent ATFCSH792
+[ 03-22-2017 12:03:07 am ]  Sent ATFCSH792
+[ 03-22-2017 12:03:07 am ]  Sent ATSH792
+[ 03-22-2017 12:03:07 am ]  Sent ATSH792
+[ 03-22-2017 12:03:07 am ]  Sent 022110
+[ 03-22-2017 12:03:07 am ]  Parsing NO 
+[ 03-22-2017 12:03:07 am ]  Sent 022110
+[ 03-22-2017 12:03:07 am ]  Sent 022110
+[ 03-22-2017 12:03:07 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:03:07 am ]  Sent ATFCSH745
+[ 03-22-2017 12:03:07 am ]  Sent ATFCSH745
+[ 03-22-2017 12:03:06 am ]  Sent ATSH745
+[ 03-22-2017 12:03:06 am ]  Sent ATSH745
+[ 03-22-2017 12:03:06 am ]  Sent 022101
+[ 03-22-2017 12:03:06 am ]  Parsing NO 
+[ 03-22-2017 12:03:06 am ]  Sent 022101
+[ 03-22-2017 12:03:06 am ]  Sent 022101
+[ 03-22-2017 12:03:06 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:03:06 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:03:06 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:03:06 am ]  Sent ATFCSH743
+[ 03-22-2017 12:03:06 am ]  Sent ATFCSH743
+[ 03-22-2017 12:03:06 am ]  Sent ATSH743
+[ 03-22-2017 12:03:06 am ]  Sent ATSH743
+[ 03-22-2017 12:03:06 am ]  Sent ATSH743
+[ 03-22-2017 12:03:06 am ]  Parsing NO 
+[ 03-22-2017 12:03:06 am ]  Sent ATSH743
+[ 03-22-2017 12:03:05 am ]  Sent 022101
+[ 03-22-2017 12:03:05 am ]  Parsing NO 
+[ 03-22-2017 12:03:05 am ]  Sent 022101
+[ 03-22-2017 12:03:05 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:03:05 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:03:05 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:03:04 am ]  Sent ATSH79B
+[ 03-22-2017 12:03:04 am ]  Sent 0210C0
+[ 03-22-2017 12:03:04 am ]  Parsing NO 
+[ 03-22-2017 12:03:04 am ]  Sent 0210C0
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSM1
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSH797
+[ 03-22-2017 12:03:04 am ]  Sent ATFCSH797
+[ 03-22-2017 12:03:04 am ]  Sent ATSH797
+[ 03-22-2017 12:03:04 am ]  Sent ATSH797
+[ 03-22-2017 12:03:04 am ]  Sent ATCAF0
+[ 03-22-2017 12:03:04 am ]  Sent ATCAF0
+[ 03-22-2017 12:03:04 am ]  Sent ATCAF0
+[ 03-22-2017 12:03:04 am ]  Sent ATL0
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:03 am ]  Sent ATE0
+[ 03-22-2017 12:03:03 am ]  Sent ATE0
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:03 am ]  Parsing STO
+[ 03-22-2017 12:03:03 am ]  Sent ATAR
+[ 03-22-2017 12:03:02 am ]  Sent ATMA
+[ 03-22-2017 12:03:02 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:03:02 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:02 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:02 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:02 am ]  Parsing 0C 
+[ 03-22-2017 12:03:02 am ]  Sent ATCF5BB
+[ 03-22-2017 12:03:02 am ]  Sent ATBD
+[ 03-22-2017 12:03:02 am ]  Sent ATBD
+[ 03-22-2017 12:03:02 am ]  Sent ATBD
+[ 03-22-2017 12:03:02 am ]  Got 793 056212307C6E0000
+[ 03-22-2017 12:03:02 am ]  Parsing 793
+[ 03-22-2017 12:03:02 am ]  Sent ATBD
+[ 03-22-2017 12:03:02 am ]  Watching CAN for known messages
+[ 03-22-2017 12:03:02 am ]  Completed command sequence, took 12641ms
+[ 03-22-2017 12:03:01 am ]  Sent 03221210
+[ 03-22-2017 12:03:01 am ]  Got 793 0562121001010000
+[ 03-22-2017 12:03:01 am ]  Parsing 793
+[ 03-22-2017 12:03:01 am ]  Sent 03221210
+[ 03-22-2017 12:03:01 am ]  Sent ATFCSH792
+[ 03-22-2017 12:03:01 am ]  Sent ATFCSH792
+[ 03-22-2017 12:03:01 am ]  Sent ATFCSH792
+[ 03-22-2017 12:03:01 am ]  Sent ATSH792
+[ 03-22-2017 12:03:01 am ]  Sent 022110
+[ 03-22-2017 12:03:01 am ]  Parsing NO 
+[ 03-22-2017 12:03:01 am ]  Sent 022110
+[ 03-22-2017 12:03:00 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:03:00 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:59 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:59 am ]  Connection Timeout..
+[ 03-22-2017 12:02:59 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Got 7BB cell voltage  10296101000003BD
+[ 03-22-2017 12:02:59 am ]  Parsing 7BB
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:59 am ]  Sent ATSH745
+[ 03-22-2017 12:02:53 am ]  Connected to 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:53 am ]  Sending 27 commands
+[ 03-22-2017 12:02:53 am ]  Route Changed
+[ 03-22-2017 12:02:53 am ]  init
+[ 03-22-2017 12:02:53 am ]  Going to home
+[ 03-22-2017 12:02:52 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:52 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Parsing STO
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Got 7BB cell voltage  220E0E00FFFFFFFF
+[ 03-22-2017 12:02:51 am ]  Parsing 7BB
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Got 7BB cell voltage  212411022C10023D
+[ 03-22-2017 12:02:51 am ]  Parsing 7BB
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:51 am ]  Got 7BB cell voltage  1010610402181202
+[ 03-22-2017 12:02:51 am ]  Parsing 7BB
+[ 03-22-2017 12:02:51 am ]  Sent ATSH743
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  2500089D49000601
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  245C1C54000DA2C9
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got battery volts: 393.99
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  2399E73306038B00
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  22FFFFFF04AC2AF8
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  210289000001FBFF
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Got 7BB cell voltage  10296101FFFFFFD6
+[ 03-22-2017 12:02:50 am ]  Parsing 7BB
+[ 03-22-2017 12:02:50 am ]  Sent 022101
+[ 03-22-2017 12:02:50 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:50 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:50 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:50 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:49 am ]  Sent 0210C0
+[ 03-22-2017 12:02:49 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:49 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:49 am ]  Parsing 79A
+[ 03-22-2017 12:02:49 am ]  Sent 0210C0
+[ 03-22-2017 12:02:49 am ]  Sent 0210C0
+[ 03-22-2017 12:02:49 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:49 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:49 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:49 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:49 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:49 am ]  Sent ATSH797
+[ 03-22-2017 12:02:49 am ]  Sent ATSH797
+[ 03-22-2017 12:02:49 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:49 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:49 am ]  Sent ATL0
+[ 03-22-2017 12:02:49 am ]  Sent ATL0
+[ 03-22-2017 12:02:49 am ]  Sent ATE0
+[ 03-22-2017 12:02:49 am ]  Sent ATE0
+[ 03-22-2017 12:02:49 am ]  Sent ATAR
+[ 03-22-2017 12:02:49 am ]  Sent ATAR
+[ 03-22-2017 12:02:49 am ]  Sent ATAR
+[ 03-22-2017 12:02:49 am ]  Sent ATAR
+[ 03-22-2017 12:02:49 am ]  Connected to 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:49 am ]  Sending 27 commands
+[ 03-22-2017 12:02:49 am ]  Completed command sequence, took 9025ms, received 101 messages, 18 force send requests
+[ 03-22-2017 12:02:49 am ]  Sent ATBD
+[ 03-22-2017 12:02:49 am ]  Parsing 0C 
+[ 03-22-2017 12:02:49 am ]  Sent ATBD
+[ 03-22-2017 12:02:48 am ]  Sent X
+[ 03-22-2017 12:02:48 am ]  Parsing STO
+[ 03-22-2017 12:02:48 am ]  Sent X
+[ 03-22-2017 12:02:48 am ]  undefined
+[ 03-22-2017 12:02:48 am ]  Setting history point
+[ 03-22-2017 12:02:48 am ]  Sent ATCRA38X
+[ 03-22-2017 12:02:48 am ]  Sent ATCRA38X
+[ 03-22-2017 12:02:48 am ]  Sent ATCF38F
+[ 03-22-2017 12:02:48 am ]  Sent ATCF38F
+[ 03-22-2017 12:02:47 am ]  Connection failed Device connection was lost
+[ 03-22-2017 12:02:47 am ]  Devices connected undefined
+[ 03-22-2017 12:02:47 am ]  Devices changed
+[ 03-22-2017 12:02:47 am ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:47 am ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:47 am ]  scanned
+[ 03-22-2017 12:02:47 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-22-2017 12:02:47 am ]  got 1 bluetooth accessories
+[ 03-22-2017 12:02:47 am ]  Scanning inside manager
+[ 03-22-2017 12:02:47 am ]  scanning...
+[ 03-22-2017 12:02:47 am ]  Sent X
+[ 03-22-2017 12:02:47 am ]  Parsing STO
+[ 03-22-2017 12:02:47 am ]  Sent X
+[ 03-22-2017 12:02:46 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:02:46 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:02:46 am ]  Sent ATCF62F
+[ 03-22-2017 12:02:46 am ]  Sent ATCF62F
+[ 03-22-2017 12:02:46 am ]  Bluetooth is enabled
+[ 03-22-2017 12:02:46 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-22-2017 12:02:46 am ]  Root file directory: file:///storage/emulated/0/
+[ 03-22-2017 12:02:46 am ]  Device is ready!
+[ 03-22-2017 12:02:46 am ]  Translating to en
+[ 03-22-2017 12:02:46 am ]  I'm running angular!
+[ 03-22-2017 12:02:45 am ]  Sent X
+[ 03-22-2017 12:02:45 am ]  Parsing STO
+[ 03-22-2017 12:02:45 am ]  Sent X
+[ 03-22-2017 12:02:44 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:02:44 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:02:44 am ]  Sent ATCF54F
+[ 03-22-2017 12:02:44 am ]  Sent ATCF54F
+[ 03-22-2017 12:02:44 am ]  Sent ATAR
+[ 03-22-2017 12:02:44 am ]  Sent ATAR
+[ 03-22-2017 12:02:44 am ]  Sent ATBD
+[ 03-22-2017 12:02:44 am ]  Parsing 0C 
+[ 03-22-2017 12:02:44 am ]  Sent ATBD
+[ 03-22-2017 12:02:42 am ]  Sent X
+[ 03-22-2017 12:02:42 am ]  Parsing STO
+[ 03-22-2017 12:02:42 am ]  Sent X
+[ 03-22-2017 12:02:41 am ]  Sent ATCRA
+[ 03-22-2017 12:02:41 am ]  Sent ATCRA
+[ 03-22-2017 12:02:41 am ]  Sent ATAR
+[ 03-22-2017 12:02:41 am ]  Sent ATAR
+[ 03-22-2017 12:02:41 am ]  Sent X
+[ 03-22-2017 12:02:41 am ]  Parsing STO
+[ 03-22-2017 12:02:41 am ]  Sent X
+[ 03-22-2017 12:02:40 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:02:40 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:02:40 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:40 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:40 am ]  Sent ATBD
+[ 03-22-2017 12:02:40 am ]  Parsing 0C 
+[ 03-22-2017 12:02:40 am ]  Sent ATBD
+[ 03-22-2017 12:02:40 am ]  Sent ATBD
+[ 03-22-2017 12:02:40 am ]  Sent ATBD
+[ 03-22-2017 12:02:40 am ]  Watching CAN for known messages
+[ 03-22-2017 12:02:40 am ]  Completed command sequence, took 3281ms
+[ 03-22-2017 12:02:40 am ]  Sent 03221230
+[ 03-22-2017 12:02:40 am ]  Got 793 056212307C6E0000
+[ 03-22-2017 12:02:40 am ]  Parsing 793
+[ 03-22-2017 12:02:40 am ]  Sent 03221230
+[ 03-22-2017 12:02:39 am ]  Sent 03221210
+[ 03-22-2017 12:02:39 am ]  Got 793 0562121001010000
+[ 03-22-2017 12:02:39 am ]  Parsing 793
+[ 03-22-2017 12:02:39 am ]  Sent 03221210
+[ 03-22-2017 12:02:39 am ]  Sent ATFCSH792
+[ 03-22-2017 12:02:39 am ]  Sent ATFCSH792
+[ 03-22-2017 12:02:39 am ]  Sent ATSH792
+[ 03-22-2017 12:02:39 am ]  Sent ATSH792
+[ 03-22-2017 12:02:39 am ]  Sent 022110
+[ 03-22-2017 12:02:39 am ]  Parsing NO 
+[ 03-22-2017 12:02:39 am ]  Sent 022110
+[ 03-22-2017 12:02:39 am ]  Sent 022110
+[ 03-22-2017 12:02:39 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:39 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:39 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:39 am ]  Sent ATSH745
+[ 03-22-2017 12:02:39 am ]  Sent ATSH745
+[ 03-22-2017 12:02:39 am ]  Sent 022101
+[ 03-22-2017 12:02:39 am ]  Parsing NO 
+[ 03-22-2017 12:02:39 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:38 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:38 am ]  Sent ATSH743
+[ 03-22-2017 12:02:38 am ]  Sent ATSH743
+[ 03-22-2017 12:02:38 am ]  Sent 022104
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  220E0E00FFFFFFFF
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022104
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  212411022D10023D
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022104
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  1010610402181202
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022104
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  2500089D49000B05
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  245C1C54000DA24F
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got battery volts: 394.09
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  2399F1331E038B00
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  22FFFFFF04AC2AF8
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  210289000009FEFF
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:38 am ]  Got 7BB cell voltage  1029610100001088
+[ 03-22-2017 12:02:38 am ]  Parsing 7BB
+[ 03-22-2017 12:02:38 am ]  Sent 022101
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:37 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:37 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:37 am ]  Sent 0210C0
+[ 03-22-2017 12:02:37 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:37 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:37 am ]  Parsing 79A
+[ 03-22-2017 12:02:37 am ]  Sent 0210C0
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:37 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:37 am ]  Sent ATSH797
+[ 03-22-2017 12:02:37 am ]  Sent ATSH797
+[ 03-22-2017 12:02:37 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:37 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:37 am ]  Sent ATL0
+[ 03-22-2017 12:02:37 am ]  Sent ATL0
+[ 03-22-2017 12:02:37 am ]  Sent ATE0
+[ 03-22-2017 12:02:37 am ]  Sent ATE0
+[ 03-22-2017 12:02:37 am ]  Sent ATAR
+[ 03-22-2017 12:02:37 am ]  Sent ATAR
+[ 03-22-2017 12:02:37 am ]  Sent ATAR
+[ 03-22-2017 12:02:37 am ]  Sent ATAR
+[ 03-22-2017 12:02:37 am ]  Connected to 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:37 am ]  Sending 27 commands
+[ 03-22-2017 12:02:37 am ]  Completed command sequence, took 6943ms, received 99 messages, 17 force send requests
+[ 03-22-2017 12:02:36 am ]  Sent ATBD
+[ 03-22-2017 12:02:36 am ]  Parsing 0C 
+[ 03-22-2017 12:02:36 am ]  Sent ATBD
+[ 03-22-2017 12:02:36 am ]  Sent X
+[ 03-22-2017 12:02:36 am ]  Parsing STO
+[ 03-22-2017 12:02:36 am ]  Sent X
+[ 03-22-2017 12:02:35 am ]  Sent ATCRA38X
+[ 03-22-2017 12:02:35 am ]  Sent ATCRA38X
+[ 03-22-2017 12:02:35 am ]  Sent ATCF38F
+[ 03-22-2017 12:02:35 am ]  Sent ATCF38F
+[ 03-22-2017 12:02:35 am ]  Sent X
+[ 03-22-2017 12:02:35 am ]  Parsing STO
+[ 03-22-2017 12:02:35 am ]  Sent X
+[ 03-22-2017 12:02:34 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:02:34 am ]  Sent ATCRA6XX
+[ 03-22-2017 12:02:34 am ]  Sent ATCF62F
+[ 03-22-2017 12:02:34 am ]  Sent ATCF62F
+[ 03-22-2017 12:02:34 am ]  Sent X
+[ 03-22-2017 12:02:34 am ]  Parsing STO
+[ 03-22-2017 12:02:34 am ]  Sent X
+[ 03-22-2017 12:02:33 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:02:33 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:02:33 am ]  Sent ATCRA5XX
+[ 03-22-2017 12:02:33 am ]  Sent ATCF54F
+[ 03-22-2017 12:02:33 am ]  Sent ATAR
+[ 03-22-2017 12:02:33 am ]  Sent ATAR
+[ 03-22-2017 12:02:33 am ]  Sent ATBD
+[ 03-22-2017 12:02:33 am ]  Parsing 0C 
+[ 03-22-2017 12:02:33 am ]  Sent ATBD
+[ 03-22-2017 12:02:32 am ]  Sent X
+[ 03-22-2017 12:02:32 am ]  Parsing STO
+[ 03-22-2017 12:02:32 am ]  Sent X
+[ 03-22-2017 12:02:32 am ]  Sent ATCRA
+[ 03-22-2017 12:02:32 am ]  Sent ATCRA
+[ 03-22-2017 12:02:32 am ]  Sent ATAR
+[ 03-22-2017 12:02:32 am ]  Sent ATAR
+[ 03-22-2017 12:02:31 am ]  Sent X
+[ 03-22-2017 12:02:31 am ]  Parsing STO
+[ 03-22-2017 12:02:31 am ]  Sent X
+[ 03-22-2017 12:02:30 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:02:30 am ]  Sent ATCRA5BX
+[ 03-22-2017 12:02:30 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:30 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:30 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:30 am ]  Parsing 0C 
+[ 03-22-2017 12:02:30 am ]  Sent ATCF5BB
+[ 03-22-2017 12:02:30 am ]  Sent ATBD
+[ 03-22-2017 12:02:30 am ]  Sent ATBD
+[ 03-22-2017 12:02:30 am ]  Watching CAN for known messages
+[ 03-22-2017 12:02:30 am ]  Completed command sequence, took 11767ms
+[ 03-22-2017 12:02:29 am ]  Sent 03221230
+[ 03-22-2017 12:02:29 am ]  Got 793 056212307C6E0000
+[ 03-22-2017 12:02:29 am ]  Parsing 793
+[ 03-22-2017 12:02:29 am ]  Sent 03221230
+[ 03-22-2017 12:02:29 am ]  Sent 03221210
+[ 03-22-2017 12:02:29 am ]  Got 793 0562121001010000
+[ 03-22-2017 12:02:29 am ]  Parsing 793
+[ 03-22-2017 12:02:29 am ]  Sent 03221210
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSH792
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSH792
+[ 03-22-2017 12:02:29 am ]  Sent ATSH792
+[ 03-22-2017 12:02:29 am ]  Sent ATSH792
+[ 03-22-2017 12:02:29 am ]  Sent 022110
+[ 03-22-2017 12:02:29 am ]  Parsing NO 
+[ 03-22-2017 12:02:29 am ]  Sent 022110
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:29 am ]  Sent ATFCSH745
+[ 03-22-2017 12:02:28 am ]  Sent ATSH745
+[ 03-22-2017 12:02:28 am ]  Sent ATSH745
+[ 03-22-2017 12:02:28 am ]  Sent 022101
+[ 03-22-2017 12:02:28 am ]  Parsing NO 
+[ 03-22-2017 12:02:28 am ]  Sent 022101
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSD300100
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:28 am ]  Sent ATFCSH743
+[ 03-22-2017 12:02:28 am ]  Sent ATSH743
+[ 03-22-2017 12:02:28 am ]  Sent ATSH743
+[ 03-22-2017 12:02:28 am ]  Sent 022104
+[ 03-22-2017 12:02:28 am ]  Got 7BB cell voltage  220E0E00FFFFFFFF
+[ 03-22-2017 12:02:28 am ]  Parsing 7BB
+[ 03-22-2017 12:02:28 am ]  Sent 022104
+[ 03-22-2017 12:02:28 am ]  Got 7BB cell voltage  212610022D10023E
+[ 03-22-2017 12:02:28 am ]  Parsing 7BB
+[ 03-22-2017 12:02:28 am ]  Sent 022104
+[ 03-22-2017 12:02:28 am ]  Got 7BB cell voltage  1010610402181202
+[ 03-22-2017 12:02:28 am ]  Parsing 7BB
+[ 03-22-2017 12:02:28 am ]  Sent 022104
+[ 03-22-2017 12:02:28 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  2500089D49000905
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  245C1C54000DA1D0
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got battery volts: 394.05
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  2399ED330C038B00
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  22FFFFFF04AC2AF8
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  2102890000096BFF
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Got 7BB cell voltage  1029610100001088
+[ 03-22-2017 12:02:27 am ]  Parsing 7BB
+[ 03-22-2017 12:02:27 am ]  Sent 022101
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSH79B
+[ 03-22-2017 12:02:27 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:27 am ]  Sent ATSH79B
+[ 03-22-2017 12:02:27 am ]  Sent 0210C0
+[ 03-22-2017 12:02:27 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:27 am ]  Got 79A 0250C00000000000
+[ 03-22-2017 12:02:27 am ]  Parsing 79A
+[ 03-22-2017 12:02:27 am ]  Sent 0210C0
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSM1
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSD300000
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:27 am ]  Sent ATFCSH797
+[ 03-22-2017 12:02:27 am ]  Sent ATSH797
+[ 03-22-2017 12:02:27 am ]  Sent ATSH797
+[ 03-22-2017 12:02:27 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:27 am ]  Sent ATCAF0
+[ 03-22-2017 12:02:25 am ]  Sent ATL0
+[ 03-22-2017 12:02:25 am ]  Sent ATL0
+[ 03-22-2017 12:02:25 am ]  Connection Timeout..
+[ 03-22-2017 12:02:21 am ]  Sent ATE0
+[ 03-22-2017 12:02:21 am ]  Sent ATE0
+[ 03-22-2017 12:02:21 am ]  Going to home
+[ 03-22-2017 12:02:21 am ]  Sent ATAR
+[ 03-22-2017 12:02:21 am ]  Sent ATAR
+[ 03-22-2017 12:02:18 am ]  Connected to 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:18 am ]  Sending 27 commands
+[ 03-22-2017 12:02:18 am ]  Route Changed
+[ 03-22-2017 12:02:18 am ]  init
+[ 03-22-2017 12:02:18 am ]  Going to home
+[ 03-22-2017 12:02:16 am ]  ATE0OK
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:16 am ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+[ 03-22-2017 12:02:16 am ]  Success!
+[ 03-22-2017 12:02:16 am ]  ATIELM327 v1.5
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:16 am ]  ATS0OK
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:16 am ]  ATH1OK
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:16 am ]  ATSP6OK
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:16 am ]  Success!
+[ 03-22-2017 12:02:16 am ]  ATZELM327 v1.5
+[ 03-22-2017 12:02:16 am ]  Subscribe got:
+[ 03-22-2017 12:02:15 am ]  OK
+[ 03-22-2017 12:02:15 am ]  Subscribe got:
+[ 03-22-2017 12:02:15 am ]  Testing..
+[ 03-22-2017 12:02:15 am ]  Connected welcome
+[ 03-22-2017 12:02:15 am ]  "OK"
+[ 03-22-2017 12:02:15 am ]  I am now connected
+[ 03-22-2017 12:02:14 am ]  is Disconnected Not connected.
+[ 03-22-2017 12:02:12 am ]  Devices connected undefined
+[ 03-22-2017 12:02:12 am ]  Devices changed
+[ 03-22-2017 12:02:12 am ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:12 am ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-22-2017 12:02:12 am ]  scanned
+[ 03-22-2017 12:02:12 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-22-2017 12:02:12 am ]  got 1 bluetooth accessories
+[ 03-22-2017 12:02:12 am ]  Scanning inside manager
+[ 03-22-2017 12:02:12 am ]  scanning...
+[ 03-22-2017 12:02:11 am ]  Bluetooth is enabled
+[ 03-22-2017 12:02:10 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-22-2017 12:02:10 am ]  Root file directory: file:///storage/emulated/0/
+[ 03-22-2017 12:02:10 am ]  Device is ready!
+[ 03-22-2017 12:02:10 am ]  Translating to en
+[ 03-22-2017 12:02:10 am ]  I'm running angular!
+HappyLeaf Version 0.1.7.4

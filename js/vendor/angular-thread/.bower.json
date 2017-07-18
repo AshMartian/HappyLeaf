@@ -1,0 +1,58 @@
+{
+  "name": "angular-thread",
+  "description": "AngularJS primitives for thread.js library",
+  "version": "0.1.3",
+  "license": "MIT",
+  "author": "Tomas Aparicio",
+  "repository": "h2non/angular-thread",
+  "main": "./angular-thread.js",
+  "keywords": [
+    "angular",
+    "parallel",
+    "worker",
+    "webworker",
+    "processing",
+    "process",
+    "fork",
+    "compute",
+    "non-blocking",
+    "blocking",
+    "multiprocess",
+    "child",
+    "multicore",
+    "spawn"
+  ],
+  "ignore": [
+    "**/.*",
+    ".*",
+    "*.md",
+    "src",
+    "lib",
+    "test",
+    "Makefile",
+    ".editorconfig",
+    ".gitignore",
+    ".travis.yml",
+    ".npmignore",
+    "package.json",
+    "component.json",
+    "examples"
+  ],
+  "dependencies": {
+    "thread": "~0.1.1"
+  },
+  "devDependencies": {
+    "angular": "~1.2.23",
+    "angular-mocks": "~1.2.23"
+  },
+  "homepage": "https://github.com/h2non/angular-thread",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.3",
+    "commit": "a733850f468527cb57cb525f5889a865fc6617da"
+  },
+  "_source": "https://github.com/h2non/angular-thread.git",
+  "_target": "^0.1.3",
+  "_originalSource": "angular-thread"
+}

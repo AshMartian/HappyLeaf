@@ -1,0 +1,47 @@
+{{yield}}
+
+<div class="LEAF-Text {{if (not-eq SOCChart.width 10) 'fade-in'}}">
+  {{#if dataManager.actualSOC}}
+    <span class="SOC-Text" style="{{style 'font-size' (div SOCChart.width 8)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 3.5))}}">{{format-number dataManager.actualSOC precision=2}}%</span>
+    <span class="SOC-Text-Label" style="{{style 'font-size' (div SOCChart.width 15)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 2.3))}}">{{t 'LEAF_DISPLAY.SOC'}}</span>
+    {{#if dataManager.batteryVolts}}
+      <span class="Volt-Text" style="{{style 'font-size' (div SOCChart.width 8.3) 'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.8))}}">{{format-number dataManager.batteryVolts precision=2}}v</span>
+    {{/if}}
+    
+    {{#if dataManager.batteryTemp}}
+      <span class="Temp-Text" style="{{style 'font-size' (div SOCChart.width 8.2)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.4))}}">{{format-number dataManager.batteryTemp precision=1}}&deg;</span>
+    {{/if}}
+  {{/if}}
+
+</div>
+
+<div class="{{if (not-eq SOCChart.width 10) 'fade-out'}} loading-container">
+  <i class='preloader'></i>
+</div>
+
+<div id="LEAFOUTTER">
+  
+
+</div>
+
+<div class="soc-container" style="{{style 'top' SOCChart.top 'width' SOCChart.width 'left' SOCChart.left 'opacity' (if (or (has-data-for dataManager 'actualSOC') (not-eq dataManager.actualSOC 100)) '1' '0.5')}}">
+  {{!ember-chart data=SOCChart.data type='doughnut' id="SOC-circle" options=SOCChart.options width=SOCChart.width height=SOCChart.height class="chart chart-doughnut"}}
+  <canvas id="SOC-circle" width="{{SOCChart.width}}" height="{{SOCChart.height}}"></canvas>
+
+</div>
+
+<div class="LEAF-Text {{if (not-eq SOCChart.width 10) 'fade-in'}}">
+
+  <span class="Motor-Text" style="{{style 'font-size' (div AmpsChart.width 8) 'width' AmpsChart.width 'left' AmpsChart.left 'top' (add AmpsChart.top (div AmpsChart.height 4.5))}}"><span>{{t 'LEAF_DISPLAY.MOTOR'}}</span><br/><span id="motor-watts"></span> KWh</span>
+  <div class="extras-container" style="{{style 'top' (sub AmpsChart.top (div AmpsChart.height 2.7)) 'left' AmpsChart.left}}">
+    <canvas id="Amps-pie" width="{{AmpsChart.width}}" height="{{AmpsChart.height}}" style="{{style 'left' AmpsChart.left 'top' AmpsChart.top}}"></canvas>  
+  </div>
+
+  <span class="Climate-Text" style="{{style 'font-size' (div ClimateChart.width 8) 'width' ClimateChart.width 'left' ClimateChart.left 'top' (add ClimateChart.top (div ClimateChart.height 4.5))}}"><span>{{t 'LEAF_DISPLAY.CLIMATE'}}</span><br/><span id="climate-consumption"></span> KWh</span>
+  <div class="extras-container" style="{{style 'top' (sub ClimateChart.top (div ClimateChart.height 2.7)) 'left' ClimateChart.left }}">
+    <canvas id="Climate-pie" width="{{ClimateChart.width}}" height="{{ClimateChart.height}}" style="{{style 'left' ClimateChart.left 'top' ClimateChart.top}}"></canvas>  
+  </div>
+
+  
+
+</div>

@@ -1,0 +1,30 @@
+{{#paper-toolbar}}
+  {{#paper-toolbar-tools}}
+    
+    {{#paper-button iconButton=true onClick=(action "openNav")}}
+      {{paper-icon "menu"}}
+    {{/paper-button}}
+
+    <h2>
+      {{t 'HOME.TITLE'}}
+    </h2>
+
+    
+    {{ui/utils/data-playback-view}}
+    
+  
+    {{connection-icon}}
+
+    {{#paper-button iconButton=true onClick=(action "toggleLocked")}}
+      {{#if homeLocked}}
+        {{paper-icon "lock"}}
+      {{else}}
+        {{paper-icon 'lock_open'}}
+      {{/if}}
+    {{/paper-button}}
+
+    {{settings-icon}}
+  {{/paper-toolbar-tools}}
+{{/paper-toolbar}}
+
+{{yield}}

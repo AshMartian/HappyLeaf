@@ -1,0 +1,26 @@
+{{yield}}
+
+{{ui/welcome-navbar
+  connected=connectionManager.isConnected
+  scanDevices=(action "scanDevices")
+  scanIcon=scanIcon
+  scanClass=scanClass
+}}
+
+{{#paper-content class="device-list"}}
+  {{ui/welcome-devices connectDevice="connectDevice" devices=discoveredDevices connectWifi="connectWifi" wifi=wifiNetworks}}
+{{/paper-content}}
+
+<footer>
+  {{#paper-toolbar}}
+    {{#paper-toolbar-tools}}
+      <h3> {{status}} </h3>
+
+      <span class="flex"></span>
+
+      {{#paper-button iconButton=true onClick=(action 'goToHome')}}
+        {{paper-icon continueIcon}}
+      {{/paper-button}}
+    {{/paper-toolbar-tools}}
+  {{/paper-toolbar}}
+</footer>

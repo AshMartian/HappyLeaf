@@ -1,0 +1,68 @@
+[ 03-19-2017 07:35:59 pm ]  undefined
+[ 03-19-2017 07:35:59 pm ]  Setting history point
+[ 03-19-2017 07:35:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:35:39 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:35:29 pm ]  undefined
+[ 03-19-2017 07:35:29 pm ]  Setting history point
+[ 03-19-2017 07:35:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:35:09 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:34:59 pm ]  undefined
+[ 03-19-2017 07:34:59 pm ]  Setting history point
+[ 03-19-2017 07:34:54 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:34:39 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:34:29 pm ]  undefined
+[ 03-19-2017 07:34:29 pm ]  Setting history point
+[ 03-19-2017 07:34:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:34:09 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:33:59 pm ]  undefined
+[ 03-19-2017 07:33:59 pm ]  Setting history point
+[ 03-19-2017 07:33:53 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:33:38 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:33:34 pm ]  Connection Timeout..
+[ 03-19-2017 07:33:34 pm ]  Thread for SOC errored.
+[ 03-19-2017 07:33:34 pm ]  Going to home
+[ 03-19-2017 07:33:29 pm ]  Route Changed
+[ 03-19-2017 07:33:29 pm ]  init
+[ 03-19-2017 07:33:28 pm ]  Going to home
+[ 03-19-2017 07:33:27 pm ]  ATE0OK
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+[ 03-19-2017 07:33:27 pm ]  Success!
+[ 03-19-2017 07:33:27 pm ]  ATIELM327 v1.5
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  ATS0OK
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  ATH1OK
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  ATSP6OK
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  STSBR 2000000?
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:27 pm ]  ATDPISO 15765-4 (CAN 11/500)
+[ 03-19-2017 07:33:27 pm ]  Subscribe got:
+[ 03-19-2017 07:33:26 pm ]  Success!
+[ 03-19-2017 07:33:26 pm ]  ATZELM327 v1.5
+[ 03-19-2017 07:33:26 pm ]  Subscribe got:
+[ 03-19-2017 07:33:25 pm ]  OK
+[ 03-19-2017 07:33:25 pm ]  Subscribe got:
+[ 03-19-2017 07:33:25 pm ]  Testing..
+[ 03-19-2017 07:33:25 pm ]  Connected welcome
+[ 03-19-2017 07:33:25 pm ]  "OK"
+[ 03-19-2017 07:33:25 pm ]  I am now connected
+[ 03-19-2017 07:33:24 pm ]  is Disconnected Not connected.
+[ 03-19-2017 07:33:22 pm ]  Devices connected undefined
+[ 03-19-2017 07:33:22 pm ]  Devices changed
+[ 03-19-2017 07:33:22 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-19-2017 07:33:22 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-19-2017 07:33:22 pm ]  scanned
+[ 03-19-2017 07:33:22 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-19-2017 07:33:22 pm ]  got 1 bluetooth accessories
+[ 03-19-2017 07:33:22 pm ]  Scanning inside manager
+[ 03-19-2017 07:33:22 pm ]  [object Object]
+[ 03-19-2017 07:33:22 pm ]  scanning...
+[ 03-19-2017 07:33:21 pm ]  Bluetooth is enabled
+[ 03-19-2017 07:33:20 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 07:33:20 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-19-2017 07:33:20 pm ]  Device is ready!
+[ 03-19-2017 07:33:16 pm ]  I'm running angular!
+HappyLeaf Version 0.1.6

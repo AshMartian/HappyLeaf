@@ -1,0 +1,19 @@
+{{yield}}
+
+{{#paper-list}}
+    {{#each trips as |trip|}}
+        {{#paper-item onClick=(action "loadTrip" trip.data) class="md-3-line"}}
+            {{trip.name}}
+        {{/paper-item}}
+    {{else}}
+        {{#paper-item class="md-3-line"}}
+            No trips found
+        {{/paper-item}}
+    {{/each}}
+{{/paper-list}}
+
+{{#paper-button raised=true onClick=(action 'browseForTrips')}}
+    {{#file-picker fileLoaded="fileLoaded" accept=".json" readAs="readAsText"}}
+        Browse
+    {{/file-picker}}
+{{/paper-button}}

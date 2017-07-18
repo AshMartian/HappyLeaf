@@ -1,0 +1,49 @@
+HappyLeaf Version 0.1.9.7
+
+[ 05-16-2017 08:11:30 pm ]  Cleaning up history
+[ 05-16-2017 08:11:31 pm ]  I'm running angular!
+[ 05-16-2017 08:11:38 pm ]  Translating to en
+[ 05-16-2017 08:11:38 pm ]  Device is ready!
+[ 05-16-2017 08:11:38 pm ]  Root file directory: file:///storage/emulated/0/
+[ 05-16-2017 08:11:39 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-16-2017 08:11:39 pm ]  Bluetooth is enabled
+[ 05-16-2017 08:11:39 pm ]  Scanning...
+[ 05-16-2017 08:11:39 pm ]  Device connected false
+[ 05-16-2017 08:11:39 pm ]  Scanning inside manager
+[ 05-16-2017 08:11:39 pm ]  Scanned
+[ 05-16-2017 08:11:39 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-16-2017 08:11:39 pm ]  Found last connected device: [object Object]
+[ 05-16-2017 08:11:39 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:11:39 pm ]  Listing wifi networks
+[ 05-16-2017 08:11:42 pm ]  History file write done.
+[ 05-16-2017 08:11:42 pm ]  OBD log file write done.
+[ 05-16-2017 08:11:42 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: EHOSTUNREACH (No route to host)"
+[ 05-16-2017 08:11:43 pm ]  Scanning inside manager
+[ 05-16-2017 08:11:45 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:72"}]
+[ 05-16-2017 08:11:45 pm ]  Found last connected device: [object Object]
+[ 05-16-2017 08:11:45 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:11:45 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: EHOSTUNREACH (No route to host)"
+[ 05-16-2017 08:11:45 pm ]  got 3 unpaired bluetooth accessories
+[ 05-16-2017 08:11:45 pm ]  [{"address":"78:19:35:4D:E9:86","id":"78:19:35:4D:E9:86","class":7936},{"address":"04:81:B0:2B:EF:27","id":"04:81:B0:2B:EF:27","class":7936},{"name":"Apple TV","address":"D0:03:4B:0B:A1:F8","id":"D0:03:4B:0B:A1:F8","class":7936}]
+[ 05-16-2017 08:11:45 pm ]  Connection failed Unable to connect to device
+[ 05-16-2017 08:11:45 pm ]  "Unable to connect to device"
+[ 05-16-2017 08:11:45 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:72"},{"address":"78:19:35:4D:E9:86","id":"78:19:35:4D:E9:86","class":7936,"$$hashKey":"object:79"},{"address":"04:81:B0:2B:EF:27","id":"04:81:B0:2B:EF:27","class":7936,"$$hashKey":"object:80"},{"name":"Apple TV","address":"D0:03:4B:0B:A1:F8","id":"D0:03:4B:0B:A1:F8","class":7936,"$$hashKey":"object:81"}]
+[ 05-16-2017 08:11:45 pm ]  Found last connected device: [object Object]
+[ 05-16-2017 08:11:45 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:11:45 pm ]  got 1 bluetooth accessories
+[ 05-16-2017 08:11:45 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 05-16-2017 08:11:45 pm ]  Connection failed Unable to connect to device
+[ 05-16-2017 08:11:45 pm ]  "Unable to connect to device"
+[ 05-16-2017 08:11:45 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:72"},{"address":"78:19:35:4D:E9:86","id":"78:19:35:4D:E9:86","class":7936,"$$hashKey":"object:79"},{"address":"04:81:B0:2B:EF:27","id":"04:81:B0:2B:EF:27","class":7936,"$$hashKey":"object:80"},{"name":"Apple TV","address":"D0:03:4B:0B:A1:F8","id":"D0:03:4B:0B:A1:F8","class":7936,"$$hashKey":"object:81"}]
+[ 05-16-2017 08:11:45 pm ]  Found last connected device: [object Object]
+[ 05-16-2017 08:11:45 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:11:46 pm ]  Connection failed Unable to connect to device
+[ 05-16-2017 08:11:46 pm ]  "Unable to connect to device"
+[ 05-16-2017 08:11:53 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:11:54 pm ]  Connection failed Device connection was lost
+[ 05-16-2017 08:11:54 pm ]  "Device connection was lost"
+[ 05-16-2017 08:11:59 pm ]  Connection Timeout..
+[ 05-16-2017 08:12:11 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-16-2017 08:12:11 pm ]  Connection failed Device connection was lost
+[ 05-16-2017 08:12:11 pm ]  "Device connection was lost"
+[ 05-16-2017 08:12:38 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}

@@ -1,0 +1,7 @@
+{{yield}}
+
+{{#paper-button iconButton=true onClick=(action "toggleDialog")}}
+  {{paper-icon settingsIcon}}
+{{/paper-button}}
+
+{{ui/settings-dialog showDialog=showDialog}}

@@ -1,6 +1,6 @@
 {
-  "name": "HappyLeaf",
-  "description": "> A Hello World template built with PhoneGap",
+  "name": "happyleaf",
+  "description": "A data logging - range anxiety reducing - app for Nissan Leaf OBD devices.",
   "main": "",
   "authors": [
     "Brandon Martin"
@@ -23,14 +23,13 @@
   "dependencies": {
     "async": "^2.1.4",
     "moment": "*",
-    "angular-chart.js": "^1.1.1",
-    "angular-local-storage": "^0.5.2",
-    "ngstorage": "^0.3.11",
-    "angular-moment": "^1.0.1",
-    "ngSanitize": "^0.0.2",
-    "angular-thread": "^0.1.3",
-    "angular-translate": "^2.15.1",
-    "angular-material": "^1.1.3",
-    "lodash": "^4.17.4"
+    "blob-polyfill": "^1.0.20150320",
+    "material-icons": "^0.1.0",
+    "material-design-icons-iconfont": "^3.0.3",
+    "chartjs": "2.1.6",
+    "jquery-ui": "^1.11.4",
+    "lodash": "^4.13.1",
+    "gridstack": "~0.2.5",
+    "jquery.ui.touch": "*"
   }
 }

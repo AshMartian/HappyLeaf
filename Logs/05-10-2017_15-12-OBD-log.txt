@@ -1,0 +1,3531 @@
+HappyLeaf Version 0.1.9.7
+
+[ 05-10-2017 03:12:47 pm ]  Cleaning up history
+[ 05-10-2017 03:12:48 pm ]  I'm running angular!
+[ 05-10-2017 03:12:54 pm ]  Translating to en
+[ 05-10-2017 03:12:54 pm ]  Device is ready!
+[ 05-10-2017 03:12:54 pm ]  Root file directory: file:///storage/emulated/0/
+[ 05-10-2017 03:12:55 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-10-2017 03:12:55 pm ]  Bluetooth is enabled
+[ 05-10-2017 03:12:55 pm ]  Scanning...
+[ 05-10-2017 03:12:55 pm ]  Device connected false
+[ 05-10-2017 03:12:55 pm ]  Scanning inside manager
+[ 05-10-2017 03:12:55 pm ]  Scanned
+[ 05-10-2017 03:12:55 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-10-2017 03:12:55 pm ]  Found last connected device: [object Object]
+[ 05-10-2017 03:12:55 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-10-2017 03:12:56 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
+[ 05-10-2017 03:12:56 pm ]  Listing wifi networks
+[ 05-10-2017 03:12:56 pm ]  OBD log file write done.
+[ 05-10-2017 03:12:58 pm ]  History file write done.
+[ 05-10-2017 03:12:58 pm ]  I am now connected to Bluetooth
+[ 05-10-2017 03:12:58 pm ]  "OK"
+[ 05-10-2017 03:12:58 pm ]  Connected welcome
+[ 05-10-2017 03:13:00 pm ]  Scanning inside manager
+[ 05-10-2017 03:13:00 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
+[ 05-10-2017 03:13:00 pm ]  Testing device
+[ 05-10-2017 03:13:00 pm ]  Beginning Connection request
+[ 05-10-2017 03:13:00 pm ]  Testing...
+[ 05-10-2017 03:13:00 pm ]  sent: ATE1 got: OK
+[ 05-10-2017 03:13:00 pm ]  Subscribe got: OK>
+[ 05-10-2017 03:13:00 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:116"}]
+[ 05-10-2017 03:13:00 pm ]  Found last connected wifi device: [object Object]
+[ 05-10-2017 03:13:00 pm ]  Connecting to wifi: 00:1D:A5:00:12:4A
+[ 05-10-2017 03:13:00 pm ]  Testing device
+[ 05-10-2017 03:13:00 pm ]  Beginning Connection request
+[ 05-10-2017 03:13:00 pm ]  Testing...
+[ 05-10-2017 03:13:00 pm ]  sent: ATE1 got: OK
+[ 05-10-2017 03:13:06 pm ]  Subscribe got: ATE1OK>
+[ 05-10-2017 03:13:06 pm ]  sent: ATZ got: OK
+[ 05-10-2017 03:13:06 pm ]  sent: ATDP got: OK
+[ 05-10-2017 03:13:07 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 05-10-2017 03:13:07 pm ]  Success!
+[ 05-10-2017 03:13:07 pm ]  sent: STSBR 2000000 got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: STSBR 2000000?>
+[ 05-10-2017 03:13:09 pm ]  sent: ATSP6 got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: ATSP6OK>
+[ 05-10-2017 03:13:09 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: ATH1OK>
+[ 05-10-2017 03:13:09 pm ]  sent: ATS0 got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: ATS0OK>
+[ 05-10-2017 03:13:09 pm ]  sent: ATI got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 05-10-2017 03:13:09 pm ]  Success!
+[ 05-10-2017 03:13:09 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:13:09 pm ]  Subscribe got: ATE0OK>
+[ 05-10-2017 03:13:09 pm ]  Completed Connection command sequence, took 8673ms, 1 force send requests
+[ 05-10-2017 03:13:09 pm ]  sent: ATZ got: OK
+[ 05-10-2017 03:13:10 pm ]  Subscribe got: ELM327 v1.5>
+[ 05-10-2017 03:13:10 pm ]  Success!
+[ 05-10-2017 03:13:10 pm ]  sent: ATDP got: OK
+[ 05-10-2017 03:13:10 pm ]  Going to home
+[ 05-10-2017 03:13:10 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 05-10-2017 03:13:10 pm ]  sent: STSBR 2000000 got: OK
+[ 05-10-2017 03:13:10 pm ]  Device ready from home
+[ 05-10-2017 03:13:10 pm ]  Home Controller
+[ 05-10-2017 03:13:10 pm ]  init
+[ 05-10-2017 03:13:12 pm ]  Subscribe got: STSBR 2000000?>
+[ 05-10-2017 03:13:16 pm ]  sent: ATSP6 got: OK
+[ 05-10-2017 03:13:16 pm ]  Subscribe got: ATSP6OK>
+[ 05-10-2017 03:13:17 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:13:17 pm ]  Sent ATH1
+[ 05-10-2017 03:13:17 pm ]  Parsing ATH
+[ 05-10-2017 03:13:17 pm ]  sent: ATS0 got: OK
+[ 05-10-2017 03:13:21 pm ]  Sent ATS0
+[ 05-10-2017 03:13:21 pm ]  Parsing ATS
+[ 05-10-2017 03:13:21 pm ]  sent: ATI got: OK
+[ 05-10-2017 03:13:22 pm ]  Sent ATI
+[ 05-10-2017 03:13:22 pm ]  Parsing ATI
+[ 05-10-2017 03:13:22 pm ]  Sent ATI
+[ 05-10-2017 03:13:22 pm ]  Parsing ELM
+[ 05-10-2017 03:13:23 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:13:23 pm ]  Sent ATE0
+[ 05-10-2017 03:13:23 pm ]  Parsing ATE
+[ 05-10-2017 03:13:24 pm ]  Completed Connection command sequence, took 23461ms, 4 force send requests
+[ 05-10-2017 03:13:32 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:13:32 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:13:32 pm ]  Sent ATBD
+[ 05-10-2017 03:13:32 pm ]  Parsing 0A0
+[ 05-10-2017 03:13:33 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:13:33 pm ]  Completed command sequence, took 1650ms, 1 force send requests
+[ 05-10-2017 03:13:33 pm ]  sent: ATSH792 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: ATFCSH792 got: OK
+[ 05-10-2017 03:13:33 pm ]  sent: 03221210 got: OK
+[ 05-10-2017 03:13:33 pm ]  Sent 03221210
+[ 05-10-2017 03:13:33 pm ]  Parsing 793
+[ 05-10-2017 03:13:33 pm ]  Got 793 0562121000000000
+[ 05-10-2017 03:13:34 pm ]  sent: 03221230 got: OK
+[ 05-10-2017 03:13:34 pm ]  Sent 03221230
+[ 05-10-2017 03:13:34 pm ]  Parsing 793
+[ 05-10-2017 03:13:34 pm ]  Got 793 0562123000450000
+[ 05-10-2017 03:13:34 pm ]  Completed getESVE command sequence, took 2520ms, 1 force send requests
+[ 05-10-2017 03:13:34 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:13:34 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:13:34 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:13:34 pm ]  Sent 0210C0
+[ 05-10-2017 03:13:34 pm ]  Parsing 79A
+[ 05-10-2017 03:13:34 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:13:34 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:13:35 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:13:35 pm ]  Sent 03221304
+[ 05-10-2017 03:13:35 pm ]  Parsing 79A
+[ 05-10-2017 03:13:35 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:13:35 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:13:35 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:13:35 pm ]  Sent 03221156
+[ 05-10-2017 03:13:35 pm ]  Parsing 79A
+[ 05-10-2017 03:13:35 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:13:35 pm ]  Got climate Temperature
+[ 05-10-2017 03:13:35 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:13:35 pm ]  Got climate Temperature
+[ 05-10-2017 03:13:35 pm ]  Completed getOutsideTemp command sequence, took 3811ms, 2 force send requests
+[ 05-10-2017 03:13:35 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:13:35 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:13:35 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:13:36 pm ]  Sent 022104
+[ 05-10-2017 03:13:36 pm ]  Parsing 7BB
+[ 05-10-2017 03:13:36 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:13:36 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:13:38 pm ]  Completed getBatteryVolts command sequence, took 6080ms, 2 force send requests
+[ 05-10-2017 03:13:38 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:13:38 pm ]  Sent 022101
+[ 05-10-2017 03:13:38 pm ]  Parsing 763
+[ 05-10-2017 03:13:38 pm ]  Got 763 1082610100000009
+[ 05-10-2017 03:13:38 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:13:38 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:13:39 pm ]  Sent 022110
+[ 05-10-2017 03:13:39 pm ]  Parsing 765
+[ 05-10-2017 03:13:39 pm ]  Got 765 100B611000009CA3
+[ 05-10-2017 03:13:39 pm ]  Completed getUnknown command sequence, took 7306ms, 1 force send requests
+[ 05-10-2017 03:13:39 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:13:39 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:13:39 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:13:39 pm ]  Sent 022101
+[ 05-10-2017 03:13:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:13:39 pm ]  Got 7BB BMS message 10296101000004D9 for requst 022101
+[ 05-10-2017 03:13:39 pm ]  Completed getBatteryCharge command sequence, took 7800ms, 0 force send requests
+[ 05-10-2017 03:13:39 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:13:39 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:13:40 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:13:40 pm ]  Completed command sequence, took 553ms, 0 force send requests
+[ 05-10-2017 03:13:40 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:13:40 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:13:40 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 625
+[ 05-10-2017 03:13:40 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 60D
+[ 05-10-2017 03:13:40 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 625
+[ 05-10-2017 03:13:40 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 60D
+[ 05-10-2017 03:13:40 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 625
+[ 05-10-2017 03:13:40 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 60D
+[ 05-10-2017 03:13:40 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 625
+[ 05-10-2017 03:13:40 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:13:40 pm ]  Sent ATMA
+[ 05-10-2017 03:13:40 pm ]  Parsing 60D
+[ 05-10-2017 03:13:40 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:13:40 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:41 pm ]  Sent X
+[ 05-10-2017 03:13:41 pm ]  Parsing 625
+[ 05-10-2017 03:13:41 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:13:41 pm ]  Completed getHeadlights command sequence, took 1472ms, 2 force send requests
+[ 05-10-2017 03:13:41 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:13:41 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:13:41 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:41 pm ]  Sent ATMA
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:41 pm ]  Sent ATMA
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:41 pm ]  Sent ATMA
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:41 pm ]  Sent ATMA
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:41 pm ]  Sent ATMA
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:41 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:41 pm ]  Sent X
+[ 05-10-2017 03:13:41 pm ]  Parsing 421
+[ 05-10-2017 03:13:41 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:13:43 pm ]  Completed getTransmission command sequence, took 3253ms, 2 force send requests
+[ 05-10-2017 03:13:43 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:13:43 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:13:43 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:43 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:44 pm ]  Completed getTires command sequence, took 4159ms, 2 force send requests
+[ 05-10-2017 03:13:44 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:13:44 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:13:44 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:44 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:44 pm ]  Sent X
+[ 05-10-2017 03:13:44 pm ]  Parsing 5B3
+[ 05-10-2017 03:13:44 pm ]  Got battery SOH: 74A80B4348BF4ACA
+[ 05-10-2017 03:13:44 pm ]  GIDs: 191 Temp: 84.2 offset = 101.775 GID watts 15065.244375000002
+[ 05-10-2017 03:13:45 pm ]  Completed getSOH command sequence, took 5265ms, 2 force send requests
+[ 05-10-2017 03:13:45 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:13:45 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:13:45 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:45 pm ]  Sent ATMA
+[ 05-10-2017 03:13:45 pm ]  Parsing 5C5
+[ 05-10-2017 03:13:45 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:13:45 pm ]  Sent ATMA
+[ 05-10-2017 03:13:45 pm ]  Parsing 5C5
+[ 05-10-2017 03:13:45 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:13:45 pm ]  Sent ATMA
+[ 05-10-2017 03:13:45 pm ]  Parsing 5C5
+[ 05-10-2017 03:13:45 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:13:45 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:46 pm ]  Completed getOdometer command sequence, took 6162ms, 1 force send requests
+[ 05-10-2017 03:13:46 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:13:46 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:13:46 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:46 pm ]  Setting history point
+[ 05-10-2017 03:13:46 pm ]  Created history, now have 2002
+[ 05-10-2017 03:13:46 pm ]  sent: X got: OK
+[ 05-10-2017 03:13:46 pm ]  Completed getSpeed command sequence, took 7028ms, 2 force send requests
+[ 05-10-2017 03:13:46 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:13:46 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:13:48 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:13:55 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-10-2017 03:13:55 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:13:55 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:13:55 pm ]  Sent ATMA
+[ 05-10-2017 03:13:55 pm ]  Parsing 2DE
+[ 05-10-2017 03:13:55 pm ]  Sent ATMA
+[ 05-10-2017 03:13:55 pm ]  Parsing 385
+[ 05-10-2017 03:13:55 pm ]  Got tire pressures 0000A39CA89AF0
+[ 05-10-2017 03:13:55 pm ]  Sent ATMA
+[ 05-10-2017 03:13:55 pm ]  Parsing 60D
+[ 05-10-2017 03:13:55 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:13:55 pm ]  Sent ATMA
+[ 05-10-2017 03:13:55 pm ]  Parsing 174
+[ 05-10-2017 03:13:56 pm ]  Sent ATMA
+[ 05-10-2017 03:13:56 pm ]  Parsing 176
+[ 05-10-2017 03:13:56 pm ]  Got motor Volts 00AA054B000002
+[ 05-10-2017 03:13:56 pm ]  Sent ATMA
+[ 05-10-2017 03:13:56 pm ]  Parsing 180
+[ 05-10-2017 03:13:56 pm ]  Got motor Amps 0000FEAFE5002200
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 1D5
+[ 05-10-2017 03:13:57 pm ]  Got regen braking 00000002D8
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 1F9
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 50A
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 1CA
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 1CB
+[ 05-10-2017 03:13:57 pm ]  Got target braking 0000000013D588
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 284
+[ 05-10-2017 03:13:57 pm ]  Got distance traveled 1041102E07C55536
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 285
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 354
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 130
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing 002
+[ 05-10-2017 03:13:57 pm ]  Got turning angle! FCF
+[ 05-10-2017 03:13:57 pm ]  Sent ATMA
+[ 05-10-2017 03:13:57 pm ]  Parsing BUF
+[ 05-10-2017 03:13:57 pm ]  OBD log file write done.
+[ 05-10-2017 03:13:57 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:13:57 pm ]  Sent ATBD
+[ 05-10-2017 03:13:57 pm ]  Parsing 090
+[ 05-10-2017 03:13:58 pm ]  Completed getAll command sequence, took 18452ms, 4 force send requests
+[ 05-10-2017 03:13:58 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:13:58 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:13:58 pm ]  Sent ATBD
+[ 05-10-2017 03:13:58 pm ]  Parsing 090
+[ 05-10-2017 03:13:58 pm ]  History file write done.
+[ 05-10-2017 03:13:58 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:13:58 pm ]  Completed command sequence, took 583ms, 1 force send requests
+[ 05-10-2017 03:13:58 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:13:58 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:13:59 pm ]  Sent 0210C0
+[ 05-10-2017 03:13:59 pm ]  Parsing 79A
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:13:59 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:13:59 pm ]  Sent 03221304
+[ 05-10-2017 03:13:59 pm ]  Parsing 79A
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:13:59 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:13:59 pm ]  Sent 03221156
+[ 05-10-2017 03:13:59 pm ]  Parsing 79A
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:13:59 pm ]  Got climate Temperature
+[ 05-10-2017 03:13:59 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:13:59 pm ]  Got climate Temperature
+[ 05-10-2017 03:14:00 pm ]  Completed getOutsideTemp command sequence, took 1780ms, 1 force send requests
+[ 05-10-2017 03:14:00 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:00 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:00 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:14:00 pm ]  Sent 022104
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  Sent 022104
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  Sent 022104
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:14:00 pm ]  Sent 022106
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  Sent 022106
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  Sent 022106
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:00 pm ]  Sent 022106
+[ 05-10-2017 03:14:00 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB10C661020F9F0F9E
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB210F9C0F9E0F9C0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB229E0F9A0F9A0F9C
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB230F9E0F970F9E0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB249F0F9A0F980F9E
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB250F9C0F9C0F9F0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB269A0F9C0F9E0F9C
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB270F9E0F9C0F9A0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB289C0F9E0F9A0F9C
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB290F950F970F980F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2A9A0F980F950F9C
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2B0F9E0F970F9E0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2C9F0FA00FA30FA5
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2D0FA00FA10FA40F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2EA10FA80FA30FA0
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2F0FA50FA20FA00F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB20A40FA10FA10FA1
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB210FA10FA10F9E0F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB22A50FA00FA10FA4
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB230FA00FA80FA10F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB249F0FA00FA30FA1
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB250FA00FA00FA30F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB26A00FA40FA30FA3
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB270FA10F9F0FA00F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB28A00F9D0FA20F9F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB290F9F0FA10FA30F
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2AA00FA30FA10FA4
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2B0FA50FA30FA595
+[ 05-10-2017 03:14:01 pm ]  Sent 022102
+[ 05-10-2017 03:14:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:01 pm ]  parsing cell voltage 7BB2CA195A1FFFFFFFF
+[ 05-10-2017 03:14:02 pm ]  Completed getBatteryVolts command sequence, took 3731ms, 2 force send requests
+[ 05-10-2017 03:14:02 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:02 pm ]  Sent 022101
+[ 05-10-2017 03:14:02 pm ]  Parsing 763
+[ 05-10-2017 03:14:02 pm ]  Got 763 1082610100000007
+[ 05-10-2017 03:14:02 pm ]  Sent 022101
+[ 05-10-2017 03:14:02 pm ]  Parsing 763
+[ 05-10-2017 03:14:02 pm ]  Got 763 21710789011ABA00
+[ 05-10-2017 03:14:02 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:14:02 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:14:02 pm ]  Sent 022110
+[ 05-10-2017 03:14:02 pm ]  Parsing 765
+[ 05-10-2017 03:14:02 pm ]  Got 765 100B611000009CA3
+[ 05-10-2017 03:14:02 pm ]  Sent 022110
+[ 05-10-2017 03:14:02 pm ]  Parsing 765
+[ 05-10-2017 03:14:02 pm ]  Got 765 21A89AF00000FFFF
+[ 05-10-2017 03:14:03 pm ]  Completed getUnknown command sequence, took 4735ms, 1 force send requests
+[ 05-10-2017 03:14:03 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:03 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:03 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 10296101000007B1 for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 210288000004DFFF for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 22FFFFFF08722AF8 for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 2395BC32A3038700 for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Got battery volts: 383.32
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 24731B02000BF833 for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Sent 022101
+[ 05-10-2017 03:14:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:03 pm ]  Got 7BB BMS message 25000868C1800001 for requst 022101
+[ 05-10-2017 03:14:03 pm ]  Completed getBatteryCharge command sequence, took 5192ms, 0 force send requests
+[ 05-10-2017 03:14:03 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:03 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:03 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:14:04 pm ]  Completed command sequence, took 457ms, 0 force send requests
+[ 05-10-2017 03:14:04 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:14:04 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:14:04 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 60D
+[ 05-10-2017 03:14:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 625
+[ 05-10-2017 03:14:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 60D
+[ 05-10-2017 03:14:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 625
+[ 05-10-2017 03:14:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 60D
+[ 05-10-2017 03:14:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 625
+[ 05-10-2017 03:14:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 60D
+[ 05-10-2017 03:14:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 625
+[ 05-10-2017 03:14:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:04 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:04 pm ]  Completed getHeadlights command sequence, took 1335ms, 2 force send requests
+[ 05-10-2017 03:14:04 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:04 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:14:04 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:04 pm ]  Sent ATMA
+[ 05-10-2017 03:14:04 pm ]  Parsing 421
+[ 05-10-2017 03:14:04 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  Sent ATMA
+[ 05-10-2017 03:14:05 pm ]  Parsing 421
+[ 05-10-2017 03:14:05 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:05 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:06 pm ]  Completed getTransmission command sequence, took 3095ms, 2 force send requests
+[ 05-10-2017 03:14:06 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:14:06 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:14:06 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:07 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:07 pm ]  Completed getTires command sequence, took 3950ms, 2 force send requests
+[ 05-10-2017 03:14:07 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:14:07 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:14:07 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:08 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:08 pm ]  Completed getSOH command sequence, took 5072ms, 2 force send requests
+[ 05-10-2017 03:14:08 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:08 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:14:08 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:08 pm ]  Sent ATMA
+[ 05-10-2017 03:14:08 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:08 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:08 pm ]  Sent ATMA
+[ 05-10-2017 03:14:08 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:08 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:09 pm ]  Sent ATMA
+[ 05-10-2017 03:14:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:09 pm ]  Sent ATMA
+[ 05-10-2017 03:14:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:09 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:09 pm ]  Sent X
+[ 05-10-2017 03:14:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:09 pm ]  Completed getOdometer command sequence, took 6009ms, 1 force send requests
+[ 05-10-2017 03:14:09 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:14:09 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:14:09 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:10 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:10 pm ]  Completed getSpeed command sequence, took 6896ms, 2 force send requests
+[ 05-10-2017 03:14:10 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:10 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:11 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:12 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:14:12 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 2DE
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 1CB
+[ 05-10-2017 03:14:12 pm ]  Got target braking 27A020421003E7
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 1CA
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 215
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 216
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 284
+[ 05-10-2017 03:14:12 pm ]  Got distance traveled 1323131B092992AE
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 285
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 130
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 174
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 002
+[ 05-10-2017 03:14:12 pm ]  Got turning angle! 8FFF0007EE
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 176
+[ 05-10-2017 03:14:12 pm ]  Got motor Volts 00CB0651000005
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 180
+[ 05-10-2017 03:14:12 pm ]  Got motor Amps 0000F43FE0002500
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 1D5
+[ 05-10-2017 03:14:12 pm ]  Got regen braking 274000013E
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 1F9
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 260
+[ 05-10-2017 03:14:12 pm ]  Got available regen 5A1213F0
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 280
+[ 05-10-2017 03:14:12 pm ]  Got Seat Belts 01FFC000094BFFC0
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 2DE
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 300
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing 358
+[ 05-10-2017 03:14:12 pm ]  Got Headlight status: 000A800000
+[ 05-10-2017 03:14:12 pm ]  Sent ATMA
+[ 05-10-2017 03:14:12 pm ]  Parsing BUF
+[ 05-10-2017 03:14:12 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:12 pm ]  Sent ATBD
+[ 05-10-2017 03:14:12 pm ]  Parsing 0C0
+[ 05-10-2017 03:14:13 pm ]  Completed getAll command sequence, took 9488ms, 4 force send requests
+[ 05-10-2017 03:14:13 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:14:13 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:13 pm ]  Sent ATBD
+[ 05-10-2017 03:14:13 pm ]  Parsing 0C0
+[ 05-10-2017 03:14:13 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:14:13 pm ]  Completed command sequence, took 701ms, 1 force send requests
+[ 05-10-2017 03:14:13 pm ]  sent: ATSH792 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: ATFCSH792 got: OK
+[ 05-10-2017 03:14:13 pm ]  sent: 03221210 got: OK
+[ 05-10-2017 03:14:13 pm ]  Sent 03221210
+[ 05-10-2017 03:14:13 pm ]  Parsing 793
+[ 05-10-2017 03:14:14 pm ]  Got 793 0562121000000000
+[ 05-10-2017 03:14:14 pm ]  sent: 03221230 got: OK
+[ 05-10-2017 03:14:14 pm ]  Sent 03221230
+[ 05-10-2017 03:14:14 pm ]  Parsing 793
+[ 05-10-2017 03:14:14 pm ]  Got 793 0562123000450000
+[ 05-10-2017 03:14:14 pm ]  Completed getESVE command sequence, took 1465ms, 0 force send requests
+[ 05-10-2017 03:14:14 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:14:14 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:14:14 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:14:14 pm ]  Sent 0210C0
+[ 05-10-2017 03:14:14 pm ]  Parsing 79A
+[ 05-10-2017 03:14:14 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:14:14 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:14:15 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:14:15 pm ]  Sent 03221304
+[ 05-10-2017 03:14:15 pm ]  Parsing 79A
+[ 05-10-2017 03:14:15 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:14:15 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:14:15 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:14:15 pm ]  Sent 03221156
+[ 05-10-2017 03:14:15 pm ]  Parsing 79A
+[ 05-10-2017 03:14:15 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:14:15 pm ]  Got climate Temperature
+[ 05-10-2017 03:14:15 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:14:15 pm ]  Got climate Temperature
+[ 05-10-2017 03:14:16 pm ]  Setting history point
+[ 05-10-2017 03:14:16 pm ]  Created history, now have 2003
+[ 05-10-2017 03:14:16 pm ]  Completed getOutsideTemp command sequence, took 3738ms, 2 force send requests
+[ 05-10-2017 03:14:16 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:16 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:16 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:14:16 pm ]  Sent 022104
+[ 05-10-2017 03:14:16 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:16 pm ]  Sent 022104
+[ 05-10-2017 03:14:16 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:16 pm ]  Sent 022104
+[ 05-10-2017 03:14:16 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:14:17 pm ]  Sent 022106
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  Sent 022106
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  Sent 022106
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  Sent 022106
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB10C661020F9B0F95
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB210F930F960F930F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB22950F960F960F93
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB230F950F930F960F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB24960F960F8F0F96
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB250F930F940F970F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB26960F930F950F93
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB270F960F930F910F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB28930F950F920F94
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB290F920F940F940F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2A960F8F0F920F93
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2B0F950F930F960F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2C930F950F970F96
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2D0F940F960F980F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2E960F9C0F930F95
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB2F0F9E0F930F900F
+[ 05-10-2017 03:14:17 pm ]  Sent 022102
+[ 05-10-2017 03:14:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:17 pm ]  parsing cell voltage 7BB20940F950F960F95
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB210F910F9A0F8E0F
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB22940F910F950F94
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB230F940F990F960F
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB24940F940F980F8C
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB250F960F940F940F
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB26990F940F930F94
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB270F950F940F940F
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB28950F910F930F93
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB290F8F0F900F980F
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB2A940F940F950F99
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB2B0F990F980F9A96
+[ 05-10-2017 03:14:18 pm ]  Sent 022102
+[ 05-10-2017 03:14:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:18 pm ]  parsing cell voltage 7BB2C4F9553FFFFFFFF
+[ 05-10-2017 03:14:18 pm ]  Completed getBatteryVolts command sequence, took 5108ms, 2 force send requests
+[ 05-10-2017 03:14:18 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:18 pm ]  Sent 022101
+[ 05-10-2017 03:14:18 pm ]  Parsing 763
+[ 05-10-2017 03:14:18 pm ]  Got 763 1082610100000008
+[ 05-10-2017 03:14:18 pm ]  Sent 022101
+[ 05-10-2017 03:14:18 pm ]  Parsing 763
+[ 05-10-2017 03:14:18 pm ]  Got 763 21FC0919011ABA00
+[ 05-10-2017 03:14:18 pm ]  got 5 unpaired bluetooth accessories
+[ 05-10-2017 03:14:18 pm ]  [{"address":"26:80:9B:2B:7B:B2","id":"26:80:9B:2B:7B:B2","class":7936},{"address":"4C:C9:6D:EA:C9:69","id":"4C:C9:6D:EA:C9:69","class":7936},{"address":"1C:1A:C0:70:26:59","id":"1C:1A:C0:70:26:59","class":7936},{"address":"D0:03:4B:09:51:DE","id":"D0:03:4B:09:51:DE","class":7936},{"address":"00:1D:A5:00:1A:C9","id":"00:1D:A5:00:1A:C9","class":7936}]
+[ 05-10-2017 03:14:18 pm ]  got 1 bluetooth accessories
+[ 05-10-2017 03:14:18 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 05-10-2017 03:14:18 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:14:18 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:14:18 pm ]  Sent 022110
+[ 05-10-2017 03:14:18 pm ]  Parsing 765
+[ 05-10-2017 03:14:18 pm ]  Got 765 100B611000009CA3
+[ 05-10-2017 03:14:18 pm ]  Sent 022110
+[ 05-10-2017 03:14:18 pm ]  Parsing 765
+[ 05-10-2017 03:14:18 pm ]  Got 765 21A89AF00000FFFF
+[ 05-10-2017 03:14:19 pm ]  Completed getUnknown command sequence, took 6250ms, 1 force send requests
+[ 05-10-2017 03:14:19 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:19 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:19 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 1029610100001091 for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 21028800000CE5FF for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 22FFFFFF087E2AF8 for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 2396A232F3038700 for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Got battery volts: 385.62
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 246B1B01000BF745 for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Sent 022101
+[ 05-10-2017 03:14:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:19 pm ]  Got 7BB BMS message 25000868C1800001 for requst 022101
+[ 05-10-2017 03:14:19 pm ]  Completed getBatteryCharge command sequence, took 6708ms, 0 force send requests
+[ 05-10-2017 03:14:19 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:19 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:19 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:14:20 pm ]  Completed command sequence, took 475ms, 0 force send requests
+[ 05-10-2017 03:14:20 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:14:20 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:14:20 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:20 pm ]  Sent ATMA
+[ 05-10-2017 03:14:20 pm ]  Parsing 625
+[ 05-10-2017 03:14:20 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:20 pm ]  Sent ATMA
+[ 05-10-2017 03:14:20 pm ]  Parsing 60D
+[ 05-10-2017 03:14:20 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:20 pm ]  Sent ATMA
+[ 05-10-2017 03:14:20 pm ]  Parsing 625
+[ 05-10-2017 03:14:20 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0046180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0046180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0046180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0046180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 60D
+[ 05-10-2017 03:14:21 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:21 pm ]  Sent ATMA
+[ 05-10-2017 03:14:21 pm ]  Parsing 625
+[ 05-10-2017 03:14:21 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:21 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:28 pm ]  Completed getHeadlights command sequence, took 8396ms, 2 force send requests
+[ 05-10-2017 03:14:28 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:28 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:14:28 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:28 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:29 pm ]  Completed getTransmission command sequence, took 9537ms, 1 force send requests
+[ 05-10-2017 03:14:29 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:14:29 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:14:29 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:29 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:30 pm ]  Completed getTires command sequence, took 10398ms, 2 force send requests
+[ 05-10-2017 03:14:30 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:14:30 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:14:30 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:30 pm ]  Sent ATMA
+[ 05-10-2017 03:14:30 pm ]  Parsing 5B3
+[ 05-10-2017 03:14:30 pm ]  Got battery SOH: 74A80B4348BF4ACA
+[ 05-10-2017 03:14:30 pm ]  GIDs: 191 Temp: 84.2 offset = 101.775 GID watts 15065.244375000002
+[ 05-10-2017 03:14:30 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:31 pm ]  Completed getSOH command sequence, took 11514ms, 2 force send requests
+[ 05-10-2017 03:14:31 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:31 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:14:31 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:31 pm ]  Sent ATMA
+[ 05-10-2017 03:14:31 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:31 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:31 pm ]  Sent ATMA
+[ 05-10-2017 03:14:31 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:31 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:31 pm ]  Sent ATMA
+[ 05-10-2017 03:14:31 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:31 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:31 pm ]  Sent ATMA
+[ 05-10-2017 03:14:31 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:31 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:31 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:32 pm ]  Completed getOdometer command sequence, took 12394ms, 1 force send requests
+[ 05-10-2017 03:14:32 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:14:32 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:14:32 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:32 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:33 pm ]  Completed getSpeed command sequence, took 13253ms, 2 force send requests
+[ 05-10-2017 03:14:33 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:33 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:34 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:34 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:14:35 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 174
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 176
+[ 05-10-2017 03:14:35 pm ]  Got motor Volts 01970CA0000002
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 180
+[ 05-10-2017 03:14:35 pm ]  Got motor Amps 0000FD0FD0002200
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 1D5
+[ 05-10-2017 03:14:35 pm ]  Got regen braking 00000002D8
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 1F9
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 2DE
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 50A
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 002
+[ 05-10-2017 03:14:35 pm ]  Got turning angle! FBFF000721
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 5E4
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 02A
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 215
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 216
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 300
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 1CB
+[ 05-10-2017 03:14:35 pm ]  Got target braking 0000000013FFF7
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 1CA
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 284
+[ 05-10-2017 03:14:35 pm ]  Got distance traveled 263E2657125904D6
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 285
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 130
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing 5FA
+[ 05-10-2017 03:14:35 pm ]  Sent ATMA
+[ 05-10-2017 03:14:35 pm ]  Parsing BUF
+[ 05-10-2017 03:14:35 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:35 pm ]  Sent ATBD
+[ 05-10-2017 03:14:35 pm ]  Parsing 0B0
+[ 05-10-2017 03:14:35 pm ]  Completed getAll command sequence, took 16088ms, 4 force send requests
+[ 05-10-2017 03:14:35 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:14:35 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:35 pm ]  Sent ATBD
+[ 05-10-2017 03:14:35 pm ]  Parsing 0B0
+[ 05-10-2017 03:14:36 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:14:36 pm ]  Completed command sequence, took 565ms, 1 force send requests
+[ 05-10-2017 03:14:36 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:14:36 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:14:36 pm ]  Sent 0210C0
+[ 05-10-2017 03:14:36 pm ]  Parsing 79A
+[ 05-10-2017 03:14:36 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:14:36 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:14:36 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:14:36 pm ]  Sent 03221304
+[ 05-10-2017 03:14:36 pm ]  Parsing 79A
+[ 05-10-2017 03:14:36 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:14:36 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:14:37 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:14:37 pm ]  Sent 03221156
+[ 05-10-2017 03:14:37 pm ]  Parsing 79A
+[ 05-10-2017 03:14:37 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:14:37 pm ]  Got climate Temperature
+[ 05-10-2017 03:14:37 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:14:37 pm ]  Got climate Temperature
+[ 05-10-2017 03:14:37 pm ]  Completed getOutsideTemp command sequence, took 1749ms, 1 force send requests
+[ 05-10-2017 03:14:37 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:37 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:37 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:14:37 pm ]  Sent 022104
+[ 05-10-2017 03:14:37 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:37 pm ]  Sent 022104
+[ 05-10-2017 03:14:37 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:37 pm ]  Sent 022104
+[ 05-10-2017 03:14:37 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:38 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:14:38 pm ]  Sent 022106
+[ 05-10-2017 03:14:38 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:38 pm ]  Sent 022106
+[ 05-10-2017 03:14:38 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:38 pm ]  Sent 022106
+[ 05-10-2017 03:14:38 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:38 pm ]  Sent 022106
+[ 05-10-2017 03:14:38 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB10C661020FBB0FB2
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB210FB30FB30FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB22B20FB20FB30FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB230FB20FB30FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB24B60FAE0FAF0FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB250FB30FB10FB20F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB26B30FB30FB20FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB270FB30FB30FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB28AF0FB70FB20FB1
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB290FB20FB10FAF0F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2AAE0FAF0FAE0FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2B0FB70FB30FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2CB30FB70FB70FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2D0FB40FB30FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2EB00FBB0FAD0FB2
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2F0FB80FB20FAF0F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB20B10FAF0FB30FB4
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB210FAE0FB40FAD0F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB22B30FB20FB40FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB230FB30FB60FB00F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB24AF0FAF0FAC0FAF
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB250FB10FAF0FB10F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB26B80FAF0FB60FB1
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB270FAF0FAF0FB30F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB28AE0FB00FB20FB2
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB290FAC0FAF0FB10F
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2AB30FB10FB40FB3
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2B0FB30FB10FB496
+[ 05-10-2017 03:14:39 pm ]  Sent 022102
+[ 05-10-2017 03:14:39 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:39 pm ]  parsing cell voltage 7BB2C2196B0FFFFFFFF
+[ 05-10-2017 03:14:39 pm ]  Completed getBatteryVolts command sequence, took 4093ms, 2 force send requests
+[ 05-10-2017 03:14:39 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:14:39 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:39 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:40 pm ]  Sent 022101
+[ 05-10-2017 03:14:40 pm ]  Parsing 763
+[ 05-10-2017 03:14:40 pm ]  Got 763 1082610100000011
+[ 05-10-2017 03:14:40 pm ]  Sent 022101
+[ 05-10-2017 03:14:40 pm ]  Parsing 763
+[ 05-10-2017 03:14:40 pm ]  Got 763 21221159011ABA00
+[ 05-10-2017 03:14:40 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:14:40 pm ]  Sent 022110
+[ 05-10-2017 03:14:40 pm ]  Parsing 765
+[ 05-10-2017 03:14:40 pm ]  Got 765 100B611000009CA3
+[ 05-10-2017 03:14:40 pm ]  Sent 022110
+[ 05-10-2017 03:14:40 pm ]  Parsing 765
+[ 05-10-2017 03:14:40 pm ]  Got 765 21A899F00000FFFF
+[ 05-10-2017 03:14:40 pm ]  Completed getUnknown command sequence, took 5077ms, 1 force send requests
+[ 05-10-2017 03:14:40 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:14:40 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 1029610100002920 for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 210288000024EBFF for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 22FFFFFF08842AF8 for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 2396A632FA038700 for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Got battery volts: 385.66
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 24791B01000BEF4A for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Sent 022101
+[ 05-10-2017 03:14:41 pm ]  Parsing 7BB
+[ 05-10-2017 03:14:41 pm ]  Got 7BB BMS message 25000868C1800005 for requst 022101
+[ 05-10-2017 03:14:41 pm ]  Completed getBatteryCharge command sequence, took 5536ms, 0 force send requests
+[ 05-10-2017 03:14:41 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:41 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:41 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:14:41 pm ]  Completed command sequence, took 458ms, 0 force send requests
+[ 05-10-2017 03:14:41 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:14:41 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:14:41 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:41 pm ]  Sent ATMA
+[ 05-10-2017 03:14:41 pm ]  Parsing 625
+[ 05-10-2017 03:14:41 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:41 pm ]  Sent ATMA
+[ 05-10-2017 03:14:41 pm ]  Parsing 60D
+[ 05-10-2017 03:14:41 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 625
+[ 05-10-2017 03:14:42 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 60D
+[ 05-10-2017 03:14:42 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 625
+[ 05-10-2017 03:14:42 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 60D
+[ 05-10-2017 03:14:42 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 625
+[ 05-10-2017 03:14:42 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 60D
+[ 05-10-2017 03:14:42 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:14:42 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:42 pm ]  Completed getHeadlights command sequence, took 1334ms, 2 force send requests
+[ 05-10-2017 03:14:42 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:42 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:14:42 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 421
+[ 05-10-2017 03:14:42 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 421
+[ 05-10-2017 03:14:42 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:42 pm ]  Sent ATMA
+[ 05-10-2017 03:14:42 pm ]  Parsing 421
+[ 05-10-2017 03:14:42 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:43 pm ]  Sent ATMA
+[ 05-10-2017 03:14:43 pm ]  Parsing 421
+[ 05-10-2017 03:14:43 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:43 pm ]  Sent ATMA
+[ 05-10-2017 03:14:43 pm ]  Parsing 421
+[ 05-10-2017 03:14:43 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:43 pm ]  Sent ATMA
+[ 05-10-2017 03:14:43 pm ]  Parsing 421
+[ 05-10-2017 03:14:43 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:43 pm ]  Sent ATMA
+[ 05-10-2017 03:14:43 pm ]  Parsing 421
+[ 05-10-2017 03:14:43 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:14:43 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:44 pm ]  Completed getTransmission command sequence, took 2909ms, 2 force send requests
+[ 05-10-2017 03:14:44 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:14:44 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:14:44 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:44 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:45 pm ]  Completed getTires command sequence, took 3780ms, 2 force send requests
+[ 05-10-2017 03:14:45 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:14:45 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:14:45 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:45 pm ]  Sent ATMA
+[ 05-10-2017 03:14:45 pm ]  Parsing 5B3
+[ 05-10-2017 03:14:45 pm ]  Got battery SOH: 74A80B4348BF4ACA
+[ 05-10-2017 03:14:45 pm ]  GIDs: 191 Temp: 84.2 offset = 101.775 GID watts 15065.244375000002
+[ 05-10-2017 03:14:45 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:46 pm ]  Completed getSOH command sequence, took 4921ms, 2 force send requests
+[ 05-10-2017 03:14:46 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:14:46 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:14:46 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:46 pm ]  Sent ATMA
+[ 05-10-2017 03:14:46 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:46 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:46 pm ]  Setting history point
+[ 05-10-2017 03:14:47 pm ]  Created history, now have 2004
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  Sent ATMA
+[ 05-10-2017 03:14:47 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:47 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:47 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:47 pm ]  Completed getOdometer command sequence, took 6259ms, 1 force send requests
+[ 05-10-2017 03:14:47 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:14:47 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:14:47 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:49 pm ]  sent: X got: OK
+[ 05-10-2017 03:14:55 pm ]  Completed getSpeed command sequence, took 14082ms, 2 force send requests
+[ 05-10-2017 03:14:55 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:55 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:56 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-10-2017 03:14:56 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:14:57 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:14:57 pm ]  OBD log file write done.
+[ 05-10-2017 03:14:57 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 215
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 216
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 2DE
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 174
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 176
+[ 05-10-2017 03:14:57 pm ]  Got motor Volts 0012008F000005
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 180
+[ 05-10-2017 03:14:57 pm ]  Got motor Amps 0000050051002500
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 1D5
+[ 05-10-2017 03:14:57 pm ]  Got regen braking 00000001D7
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 1F9
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 260
+[ 05-10-2017 03:14:57 pm ]  Got available regen 5A151900
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 1CB
+[ 05-10-2017 03:14:57 pm ]  Got target braking 00001B42100397
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 1CA
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 002
+[ 05-10-2017 03:14:57 pm ]  Got turning angle! F3FF000729
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 284
+[ 05-10-2017 03:14:57 pm ]  Got distance traveled 01AC01AB0000603F
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 285
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 130
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 5C5
+[ 05-10-2017 03:14:57 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 280
+[ 05-10-2017 03:14:57 pm ]  Got Seat Belts 01FFC0000000FFC0
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing 2DE
+[ 05-10-2017 03:14:57 pm ]  Sent ATMA
+[ 05-10-2017 03:14:57 pm ]  Parsing BUF
+[ 05-10-2017 03:14:57 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:57 pm ]  Sent ATBD
+[ 05-10-2017 03:14:57 pm ]  Parsing 0C0
+[ 05-10-2017 03:14:57 pm ]  History file write done.
+[ 05-10-2017 03:14:58 pm ]  Completed getAll command sequence, took 16772ms, 4 force send requests
+[ 05-10-2017 03:14:58 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:14:58 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:14:58 pm ]  Sent ATBD
+[ 05-10-2017 03:14:58 pm ]  Parsing 0C0
+[ 05-10-2017 03:14:58 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:14:58 pm ]  Completed command sequence, took 611ms, 1 force send requests
+[ 05-10-2017 03:14:58 pm ]  sent: ATSH792 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: ATFCSH792 got: OK
+[ 05-10-2017 03:14:58 pm ]  sent: 03221210 got: OK
+[ 05-10-2017 03:14:58 pm ]  Sent 03221210
+[ 05-10-2017 03:14:58 pm ]  Parsing 793
+[ 05-10-2017 03:14:58 pm ]  Got 793 0562121000000000
+[ 05-10-2017 03:14:59 pm ]  sent: 03221230 got: OK
+[ 05-10-2017 03:14:59 pm ]  Sent 03221230
+[ 05-10-2017 03:14:59 pm ]  Parsing 793
+[ 05-10-2017 03:14:59 pm ]  Got 793 0562123000450000
+[ 05-10-2017 03:14:59 pm ]  Completed getESVE command sequence, took 1394ms, 0 force send requests
+[ 05-10-2017 03:14:59 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:14:59 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:14:59 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:14:59 pm ]  Sent 0210C0
+[ 05-10-2017 03:14:59 pm ]  Parsing 79A
+[ 05-10-2017 03:14:59 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:14:59 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:15:00 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:15:00 pm ]  Sent 03221304
+[ 05-10-2017 03:15:00 pm ]  Parsing 79A
+[ 05-10-2017 03:15:00 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:15:00 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:15:00 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:15:00 pm ]  Sent 03221156
+[ 05-10-2017 03:15:00 pm ]  Parsing 79A
+[ 05-10-2017 03:15:00 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:15:00 pm ]  Got climate Temperature
+[ 05-10-2017 03:15:00 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:15:00 pm ]  Got climate Temperature
+[ 05-10-2017 03:15:01 pm ]  Completed getOutsideTemp command sequence, took 3433ms, 2 force send requests
+[ 05-10-2017 03:15:01 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:01 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:01 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:15:01 pm ]  Sent 022104
+[ 05-10-2017 03:15:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:01 pm ]  Sent 022104
+[ 05-10-2017 03:15:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:01 pm ]  Sent 022104
+[ 05-10-2017 03:15:01 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:15:02 pm ]  Sent 022106
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  Sent 022106
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  Sent 022106
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  Sent 022106
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB10C661020FAE0FB0
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB210FAB0FB00FAB0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB22AB0FA90FAC0FAB
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB230FB00FAB0FB00F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB24AE0FAC0FAC0FB0
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB250FA60FAE0FAE0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB26A70FB00FB00FAB
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB270FB00FAB0FAC0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB28AB0FB00FAE0FAE
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB290FAF0FAE0FA70F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2AAC0FAC0FAC0FB0
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2B0FAB0FAB0FB00F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2CAB0FB00FB30FB0
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2D0FB00FB00FB00F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2EAC0FB30FA90FB0
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2F0FB40FAE0FAB0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB20AE0FAC0FAC0FAC
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB210FAC0FB10FA90F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB22B00FAB0FB00FAB
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB230FAB0FB30FAC0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB24AB0FAB0FA90FAC
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB250FAE0FAB0FAE0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB26B00FAB0FAE0FAE
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB270FAC0FAB0FAB0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB28AB0FAC0FA90FA9
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB290FA90FA70FAE0F
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2AAB0FAE0FAC0FAB
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2B0FB00FAE0FAC96
+[ 05-10-2017 03:15:02 pm ]  Sent 022102
+[ 05-10-2017 03:15:02 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:02 pm ]  parsing cell voltage 7BB2C599678FFFFFFFF
+[ 05-10-2017 03:15:02 pm ]  Completed getBatteryVolts command sequence, took 4716ms, 2 force send requests
+[ 05-10-2017 03:15:02 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:15:02 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:02 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:02 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:15:02 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:03 pm ]  Sent 022101
+[ 05-10-2017 03:15:03 pm ]  Parsing 763
+[ 05-10-2017 03:15:03 pm ]  Got 763 1082610100000000
+[ 05-10-2017 03:15:03 pm ]  Sent 022101
+[ 05-10-2017 03:15:03 pm ]  Parsing 763
+[ 05-10-2017 03:15:03 pm ]  Got 763 21000000011ABA00
+[ 05-10-2017 03:15:03 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:15:03 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:15:03 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:15:03 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:15:03 pm ]  Sent 022110
+[ 05-10-2017 03:15:03 pm ]  Parsing 765
+[ 05-10-2017 03:15:03 pm ]  Got 765 100B611000009CA3
+[ 05-10-2017 03:15:03 pm ]  Sent 022110
+[ 05-10-2017 03:15:03 pm ]  Parsing 765
+[ 05-10-2017 03:15:03 pm ]  Got 765 21A899F00000FFFF
+[ 05-10-2017 03:15:03 pm ]  Completed getUnknown command sequence, took 5706ms, 1 force send requests
+[ 05-10-2017 03:15:03 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:03 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:03 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:03 pm ]  Sent 022101
+[ 05-10-2017 03:15:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:03 pm ]  Got 7BB BMS message 10296101FFFFF63F for requst 022101
+[ 05-10-2017 03:15:03 pm ]  Sent 022101
+[ 05-10-2017 03:15:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:03 pm ]  Got 7BB BMS message 210288FFFFF8C9FF for requst 022101
+[ 05-10-2017 03:15:03 pm ]  Sent 022101
+[ 05-10-2017 03:15:03 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:03 pm ]  Got 7BB BMS message 22FFFFFF08902AF8 for requst 022101
+[ 05-10-2017 03:15:04 pm ]  Sent 022101
+[ 05-10-2017 03:15:04 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:04 pm ]  Got 7BB BMS message 23965C32FA038600 for requst 022101
+[ 05-10-2017 03:15:04 pm ]  Got battery volts: 384.92
+[ 05-10-2017 03:15:04 pm ]  Sent 022101
+[ 05-10-2017 03:15:04 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:04 pm ]  Got 7BB BMS message 24791B01000BEE93 for requst 022101
+[ 05-10-2017 03:15:04 pm ]  Sent 022101
+[ 05-10-2017 03:15:04 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:04 pm ]  Got 7BB BMS message 25000868C1800001 for requst 022101
+[ 05-10-2017 03:15:04 pm ]  Completed getBatteryCharge command sequence, took 6161ms, 0 force send requests
+[ 05-10-2017 03:15:04 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:04 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:04 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:15:04 pm ]  Completed command sequence, took 447ms, 0 force send requests
+[ 05-10-2017 03:15:04 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:15:04 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:15:04 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:04 pm ]  Sent ATMA
+[ 05-10-2017 03:15:04 pm ]  Parsing 60D
+[ 05-10-2017 03:15:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:04 pm ]  Sent ATMA
+[ 05-10-2017 03:15:04 pm ]  Parsing 625
+[ 05-10-2017 03:15:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:04 pm ]  Sent ATMA
+[ 05-10-2017 03:15:04 pm ]  Parsing 60D
+[ 05-10-2017 03:15:04 pm ]  Got Turn Signal status: 0026180000000000
+[ 05-10-2017 03:15:05 pm ]  Sent ATMA
+[ 05-10-2017 03:15:05 pm ]  Parsing 625
+[ 05-10-2017 03:15:05 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:05 pm ]  Sent ATMA
+[ 05-10-2017 03:15:05 pm ]  Parsing 60D
+[ 05-10-2017 03:15:05 pm ]  Got Turn Signal status: 0026180000000000
+[ 05-10-2017 03:15:05 pm ]  Sent ATMA
+[ 05-10-2017 03:15:05 pm ]  Parsing 625
+[ 05-10-2017 03:15:05 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:05 pm ]  Sent ATMA
+[ 05-10-2017 03:15:05 pm ]  Parsing 60D
+[ 05-10-2017 03:15:05 pm ]  Got Turn Signal status: 0026180000000000
+[ 05-10-2017 03:15:05 pm ]  Sent ATMA
+[ 05-10-2017 03:15:05 pm ]  Parsing 625
+[ 05-10-2017 03:15:05 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:05 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:06 pm ]  Completed getHeadlights command sequence, took 2258ms, 2 force send requests
+[ 05-10-2017 03:15:06 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:15:06 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:15:06 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:06 pm ]  Sent ATMA
+[ 05-10-2017 03:15:06 pm ]  Parsing 421
+[ 05-10-2017 03:15:06 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:07 pm ]  Sent ATMA
+[ 05-10-2017 03:15:07 pm ]  Parsing 421
+[ 05-10-2017 03:15:07 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:07 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:07 pm ]  Completed getTransmission command sequence, took 3137ms, 2 force send requests
+[ 05-10-2017 03:15:07 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:15:07 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:15:07 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:07 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:08 pm ]  Completed getTires command sequence, took 4017ms, 2 force send requests
+[ 05-10-2017 03:15:08 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:15:08 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:15:08 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:08 pm ]  Sent ATMA
+[ 05-10-2017 03:15:08 pm ]  Parsing 5B3
+[ 05-10-2017 03:15:08 pm ]  Got battery SOH: 74A80B4348BF4ACA
+[ 05-10-2017 03:15:08 pm ]  GIDs: 191 Temp: 84.2 offset = 101.775 GID watts 15065.244375000002
+[ 05-10-2017 03:15:09 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:09 pm ]  Completed getSOH command sequence, took 5111ms, 2 force send requests
+[ 05-10-2017 03:15:09 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:15:09 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:15:09 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:09 pm ]  Sent ATMA
+[ 05-10-2017 03:15:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:09 pm ]  Sent ATMA
+[ 05-10-2017 03:15:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:09 pm ]  Sent ATMA
+[ 05-10-2017 03:15:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:09 pm ]  Sent ATMA
+[ 05-10-2017 03:15:09 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:09 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:09 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:10 pm ]  Completed getOdometer command sequence, took 5978ms, 1 force send requests
+[ 05-10-2017 03:15:10 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:15:10 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:15:10 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:12 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:12 pm ]  Completed getSpeed command sequence, took 8116ms, 2 force send requests
+[ 05-10-2017 03:15:12 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:12 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:15:12 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:15:13 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:15:13 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 002
+[ 05-10-2017 03:15:13 pm ]  Got turning angle! DCFF03079C
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 245
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 292
+[ 05-10-2017 03:15:13 pm ]  Got 12v Battery voltage 7CE8288050000002
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 130
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 2DE
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 1CB
+[ 05-10-2017 03:15:13 pm ]  Got target braking 000000021013DC
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 1CA
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 174
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 176
+[ 05-10-2017 03:15:13 pm ]  Got motor Volts 01F20F73000003
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 180
+[ 05-10-2017 03:15:13 pm ]  Got motor Amps 0000FEAFE3002300
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 1D5
+[ 05-10-2017 03:15:13 pm ]  Got regen braking 00000003D9
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 1F9
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 260
+[ 05-10-2017 03:15:13 pm ]  Got available regen 510D1740
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 002
+[ 05-10-2017 03:15:13 pm ]  Got turning angle! DDFF0407ED
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 284
+[ 05-10-2017 03:15:13 pm ]  Got distance traveled 2EDD2EAD1669826D
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 285
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 130
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 300
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 58A
+[ 05-10-2017 03:15:13 pm ]  Got Parking Brake 0600FD
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing 280
+[ 05-10-2017 03:15:13 pm ]  Got Seat Belts 01FF
+[ 05-10-2017 03:15:13 pm ]  Sent ATMA
+[ 05-10-2017 03:15:13 pm ]  Parsing BUF
+[ 05-10-2017 03:15:13 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:15:13 pm ]  Sent ATBD
+[ 05-10-2017 03:15:13 pm ]  Parsing 0C0
+[ 05-10-2017 03:15:14 pm ]  Completed getAll command sequence, took 9863ms, 4 force send requests
+[ 05-10-2017 03:15:14 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:15:14 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:15:14 pm ]  Sent ATBD
+[ 05-10-2017 03:15:14 pm ]  Parsing 0C0
+[ 05-10-2017 03:15:14 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:15:14 pm ]  Completed command sequence, took 544ms, 1 force send requests
+[ 05-10-2017 03:15:14 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:15:14 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:15:14 pm ]  Sent 0210C0
+[ 05-10-2017 03:15:14 pm ]  Parsing 79A
+[ 05-10-2017 03:15:14 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:15:14 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:15:15 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:15:15 pm ]  Sent 03221304
+[ 05-10-2017 03:15:15 pm ]  Parsing 79A
+[ 05-10-2017 03:15:15 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:15:15 pm ]  Got 79A 0562130480BA0000
+[ 05-10-2017 03:15:15 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:15:15 pm ]  Sent 03221156
+[ 05-10-2017 03:15:15 pm ]  Parsing 79A
+[ 05-10-2017 03:15:15 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:15:15 pm ]  Got climate Temperature
+[ 05-10-2017 03:15:15 pm ]  Got 79A 0762115604040404
+[ 05-10-2017 03:15:15 pm ]  Got climate Temperature
+[ 05-10-2017 03:15:16 pm ]  Setting history point
+[ 05-10-2017 03:15:17 pm ]  Created history, now have 2005
+[ 05-10-2017 03:15:17 pm ]  Completed getOutsideTemp command sequence, took 2859ms, 1 force send requests
+[ 05-10-2017 03:15:17 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:17 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:17 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:15:17 pm ]  Sent 022104
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  Sent 022104
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  Sent 022104
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:15:17 pm ]  Sent 022106
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  Sent 022106
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  Sent 022106
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  Sent 022106
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:15:17 pm ]  Sent 022102
+[ 05-10-2017 03:15:17 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:17 pm ]  parsing cell voltage 7BB10C661020FB20FAD
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB210FAF0FB20FAF0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB22AD0FAD0FAD0FAF
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB230FB10FAF0FAD0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB24B60FA90FB40FAD
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB250FAF0FB00FB20F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB26AD0FAF0FB10FB3
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB270FAD0FB30FAD0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB28AF0FB10FAD0FB0
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB290FAE0FAB0FAF0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2AAD0FAF0FAD0FAF
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2B0FB10FAF0FAD0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2CAF0FB10FB20FB2
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2D0FAF0FAD0FB30F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2EB30FB60FAC0FB1
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2F0FB70FAC0FA90F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB20B00FAE0FAD0FAE
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB210FAD0FB30FA70F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB22B20FA80FAE0FAE
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB230FAE0FB10FAA0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB24A90FA90FAC0FAE
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB250FAB0FAE0FAC0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB26B20FA90FAC0FAC
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB270FAE0FA90FAE0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB28A90FAA0FA70FAC
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB290FA70FAA0FAB0F
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2AA90FAC0FAE0FAE
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2B0FAE0FAC0FAE96
+[ 05-10-2017 03:15:18 pm ]  Sent 022102
+[ 05-10-2017 03:15:18 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:18 pm ]  parsing cell voltage 7BB2C899689FFFFFFFF
+[ 05-10-2017 03:15:18 pm ]  Completed getBatteryVolts command sequence, took 4144ms, 2 force send requests
+[ 05-10-2017 03:15:18 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:15:18 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:18 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:18 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:15:18 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:18 pm ]  Sent 022101
+[ 05-10-2017 03:15:18 pm ]  Parsing 763
+[ 05-10-2017 03:15:18 pm ]  Got 763 1082610100000014
+[ 05-10-2017 03:15:18 pm ]  Sent 022101
+[ 05-10-2017 03:15:18 pm ]  Parsing 763
+[ 05-10-2017 03:15:18 pm ]  Got 763 21EE1532011ABB00
+[ 05-10-2017 03:15:18 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:15:19 pm ]  Sent 022110
+[ 05-10-2017 03:15:19 pm ]  Parsing 765
+[ 05-10-2017 03:15:19 pm ]  Got 765 100B611000009DA3
+[ 05-10-2017 03:15:19 pm ]  Sent 022110
+[ 05-10-2017 03:15:19 pm ]  Parsing 765
+[ 05-10-2017 03:15:19 pm ]  Got 765 21A899F00000FFFF
+[ 05-10-2017 03:15:19 pm ]  Completed getUnknown command sequence, took 5267ms, 1 force send requests
+[ 05-10-2017 03:15:19 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 1029610100004741 for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 210288000037C5FF for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 22FFFFFF08A02AF8 for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 23969532E1038800 for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Got battery volts: 385.49
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 24761B01000BDFBF for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Sent 022101
+[ 05-10-2017 03:15:19 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:19 pm ]  Got 7BB BMS message 25000868C1800001 for requst 022101
+[ 05-10-2017 03:15:19 pm ]  Completed getBatteryCharge command sequence, took 5719ms, 0 force send requests
+[ 05-10-2017 03:15:19 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:19 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:15:20 pm ]  Completed command sequence, took 445ms, 0 force send requests
+[ 05-10-2017 03:15:20 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:15:20 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:15:21 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:28 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 60D
+[ 05-10-2017 03:15:28 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:28 pm ]  Sent ATMA
+[ 05-10-2017 03:15:28 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 60D
+[ 05-10-2017 03:15:29 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:29 pm ]  Sent ATMA
+[ 05-10-2017 03:15:29 pm ]  Parsing 625
+[ 05-10-2017 03:15:29 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:30 pm ]  Sent ATMA
+[ 05-10-2017 03:15:30 pm ]  Parsing 60D
+[ 05-10-2017 03:15:30 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:15:30 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:30 pm ]  Sent X
+[ 05-10-2017 03:15:30 pm ]  Parsing 625
+[ 05-10-2017 03:15:30 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:15:31 pm ]  Completed getHeadlights command sequence, took 11578ms, 2 force send requests
+[ 05-10-2017 03:15:31 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:15:31 pm ]  sent: ATCF421 got: OK
+[ 05-10-2017 03:15:31 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  Sent ATMA
+[ 05-10-2017 03:15:31 pm ]  Parsing 421
+[ 05-10-2017 03:15:31 pm ]  Got 'transmission' status 200000
+[ 05-10-2017 03:15:31 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:32 pm ]  Completed getTransmission command sequence, took 12444ms, 2 force send requests
+[ 05-10-2017 03:15:32 pm ]  sent: ATCF38F got: OK
+[ 05-10-2017 03:15:32 pm ]  sent: ATCRA38X got: OK
+[ 05-10-2017 03:15:32 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:32 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:33 pm ]  Completed getTires command sequence, took 13306ms, 2 force send requests
+[ 05-10-2017 03:15:33 pm ]  sent: ATCF5B3 got: OK
+[ 05-10-2017 03:15:33 pm ]  sent: ATCRA5BX got: OK
+[ 05-10-2017 03:15:33 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:33 pm ]  Sent ATMA
+[ 05-10-2017 03:15:33 pm ]  Parsing 5B3
+[ 05-10-2017 03:15:33 pm ]  Got battery SOH: 74A80B4348BF4ACA
+[ 05-10-2017 03:15:33 pm ]  GIDs: 191 Temp: 84.2 offset = 101.775 GID watts 15065.244375000002
+[ 05-10-2017 03:15:33 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:34 pm ]  Completed getSOH command sequence, took 14423ms, 2 force send requests
+[ 05-10-2017 03:15:34 pm ]  sent: ATCM7FE got: OK
+[ 05-10-2017 03:15:34 pm ]  sent: ATCF5C5 got: OK
+[ 05-10-2017 03:15:34 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:34 pm ]  Sent ATMA
+[ 05-10-2017 03:15:34 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:34 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:34 pm ]  Sent ATMA
+[ 05-10-2017 03:15:34 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:34 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:34 pm ]  Sent ATMA
+[ 05-10-2017 03:15:34 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:34 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:34 pm ]  Sent ATMA
+[ 05-10-2017 03:15:34 pm ]  Parsing 5C5
+[ 05-10-2017 03:15:34 pm ]  Got ODO! 4000AFAF000C0000
+[ 05-10-2017 03:15:34 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:36 pm ]  Completed getOdometer command sequence, took 16227ms, 1 force send requests
+[ 05-10-2017 03:15:36 pm ]  sent: ATCF35F got: OK
+[ 05-10-2017 03:15:36 pm ]  sent: ATCRA35X got: OK
+[ 05-10-2017 03:15:36 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:36 pm ]  sent: X got: OK
+[ 05-10-2017 03:15:37 pm ]  Completed getSpeed command sequence, took 17096ms, 2 force send requests
+[ 05-10-2017 03:15:37 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:37 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:15:37 pm ]  sent: ATCM got: OK
+[ 05-10-2017 03:15:37 pm ]  sent: ATCRA got: OK
+[ 05-10-2017 03:15:37 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 280
+[ 05-10-2017 03:15:37 pm ]  Got Seat Belts 01FFC0000BFCFFC0
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 2DE
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 1CB
+[ 05-10-2017 03:15:37 pm ]  Got target braking 0000000013F0D5
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 1CA
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 300
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 174
+[ 05-10-2017 03:15:37 pm ]  Sent ATMA
+[ 05-10-2017 03:15:37 pm ]  Parsing 176
+[ 05-10-2017 03:15:37 pm ]  Got motor Volts 0109083D00000E
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 180
+[ 05-10-2017 03:15:38 pm ]  Got motor Amps 00001AC1B2522E00
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 1D5
+[ 05-10-2017 03:15:38 pm ]  Got regen braking 00000002D8
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 1F9
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 245
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 292
+[ 05-10-2017 03:15:38 pm ]  Got 12v Battery voltage 8646706E30000001
+[ 05-10-2017 03:15:38 pm ]  Adding notification 
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 130
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 50A
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 58A
+[ 05-10-2017 03:15:38 pm ]  Got Parking Brake 0600FD
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 002
+[ 05-10-2017 03:15:38 pm ]  Got turning angle! 4D070707C2
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 2DE
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing 1CB
+[ 05-10-2017 03:15:38 pm ]  Got target braking 0000000013F1
+[ 05-10-2017 03:15:38 pm ]  Sent ATMA
+[ 05-10-2017 03:15:38 pm ]  Parsing BUF
+[ 05-10-2017 03:15:38 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:15:38 pm ]  Sent ATBD
+[ 05-10-2017 03:15:38 pm ]  Parsing 0B0
+[ 05-10-2017 03:15:38 pm ]  Completed getAll command sequence, took 18798ms, 4 force send requests
+[ 05-10-2017 03:15:38 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-10-2017 03:15:38 pm ]  sent: ATBD got: OK
+[ 05-10-2017 03:15:38 pm ]  Sent ATBD
+[ 05-10-2017 03:15:38 pm ]  Parsing 0B0
+[ 05-10-2017 03:15:39 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATE0 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATH1 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATL0 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATCAF0 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATFCSM1 got: OK
+[ 05-10-2017 03:15:39 pm ]  Completed command sequence, took 579ms, 1 force send requests
+[ 05-10-2017 03:15:39 pm ]  sent: ATSH792 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: ATFCSH792 got: OK
+[ 05-10-2017 03:15:39 pm ]  sent: 03221210 got: OK
+[ 05-10-2017 03:15:39 pm ]  Sent 03221210
+[ 05-10-2017 03:15:39 pm ]  Parsing 793
+[ 05-10-2017 03:15:39 pm ]  Got 793 0562121000000000
+[ 05-10-2017 03:15:39 pm ]  sent: 03221230 got: OK
+[ 05-10-2017 03:15:39 pm ]  Sent 03221230
+[ 05-10-2017 03:15:39 pm ]  Parsing 793
+[ 05-10-2017 03:15:39 pm ]  Got 793 0562123000450000
+[ 05-10-2017 03:15:40 pm ]  Completed getESVE command sequence, took 1478ms, 0 force send requests
+[ 05-10-2017 03:15:40 pm ]  sent: ATSH797 got: OK
+[ 05-10-2017 03:15:40 pm ]  sent: ATFCSH797 got: OK
+[ 05-10-2017 03:15:40 pm ]  sent: 0210C0 got: OK
+[ 05-10-2017 03:15:40 pm ]  Sent 0210C0
+[ 05-10-2017 03:15:40 pm ]  Parsing 79A
+[ 05-10-2017 03:15:40 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:15:40 pm ]  Got 79A 0250C00000000000
+[ 05-10-2017 03:15:46 pm ]  sent: 03221304 got: OK
+[ 05-10-2017 03:15:46 pm ]  Sent 03221304
+[ 05-10-2017 03:15:46 pm ]  Parsing 79A
+[ 05-10-2017 03:15:46 pm ]  Got 79A 037F228000000000
+[ 05-10-2017 03:15:46 pm ]  Got 79A 037F228000000000
+[ 05-10-2017 03:15:47 pm ]  Setting history point
+[ 05-10-2017 03:15:47 pm ]  Created history, now have 2006
+[ 05-10-2017 03:15:47 pm ]  sent: 03221156 got: OK
+[ 05-10-2017 03:15:48 pm ]  Sent 03221156
+[ 05-10-2017 03:15:48 pm ]  Parsing 79A
+[ 05-10-2017 03:15:48 pm ]  Got 79A 037F228000000000
+[ 05-10-2017 03:15:48 pm ]  Got 79A 037F228000000000
+[ 05-10-2017 03:15:48 pm ]  Completed getOutsideTemp command sequence, took 9653ms, 2 force send requests
+[ 05-10-2017 03:15:48 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:48 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:48 pm ]  sent: 022104 got: OK
+[ 05-10-2017 03:15:48 pm ]  Sent 022104
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  Sent 022104
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  Sent 022104
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  sent: 022106 got: OK
+[ 05-10-2017 03:15:48 pm ]  Sent 022106
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  Sent 022106
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  Sent 022106
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:48 pm ]  Sent 022106
+[ 05-10-2017 03:15:48 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  sent: 022102 got: OK
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB10C661020F0B0F04
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB210EFF0F090EFA0F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB22040EFD0F050EFA
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB230EFB0EFA0EFC0E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB24F90F000EF20F00
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB250EFA0F030F020E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB26FC0EFA0EFB0EFA
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB270EF70EFA0F000E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB28FA0F000EF90EFE
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB290EF80EF50EF60E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2AF70EF60EF80EFA
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2B0EFB0EF60EFC0E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2CFA0EFB0EFE0EFC
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2D0EF60EFC0EFF0E
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2EFE0F100EFB0F04
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2F0EFD0F000EFD0F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB20080EFD0EFE0F02
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB210F000EFE0EFC0F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB22060F000EF90F02
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB230F010F080F020F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB24020EFD0F030EF9
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB250F030F010F030F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB26060EFD0F000EFE
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB270EF90F020EFD0F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB28000EFE0F000F00
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB290EFE0EFD0F050F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2A010F030F020F06
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2B0F060F070F068F
+[ 05-10-2017 03:15:49 pm ]  Sent 022102
+[ 05-10-2017 03:15:49 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:49 pm ]  parsing cell voltage 7BB2C268F1CFFFFFFFF
+[ 05-10-2017 03:15:49 pm ]  Completed getBatteryVolts command sequence, took 10931ms, 2 force send requests
+[ 05-10-2017 03:15:49 pm ]  sent: ATSH743 got: OK
+[ 05-10-2017 03:15:49 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:49 pm ]  sent: ATFCSH743 got: OK
+[ 05-10-2017 03:15:49 pm ]  sent: ATFCSD300100 got: OK
+[ 05-10-2017 03:15:49 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:49 pm ]  Sent 022101
+[ 05-10-2017 03:15:49 pm ]  Parsing 763
+[ 05-10-2017 03:15:49 pm ]  Got 763 1082610100000022
+[ 05-10-2017 03:15:49 pm ]  Sent 022101
+[ 05-10-2017 03:15:49 pm ]  Parsing 763
+[ 05-10-2017 03:15:49 pm ]  Got 763 21D72348011ABB00
+[ 05-10-2017 03:15:50 pm ]  sent: ATSH745 got: OK
+[ 05-10-2017 03:15:50 pm ]  sent: ATFCSH745 got: OK
+[ 05-10-2017 03:15:50 pm ]  sent: ATFCSD300000 got: OK
+[ 05-10-2017 03:15:50 pm ]  sent: 022110 got: OK
+[ 05-10-2017 03:15:50 pm ]  Sent 022110
+[ 05-10-2017 03:15:50 pm ]  Parsing 765
+[ 05-10-2017 03:15:50 pm ]  Got 765 100B611000009DA3
+[ 05-10-2017 03:15:50 pm ]  Sent 022110
+[ 05-10-2017 03:15:50 pm ]  Parsing 765
+[ 05-10-2017 03:15:50 pm ]  Got 765 21A899F00000FFFF
+[ 05-10-2017 03:15:50 pm ]  Completed getUnknown command sequence, took 11917ms, 1 force send requests
+[ 05-10-2017 03:15:50 pm ]  sent: ATSH79B got: OK
+[ 05-10-2017 03:15:50 pm ]  sent: ATFCSH79B got: OK
+[ 05-10-2017 03:15:50 pm ]  sent: 022101 got: OK
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 10296101FFFD68A1 for requst 022101
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 210288FFFE099AFF for requst 022101
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 22FFFFFF085E2AF8 for requst 022101
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 238FD832FA038600 for requst 022101
+[ 05-10-2017 03:15:50 pm ]  Got battery volts: 368.24
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 24751AFF000BB184 for requst 022101
+[ 05-10-2017 03:15:50 pm ]  Sent 022101
+[ 05-10-2017 03:15:50 pm ]  Parsing 7BB
+[ 05-10-2017 03:15:50 pm ]  Got 7BB BMS message 25000868C1800001 for requst 022101
+[ 05-10-2017 03:15:51 pm ]  Completed getBatteryCharge command sequence, took 12379ms, 0 force send requests
+[ 05-10-2017 03:15:51 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:51 pm ]  sent: ATAR got: OK
+[ 05-10-2017 03:15:51 pm ]  sent: ATOF0 got: OK
+[ 05-10-2017 03:15:52 pm ]  Completed command sequence, took 1537ms, 0 force send requests
+[ 05-10-2017 03:15:52 pm ]  sent: ATCF62F got: OK
+[ 05-10-2017 03:15:52 pm ]  sent: ATCRA62X got: OK
+[ 05-10-2017 03:15:52 pm ]  sent: ATMA got: OK
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 625
+[ 05-10-2017 03:16:00 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 60D
+[ 05-10-2017 03:16:00 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 625
+[ 05-10-2017 03:16:00 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 60D
+[ 05-10-2017 03:16:00 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 625
+[ 05-10-2017 03:16:00 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 60D
+[ 05-10-2017 03:16:00 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 625
+[ 05-10-2017 03:16:00 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 60D
+[ 05-10-2017 03:16:00 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:00 pm ]  Sent ATMA
+[ 05-10-2017 03:16:00 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 625
+[ 05-10-2017 03:16:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:01 pm ]  Parsing 60D
+[ 05-10-2017 03:16:01 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:01 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 60D
+[ 05-10-2017 03:16:02 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:02 pm ]  Sent ATMA
+[ 05-10-2017 03:16:02 pm ]  Parsing 625
+[ 05-10-2017 03:16:02 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 60D
+[ 05-10-2017 03:16:03 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 625
+[ 05-10-2017 03:16:03 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 60D
+[ 05-10-2017 03:16:03 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 625
+[ 05-10-2017 03:16:03 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 60D
+[ 05-10-2017 03:16:03 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:03 pm ]  Sent ATMA
+[ 05-10-2017 03:16:03 pm ]  Parsing 625
+[ 05-10-2017 03:16:03 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 60D
+[ 05-10-2017 03:16:04 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:04 pm ]  Sent ATMA
+[ 05-10-2017 03:16:04 pm ]  Parsing 625
+[ 05-10-2017 03:16:04 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:05 pm ]  Sent ATMA
+[ 05-10-2017 03:16:05 pm ]  Parsing 60D
+[ 05-10-2017 03:16:05 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:05 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-10-2017 03:16:05 pm ]  Sent ATMA
+[ 05-10-2017 03:16:05 pm ]  Parsing 625
+[ 05-10-2017 03:16:05 pm ]  Got Headlight status: 0200FF1D2000
+[ 05-10-2017 03:16:05 pm ]  Sent ATMA
+[ 05-10-2017 03:16:05 pm ]  Parsing 60D
+[ 05-10-2017 03:16:05 pm ]  Got Turn Signal status: 0006180000000000
+[ 05-10-2017 03:16:05 pm ]  sent: X got: OK
+[ 05-10-2017 03:16:05 pm ]  Sent X
+[ 05-10-2017 03:16:05 pm ]  Parsing 625
+[ 05-10-2017 03:16:05 pm ]  Got Headlight status: 0200FF1D2000

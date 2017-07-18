@@ -10,9 +10,6 @@
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "cordova-plugin-bluetooth-serial": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
@@ -78,6 +75,15 @@
         },
         "cordova-plugin-bluetooth-peripheral-usage-description": {
             "TEXT": "Connects to Bluetooth OBD device.",
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-hot-code-push-plugin": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "life.brandonmartin.happyleaf"
+        },
+        "cordova-plugin-bluetoothle": {
             "PACKAGE_NAME": "life.brandonmartin.happyleaf"
         }
     },

@@ -1,0 +1,21 @@
+{{yield}}
+
+<small class="title">
+    {{t 'WIDGETS.LOG_VIEW'}}
+    
+    {{#paper-button iconButton=true id="log-icon" onClick=(action 'togglePlaying')}}
+        {{#if logPlaying}}
+            {{paper-icon 'pause'}}
+        {{else}}
+            {{paper-icon 'play_arrow'}}
+        {{/if}}
+    {{/paper-button}}
+</small>
+
+
+
+<div class='log-container'>
+    <p class="log">
+        {{logText}}
+    </p>
+</div>

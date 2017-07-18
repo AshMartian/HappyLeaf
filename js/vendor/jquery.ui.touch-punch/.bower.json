@@ -1,0 +1,21 @@
+{
+  "name": "jquery.ui.touch-punch",
+  "version": "0.3.0",
+  "main": "jquery.ui.touch-punch.min.js",
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">=1.6",
+    "jquery-ui": ">=1.8"
+  },
+  "homepage": "https://github.com/mralexandernickel/jquery-ui-touch-punch",
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.0",
+    "commit": "7c7be31ef0f111d9a0d38ecaeac0bfedf878d243"
+  },
+  "_source": "https://github.com/mralexandernickel/jquery-ui-touch-punch.git",
+  "_target": "^0.3.0",
+  "_originalSource": "jquery.ui.touch-punch",
+  "_direct": true
+}

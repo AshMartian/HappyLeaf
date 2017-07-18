@@ -1,0 +1,31 @@
+{{yield}}
+
+<small class="title">
+    {{#if (lt dataManager.wattsUsed 0)}}
+        {{t 'HOME.GAINED'}}
+    {{else}}
+        {{t 'HOME.USED'}}
+    {{/if}}
+</small>
+
+<h2 class="kwh-remaining">
+    <big>{{format-number (abs dataManager.wattsUsed) precision=1}}</big> <span>Wh</span>
+</h2>
+<small class="tiny clear" class="{{if (gt dataManager.wattDifference 0) 'green'}} {{if (lt dataManager.wattDifference 0) 'red'}}" highlight-on-change="{{data.wattDifference}}">
+    {{#if (gt dataManager.wattDifference 0)}}
+        <span>+ </span>
+    {{/if}}
+    {{format-number dataManager.wattDifference precision=1}}
+</small>
+
+{{#if (gt widget.grid.height 1)}}
+    {{#if dataManager.isCharging}}
+        <b>{{format-number data.wattsPerMinute precision=2}}</b> {{t 'HOME.WATTS_MIN'}}
+    {{else}}
+        {{#if widget.settings.distancePer}}
+            <span><b>{{format-number dataManager.distancePerKW precision=2}}</b> {{t (readable-distance dataManager.distanceUnits)}}/kW</span>
+        {{else}}
+            <span><b>{{format-number data.wattsPerDistance precision=2}}</b> Watts/{{t (readable-distance dataManager.distanceUnits)}}</span>
+        {{/if}}
+    {{/if}}
+{{/if}}

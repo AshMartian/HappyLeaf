@@ -1,0 +1,19 @@
+{
+  "name": "jquery.ui.touch",
+  "description": "This is a modified version of the jQuery plugin that enables touch event for jQuery UI originally developed by Stephen von Takach.",
+  "main": "jquery.ui.touch.js",
+  "homepage": "https://github.com/joshgerdes/jquery.ui.touch",
+  "keywords": [
+    "jquery",
+    "ui",
+    "touch"
+  ],
+  "ignore": ["package.json"],
+  "license": "MIT",
+  "authors": [
+    "Josh Gerdes <josh@joshgerdes.com>"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}

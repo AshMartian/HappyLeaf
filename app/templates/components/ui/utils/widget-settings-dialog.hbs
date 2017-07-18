@@ -1,0 +1,85 @@
+{{yield}}
+
+{{#if showDialog}}
+  {{#paper-dialog fullscreen=false class="flex-77" style="min-width: 60vw;" onClose=(action "closeDialog" "cancel") origin=dialogOrigin clickOutsideToClose=true}}
+    {{#paper-toolbar}}
+      {{#paper-toolbar-tools}}
+        <h2>{{t 'SETTINGS.TITLE'}}: {{t widget.name}}</h2>
+        <span class="flex"></span>
+        {{#paper-button iconButton=true onClick=(action "closeDialog" "cancel")}}{{paper-icon icon="close"}}{{/paper-button}}
+      {{/paper-toolbar-tools}}
+    {{/paper-toolbar}}
+    
+    {{#paper-content padding=true}}
+        {{#if (eq widget.type 'widgets/leaf-display')}}
+            You will be allowed to change tire locations here
+        {{/if}}
+
+        {{#if (eq widget.type 'widgets/data-display')}}
+            {{#paper-subheader}}{{t 'DATA.dataDisplay'}}{{/paper-subheader}}
+            {{#paper-radio-group groupValue=(readonly selectedData) onChange=(action 'selectSingleData') as |group|}}
+                {{#each availableData as |data|}}
+                    {{#group.radio value=data primary=true}} 
+                        <b>{{t (concat 'DATA.' data)}} </b>
+                        <br />
+                        <small style="float: left;">{{get dataManager data}}</small>
+                    {{/group.radio}}
+                    {{paper-divider}}
+                {{/each}}
+            {{/paper-radio-group}}
+        {{/if}}
+
+        {{#if (eq widget.type 'widgets/time-chart')}}
+            {{#paper-subheader}}{{t 'WIDGETS.TIME_DURATION'}}{{/paper-subheader}}
+            {{#paper-list}}
+                {{#paper-item as |controls|}}
+                    {{paper-icon 'swap_vertical_circle'}}
+                    <p>{{t 'WIDGETS.TIME_THRESHOLD'}}</p>
+                    {{paper-slider class="flex" discrete=true step=1 min=5 max=500 value=(div widget.settings.graphTimeEnd 60000) onChange=(action "changeTime")}}
+                {{/paper-item}}
+
+                {{#paper-item as |controls|}}
+                    {{paper-icon 'label'}}
+                    <p>{{t 'WIDGETS.SHOW_LABELS'}}</p>
+                    {{controls.checkbox
+                    value=widget.settings.showLabels
+                    primary=true
+                    onChange=(action 'toggleSetting' 'settings.showLabels')}}
+                {{/paper-item}}
+
+                {{#paper-subheader}}{{t 'DATA.dataDisplay'}}{{/paper-subheader}}
+                {{#each availableData as |data|}}
+                    {{#paper-item as |controls|}}
+                        <p>
+                        <b>{{t (concat 'DATA.' data)}} </b>
+                        <br />
+                        <small style="float: left;">{{get dataManager data}}</small>
+                        </p>
+                        {{controls.checkbox
+                            value=(array-contains widget.bind data)
+                            primary=true
+                            onChange=(action 'selectManyData' data)}}
+                        {{paper-divider}}
+                    {{/paper-item}}
+                {{/each}}
+
+            {{/paper-list}}
+        {{/if}}
+
+        {{#if (eq widget.type 'widgets/energy-used')}}
+            {{#paper-subheader}}{{t 'DATA.dataDisplay'}}{{/paper-subheader}}
+            {{#paper-list}}
+                {{#paper-item as |controls|}}
+                    {{paper-icon 'label'}}
+                    <p>{{t 'WIDGETS.SHOW_DISTANCE_PER'}}</p>
+                    {{controls.checkbox
+                    value=widget.settings.distancePer
+                    primary=true
+                    onChange=(action 'toggleSetting' 'settings.distancePer')}}
+                {{/paper-item}}
+
+            {{/paper-list}}
+        {{/if}}
+    {{/paper-content}}
+  {{/paper-dialog}}
+{{/if}}

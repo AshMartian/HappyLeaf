@@ -1,0 +1,33 @@
+{{yield}}
+
+
+<small class="title">{{t 'HOME.REMAINING'}}</small>
+
+{{#if dataManager.tempOffset}}
+  {{#if (gt widget.grid.height 1)}}
+    <small class="temp-offset clear" class="{{if (gt dataManager.tempOffset 100) 'green'}} {{if (lte dataManager.tempOffset 90) 'red'}}"><b>&deg;{{format-number dataManager.tempOffset precision=1}}%</b></small>
+  {{else}}
+    {{#if (gt widget.grid.width 2)}}
+      <small class="temp-offset"><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> Miles</span></small>
+    {{/if}}
+  {{/if}}
+{{/if}}
+
+
+<h2 class="kwh-remaining">
+ <big>{{format-number dataManager.kilowatts precision=2}}</big> <span>kWh</span>
+</h2>
+
+{{#if (gt widget.grid.height 1)}}
+  <small><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> Miles {{t 'HOME.TO'}} 0</span></small>
+{{/if}}
+
+<div class="grid-footer">
+  {{#if (gt widget.grid.height 1)}}
+    <div class="block">
+      {{paper-icon 'battery_std'}}{{t 'HOME.HEALTH'}}: <b>{{dataManager.SOH}}%</b> 
+    </div>
+  {{/if}}
+  {{paper-progress-linear mode=(if (eq dataManager.SOH 0) 'query') value=dataManager.SOH}}
+</div>
+

@@ -1,0 +1,6 @@
+{{yield}}
+
+{{#each widget.bind as |data|}}
+    <small class="title">{{t (concat 'DATA.' data)}}</small>
+    <h3>{{get dataManager data}}</h3>
+{{/each}}

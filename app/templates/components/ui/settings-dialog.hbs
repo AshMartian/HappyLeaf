@@ -1,0 +1,167 @@
+{{yield}}
+
+
+{{#if showDialog}}
+  {{#paper-dialog fullscreen=true class="flex-77" onClose=(action "closeDialog" "cancel") origin=dialogOrigin clickOutsideToClose=true}}
+    {{#paper-toolbar}}
+      {{#paper-toolbar-tools}}
+        <h2>{{t 'SETTINGS.TITLE'}}</h2>
+        <span class="flex"></span>
+        {{#paper-button iconButton=true onClick=(action "closeDialog" "cancel")}}{{paper-icon icon="close"}}{{/paper-button}}
+      {{/paper-toolbar-tools}}
+    {{/paper-toolbar}}
+
+      {{#paper-tabs as |tabs|}}
+        {{#tabs.tab label=(t 'SETTINGS.TABS.SETTINGS')}}
+          {{#paper-list}}
+
+           {{#paper-subheader}}{{t 'SETTINGS.DISPLAY.TITLE'}}{{/paper-subheader}}
+
+           {{#paper-menu position="target-right target" offset="-5 0" as |menu|}}
+            {{#menu.trigger}}
+             {{#paper-item as |controls|}}
+               <p>{{t 'SETTINGS.DISPLAY.LANGUAGE.TITLE'}}</p>
+               {{paper-icon 'list'}}
+             {{/paper-item}}
+            {{/menu.trigger}}
+
+            {{#menu.content width=4 as |content|}}
+              {{#each languages as |lang|}}
+                {{#content.menu-item onClick=(action 'changeLang' lang)}}
+                  <span>{{t lang.name}}</span>
+                {{/content.menu-item}}
+              {{/each}}
+            {{/menu.content}}
+          {{/paper-menu}}
+
+           {{#paper-subheader}}{{t 'SETTINGS.DARK_MODE.TITLE'}}{{/paper-subheader}}
+
+           {{#paper-item as |controls|}}
+            {{paper-icon 'brightness_auto'}}
+             <p>{{t 'SETTINGS.DARK_MODE.AMBIENT'}}</p>
+             {{controls.checkbox
+               primary=true
+               value=settings.content.settings.experience.darkModeAmbient
+               warn=true
+               onChange=(action 'toggleSetting' 'settings.experience.darkModeAmbient')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+            {{paper-icon 'brightness_medium'}}
+             <p>{{t 'SETTINGS.DARK_MODE.AMBIENT_SENSITIVITY'}}</p>
+             {{paper-slider class="flex" warn=true discrete=true min=1 max=10 disabled=(not settings.settings.experience.darkModeAmbient) value=settings.settings.experience.lightSensitivity onChange=(action "changeValue" 'settings.experience.lightSensitivity')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+             {{paper-icon 'highlight'}}
+             <p>{{t 'SETTINGS.DARK_MODE.DARK_HEADLIGHTS'}}</p>
+             {{controls.checkbox
+               value=settings.content.settings.experience.darkModeHeadlights
+               warn=true
+               onChange=(action 'toggleSetting' 'settings.experience.darkModeHeadlights')}}
+           {{/paper-item}}
+
+           {{#paper-subheader}}{{t 'SETTINGS.NOTIFICATIONS.TITLE'}}{{/paper-subheader}}
+
+           {{#paper-item as |controls|}}
+              {{#if settings.settings.notifications.enablePush}}
+                {{paper-icon 'notifications_active'}}
+              {{else}}
+                {{paper-icon 'notifications_off'}}
+              {{/if}}
+             <p>{{t 'SETTINGS.NOTIFICATIONS.ENABLE_DEVICE'}}</p>
+             {{controls.checkbox
+               value=settings.settings.notifications.enablePush
+               onChange=(action 'toggleSetting' 'settings.notifications.enablePush')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+            {{paper-icon 'panorama_horizontal'}}
+             <p>{{t 'SETTINGS.NOTIFICATIONS.TIRE_LOW_THRESHOLD'}} ({{settings.settings.notifications.tireLowThreshold}})</p>
+             {{paper-slider class="flex" discrete=true min=20 max=45 value=settings.settings.notifications.tireLowThreshold onChange=(action "changeValue" 'settings.notifications.tireLowThreshold')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+            {{paper-icon 'panorama_wide_angle'}}
+             <p>{{t 'SETTINGS.NOTIFICATIONS.TIRE_HIGH_THRESHOLD'}} ({{settings.settings.notifications.tireHighThreshold}})</p>
+             {{paper-slider class="flex" discrete=true min=30 max=50 value=settings.settings.notifications.tireHighThreshold onChange=(action "changeValue" 'settings.notifications.tireHighThreshold')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+            {{paper-icon 'swap_vertical_circle'}}
+             <p>{{t 'SETTINGS.NOTIFICATIONS.TIRE_DELTA_THRESHOLD'}} ({{settings.settings.notifications.tireDeltaThreshold}})</p>
+             {{paper-slider class="flex" discrete=true step=0.5 min=0.5 max=5 value=settings.settings.notifications.tireDeltaThreshold onChange=(action "changeValue" 'settings.notifications.tireDeltaThreshold')}}
+           {{/paper-item}}
+
+           {{#paper-subheader}}{{t 'SETTINGS.RESET_TITLE'}}{{/paper-subheader}}
+
+            {{#paper-item onClick=(action "resetSettings") as |controls|}}
+              {{paper-icon 'replay'}}
+              <p>{{t 'SETTINGS.RESET'}}</p>
+            {{/paper-item}}
+
+            {{#paper-item onClick=(action "resetWidgets") as |controls|}}
+              {{paper-icon 'replay'}}
+              <p>{{t 'SETTINGS.RESET_WIDGETS'}}</p>
+            {{/paper-item}}
+
+          {{/paper-list}}
+
+        {{/tabs.tab}}
+
+        {{#tabs.tab label=(t 'SETTINGS.TABS.DATA')}}
+          Content 2
+        {{/tabs.tab}}
+
+        {{#tabs.tab label=(t 'SETTINGS.TABS.CONNECTION')}}
+          {{#paper-list}}
+
+          {{#paper-subheader}}{{t 'SETTINGS.BLUETOOTH.TITLE'}}{{/paper-subheader}}
+
+          {{#paper-item as |controls|}}
+            {{#if settings.settings.bluetooth.allow}}
+              {{paper-icon 'bluetooth'}}
+            {{else}}
+              {{paper-icon 'bluetooth_disabled'}}
+            {{/if}}
+            <p>{{t 'SETTINGS.BLUETOOTH.ALLOW'}}</p>
+            {{controls.checkbox
+              value=settings.settings.bluetooth.allow
+              secondary=true
+              onChange=(action 'toggleSetting' 'settings.bluetooth.allow')}}
+          {{/paper-item}}
+
+           {{#paper-subheader}}{{t 'SETTINGS.WIFI.TITLE'}}{{/paper-subheader}}
+
+           {{#paper-item as |controls|}}
+             {{#if settings.settings.wifi.allow}}
+               {{paper-icon 'wifi'}}
+             {{else}}
+               {{paper-icon 'signal_wifi_off'}}
+             {{/if}}
+             <p>{{t 'SETTINGS.WIFI.ALLOW'}}</p>
+             {{controls.checkbox
+               value=settings.settings.wifi.allow
+               secondary=true
+               onChange=(action 'toggleSetting' 'settings.wifi.allow')}}
+           {{/paper-item}}
+
+           {{#paper-item as |controls|}}
+
+           {{/paper-item}}
+
+         {{/paper-list}}
+        {{/tabs.tab}}
+
+        {{#tabs.tab label=(t 'SETTINGS.TABS.ABOUT')}}
+          <h1 class="md-display-2">Happy Leaf</h1>
+          <hr/>
+          <p>Happy Leaf Version {{settings.settings.about.version}}</p>
+          <p>Build with {{paper-icon loveIcon}} by Brandon Martin</p>
+          <p>Powered by Ember, Cordova, and other open source technology</p>
+          <big>Special thanks to <a href="http://www.mynissanleaf.com/">My Nissan Leaf Forums</a><br/>And all the Happy Leaf Beta Testers!</big>
+        {{/tabs.tab}}
+
+      {{/paper-tabs}}
+  {{/paper-dialog}}
+{{/if}}

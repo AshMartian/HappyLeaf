@@ -1,0 +1,16 @@
+{{yield}}
+
+{{#paper-menu md-menu-align-target=true as |menu|}}
+    {{#menu.trigger}}
+        {{#paper-button iconButton=true size=40 class="new-button"}}
+            {{paper-icon "add_circle" size=40}}
+        {{/paper-button}}
+    {{/menu.trigger}}
+    {{#menu.content width=4 as |content|}}
+        {{#each availableWidgets as |widget|}}
+            {{#content.menu-item onClick=(action 'addWidget' widget.template)}}
+                <span>{{paper-icon widget.icon}} {{t widget.name}}</span>
+            {{/content.menu-item}}
+        {{/each}}
+    {{/menu.content}}
+{{/paper-menu}}

@@ -1,0 +1,26 @@
+{{yield}}
+
+{{#paper-sidenav
+    class="md-whiteframe-z2"
+    name="left2"
+    open=sideNavOpen
+    closeOnClick=false
+    lockedOpen=false
+    onToggle=(action 'toggleSide')}}
+
+    {{#paper-toolbar as |toolbar|}}
+        {{#paper-toolbar-tools}}{{t 'HOME.TRIPS'}}{{/paper-toolbar-tools}}
+    {{/paper-toolbar}}
+
+    {{#paper-content padding=true}}
+        <h1>{{t 'HOME.CURRENT_TRIP'}}</h1>
+        <p>
+            {{tripDuration}}
+            {{#paper-button raised=true disabled=dataManager.playingTrip onClick=(action 'resetTrip')}}
+                {{t 'HOME.MENUS.RESET'}}
+            {{/paper-button}}
+        </p>
+        {{ui/utils/trip-browser didPickTrip=(action 'toggleSide')}}
+    {{/paper-content}}
+{{/paper-sidenav}}
+

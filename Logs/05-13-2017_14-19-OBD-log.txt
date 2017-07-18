@@ -1,0 +1,18 @@
+HappyLeaf Version 0.1.9.7
+
+[ 05-13-2017 02:19:48 pm ]  Cleaning up history
+[ 05-13-2017 02:19:49 pm ]  I'm running angular!
+[ 05-13-2017 02:19:55 pm ]  Translating to en
+[ 05-13-2017 02:19:55 pm ]  Device is ready!
+[ 05-13-2017 02:19:55 pm ]  Root file directory: file:///storage/emulated/0/
+[ 05-13-2017 02:19:56 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-13-2017 02:19:56 pm ]  Bluetooth is enabled
+[ 05-13-2017 02:19:56 pm ]  Scanning...
+[ 05-13-2017 02:19:56 pm ]  Device connected false
+[ 05-13-2017 02:19:56 pm ]  Scanning inside manager
+[ 05-13-2017 02:19:56 pm ]  Scanned
+[ 05-13-2017 02:19:56 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-13-2017 02:19:56 pm ]  Found last connected device: [object Object]
+[ 05-13-2017 02:19:56 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-13-2017 02:19:56 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
+[ 05-13-2017 02:19:56 pm ]  Listing wifi networks

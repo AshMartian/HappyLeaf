@@ -1,0 +1,19 @@
+[ 03-31-2017 06:26:50 am ]  Listing wifi networks
+[ 03-31-2017 06:26:50 am ]  Device connected false
+[ 03-31-2017 06:26:50 am ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 06:26:50 am ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 06:26:50 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
+[ 03-31-2017 06:26:50 am ]  Scanned
+[ 03-31-2017 06:26:50 am ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-31-2017 06:26:50 am ]  got 1 bluetooth accessories
+[ 03-31-2017 06:26:50 am ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ENETUNREACH (Network is unreachable)"
+[ 03-31-2017 06:26:50 am ]  Scanning inside manager
+[ 03-31-2017 06:26:50 am ]  Scanning...
+[ 03-31-2017 06:26:50 am ]  Bluetooth is enabled
+[ 03-31-2017 06:26:50 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 06:26:49 am ]  Root file directory: file:///storage/emulated/0/
+[ 03-31-2017 06:26:49 am ]  Device is ready!
+[ 03-31-2017 06:26:49 am ]  Translating to en
+[ 03-31-2017 06:26:47 am ]  I'm running angular!
+[ 03-31-2017 06:26:47 am ]  Cleaning up history older than 24 hours
+HappyLeaf Version 0.1.9.3

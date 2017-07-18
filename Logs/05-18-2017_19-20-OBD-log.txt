@@ -1,0 +1,373 @@
+HappyLeaf Version 0.2
+
+[ 05-18-2017 07:20:50 pm ]  Cleaning up history
+[ 05-18-2017 07:20:51 pm ]  I'm running angular!
+[ 05-18-2017 07:20:57 pm ]  Translating to en
+[ 05-18-2017 07:20:57 pm ]  Device is ready!
+[ 05-18-2017 07:20:57 pm ]  Root file directory: file:///storage/emulated/0/
+[ 05-18-2017 07:20:59 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-18-2017 07:20:59 pm ]  Bluetooth is enabled
+[ 05-18-2017 07:20:59 pm ]  Scanning...
+[ 05-18-2017 07:20:59 pm ]  Device connected false
+[ 05-18-2017 07:20:59 pm ]  Scanning inside manager
+[ 05-18-2017 07:20:59 pm ]  Scanned
+[ 05-18-2017 07:20:59 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-18-2017 07:20:59 pm ]  Found last connected device: [object Object]
+[ 05-18-2017 07:20:59 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-18-2017 07:20:59 pm ]  Listing wifi networks
+[ 05-18-2017 07:21:00 pm ]  I am now connected to Bluetooth
+[ 05-18-2017 07:21:00 pm ]  "OK"
+[ 05-18-2017 07:21:00 pm ]  Connected welcome
+[ 05-18-2017 07:21:00 pm ]  OBD log file write done.
+[ 05-18-2017 07:21:02 pm ]  History file write done.
+[ 05-18-2017 07:21:02 pm ]  Testing device
+[ 05-18-2017 07:21:02 pm ]  Beginning Connection request
+[ 05-18-2017 07:21:02 pm ]  Testing...
+[ 05-18-2017 07:21:02 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: EHOSTUNREACH (No route to host)"
+[ 05-18-2017 07:21:02 pm ]  sent: ATE1 got: OK
+[ 05-18-2017 07:21:02 pm ]  Subscribe got: OK>
+[ 05-18-2017 07:21:02 pm ]  sent: ATZ got: OK
+[ 05-18-2017 07:21:03 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 05-18-2017 07:21:03 pm ]  Success!
+[ 05-18-2017 07:21:03 pm ]  sent: ATDP got: OK
+[ 05-18-2017 07:21:04 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 05-18-2017 07:21:04 pm ]  sent: STSBR 2000000 got: OK
+[ 05-18-2017 07:21:04 pm ]  Scanning inside manager
+[ 05-18-2017 07:21:04 pm ]  Subscribe got: STSBR 2000000?>
+[ 05-18-2017 07:21:04 pm ]  sent: ATSP6 got: OK
+[ 05-18-2017 07:21:04 pm ]  Subscribe got: ATSP6OK>
+[ 05-18-2017 07:21:04 pm ]  sent: ATH1 got: OK
+[ 05-18-2017 07:21:04 pm ]  Subscribe got: ATH1OK>
+[ 05-18-2017 07:21:04 pm ]  sent: ATS0 got: OK
+[ 05-18-2017 07:21:04 pm ]  Subscribe got: ATS0OK>
+[ 05-18-2017 07:21:04 pm ]  sent: ATI got: OK
+[ 05-18-2017 07:21:05 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 05-18-2017 07:21:05 pm ]  Success!
+[ 05-18-2017 07:21:05 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:60"}]
+[ 05-18-2017 07:21:05 pm ]  Found last connected wifi device: [object Object]
+[ 05-18-2017 07:21:05 pm ]  Connecting to wifi: 00:1D:A5:00:12:4A
+[ 05-18-2017 07:21:05 pm ]  Not testing because already can continue
+[ 05-18-2017 07:21:05 pm ]  sent: ATE0 got: OK
+[ 05-18-2017 07:21:06 pm ]  Subscribe got: ATE0OK>
+[ 05-18-2017 07:21:06 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: EHOSTUNREACH (No route to host)"
+[ 05-18-2017 07:21:06 pm ]  Completed Connection command sequence, took 3910ms, 0 force send requests
+[ 05-18-2017 07:21:06 pm ]  Going to home
+[ 05-18-2017 07:21:07 pm ]  Device ready from home
+[ 05-18-2017 07:21:07 pm ]  Home Controller
+[ 05-18-2017 07:21:07 pm ]  init
+[ 05-18-2017 07:21:15 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-18-2017 07:21:15 pm ]  sent: ATBD got: OK
+[ 05-18-2017 07:21:15 pm ]  Sent ATBD
+[ 05-18-2017 07:21:15 pm ]  Parsing 0C0
+[ 05-18-2017 07:21:20 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:21 pm ]  sent: ATE0 got: OK
+[ 05-18-2017 07:21:21 pm ]  sent: ATH1 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATL0 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATCAF0 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATFCSM1 got: OK
+[ 05-18-2017 07:21:22 pm ]  Completed command sequence, took 7434ms, 1 force send requests
+[ 05-18-2017 07:21:22 pm ]  sent: ATSH743 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATFCSH743 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATFCSH743 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: ATFCSD300100 got: OK
+[ 05-18-2017 07:21:22 pm ]  sent: 022101 got: OK
+[ 05-18-2017 07:21:23 pm ]  sent: ATSH745 got: OK
+[ 05-18-2017 07:21:23 pm ]  sent: ATFCSH745 got: OK
+[ 05-18-2017 07:21:23 pm ]  sent: ATFCSD300000 got: OK
+[ 05-18-2017 07:21:23 pm ]  sent: 022110 got: OK
+[ 05-18-2017 07:21:23 pm ]  Completed getUnknown command sequence, took 8676ms, 1 force send requests
+[ 05-18-2017 07:21:23 pm ]  sent: ATSH79B got: OK
+[ 05-18-2017 07:21:23 pm ]  sent: ATFCSH79B got: OK
+[ 05-18-2017 07:21:24 pm ]  sent: 022104 got: OK
+[ 05-18-2017 07:21:24 pm ]  Sent 022104
+[ 05-18-2017 07:21:24 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:24 pm ]  sent: 022106 got: OK
+[ 05-18-2017 07:21:24 pm ]  sent: 022102 got: OK
+[ 05-18-2017 07:21:25 pm ]  Completed getBatteryVolts command sequence, took 10076ms, 2 force send requests
+[ 05-18-2017 07:21:25 pm ]  sent: ATSH797 got: OK
+[ 05-18-2017 07:21:25 pm ]  sent: ATFCSH797 got: OK
+[ 05-18-2017 07:21:25 pm ]  sent: 0210C0 got: OK
+[ 05-18-2017 07:21:25 pm ]  Sent 0210C0
+[ 05-18-2017 07:21:25 pm ]  Parsing 79A
+[ 05-18-2017 07:21:25 pm ]  Got 79A 0250C00000000000
+[ 05-18-2017 07:21:25 pm ]  Got 79A 0250C00000000000
+[ 05-18-2017 07:21:25 pm ]  sent: 03221304 got: OK
+[ 05-18-2017 07:21:27 pm ]  Sent 03221304
+[ 05-18-2017 07:21:27 pm ]  Parsing 79A
+[ 05-18-2017 07:21:27 pm ]  Got 79A 0562130400BA0000
+[ 05-18-2017 07:21:27 pm ]  Got 79A 0562130400BA0000
+[ 05-18-2017 07:21:27 pm ]  sent: 03221156 got: OK
+[ 05-18-2017 07:21:27 pm ]  Sent 03221156
+[ 05-18-2017 07:21:27 pm ]  Parsing 79A
+[ 05-18-2017 07:21:27 pm ]  Got 79A 0762115601000101
+[ 05-18-2017 07:21:27 pm ]  Got climate Temperature
+[ 05-18-2017 07:21:27 pm ]  Got 79A 0762115601000101
+[ 05-18-2017 07:21:27 pm ]  Got climate Temperature
+[ 05-18-2017 07:21:27 pm ]  Completed getOutsideTemp command sequence, took 12236ms, 2 force send requests
+[ 05-18-2017 07:21:27 pm ]  sent: ATSH792 got: OK
+[ 05-18-2017 07:21:27 pm ]  sent: ATFCSH792 got: OK
+[ 05-18-2017 07:21:27 pm ]  sent: 03221210 got: OK
+[ 05-18-2017 07:21:27 pm ]  Sent 03221210
+[ 05-18-2017 07:21:27 pm ]  Parsing 793
+[ 05-18-2017 07:21:27 pm ]  Got 793 05621210010C0000
+[ 05-18-2017 07:21:28 pm ]  sent: 03221230 got: OK
+[ 05-18-2017 07:21:28 pm ]  Sent 03221230
+[ 05-18-2017 07:21:28 pm ]  Parsing 793
+[ 05-18-2017 07:21:28 pm ]  Got 793 056212307B300000
+[ 05-18-2017 07:21:28 pm ]  Completed getESVE command sequence, took 13179ms, 1 force send requests
+[ 05-18-2017 07:21:28 pm ]  sent: ATSH79B got: OK
+[ 05-18-2017 07:21:28 pm ]  sent: ATFCSH79B got: OK
+[ 05-18-2017 07:21:28 pm ]  sent: 022101 got: OK
+[ 05-18-2017 07:21:28 pm ]  Sent 022101
+[ 05-18-2017 07:21:28 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:28 pm ]  Got 7BB BMS message 10296101000032C8 for requst 022101
+[ 05-18-2017 07:21:28 pm ]  Completed getBatteryCharge command sequence, took 13749ms, 0 force send requests
+[ 05-18-2017 07:21:28 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:29 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:29 pm ]  sent: ATOF0 got: OK
+[ 05-18-2017 07:21:29 pm ]  Completed command sequence, took 522ms, 0 force send requests
+[ 05-18-2017 07:21:29 pm ]  sent: ATCM7FE got: OK
+[ 05-18-2017 07:21:29 pm ]  sent: ATCF5C5 got: OK
+[ 05-18-2017 07:21:29 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:29 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:30 pm ]  Completed getOdometer command sequence, took 1031ms, 1 force send requests
+[ 05-18-2017 07:21:30 pm ]  sent: ATCM7FE got: OK
+[ 05-18-2017 07:21:30 pm ]  sent: ATCF421 got: OK
+[ 05-18-2017 07:21:30 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:30 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:32 pm ]  Completed getTransmission command sequence, took 3041ms, 3 force send requests
+[ 05-18-2017 07:21:32 pm ]  sent: ATCF38F got: OK
+[ 05-18-2017 07:21:32 pm ]  sent: ATCRA38X got: OK
+[ 05-18-2017 07:21:32 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:32 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:32 pm ]  Completed getTires command sequence, took 3959ms, 2 force send requests
+[ 05-18-2017 07:21:32 pm ]  sent: ATCF35F got: OK
+[ 05-18-2017 07:21:33 pm ]  sent: ATCRA35X got: OK
+[ 05-18-2017 07:21:33 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:33 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:33 pm ]  Completed getSpeed command sequence, took 4918ms, 2 force send requests
+[ 05-18-2017 07:21:33 pm ]  sent: ATCF62F got: OK
+[ 05-18-2017 07:21:33 pm ]  sent: ATCRA62X got: OK
+[ 05-18-2017 07:21:34 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:34 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:34 pm ]  Completed getHeadlights command sequence, took 5835ms, 2 force send requests
+[ 05-18-2017 07:21:34 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:34 pm ]  sent: ATCM got: OK
+[ 05-18-2017 07:21:35 pm ]  sent: ATCM got: OK
+[ 05-18-2017 07:21:35 pm ]  sent: ATCRA got: OK
+[ 05-18-2017 07:21:35 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:36 pm ]  sent: ATBD got: OK
+[ 05-18-2017 07:21:37 pm ]  Completed getAll command sequence, took 8247ms, 4 force send requests
+[ 05-18-2017 07:21:37 pm ]  sent: ATCF5B3 got: OK
+[ 05-18-2017 07:21:37 pm ]  sent: ATCRA5BX got: OK
+[ 05-18-2017 07:21:37 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:38 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:38 pm ]  Completed getSOH command sequence, took 9479ms, 2 force send requests
+[ 05-18-2017 07:21:38 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 05-18-2017 07:21:38 pm ]  sent: ATBD got: OK
+[ 05-18-2017 07:21:38 pm ]  Sent ATBD
+[ 05-18-2017 07:21:38 pm ]  Parsing 0C0
+[ 05-18-2017 07:21:38 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:38 pm ]  sent: ATE0 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATH1 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATL0 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATCAF0 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSM1 got: OK
+[ 05-18-2017 07:21:39 pm ]  Completed command sequence, took 700ms, 1 force send requests
+[ 05-18-2017 07:21:39 pm ]  sent: ATSH743 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSH743 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSH743 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSD300100 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: 022101 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATSH745 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSH745 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: ATFCSD300000 got: OK
+[ 05-18-2017 07:21:39 pm ]  sent: 022110 got: OK
+[ 05-18-2017 07:21:40 pm ]  Completed getUnknown command sequence, took 1696ms, 0 force send requests
+[ 05-18-2017 07:21:40 pm ]  sent: ATSH79B got: OK
+[ 05-18-2017 07:21:40 pm ]  sent: ATFCSH79B got: OK
+[ 05-18-2017 07:21:40 pm ]  sent: 022104 got: OK
+[ 05-18-2017 07:21:40 pm ]  Sent 022104
+[ 05-18-2017 07:21:40 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:40 pm ]  Sent 022104
+[ 05-18-2017 07:21:40 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:40 pm ]  Sent 022104
+[ 05-18-2017 07:21:40 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:40 pm ]  sent: 022106 got: OK
+[ 05-18-2017 07:21:40 pm ]  Sent 022106
+[ 05-18-2017 07:21:40 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  Sent 022106
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  Sent 022106
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  Sent 022106
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  got 8 unpaired bluetooth accessories
+[ 05-18-2017 07:21:41 pm ]  [{"name":"iPhone","address":"B8:78:2E:04:5C:38","id":"B8:78:2E:04:5C:38","class":7936},{"name":"Apple TV","address":"D0:03:4B:0B:A1:F8","id":"D0:03:4B:0B:A1:F8","class":7936},{"name":"Living Room Home","address":"F4:F5:D8:CE:04:0B","id":"F4:F5:D8:CE:04:0B","class":7936},{"name":"Brandon’s MacBook Pro","address":"29:59:FC:67:5D:B6","id":"29:59:FC:67:5D:B6","class":7936},{"name":"Apple TV","address":"20:14:08:14:19:88","id":"20:14:08:14:19:88","class":7936},{"address":"5B:06:C0:69:F0:B6","id":"5B:06:C0:69:F0:B6","class":7936},{"address":"1C:84:05:5A:30:EB","id":"1C:84:05:5A:30:EB","class":7936},{"address":"55:B5:D2:BD:67:42","id":"55:B5:D2:BD:67:42","class":7936}]
+[ 05-18-2017 07:21:41 pm ]  got 1 bluetooth accessories
+[ 05-18-2017 07:21:41 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 05-18-2017 07:21:41 pm ]  sent: 022102 got: OK
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB10C661020F9C0F93
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB210F940F940F8B0F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB228A0F890F8A0F8F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB230F930F8B0F8F0F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB24890F8A0F8B0F8A
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB250F8F0F8D0F8E0F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB268F0F8F0F8E0F8F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB270F8F0F8B0F8A0F
+[ 05-18-2017 07:21:41 pm ]  Sent 022102
+[ 05-18-2017 07:21:41 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:41 pm ]  parsing cell voltage 7BB288B0F8A0F8E0F8D
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB290F8E0F880F8B0F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2A8A0F8B0F870F94
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2B0F930F940F940F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2C8F0F8E0F8E0F94
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2D0F900F8F0F8F0F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2E8B0F960F960F98
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2F0F980F910F8E0F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB20920F8F0F8F0F8F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB210F8F0F900F910F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB228E0F8E0F940F8E
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB230F930F890F900F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB248A0F8A0F880F8A
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB250F900F8E0F910F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB26930F8E0F910F8D
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB270F8F0F8E0F8E0F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB288A0F8B0F880F88
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB290F880F860F8D0F
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2A8E0F8D0F8F0F8E
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2B0F930F910F8F95
+[ 05-18-2017 07:21:42 pm ]  Sent 022102
+[ 05-18-2017 07:21:42 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:42 pm ]  parsing cell voltage 7BB2C4A954AFFFFFFFF
+[ 05-18-2017 07:21:42 pm ]  Completed getBatteryVolts command sequence, took 3784ms, 2 force send requests
+[ 05-18-2017 07:21:42 pm ]  sent: ATSH797 got: OK
+[ 05-18-2017 07:21:42 pm ]  sent: ATFCSH797 got: OK
+[ 05-18-2017 07:21:42 pm ]  sent: 0210C0 got: OK
+[ 05-18-2017 07:21:42 pm ]  Sent 0210C0
+[ 05-18-2017 07:21:42 pm ]  Parsing 79A
+[ 05-18-2017 07:21:42 pm ]  Got 79A 0250C00000000000
+[ 05-18-2017 07:21:42 pm ]  Got 79A 0250C00000000000
+[ 05-18-2017 07:21:42 pm ]  sent: 03221304 got: OK
+[ 05-18-2017 07:21:42 pm ]  Sent 03221304
+[ 05-18-2017 07:21:42 pm ]  Parsing 79A
+[ 05-18-2017 07:21:42 pm ]  Got 79A 0562130400BA0000
+[ 05-18-2017 07:21:42 pm ]  Got 79A 0562130400BA0000
+[ 05-18-2017 07:21:43 pm ]  sent: 03221156 got: OK
+[ 05-18-2017 07:21:43 pm ]  Sent 03221156
+[ 05-18-2017 07:21:43 pm ]  Parsing 79A
+[ 05-18-2017 07:21:43 pm ]  Got 79A 0762115601000101
+[ 05-18-2017 07:21:43 pm ]  Got climate Temperature
+[ 05-18-2017 07:21:43 pm ]  Got 79A 0762115601000101
+[ 05-18-2017 07:21:43 pm ]  Got climate Temperature
+[ 05-18-2017 07:21:43 pm ]  Completed getOutsideTemp command sequence, took 5073ms, 2 force send requests
+[ 05-18-2017 07:21:43 pm ]  sent: ATSH792 got: OK
+[ 05-18-2017 07:21:43 pm ]  sent: ATFCSH792 got: OK
+[ 05-18-2017 07:21:43 pm ]  sent: 03221210 got: OK
+[ 05-18-2017 07:21:43 pm ]  Sent 03221210
+[ 05-18-2017 07:21:43 pm ]  Parsing 793
+[ 05-18-2017 07:21:43 pm ]  Got 793 05621210010C0000
+[ 05-18-2017 07:21:44 pm ]  sent: 03221230 got: OK
+[ 05-18-2017 07:21:44 pm ]  Sent 03221230
+[ 05-18-2017 07:21:44 pm ]  Parsing 793
+[ 05-18-2017 07:21:44 pm ]  Got 793 056212307B030000
+[ 05-18-2017 07:21:44 pm ]  Completed getESVE command sequence, took 5960ms, 1 force send requests
+[ 05-18-2017 07:21:44 pm ]  sent: ATSH79B got: OK
+[ 05-18-2017 07:21:44 pm ]  sent: ATFCSH79B got: OK
+[ 05-18-2017 07:21:44 pm ]  sent: 022101 got: OK
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 1029610100002EDE for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 21028900002272FF for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 22FFFFFFFFFF2AF8 for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 239553331E038300 for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Got battery volts: 382.27
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 245C1ADA0008C6A3 for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Sent 022101
+[ 05-18-2017 07:21:44 pm ]  Parsing 7BB
+[ 05-18-2017 07:21:44 pm ]  Got 7BB BMS message 250008629B018905 for requst 022101
+[ 05-18-2017 07:21:44 pm ]  Completed getBatteryCharge command sequence, took 6426ms, 0 force send requests
+[ 05-18-2017 07:21:44 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:44 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:44 pm ]  sent: ATOF0 got: OK
+[ 05-18-2017 07:21:45 pm ]  Setting history point
+[ 05-18-2017 07:21:45 pm ]  Created history, now have 2002
+[ 05-18-2017 07:21:45 pm ]  Completed command sequence, took 475ms, 0 force send requests
+[ 05-18-2017 07:21:45 pm ]  sent: ATCF62F got: OK
+[ 05-18-2017 07:21:45 pm ]  sent: ATCRA62X got: OK
+[ 05-18-2017 07:21:45 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:46 pm ]  sent: X got: OK
+[ 05-18-2017 07:21:54 pm ]  Completed getHeadlights command sequence, took 9951ms, 2 force send requests
+[ 05-18-2017 07:21:54 pm ]  sent: ATAR got: OK
+[ 05-18-2017 07:21:55 pm ]  sent: ATCM got: OK
+[ 05-18-2017 07:21:56 pm ]  sent: ATCM got: OK
+[ 05-18-2017 07:21:56 pm ]  sent: ATCRA got: OK
+[ 05-18-2017 07:21:56 pm ]  sent: ATMA got: OK
+[ 05-18-2017 07:21:57 pm ]  sent: ATBD got: OK
+[ 05-18-2017 07:21:57 pm ]  Completed getAll command sequence, took 12860ms, 4 force send requests
+[ 05-18-2017 07:21:57 pm ]  sent: ATCF5B3 got: OK
+[ 05-18-2017 07:21:57 pm ]  sent: ATCRA5BX got: OK
+[ 05-18-2017 07:21:58 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-18-2017 07:21:58 pm ]  sent: ATMA got: OK

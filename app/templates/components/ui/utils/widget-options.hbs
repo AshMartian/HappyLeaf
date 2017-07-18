@@ -1,0 +1,29 @@
+{{yield}}
+{{#paper-menu as |menu|}}
+    {{#menu.trigger}}
+        {{paper-icon 'more_horiz' size=25}}
+    {{/menu.trigger}}
+    {{#menu.content width=2 as |content|}}
+        {{#content.menu-item onClick=(action 'editWidget')}}
+            <span>{{paper-icon 'edit'}} {{t 'WIDGETS.EDIT'}}</span>
+        {{/content.menu-item}}
+        {{#content.menu-item onClick=(action 'lockWidget')}}
+            <span>
+                {{#unless widget.grid.locked}}
+                    {{paper-icon 'lock_outline'}} 
+                    {{t 'WIDGETS.LOCK'}}
+                {{else}}
+                    {{paper-icon 'lock_open'}}
+                    {{t 'WIDGETS.UNLOCK'}}
+                {{/unless}}
+                
+            </span>
+        {{/content.menu-item}}
+        {{paper-divider}}
+        {{#content.menu-item onClick=(action 'deleteWidget')}}
+            <span>{{paper-icon 'delete'}} {{t 'SETTINGS.DATA.DELETE'}}</span>
+        {{/content.menu-item}}
+    {{/menu.content}}
+{{/paper-menu}}
+
+{{ui/utils/widget-settings-dialog index=index showDialog=showDialog widget=(mut widget)}}

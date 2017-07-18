@@ -1,0 +1,3712 @@
+[ 03-19-2017 02:24:23 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:23 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:23 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:23 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:23 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:23 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:24:23 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:23 pm ]  Sent ATL0
+[ 03-19-2017 02:24:23 pm ]  Sent ATL0
+[ 03-19-2017 02:24:22 pm ]  Sent ATE0
+[ 03-19-2017 02:24:22 pm ]  Sent ATE0
+[ 03-19-2017 02:24:22 pm ]  Sent ATE0
+[ 03-19-2017 02:24:22 pm ]  Sent ATAR
+[ 03-19-2017 02:24:22 pm ]  Sent ATAR
+[ 03-19-2017 02:24:22 pm ]  Sent ATAR
+[ 03-19-2017 02:24:22 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:24:22 pm ]  Sending 18 commands
+[ 03-19-2017 02:24:22 pm ]  Completed command sequence, took 7200ms, received 179 messages, 20 force send requests
+[ 03-19-2017 02:24:22 pm ]  Sent ATBD
+[ 03-19-2017 02:24:22 pm ]  Sent ATBD
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing BUF
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:22 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:22 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:22 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:22 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:22 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:22 pm ]  Sent ATMA
+[ 03-19-2017 02:24:22 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:22 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:21 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:21 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:21 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:21 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:21 pm ]  Sent ATMA
+[ 03-19-2017 02:24:21 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:21 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:21 pm ]  Sent ATAR
+[ 03-19-2017 02:24:21 pm ]  Sent ATAR
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing BUF
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 000000001002
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:20 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:20 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:20 pm ]  Sent ATMA
+[ 03-19-2017 02:24:20 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:20 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:20 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:20 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:19 pm ]  Sent ATDB
+[ 03-19-2017 02:24:19 pm ]  Sent ATDB
+[ 03-19-2017 02:24:19 pm ]  Sent X
+[ 03-19-2017 02:24:19 pm ]  Parsing STO
+[ 03-19-2017 02:24:19 pm ]  Sent X
+[ 03-19-2017 02:24:19 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:19 pm ]  Parsing 385
+[ 03-19-2017 02:24:19 pm ]  Sent ATMA
+[ 03-19-2017 02:24:19 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:19 pm ]  Parsing 385
+[ 03-19-2017 02:24:19 pm ]  Sent ATMA
+[ 03-19-2017 02:24:19 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:19 pm ]  Parsing 385
+[ 03-19-2017 02:24:19 pm ]  Sent ATMA
+[ 03-19-2017 02:24:19 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:19 pm ]  Parsing 385
+[ 03-19-2017 02:24:19 pm ]  Sent ATMA
+[ 03-19-2017 02:24:18 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:24:18 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:24:18 pm ]  Sent ATCF38F
+[ 03-19-2017 02:24:18 pm ]  Sent ATCF38F
+[ 03-19-2017 02:24:18 pm ]  Sent X
+[ 03-19-2017 02:24:18 pm ]  Parsing STO
+[ 03-19-2017 02:24:18 pm ]  Sent X
+[ 03-19-2017 02:24:18 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:24:18 pm ]  Parsing 625
+[ 03-19-2017 02:24:18 pm ]  Sent ATMA
+[ 03-19-2017 02:24:18 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:24:18 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:24:18 pm ]  Sent ATCF62F
+[ 03-19-2017 02:24:18 pm ]  Sent ATCF62F
+[ 03-19-2017 02:24:17 pm ]  Sent X
+[ 03-19-2017 02:24:17 pm ]  Parsing STO
+[ 03-19-2017 02:24:17 pm ]  Sent X
+[ 03-19-2017 02:24:17 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:24:17 pm ]  Parsing 54B
+[ 03-19-2017 02:24:17 pm ]  Sent ATMA
+[ 03-19-2017 02:24:17 pm ]  Parsing 54A
+[ 03-19-2017 02:24:17 pm ]  Sent ATMA
+[ 03-19-2017 02:24:17 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:24:17 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:24:17 pm ]  Sent ATCF54F
+[ 03-19-2017 02:24:17 pm ]  Sent ATCF54F
+[ 03-19-2017 02:24:17 pm ]  Sent ATAR
+[ 03-19-2017 02:24:17 pm ]  Sent ATAR
+[ 03-19-2017 02:24:16 pm ]  Sent ATBD
+[ 03-19-2017 02:24:16 pm ]  Parsing 0C 
+[ 03-19-2017 02:24:16 pm ]  Sent ATBD
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing STO
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing BUF
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 2DE
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 130
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 354
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:24:16 pm ]  Parsing 280
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 300
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 285
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got distance traveled 0000000000007F05
+[ 03-19-2017 02:24:16 pm ]  Parsing 284
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:16 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got turning angle! 100000079F
+[ 03-19-2017 02:24:16 pm ]  Parsing 002
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:24:16 pm ]  Parsing 54B
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 54A
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing 35D
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got 'transmission' status 080000
+[ 03-19-2017 02:24:16 pm ]  Parsing 421
+[ 03-19-2017 02:24:16 pm ]  Sent ATMA
+[ 03-19-2017 02:24:16 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:16 pm ]  Sent ATMA
+[ 03-19-2017 02:24:16 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:16 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:16 pm ]  Sent ATMA
+[ 03-19-2017 02:24:16 pm ]  Got motor Amps 0000000000002400
+[ 03-19-2017 02:24:16 pm ]  Parsing 180
+[ 03-19-2017 02:24:16 pm ]  Sent ATMA
+[ 03-19-2017 02:24:16 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:16 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:16 pm ]  Sent ATAR
+[ 03-19-2017 02:24:16 pm ]  Sent ATAR
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Parsing STO
+[ 03-19-2017 02:24:16 pm ]  Sent X
+[ 03-19-2017 02:24:16 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:24:16 pm ]  Parsing 58A
+[ 03-19-2017 02:24:16 pm ]  Sent ATMA
+[ 03-19-2017 02:24:15 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:24:15 pm ]  Parsing 58A
+[ 03-19-2017 02:24:15 pm ]  Sent ATMA
+[ 03-19-2017 02:24:15 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:24:15 pm ]  Parsing 58A
+[ 03-19-2017 02:24:15 pm ]  Sent ATMA
+[ 03-19-2017 02:24:15 pm ]  Sent ATMA
+[ 03-19-2017 02:24:15 pm ]  Sent ATMA
+[ 03-19-2017 02:24:15 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:15 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:15 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:15 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:15 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:24:15 pm ]  Completed command sequence, took 2009ms
+[ 03-19-2017 02:24:15 pm ]  Sent 03221230
+[ 03-19-2017 02:24:15 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:24:15 pm ]  Parsing 793
+[ 03-19-2017 02:24:15 pm ]  Sent 03221230
+[ 03-19-2017 02:24:15 pm ]  Sent 03221210
+[ 03-19-2017 02:24:15 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:24:15 pm ]  Parsing 793
+[ 03-19-2017 02:24:15 pm ]  Sent 03221210
+[ 03-19-2017 02:24:14 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:24:14 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:24:14 pm ]  Sent ATSH792
+[ 03-19-2017 02:24:14 pm ]  Sent ATSH792
+[ 03-19-2017 02:24:14 pm ]  Sent 022104
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  220E0D00FFFFFFFF
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022104
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  21330F02380F0243
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022104
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  1010610402281002
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022104
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  2500089DCC800005
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  247B1C550007DDB3
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  239231330C038D00
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  22FFFFFF09C02AF8
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  210289FFFFFB74FF
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Got 7BB cell voltage  10296101FFFFFB5F
+[ 03-19-2017 02:24:14 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:14 pm ]  Sent 022101
+[ 03-19-2017 02:24:14 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:24:14 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:24:14 pm ]  Sent ATSH79B
+[ 03-19-2017 02:24:14 pm ]  Sent ATSH79B
+[ 03-19-2017 02:24:14 pm ]  Sent 0210C0
+[ 03-19-2017 02:24:13 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:24:13 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:24:13 pm ]  Parsing 79A
+[ 03-19-2017 02:24:13 pm ]  Sent 0210C0
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:13 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:13 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:13 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:13 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:13 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:13 pm ]  Sent ATL0
+[ 03-19-2017 02:24:13 pm ]  Sent ATL0
+[ 03-19-2017 02:24:13 pm ]  Sent ATE0
+[ 03-19-2017 02:24:13 pm ]  Sent ATE0
+[ 03-19-2017 02:24:13 pm ]  Sent ATAR
+[ 03-19-2017 02:24:13 pm ]  Sent ATAR
+[ 03-19-2017 02:24:13 pm ]  Sent ATAR
+[ 03-19-2017 02:24:13 pm ]  Sent ATAR
+[ 03-19-2017 02:24:13 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:24:13 pm ]  Sending 18 commands
+[ 03-19-2017 02:24:13 pm ]  Completed command sequence, took 8116ms, received 195 messages, 21 force send requests
+[ 03-19-2017 02:24:13 pm ]  Sent ATBD
+[ 03-19-2017 02:24:13 pm ]  Sent ATBD
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing BUF
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:12 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:12 pm ]  Sent ATMA
+[ 03-19-2017 02:24:12 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:12 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:12 pm ]  Sent ATAR
+[ 03-19-2017 02:24:12 pm ]  Sent ATAR
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing BUF
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 0000000010
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:11 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:11 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:11 pm ]  Sent ATMA
+[ 03-19-2017 02:24:11 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:11 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:11 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:11 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:10 pm ]  Sent ATDB
+[ 03-19-2017 02:24:10 pm ]  Sent ATDB
+[ 03-19-2017 02:24:10 pm ]  Sent X
+[ 03-19-2017 02:24:10 pm ]  Parsing STO
+[ 03-19-2017 02:24:10 pm ]  Sent X
+[ 03-19-2017 02:24:10 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:10 pm ]  Parsing 385
+[ 03-19-2017 02:24:10 pm ]  Sent X
+[ 03-19-2017 02:24:10 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:10 pm ]  Parsing 385
+[ 03-19-2017 02:24:10 pm ]  Sent ATMA
+[ 03-19-2017 02:24:10 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:10 pm ]  Parsing 385
+[ 03-19-2017 02:24:10 pm ]  Sent ATMA
+[ 03-19-2017 02:24:10 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:10 pm ]  Parsing 385
+[ 03-19-2017 02:24:10 pm ]  Sent ATMA
+[ 03-19-2017 02:24:09 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:24:09 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:24:09 pm ]  Sent ATCF38F
+[ 03-19-2017 02:24:09 pm ]  Sent ATCF38F
+[ 03-19-2017 02:24:09 pm ]  Sent X
+[ 03-19-2017 02:24:09 pm ]  Parsing STO
+[ 03-19-2017 02:24:09 pm ]  Sent X
+[ 03-19-2017 02:24:09 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:24:09 pm ]  Parsing 625
+[ 03-19-2017 02:24:09 pm ]  Sent ATMA
+[ 03-19-2017 02:24:09 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:24:09 pm ]  Parsing 60D
+[ 03-19-2017 02:24:09 pm ]  Sent ATMA
+[ 03-19-2017 02:24:08 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:24:08 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:24:08 pm ]  Sent ATCF62F
+[ 03-19-2017 02:24:08 pm ]  Sent ATCF62F
+[ 03-19-2017 02:24:08 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Parsing STO
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:24:07 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:24:07 pm ]  Parsing 551
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:24:07 pm ]  Parsing 54B
+[ 03-19-2017 02:24:07 pm ]  Sent ATMA
+[ 03-19-2017 02:24:07 pm ]  Parsing 54A
+[ 03-19-2017 02:24:07 pm ]  Sent ATMA
+[ 03-19-2017 02:24:07 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:24:07 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:24:07 pm ]  Sent ATCF54F
+[ 03-19-2017 02:24:07 pm ]  Sent ATCF54F
+[ 03-19-2017 02:24:07 pm ]  Sent ATAR
+[ 03-19-2017 02:24:07 pm ]  Sent ATAR
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing STO
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing BUF
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 2DE
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:24:07 pm ]  Parsing 280
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 130
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 354
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:07 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 285
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Got distance traveled 000000000000991F
+[ 03-19-2017 02:24:07 pm ]  Parsing 284
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Got turning angle! 1000000753
+[ 03-19-2017 02:24:07 pm ]  Parsing 002
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 216
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Got available regen 5A191900
+[ 03-19-2017 02:24:07 pm ]  Parsing 260
+[ 03-19-2017 02:24:07 pm ]  Sent ATBD
+[ 03-19-2017 02:24:07 pm ]  Parsing 215
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:07 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:07 pm ]  Sent X
+[ 03-19-2017 02:24:07 pm ]  Got motor Amps 0000000000002F00
+[ 03-19-2017 02:24:07 pm ]  Parsing 180
+[ 03-19-2017 02:24:07 pm ]  Sent ATMA
+[ 03-19-2017 02:24:07 pm ]  Got motor Volts 0000000000000F
+[ 03-19-2017 02:24:07 pm ]  Parsing 176
+[ 03-19-2017 02:24:07 pm ]  Sent ATMA
+[ 03-19-2017 02:24:07 pm ]  Parsing 174
+[ 03-19-2017 02:24:07 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:06 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:06 pm ]  Sent ATAR
+[ 03-19-2017 02:24:06 pm ]  Sent ATAR
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Parsing BUF
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Parsing 245
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Got available regen 5A191900
+[ 03-19-2017 02:24:06 pm ]  Parsing 260
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:06 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Got turning angle! 1000000742
+[ 03-19-2017 02:24:06 pm ]  Parsing 002
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Got motor Amps 0000000000002100
+[ 03-19-2017 02:24:06 pm ]  Parsing 180
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Got motor Volts 00000000000001
+[ 03-19-2017 02:24:06 pm ]  Parsing 176
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:06 pm ]  Parsing 174
+[ 03-19-2017 02:24:06 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 300
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 2DE
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:24:05 pm ]  Parsing 280
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 5E4
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Got ODO! 4400A784000C0000
+[ 03-19-2017 02:24:05 pm ]  Parsing 5C5
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:05 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 130
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Parsing 285
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Got distance traveled 00000000000060E6
+[ 03-19-2017 02:24:05 pm ]  Parsing 284
+[ 03-19-2017 02:24:05 pm ]  Sent ATMA
+[ 03-19-2017 02:24:05 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:24:05 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:24:05 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:24:05 pm ]  Parsing STO
+[ 03-19-2017 02:24:05 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:24:05 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:05 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:24:05 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:24:05 pm ]  Completed command sequence, took 1995ms
+[ 03-19-2017 02:24:05 pm ]  Sent 03221230
+[ 03-19-2017 02:24:05 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:24:05 pm ]  Parsing 793
+[ 03-19-2017 02:24:05 pm ]  Sent 03221230
+[ 03-19-2017 02:24:04 pm ]  Sent 03221210
+[ 03-19-2017 02:24:04 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:24:04 pm ]  Parsing 793
+[ 03-19-2017 02:24:04 pm ]  Sent 03221210
+[ 03-19-2017 02:24:04 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:24:04 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:24:04 pm ]  Sent ATSH792
+[ 03-19-2017 02:24:04 pm ]  Sent ATSH792
+[ 03-19-2017 02:24:04 pm ]  Sent 022104
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022104
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  21340F02390F0244
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022104
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  1010610402291002
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022104
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  247B1C550007DDF7
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  23922232E1038E00
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  22FFFFFF09C62AF8
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  210289FFFFFA14FF
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:24:04 pm ]  Parsing 7BB
+[ 03-19-2017 02:24:04 pm ]  Sent 022101
+[ 03-19-2017 02:24:04 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:24:04 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:24:04 pm ]  Sent ATSH79B
+[ 03-19-2017 02:24:04 pm ]  Sent ATSH79B
+[ 03-19-2017 02:24:03 pm ]  Sent 0210C0
+[ 03-19-2017 02:24:03 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:24:03 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:24:03 pm ]  Parsing 79A
+[ 03-19-2017 02:24:03 pm ]  Sent 0210C0
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:03 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:24:03 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:03 pm ]  Sent ATSH797
+[ 03-19-2017 02:24:03 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:03 pm ]  Sent ATCAF0
+[ 03-19-2017 02:24:03 pm ]  Sent ATL0
+[ 03-19-2017 02:24:03 pm ]  Sent ATL0
+[ 03-19-2017 02:24:03 pm ]  Sent ATE0
+[ 03-19-2017 02:24:03 pm ]  Sent ATE0
+[ 03-19-2017 02:24:03 pm ]  Sent ATAR
+[ 03-19-2017 02:24:03 pm ]  Sent ATAR
+[ 03-19-2017 02:24:03 pm ]  Sent ATAR
+[ 03-19-2017 02:24:03 pm ]  Sent ATAR
+[ 03-19-2017 02:24:03 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:24:03 pm ]  Sending 18 commands
+[ 03-19-2017 02:24:03 pm ]  Completed command sequence, took 8369ms, received 185 messages, 22 force send requests
+[ 03-19-2017 02:24:03 pm ]  Sent ATBD
+[ 03-19-2017 02:24:03 pm ]  Sent ATBD
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing BUF
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:02 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:02 pm ]  Sent ATMA
+[ 03-19-2017 02:24:02 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:02 pm ]  Sent ATCRA
+[ 03-19-2017 02:24:01 pm ]  Sent ATAR
+[ 03-19-2017 02:24:01 pm ]  Sent ATAR
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing BUF
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CB
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1CA
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Parsing 1F9
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:01 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:24:01 pm ]  Parsing 1D5
+[ 03-19-2017 02:24:01 pm ]  Sent ATMA
+[ 03-19-2017 02:24:00 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:00 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:24:00 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:00 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:24:00 pm ]  Sent ATDB
+[ 03-19-2017 02:24:00 pm ]  Sent ATDB
+[ 03-19-2017 02:24:00 pm ]  Sent X
+[ 03-19-2017 02:24:00 pm ]  Parsing STO
+[ 03-19-2017 02:24:00 pm ]  Sent X
+[ 03-19-2017 02:24:00 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:00 pm ]  Parsing 385
+[ 03-19-2017 02:24:00 pm ]  Sent ATMA
+[ 03-19-2017 02:24:00 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:24:00 pm ]  Parsing 385
+[ 03-19-2017 02:24:00 pm ]  Sent ATMA
+[ 03-19-2017 02:23:59 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:59 pm ]  Parsing 385
+[ 03-19-2017 02:23:59 pm ]  Sent ATMA
+[ 03-19-2017 02:23:59 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:59 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:59 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:59 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:59 pm ]  Sent X
+[ 03-19-2017 02:23:59 pm ]  Parsing STO
+[ 03-19-2017 02:23:59 pm ]  Sent X
+[ 03-19-2017 02:23:59 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:59 pm ]  Parsing 625
+[ 03-19-2017 02:23:59 pm ]  Sent ATMA
+[ 03-19-2017 02:23:59 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:59 pm ]  Parsing 60D
+[ 03-19-2017 02:23:59 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:58 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:58 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:58 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:58 pm ]  Sent X
+[ 03-19-2017 02:23:58 pm ]  Parsing STO
+[ 03-19-2017 02:23:58 pm ]  Sent X
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:58 pm ]  Parsing 54B
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Parsing 54A
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:58 pm ]  Parsing 551
+[ 03-19-2017 02:23:58 pm ]  Sent ATMA
+[ 03-19-2017 02:23:57 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:57 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:57 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:57 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:57 pm ]  Sent ATAR
+[ 03-19-2017 02:23:57 pm ]  Sent ATAR
+[ 03-19-2017 02:23:57 pm ]  Sent ATBD
+[ 03-19-2017 02:23:57 pm ]  Parsing 07 
+[ 03-19-2017 02:23:57 pm ]  Sent ATBD
+[ 03-19-2017 02:23:56 pm ]  Sent X
+[ 03-19-2017 02:23:56 pm ]  Parsing STO
+[ 03-19-2017 02:23:56 pm ]  Sent X
+[ 03-19-2017 02:23:56 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:56 pm ]  Parsing 58A
+[ 03-19-2017 02:23:56 pm ]  Sent ATMA
+[ 03-19-2017 02:23:56 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:56 pm ]  Parsing 58A
+[ 03-19-2017 02:23:56 pm ]  Sent ATMA
+[ 03-19-2017 02:23:56 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:23:56 pm ]  Parsing 5A9
+[ 03-19-2017 02:23:56 pm ]  Sent ATMA
+[ 03-19-2017 02:23:56 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:56 pm ]  Parsing 58A
+[ 03-19-2017 02:23:56 pm ]  Sent ATMA
+[ 03-19-2017 02:23:56 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:56 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:55 pm ]  Sent ATAR
+[ 03-19-2017 02:23:55 pm ]  Sent ATAR
+[ 03-19-2017 02:23:55 pm ]  undefined
+[ 03-19-2017 02:23:55 pm ]  Setting history point
+[ 03-19-2017 02:23:55 pm ]  Sent ATMA
+[ 03-19-2017 02:23:55 pm ]  Sent ATMA
+[ 03-19-2017 02:23:55 pm ]  Sent ATMA
+[ 03-19-2017 02:23:55 pm ]  Sent ATMA
+[ 03-19-2017 02:23:55 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:55 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:55 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:55 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:55 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:55 pm ]  Completed command sequence, took 2520ms
+[ 03-19-2017 02:23:54 pm ]  Sent 03221230
+[ 03-19-2017 02:23:54 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:54 pm ]  Parsing 793
+[ 03-19-2017 02:23:54 pm ]  Sent 03221230
+[ 03-19-2017 02:23:54 pm ]  Sent 03221210
+[ 03-19-2017 02:23:54 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:54 pm ]  Parsing 793
+[ 03-19-2017 02:23:54 pm ]  Sent 03221210
+[ 03-19-2017 02:23:54 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:54 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:54 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:54 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:54 pm ]  Sent 022104
+[ 03-19-2017 02:23:54 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:54 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:54 pm ]  Sent 022104
+[ 03-19-2017 02:23:54 pm ]  Got 7BB cell voltage  21330F02380F0245
+[ 03-19-2017 02:23:54 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:54 pm ]  Sent 022104
+[ 03-19-2017 02:23:54 pm ]  Got 7BB cell voltage  1010610402281002
+[ 03-19-2017 02:23:54 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:54 pm ]  Sent 022104
+[ 03-19-2017 02:23:54 pm ]  Sent 022101
+[ 03-19-2017 02:23:54 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:23:54 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:54 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Got 7BB cell voltage  247B1C550007DE3D
+[ 03-19-2017 02:23:53 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:53 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Got 7BB cell voltage  23921C32F3038D00
+[ 03-19-2017 02:23:53 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:53 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Got 7BB cell voltage  22FFFFFF09D22AF8
+[ 03-19-2017 02:23:53 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:53 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Got 7BB cell voltage  210289FFFFFABAFF
+[ 03-19-2017 02:23:53 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:53 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:23:53 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:53 pm ]  Sent 022101
+[ 03-19-2017 02:23:53 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:53 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:53 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:53 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:53 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:53 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:23:52 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:52 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:52 pm ]  Parsing 79A
+[ 03-19-2017 02:23:52 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:52 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:52 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:52 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:52 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:52 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:52 pm ]  Sent ATL0
+[ 03-19-2017 02:23:52 pm ]  Sent ATL0
+[ 03-19-2017 02:23:52 pm ]  Sent ATE0
+[ 03-19-2017 02:23:52 pm ]  Sent ATE0
+[ 03-19-2017 02:23:52 pm ]  Sent ATAR
+[ 03-19-2017 02:23:52 pm ]  Sent ATAR
+[ 03-19-2017 02:23:52 pm ]  Sent ATAR
+[ 03-19-2017 02:23:52 pm ]  Sent ATAR
+[ 03-19-2017 02:23:52 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:23:52 pm ]  Sending 18 commands
+[ 03-19-2017 02:23:52 pm ]  Completed command sequence, took 7357ms, received 187 messages, 20 force send requests
+[ 03-19-2017 02:23:52 pm ]  Sent ATBD
+[ 03-19-2017 02:23:52 pm ]  Sent ATBD
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing BUF
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 0
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:51 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:51 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:51 pm ]  Sent ATMA
+[ 03-19-2017 02:23:51 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:51 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:51 pm ]  Sent ATAR
+[ 03-19-2017 02:23:51 pm ]  Sent ATAR
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing BUF
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:50 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:50 pm ]  Sent ATMA
+[ 03-19-2017 02:23:50 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:50 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:50 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:50 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:49 pm ]  Sent ATDB
+[ 03-19-2017 02:23:49 pm ]  Sent ATDB
+[ 03-19-2017 02:23:49 pm ]  Sent X
+[ 03-19-2017 02:23:49 pm ]  Parsing STO
+[ 03-19-2017 02:23:49 pm ]  Sent X
+[ 03-19-2017 02:23:49 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:49 pm ]  Parsing 385
+[ 03-19-2017 02:23:49 pm ]  Sent ATMA
+[ 03-19-2017 02:23:49 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:49 pm ]  Parsing 385
+[ 03-19-2017 02:23:49 pm ]  Sent ATMA
+[ 03-19-2017 02:23:49 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:49 pm ]  Parsing 385
+[ 03-19-2017 02:23:49 pm ]  Sent ATMA
+[ 03-19-2017 02:23:48 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:48 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:48 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:48 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:48 pm ]  Sent X
+[ 03-19-2017 02:23:48 pm ]  Parsing STO
+[ 03-19-2017 02:23:48 pm ]  Sent X
+[ 03-19-2017 02:23:48 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:48 pm ]  Parsing 60D
+[ 03-19-2017 02:23:48 pm ]  Sent ATMA
+[ 03-19-2017 02:23:48 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:48 pm ]  Parsing 625
+[ 03-19-2017 02:23:48 pm ]  Sent ATMA
+[ 03-19-2017 02:23:48 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:48 pm ]  Parsing 60D
+[ 03-19-2017 02:23:48 pm ]  Sent ATMA
+[ 03-19-2017 02:23:47 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:47 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:47 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:47 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:47 pm ]  Sent X
+[ 03-19-2017 02:23:47 pm ]  Parsing STO
+[ 03-19-2017 02:23:47 pm ]  Sent X
+[ 03-19-2017 02:23:47 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:47 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:47 pm ]  Parsing 551
+[ 03-19-2017 02:23:47 pm ]  Sent X
+[ 03-19-2017 02:23:47 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:47 pm ]  Parsing 54B
+[ 03-19-2017 02:23:47 pm ]  Sent ATMA
+[ 03-19-2017 02:23:47 pm ]  Parsing 54A
+[ 03-19-2017 02:23:47 pm ]  Sent ATMA
+[ 03-19-2017 02:23:47 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:47 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:47 pm ]  Parsing 551
+[ 03-19-2017 02:23:47 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:46 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:46 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:46 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:46 pm ]  Sent ATAR
+[ 03-19-2017 02:23:46 pm ]  Sent ATAR
+[ 03-19-2017 02:23:46 pm ]  Sent ATBD
+[ 03-19-2017 02:23:46 pm ]  Sent ATBD
+[ 03-19-2017 02:23:46 pm ]  Sent X
+[ 03-19-2017 02:23:46 pm ]  Parsing BUF
+[ 03-19-2017 02:23:46 pm ]  Sent X
+[ 03-19-2017 02:23:46 pm ]  Got distance traveled 00
+[ 03-19-2017 02:23:46 pm ]  Parsing 284
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 215
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got turning angle! 1000000717
+[ 03-19-2017 02:23:46 pm ]  Parsing 002
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:23:46 pm ]  Parsing 5A9
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:46 pm ]  Parsing 54B
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 54A
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:46 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got motor Amps 0000000000002400
+[ 03-19-2017 02:23:46 pm ]  Parsing 180
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got motor Volts 00000000000004
+[ 03-19-2017 02:23:46 pm ]  Parsing 176
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 174
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 2DE
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:46 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 130
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Got 12v Battery voltage 80080A8000000003
+[ 03-19-2017 02:23:46 pm ]  Parsing 292
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 245
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Parsing 300
+[ 03-19-2017 02:23:46 pm ]  Sent ATMA
+[ 03-19-2017 02:23:46 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:46 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:46 pm ]  Sent ATAR
+[ 03-19-2017 02:23:46 pm ]  Sent ATAR
+[ 03-19-2017 02:23:45 pm ]  Sent X
+[ 03-19-2017 02:23:45 pm ]  Parsing STO
+[ 03-19-2017 02:23:45 pm ]  Sent X
+[ 03-19-2017 02:23:45 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:45 pm ]  Parsing 58A
+[ 03-19-2017 02:23:45 pm ]  Sent ATMA
+[ 03-19-2017 02:23:45 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:45 pm ]  Parsing 58A
+[ 03-19-2017 02:23:45 pm ]  Sent ATMA
+[ 03-19-2017 02:23:45 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:45 pm ]  Parsing 58A
+[ 03-19-2017 02:23:45 pm ]  Sent ATMA
+[ 03-19-2017 02:23:45 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:23:45 pm ]  Parsing 5A9
+[ 03-19-2017 02:23:45 pm ]  Sent ATMA
+[ 03-19-2017 02:23:45 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:45 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:45 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:45 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:45 pm ]  Sent ATAR
+[ 03-19-2017 02:23:45 pm ]  Sent ATAR
+[ 03-19-2017 02:23:45 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:45 pm ]  Completed command sequence, took 1997ms
+[ 03-19-2017 02:23:45 pm ]  Sent 03221230
+[ 03-19-2017 02:23:45 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:45 pm ]  Parsing 793
+[ 03-19-2017 02:23:45 pm ]  Sent 03221230
+[ 03-19-2017 02:23:44 pm ]  Sent 03221210
+[ 03-19-2017 02:23:44 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:44 pm ]  Parsing 793
+[ 03-19-2017 02:23:44 pm ]  Sent 03221210
+[ 03-19-2017 02:23:44 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:44 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:44 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:44 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:44 pm ]  Sent 022104
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022104
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  21340F02380F0244
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022104
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  1010610402291002
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022104
+[ 03-19-2017 02:23:44 pm ]  Sent 022101
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  2500089DCC800005
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022101
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  247B1C550007DE81
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022101
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  23921232CF038D00
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022101
+[ 03-19-2017 02:23:44 pm ]  Got 7BB cell voltage  22FFFFFF09D82AF8
+[ 03-19-2017 02:23:44 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:44 pm ]  Sent 022101
+[ 03-19-2017 02:23:43 pm ]  Got 7BB cell voltage  210289FFFFFABAFF
+[ 03-19-2017 02:23:43 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:43 pm ]  Sent 022101
+[ 03-19-2017 02:23:43 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:23:43 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:43 pm ]  Sent 022101
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:43 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:43 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:43 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:43 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:43 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:43 pm ]  Parsing 79A
+[ 03-19-2017 02:23:43 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:43 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:43 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:43 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:43 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:43 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:43 pm ]  Sent ATL0
+[ 03-19-2017 02:23:43 pm ]  Sent ATL0
+[ 03-19-2017 02:23:43 pm ]  Sent ATE0
+[ 03-19-2017 02:23:43 pm ]  Sent ATE0
+[ 03-19-2017 02:23:43 pm ]  Sent ATAR
+[ 03-19-2017 02:23:43 pm ]  Sent ATAR
+[ 03-19-2017 02:23:43 pm ]  Sent ATAR
+[ 03-19-2017 02:23:43 pm ]  Sent ATAR
+[ 03-19-2017 02:23:43 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:23:43 pm ]  Sending 18 commands
+[ 03-19-2017 02:23:43 pm ]  Completed command sequence, took 11111ms, received 183 messages, 20 force send requests
+[ 03-19-2017 02:23:43 pm ]  Sent ATBD
+[ 03-19-2017 02:23:43 pm ]  Sent ATBD
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing BUF
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 0
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:42 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:42 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:42 pm ]  Sent ATMA
+[ 03-19-2017 02:23:42 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:42 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:41 pm ]  Sent ATAR
+[ 03-19-2017 02:23:41 pm ]  Sent ATAR
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing BUF
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:41 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:41 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:41 pm ]  Sent ATMA
+[ 03-19-2017 02:23:40 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:40 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:40 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:40 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:40 pm ]  Sent ATDB
+[ 03-19-2017 02:23:40 pm ]  Sent ATDB
+[ 03-19-2017 02:23:39 pm ]  Sent X
+[ 03-19-2017 02:23:39 pm ]  Parsing STO
+[ 03-19-2017 02:23:39 pm ]  Sent X
+[ 03-19-2017 02:23:39 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:39 pm ]  Parsing 385
+[ 03-19-2017 02:23:39 pm ]  Sent ATMA
+[ 03-19-2017 02:23:39 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:39 pm ]  Parsing 385
+[ 03-19-2017 02:23:39 pm ]  Sent ATMA
+[ 03-19-2017 02:23:39 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:39 pm ]  Parsing 385
+[ 03-19-2017 02:23:39 pm ]  Sent ATMA
+[ 03-19-2017 02:23:39 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:39 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:39 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:39 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:38 pm ]  Sent X
+[ 03-19-2017 02:23:38 pm ]  Parsing STO
+[ 03-19-2017 02:23:38 pm ]  Sent X
+[ 03-19-2017 02:23:38 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:38 pm ]  Parsing 60D
+[ 03-19-2017 02:23:38 pm ]  Sent X
+[ 03-19-2017 02:23:38 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:38 pm ]  Parsing 625
+[ 03-19-2017 02:23:38 pm ]  Sent ATMA
+[ 03-19-2017 02:23:38 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:38 pm ]  Parsing 60D
+[ 03-19-2017 02:23:38 pm ]  Sent ATMA
+[ 03-19-2017 02:23:38 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:38 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:38 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:23:38 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:38 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:34 pm ]  Sent X
+[ 03-19-2017 02:23:34 pm ]  Parsing STO
+[ 03-19-2017 02:23:34 pm ]  Sent X
+[ 03-19-2017 02:23:34 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:34 pm ]  Parsing 54B
+[ 03-19-2017 02:23:34 pm ]  Sent ATMA
+[ 03-19-2017 02:23:34 pm ]  Parsing 54A
+[ 03-19-2017 02:23:34 pm ]  Sent ATMA
+[ 03-19-2017 02:23:33 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:33 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:33 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:33 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:33 pm ]  Sent ATAR
+[ 03-19-2017 02:23:33 pm ]  Sent ATAR
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing STO
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing BUF
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got 12v Battery voltage 80080A8
+[ 03-19-2017 02:23:33 pm ]  Parsing 292
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing 215
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing 245
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got turning angle! 1000000706
+[ 03-19-2017 02:23:33 pm ]  Parsing 002
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing 5E3
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing 2DE
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:23:33 pm ]  Parsing 280
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got ODO! 4400A784000C0000
+[ 03-19-2017 02:23:33 pm ]  Parsing 5C5
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got climate power usage 6F10CE0010180067
+[ 03-19-2017 02:23:33 pm ]  Parsing 510
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got 'transmission' status 080000
+[ 03-19-2017 02:23:33 pm ]  Parsing 421
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:33 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:33 pm ]  Sent ATBD
+[ 03-19-2017 02:23:33 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:33 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:33 pm ]  Sent X
+[ 03-19-2017 02:23:33 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:33 pm ]  Sent X
+[ 03-19-2017 02:23:33 pm ]  Got motor Amps 0000000000002200
+[ 03-19-2017 02:23:33 pm ]  Parsing 180
+[ 03-19-2017 02:23:33 pm ]  Sent ATMA
+[ 03-19-2017 02:23:33 pm ]  Got motor Volts 00000000000002
+[ 03-19-2017 02:23:33 pm ]  Parsing 176
+[ 03-19-2017 02:23:33 pm ]  Sent ATMA
+[ 03-19-2017 02:23:33 pm ]  Parsing 174
+[ 03-19-2017 02:23:33 pm ]  Sent ATMA
+[ 03-19-2017 02:23:33 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:33 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:32 pm ]  Sent ATAR
+[ 03-19-2017 02:23:32 pm ]  Sent ATAR
+[ 03-19-2017 02:23:32 pm ]  Sent X
+[ 03-19-2017 02:23:32 pm ]  Parsing STO
+[ 03-19-2017 02:23:32 pm ]  Sent X
+[ 03-19-2017 02:23:32 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:32 pm ]  Parsing 58A
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Got battery SOH: 6CAC1A48707D32CA
+[ 03-19-2017 02:23:32 pm ]  Parsing 5B3
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:32 pm ]  Parsing 58A
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:32 pm ]  Parsing 58A
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Sent ATMA
+[ 03-19-2017 02:23:32 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:32 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:32 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:32 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:32 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:32 pm ]  Completed command sequence, took 2001ms
+[ 03-19-2017 02:23:31 pm ]  Sent 03221230
+[ 03-19-2017 02:23:31 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:31 pm ]  Parsing 793
+[ 03-19-2017 02:23:31 pm ]  Sent 03221230
+[ 03-19-2017 02:23:31 pm ]  Sent 03221210
+[ 03-19-2017 02:23:31 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:31 pm ]  Parsing 793
+[ 03-19-2017 02:23:31 pm ]  Sent 03221210
+[ 03-19-2017 02:23:31 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:31 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:31 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:31 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:31 pm ]  Sent 022104
+[ 03-19-2017 02:23:31 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:31 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:31 pm ]  Sent 022104
+[ 03-19-2017 02:23:31 pm ]  Got 7BB cell voltage  21340F02380F0244
+[ 03-19-2017 02:23:31 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:31 pm ]  Sent 022104
+[ 03-19-2017 02:23:31 pm ]  Got 7BB cell voltage  1010610402291002
+[ 03-19-2017 02:23:31 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:31 pm ]  Sent 022104
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  2500089DCC800005
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  247B1C550007DEDF
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  23920732E1038E00
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  22FFFFFF09E82AF8
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  210289FFFFF9B8FF
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:23:30 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:30 pm ]  Sent 022101
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:30 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:30 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:30 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:30 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:30 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:30 pm ]  Parsing 79A
+[ 03-19-2017 02:23:30 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:30 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:30 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:30 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:30 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:30 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:30 pm ]  Sent ATL0
+[ 03-19-2017 02:23:30 pm ]  Sent ATL0
+[ 03-19-2017 02:23:30 pm ]  Sent ATE0
+[ 03-19-2017 02:23:30 pm ]  Sent ATE0
+[ 03-19-2017 02:23:30 pm ]  Sent ATAR
+[ 03-19-2017 02:23:30 pm ]  Sent ATAR
+[ 03-19-2017 02:23:30 pm ]  Sent ATAR
+[ 03-19-2017 02:23:30 pm ]  Sent ATAR
+[ 03-19-2017 02:23:30 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:23:30 pm ]  Sending 18 commands
+[ 03-19-2017 02:23:30 pm ]  Completed command sequence, took 8344ms, received 165 messages, 22 force send requests
+[ 03-19-2017 02:23:29 pm ]  Sent ATBD
+[ 03-19-2017 02:23:29 pm ]  Sent ATBD
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing BUF
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:28 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:28 pm ]  Sent ATMA
+[ 03-19-2017 02:23:28 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:28 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:28 pm ]  Sent ATAR
+[ 03-19-2017 02:23:28 pm ]  Sent ATAR
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing BUF
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:27 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:27 pm ]  Sent ATMA
+[ 03-19-2017 02:23:27 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:27 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:27 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:27 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:26 pm ]  Sent ATDB
+[ 03-19-2017 02:23:26 pm ]  Sent ATDB
+[ 03-19-2017 02:23:26 pm ]  Sent X
+[ 03-19-2017 02:23:26 pm ]  Parsing STO
+[ 03-19-2017 02:23:26 pm ]  Sent X
+[ 03-19-2017 02:23:26 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:26 pm ]  Parsing 385
+[ 03-19-2017 02:23:26 pm ]  Sent ATMA
+[ 03-19-2017 02:23:26 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:26 pm ]  Parsing 385
+[ 03-19-2017 02:23:26 pm ]  Sent ATMA
+[ 03-19-2017 02:23:26 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:26 pm ]  Parsing 385
+[ 03-19-2017 02:23:26 pm ]  Sent ATMA
+[ 03-19-2017 02:23:25 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:25 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:25 pm ]  Parsing STO
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:25 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:25 pm ]  Parsing 625
+[ 03-19-2017 02:23:25 pm ]  Sent ATMA
+[ 03-19-2017 02:23:25 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:25 pm ]  Parsing 60D
+[ 03-19-2017 02:23:25 pm ]  Sent ATMA
+[ 03-19-2017 02:23:25 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:25 pm ]  Parsing 625
+[ 03-19-2017 02:23:25 pm ]  Sent ATMA
+[ 03-19-2017 02:23:25 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:25 pm ]  Parsing 60D
+[ 03-19-2017 02:23:25 pm ]  Sent ATMA
+[ 03-19-2017 02:23:25 pm ]  undefined
+[ 03-19-2017 02:23:25 pm ]  Setting history point
+[ 03-19-2017 02:23:25 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:25 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:25 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:24 pm ]  Sent X
+[ 03-19-2017 02:23:24 pm ]  Parsing STO
+[ 03-19-2017 02:23:24 pm ]  Sent X
+[ 03-19-2017 02:23:24 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:24 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:24 pm ]  Parsing 551
+[ 03-19-2017 02:23:24 pm ]  Sent ATMA
+[ 03-19-2017 02:23:24 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:24 pm ]  Parsing 54B
+[ 03-19-2017 02:23:24 pm ]  Sent ATMA
+[ 03-19-2017 02:23:24 pm ]  Parsing 54A
+[ 03-19-2017 02:23:24 pm ]  Sent ATMA
+[ 03-19-2017 02:23:24 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:24 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:24 pm ]  Parsing 551
+[ 03-19-2017 02:23:24 pm ]  Sent ATMA
+[ 03-19-2017 02:23:24 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:24 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:24 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:24 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:24 pm ]  Sent ATAR
+[ 03-19-2017 02:23:24 pm ]  Sent ATAR
+[ 03-19-2017 02:23:23 pm ]  Sent ATBD
+[ 03-19-2017 02:23:23 pm ]  Parsing 07 
+[ 03-19-2017 02:23:23 pm ]  Sent ATBD
+[ 03-19-2017 02:23:23 pm ]  Sent X
+[ 03-19-2017 02:23:23 pm ]  Parsing STO
+[ 03-19-2017 02:23:23 pm ]  Sent X
+[ 03-19-2017 02:23:23 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:23 pm ]  Parsing 58A
+[ 03-19-2017 02:23:23 pm ]  Sent ATMA
+[ 03-19-2017 02:23:23 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:23:23 pm ]  Parsing 5A9
+[ 03-19-2017 02:23:23 pm ]  Sent ATMA
+[ 03-19-2017 02:23:23 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:23 pm ]  Parsing 58A
+[ 03-19-2017 02:23:23 pm ]  Sent ATMA
+[ 03-19-2017 02:23:23 pm ]  Got battery SOH: 6CAC1A48707D32CA
+[ 03-19-2017 02:23:23 pm ]  Parsing 5B3
+[ 03-19-2017 02:23:23 pm ]  Sent ATMA
+[ 03-19-2017 02:23:23 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:23 pm ]  Parsing 58A
+[ 03-19-2017 02:23:23 pm ]  Sent ATMA
+[ 03-19-2017 02:23:22 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:22 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:22 pm ]  Sent ATAR
+[ 03-19-2017 02:23:22 pm ]  Sent ATAR
+[ 03-19-2017 02:23:21 pm ]  Sent ATMA
+[ 03-19-2017 02:23:21 pm ]  Sent ATMA
+[ 03-19-2017 02:23:21 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:21 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:21 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:21 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:21 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:21 pm ]  Completed command sequence, took 2162ms
+[ 03-19-2017 02:23:21 pm ]  Sent 03221230
+[ 03-19-2017 02:23:21 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:21 pm ]  Parsing 793
+[ 03-19-2017 02:23:21 pm ]  Sent 03221230
+[ 03-19-2017 02:23:21 pm ]  Sent 03221210
+[ 03-19-2017 02:23:21 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:21 pm ]  Parsing 793
+[ 03-19-2017 02:23:21 pm ]  Sent 03221210
+[ 03-19-2017 02:23:21 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:21 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:21 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:21 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:20 pm ]  Sent 022104
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022104
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  21360F02390F0245
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022104
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  1010610402291002
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022104
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  247B1C550007DF24
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  2391F6330C038E00
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  22FFFFFF09F22AF8
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  210289FFFFFABAFF
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Got 7BB cell voltage  10296101FFFFFB5F
+[ 03-19-2017 02:23:20 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:20 pm ]  Sent 022101
+[ 03-19-2017 02:23:20 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:20 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:20 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:20 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:20 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:19 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:19 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:19 pm ]  Parsing 79A
+[ 03-19-2017 02:23:19 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:19 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:19 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:19 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:19 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:19 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:19 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:19 pm ]  Sent ATL0
+[ 03-19-2017 02:23:19 pm ]  Sent ATL0
+[ 03-19-2017 02:23:19 pm ]  Sent ATE0
+[ 03-19-2017 02:23:19 pm ]  Sent ATE0
+[ 03-19-2017 02:23:19 pm ]  Sent ATAR
+[ 03-19-2017 02:23:19 pm ]  Sent ATAR
+[ 03-19-2017 02:23:19 pm ]  Sent ATAR
+[ 03-19-2017 02:23:19 pm ]  Sent ATAR
+[ 03-19-2017 02:23:19 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:23:19 pm ]  Sending 18 commands
+[ 03-19-2017 02:23:19 pm ]  Completed command sequence, took 7087ms, received 181 messages, 20 force send requests
+[ 03-19-2017 02:23:19 pm ]  Sent ATBD
+[ 03-19-2017 02:23:19 pm ]  Sent ATBD
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing BUF
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:18 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:18 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:18 pm ]  Sent ATMA
+[ 03-19-2017 02:23:18 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:18 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:18 pm ]  Sent ATAR
+[ 03-19-2017 02:23:18 pm ]  Sent ATAR
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing BUF
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:17 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:17 pm ]  Sent ATMA
+[ 03-19-2017 02:23:17 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:17 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:17 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:17 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:16 pm ]  Sent ATDB
+[ 03-19-2017 02:23:16 pm ]  Sent ATDB
+[ 03-19-2017 02:23:16 pm ]  Sent X
+[ 03-19-2017 02:23:16 pm ]  Parsing STO
+[ 03-19-2017 02:23:16 pm ]  Sent X
+[ 03-19-2017 02:23:16 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:16 pm ]  Parsing 385
+[ 03-19-2017 02:23:16 pm ]  Sent ATMA
+[ 03-19-2017 02:23:16 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:16 pm ]  Parsing 385
+[ 03-19-2017 02:23:16 pm ]  Sent ATMA
+[ 03-19-2017 02:23:16 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:16 pm ]  Parsing 385
+[ 03-19-2017 02:23:16 pm ]  Sent ATMA
+[ 03-19-2017 02:23:15 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:15 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:15 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:15 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:15 pm ]  Sent X
+[ 03-19-2017 02:23:15 pm ]  Parsing STO
+[ 03-19-2017 02:23:15 pm ]  Sent X
+[ 03-19-2017 02:23:15 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:15 pm ]  Parsing 60D
+[ 03-19-2017 02:23:15 pm ]  Sent ATMA
+[ 03-19-2017 02:23:15 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:15 pm ]  Parsing 625
+[ 03-19-2017 02:23:15 pm ]  Sent ATMA
+[ 03-19-2017 02:23:14 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:14 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:14 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:14 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:14 pm ]  Sent X
+[ 03-19-2017 02:23:14 pm ]  Parsing STO
+[ 03-19-2017 02:23:14 pm ]  Sent X
+[ 03-19-2017 02:23:14 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:14 pm ]  Parsing 54B
+[ 03-19-2017 02:23:14 pm ]  Sent ATMA
+[ 03-19-2017 02:23:14 pm ]  Parsing 54A
+[ 03-19-2017 02:23:14 pm ]  Sent ATMA
+[ 03-19-2017 02:23:14 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:14 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:23:14 pm ]  Parsing 551
+[ 03-19-2017 02:23:14 pm ]  Sent ATMA
+[ 03-19-2017 02:23:14 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:14 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:14 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:14 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:14 pm ]  Sent ATAR
+[ 03-19-2017 02:23:14 pm ]  Sent ATAR
+[ 03-19-2017 02:23:13 pm ]  Sent ATBD
+[ 03-19-2017 02:23:13 pm ]  Sent ATBD
+[ 03-19-2017 02:23:13 pm ]  Sent X
+[ 03-19-2017 02:23:13 pm ]  Parsing BUF
+[ 03-19-2017 02:23:13 pm ]  Sent X
+[ 03-19-2017 02:23:13 pm ]  Got available regen 5A
+[ 03-19-2017 02:23:13 pm ]  Parsing 260
+[ 03-19-2017 02:23:13 pm ]  Sent X
+[ 03-19-2017 02:23:13 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:13 pm ]  Sent X
+[ 03-19-2017 02:23:13 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:13 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got motor Amps 0000000000002300
+[ 03-19-2017 02:23:13 pm ]  Parsing 180
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got motor Volts 00000000000003
+[ 03-19-2017 02:23:13 pm ]  Parsing 176
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 174
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got turning angle! 10000007E8
+[ 03-19-2017 02:23:13 pm ]  Parsing 002
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:13 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got Vehicle speed! 00000000200060
+[ 03-19-2017 02:23:13 pm ]  Parsing 355
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 2DE
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:23:13 pm ]  Parsing 280
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 130
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 354
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 285
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Got distance traveled 0000000000002BB1
+[ 03-19-2017 02:23:13 pm ]  Parsing 284
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Parsing 300
+[ 03-19-2017 02:23:13 pm ]  Sent ATMA
+[ 03-19-2017 02:23:13 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:13 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:13 pm ]  Sent ATAR
+[ 03-19-2017 02:23:13 pm ]  Sent ATAR
+[ 03-19-2017 02:23:12 pm ]  Sent X
+[ 03-19-2017 02:23:12 pm ]  Parsing STO
+[ 03-19-2017 02:23:12 pm ]  Sent X
+[ 03-19-2017 02:23:12 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:12 pm ]  Parsing 58A
+[ 03-19-2017 02:23:12 pm ]  Sent X
+[ 03-19-2017 02:23:12 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:12 pm ]  Parsing 58A
+[ 03-19-2017 02:23:12 pm ]  Sent ATMA
+[ 03-19-2017 02:23:12 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:12 pm ]  Parsing 58A
+[ 03-19-2017 02:23:12 pm ]  Sent ATMA
+[ 03-19-2017 02:23:12 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:23:12 pm ]  Parsing 5A9
+[ 03-19-2017 02:23:12 pm ]  Sent ATMA
+[ 03-19-2017 02:23:12 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:12 pm ]  Parsing 58A
+[ 03-19-2017 02:23:12 pm ]  Sent ATMA
+[ 03-19-2017 02:23:12 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:12 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:12 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:12 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:12 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:12 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:12 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:12 pm ]  Completed command sequence, took 1971ms
+[ 03-19-2017 02:23:12 pm ]  Sent 03221230
+[ 03-19-2017 02:23:12 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:12 pm ]  Parsing 793
+[ 03-19-2017 02:23:12 pm ]  Sent 03221230
+[ 03-19-2017 02:23:11 pm ]  Sent 03221210
+[ 03-19-2017 02:23:11 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:11 pm ]  Parsing 793
+[ 03-19-2017 02:23:11 pm ]  Sent 03221210
+[ 03-19-2017 02:23:11 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:11 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:11 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:11 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:11 pm ]  Sent 022104
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022104
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  21350F02390F0245
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022104
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  10106104022B1002
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022104
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  2500089DCC800005
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  247B1C550007DF61
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  2391EE32E1038E00
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  22FFFFFF09FC2AF8
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  210289FFFFF9CAFF
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:23:11 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:11 pm ]  Sent 022101
+[ 03-19-2017 02:23:11 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:11 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:23:11 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:11 pm ]  Sent ATSH79B
+[ 03-19-2017 02:23:11 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:10 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:10 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:23:10 pm ]  Parsing 79A
+[ 03-19-2017 02:23:10 pm ]  Sent 0210C0
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:10 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:23:10 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:10 pm ]  Sent ATSH797
+[ 03-19-2017 02:23:10 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:10 pm ]  Sent ATCAF0
+[ 03-19-2017 02:23:10 pm ]  Sent ATL0
+[ 03-19-2017 02:23:10 pm ]  Sent ATL0
+[ 03-19-2017 02:23:10 pm ]  Sent ATE0
+[ 03-19-2017 02:23:10 pm ]  Sent ATE0
+[ 03-19-2017 02:23:10 pm ]  Sent ATAR
+[ 03-19-2017 02:23:10 pm ]  Sent ATAR
+[ 03-19-2017 02:23:10 pm ]  Sent ATAR
+[ 03-19-2017 02:23:10 pm ]  Sent ATAR
+[ 03-19-2017 02:23:10 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:23:10 pm ]  Sending 18 commands
+[ 03-19-2017 02:23:10 pm ]  Completed command sequence, took 7613ms, received 185 messages, 20 force send requests
+[ 03-19-2017 02:23:10 pm ]  Sent ATBD
+[ 03-19-2017 02:23:10 pm ]  Sent ATBD
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing BUF
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:09 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:09 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:09 pm ]  Sent ATMA
+[ 03-19-2017 02:23:09 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:09 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:08 pm ]  Sent ATAR
+[ 03-19-2017 02:23:08 pm ]  Sent ATAR
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing BUF
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:08 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:08 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:08 pm ]  Sent ATMA
+[ 03-19-2017 02:23:07 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:07 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:23:07 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:07 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:23:07 pm ]  Sent ATDB
+[ 03-19-2017 02:23:07 pm ]  Sent ATDB
+[ 03-19-2017 02:23:07 pm ]  Sent X
+[ 03-19-2017 02:23:07 pm ]  Parsing STO
+[ 03-19-2017 02:23:07 pm ]  Sent X
+[ 03-19-2017 02:23:07 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:07 pm ]  Parsing 385
+[ 03-19-2017 02:23:07 pm ]  Sent ATMA
+[ 03-19-2017 02:23:07 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:07 pm ]  Parsing 385
+[ 03-19-2017 02:23:07 pm ]  Sent ATMA
+[ 03-19-2017 02:23:07 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:23:07 pm ]  Parsing 385
+[ 03-19-2017 02:23:07 pm ]  Sent ATMA
+[ 03-19-2017 02:23:06 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:06 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:23:06 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:06 pm ]  Sent ATCF38F
+[ 03-19-2017 02:23:06 pm ]  Sent X
+[ 03-19-2017 02:23:06 pm ]  Parsing STO
+[ 03-19-2017 02:23:06 pm ]  Sent X
+[ 03-19-2017 02:23:06 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:23:06 pm ]  Parsing 60D
+[ 03-19-2017 02:23:06 pm ]  Sent X
+[ 03-19-2017 02:23:06 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:23:06 pm ]  Parsing 625
+[ 03-19-2017 02:23:06 pm ]  Sent ATMA
+[ 03-19-2017 02:23:05 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:05 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:23:05 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:05 pm ]  Sent ATCF62F
+[ 03-19-2017 02:23:05 pm ]  Sent X
+[ 03-19-2017 02:23:05 pm ]  Parsing STO
+[ 03-19-2017 02:23:05 pm ]  Sent X
+[ 03-19-2017 02:23:05 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:23:05 pm ]  Parsing 54B
+[ 03-19-2017 02:23:05 pm ]  Sent ATMA
+[ 03-19-2017 02:23:05 pm ]  Parsing 54A
+[ 03-19-2017 02:23:05 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:23:04 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:04 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:23:04 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:04 pm ]  Sent ATCF54F
+[ 03-19-2017 02:23:04 pm ]  Sent ATAR
+[ 03-19-2017 02:23:04 pm ]  Sent ATAR
+[ 03-19-2017 02:23:04 pm ]  Sent ATBD
+[ 03-19-2017 02:23:04 pm ]  Parsing 0C 
+[ 03-19-2017 02:23:04 pm ]  Sent ATBD
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing STO
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing BUF
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 180
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Got motor Volts 0000000000000F
+[ 03-19-2017 02:23:04 pm ]  Parsing 176
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 174
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 1CA
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:23:04 pm ]  Parsing 1CB
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 2DE
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Got turning angle! 10000007BD
+[ 03-19-2017 02:23:04 pm ]  Parsing 002
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 130
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Got 12v Battery voltage 80080A8000000002
+[ 03-19-2017 02:23:04 pm ]  Parsing 292
+[ 03-19-2017 02:23:04 pm ]  Sent X
+[ 03-19-2017 02:23:04 pm ]  Parsing 245
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Parsing 216
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Parsing 215
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Parsing 50D
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Parsing 1F9
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:23:04 pm ]  Parsing 1D5
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Got motor Amps 0000000000002E00
+[ 03-19-2017 02:23:04 pm ]  Parsing 180
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Got motor Volts 0000000000000E
+[ 03-19-2017 02:23:04 pm ]  Parsing 176
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:04 pm ]  Parsing 174
+[ 03-19-2017 02:23:04 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:03 pm ]  Sent ATCRA
+[ 03-19-2017 02:23:03 pm ]  Sent ATAR
+[ 03-19-2017 02:23:03 pm ]  Sent ATAR
+[ 03-19-2017 02:23:03 pm ]  Sent X
+[ 03-19-2017 02:23:03 pm ]  Parsing STO
+[ 03-19-2017 02:23:03 pm ]  Sent X
+[ 03-19-2017 02:23:03 pm ]  Got battery SOH: 6CAC1A48707D32CA
+[ 03-19-2017 02:23:03 pm ]  Parsing 5B3
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:03 pm ]  Parsing 58A
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:03 pm ]  Parsing 58A
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:23:03 pm ]  Parsing 58A
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Sent ATMA
+[ 03-19-2017 02:23:03 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:03 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:23:03 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:03 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:23:03 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:23:03 pm ]  Completed command sequence, took 5364ms
+[ 03-19-2017 02:23:02 pm ]  Sent 03221230
+[ 03-19-2017 02:23:02 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:23:02 pm ]  Parsing 793
+[ 03-19-2017 02:23:02 pm ]  Sent 03221230
+[ 03-19-2017 02:23:02 pm ]  Sent 03221210
+[ 03-19-2017 02:23:02 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:23:02 pm ]  Parsing 793
+[ 03-19-2017 02:23:02 pm ]  Sent 03221210
+[ 03-19-2017 02:23:02 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:02 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:23:02 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:02 pm ]  Sent ATSH792
+[ 03-19-2017 02:23:02 pm ]  Sent 022104
+[ 03-19-2017 02:23:02 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:23:02 pm ]  Parsing 7BB
+[ 03-19-2017 02:23:02 pm ]  Sent 022104
+[ 03-19-2017 02:22:59 pm ]  Got 7BB cell voltage  21350F023A0E0246
+[ 03-19-2017 02:22:59 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:59 pm ]  Sent 022104
+[ 03-19-2017 02:22:59 pm ]  Got 7BB cell voltage  10106104022B1002
+[ 03-19-2017 02:22:59 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:59 pm ]  Sent 022104
+[ 03-19-2017 02:22:59 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  247B1C550007DFB9
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  2391DC32E1038D00
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  22FFFFFF0A0A2AF8
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  210289FFFFFABAFF
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:22:58 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:58 pm ]  Sent 022101
+[ 03-19-2017 02:22:58 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:58 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:58 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:58 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:58 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:57 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:57 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:57 pm ]  Parsing 79A
+[ 03-19-2017 02:22:57 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:57 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:57 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:57 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:57 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:57 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:57 pm ]  Sent ATL0
+[ 03-19-2017 02:22:57 pm ]  Sent ATL0
+[ 03-19-2017 02:22:57 pm ]  Sent ATE0
+[ 03-19-2017 02:22:57 pm ]  Sent ATE0
+[ 03-19-2017 02:22:57 pm ]  Sent ATAR
+[ 03-19-2017 02:22:57 pm ]  Sent ATAR
+[ 03-19-2017 02:22:57 pm ]  Sent ATAR
+[ 03-19-2017 02:22:57 pm ]  Sent ATAR
+[ 03-19-2017 02:22:57 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:22:57 pm ]  Sending 18 commands
+[ 03-19-2017 02:22:57 pm ]  Completed command sequence, took 8862ms, received 200 messages, 22 force send requests
+[ 03-19-2017 02:22:57 pm ]  Sent ATBD
+[ 03-19-2017 02:22:57 pm ]  Sent ATBD
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing BUF
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:56 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:56 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:56 pm ]  Sent ATMA
+[ 03-19-2017 02:22:56 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:56 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:56 pm ]  Sent ATAR
+[ 03-19-2017 02:22:56 pm ]  Sent ATAR
+[ 03-19-2017 02:22:55 pm ]  undefined
+[ 03-19-2017 02:22:55 pm ]  Setting history point
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing BUF
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:55 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:55 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:55 pm ]  Sent ATMA
+[ 03-19-2017 02:22:54 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:22:54 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:22:54 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:22:54 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:22:54 pm ]  Sent ATDB
+[ 03-19-2017 02:22:54 pm ]  Sent ATDB
+[ 03-19-2017 02:22:54 pm ]  Sent X
+[ 03-19-2017 02:22:54 pm ]  Parsing STO
+[ 03-19-2017 02:22:54 pm ]  Sent X
+[ 03-19-2017 02:22:54 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:54 pm ]  Parsing 385
+[ 03-19-2017 02:22:54 pm ]  Sent X
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:53 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:53 pm ]  Parsing 385
+[ 03-19-2017 02:22:53 pm ]  Sent ATMA
+[ 03-19-2017 02:22:52 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:22:52 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:22:52 pm ]  Sent ATCF38F
+[ 03-19-2017 02:22:52 pm ]  Sent ATCF38F
+[ 03-19-2017 02:22:52 pm ]  Sent X
+[ 03-19-2017 02:22:52 pm ]  Parsing STO
+[ 03-19-2017 02:22:52 pm ]  Sent X
+[ 03-19-2017 02:22:52 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:22:52 pm ]  Parsing 60D
+[ 03-19-2017 02:22:52 pm ]  Sent X
+[ 03-19-2017 02:22:52 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:22:52 pm ]  Parsing 625
+[ 03-19-2017 02:22:52 pm ]  Sent ATMA
+[ 03-19-2017 02:22:52 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:22:52 pm ]  Parsing 60D
+[ 03-19-2017 02:22:52 pm ]  Sent ATMA
+[ 03-19-2017 02:22:52 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:22:52 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:22:52 pm ]  Sent ATCF62F
+[ 03-19-2017 02:22:52 pm ]  Sent ATCF62F
+[ 03-19-2017 02:22:51 pm ]  Sent X
+[ 03-19-2017 02:22:51 pm ]  Parsing STO
+[ 03-19-2017 02:22:51 pm ]  Sent X
+[ 03-19-2017 02:22:51 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:22:51 pm ]  Parsing 54B
+[ 03-19-2017 02:22:51 pm ]  Sent ATMA
+[ 03-19-2017 02:22:51 pm ]  Parsing 54A
+[ 03-19-2017 02:22:51 pm ]  Sent ATMA
+[ 03-19-2017 02:22:51 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:22:51 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:22:51 pm ]  Parsing 551
+[ 03-19-2017 02:22:51 pm ]  Sent ATMA
+[ 03-19-2017 02:22:51 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:22:51 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:22:51 pm ]  Sent ATCF54F
+[ 03-19-2017 02:22:51 pm ]  Sent ATCF54F
+[ 03-19-2017 02:22:51 pm ]  Sent ATAR
+[ 03-19-2017 02:22:51 pm ]  Sent ATAR
+[ 03-19-2017 02:22:50 pm ]  Sent ATBD
+[ 03-19-2017 02:22:50 pm ]  Sent ATBD
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing BUF
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 50D
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got 'transmission' status 080000
+[ 03-19-2017 02:22:50 pm ]  Parsing 421
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:50 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got motor Amps 0000000000002C00
+[ 03-19-2017 02:22:50 pm ]  Parsing 180
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got motor Volts 0000000000000C
+[ 03-19-2017 02:22:50 pm ]  Parsing 176
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 174
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 2DE
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:22:50 pm ]  Parsing 280
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got turning angle! 10000007CA
+[ 03-19-2017 02:22:50 pm ]  Parsing 002
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-19-2017 02:22:50 pm ]  Parsing 60D
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 130
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 285
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Got distance traveled 000000000000A42A
+[ 03-19-2017 02:22:50 pm ]  Parsing 284
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 216
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:50 pm ]  Parsing 215
+[ 03-19-2017 02:22:50 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:49 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:49 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:22:49 pm ]  Sent ATAR
+[ 03-19-2017 02:22:49 pm ]  Sent ATAR
+[ 03-19-2017 02:22:49 pm ]  Sent X
+[ 03-19-2017 02:22:49 pm ]  Parsing BUF
+[ 03-19-2017 02:22:49 pm ]  Sent X
+[ 03-19-2017 02:22:49 pm ]  Got Vehicle speed! 00000000200060
+[ 03-19-2017 02:22:49 pm ]  Parsing 355
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 2DE
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:22:49 pm ]  Parsing 280
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got available regen 5A191900
+[ 03-19-2017 02:22:49 pm ]  Parsing 260
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:49 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got motor Amps 0000000000002900
+[ 03-19-2017 02:22:49 pm ]  Parsing 180
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 02A
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got motor Volts 00000000000009
+[ 03-19-2017 02:22:49 pm ]  Parsing 176
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 174
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got turning angle! 1000000724
+[ 03-19-2017 02:22:49 pm ]  Parsing 002
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 130
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 354
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 285
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Got distance traveled 00000000000061E7
+[ 03-19-2017 02:22:49 pm ]  Parsing 284
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 216
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:49 pm ]  Parsing 215
+[ 03-19-2017 02:22:49 pm ]  Sent ATMA
+[ 03-19-2017 02:22:48 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:48 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:48 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:48 pm ]  Parsing STO
+[ 03-19-2017 02:22:48 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:48 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:48 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:48 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:22:48 pm ]  Completed command sequence, took 2013ms
+[ 03-19-2017 02:22:48 pm ]  Sent 03221230
+[ 03-19-2017 02:22:48 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:22:48 pm ]  Parsing 793
+[ 03-19-2017 02:22:48 pm ]  Sent 03221230
+[ 03-19-2017 02:22:48 pm ]  Sent 03221210
+[ 03-19-2017 02:22:48 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:22:48 pm ]  Parsing 793
+[ 03-19-2017 02:22:48 pm ]  Sent 03221210
+[ 03-19-2017 02:22:48 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:22:48 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:22:48 pm ]  Sent ATSH792
+[ 03-19-2017 02:22:48 pm ]  Sent ATSH792
+[ 03-19-2017 02:22:47 pm ]  Sent 022104
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022104
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  21360F023A0E0246
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022104
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  10106104022B1002
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022104
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  247B1C550007E001
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  2391CA330C038E00
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  22FFFFFF0A1A2AF8
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  210289FFFFFACDFF
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Got 7BB cell voltage  10296101FFFFFB5F
+[ 03-19-2017 02:22:47 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:47 pm ]  Sent 022101
+[ 03-19-2017 02:22:47 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:47 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:47 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:47 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:47 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:47 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:47 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:47 pm ]  Parsing 79A
+[ 03-19-2017 02:22:47 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:46 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:46 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:46 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:46 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:46 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:46 pm ]  Sent ATL0
+[ 03-19-2017 02:22:46 pm ]  Sent ATL0
+[ 03-19-2017 02:22:46 pm ]  Sent ATE0
+[ 03-19-2017 02:22:46 pm ]  Sent ATE0
+[ 03-19-2017 02:22:46 pm ]  Sent ATAR
+[ 03-19-2017 02:22:46 pm ]  Sent ATAR
+[ 03-19-2017 02:22:46 pm ]  Sent ATAR
+[ 03-19-2017 02:22:46 pm ]  Sent ATAR
+[ 03-19-2017 02:22:46 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:22:46 pm ]  Sending 18 commands
+[ 03-19-2017 02:22:46 pm ]  Completed command sequence, took 8380ms, received 184 messages, 21 force send requests
+[ 03-19-2017 02:22:46 pm ]  Sent ATBD
+[ 03-19-2017 02:22:46 pm ]  Sent ATBD
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing BUF
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:45 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:45 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:45 pm ]  Sent ATMA
+[ 03-19-2017 02:22:45 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:45 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:45 pm ]  Sent ATAR
+[ 03-19-2017 02:22:45 pm ]  Sent ATAR
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing BUF
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000003D9
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 000000001002C9
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 000000001001C3
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000001D7
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 00000000100046
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got regen braking 00000000D6
+[ 03-19-2017 02:22:44 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:44 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:44 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:44 pm ]  Sent ATMA
+[ 03-19-2017 02:22:43 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:22:43 pm ]  Sent ATCRA1BX
+[ 03-19-2017 02:22:43 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:22:43 pm ]  Sent ATCF1DB
+[ 03-19-2017 02:22:42 pm ]  Sent ATDB
+[ 03-19-2017 02:22:42 pm ]  Sent ATDB
+[ 03-19-2017 02:22:42 pm ]  Sent X
+[ 03-19-2017 02:22:42 pm ]  Parsing STO
+[ 03-19-2017 02:22:42 pm ]  Sent X
+[ 03-19-2017 02:22:42 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:42 pm ]  Parsing 385
+[ 03-19-2017 02:22:42 pm ]  Sent ATMA
+[ 03-19-2017 02:22:42 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:42 pm ]  Parsing 385
+[ 03-19-2017 02:22:42 pm ]  Sent ATMA
+[ 03-19-2017 02:22:42 pm ]  Got tire pressures 0000A6A4A69DF0
+[ 03-19-2017 02:22:42 pm ]  Parsing 385
+[ 03-19-2017 02:22:42 pm ]  Sent ATMA
+[ 03-19-2017 02:22:41 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:22:41 pm ]  Sent ATCRA38X
+[ 03-19-2017 02:22:41 pm ]  Sent ATCF38F
+[ 03-19-2017 02:22:41 pm ]  Sent ATCF38F
+[ 03-19-2017 02:22:41 pm ]  Sent X
+[ 03-19-2017 02:22:41 pm ]  Parsing STO
+[ 03-19-2017 02:22:41 pm ]  Sent X
+[ 03-19-2017 02:22:41 pm ]  Got Turn Signal status: 4006000000000000
+[ 03-19-2017 02:22:41 pm ]  Parsing 60D
+[ 03-19-2017 02:22:41 pm ]  Sent X
+[ 03-19-2017 02:22:41 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-19-2017 02:22:41 pm ]  Parsing 625
+[ 03-19-2017 02:22:41 pm ]  Sent ATMA
+[ 03-19-2017 02:22:41 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:22:41 pm ]  Sent ATCRA6XX
+[ 03-19-2017 02:22:41 pm ]  Sent ATCF62F
+[ 03-19-2017 02:22:41 pm ]  Sent ATCF62F
+[ 03-19-2017 02:22:40 pm ]  Sent X
+[ 03-19-2017 02:22:40 pm ]  Parsing STO
+[ 03-19-2017 02:22:40 pm ]  Sent X
+[ 03-19-2017 02:22:40 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:22:40 pm ]  Got Cruise Control 00000080FF000000
+[ 03-19-2017 02:22:40 pm ]  Parsing 551
+[ 03-19-2017 02:22:40 pm ]  Sent ATMA
+[ 03-19-2017 02:22:40 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:22:40 pm ]  Parsing 54B
+[ 03-19-2017 02:22:40 pm ]  Sent ATMA
+[ 03-19-2017 02:22:40 pm ]  Parsing 54A
+[ 03-19-2017 02:22:40 pm ]  Sent ATMA
+[ 03-19-2017 02:22:40 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:22:40 pm ]  Sent ATCRA5XX
+[ 03-19-2017 02:22:40 pm ]  Sent ATCF54F
+[ 03-19-2017 02:22:40 pm ]  Sent ATCF54F
+[ 03-19-2017 02:22:40 pm ]  Sent ATAR
+[ 03-19-2017 02:22:40 pm ]  Sent ATAR
+[ 03-19-2017 02:22:39 pm ]  Sent ATBD
+[ 03-19-2017 02:22:39 pm ]  Sent ATBD
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Parsing BUF
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Got 12v Battery voltage 80080A8000000003
+[ 03-19-2017 02:22:39 pm ]  Parsing 292
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Parsing 245
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got turning angle! 100000079F
+[ 03-19-2017 02:22:39 pm ]  Parsing 002
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 50A
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 1F9
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got regen braking 00000002D8
+[ 03-19-2017 02:22:39 pm ]  Parsing 1D5
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got motor Amps 0000000000002A00
+[ 03-19-2017 02:22:39 pm ]  Parsing 180
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got motor Volts 0000000000000A
+[ 03-19-2017 02:22:39 pm ]  Parsing 176
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 174
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 300
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 1CA
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got target braking 0000000010034C
+[ 03-19-2017 02:22:39 pm ]  Parsing 1CB
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 2DE
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-19-2017 02:22:39 pm ]  Parsing 280
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got battery SOH: 6CAC1A48707D32CA
+[ 03-19-2017 02:22:39 pm ]  Parsing 5B3
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Got Climate data 0108801204000001
+[ 03-19-2017 02:22:39 pm ]  Parsing 54B
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Parsing 130
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:39 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:39 pm ]  Sent ATCRA
+[ 03-19-2017 02:22:39 pm ]  Sent ATAR
+[ 03-19-2017 02:22:39 pm ]  Sent ATAR
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Parsing STO
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:22:39 pm ]  Parsing 58A
+[ 03-19-2017 02:22:39 pm ]  Sent X
+[ 03-19-2017 02:22:39 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:22:39 pm ]  Parsing 58A
+[ 03-19-2017 02:22:39 pm ]  Sent ATMA
+[ 03-19-2017 02:22:38 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:22:38 pm ]  Parsing 58A
+[ 03-19-2017 02:22:38 pm ]  Sent ATMA
+[ 03-19-2017 02:22:38 pm ]  Got maybe important 5A9 8011D00E43800000
+[ 03-19-2017 02:22:38 pm ]  Parsing 5A9
+[ 03-19-2017 02:22:38 pm ]  Sent ATMA
+[ 03-19-2017 02:22:38 pm ]  Got Parking Brake 1602FD
+[ 03-19-2017 02:22:38 pm ]  Parsing 58A
+[ 03-19-2017 02:22:38 pm ]  Sent ATMA
+[ 03-19-2017 02:22:38 pm ]  Got battery SOH: 6CAC1A48707D32CA
+[ 03-19-2017 02:22:38 pm ]  Parsing 5B3
+[ 03-19-2017 02:22:38 pm ]  Sent ATMA
+[ 03-19-2017 02:22:38 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:38 pm ]  Sent ATCRA5BX
+[ 03-19-2017 02:22:38 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:38 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:38 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:38 pm ]  Sent ATCF5BB
+[ 03-19-2017 02:22:38 pm ]  Watching CAN for known messages
+[ 03-19-2017 02:22:38 pm ]  Completed command sequence, took 12873ms
+[ 03-19-2017 02:22:38 pm ]  Sent 03221230
+[ 03-19-2017 02:22:38 pm ]  Got 793 0562123000450000
+[ 03-19-2017 02:22:38 pm ]  Parsing 793
+[ 03-19-2017 02:22:38 pm ]  Sent 03221230
+[ 03-19-2017 02:22:37 pm ]  Sent 03221210
+[ 03-19-2017 02:22:37 pm ]  Got 793 0562121000000000
+[ 03-19-2017 02:22:37 pm ]  Parsing 793
+[ 03-19-2017 02:22:37 pm ]  Sent 03221210
+[ 03-19-2017 02:22:37 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:22:37 pm ]  Sent ATFCSH792
+[ 03-19-2017 02:22:37 pm ]  Sent ATSH792
+[ 03-19-2017 02:22:37 pm ]  Sent ATSH792
+[ 03-19-2017 02:22:37 pm ]  Sent 022104
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  220D0D00FFFFFFFF
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022104
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  21350F023A0E0246
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022104
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  10106104022B1002
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022104
+[ 03-19-2017 02:22:37 pm ]  Sent 022101
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  2500089DCC800001
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022101
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  247B1C550007E043
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022101
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  2391BB32CF038D00
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022101
+[ 03-19-2017 02:22:37 pm ]  Got 7BB cell voltage  22FFFFFF0A242AF8
+[ 03-19-2017 02:22:37 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:37 pm ]  Sent 022101
+[ 03-19-2017 02:22:36 pm ]  Got 7BB cell voltage  210289FFFFFB17FF
+[ 03-19-2017 02:22:36 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:36 pm ]  Sent 022101
+[ 03-19-2017 02:22:36 pm ]  Got 7BB cell voltage  10296101FFFFF66D
+[ 03-19-2017 02:22:36 pm ]  Parsing 7BB
+[ 03-19-2017 02:22:36 pm ]  Sent 022101
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSH79B
+[ 03-19-2017 02:22:36 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:36 pm ]  Sent ATSH79B
+[ 03-19-2017 02:22:36 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:36 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:36 pm ]  Got 79A 0250C00000000000
+[ 03-19-2017 02:22:36 pm ]  Parsing 79A
+[ 03-19-2017 02:22:36 pm ]  Sent 0210C0
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSM1
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:36 pm ]  Sent ATFCSD300000
+[ 03-19-2017 02:22:35 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:35 pm ]  Sent ATFCSH797
+[ 03-19-2017 02:22:35 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:35 pm ]  Sent ATSH797
+[ 03-19-2017 02:22:34 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:34 pm ]  Sent ATCAF0
+[ 03-19-2017 02:22:34 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:22:34 pm ]  Sent ATL0
+[ 03-19-2017 02:22:34 pm ]  Sent ATL0
+[ 03-19-2017 02:22:33 pm ]  Sent ATE0
+[ 03-19-2017 02:22:33 pm ]  Sent ATE0
+[ 03-19-2017 02:22:29 pm ]  Connection Timeout..
+[ 03-19-2017 02:22:29 pm ]  Going to home
+[ 03-19-2017 02:22:29 pm ]  Sent ATAR
+[ 03-19-2017 02:22:29 pm ]  Sent ATAR
+[ 03-19-2017 02:22:25 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-19-2017 02:22:25 pm ]  Sending 18 commands
+[ 03-19-2017 02:22:25 pm ]  Route Changed
+[ 03-19-2017 02:22:25 pm ]  init
+[ 03-19-2017 02:22:25 pm ]  Going to home
+[ 03-19-2017 02:22:24 pm ]  ATE0OK
+[ 03-19-2017 02:22:24 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+[ 03-19-2017 02:22:23 pm ]  Success!
+[ 03-19-2017 02:22:23 pm ]  ATIELM327 v1.5
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  ATS0OK
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  ATH1OK
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  ATSP6OK
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  STSBR 2000000?
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:23 pm ]  Success!
+[ 03-19-2017 02:22:23 pm ]  ATZELM327 v1.5
+[ 03-19-2017 02:22:23 pm ]  Subscribe got:
+[ 03-19-2017 02:22:22 pm ]  OK
+[ 03-19-2017 02:22:22 pm ]  Subscribe got:
+[ 03-19-2017 02:22:22 pm ]  Testing..
+[ 03-19-2017 02:22:22 pm ]  Connected welcome
+[ 03-19-2017 02:22:22 pm ]  "OK"
+[ 03-19-2017 02:22:22 pm ]  I am now connected
+[ 03-19-2017 02:22:21 pm ]  is Disconnected Not connected.
+[ 03-19-2017 02:22:19 pm ]  Devices connected undefined
+[ 03-19-2017 02:22:19 pm ]  Devices changed
+[ 03-19-2017 02:22:19 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-19-2017 02:22:19 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-19-2017 02:22:19 pm ]  scanned
+[ 03-19-2017 02:22:19 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-19-2017 02:22:19 pm ]  got 1 bluetooth accessories
+[ 03-19-2017 02:22:19 pm ]  Scanning inside manager
+[ 03-19-2017 02:22:19 pm ]  [object Object]
+[ 03-19-2017 02:22:19 pm ]  scanning...
+[ 03-19-2017 02:22:18 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-19-2017 02:22:18 pm ]  Bluetooth is enabled
+[ 03-19-2017 02:22:18 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-19-2017 02:22:18 pm ]  Device is ready!
+[ 03-19-2017 02:22:16 pm ]  I'm running angular!
+HappyLeaf Version 0.1.6

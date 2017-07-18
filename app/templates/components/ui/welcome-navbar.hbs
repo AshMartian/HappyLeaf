@@ -1,0 +1,23 @@
+{{#paper-toolbar}}
+  {{#paper-toolbar-tools}}
+    {{#paper-button iconButton=true}}
+      {{paper-icon "menu"}}
+    {{/paper-button}}
+
+    <h2>
+      {{t 'WELCOME.TITLE'}}
+    </h2>
+
+    <span class="flex"></span>
+
+    {{connection-icon}}
+
+    {{#paper-button iconButton=true onClick=scanDevices}}
+      {{paper-icon scanIcon class=scanClass}}
+    {{/paper-button}}
+
+    {{settings-icon}}
+  {{/paper-toolbar-tools}}
+{{/paper-toolbar}}
+
+{{yield}}

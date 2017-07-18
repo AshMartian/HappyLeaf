@@ -1,0 +1,35 @@
+HappyLeaf Version 0.1.9.7
+
+[ 05-11-2017 06:21:13 am ]  Cleaning up history
+[ 05-11-2017 06:21:14 am ]  I'm running angular!
+[ 05-11-2017 06:21:21 am ]  Translating to en
+[ 05-11-2017 06:21:21 am ]  Device is ready!
+[ 05-11-2017 06:21:21 am ]  Root file directory: file:///storage/emulated/0/
+[ 05-11-2017 06:21:23 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-11-2017 06:21:23 am ]  Bluetooth is enabled
+[ 05-11-2017 06:21:23 am ]  Scanning...
+[ 05-11-2017 06:21:23 am ]  Device connected false
+[ 05-11-2017 06:21:23 am ]  Scanning inside manager
+[ 05-11-2017 06:21:23 am ]  Scanned
+[ 05-11-2017 06:21:23 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-11-2017 06:21:23 am ]  Found last connected device: [object Object]
+[ 05-11-2017 06:21:23 am ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-11-2017 06:21:24 am ]  Listing wifi networksHappyLeaf Version 0.1.9.7
+
+[ 05-11-2017 06:21:45 am ]  Cleaning up history
+[ 05-11-2017 06:21:46 am ]  I'm running angular!
+[ 05-11-2017 06:21:46 am ]  Translating to en
+[ 05-11-2017 06:21:46 am ]  Device is ready!
+[ 05-11-2017 06:21:46 am ]  Root file directory: file:///storage/emulated/0/
+[ 05-11-2017 06:21:46 am ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 05-11-2017 06:21:46 am ]  Bluetooth is enabled
+[ 05-11-2017 06:21:46 am ]  Scanning...
+[ 05-11-2017 06:21:46 am ]  Device connected false
+[ 05-11-2017 06:21:46 am ]  Scanning inside manager
+[ 05-11-2017 06:21:46 am ]  Scanned
+[ 05-11-2017 06:21:46 am ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:26"}]
+[ 05-11-2017 06:21:46 am ]  Found last connected device: [object Object]
+[ 05-11-2017 06:21:46 am ]  Connecting to: 00:1D:A5:00:12:4A
+[ 05-11-2017 06:21:46 am ]  Connection failed Unable to connect to device
+[ 05-11-2017 06:21:46 am ]  "Unable to connect to device"
+[ 05-11-2017 06:21:47 am ]  Listing wifi networks

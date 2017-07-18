@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-BluetoothLe@4.2.1",
+        "scope": null,
+        "escapedName": "cordova-plugin-BluetoothLe",
+        "name": "cordova-plugin-BluetoothLe",
+        "rawSpec": "4.2.1",
+        "spec": "4.2.1",
+        "type": "version"
+      },
+      "/Users/brandon/HappyLeaf/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-BluetoothLe@4.2.1",
+  "_id": "cordova-plugin-bluetoothle@4.2.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-bluetoothle",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-bluetoothle-4.2.1.tgz_1469499764627_0.1862042334396392"
+  },
+  "_npmUser": {
+    "name": "randdusing",
+    "email": "randdusing@gmail.com"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-BluetoothLe@4.2.1",
+    "scope": null,
+    "escapedName": "cordova-plugin-BluetoothLe",
+    "name": "cordova-plugin-BluetoothLe",
+    "rawSpec": "4.2.1",
+    "spec": "4.2.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-bluetoothle/-/cordova-plugin-bluetoothle-4.2.1.tgz",
+  "_shasum": "6f013a07c1c4773d729cb82765e73f6b0b1ef0a1",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-BluetoothLe@4.2.1",
+  "_where": "/Users/brandon/HappyLeaf/node_modules",
+  "author": {
+    "name": "Rand Dusing"
+  },
+  "bugs": {
+    "url": "https://github.com/randdusing/cordova-plugin-bluetoothle/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-bluetoothle",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Use the Bluetooth Low Energy plugin to connect your Cordova app to new Bluetooth devices like heart rate monitors, thermometers, etc...",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6f013a07c1c4773d729cb82765e73f6b0b1ef0a1",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-bluetoothle/-/cordova-plugin-bluetoothle-4.2.1.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-plugman",
+      "version": ">=5.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=5.0.0"
+    }
+  ],
+  "gitHead": "b4d73f278af4d76d55ce392fa6dfed1349075ac1",
+  "homepage": "https://github.com/randdusing/cordova-plugin-bluetoothle#readme",
+  "keywords": [
+    "bluetooth",
+    "bluetoothle",
+    "bluetooth le",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "randdusing",
+      "email": "randdusing@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-bluetoothle",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randdusing/cordova-plugin-bluetoothle.git"
+  },
+  "scripts": {},
+  "version": "4.2.1"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Happy Leaf",
+  "s3bucket": "happyleaf-code",
+  "s3prefix": "",
+  "s3region": "us-west-1",
+  "ios_identifier": "life.brandonmartin.happyleaf",
+  "android_identifier": "life.brandonmartin.happyleaf",
+  "update": "resume",
+  "content_url": "https://s3-us-west-2.amazonaws.com/happyleaf-code"
+}

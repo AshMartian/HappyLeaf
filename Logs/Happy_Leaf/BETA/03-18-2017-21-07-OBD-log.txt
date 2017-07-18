@@ -1,0 +1,132 @@
+[ 03-18-2017 09:11:10 pm ]  undefined
+[ 03-18-2017 09:11:10 pm ]  Setting history point
+[ 03-18-2017 09:10:40 pm ]  undefined
+[ 03-18-2017 09:10:40 pm ]  Setting history point
+[ 03-18-2017 09:10:10 pm ]  undefined
+[ 03-18-2017 09:10:10 pm ]  Setting history point
+[ 03-18-2017 09:09:40 pm ]  undefined
+[ 03-18-2017 09:09:40 pm ]  Setting history point
+[ 03-18-2017 09:09:10 pm ]  undefined
+[ 03-18-2017 09:09:10 pm ]  Setting history point
+[ 03-18-2017 09:08:40 pm ]  undefined
+[ 03-18-2017 09:08:40 pm ]  Setting history point
+[ 03-18-2017 09:08:10 pm ]  undefined
+[ 03-18-2017 09:08:10 pm ]  Setting history point
+[ 03-18-2017 09:07:40 pm ]  undefined
+[ 03-18-2017 09:07:40 pm ]  Setting history point
+[ 03-18-2017 09:07:23 pm ]  Sent ATAR
+[ 03-18-2017 09:07:23 pm ]  Sent ATAR
+[ 03-18-2017 09:07:23 pm ]  Completed command sequence, took 13132ms
+[ 03-18-2017 09:07:23 pm ]  Sent 03221230
+[ 03-18-2017 09:07:23 pm ]  Got 793 0562123000450000
+[ 03-18-2017 09:07:23 pm ]  Parsing 793
+[ 03-18-2017 09:07:23 pm ]  Sent 03221230
+[ 03-18-2017 09:07:23 pm ]  Sent 03221210
+[ 03-18-2017 09:07:22 pm ]  Got 793 0562121001020000
+[ 03-18-2017 09:07:22 pm ]  Parsing 793
+[ 03-18-2017 09:07:22 pm ]  Sent 03221210
+[ 03-18-2017 09:07:22 pm ]  Sent ATFCSH792
+[ 03-18-2017 09:07:22 pm ]  Sent ATFCSH792
+[ 03-18-2017 09:07:22 pm ]  Sent ATSH792
+[ 03-18-2017 09:07:22 pm ]  Sent ATSH792
+[ 03-18-2017 09:07:22 pm ]  Sent 022104
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  22101000FFFFFFFF
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022104
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  210514021312022C
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022104
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  1010610401F11602
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022104
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  2500089DCC800005
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  245C1C57000D974C
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  2398B13863038D00
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  22FFFFFF033C2AF8
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  210289FFFFFCB7FF
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Got 7BB cell voltage  10296101FFFFF7C3
+[ 03-18-2017 09:07:22 pm ]  Parsing 7BB
+[ 03-18-2017 09:07:22 pm ]  Sent 022101
+[ 03-18-2017 09:07:22 pm ]  Sent ATFCSH79B
+[ 03-18-2017 09:07:22 pm ]  Sent ATFCSH79B
+[ 03-18-2017 09:07:22 pm ]  Sent ATSH79B
+[ 03-18-2017 09:07:22 pm ]  Sent ATSH79B
+[ 03-18-2017 09:07:22 pm ]  Sent 0210C0
+[ 03-18-2017 09:07:21 pm ]  Got 79A 0250C00000000000
+[ 03-18-2017 09:07:21 pm ]  Got 79A 0250C00000000000
+[ 03-18-2017 09:07:21 pm ]  Parsing 79A
+[ 03-18-2017 09:07:21 pm ]  Sent 0210C0
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSM1
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSM1
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSD300000
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSD300000
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSH797
+[ 03-18-2017 09:07:21 pm ]  Sent ATFCSH797
+[ 03-18-2017 09:07:21 pm ]  Sent ATSH797
+[ 03-18-2017 09:07:21 pm ]  Sent ATSH797
+[ 03-18-2017 09:07:21 pm ]  Sent ATCAF0
+[ 03-18-2017 09:07:21 pm ]  Sent ATCAF0
+[ 03-18-2017 09:07:20 pm ]  Sent ATL0
+[ 03-18-2017 09:07:20 pm ]  Sent ATL0
+[ 03-18-2017 09:07:15 pm ]  Sent ATE0
+[ 03-18-2017 09:07:15 pm ]  Sent ATE0
+[ 03-18-2017 09:07:15 pm ]  Going to home
+[ 03-18-2017 09:07:12 pm ]  Sent ATAR
+[ 03-18-2017 09:07:12 pm ]  Sent ATAR
+[ 03-18-2017 09:07:10 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-18-2017 09:07:10 pm ]  Sending 18 commands
+[ 03-18-2017 09:07:10 pm ]  Route Changed
+[ 03-18-2017 09:07:10 pm ]  init
+[ 03-18-2017 09:07:10 pm ]  Going to home
+[ 03-18-2017 09:07:08 pm ]  ATE0OK
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+[ 03-18-2017 09:07:08 pm ]  Success!
+[ 03-18-2017 09:07:08 pm ]  ATIELM327 v1.5
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  ATS0OK
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  ATH1OK
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  ATSP6OK
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  STSBR 2000000?
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:08 pm ]  Success!
+[ 03-18-2017 09:07:08 pm ]  ATZELM327 v1.5
+[ 03-18-2017 09:07:08 pm ]  Subscribe got:
+[ 03-18-2017 09:07:07 pm ]  OK
+[ 03-18-2017 09:07:07 pm ]  Subscribe got:
+[ 03-18-2017 09:07:07 pm ]  Testing..
+[ 03-18-2017 09:07:07 pm ]  Connected welcome
+[ 03-18-2017 09:07:07 pm ]  "OK"
+[ 03-18-2017 09:07:07 pm ]  I am now connected
+[ 03-18-2017 09:07:06 pm ]  is Disconnected Not connected.
+[ 03-18-2017 09:07:04 pm ]  is Disconnected Not connected.
+[ 03-18-2017 09:07:02 pm ]  Devices connected undefined
+[ 03-18-2017 09:07:02 pm ]  Devices changed
+[ 03-18-2017 09:07:02 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-18-2017 09:07:02 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-18-2017 09:07:02 pm ]  scanned
+[ 03-18-2017 09:07:02 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-18-2017 09:07:02 pm ]  got 1 bluetooth accessories
+[ 03-18-2017 09:07:02 pm ]  Scanning inside manager
+[ 03-18-2017 09:07:02 pm ]  [object Object]
+[ 03-18-2017 09:07:02 pm ]  scanning...
+[ 03-18-2017 09:07:01 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-18-2017 09:07:01 pm ]  Bluetooth is enabled
+[ 03-18-2017 09:07:01 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-18-2017 09:07:01 pm ]  Device is ready!
+[ 03-18-2017 09:07:00 pm ]  I'm running angular!
+undefined

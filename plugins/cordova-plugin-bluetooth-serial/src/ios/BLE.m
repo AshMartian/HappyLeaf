@@ -27,9 +27,9 @@ static int rssi = 0;
 // TODO should have a configurable list of services
 CBUUID *redBearLabsServiceUUID;
 CBUUID *adafruitServiceUUID;
-CBUUID *obdServiceUUID;
 CBUUID *lairdServiceUUID;
 CBUUID *blueGigaServiceUUID;
+CBUUID *hm10ServiceUUID;
 CBUUID *serialServiceUUID;
 CBUUID *readCharacteristicUUID;
 CBUUID *writeCharacteristicUUID;
@@ -208,19 +208,17 @@ CBUUID *writeCharacteristicUUID;
 
     [NSTimer scheduledTimerWithTimeInterval:(float)timeout target:self selector:@selector(scanTimer:) userInfo:nil repeats:NO];
 
-    obdServiceUUID = [CBUUID UUIDWithString:@OBD_SERVICE_UUID];
+#if TARGET_OS_IPHONE
     redBearLabsServiceUUID = [CBUUID UUIDWithString:@RBL_SERVICE_UUID];
     adafruitServiceUUID = [CBUUID UUIDWithString:@ADAFRUIT_SERVICE_UUID];
     lairdServiceUUID = [CBUUID UUIDWithString:@LAIRD_SERVICE_UUID];
     blueGigaServiceUUID = [CBUUID UUIDWithString:@BLUEGIGA_SERVICE_UUID];
-
-/*#if TARGET_OS_IPHONE
-
-    NSArray *services = @[redBearLabsServiceUUID, adafruitServiceUUID, lairdServiceUUID, blueGigaServiceUUID, obdServiceUUID];
+    hm10ServiceUUID = [CBUUID UUIDWithString:@HM10_SERVICE_UUID];
+    NSArray *services = @[redBearLabsServiceUUID, adafruitServiceUUID, lairdServiceUUID, blueGigaServiceUUID, hm10ServiceUUID];
     [self.CM scanForPeripheralsWithServices:services options: nil];
-#else*/
+#else
     [self.CM scanForPeripheralsWithServices:nil options:nil]; // Start scanning
-//#endif
+#endif
 
     NSLog(@"scanForPeripheralsWithServices");
 
@@ -553,14 +551,13 @@ static bool done = false;
                 readCharacteristicUUID = [CBUUID UUIDWithString:@BLUEGIGA_CHAR_TX_UUID];
                 writeCharacteristicUUID = [CBUUID UUIDWithString:@BLUEGIGA_CHAR_RX_UUID];
                 break;
-            } else if ([service.UUID isEqual:obdServiceUUID]) {
-                NSLog(@"BlueGiga Bluetooth");
-                serialServiceUUID = blueGigaServiceUUID;
-                readCharacteristicUUID = [CBUUID UUIDWithString:@OBD_CHAR_TX_UUID];
-                writeCharacteristicUUID = [CBUUID UUIDWithString:@OBD_CHAR_RX_UUID];
+            } else if ([service.UUID isEqual:hm10ServiceUUID]) {
+                NSLog(@"HM-10 Bluetooth");
+                serialServiceUUID = hm10ServiceUUID;
+                readCharacteristicUUID = [CBUUID UUIDWithString:@HM10_CHAR_TX_UUID];
+                writeCharacteristicUUID = [CBUUID UUIDWithString:@HM10_CHAR_RX_UUID];
                 break;
             } else {
-              NSLog(@"Could not find service for %@", service.UUID);
                 // ignore unknown services
             }
         }

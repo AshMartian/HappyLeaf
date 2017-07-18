@@ -1,0 +1,1744 @@
+[ 03-31-2017 05:05:24 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:24 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:24 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:24 pm ]  Testing...
+[ 03-31-2017 05:05:24 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:24 pm ]  Testing device
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: ?
+[ 03-31-2017 05:05:24 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:24 pm ]  Subscribe got: ISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:24 pm ]  Received from wifi: ISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:23 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:23 pm ]  Success!
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:23 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:23 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:23 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:23 pm ]  Testing...
+[ 03-31-2017 05:05:23 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:23 pm ]  Testing device
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:23 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:23 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:05:22 pm ]  []
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:22 pm ]  Success!
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:22 pm ]  Testing...
+[ 03-31-2017 05:05:22 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:22 pm ]  Testing device
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:22 pm ]  Testing...
+[ 03-31-2017 05:05:22 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:22 pm ]  Testing device
+[ 03-31-2017 05:05:22 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:22 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Success!
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ATE0OK>ELM327 v1.5>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:21 pm ]  Testing...
+[ 03-31-2017 05:05:21 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:21 pm ]  Testing device
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ATSH745OK
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ATSH745OK>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:21 pm ]  Success!
+[ 03-31-2017 05:05:21 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:21 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:20 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:20 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:20 pm ]  Testing...
+[ 03-31-2017 05:05:20 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:20 pm ]  Testing device
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:20 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:20 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:20 pm ]  Success!
+[ 03-31-2017 05:05:20 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:20 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:19 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:19 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:19 pm ]  Success!
+[ 03-31-2017 05:05:19 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:19 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATSH743OK
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATS0OK>ATSH743OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATSP6OK>ATH1OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Success!
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATCF62FOK
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: STSBR 2000000?>ATCF62FOK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>ATE0OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:05:18 pm ]  Testing...
+[ 03-31-2017 05:05:18 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:18 pm ]  Testing device
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATCF35FOK
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATCF35FOK>
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:18 pm ]  Subscribe got: ATCRA35X?
+[ 03-31-2017 05:05:18 pm ]  Received from wifi: ATCRA35X?>
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: ATCRA?
+[ 03-31-2017 05:05:17 pm ]  Received from wifi: ATCRA?>
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:17 pm ]  Success!
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:17 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:17 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:17 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:17 pm ]  Testing...
+[ 03-31-2017 05:05:17 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:17 pm ]  Testing device
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:17 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:17 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:05:16 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:05:16 pm ]  Received from wifi: 022101
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:16 pm ]  Success!
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:16 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:16 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:16 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:16 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:15 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:15 pm ]  Testing...
+[ 03-31-2017 05:05:15 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:15 pm ]  Testing device
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:15 pm ]  Testing...
+[ 03-31-2017 05:05:15 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:15 pm ]  Testing device
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:15 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:15 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: ATMA5B C4 5B DB 2B FF C9 CE <DATA ERROR5B FE 5C 22 00 00 C9 27 <DATA ERRORB: FF 00 00 A0 08 00 18 400 0: 00 07 57 12 00 00 00 00 00 00 02 26 00 00 00 BB 09 00 00 00 D3 1E 5D 00 00 04 A0 4A 2F 29 00 00 00 00 01 D7 00 00 00 00 05 00 54 C8 FF D0 00 02 60 00 F5 <DATA ERRBUFFER FULL
+[ 03-31-2017 05:05:15 pm ]  Received from wifi: ATMA5B C4 5B DB 2B FF C9 CE <DATA ERROR5B FE 5C 22 00 00 C9 27 <DATA ERRORB: FF 00 00 A0 08 00 18 400 0: 00 07 57 12 00 00 00 00 00 00 02 26 00 00 00 BB 09 00 00 00 D3 1E 5D 00 00 04 A0 4A 2F 29 00 00 00 00 01 D7 00 00 00 00 05 00 54 C8 FF D0 00 02 60 00 F5 <DATA ERRBUFFER FULL>
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:15 pm ]  Success!
+[ 03-31-2017 05:05:15 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:15 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:15 pm ]  []
+[ 03-31-2017 05:05:14 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:14 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:14 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:14 pm ]  Received from wifi: ATSP6OK>ATE1OK>
+[ 03-31-2017 05:05:14 pm ]  Testing...
+[ 03-31-2017 05:05:14 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:14 pm ]  Testing device
+[ 03-31-2017 05:05:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:14 pm ]  Success!
+[ 03-31-2017 05:05:14 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:14 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:13 pm ]  Testing...
+[ 03-31-2017 05:05:13 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:13 pm ]  Testing device
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Success!
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Success!
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Success!
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:13 pm ]  Testing...
+[ 03-31-2017 05:05:13 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:13 pm ]  Testing device
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:13 pm ]  Success!
+[ 03-31-2017 05:05:13 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:13 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:12 pm ]  Success!
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:12 pm ]  Testing...
+[ 03-31-2017 05:05:12 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:12 pm ]  Testing device
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:12 pm ]  Success!
+[ 03-31-2017 05:05:12 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:12 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:11 pm ]  []
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATFCSH797OK
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATFCSH797OK>
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATDP?
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATDP?>
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: LÀ
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATZ?
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATZ?>LÀ
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: À
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATE1?
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATE1?>À
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: CU
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATE1OK>CU
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:11 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:11 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:11 pm ]  Testing...
+[ 03-31-2017 05:05:11 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:11 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:10 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Testing...
+[ 03-31-2017 05:05:10 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:10 pm ]  Testing device
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:10 pm ]  Success!
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:10 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:10 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:10 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:10 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: ATMA284 5A AF 5A D1 2B 7D A6 08 <DATA ERROR002 04 00 00 07 21 285 5A F7 5B 15 00 00 A6 EE <DATA ERROR130 01 10 2DE 00 00 00 00 00 00 02 26 58A 06 00 FD 300 03 1CB FF D0 00 02 60 02 7A <DATA ERROR1CA 00 00 00 00 05 00 54 62 174 00 00 00 BB 01 00 00 00 176 03 C8 1E 09 180 0BUFFER FULLSTOPPED
+[ 03-31-2017 05:05:09 pm ]  Received from wifi: ATMA284 5A AF 5A D1 2B 7D A6 08 <DATA ERROR002 04 00 00 07 21 285 5A F7 5B 15 00 00 A6 EE <DATA ERROR130 01 10 2DE 00 00 00 00 00 00 02 26 58A 06 00 FD 300 03 1CB FF D0 00 02 60 02 7A <DATA ERROR1CA 00 00 00 00 05 00 54 62 174 00 00 00 BB 01 00 00 00 176 03 C8 1E 09 180 0BUFFER FULLSTOPPED>
+[ 03-31-2017 05:05:09 pm ]  Testing...
+[ 03-31-2017 05:05:09 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:09 pm ]  Testing device
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:05:09 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:09 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:09 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:09 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:08 pm ]  Testing...
+[ 03-31-2017 05:05:08 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:08 pm ]  Testing device
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Success!
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:08 pm ]  Testing...
+[ 03-31-2017 05:05:08 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:08 pm ]  Testing device
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Testing...
+[ 03-31-2017 05:05:08 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:08 pm ]  Testing device
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Success!
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATMAFC FF 00 07 37 <DATA ERROR5A C4 5A 97 2B 74 61 95 <DATA ERROR5A C6 5A E5 00 00 61 47 <DATA ERRORB: 74 00 00 A0 08 00 18 12 00 00 00 BB 0A 00 00 00 C6 1D F8 00 00 05 30 53 30 6A 00 00 00 00 02 D8 00 00 00 00 00 00 00 00 4A 00 87 00 10 08 00 6E <DATA ERROR00 00 0BUFFER FULLSTOPPED
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: XATI?
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: XATI?>ATMAFC FF 00 07 37 <DATA ERROR5A C4 5A 97 2B 74 61 95 <DATA ERROR5A C6 5A E5 00 00 61 47 <DATA ERRORB: 74 00 00 A0 08 00 18 12 00 00 00 BB 0A 00 00 00 C6 1D F8 00 00 05 30 53 30 6A 00 00 00 00 02 D8 00 00 00 00 00 00 00 00 4A 00 87 00 10 08 00 6E <DATA ERROR00 00 0BUFFER FULLSTOPPED>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATAROK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:08 pm ]  Testing...
+[ 03-31-2017 05:05:08 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:08 pm ]  Testing device
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATFCSH743OK
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: IATZ?
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATI?
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:05:08 pm ]  Success!
+[ 03-31-2017 05:05:08 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:08 pm ]  Received from wifi: ELM327 v1.5>ATDPISO 15765-4 (CAN 11/500)>ATI?>IATZ?>ATFCSH743OK>
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:08 pm ]  []
+[ 03-31-2017 05:05:07 pm ]  Connected to 
+[ 03-31-2017 05:05:07 pm ]  Sending 28 commands
+[ 03-31-2017 05:05:07 pm ]  Completed command sequence, took 8988ms, received 0 messages, 1 force send requests
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:07 pm ]  Testing...
+[ 03-31-2017 05:05:07 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:07 pm ]  Testing device
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Testing...
+[ 03-31-2017 05:05:07 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:07 pm ]  Testing device
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ATFCSH743OK
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATFCSH743OK>
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ATFCSD300100OK
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATFCSD300100OK>
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ATFCSH79BOK
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ATFCSH79BOK>
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:07 pm ]  Success!
+[ 03-31-2017 05:05:07 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:07 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: TE1?
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 022104STOPPED
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: 022104STOPPED>TE1?>
+[ 03-31-2017 05:05:06 pm ]  Testing...
+[ 03-31-2017 05:05:06 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:06 pm ]  Testing device
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: ATSH743OK
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: ATSH743OK>
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Success!
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: >
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: 0221017F 02 11 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:06 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:06 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:05 pm ]  Testing...
+[ 03-31-2017 05:05:05 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:05 pm ]  Testing device
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: ATSH79BOK
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ATSH79BOK>
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: ATSH792OK
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ATSH792OK>
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:05 pm ]  Success!
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:05 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:05:05 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:05:04 pm ]  Testing...
+[ 03-31-2017 05:05:04 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:04 pm ]  Testing device
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:04 pm ]  Testing...
+[ 03-31-2017 05:05:04 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:04 pm ]  Testing device
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: ATSH745OK
+[ 03-31-2017 05:05:04 pm ]  Testing...
+[ 03-31-2017 05:05:04 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:04 pm ]  Testing device
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: ATFCSH745OK
+[ 03-31-2017 05:05:04 pm ]  Received from wifi: ATFCSH745OK>ATSH745OK>
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: ATFCSD300000OK
+[ 03-31-2017 05:05:04 pm ]  Received from wifi: ATFCSD300000OK>
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: ATFCSH792OK
+[ 03-31-2017 05:05:04 pm ]  Received from wifi: ATFCSH792OK>
+[ 03-31-2017 05:05:04 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:05:03 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:05:03 pm ]  Received from wifi: 03221210
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: TE1?
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: STOPPED
+[ 03-31-2017 05:05:03 pm ]  Received from wifi: STOPPED>TE1?>
+[ 03-31-2017 05:05:03 pm ]  Received from wifi: 03221230
+[ 03-31-2017 05:05:03 pm ]  Testing...
+[ 03-31-2017 05:05:03 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:05:03 pm ]  Testing device
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: 
+[ 03-31-2017 05:05:03 pm ]  Success!
+[ 03-31-2017 05:05:03 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:05:03 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:58 pm ]  []
+[ 03-31-2017 05:04:58 pm ]  Watching CAN for known messages
+[ 03-31-2017 05:04:58 pm ]  Completed command sequence, took 8833ms
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>ATE1OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:58 pm ]  Testing...
+[ 03-31-2017 05:04:58 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:58 pm ]  Testing device
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATFCSD300100OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATFCSD300100OK>
+[ 03-31-2017 05:04:58 pm ]  Testing...
+[ 03-31-2017 05:04:58 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:58 pm ]  Testing device
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATSH797OK
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATSH797OK>
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:58 pm ]  Subscribe got: ATCRA35X?
+[ 03-31-2017 05:04:58 pm ]  Received from wifi: ATCRA35X?>
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:57 pm ]  Success!
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:57 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:57 pm ]  undefined
+[ 03-31-2017 05:04:57 pm ]  Setting history point
+[ 03-31-2017 05:04:57 pm ]  Testing...
+[ 03-31-2017 05:04:57 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:57 pm ]  Testing device
+[ 03-31-2017 05:04:57 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:57 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:57 pm ]  Testing...
+[ 03-31-2017 05:04:57 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:57 pm ]  Testing device
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:57 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:57 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:56 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: ATCAF0OK
+[ 03-31-2017 05:04:56 pm ]  Received from wifi: ATCAF0OK>
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:56 pm ]  Success!
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:56 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:56 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:56 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:56 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:56 pm ]  Testing...
+[ 03-31-2017 05:04:55 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:55 pm ]  Testing device
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: ?
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:55 pm ]  []
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:55 pm ]  Success!
+[ 03-31-2017 05:04:55 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:55 pm ]  Testing...
+[ 03-31-2017 05:04:55 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:55 pm ]  Testing device
+[ 03-31-2017 05:04:55 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:54 pm ]  Testing...
+[ 03-31-2017 05:04:54 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:54 pm ]  Testing device
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Success!
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:04:54 pm ]  []
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:54 pm ]  Success!
+[ 03-31-2017 05:04:54 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:54 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:53 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:53 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:53 pm ]  Testing...
+[ 03-31-2017 05:04:53 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:53 pm ]  Testing device
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:53 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:53 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:53 pm ]  Success!
+[ 03-31-2017 05:04:53 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:53 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:52 pm ]  Testing...
+[ 03-31-2017 05:04:52 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:52 pm ]  Testing device
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Success!
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:04:52 pm ]  []
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:52 pm ]  Testing...
+[ 03-31-2017 05:04:52 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:52 pm ]  Testing device
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATMA7F F8 01 1A 2F 00 7F F3 <DATA ERROR7F 68 1E 80 20 00 00 03 <DATA ERROR11 FF F0 FF 00 FF FF <DATA ERROR42 60 <DATA ERROR00 00 00 BB 0C 00 00 00 78 1B 8A 00 00 05 50 55 2E AC 00 00 00 00 00 D6 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 02 30 8: 74 29 84 20 00 60 BUFFER FULL
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATMA7F F8 01 1A 2F 00 7F F3 <DATA ERROR7F 68 1E 80 20 00 00 03 <DATA ERROR11 FF F0 FF 00 FF FF <DATA ERROR42 60 <DATA ERROR00 00 00 BB 0C 00 00 00 78 1B 8A 00 00 05 50 55 2E AC 00 00 00 00 00 D6 00 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 02 30 8: 74 29 84 20 00 60 BUFFER FULL>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:52 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:04:52 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:04:51 pm ]  Received from wifi: 022110
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:51 pm ]  Success!
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:51 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:51 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:51 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:51 pm ]  Testing...
+[ 03-31-2017 05:04:51 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:51 pm ]  Testing device
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:51 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:51 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: ATCF35FOK
+[ 03-31-2017 05:04:50 pm ]  Received from wifi: ATCF35FOK>
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:50 pm ]  Success!
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:50 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:50 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:50 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:50 pm ]  Subscribe got: ATBD0B 00 00 01 CB FF D0 00 02 60 03 FF 3A 
+[ 03-31-2017 05:04:50 pm ]  Received from wifi: ATBD0B 00 00 01 CB FF D0 00 02 60 03 FF 3A >
+[ 03-31-2017 05:04:49 pm ]  Testing...
+[ 03-31-2017 05:04:49 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:49 pm ]  Testing device
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: ATAROK
+[ 03-31-2017 05:04:49 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:04:49 pm ]  Watching CAN for known messages
+[ 03-31-2017 05:04:49 pm ]  Completed command sequence, took 8234ms
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:49 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:49 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:49 pm ]  Success!
+[ 03-31-2017 05:04:49 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:49 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:48 pm ]  Testing...
+[ 03-31-2017 05:04:48 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:48 pm ]  Testing device
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: ATFCSM1?
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ATFCSM1?>
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: ATFCSH79BOK
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ATFCSH79BOK>
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:48 pm ]  Success!
+[ 03-31-2017 05:04:48 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:48 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:47 pm ]  Testing...
+[ 03-31-2017 05:04:47 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:47 pm ]  Testing device
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:47 pm ]  Testing...
+[ 03-31-2017 05:04:47 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:47 pm ]  Testing device
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:47 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:47 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Success!
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ATCF35FOK
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATCF35FOK>
+[ 03-31-2017 05:04:46 pm ]  Testing...
+[ 03-31-2017 05:04:46 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:46 pm ]  Testing device
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ATCRA35X?
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATCRA35X?>
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:46 pm ]  Subscribe got: ATCRA?
+[ 03-31-2017 05:04:46 pm ]  Received from wifi: ATCRA?>
+[ 03-31-2017 05:04:45 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:45 pm ]  Subscribe got: ATMA7F F8 01 1A F5 00 7F F1 <DATA ERROR7F 68 1E 80 E0 00 00 01 <DATA ERROR11 FF 00 00 00 BB 07 00 00 00 B0 1D 48 00 00 04 C0 4C 2E 27 00 00 00 00 03 D9 00 00 00 00 00 00 00 00 4F 0F 25 90 <DATA ERROR00 00 00 00 00 00 02 3A B: 04 2B ED 20 00 60 FF D0 00 02 60 03 FF <DATA BUFFER FULL
+[ 03-31-2017 05:04:45 pm ]  Received from wifi: ATMA7F F8 01 1A F5 00 7F F1 <DATA ERROR7F 68 1E 80 E0 00 00 01 <DATA ERROR11 FF 00 00 00 BB 07 00 00 00 B0 1D 48 00 00 04 C0 4C 2E 27 00 00 00 00 03 D9 00 00 00 00 00 00 00 00 4F 0F 25 90 <DATA ERROR00 00 00 00 00 00 02 3A B: 04 2B ED 20 00 60 FF D0 00 02 60 03 FF <DATA BUFFER FULL>
+[ 03-31-2017 05:04:45 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:45 pm ]  Success!
+[ 03-31-2017 05:04:45 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:45 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:45 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:44 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:44 pm ]  Testing...
+[ 03-31-2017 05:04:44 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:44 pm ]  Testing device
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:44 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:44 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:44 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:44 pm ]  Success!
+[ 03-31-2017 05:04:44 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:44 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:43 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:43 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:43 pm ]  Testing...
+[ 03-31-2017 05:04:43 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:43 pm ]  Testing device
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: ATAROK
+[ 03-31-2017 05:04:43 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: ATCRA5BX?
+[ 03-31-2017 05:04:43 pm ]  Received from wifi: ATCRA5BX?>
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:43 pm ]  Subscribe got: ATMA?
+[ 03-31-2017 05:04:43 pm ]  Received from wifi: ATMA?>
+[ 03-31-2017 05:04:42 pm ]  Received from wifi: X
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: ATCF62FOK
+[ 03-31-2017 05:04:42 pm ]  Received from wifi: ATCF62FOK>
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:42 pm ]  Success!
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:42 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:42 pm ]  Testing...
+[ 03-31-2017 05:04:42 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:42 pm ]  Testing device
+[ 03-31-2017 05:04:42 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:42 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:42 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:42 pm ]  Testing...
+[ 03-31-2017 05:04:42 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:42 pm ]  Testing device
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: ATAROK
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:41 pm ]  Success!
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:41 pm ]  Connected to 
+[ 03-31-2017 05:04:41 pm ]  Sending 28 commands
+[ 03-31-2017 05:04:41 pm ]  Completed command sequence, took 13987ms, received 0 messages, 3 force send requests
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:41 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:41 pm ]  Testing...
+[ 03-31-2017 05:04:41 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:41 pm ]  Testing device
+[ 03-31-2017 05:04:41 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:40 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: ATCF5CFOK
+[ 03-31-2017 05:04:40 pm ]  Received from wifi: ATCF5CFOK>
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: ATCRA5BX?
+[ 03-31-2017 05:04:40 pm ]  Received from wifi: ATCRA5BX?>
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:40 pm ]  Success!
+[ 03-31-2017 05:04:40 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:40 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 7F F8 01 1A CB 00 7F F3 <DATA ERROR80 A8 00 80 B0 00 00 03 <DATA ERROR11 00 00 00 BB 01 00 00 00 B3 1D 62 00 00 07 E0 7E 3A 21 00 00 00 00 01 D7 00 00 00 00 00 00 00 00 50 0F 2A 60 <DATA ERRORFF 00 00 00 00 00 00 02 44 B: 1F 2B E5 20 00 60 FF D0 00 02 60 03 FF <DATA EBUFFER FULLSTOPPED
+[ 03-31-2017 05:04:39 pm ]  Received from wifi: 7F F8 01 1A CB 00 7F F3 <DATA ERROR80 A8 00 80 B0 00 00 03 <DATA ERROR11 00 00 00 BB 01 00 00 00 B3 1D 62 00 00 07 E0 7E 3A 21 00 00 00 00 01 D7 00 00 00 00 00 00 00 00 50 0F 2A 60 <DATA ERRORFF 00 00 00 00 00 00 02 44 B: 1F 2B E5 20 00 60 FF D0 00 02 60 03 FF <DATA EBUFFER FULLSTOPPED>
+[ 03-31-2017 05:04:39 pm ]  Testing...
+[ 03-31-2017 05:04:39 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:39 pm ]  Testing device
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 0C 00 00 07 DF 03 02 10 C0 00 00 00 00 
+[ 03-31-2017 05:04:39 pm ]  Received from wifi: 0C 00 00 07 DF 03 02 10 C0 00 00 00 00 >
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:39 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:39 pm ]  Success!
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:04:39 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:04:39 pm ]  []
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:39 pm ]  Success!
+[ 03-31-2017 05:04:39 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:39 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:38 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:38 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:38 pm ]  Testing...
+[ 03-31-2017 05:04:38 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:38 pm ]  Testing device
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:38 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: ATFCSH797OK
+[ 03-31-2017 05:04:38 pm ]  Received from wifi: ATFCSH797OK>
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:38 pm ]  Success!
+[ 03-31-2017 05:04:38 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:38 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATZ
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATE1OK>ATZ
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATCRA62X?
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATCRA62X?>
+[ 03-31-2017 05:04:37 pm ]  Testing...
+[ 03-31-2017 05:04:37 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:37 pm ]  Testing device
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATCAF0OK
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATCAF0OK>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATSH797?
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATSH797?>
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: X
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: 0210C0
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:37 pm ]  Testing...
+[ 03-31-2017 05:04:37 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:37 pm ]  Testing device
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Success!
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:37 pm ]  Success!
+[ 03-31-2017 05:04:37 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:37 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:36 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:36 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:36 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:36 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:36 pm ]  Testing...
+[ 03-31-2017 05:04:36 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:36 pm ]  Testing device
+[ 03-31-2017 05:04:36 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:36 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:36 pm ]  Received from wifi: >
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: 7F 02 11 
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: 022101
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: ATSH745OK
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: ATSH745OK>
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: ATFCSH745OK
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: ATFCSH745OK>
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:35 pm ]  Success!
+[ 03-31-2017 05:04:35 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:35 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:34 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:34 pm ]  Testing...
+[ 03-31-2017 05:04:34 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:34 pm ]  Testing device
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)
+[ 03-31-2017 05:04:34 pm ]  Received from wifi: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:04:34 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:04:34 pm ]  Received from wifi: 022104
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:34 pm ]  Subscribe got: NO DATA
+[ 03-31-2017 05:04:34 pm ]  Received from wifi: NO DATA>
+[ 03-31-2017 05:04:33 pm ]  Received from wifi: 022101
+[ 03-31-2017 05:04:33 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:33 pm ]  Success!
+[ 03-31-2017 05:04:33 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:33 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:28 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:28 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:28 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:28 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:27 pm ]  Testing...
+[ 03-31-2017 05:04:27 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:27 pm ]  Testing device
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: ATMA7F F8 01 1A 6B 00 7F F3 <DATA ERROR80 08 14 80 00 00 00 03 <DATA ERROR11 00 00 00 BB 0E 00 00 00 75 1B 72 00 00 04 90 49 29 2E 00 00 00 00 02 D8 00 00 00 00 00 00 00 00 C9 00 3A 00 10 08 00 6E <DATA ERRORFF 00 00 00 00 00 00 02 4E FF F0 FF 00 FF FF <DATA ERROR8: 4BUFFER FULL
+[ 03-31-2017 05:04:27 pm ]  Received from wifi: ATMA7F F8 01 1A 6B 00 7F F3 <DATA ERROR80 08 14 80 00 00 00 03 <DATA ERROR11 00 00 00 BB 0E 00 00 00 75 1B 72 00 00 04 90 49 29 2E 00 00 00 00 02 D8 00 00 00 00 00 00 00 00 C9 00 3A 00 10 08 00 6E <DATA ERRORFF 00 00 00 00 00 00 02 4E FF F0 FF 00 FF FF <DATA ERROR8: 4BUFFER FULL>
+[ 03-31-2017 05:04:27 pm ]  undefined
+[ 03-31-2017 05:04:27 pm ]  Setting history point
+[ 03-31-2017 05:04:27 pm ]  Connected to 
+[ 03-31-2017 05:04:27 pm ]  Sending 28 commands
+[ 03-31-2017 05:04:27 pm ]  Completed command sequence, took 4455ms, received 5 messages, 2 force send requests
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:27 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:27 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:27 pm ]  Success!
+[ 03-31-2017 05:04:27 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:27 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:26 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:26 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:26 pm ]  Testing...
+[ 03-31-2017 05:04:26 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:26 pm ]  Testing device
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:26 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: ATL0OK
+[ 03-31-2017 05:04:26 pm ]  Received from wifi: ATL0OK>
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:26 pm ]  Success!
+[ 03-31-2017 05:04:26 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:26 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:25 pm ]  History file write done.
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:25 pm ]  Testing...
+[ 03-31-2017 05:04:25 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:25 pm ]  Testing device
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ATSH743OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATSH743OK>
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ATFCSH743OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATFCSH743OK>
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ATFCSH743OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATFCSH743OK>
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ATFCSD300100OK
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ATFCSD300100OK>
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:25 pm ]  Success!
+[ 03-31-2017 05:04:25 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:25 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:25 pm ]  OBD log file write done.
+[ 03-31-2017 05:04:24 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:24 pm ]  Testing...
+[ 03-31-2017 05:04:24 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:24 pm ]  Testing device
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:24 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:24 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:24 pm ]  Success!
+[ 03-31-2017 05:04:24 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:24 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:23 pm ]  Testing...
+[ 03-31-2017 05:04:23 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:23 pm ]  Testing device
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:23 pm ]  Testing...
+[ 03-31-2017 05:04:23 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:23 pm ]  Testing device
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: ATSH792OK
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: ATSH792OK>
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: FCSH792?
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: STOPPED
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: STOPPED>FCSH792?>
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 221210
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: STOPPED
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: STOPPED>221210
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: 03221230
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:23 pm ]  Success!
+[ 03-31-2017 05:04:23 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:23 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:23 pm ]  Watching CAN for known messages
+[ 03-31-2017 05:04:23 pm ]  Completed command sequence, took 340ms
+[ 03-31-2017 05:04:22 pm ]  Watching CAN for known messages
+[ 03-31-2017 05:04:22 pm ]  Completed command sequence, took 12784ms
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:22 pm ]  Testing...
+[ 03-31-2017 05:04:22 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:22 pm ]  Testing device
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:22 pm ]  Success!
+[ 03-31-2017 05:04:22 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:22 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:21 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:21 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:21 pm ]  Testing...
+[ 03-31-2017 05:04:21 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:21 pm ]  Testing device
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:21 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:21 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:21 pm ]  Success!
+[ 03-31-2017 05:04:21 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:21 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:20 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:20 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:20 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:20 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:20 pm ]  Success!
+[ 03-31-2017 05:04:20 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:20 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:20 pm ]  Testing...
+[ 03-31-2017 05:04:20 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:20 pm ]  Testing device
+[ 03-31-2017 05:04:20 pm ]  Testing...
+[ 03-31-2017 05:04:20 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:20 pm ]  Testing device
+[ 03-31-2017 05:04:19 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:19 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:19 pm ]  Testing...
+[ 03-31-2017 05:04:19 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:19 pm ]  Testing device
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:19 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:19 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:19 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:18 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:18 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:18 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:18 pm ]  Success!
+[ 03-31-2017 05:04:18 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:18 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:18 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:17 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:17 pm ]  Testing...
+[ 03-31-2017 05:04:17 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:17 pm ]  Testing device
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: OK
+[ 03-31-2017 05:04:17 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: ATE0OK
+[ 03-31-2017 05:04:17 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:04:17 pm ]  []
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:17 pm ]  Success!
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: ATIELM327 v1.5
+[ 03-31-2017 05:04:17 pm ]  Received from wifi: ATIELM327 v1.5>
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:17 pm ]  Success!
+[ 03-31-2017 05:04:17 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:17 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:17 pm ]  []
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:16 pm ]  Testing...
+[ 03-31-2017 05:04:16 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:16 pm ]  Testing device
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:16 pm ]  Success!
+[ 03-31-2017 05:04:16 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:16 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:15 pm ]  Testing...
+[ 03-31-2017 05:04:15 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:15 pm ]  Testing device
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: ATS0OK
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ATS0OK>
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:15 pm ]  Success!
+[ 03-31-2017 05:04:15 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:15 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:14 pm ]  Testing...
+[ 03-31-2017 05:04:14 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:14 pm ]  Testing device
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: ATH1OK
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: ATH1OK>
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: ATSP6OK
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: ATSP6OK>
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: STSBR 2000000?
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: STSBR 2000000?>
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:14 pm ]  Success!
+[ 03-31-2017 05:04:14 pm ]  Subscribe got: ELM327 v1.5
+[ 03-31-2017 05:04:14 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:13 pm ]  Received from wifi: ATZ
+[ 03-31-2017 05:04:13 pm ]  Subscribe got: 
+[ 03-31-2017 05:04:13 pm ]  Subscribe got: ATE1OK
+[ 03-31-2017 05:04:13 pm ]  Received from wifi: ATE1OK>
+[ 03-31-2017 05:04:13 pm ]  Testing...
+[ 03-31-2017 05:04:13 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:04:13 pm ]  Testing device
+[ 03-31-2017 05:04:11 pm ]  Parsing ELM
+[ 03-31-2017 05:04:11 pm ]  Sent ATE0
+[ 03-31-2017 05:04:11 pm ]  Received from wifi: ELM327 v1.5>
+[ 03-31-2017 05:04:10 pm ]  []
+[ 03-31-2017 05:04:10 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:04:10 pm ]  Connected to 
+[ 03-31-2017 05:04:10 pm ]  Sending 28 commands
+[ 03-31-2017 05:04:10 pm ]  Completed command sequence, took 11427ms, received 238 messages, 14 force send requests
+[ 03-31-2017 05:04:09 pm ]  Parsing 0A 
+[ 03-31-2017 05:04:09 pm ]  Sent ATBD
+[ 03-31-2017 05:04:09 pm ]  Received from wifi: 0A 00 00 05 0A 85 13 A0 15 80 A0 00 00 >
+[ 03-31-2017 05:04:09 pm ]  Parsing BUF
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 50A
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 1F9
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Got regen braking  00 00 00 02 D8 
+[ 03-31-2017 05:04:09 pm ]  Parsing 1D5
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Got motor Amps  00 00 09 D0 9D 46 EA 00 
+[ 03-31-2017 05:04:09 pm ]  Parsing 180
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Got motor Volts  03 76 1B 7F 00 00 0A 
+[ 03-31-2017 05:04:09 pm ]  Parsing 176
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 174
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 216
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 215
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 130
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 354
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Parsing 285
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Got distance traveled  53 45 53 18 27 DD E3 70 
+[ 03-31-2017 05:04:09 pm ]  Parsing 284
+[ 03-31-2017 05:04:09 pm ]  Sent ATMA
+[ 03-31-2017 05:04:09 pm ]  Received from wifi: 284 53 45 53 18 27 DD E3 70 285 53 02 53 34 00 00 E3 46 354 27 DD 00 00 A0 10 00 18 130 01 12 44 215 FF F0 FF 00 FF FF 216 42 60 174 00 00 00 BB 0A 00 00 00 176 03 76 1B 7F 00 00 0A 180 00 00 09 D0 9D 46 EA 00 1D5 00 00 00 02 D8 1F9 00 00 00 00 00 00 00 00 50A 8BUFFER FULL>
+[ 03-31-2017 05:04:08 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:08 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:07 pm ]  Parsing BUF
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Parsing 1CA
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got motor Amps  00 00 08 40 84 3F AE 00 
+[ 03-31-2017 05:04:07 pm ]  Parsing 180
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got motor Volts  03 91 1C 54 00 00 0E 
+[ 03-31-2017 05:04:07 pm ]  Parsing 176
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Parsing 174
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got Vehicle speed!  29 87 2A 6F 20 00 60 
+[ 03-31-2017 05:04:07 pm ]  Parsing 355
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Parsing 2DE
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got turning angle!  E0 FF 00 07 2B 
+[ 03-31-2017 05:04:07 pm ]  Parsing 002
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got Seat Belts  01 FF C0 00 29 87 FF C0 
+[ 03-31-2017 05:04:07 pm ]  Parsing 280
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Parsing 130
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Got 12v Battery voltage  80 A8 28 80 20 00 00 03 
+[ 03-31-2017 05:04:07 pm ]  Parsing 292
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Parsing 245
+[ 03-31-2017 05:04:07 pm ]  Sent ATMA
+[ 03-31-2017 05:04:07 pm ]  Received from wifi: 245 7F F8 01 1A 83 00 7F F3 292 80 A8 28 80 20 00 00 03 130 01 11 43 280 01 FF C0 00 29 87 FF C0 002 E0 FF 00 07 2B 2DE 00 00 00 00 00 00 02 58 355 29 87 2A 6F 20 00 60 174 00 00 00 BB 0E 00 00 00 176 03 91 1C 54 00 00 0E 180 00 00 08 40 84 3F AE 00 1CA 00 00 00 00 05 00 54 FB BUFFER FULL>
+[ 03-31-2017 05:04:07 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:07 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:06 pm ]  Parsing BUF
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 2DE
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got possible charging/discharging current  C0 72 72 F6 90 D0 18 00 
+[ 03-31-2017 05:04:06 pm ]  Parsing 5C0
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 130
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 285
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got distance traveled  54 F4 55 01 28 B9 48 4D 
+[ 03-31-2017 05:04:06 pm ]  Parsing 284
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got available regen  50 0E 23 30 
+[ 03-31-2017 05:04:06 pm ]  Parsing 260
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 1F9
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got regen braking  00 00 00 03 D9 
+[ 03-31-2017 05:04:06 pm ]  Parsing 1D5
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got motor Amps  00 00 07 10 71 39 2B 00 
+[ 03-31-2017 05:04:06 pm ]  Parsing 180
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Got motor Volts  03 8B 1C 24 00 00 0B 
+[ 03-31-2017 05:04:06 pm ]  Parsing 176
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 174
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Parsing 216
+[ 03-31-2017 05:04:06 pm ]  Sent ATMA
+[ 03-31-2017 05:04:06 pm ]  Received from wifi: 216 42 60 174 00 00 00 BB 0B 00 00 00 176 03 8B 1C 24 00 00 0B 180 00 00 07 10 71 39 2B 00 1D5 00 00 00 03 D9 1F9 00 00 00 00 00 00 00 00 260 50 0E 23 30 284 54 F4 55 01 28 B9 48 4D 285 55 22 55 4B 00 00 48 E6 130 01 10 42 5C0 C0 72 72 F6 90 D0 18 00 2DE 00 00 00 00 BUFFER FULL>
+[ 03-31-2017 05:04:06 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:05 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:05 pm ]  Parsing BUF
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 2DE
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Got turning angle!  EF FF 00 07 8E 
+[ 03-31-2017 05:04:05 pm ]  Parsing 002
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 50A
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 1F9
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Got regen braking  00 00 00 02 D8 
+[ 03-31-2017 05:04:05 pm ]  Parsing 1D5
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Got motor Amps  00 00 05 50 55 2F E6 00 
+[ 03-31-2017 05:04:05 pm ]  Parsing 180
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Got motor Volts  03 8E 1C 38 00 00 06 
+[ 03-31-2017 05:04:05 pm ]  Parsing 176
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 174
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 130
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Parsing 285
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Got distance traveled  55 69 55 59 28 EA 0C 10 
+[ 03-31-2017 05:04:05 pm ]  Parsing 284
+[ 03-31-2017 05:04:05 pm ]  Sent ATMA
+[ 03-31-2017 05:04:05 pm ]  Received from wifi: 284 55 69 55 59 28 EA 0C 10 285 55 62 55 9B 00 00 0C 3A 130 01 10 42 174 00 00 00 BB 06 00 00 00 176 03 8E 1C 38 00 00 06 180 00 00 05 50 55 2F E6 00 1D5 00 00 00 02 D8 1F9 00 00 00 00 00 00 00 00 50A 85 53 A0 15 80 A0 002 EF FF 00 07 8E 2DE 00 00 00 00 00 00 02 58BUFFER FULL>
+[ 03-31-2017 05:04:05 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:04 pm ]  Received from wifi: ?>
+[ 03-31-2017 05:04:03 pm ]  Parsing BUF
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 260
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 1F9
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Got regen braking  00 00 00 01 D7 
+[ 03-31-2017 05:04:03 pm ]  Parsing 1D5
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Got motor Amps  00 00 05 50 55 2F E1 00 
+[ 03-31-2017 05:04:03 pm ]  Parsing 180
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Got motor Volts  03 93 1C 62 00 00 01 
+[ 03-31-2017 05:04:03 pm ]  Parsing 176
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 174
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 2DE
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Got turning angle!  FC FF 00 07 04 
+[ 03-31-2017 05:04:03 pm ]  Parsing 002
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 130
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 354
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Parsing 285
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Got distance traveled  56 02 55 CD 29 2B AF 03 
+[ 03-31-2017 05:04:03 pm ]  Parsing 284
+[ 03-31-2017 05:04:03 pm ]  Sent ATMA
+[ 03-31-2017 05:04:03 pm ]  Received from wifi: 284 56 02 55 CD 29 2B AF 03 285 55 FB 56 17 00 00 AF F3 354 29 2B 00 00 A0 00 00 18 130 01 12 44 002 FC FF 00 07 04 2DE 00 00 00 00 00 00 02 62 174 00 00 00 BB 01 00 00 00 176 03 93 1C 62 00 00 01 180 00 00 05 50 55 2F E1 00 1D5 00 00 00 01 D7 1F9 00 00 00 00 00 00 00 00 260 BUFFER FULL>
+[ 03-31-2017 05:04:03 pm ]  Parsing 0C 
+[ 03-31-2017 05:04:03 pm ]  Sent ATBD
+[ 03-31-2017 05:04:03 pm ]  Received from wifi: 0C 00 00 07 93 05 62 12 30 00 45 00 00 >
+[ 03-31-2017 05:03:58 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:58 pm ]  Watching CAN for known messages
+[ 03-31-2017 05:03:58 pm ]  Completed command sequence, took 30948ms
+[ 03-31-2017 05:03:57 pm ]  undefined
+[ 03-31-2017 05:03:57 pm ]  Setting history point
+[ 03-31-2017 05:03:57 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:57 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:57 pm ]  Got 793  05 62 12 30 00 45 00 00 
+[ 03-31-2017 05:03:57 pm ]  Parsing 793
+[ 03-31-2017 05:03:57 pm ]  Sent 03221230
+[ 03-31-2017 05:03:57 pm ]  Received from wifi: 793 05 62 12 30 00 45 00 00 
+[ 03-31-2017 05:03:57 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:57 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:57 pm ]  Got 793  05 62 12 10 00 00 00 00 
+[ 03-31-2017 05:03:57 pm ]  Parsing 793
+[ 03-31-2017 05:03:57 pm ]  Sent 03221210
+[ 03-31-2017 05:03:57 pm ]  Received from wifi: 793 05 62 12 10 00 00 00 00 
+[ 03-31-2017 05:03:56 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:56 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:56 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:56 pm ]  Got 765  21 A6 9E F0 00 00 FF FF 
+[ 03-31-2017 05:03:56 pm ]  Parsing 765
+[ 03-31-2017 05:03:56 pm ]  Sent 022110
+[ 03-31-2017 05:03:56 pm ]  Got 765  10 0B 61 10 00 00 A5 A6 
+[ 03-31-2017 05:03:56 pm ]  Parsing 765
+[ 03-31-2017 05:03:56 pm ]  Sent 022110
+[ 03-31-2017 05:03:56 pm ]  Received from wifi: 765 10 0B 61 10 00 00 A5 A6 765 21 A6 9E F0 00 00 FF FF 
+[ 03-31-2017 05:03:55 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:55 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:55 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:55 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:55 pm ]  Got 763  21 FC 29 81 01 10 EA 00 
+[ 03-31-2017 05:03:55 pm ]  Parsing 763
+[ 03-31-2017 05:03:55 pm ]  Sent 022101
+[ 03-31-2017 05:03:55 pm ]  Got 763  10 82 61 01 00 00 00 28 
+[ 03-31-2017 05:03:55 pm ]  Parsing 763
+[ 03-31-2017 05:03:55 pm ]  Sent 022101
+[ 03-31-2017 05:03:54 pm ]  Received from wifi: 763 10 82 61 01 00 00 00 28 763 21 FC 29 81 01 10 EA 00 
+[ 03-31-2017 05:03:54 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:54 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:53 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:53 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:52 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:52 pm ]  Got 7BB cell voltage   21 0D 13 02 13 12 02 19 
+[ 03-31-2017 05:03:52 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:52 pm ]  Sent 022104
+[ 03-31-2017 05:03:52 pm ]  Got 7BB cell voltage   10 10 61 04 02 05 14 02 
+[ 03-31-2017 05:03:52 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:52 pm ]  Sent 022104
+[ 03-31-2017 05:03:52 pm ]  Received from wifi: 7BB 10 10 61 04 02 05 14 02 7BB 21 0D 13 02 13 12 02 19 7BB 22 12 11 69 FF FF FF FF 
+[ 03-31-2017 05:03:52 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:52 pm ]  Got 7BB cell voltage   21 02 88 FF FE FF 39 FF 
+[ 03-31-2017 05:03:52 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:52 pm ]  Sent 022101
+[ 03-31-2017 05:03:52 pm ]  Got 7BB cell voltage   10 29 61 01 FF FE A6 24 
+[ 03-31-2017 05:03:52 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:52 pm ]  Sent 022101
+[ 03-31-2017 05:03:52 pm ]  Received from wifi: 7BB 10 29 61 01 FF FE A6 24 7BB 21 02 88 FF FE FF 39 FF 7BB 22 FF FF FF 0B 56 2A F8 7BB 23 8F 57 32 E8 03 83 00 7BB 24 6A 1C 62 00 09 06 80 7BB 25 00 08 9F 56 80 00 01 
+[ 03-31-2017 05:03:52 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:51 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:51 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:51 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:51 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:51 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:51 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:51 pm ]  Parsing 79A
+[ 03-31-2017 05:03:51 pm ]  Sent 0210C0
+[ 03-31-2017 05:03:51 pm ]  Received from wifi: 79A 02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:51 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:50 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:50 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:49 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:49 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:49 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:49 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:48 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:47 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:47 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:47 pm ]  Got 793  05 62 12 30 00 45 00 00 
+[ 03-31-2017 05:03:47 pm ]  Parsing 793
+[ 03-31-2017 05:03:47 pm ]  Sent 03221230
+[ 03-31-2017 05:03:47 pm ]  Received from wifi: 793 05 62 12 30 00 45 00 00 
+[ 03-31-2017 05:03:47 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:47 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:47 pm ]  Got 793  05 62 12 10 00 00 00 00 
+[ 03-31-2017 05:03:47 pm ]  Parsing 793
+[ 03-31-2017 05:03:47 pm ]  Sent 03221210
+[ 03-31-2017 05:03:47 pm ]  Received from wifi: 793 05 62 12 10 00 00 00 00 
+[ 03-31-2017 05:03:47 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:46 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:46 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:46 pm ]  Got 765  21 A6 9E F0 00 00 FF FF 
+[ 03-31-2017 05:03:46 pm ]  Parsing 765
+[ 03-31-2017 05:03:46 pm ]  Sent 022110
+[ 03-31-2017 05:03:46 pm ]  Got 765  10 0B 61 10 00 00 A5 A6 
+[ 03-31-2017 05:03:46 pm ]  Parsing 765
+[ 03-31-2017 05:03:46 pm ]  Sent 022110
+[ 03-31-2017 05:03:46 pm ]  Received from wifi: 765 10 0B 61 10 00 00 A5 A6 765 21 A6 9E F0 00 00 FF FF 
+[ 03-31-2017 05:03:46 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:45 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:45 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:45 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:45 pm ]  Got 763  21 74 2A FE 01 10 E9 00 
+[ 03-31-2017 05:03:45 pm ]  Parsing 763
+[ 03-31-2017 05:03:45 pm ]  Sent 022101
+[ 03-31-2017 05:03:45 pm ]  Got 763  10 82 61 01 00 00 00 2A 
+[ 03-31-2017 05:03:45 pm ]  Parsing 763
+[ 03-31-2017 05:03:45 pm ]  Sent 022101
+[ 03-31-2017 05:03:45 pm ]  Received from wifi: 763 10 82 61 01 00 00 00 2A 763 21 74 2A FE 01 10 E9 00 
+[ 03-31-2017 05:03:44 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:44 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:44 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:43 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:42 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:42 pm ]  Got 7BB cell voltage   21 0C 13 02 13 12 02 1A 
+[ 03-31-2017 05:03:42 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:42 pm ]  Sent 022104
+[ 03-31-2017 05:03:42 pm ]  Got 7BB cell voltage   10 10 61 04 02 05 14 02 
+[ 03-31-2017 05:03:42 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:42 pm ]  Sent 022104
+[ 03-31-2017 05:03:42 pm ]  Received from wifi: 7BB 10 10 61 04 02 05 14 02 7BB 21 0C 13 02 13 12 02 1A 7BB 22 11 11 6A FF FF FF FF 
+[ 03-31-2017 05:03:42 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:42 pm ]  Got 7BB cell voltage   21 02 88 FF FF 47 68 FF 
+[ 03-31-2017 05:03:42 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:42 pm ]  Sent 022101
+[ 03-31-2017 05:03:42 pm ]  Got 7BB cell voltage   10 29 61 01 FF FF 04 13 
+[ 03-31-2017 05:03:42 pm ]  Parsing 7BB
+[ 03-31-2017 05:03:42 pm ]  Sent 022101
+[ 03-31-2017 05:03:42 pm ]  Received from wifi: 7BB 10 29 61 01 FF FF 04 13 7BB 21 02 88 FF FF 47 68 FF 7BB 22 FF FF FF 0B 3A 2A F8 7BB 23 8F 6F 32 E8 03 82 00 7BB 24 67 1C 62 00 09 12 EE 7BB 25 00 08 9F 56 80 00 05 
+[ 03-31-2017 05:03:41 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:41 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:41 pm ]  Received from wifi: >
+[ 03-31-2017 05:03:41 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:41 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:41 pm ]  EVSE message invalid length
+[ 03-31-2017 05:03:41 pm ]  Got 79A  02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:41 pm ]  Parsing 79A
+[ 03-31-2017 05:03:41 pm ]  Sent 0210C0
+[ 03-31-2017 05:03:41 pm ]  Received from wifi: 79A 02 50 C0 00 00 00 00 00 
+[ 03-31-2017 05:03:40 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:40 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:39 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:39 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:37 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:37 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:37 pm ]  Received from wifi: OK>
+[ 03-31-2017 05:03:33 pm ]  Parsing ATE
+[ 03-31-2017 05:03:33 pm ]  Sent ATE0
+[ 03-31-2017 05:03:33 pm ]  Received from wifi: ATE0OK>
+[ 03-31-2017 05:03:32 pm ]  Parsing ATA
+[ 03-31-2017 05:03:32 pm ]  Sent ATAR
+[ 03-31-2017 05:03:32 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:03:28 pm ]  Parsing ATA
+[ 03-31-2017 05:03:28 pm ]  Sent ATAR
+[ 03-31-2017 05:03:28 pm ]  Received from wifi: ATAROK>
+[ 03-31-2017 05:03:27 pm ]  Connected to 
+[ 03-31-2017 05:03:27 pm ]  Sending 28 commands
+[ 03-31-2017 05:03:27 pm ]  Connected to 
+[ 03-31-2017 05:03:27 pm ]  Sending 28 commands
+[ 03-31-2017 05:03:27 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:03:27 pm ]  Route Changed
+[ 03-31-2017 05:03:27 pm ]  init
+[ 03-31-2017 05:03:27 pm ]  Listing wifi networks
+[ 03-31-2017 05:03:27 pm ]  Subscribe got: 
+[ 03-31-2017 05:03:27 pm ]  Subscribe got: ATE1?
+[ 03-31-2017 05:03:27 pm ]  Received from wifi: ATE1?>
+[ 03-31-2017 05:03:27 pm ]  Going to home
+[ 03-31-2017 05:03:27 pm ]  Device connected true
+[ 03-31-2017 05:03:27 pm ]  Testing...
+[ 03-31-2017 05:03:27 pm ]  Subscribing to Wifi ELM
+[ 03-31-2017 05:03:27 pm ]  Testing device
+[ 03-31-2017 05:03:27 pm ]  Connecting to wifi: 192.168.0.10
+[ 03-31-2017 05:03:27 pm ]  Found last connected wifi device: 192.168.0.10
+[ 03-31-2017 05:03:27 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"},{"type":"wifi","name":"Wifi OBD","address":"192.168.0.10","$$hashKey":"object:27"}]
+[ 03-31-2017 05:03:27 pm ]  Scanning...
+[ 03-31-2017 05:03:27 pm ]  History file write done.
+[ 03-31-2017 05:03:26 pm ]  OBD log file write done.
+[ 03-31-2017 05:03:24 pm ]  Listing wifi networks
+[ 03-31-2017 05:03:24 pm ]  Device connected true
+[ 03-31-2017 05:03:24 pm ]  Connected to Wifi!
+[ 03-31-2017 05:03:24 pm ]  Device connected false
+[ 03-31-2017 05:03:24 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
+[ 03-31-2017 05:03:24 pm ]  Scanned
+[ 03-31-2017 05:03:24 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-31-2017 05:03:24 pm ]  got 1 bluetooth accessories
+[ 03-31-2017 05:03:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 05:03:24 pm ]  Scanning inside manager
+[ 03-31-2017 05:03:24 pm ]  Scanning...
+[ 03-31-2017 05:03:24 pm ]  Bluetooth is enabled
+[ 03-31-2017 05:03:24 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-31-2017 05:03:24 pm ]  Device is ready!
+[ 03-31-2017 05:03:24 pm ]  Translating to en
+[ 03-31-2017 05:03:18 pm ]  I'm running angular!
+[ 03-31-2017 05:03:17 pm ]  Cleaning up history older than 24 hours
+HappyLeaf Version 0.1.9.3

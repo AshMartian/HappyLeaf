@@ -1,0 +1,42 @@
+[ 03-20-2017 04:30:36 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-20-2017 04:29:47 pm ]  Connection Timeout..
+[ 03-20-2017 04:29:44 pm ]  Going to home
+[ 03-20-2017 04:29:43 pm ]  Going to home
+[ 03-20-2017 04:29:42 pm ]  ATE0OK
+[ 03-20-2017 04:29:42 pm ]  Subscribe got:
+[ 03-20-2017 04:29:42 pm ]  ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+[ 03-20-2017 04:29:42 pm ]  Success!
+[ 03-20-2017 04:29:42 pm ]  ATIELM327 v1.5
+[ 03-20-2017 04:29:42 pm ]  Subscribe got:
+[ 03-20-2017 04:29:42 pm ]  ATS0OK
+[ 03-20-2017 04:29:42 pm ]  Subscribe got:
+[ 03-20-2017 04:29:42 pm ]  ATH1OK
+[ 03-20-2017 04:29:42 pm ]  Subscribe got:
+[ 03-20-2017 04:29:42 pm ]  ATSP6OK
+[ 03-20-2017 04:29:42 pm ]  Subscribe got:
+[ 03-20-2017 04:29:41 pm ]  Success!
+[ 03-20-2017 04:29:41 pm ]  ATZELM327 v1.5
+[ 03-20-2017 04:29:41 pm ]  Subscribe got:
+[ 03-20-2017 04:29:41 pm ]  OK
+[ 03-20-2017 04:29:41 pm ]  Subscribe got:
+[ 03-20-2017 04:29:41 pm ]  Testing..
+[ 03-20-2017 04:29:41 pm ]  Connected welcome
+[ 03-20-2017 04:29:41 pm ]  "OK"
+[ 03-20-2017 04:29:41 pm ]  I am now connected
+[ 03-20-2017 04:29:39 pm ]  is Disconnected Not connected.
+[ 03-20-2017 04:29:37 pm ]  Devices connected undefined
+[ 03-20-2017 04:29:37 pm ]  Devices changed
+[ 03-20-2017 04:29:37 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-20-2017 04:29:37 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-20-2017 04:29:37 pm ]  scanned
+[ 03-20-2017 04:29:37 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-20-2017 04:29:37 pm ]  got 1 bluetooth accessories
+[ 03-20-2017 04:29:37 pm ]  Scanning inside manager
+[ 03-20-2017 04:29:37 pm ]  [object Object]
+[ 03-20-2017 04:29:37 pm ]  scanning...
+[ 03-20-2017 04:29:36 pm ]  Bluetooth is enabled
+[ 03-20-2017 04:29:36 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-20-2017 04:29:36 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-20-2017 04:29:36 pm ]  Device is ready!
+[ 03-20-2017 04:29:35 pm ]  I'm running angular!
+HappyLeaf Version 0.1.7

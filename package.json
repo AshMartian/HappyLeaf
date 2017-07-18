@@ -1,24 +1,70 @@
 {
-  "name": "phonegap-template-hello-world",
-  "version": "4.0.2",
-  "description": "> A Hello World template built with PhoneGap",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+  "name": "www",
+  "version": "0.0.0",
+  "description": "Small description for www goes here",
+  "license": "MIT",
+  "author": "",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
   },
-  "author": "PhoneGap Team",
-  "license": "Apache-2.0.0",
-  "keywords": [
-    "ecosystem:phonegap",
-    "ecosystem:cordova",
-    "cordova:template",
-    "phonegap:template"
-  ],
-  "bugs": {
-    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
+  "repository": "",
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember test"
   },
-  "homepage": "https://github.com/phonegap/phonegap-app-hello-world",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.5",
+    "ember-ajax": "^3.0.0",
+    "ember-array-contains-helper": "^1.3.2",
+    "ember-cli": "2.13.2",
+    "ember-cli-accounting": "^2.0.1",
+    "ember-cli-app-version": "^3.0.0",
+    "ember-cli-babel": "^6.0.0",
+    "ember-cli-chart": "^3.2.2",
+    "ember-cli-dependency-checker": "^1.3.0",
+    "ember-cli-eslint": "^3.0.0",
+    "ember-cli-file-picker": "0.0.12",
+    "ember-cli-htmlbars": "^1.1.1",
+    "ember-cli-htmlbars-inline-precompile": "^0.4.0",
+    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-moment-shim": "^3.3.3",
+    "ember-cli-qunit": "^4.0.0",
+    "ember-cli-sass": "^6.2.0",
+    "ember-cli-sass-variables": "^1.0.1",
+    "ember-cli-shims": "^1.1.0",
+    "ember-cli-sri": "^2.1.0",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-cordova": "^0.4.14",
+    "ember-cordova-events": "^0.1.0",
+    "ember-data": "^2.14.3",
+    "ember-export-application-global": "^2.0.0",
+    "ember-gridstack": "^1.0.1",
+    "ember-i18n": "^5.0.1",
+    "ember-load-initializers": "^1.0.0",
+    "ember-local-storage": "^1.3.7",
+    "ember-lodash": "^4.17.4",
+    "ember-math-helpers": "^2.1.0",
+    "ember-moment": "^7.3.1",
+    "ember-paper": "^1.0.0-alpha.20",
+    "ember-paper-tabs": "0.0.1",
+    "ember-resize": "0.0.17",
+    "ember-resolver": "^4.0.0",
+    "ember-route-action-helper": "^2.0.3",
+    "ember-source": "~2.13.0",
+    "ember-truth-helpers": "^1.3.0",
+    "ember-welcome-page": "^3.0.0",
+    "loader.js": "^4.5.0",
+    "material-design-icons-iconfont": "^3.0.3",
+    "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "private": true,
   "dependencies": {
-    "angular-chart.js": "^1.1.1"
+    "ember-cli": "^2.13.2",
+    "ember-cli-shims": "^1.1.0"
   }
 }

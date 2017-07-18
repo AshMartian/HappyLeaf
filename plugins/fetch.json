@@ -127,14 +127,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-bluetooth-serial": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-bluetooth-serial"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-insomnia": {
         "source": {
             "type": "git",
@@ -219,5 +211,29 @@
         "variables": {
             "TEXT": "Connects to Bluetooth OBD device."
         }
+    },
+    "cordova-hot-code-push-plugin": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-hot-code-push-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-bluetooth-serial": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-bluetooth-serial"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-bluetoothle": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-bluetoothle@4.4.0"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

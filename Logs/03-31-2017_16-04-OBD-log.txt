@@ -1,0 +1,2672 @@
+[ 03-31-2017 04:10:47 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:10:47 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:10:47 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:10:47 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:10:46 pm ]  Subscribe got: 03221230NO DATA>
+[ 03-31-2017 04:10:46 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:10:46 pm ]  undefined
+[ 03-31-2017 04:10:46 pm ]  Setting history point
+[ 03-31-2017 04:10:46 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:10:46 pm ]  Success!
+[ 03-31-2017 04:10:46 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:41 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:10:40 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:10:40 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:40 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:10:40 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:40 pm ]  Testing...
+[ 03-31-2017 04:10:40 pm ]  Testing device
+[ 03-31-2017 04:10:40 pm ]  Subscribe got: 7F 02 11 >
+[ 03-31-2017 04:10:39 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: 7F 02 11 STOPPED>
+[ 03-31-2017 04:10:39 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:10:39 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:10:39 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:10:39 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:10:39 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:10:39 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ATCRA62X?>
+[ 03-31-2017 04:10:39 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:10:39 pm ]  Success!
+[ 03-31-2017 04:10:39 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:39 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:10:39 pm ]  Sending 28 commands
+[ 03-31-2017 04:10:39 pm ]  Completed command sequence, took 19500ms, received 0 messages, 2 force send requests
+[ 03-31-2017 04:10:39 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:10:38 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:10:38 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:38 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:38 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:38 pm ]  Testing...
+[ 03-31-2017 04:10:38 pm ]  Testing device
+[ 03-31-2017 04:10:38 pm ]  Subscribe got: 032212107F 03 11 >
+[ 03-31-2017 04:10:38 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:10:38 pm ]  Subscribe got: 0221047F 02 11 >
+[ 03-31-2017 04:10:38 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:10:38 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:10:38 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:10:38 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:10:37 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:10:37 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:10:37 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:10:37 pm ]  undefined
+[ 03-31-2017 04:10:37 pm ]  Setting history point
+[ 03-31-2017 04:10:37 pm ]  History file write done.
+[ 03-31-2017 04:10:37 pm ]  Subscribe got: ATFCSD300100OK>
+[ 03-31-2017 04:10:37 pm ]  OBD log file write done.
+[ 03-31-2017 04:10:36 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:10:36 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:10:36 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:10:36 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:10:36 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:10:36 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:36 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:10:35 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:10:35 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:35 pm ]  Testing...
+[ 03-31-2017 04:10:35 pm ]  Testing device
+[ 03-31-2017 04:10:35 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:35 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:10:30 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:10:30 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:10:30 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:10:30 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:10:30 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:10:30 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:10:30 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:10:30 pm ]  Subscribe got: 022104NO DATA>
+[ 03-31-2017 04:10:30 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:10:30 pm ]  Success!
+[ 03-31-2017 04:10:30 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:30 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:29 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:10:29 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:29 pm ]  Testing...
+[ 03-31-2017 04:10:29 pm ]  Testing device
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:10:29 pm ]  []
+[ 03-31-2017 04:10:29 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:10:29 pm ]  Success!
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 03-31-2017 04:10:29 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:10:29 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:10:29 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:10:29 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:10:29 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:10:29 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:10:29 pm ]  Success!
+[ 03-31-2017 04:10:29 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:28 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:10:28 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:10:28 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:28 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:28 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:28 pm ]  Testing...
+[ 03-31-2017 04:10:28 pm ]  Testing device
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: TCRA?>
+[ 03-31-2017 04:10:28 pm ]  Testing...
+[ 03-31-2017 04:10:28 pm ]  Testing device
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: ATMASTOPPED>
+[ 03-31-2017 04:10:28 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:10:28 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: 022110NO DATA>
+[ 03-31-2017 04:10:28 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: ATCF35FOK>
+[ 03-31-2017 04:10:28 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: TAR?>
+[ 03-31-2017 04:10:28 pm ]  Subscribe got: ATMA4C 00 A9 83 00 0C 00 00 <DATA ERRORSTOPPED>
+[ 03-31-2017 04:10:27 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:10:27 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:10:27 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:10:27 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATCF5CFOK>
+[ 03-31-2017 04:10:27 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATCF62FOK>
+[ 03-31-2017 04:10:27 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:27 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:27 pm ]  Testing...
+[ 03-31-2017 04:10:27 pm ]  Testing device
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATCRA62X?>
+[ 03-31-2017 04:10:27 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: 032212107F 03 11 >
+[ 03-31-2017 04:10:27 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: 0221017F 02 11 >
+[ 03-31-2017 04:10:27 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:10:27 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:10:27 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:10:27 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:10:26 pm ]  undefined
+[ 03-31-2017 04:10:26 pm ]  Setting history point
+[ 03-31-2017 04:10:26 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:26 pm ]  History file write done.
+[ 03-31-2017 04:10:26 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:10:25 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:10:25 pm ]  Subscribe got: 022110NO DATA>
+[ 03-31-2017 04:10:25 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:10:25 pm ]  OBD log file write done.
+[ 03-31-2017 04:10:25 pm ]  Success!
+[ 03-31-2017 04:10:25 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:10:24 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:24 pm ]  Testing...
+[ 03-31-2017 04:10:24 pm ]  Testing device
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATBD0C 00 00 07 BB 03 7F 02 11 FF FF FF FF >
+[ 03-31-2017 04:10:24 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:10:24 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:10:24 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:10:24 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:10:24 pm ]  Success!
+[ 03-31-2017 04:10:24 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:23 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:10:23 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:10:23 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:23 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:23 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:23 pm ]  Testing...
+[ 03-31-2017 04:10:23 pm ]  Testing device
+[ 03-31-2017 04:10:23 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:10:23 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:10:23 pm ]  Success!
+[ 03-31-2017 04:10:23 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:22 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:10:22 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:10:22 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:10:22 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:10:22 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:10:22 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATL0OK>
+[ 03-31-2017 04:10:22 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:10:22 pm ]  Success!
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 03-31-2017 04:10:22 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:10:22 pm ]  Success!
+[ 03-31-2017 04:10:22 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:21 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:10:21 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:10:21 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:21 pm ]  Testing...
+[ 03-31-2017 04:10:21 pm ]  Testing device
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:10:21 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:10:21 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATL0OK>
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:10:21 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: TFCSM1?>
+[ 03-31-2017 04:10:21 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: 0210C07F 02 11 STOPPED>
+[ 03-31-2017 04:10:21 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:10:21 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:10:21 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:10:21 pm ]  Success!
+[ 03-31-2017 04:10:21 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:10:21 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:10:20 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:10:20 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:10:20 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:10:20 pm ]  Testing...
+[ 03-31-2017 04:10:20 pm ]  Testing device
+[ 03-31-2017 04:10:20 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:10:20 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:10:20 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:10:20 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:10:20 pm ]  Subscribe got: H797?>
+[ 03-31-2017 04:10:20 pm ]  Subscribe got: XATAR?>
+[ 03-31-2017 04:10:20 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:10:20 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:10:19 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:10:19 pm ]  Sending 28 commands
+[ 03-31-2017 04:10:19 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:10:19 pm ]  Sending 28 commands
+[ 03-31-2017 04:10:19 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:10:19 pm ]  Sending 28 commands
+[ 03-31-2017 04:10:15 pm ]  undefined
+[ 03-31-2017 04:10:14 pm ]  Setting history point
+[ 03-31-2017 04:10:07 pm ]  undefined
+[ 03-31-2017 04:10:06 pm ]  Setting history point
+[ 03-31-2017 04:10:05 pm ]  sent: X got: OK
+[ 03-31-2017 04:10:05 pm ]  Subscribe got: ATCF35FOK>
+[ 03-31-2017 04:10:05 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:10:05 pm ]  Subscribe got: ATCRA35X?>
+[ 03-31-2017 04:10:04 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:10:04 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:09:59 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:09:59 pm ]  Subscribe got: XATFCSD300100?>
+[ 03-31-2017 04:09:59 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:59 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:59 pm ]  Subscribe got: 022104NO DATA>
+[ 03-31-2017 04:09:59 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:59 pm ]  Success!
+[ 03-31-2017 04:09:59 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:59 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:59 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:58 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:58 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:58 pm ]  Testing...
+[ 03-31-2017 04:09:58 pm ]  Testing device
+[ 03-31-2017 04:09:58 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:58 pm ]  Testing...
+[ 03-31-2017 04:09:58 pm ]  Testing device
+[ 03-31-2017 04:09:58 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:58 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:58 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATCRA?>
+[ 03-31-2017 04:09:58 pm ]  Testing...
+[ 03-31-2017 04:09:58 pm ]  Testing device
+[ 03-31-2017 04:09:58 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: 022101NO DATA>
+[ 03-31-2017 04:09:58 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATCF5CFOK>
+[ 03-31-2017 04:09:58 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:09:58 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:09:58 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:58 pm ]  Success!
+[ 03-31-2017 04:09:58 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:57 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:57 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:57 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:57 pm ]  Testing...
+[ 03-31-2017 04:09:57 pm ]  Testing device
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:09:57 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:09:57 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:09:57 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATMAC0 68 6E 20 90 C8 18 00 <DATA ERROR00 00 00 00 00 00 7B 01 00 00 00 00 00 00 7B 02 00 00 00 00 A0 10 00 18 B: 00 00 07 3D 12 00 3F FF FF FF FF FF FF 4: 86 37 28 1C FA FC 00 FF D0 00 00 60 03 8C <DATA ERROR00 00 00 00 05 00 54 BF 00 00 00 00 00 00 04 E2 00 00 00 AA 0B 00 00 00 00 BUFFER FULL>
+[ 03-31-2017 04:09:57 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:09:57 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:57 pm ]  Subscribe got: 032212107F 03 11 >
+[ 03-31-2017 04:09:56 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:56 pm ]  Subscribe got: 0221047F 02 11 >
+[ 03-31-2017 04:09:56 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:56 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:09:56 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:09:56 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:09:56 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:56 pm ]  Success!
+[ 03-31-2017 04:09:56 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:56 pm ]  undefined
+[ 03-31-2017 04:09:56 pm ]  Setting history point
+[ 03-31-2017 04:09:56 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:56 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:09:56 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:56 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:09:56 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:56 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:09:56 pm ]  []
+[ 03-31-2017 04:09:56 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:55 pm ]  []
+[ 03-31-2017 04:09:55 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:55 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:55 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:55 pm ]  Completed command sequence, took 3911ms
+[ 03-31-2017 04:09:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:55 pm ]  Testing...
+[ 03-31-2017 04:09:55 pm ]  Testing device
+[ 03-31-2017 04:09:55 pm ]  []
+[ 03-31-2017 04:09:55 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:55 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:55 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:55 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:55 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:55 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:55 pm ]  Completed command sequence, took 3834ms
+[ 03-31-2017 04:09:55 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:55 pm ]  Success!
+[ 03-31-2017 04:09:55 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:54 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: FCSH743?>
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: 022101STOPPED>
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:54 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:09:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:54 pm ]  Testing...
+[ 03-31-2017 04:09:54 pm ]  Testing device
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:54 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:54 pm ]  Subscribe got: 022104NO DATA>
+[ 03-31-2017 04:09:53 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:53 pm ]  Subscribe got: ATBD0C 00 00 07 44 01 97 00 00 00 00 00 00 >
+[ 03-31-2017 04:09:53 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:53 pm ]  Success!
+[ 03-31-2017 04:09:53 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:53 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:53 pm ]  Testing...
+[ 03-31-2017 04:09:53 pm ]  Testing device
+[ 03-31-2017 04:09:53 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:53 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:52 pm ]  []
+[ 03-31-2017 04:09:52 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:52 pm ]  Success!
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:52 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:52 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:52 pm ]  Completed command sequence, took 1878ms, received 0 messages, 100 force send requests
+[ 03-31-2017 04:09:52 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:52 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:52 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:52 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:52 pm ]  Testing...
+[ 03-31-2017 04:09:52 pm ]  Testing device
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:52 pm ]  Testing...
+[ 03-31-2017 04:09:52 pm ]  Testing device
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:52 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATCRA35X?>
+[ 03-31-2017 04:09:52 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: XATMA?>
+[ 03-31-2017 04:09:52 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:52 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:09:52 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: 97STOPPED>
+[ 03-31-2017 04:09:52 pm ]  Subscribe got: ATBD0C 00 00 07 64 03 7F 03 11 FF FF FF FF >
+[ 03-31-2017 04:09:52 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:52 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:51 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:51 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 62ms, received 0 messages, 26 force send requests
+[ 03-31-2017 04:09:51 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATBD0C 00 00 07 64 03 7F 03 11 FF FF FF FF >
+[ 03-31-2017 04:09:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:51 pm ]  Testing...
+[ 03-31-2017 04:09:51 pm ]  Testing device
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:51 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:51 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 20ms, received 0 messages, 0 force send requests
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Testing...
+[ 03-31-2017 04:09:51 pm ]  Testing device
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: TL0?>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: 764037F0311STOPPED>
+[ 03-31-2017 04:09:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 397ms
+[ 03-31-2017 04:09:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: 03221230STOPPED>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: TAR?>
+[ 03-31-2017 04:09:51 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:51 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:09:51 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:51 pm ]  Success!
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:09:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:51 pm ]  Testing...
+[ 03-31-2017 04:09:51 pm ]  Testing device
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:51 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:51 pm ]  Testing...
+[ 03-31-2017 04:09:51 pm ]  Testing device
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  Success!
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:09:51 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: 0C 00 00 07 DF 04 03 22 12 10 00 00 00 >
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATFCSH744 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSH744 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:51 pm ]  Success!
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 03-31-2017 04:09:51 pm ]  Beginning DTC request
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 12953ms
+[ 03-31-2017 04:09:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:51 pm ]  Testing...
+[ 03-31-2017 04:09:51 pm ]  Testing device
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:51 pm ]  Success!
+[ 03-31-2017 04:09:51 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:51 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 197ms
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 35ms
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:51 pm ]  Completed command sequence, took 12825ms
+[ 03-31-2017 04:09:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:51 pm ]  []
+[ 03-31-2017 04:09:51 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:51 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:50 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:50 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATBD0C 00 00 07 DF 04 03 22 12 10 00 00 00 >
+[ 03-31-2017 04:09:50 pm ]  []
+[ 03-31-2017 04:09:50 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:50 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:50 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:50 pm ]  Completed command sequence, took 12383ms
+[ 03-31-2017 04:09:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:09:50 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:09:50 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATFCSD300100OK>
+[ 03-31-2017 04:09:50 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:50 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:50 pm ]  Testing...
+[ 03-31-2017 04:09:50 pm ]  Testing device
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:09:50 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: 03221210NO DATA>
+[ 03-31-2017 04:09:50 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:09:50 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:50 pm ]  Success!
+[ 03-31-2017 04:09:50 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:49 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:49 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:49 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:49 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:49 pm ]  Subscribe got: 03221230NO DATA>
+[ 03-31-2017 04:09:49 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:49 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:49 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:48 pm ]  History file write done.
+[ 03-31-2017 04:09:48 pm ]  Subscribe got: 03221210NO DATA>
+[ 03-31-2017 04:09:44 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:44 pm ]  Success!
+[ 03-31-2017 04:09:44 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:44 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:44 pm ]  OBD log file write done.
+[ 03-31-2017 04:09:43 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:43 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:43 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:43 pm ]  Testing...
+[ 03-31-2017 04:09:43 pm ]  Testing device
+[ 03-31-2017 04:09:43 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:43 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:09:43 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:09:43 pm ]  undefined
+[ 03-31-2017 04:09:43 pm ]  Setting history point
+[ 03-31-2017 04:09:39 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:39 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:39 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:39 pm ]  Subscribe got: XATAR?>
+[ 03-31-2017 04:09:38 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:38 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:38 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:38 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:38 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:38 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:38 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:36 pm ]  undefined
+[ 03-31-2017 04:09:36 pm ]  Setting history point
+[ 03-31-2017 04:09:35 pm ]  History file write done.
+[ 03-31-2017 04:09:35 pm ]  OBD log file write done.
+[ 03-31-2017 04:09:34 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:09:34 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 03-31-2017 04:09:33 pm ]  Could not connect to wifi "failed to connect to /192.168.0.10 (port 35000): connect failed: ETIMEDOUT (Connection timed out)"
+[ 03-31-2017 04:09:27 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:27 pm ]  Subscribe got: ATCF62FOK>
+[ 03-31-2017 04:09:27 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:09:27 pm ]  Subscribe got: ATCAF0OK>
+[ 03-31-2017 04:09:27 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:27 pm ]  Subscribe got: ATFCSD300100OK>
+[ 03-31-2017 04:09:26 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:09:26 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:09:26 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:09:26 pm ]  Success!
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:26 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:26 pm ]  History file write done.
+[ 03-31-2017 04:09:26 pm ]  undefined
+[ 03-31-2017 04:09:26 pm ]  Setting history point
+[ 03-31-2017 04:09:26 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:26 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:26 pm ]  Testing...
+[ 03-31-2017 04:09:26 pm ]  Testing device
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:26 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: TBD?>
+[ 03-31-2017 04:09:26 pm ]  Subscribe got: 0210C0STOPPED>
+[ 03-31-2017 04:09:25 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:25 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:25 pm ]  Completed command sequence, took 2382ms
+[ 03-31-2017 04:09:25 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:25 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:09:25 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:09:25 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:09:25 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:25 pm ]  OBD log file write done.
+[ 03-31-2017 04:09:25 pm ]  Subscribe got: XATI?>
+[ 03-31-2017 04:09:25 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:25 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:25 pm ]  Subscribe got: ATMA00 00 00 AA 0D 00 00 00 00 00 00 00 00 00 0D 00 00 00 00 00 00 2D 00 00 00 00 01 D7 00 00 00 00 00 00 00 00 50 28 19 00 <DATA ERROR00 00 00 00 00 00 04 E2 FF D0 00 00 60 01 03 <DATA ERROR00 00 00 00 05 00 54 15 B: 00 00 07 A4 FF F0 FF 00 FF FF <DATA ERROR42 64 <DATA ERROR0BUFFER FULL>
+[ 03-31-2017 04:09:24 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:24 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:09:24 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:09:24 pm ]  Success!
+[ 03-31-2017 04:09:24 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:23 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:09:23 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:23 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:23 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:23 pm ]  Testing...
+[ 03-31-2017 04:09:23 pm ]  Testing device
+[ 03-31-2017 04:09:23 pm ]  Subscribe got: ATMA00 00 00 AA 01 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 21 00 00 00 00 01 D7 00 00 00 00 00 00 00 00 50 28 19 00 <DATA ERRORFF C0 00 00 00 00 00 00 00 04 E2 00 00 00 00 05 00 54 26 FF D0 00 00 60 02 09 <DATA ERROR00 00 00 00 20 00 60 B: 00 00 07 B5 00 00 00 00 00 00 EF 7BUFFER FULL>
+[ 03-31-2017 04:09:23 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:23 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:23 pm ]  Completed command sequence, took 15899ms, received 0 messages, 2 force send requests
+[ 03-31-2017 04:09:23 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:23 pm ]  Success!
+[ 03-31-2017 04:09:23 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:23 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:22 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATBD0C 00 00 07 65 03 7F 02 11 FF FF FF FF >
+[ 03-31-2017 04:09:22 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:09:22 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: 022101765 03 7F 02 11 >
+[ 03-31-2017 04:09:22 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:22 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:22 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATBD0C 00 00 07 BB 03 7F 02 11 FF FF FF FF >
+[ 03-31-2017 04:09:22 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:09:22 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:09:22 pm ]  Success!
+[ 03-31-2017 04:09:22 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:21 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:21 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:21 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:21 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:21 pm ]  Testing...
+[ 03-31-2017 04:09:21 pm ]  Testing device
+[ 03-31-2017 04:09:21 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:09:21 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:21 pm ]  Subscribe got: ATFCSD300100OK>
+[ 03-31-2017 04:09:21 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:21 pm ]  Subscribe got: 0210C07BB 03 7F 02 11 >
+[ 03-31-2017 04:09:20 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:09:20 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: 0322123079A 03 7F 03 11 >
+[ 03-31-2017 04:09:20 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:09:20 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: 0210C079A 03 7F 02 11 >
+[ 03-31-2017 04:09:20 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:20 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: XATCF5CF?>
+[ 03-31-2017 04:09:20 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:09:20 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:20 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:19 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:19 pm ]  Testing...
+[ 03-31-2017 04:09:19 pm ]  Testing device
+[ 03-31-2017 04:09:19 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:09:19 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:19 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:09:19 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:09:19 pm ]  Success!
+[ 03-31-2017 04:09:19 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:09:18 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:18 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:18 pm ]  Success!
+[ 03-31-2017 04:09:18 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:09:13 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:13 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:13 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:13 pm ]  Success!
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:09:13 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:13 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: ATCF5CFOK>
+[ 03-31-2017 04:09:13 pm ]  undefined
+[ 03-31-2017 04:09:13 pm ]  Setting history point
+[ 03-31-2017 04:09:13 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:13 pm ]  Testing...
+[ 03-31-2017 04:09:13 pm ]  Testing device
+[ 03-31-2017 04:09:13 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:13 pm ]  Testing...
+[ 03-31-2017 04:09:13 pm ]  Testing device
+[ 03-31-2017 04:09:13 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:09:13 pm ]  Success!
+[ 03-31-2017 04:09:13 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:08 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:08 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:08 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:08 pm ]  Testing...
+[ 03-31-2017 04:09:08 pm ]  Testing device
+[ 03-31-2017 04:09:08 pm ]  Subscribe got: TSBR 2000000?>
+[ 03-31-2017 04:09:08 pm ]  Testing...
+[ 03-31-2017 04:09:08 pm ]  Testing device
+[ 03-31-2017 04:09:08 pm ]  Subscribe got: 03221210STOPPED>
+[ 03-31-2017 04:09:08 pm ]  []
+[ 03-31-2017 04:09:08 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:08 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:09:08 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:08 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:09:08 pm ]  Subscribe got: XATE0?>
+[ 03-31-2017 04:09:08 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:09:08 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:08 pm ]  Subscribe got: ATCRA5BX?>
+[ 03-31-2017 04:09:08 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:09:07 pm ]  Subscribe got: XXATMA?>
+[ 03-31-2017 04:09:07 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  Subscribe got: TCRA5BX?>
+[ 03-31-2017 04:09:07 pm ]  Subscribe got: ATMA00 00 00 AA 07 00 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 27 00 00 00 00 03 D9 00 00 00 00 00 00 00 00 FF F0 FF 00 FF FF <DATA ERROR50 28 19 00 <DATA ERRORB: 00 00 07 B5 42 64 <DATA ERRORFF C0 00 STOPPED>
+[ 03-31-2017 04:09:07 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:09:07 pm ]  Subscribe got: X?>
+[ 03-31-2017 04:09:07 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:07 pm ]  Success!
+[ 03-31-2017 04:09:07 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: X got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:07 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:07 pm ]  Completed command sequence, took 382ms
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:07 pm ]  []
+[ 03-31-2017 04:09:07 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:07 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:07 pm ]  Completed command sequence, took 2474ms
+[ 03-31-2017 04:09:07 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:07 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:09:06 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:06 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:06 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:06 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:06 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:09:06 pm ]  Testing...
+[ 03-31-2017 04:09:06 pm ]  Testing device
+[ 03-31-2017 04:09:06 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:06 pm ]  Testing...
+[ 03-31-2017 04:09:06 pm ]  Testing device
+[ 03-31-2017 04:09:06 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:09:06 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:09:06 pm ]  Success!
+[ 03-31-2017 04:09:06 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:06 pm ]  undefined
+[ 03-31-2017 04:09:06 pm ]  Setting history point
+[ 03-31-2017 04:09:05 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATCRA35X?>
+[ 03-31-2017 04:09:05 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: 210C0>
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATMA04 00 00 2B 00 00 07 A4 00 00 00 00 00 00 04 E2 03 FF D0 00 00 60 01 03 STOPPED>
+[ 03-31-2017 04:09:05 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATCAF0OK>
+[ 03-31-2017 04:09:05 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:09:05 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATMA00 00 00 AA 05 00 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 25 00 00 00 00 01 D7 00 00 00 00 00 00 00 00 50 28 19 00 <DATA ERRORB: 00 00 07 0E 00 00 00 00 00 00 04 E2 FF D0 00 00 60 03 8C <DATA ERROR00 00 00 00 05 00 54 BF 7F F8 01 1A 6C 00 7F F0 <DATA ERROR7D 88 00 8BUFFER FULL>
+[ 03-31-2017 04:09:05 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:09:05 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:09:05 pm ]  Success!
+[ 03-31-2017 04:09:05 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:05 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:05 pm ]  Testing...
+[ 03-31-2017 04:09:05 pm ]  Testing device
+[ 03-31-2017 04:09:05 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:05 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:09:04 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:04 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:04 pm ]  Completed command sequence, took 708ms, received 0 messages, 2 force send requests
+[ 03-31-2017 04:09:04 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:04 pm ]  Testing...
+[ 03-31-2017 04:09:04 pm ]  Testing device
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: STOPPED>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: STOPPED>
+[ 03-31-2017 04:09:04 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: STOPPED>
+[ 03-31-2017 04:09:04 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:04 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:09:04 pm ]  Testing...
+[ 03-31-2017 04:09:04 pm ]  Testing device
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: STOPPED>
+[ 03-31-2017 04:09:04 pm ]  []
+[ 03-31-2017 04:09:04 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:09:04 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:09:04 pm ]  Sending 28 commands
+[ 03-31-2017 04:09:04 pm ]  Completed command sequence, took 1102ms, received 0 messages, 0 force send requests
+[ 03-31-2017 04:09:04 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:09:04 pm ]  Testing...
+[ 03-31-2017 04:09:04 pm ]  Testing device
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:09:04 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:04 pm ]  Success!
+[ 03-31-2017 04:09:04 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:09:03 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:09:03 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:09:03 pm ]  Completed command sequence, took 4783ms
+[ 03-31-2017 04:09:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:09:02 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:09:02 pm ]  []
+[ 03-31-2017 04:09:02 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:09:02 pm ]  Success!
+[ 03-31-2017 04:09:02 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:58 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:58 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:58 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:08:58 pm ]  Completed command sequence, took 2806ms
+[ 03-31-2017 04:08:58 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:57 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:08:57 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:08:57 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATCRA5BX?>
+[ 03-31-2017 04:08:57 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:57 pm ]  Testing...
+[ 03-31-2017 04:08:57 pm ]  Testing device
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: XATMA?>
+[ 03-31-2017 04:08:57 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:57 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: SH79B?>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: TSH743?>
+[ 03-31-2017 04:08:57 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: 0210C07F 02 11 STOPPED>
+[ 03-31-2017 04:08:57 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:08:57 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:08:57 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:57 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:08:56 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:56 pm ]  Success!
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:56 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:08:56 pm ]  undefined
+[ 03-31-2017 04:08:56 pm ]  Setting history point
+[ 03-31-2017 04:08:56 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:56 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:56 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:56 pm ]  Testing...
+[ 03-31-2017 04:08:56 pm ]  Testing device
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:08:56 pm ]  Subscribe got: ATMA00 00 00 00 00 00 86 0C 00 00 00 00 00 00 86 0D 01 10 42 00 00 00 AA 02 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 22 00 00 00 00 02 D8 00 00 00 00 00 00 00 00 04 31 00 17 00 A0 2B 00 00 07 A4 00 00 00 00 00 00 04 E2 FF F0 FF 00 FF FF 42 64 FF D0 00 00 60 01 03 00 00 00BUFFER FULLSTOPPED>
+[ 03-31-2017 04:08:56 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATMA2B 00 00 07 79 03 FF C0 00 00 00 FF C0 00 00 00 00 00 00 04 E2 00 00 00 00 20 00 60 FF D0 00 00 60 02 09 00 00 00 00 05 00 54 62 00 00 00 00 00 00 81 07 00 00 00 00 00 00 81 08 00 00 00 00 A0 08 00 18 01 12 44 00 00 00 AA 08 00 00 00 00 00 00 00 00 00 08 00 00 00 00 00BUFFER FULLSTOPPED>
+[ 03-31-2017 04:08:55 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: �022101NO DATA>
+[ 03-31-2017 04:08:55 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:55 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:55 pm ]  Testing...
+[ 03-31-2017 04:08:55 pm ]  Testing device
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:55 pm ]  Testing...
+[ 03-31-2017 04:08:55 pm ]  Testing device
+[ 03-31-2017 04:08:55 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:55 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:08:55 pm ]  Completed command sequence, took 4299ms
+[ 03-31-2017 04:08:55 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATMA2B 00 00 07 A4 FF F0 FF 00 FF FF 00 00 00 00 00 00 04 E2 42 64 FF D0 00 00 60 01 03 00 00 00 AA 04 00 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 24 00 00 00 00 00 05 00 54 15 00 00 00 00 D6 00 00 00 00 00 00 00 00 00 00 00 80 FF 00 00 00 7F F8 01 1A 67 00 7F F3 BUFFER FULL>
+[ 03-31-2017 04:08:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:08:55 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: ATCAF0OK>
+[ 03-31-2017 04:08:55 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:55 pm ]  Subscribe got: 022101NO DATA>
+[ 03-31-2017 04:08:54 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:08:54 pm ]  Success!
+[ 03-31-2017 04:08:54 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:54 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:54 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:08:54 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:54 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:08:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:54 pm ]  Testing...
+[ 03-31-2017 04:08:54 pm ]  Testing device
+[ 03-31-2017 04:08:54 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:08:54 pm ]  Success!
+[ 03-31-2017 04:08:54 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:53 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:08:53 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:08:52 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:08:52 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:52 pm ]  Testing...
+[ 03-31-2017 04:08:52 pm ]  Testing device
+[ 03-31-2017 04:08:52 pm ]  []
+[ 03-31-2017 04:08:52 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:52 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:08:52 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:08:52 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:08:52 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:52 pm ]  Subscribe got: ATCRA35X?>
+[ 03-31-2017 04:08:52 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:08:52 pm ]  Subscribe got: ATL0OK>
+[ 03-31-2017 04:08:52 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:52 pm ]  Success!
+[ 03-31-2017 04:08:52 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:52 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:51 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:51 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:51 pm ]  Completed command sequence, took 1748ms
+[ 03-31-2017 04:08:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:51 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:51 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:51 pm ]  Testing...
+[ 03-31-2017 04:08:51 pm ]  Testing device
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: XATCF5CF?>
+[ 03-31-2017 04:08:51 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:08:51 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:08:51 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:08:51 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATCRA5BX?>
+[ 03-31-2017 04:08:51 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: TMA?>
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: 0210C07F 02 11 STOPPED>
+[ 03-31-2017 04:08:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:51 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:08:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:08:51 pm ]  Completed command sequence, took 13816ms
+[ 03-31-2017 04:08:51 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATMASTOPPED>
+[ 03-31-2017 04:08:51 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:08:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: L�ATE1?>
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ATFCSD300100OK>
+[ 03-31-2017 04:08:51 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:51 pm ]  Testing...
+[ 03-31-2017 04:08:51 pm ]  Testing device
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: ����ATCF35F?>
+[ 03-31-2017 04:08:51 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:08:50 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:08:50 pm ]  Success!
+[ 03-31-2017 04:08:50 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 03-31-2017 04:08:50 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:08:50 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:08:50 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:08:50 pm ]  Success!
+[ 03-31-2017 04:08:50 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:08:50 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:50 pm ]  []
+[ 03-31-2017 04:08:50 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:08:50 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:50 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:50 pm ]  Completed command sequence, took 347ms, received 0 messages, 27 force send requests
+[ 03-31-2017 04:08:50 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:50 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:08:50 pm ]  Subscribe got: 284 00 00 00 00 00 00 5C E2 285 00 00 00 00 00 00 5C E3 130 01 10 42 174 00 00 00 AA 0C 00 00 00 176 00 00 00 00 00 00 0C 180 00 00 00 00 00 00 2C 00 1D5 00 00 00 00 D6 1F9 00 00 00 00 00 00 00 00 551 00 00 00 80 FF 00 00 00 215 FF F0 FF 00 FF FF 216 42 64 625 BUFFER FULLSTOPPED>
+[ 03-31-2017 04:08:50 pm ]  []
+[ 03-31-2017 04:08:50 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:49 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:08:49 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: 0C 00 00 07 9A 03 7F 22 80 00 00 00 00 >
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:49 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:49 pm ]  Beginning DTC request
+[ 03-31-2017 04:08:49 pm ]  Completed command sequence, took 13298ms
+[ 03-31-2017 04:08:49 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:08:49 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:49 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:49 pm ]  Testing...
+[ 03-31-2017 04:08:49 pm ]  Testing device
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: 79A 03 7F 22 80 00 00 00 00 >
+[ 03-31-2017 04:08:49 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:49 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: 284 00 00 00 00 00 00 3B C1 285 00 00 00 00 00 00 3B C2 354 00 00 00 00 A0 10 00 18 130 01 12 44 215 FF F0 FF 00 FF FF 216 42 64 002 2B 00 00 07 0E 174 00 00 00 AA 0C 00 00 00 176 00 00 00 00 00 00 0C 180 00 00 00 00 00 00 2C 00 1D5 00 00 00 00 D6 1F9 00 00 00 00 00 00 00 BUFFER FULLSTOPPED>
+[ 03-31-2017 04:08:49 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:08:49 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:49 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:48 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:08:48 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:48 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:48 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:48 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:48 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:48 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:47 pm ]  History file write done.
+[ 03-31-2017 04:08:47 pm ]  OBD log file write done.
+[ 03-31-2017 04:08:47 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:43 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:43 pm ]  Subscribe got: XATAR?>
+[ 03-31-2017 04:08:42 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:42 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:08:42 pm ]  undefined
+[ 03-31-2017 04:08:42 pm ]  Setting history point
+[ 03-31-2017 04:08:37 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:37 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:37 pm ]  Completed command sequence, took 713ms, received 0 messages, 0 force send requests
+[ 03-31-2017 04:08:37 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:37 pm ]  Testing...
+[ 03-31-2017 04:08:37 pm ]  Testing device
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:37 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:37 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:36 pm ]  Subscribe got: XATAR?>
+[ 03-31-2017 04:08:36 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:36 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:36 pm ]  undefined
+[ 03-31-2017 04:08:36 pm ]  Setting history point
+[ 03-31-2017 04:08:36 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:36 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:36 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:36 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:36 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:36 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:35 pm ]  History file write done.
+[ 03-31-2017 04:08:35 pm ]  OBD log file write done.
+[ 03-31-2017 04:08:34 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:08:26 pm ]  undefined
+[ 03-31-2017 04:08:26 pm ]  Setting history point
+[ 03-31-2017 04:08:25 pm ]  History file write done.
+[ 03-31-2017 04:08:24 pm ]  OBD log file write done.
+[ 03-31-2017 04:08:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:08:23 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:23 pm ]  Success!
+[ 03-31-2017 04:08:23 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:21 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:21 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:21 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:21 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:21 pm ]  Testing...
+[ 03-31-2017 04:08:21 pm ]  Testing device
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:08:21 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:08:21 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:21 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:21 pm ]  Completed command sequence, took 17700ms, received 0 messages, 0 force send requests
+[ 03-31-2017 04:08:21 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATCAF0OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:21 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:08:21 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:21 pm ]  Subscribe got: XATE1?>
+[ 03-31-2017 04:08:21 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:21 pm ]  Testing...
+[ 03-31-2017 04:08:21 pm ]  Testing device
+[ 03-31-2017 04:08:19 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:19 pm ]  Success!
+[ 03-31-2017 04:08:19 pm ]  Subscribe got: ELM327 v1.5>
+[ 03-31-2017 04:08:18 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:18 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:18 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:18 pm ]  []
+[ 03-31-2017 04:08:18 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: >
+[ 03-31-2017 04:08:18 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: 7BB037F0311STOPPED>
+[ 03-31-2017 04:08:18 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:18 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: 0C 00 00 07 BB 02 50 C0 FF FF FF FF FF >
+[ 03-31-2017 04:08:18 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:18 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:18 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:08:18 pm ]  Completed command sequence, took 5975ms
+[ 03-31-2017 04:08:18 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:18 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: TE1?>
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: 10C07BB0250C0STOPPED>
+[ 03-31-2017 04:08:18 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:18 pm ]  Testing...
+[ 03-31-2017 04:08:18 pm ]  Testing device
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:08:18 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:08:18 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: ATFCSH79BOK>
+[ 03-31-2017 04:08:18 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:08:18 pm ]  Subscribe got: 022104763037F0211>
+[ 03-31-2017 04:08:17 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:08:17 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:08:17 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:08:17 pm ]  Subscribe got: ATL0OK>
+[ 03-31-2017 04:08:17 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:08:17 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:08:17 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:08:17 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:08:17 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: TSP6?>
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: 0221107F 02 11 STOPPED>
+[ 03-31-2017 04:08:16 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:08:16 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:16 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:16 pm ]  Testing...
+[ 03-31-2017 04:08:16 pm ]  Testing device
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:08:16 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:08:16 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:08:16 pm ]  Subscribe got: XATAR?>
+[ 03-31-2017 04:08:16 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:12 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:12 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:12 pm ]  Completed command sequence, took 18100ms, received 0 messages, 1 force send requests
+[ 03-31-2017 04:08:12 pm ]  sent: X got: OK
+[ 03-31-2017 04:08:12 pm ]  Subscribe got: ATFCSH797OK>
+[ 03-31-2017 04:08:12 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:08:12 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:12 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:12 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:08:12 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:12 pm ]  Subscribe got: 0210C0NO DATA>
+[ 03-31-2017 04:08:12 pm ]  undefined
+[ 03-31-2017 04:08:11 pm ]  Setting history point
+[ 03-31-2017 04:08:11 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:08:11 pm ]  Success!
+[ 03-31-2017 04:08:11 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:07 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:08:06 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATSH797OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:06 pm ]  Testing...
+[ 03-31-2017 04:08:06 pm ]  Testing device
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: 0221047F 02 11 >
+[ 03-31-2017 04:08:06 pm ]  undefined
+[ 03-31-2017 04:08:06 pm ]  Setting history point
+[ 03-31-2017 04:08:06 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: 0221107F 02 11 >
+[ 03-31-2017 04:08:06 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATSH792OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: ATFCSH792OK>
+[ 03-31-2017 04:08:06 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:08:06 pm ]  Subscribe got: 022101NO DATA>
+[ 03-31-2017 04:08:05 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:08:05 pm ]  Success!
+[ 03-31-2017 04:08:05 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:05 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:08:05 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:05 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:05 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:05 pm ]  Testing...
+[ 03-31-2017 04:08:05 pm ]  Testing device
+[ 03-31-2017 04:08:05 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:08:05 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:05 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATCAF0OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:08:04 pm ]  Success!
+[ 03-31-2017 04:08:04 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:04 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:04 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:08:03 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:03 pm ]  Testing...
+[ 03-31-2017 04:08:03 pm ]  Testing device
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:08:03 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:03 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:08:03 pm ]  Sending 28 commands
+[ 03-31-2017 04:08:03 pm ]  Completed command sequence, took 1695ms, received 0 messages, 29 force send requests
+[ 03-31-2017 04:08:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: 03221230NO DATA>
+[ 03-31-2017 04:08:03 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:08:03 pm ]  Success!
+[ 03-31-2017 04:08:03 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:08:03 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:08:02 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:08:02 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:08:02 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:08:02 pm ]  Testing...
+[ 03-31-2017 04:08:02 pm ]  Testing device
+[ 03-31-2017 04:08:02 pm ]  Subscribe got: ATBD0C 00 00 07 BB 03 7F 02 11 FF FF FF FF >
+[ 03-31-2017 04:08:02 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:08:02 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:08:02 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:08:02 pm ]  Completed command sequence, took 7511ms
+[ 03-31-2017 04:08:02 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:56 pm ]  Subscribe got: ATFCSM1?>
+[ 03-31-2017 04:07:56 pm ]  undefined
+[ 03-31-2017 04:07:56 pm ]  Setting history point
+[ 03-31-2017 04:07:56 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:07:55 pm ]  Subscribe got: 0210C07F 02 11 >
+[ 03-31-2017 04:07:55 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:07:55 pm ]  Subscribe got: ATSH79BOK>
+[ 03-31-2017 04:07:55 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:07:55 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:07:55 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:07:55 pm ]  Subscribe got: ATFCSH743OK>
+[ 03-31-2017 04:07:55 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:07:55 pm ]  Success!
+[ 03-31-2017 04:07:55 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:07:54 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:54 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:07:54 pm ]  Completed command sequence, took 736ms
+[ 03-31-2017 04:07:54 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:07:54 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:07:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATSH743OK>
+[ 03-31-2017 04:07:54 pm ]  Testing...
+[ 03-31-2017 04:07:54 pm ]  Testing device
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: FCSH743?>
+[ 03-31-2017 04:07:54 pm ]  Testing...
+[ 03-31-2017 04:07:54 pm ]  Testing device
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: 43STOPPED>
+[ 03-31-2017 04:07:54 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: TFCSD300100?>
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: 022101STOPPED>
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATSH745OK>
+[ 03-31-2017 04:07:54 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATFCSH745OK>
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATFCSD300000OK>
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: M!92?>
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATE1OK>
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: U03221230?>
+[ 03-31-2017 04:07:54 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:07:54 pm ]  Testing...
+[ 03-31-2017 04:07:54 pm ]  Testing device
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: TL0?>
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: ATMA1CB FF D0 00 00 60 00 86 <DATA ERROR1CA 00 00 00 00 05 00 54 04 215 FF F0 FF 00 FF FF <DATA ERROR216 42 64 <DATA ERRORSTOPPED>
+[ 03-31-2017 04:07:54 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: TE0?>
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: 022110STOPPED>
+[ 03-31-2017 04:07:54 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:07:54 pm ]  Completed command sequence, took 16856ms
+[ 03-31-2017 04:07:54 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:07:54 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:07:54 pm ]  Subscribe got: 03221230NO DATA>
+[ 03-31-2017 04:07:53 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:07:53 pm ]  Subscribe got: ATAROK>
+[ 03-31-2017 04:07:53 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:53 pm ]  Subscribe got: ATBD0C 00 00 07 92 22 10 00 00 00 00 00 00 >
+[ 03-31-2017 04:07:53 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:07:53 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:53 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:07:53 pm ]  Completed command sequence, took 18477ms
+[ 03-31-2017 04:07:53 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:07:53 pm ]  Success!
+[ 03-31-2017 04:07:53 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:07:53 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:07:52 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:07:52 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:07:52 pm ]  Testing...
+[ 03-31-2017 04:07:52 pm ]  Testing device
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:07:52 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: ?>
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: STOPPED>
+[ 03-31-2017 04:07:52 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: 793037F211200000000STOPPED>
+[ 03-31-2017 04:07:52 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:07:52 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:07:52 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:07:51 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:51 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:07:51 pm ]  Subscribe got: 0C 00 00 03 54 00 00 00 00 A0 08 00 18 >
+[ 03-31-2017 04:07:51 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:07:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:07:51 pm ]  Completed command sequence, took 12200ms
+[ 03-31-2017 04:07:51 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:07:51 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:07:51 pm ]  Subscribe got: >
+[ 03-31-2017 04:07:50 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:07:50 pm ]  Testing...
+[ 03-31-2017 04:07:50 pm ]  Testing device
+[ 03-31-2017 04:07:50 pm ]  Listing wifi networks
+[ 03-31-2017 04:07:50 pm ]  Going to home
+[ 03-31-2017 04:07:50 pm ]  Scanning...
+[ 03-31-2017 04:07:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:50 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:07:49 pm ]  History file write done.
+[ 03-31-2017 04:07:49 pm ]  OBD log file write done.
+[ 03-31-2017 04:07:44 pm ]  Connected welcome
+[ 03-31-2017 04:07:44 pm ]  "OK"
+[ 03-31-2017 04:07:44 pm ]  I am now connected to Bluetooth
+[ 03-31-2017 04:07:39 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:39 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:39 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:39 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:39 pm ]  Route Changed
+[ 03-31-2017 04:07:39 pm ]  init
+[ 03-31-2017 04:07:38 pm ]  Listing wifi networks
+[ 03-31-2017 04:07:38 pm ]  Going to home
+[ 03-31-2017 04:07:38 pm ]  Device connected true
+[ 03-31-2017 04:07:38 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:38 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:38 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:68"}]
+[ 03-31-2017 04:07:38 pm ]  Scanning...
+[ 03-31-2017 04:07:38 pm ]  Bluetooth is enabled
+[ 03-31-2017 04:07:38 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:07:38 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-31-2017 04:07:37 pm ]  Device is ready!
+[ 03-31-2017 04:07:37 pm ]  Translating to en
+[ 03-31-2017 04:07:37 pm ]  I'm running angular!
+[ 03-31-2017 04:07:37 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:37 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:37 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:37 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:36 pm ]  undefined
+[ 03-31-2017 04:07:36 pm ]  Setting history point
+[ 03-31-2017 04:07:36 pm ]  History file write done.
+[ 03-31-2017 04:07:35 pm ]  OBD log file write done.
+[ 03-31-2017 04:07:35 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:35 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:34 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:07:26 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:07:26 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:07:26 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:26 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:26 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:07:26 pm ]  undefined
+[ 03-31-2017 04:07:25 pm ]  Setting history point
+[ 03-31-2017 04:07:25 pm ]  History file write done.
+[ 03-31-2017 04:07:25 pm ]  OBD log file write done.
+[ 03-31-2017 04:07:24 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:24 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:07:17 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:17 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:17 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:07:17 pm ]  Completed command sequence, took 350ms
+[ 03-31-2017 04:07:17 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:17 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:07:17 pm ]  Beginning DTC request
+[ 03-31-2017 04:07:17 pm ]  Completed command sequence, took 2336ms
+[ 03-31-2017 04:07:17 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:16 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:16 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:16 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:16 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:15 pm ]  sent: X got: OK
+[ 03-31-2017 04:07:14 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:14 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:06 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:06 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:07:06 pm ]  undefined
+[ 03-31-2017 04:07:06 pm ]  Setting history point
+[ 03-31-2017 04:07:06 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:06 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:05 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:05 pm ]  Sending 28 commands
+[ 03-31-2017 04:07:05 pm ]  Completed command sequence, took 1006ms, received 23 messages, 1 force send requests
+[ 03-31-2017 04:07:05 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:07:04 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:07:04 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:56 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:06:56 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:56 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:56 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:56 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:56 pm ]  undefined
+[ 03-31-2017 04:06:55 pm ]  Setting history point
+[ 03-31-2017 04:06:54 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:54 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:46 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:06:46 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:46 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:46 pm ]  sent: X got: OK
+[ 03-31-2017 04:06:44 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:44 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:36 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:06:36 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:06:36 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:36 pm ]  undefined
+[ 03-31-2017 04:06:36 pm ]  Setting history point
+[ 03-31-2017 04:06:36 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:36 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:35 pm ]  History file write done.
+[ 03-31-2017 04:06:35 pm ]  OBD log file write done.
+[ 03-31-2017 04:06:35 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:06:34 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:06:33 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:06:33 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:33 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:33 pm ]  Listing wifi networks
+[ 03-31-2017 04:06:33 pm ]  Going to home
+[ 03-31-2017 04:06:33 pm ]  Scanning...
+[ 03-31-2017 04:06:33 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:33 pm ]  History file write done.
+[ 03-31-2017 04:06:32 pm ]  OBD log file write done.
+[ 03-31-2017 04:06:31 pm ]  Listing wifi networks
+[ 03-31-2017 04:06:31 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:25 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:25 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:25 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:25 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:25 pm ]  Route Changed
+[ 03-31-2017 04:06:25 pm ]  init
+[ 03-31-2017 04:06:24 pm ]  "Device connection was lost"
+[ 03-31-2017 04:06:24 pm ]  Connection failed Device connection was lost
+[ 03-31-2017 04:06:24 pm ]  Going to home
+[ 03-31-2017 04:06:24 pm ]  Device connected true
+[ 03-31-2017 04:06:24 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:24 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:24 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:68"}]
+[ 03-31-2017 04:06:24 pm ]  Scanning...
+[ 03-31-2017 04:06:24 pm ]  Bluetooth is enabled
+[ 03-31-2017 04:06:24 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:06:24 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-31-2017 04:06:24 pm ]  Device is ready!
+[ 03-31-2017 04:06:24 pm ]  Translating to en
+[ 03-31-2017 04:06:24 pm ]  I'm running angular!
+[ 03-31-2017 04:06:22 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:06:21 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:06:20 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:06:19 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:19 pm ]  Parsing BUF
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Parsing 354
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Parsing 285
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got distance traveled 000000000000D157
+[ 03-31-2017 04:06:19 pm ]  Parsing 284
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got Vehicle speed! 00000000200060
+[ 03-31-2017 04:06:19 pm ]  Parsing 355
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Parsing 2DE
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got Seat Belts 03FFC0000000FFC0
+[ 03-31-2017 04:06:19 pm ]  Parsing 280
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Parsing 1CA
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got target braking FFD00000600103
+[ 03-31-2017 04:06:19 pm ]  Parsing 1CB
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got available regen 50281900
+[ 03-31-2017 04:06:19 pm ]  Parsing 260
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Parsing 1F9
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got regen braking 00000001D7
+[ 03-31-2017 04:06:19 pm ]  Parsing 1D5
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got motor Amps 0000000000002D00
+[ 03-31-2017 04:06:19 pm ]  Parsing 180
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:19 pm ]  Got motor Volts 0000000000000D
+[ 03-31-2017 04:06:19 pm ]  Parsing 176
+[ 03-31-2017 04:06:19 pm ]  Sent OK
+[ 03-31-2017 04:06:18 pm ]  Parsing 174
+[ 03-31-2017 04:06:18 pm ]  Sent OK
+[ 03-31-2017 04:06:18 pm ]  Parsing 216
+[ 03-31-2017 04:06:18 pm ]  Sent OK
+[ 03-31-2017 04:06:18 pm ]  Parsing 215
+[ 03-31-2017 04:06:18 pm ]  Sent OK
+[ 03-31-2017 04:06:18 pm ]  Got turning angle! 2B0000074A
+[ 03-31-2017 04:06:18 pm ]  Parsing 002
+[ 03-31-2017 04:06:18 pm ]  Sent OK
+[ 03-31-2017 04:06:18 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:18 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:18 pm ]  Completed command sequence, took 2528ms, received 365 messages, 1 force send requests
+[ 03-31-2017 04:06:18 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:06:18 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:06:17 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:06:16 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:06:16 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:06:16 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:06:16 pm ]  Sending 28 commands
+[ 03-31-2017 04:06:06 pm ]  undefined
+[ 03-31-2017 04:06:05 pm ]  Setting history point
+[ 03-31-2017 04:06:04 pm ]  Got 765 106261010004E166
+[ 03-31-2017 04:06:04 pm ]  Parsing 765
+[ 03-31-2017 04:06:04 pm ]  Sent OK
+[ 03-31-2017 04:06:04 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:06:04 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:06:03 pm ]  Got 793 0562123000450000
+[ 03-31-2017 04:06:03 pm ]  Parsing 793
+[ 03-31-2017 04:06:03 pm ]  Sent OK
+[ 03-31-2017 04:06:03 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:06:03 pm ]  Parsing 0C 
+[ 03-31-2017 04:06:03 pm ]  Sent OK
+[ 03-31-2017 04:06:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:03 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:06:03 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:06:03 pm ]  Completed command sequence, took 3775ms
+[ 03-31-2017 04:06:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:03 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:06:03 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:06:03 pm ]  sent: X got: OK
+[ 03-31-2017 04:06:03 pm ]  Parsing 354
+[ 03-31-2017 04:06:03 pm ]  Sent OK
+[ 03-31-2017 04:06:03 pm ]  Got Vehicle speed! 00000000200060
+[ 03-31-2017 04:06:03 pm ]  Parsing 355
+[ 03-31-2017 04:06:03 pm ]  Sent OK
+[ 03-31-2017 04:06:03 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:06:02 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:06:02 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:06:01 pm ]  sent: X got: OK
+[ 03-31-2017 04:06:01 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-31-2017 04:06:01 pm ]  Parsing 625
+[ 03-31-2017 04:06:01 pm ]  Sent OK
+[ 03-31-2017 04:06:01 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:06:01 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:06:01 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:06:01 pm ]  Parsing 5E4
+[ 03-31-2017 04:06:01 pm ]  Sent OK
+[ 03-31-2017 04:06:01 pm ]  sent: X got: OK
+[ 03-31-2017 04:06:00 pm ]  Got ODO! 4C00A983000C0000
+[ 03-31-2017 04:06:00 pm ]  Parsing 5C5
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5E4
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5FB
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5FC
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5FA
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got ODO! 4C00A983000C0000
+[ 03-31-2017 04:06:00 pm ]  Parsing 5C5
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5E4
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5E3
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got ODO! 4C00A983000C0000
+[ 03-31-2017 04:06:00 pm ]  Parsing 5C5
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 5E4
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:06:00 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:06:00 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:06:00 pm ]  Parsing BUF
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got regen braking 00000001D7
+[ 03-31-2017 04:06:00 pm ]  Parsing 1D5
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got motor Amps 0000000000002D00
+[ 03-31-2017 04:06:00 pm ]  Parsing 180
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got motor Volts 0000000000000D
+[ 03-31-2017 04:06:00 pm ]  Parsing 176
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 174
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-31-2017 04:06:00 pm ]  Parsing 60D
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 130
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got 12v Battery voltage 7E28008000000003
+[ 03-31-2017 04:06:00 pm ]  Parsing 292
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 245
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got turning angle! 2B0000070E
+[ 03-31-2017 04:06:00 pm ]  Parsing 002
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 2DE
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 1CA
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got target braking FFD00000600086
+[ 03-31-2017 04:06:00 pm ]  Parsing 1CB
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 50D
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  sent: X got: OK
+[ 03-31-2017 04:06:00 pm ]  Got 'transmission' status 080000
+[ 03-31-2017 04:06:00 pm ]  Parsing 421
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 1F9
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got regen braking 00000000D6
+[ 03-31-2017 04:06:00 pm ]  Parsing 1D5
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Got motor Amps 0000000000002C00
+[ 03-31-2017 04:06:00 pm ]  Parsing 180
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  Parsing 0C 
+[ 03-31-2017 04:06:00 pm ]  Sent OK
+[ 03-31-2017 04:06:00 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:06:00 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:06:00 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:06:00 pm ]  Completed command sequence, took 3976ms
+[ 03-31-2017 04:06:00 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:05:59 pm ]  Got 793 0562123000450000
+[ 03-31-2017 04:05:59 pm ]  Parsing 793
+[ 03-31-2017 04:05:59 pm ]  Sent OK
+[ 03-31-2017 04:05:59 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:05:59 pm ]  Got 793 0562121000000000
+[ 03-31-2017 04:05:59 pm ]  Parsing 793
+[ 03-31-2017 04:05:59 pm ]  Sent OK
+[ 03-31-2017 04:05:59 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:05:59 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:05:59 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:05:59 pm ]  Got 765 210000F00000FFFF
+[ 03-31-2017 04:05:59 pm ]  Parsing 765
+[ 03-31-2017 04:05:59 pm ]  Sent OK
+[ 03-31-2017 04:05:59 pm ]  Got 765 100B611000000000
+[ 03-31-2017 04:05:59 pm ]  Parsing 765
+[ 03-31-2017 04:05:59 pm ]  Sent OK
+[ 03-31-2017 04:05:59 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:05:59 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:05:59 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:05:58 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:05:58 pm ]  Got 763 210000000110CC00
+[ 03-31-2017 04:05:58 pm ]  Parsing 763
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  Got 763 1082610100000000
+[ 03-31-2017 04:05:58 pm ]  Parsing 763
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:05:58 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:05:58 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:05:58 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:05:58 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  212610022B100234
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  10106104021B1102
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  2500089F56800005
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  245C1C62000E0F47
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:58 pm ]  Got battery volts: 392.6
+[ 03-31-2017 04:05:58 pm ]  Got 7BB cell voltage  23995C2D06039B00
+[ 03-31-2017 04:05:58 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:58 pm ]  Sent OK
+[ 03-31-2017 04:05:57 pm ]  Got 7BB cell voltage  22FFFFFF01242AF8
+[ 03-31-2017 04:05:57 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:57 pm ]  Sent OK
+[ 03-31-2017 04:05:57 pm ]  Got 7BB cell voltage  2102880000010AFF
+[ 03-31-2017 04:05:57 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:57 pm ]  Sent OK
+[ 03-31-2017 04:05:57 pm ]  Got 7BB cell voltage  10296101000002AB
+[ 03-31-2017 04:05:57 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:57 pm ]  Sent OK
+[ 03-31-2017 04:05:57 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:05:57 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:05:57 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:05:56 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:05:56 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:05:56 pm ]  Parsing 79A
+[ 03-31-2017 04:05:56 pm ]  Sent OK
+[ 03-31-2017 04:05:56 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:05:56 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:05:56 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:05:56 pm ]  Sending 28 commands
+[ 03-31-2017 04:05:46 pm ]  Got 793 037F211200000000
+[ 03-31-2017 04:05:46 pm ]  Parsing 793
+[ 03-31-2017 04:05:46 pm ]  Sent OK
+[ 03-31-2017 04:05:46 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:05:46 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:05:46 pm ]  Sending 28 commands
+[ 03-31-2017 04:05:36 pm ]  Got 793 037F211200000000
+[ 03-31-2017 04:05:36 pm ]  Parsing 793
+[ 03-31-2017 04:05:36 pm ]  Sent OK
+[ 03-31-2017 04:05:36 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:05:36 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:05:36 pm ]  Sending 28 commands
+[ 03-31-2017 04:05:35 pm ]  undefined
+[ 03-31-2017 04:05:35 pm ]  Setting history point
+[ 03-31-2017 04:05:28 pm ]  History file write done.
+[ 03-31-2017 04:05:28 pm ]  OBD log file write done.
+[ 03-31-2017 04:05:27 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:05:26 pm ]  Got 793 0250C00000000000
+[ 03-31-2017 04:05:26 pm ]  Parsing 793
+[ 03-31-2017 04:05:26 pm ]  Sent OK
+[ 03-31-2017 04:05:26 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:05:26 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:05:26 pm ]  Sending 28 commands
+[ 03-31-2017 04:05:15 pm ]  Got 793 0562121000000000
+[ 03-31-2017 04:05:15 pm ]  Parsing 793
+[ 03-31-2017 04:05:15 pm ]  Sent OK
+[ 03-31-2017 04:05:15 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:05:15 pm ]  Got 793 0562123000450000
+[ 03-31-2017 04:05:15 pm ]  Parsing 793
+[ 03-31-2017 04:05:15 pm ]  Sent OK
+[ 03-31-2017 04:05:15 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:05:14 pm ]  Got 793 0562121000000000
+[ 03-31-2017 04:05:14 pm ]  Parsing 793
+[ 03-31-2017 04:05:14 pm ]  Sent OK
+[ 03-31-2017 04:05:14 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:05:14 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:05:14 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:05:14 pm ]  Got 765 210000F00000FFFF
+[ 03-31-2017 04:05:14 pm ]  Parsing 765
+[ 03-31-2017 04:05:14 pm ]  Sent OK
+[ 03-31-2017 04:05:14 pm ]  Got 765 100B611000000000
+[ 03-31-2017 04:05:14 pm ]  Parsing 765
+[ 03-31-2017 04:05:14 pm ]  Sent OK
+[ 03-31-2017 04:05:14 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:05:14 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:05:14 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:05:14 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:05:14 pm ]  Got 763 210000000110CC00
+[ 03-31-2017 04:05:14 pm ]  Parsing 763
+[ 03-31-2017 04:05:14 pm ]  Sent OK
+[ 03-31-2017 04:05:14 pm ]  Got 763 1082610100000000
+[ 03-31-2017 04:05:14 pm ]  Parsing 763
+[ 03-31-2017 04:05:14 pm ]  Sent OK
+[ 03-31-2017 04:05:14 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  212610022C100233
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  10106104021C1102
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  2500089F56800005
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  245C1C62000E0F47
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got battery volts: 392.72
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  2399682D40039B00
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  22FFFFFF011E2AF8
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  210288000003B5FF
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  Got 7BB cell voltage  10296101FFFFFFCD
+[ 03-31-2017 04:05:13 pm ]  Parsing 7BB
+[ 03-31-2017 04:05:13 pm ]  Sent OK
+[ 03-31-2017 04:05:13 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:05:13 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:05:12 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:05:12 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:05:12 pm ]  Parsing 79A
+[ 03-31-2017 04:05:12 pm ]  Sent OK
+[ 03-31-2017 04:05:12 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:05:12 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:05:12 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:05:12 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:05:11 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:05:06 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:05:06 pm ]  Sending 28 commands
+[ 03-31-2017 04:05:05 pm ]  undefined
+[ 03-31-2017 04:05:05 pm ]  Setting history point
+[ 03-31-2017 04:04:57 pm ]  Got 765 2E00FFFFFFFFFFFF
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2D00000000000000
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2C00000000000700
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2B00000000000000
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2A00000000000000
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2900000000000000
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:57 pm ]  Got 765 2820000000000000
+[ 03-31-2017 04:04:57 pm ]  Parsing 765
+[ 03-31-2017 04:04:57 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2700040003000046
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2640018002D10080
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2500004300510000
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2400000000000080
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2300000000000000
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2204003F8A00DE61
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 2107810101200401
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  Got 765 106261010004E166
+[ 03-31-2017 04:04:56 pm ]  Parsing 765
+[ 03-31-2017 04:04:56 pm ]  Sent OK
+[ 03-31-2017 04:04:56 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:04:56 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:04:56 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:04:56 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:04:55 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:55 pm ]  Parsing BUF
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got regen braking 00000001D7
+[ 03-31-2017 04:04:55 pm ]  Parsing 1D5
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got motor Amps 0000000000002D00
+[ 03-31-2017 04:04:55 pm ]  Parsing 180
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got motor Volts 0000000000000D
+[ 03-31-2017 04:04:55 pm ]  Parsing 176
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 174
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got turning angle! 2B000007B5
+[ 03-31-2017 04:04:55 pm ]  Parsing 002
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-31-2017 04:04:55 pm ]  Parsing 625
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 216
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 215
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got Parking Brake 1602FD
+[ 03-31-2017 04:04:55 pm ]  Parsing 58A
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 2DE
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 130
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got 12v Battery voltage 7D88008000000002
+[ 03-31-2017 04:04:55 pm ]  Parsing 292
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 245
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got target braking FFD00000600209
+[ 03-31-2017 04:04:55 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got Cruise Control 00000080FF000000
+[ 03-31-2017 04:04:55 pm ]  Got Cruise Control 00000080FF000000
+[ 03-31-2017 04:04:55 pm ]  Parsing 551
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:55 pm ]  Parsing BUF
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got motor Volts 00000000000
+[ 03-31-2017 04:04:55 pm ]  Parsing 176
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 174
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 216
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 215
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 2DE
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 130
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got 12v Battery voltage 7E27F68000000001
+[ 03-31-2017 04:04:55 pm ]  Parsing 292
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 245
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:04:55 pm ]  Got target braking FFD00000600086
+[ 03-31-2017 04:04:55 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 02A
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 50A
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got regen braking 00000002D8
+[ 03-31-2017 04:04:55 pm ]  Parsing 1D5
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got turning angle! 2B000007C2
+[ 03-31-2017 04:04:55 pm ]  Parsing 002
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got motor Amps 0000000000002A00
+[ 03-31-2017 04:04:55 pm ]  Parsing 180
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Got motor Volts 0000000000000A
+[ 03-31-2017 04:04:55 pm ]  Parsing 176
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 174
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATCRA got: OK
+[ 03-31-2017 04:04:55 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:04:55 pm ]  Got Vehicle speed! 00000000200060
+[ 03-31-2017 04:04:55 pm ]  Parsing 355
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:55 pm ]  Parsing 354
+[ 03-31-2017 04:04:55 pm ]  Sent OK
+[ 03-31-2017 04:04:54 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:54 pm ]  Parsing 351
+[ 03-31-2017 04:04:54 pm ]  Sent OK
+[ 03-31-2017 04:04:54 pm ]  Got Vehicle speed! 00000000200060
+[ 03-31-2017 04:04:54 pm ]  Parsing 355
+[ 03-31-2017 04:04:54 pm ]  Sent OK
+[ 03-31-2017 04:04:54 pm ]  Parsing 354
+[ 03-31-2017 04:04:54 pm ]  Sent OK
+[ 03-31-2017 04:04:54 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:54 pm ]  sent: ATCRA35X got: OK
+[ 03-31-2017 04:04:54 pm ]  sent: ATCF35F got: OK
+[ 03-31-2017 04:04:54 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:04:54 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:04:54 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:54 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-31-2017 04:04:54 pm ]  Parsing 625
+[ 03-31-2017 04:04:54 pm ]  Sent OK
+[ 03-31-2017 04:04:54 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-31-2017 04:04:54 pm ]  Parsing 60D
+[ 03-31-2017 04:04:54 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:04:53 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-31-2017 04:04:53 pm ]  Parsing 625
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-31-2017 04:04:53 pm ]  Parsing 60D
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATCRA62X got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATCF62F got: OK
+[ 03-31-2017 04:04:53 pm ]  Parsing BUF
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 130
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got 12v Battery voltage 7E27F68000000001
+[ 03-31-2017 04:04:53 pm ]  Parsing 292
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 245
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 216
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got target braking FFD00000600086
+[ 03-31-2017 04:04:53 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got climate power usage 7F0000000000006D
+[ 03-31-2017 04:04:53 pm ]  Parsing 510
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 215
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got regen braking 00000000D6
+[ 03-31-2017 04:04:53 pm ]  Parsing 1D5
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got motor Amps 0000000000002800
+[ 03-31-2017 04:04:53 pm ]  Parsing 180
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got motor Volts 00000000000008
+[ 03-31-2017 04:04:53 pm ]  Parsing 176
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 174
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got Parking Brake 1602FD
+[ 03-31-2017 04:04:53 pm ]  Parsing 58A
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got Turn Signal status: 0006000000000000
+[ 03-31-2017 04:04:53 pm ]  Parsing 60D
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Got turning angle! 2B0000074A
+[ 03-31-2017 04:04:53 pm ]  Parsing 002
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 300
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 2DE
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  Parsing 130
+[ 03-31-2017 04:04:53 pm ]  Sent OK
+[ 03-31-2017 04:04:53 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:52 pm ]  sent: ATCRA5BX got: OK
+[ 03-31-2017 04:04:51 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:04:51 pm ]  Parsing BUF
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:51 pm ]  Got target braking FFD0000060
+[ 03-31-2017 04:04:51 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got distance traveled 000000000000BA40
+[ 03-31-2017 04:04:51 pm ]  Parsing 284
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got available regen 50281900
+[ 03-31-2017 04:04:51 pm ]  Parsing 260
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got regen braking 00000003D9
+[ 03-31-2017 04:04:51 pm ]  Parsing 1D5
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got motor Amps 0000000000002F00
+[ 03-31-2017 04:04:51 pm ]  Parsing 180
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got turning angle! 2B0000073D
+[ 03-31-2017 04:04:51 pm ]  Parsing 002
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got motor Volts 0000000000000F
+[ 03-31-2017 04:04:51 pm ]  Parsing 176
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 174
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 2DE
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 130
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got 12v Battery voltage 7E28008000000002
+[ 03-31-2017 04:04:51 pm ]  Parsing 292
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got target braking FFD00000600209
+[ 03-31-2017 04:04:51 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 245
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Got Headlight status: 0200FF1D2000
+[ 03-31-2017 04:04:51 pm ]  Parsing 625
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  Parsing 216
+[ 03-31-2017 04:04:51 pm ]  Sent OK
+[ 03-31-2017 04:04:51 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:51 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:04:51 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:04:51 pm ]  Completed command sequence, took 502ms
+[ 03-31-2017 04:04:51 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:04:50 pm ]  sent: ATCF5CF got: OK
+[ 03-31-2017 04:04:50 pm ]  sent: X got: OK
+[ 03-31-2017 04:04:50 pm ]  Parsing BUF
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got 12v Battery voltage 7E28008000
+[ 03-31-2017 04:04:50 pm ]  Parsing 292
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 1F9
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got regen braking 00000000D6
+[ 03-31-2017 04:04:50 pm ]  Parsing 1D5
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got target braking FFD00000600209
+[ 03-31-2017 04:04:50 pm ]  Parsing 1CB
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 1CA
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got motor Amps 0000000000002800
+[ 03-31-2017 04:04:50 pm ]  Parsing 180
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got motor Volts 00000000000008
+[ 03-31-2017 04:04:50 pm ]  Parsing 176
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 174
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 245
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 216
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 215
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got turning angle! 2B000007A4
+[ 03-31-2017 04:04:50 pm ]  Parsing 002
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Got Vehicle speed! 00000000200060
+[ 03-31-2017 04:04:50 pm ]  Parsing 355
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 130
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 354
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 300
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 2DE
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 285
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  Parsing 0C 
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  sent: ATMA got: OK
+[ 03-31-2017 04:04:50 pm ]  sent: ATBD got: OK
+[ 03-31-2017 04:04:50 pm ]  Watching CAN for known messages
+[ 03-31-2017 04:04:50 pm ]  Completed command sequence, took 14750ms
+[ 03-31-2017 04:04:50 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:04:50 pm ]  Got 793 0562123000450000
+[ 03-31-2017 04:04:50 pm ]  Parsing 793
+[ 03-31-2017 04:04:50 pm ]  Sent OK
+[ 03-31-2017 04:04:50 pm ]  sent: 03221230 got: OK
+[ 03-31-2017 04:04:49 pm ]  Got 793 0562121000000000
+[ 03-31-2017 04:04:49 pm ]  Parsing 793
+[ 03-31-2017 04:04:49 pm ]  Sent OK
+[ 03-31-2017 04:04:49 pm ]  sent: 03221210 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATFCSH792 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATSH792 got: OK
+[ 03-31-2017 04:04:49 pm ]  Got 765 210000F00000FFFF
+[ 03-31-2017 04:04:49 pm ]  Parsing 765
+[ 03-31-2017 04:04:49 pm ]  Sent OK
+[ 03-31-2017 04:04:49 pm ]  Got 765 100B611000000000
+[ 03-31-2017 04:04:49 pm ]  Parsing 765
+[ 03-31-2017 04:04:49 pm ]  Sent OK
+[ 03-31-2017 04:04:49 pm ]  sent: 022110 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATFCSH745 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATSH745 got: OK
+[ 03-31-2017 04:04:49 pm ]  Got 763 210000000110CC00
+[ 03-31-2017 04:04:49 pm ]  Parsing 763
+[ 03-31-2017 04:04:49 pm ]  Sent OK
+[ 03-31-2017 04:04:49 pm ]  Got 763 1082610100000000
+[ 03-31-2017 04:04:49 pm ]  Parsing 763
+[ 03-31-2017 04:04:49 pm ]  Sent OK
+[ 03-31-2017 04:04:49 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATFCSD300100 got: OK
+[ 03-31-2017 04:04:49 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:04:48 pm ]  sent: ATFCSH743 got: OK
+[ 03-31-2017 04:04:48 pm ]  sent: ATSH743 got: OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  220F0F00FFFFFFFF
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  212510022B100234
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  10106104021B1102
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  sent: 022104 got: OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  2500089F56800001
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  245C1C62000E0F47
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got battery volts: 392.63
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  23995F2D2A039C00
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  22FFFFFF01122AF8
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  210288000002B2FF
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  Got 7BB cell voltage  10296101000002AB
+[ 03-31-2017 04:04:48 pm ]  Parsing 7BB
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:48 pm ]  sent: 022101 got: OK
+[ 03-31-2017 04:04:48 pm ]  sent: ATFCSH79B got: OK
+[ 03-31-2017 04:04:48 pm ]  sent: ATSH79B got: OK
+[ 03-31-2017 04:04:48 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:04:48 pm ]  Got 79A 0250C00000000000
+[ 03-31-2017 04:04:48 pm ]  Parsing 79A
+[ 03-31-2017 04:04:48 pm ]  Sent OK
+[ 03-31-2017 04:04:46 pm ]  sent: 0210C0 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATFCSM1 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATFCSD300000 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATFCSH797 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATSH797 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATCAF0 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATL0 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:04:46 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:04:44 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:04:41 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:04:37 pm ]  sent: ATAR got: OK
+[ 03-31-2017 04:04:35 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:35 pm ]  Sending 28 commands
+[ 03-31-2017 04:04:35 pm ]  Connected to 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:35 pm ]  Sending 28 commands
+[ 03-31-2017 04:04:35 pm ]  Route Changed
+[ 03-31-2017 04:04:35 pm ]  init
+[ 03-31-2017 04:04:35 pm ]  Going to home
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: ATE0OK>
+[ 03-31-2017 04:04:34 pm ]  []
+[ 03-31-2017 04:04:34 pm ]  sent: ATE0 got: OK
+[ 03-31-2017 04:04:34 pm ]  Success!
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: ATIELM327 v1.5>
+[ 03-31-2017 04:04:34 pm ]  sent: ATI got: OK
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: ATS0OK>
+[ 03-31-2017 04:04:34 pm ]  sent: ATS0 got: OK
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: ATH1OK>
+[ 03-31-2017 04:04:34 pm ]  sent: ATH1 got: OK
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: ATSP6OK>
+[ 03-31-2017 04:04:34 pm ]  sent: ATSP6 got: OK
+[ 03-31-2017 04:04:34 pm ]  Subscribe got: STSBR 2000000?>
+[ 03-31-2017 04:04:33 pm ]  sent: STSBR 2000000 got: OK
+[ 03-31-2017 04:04:33 pm ]  Subscribe got: ATDPISO 15765-4 (CAN 11/500)>
+[ 03-31-2017 04:04:33 pm ]  sent: ATDP got: OK
+[ 03-31-2017 04:04:33 pm ]  Success!
+[ 03-31-2017 04:04:33 pm ]  Subscribe got: ATZELM327 v1.5>
+[ 03-31-2017 04:04:32 pm ]  sent: ATZ got: OK
+[ 03-31-2017 04:04:32 pm ]  Subscribe got: OK>
+[ 03-31-2017 04:04:32 pm ]  sent: ATE1 got: OK
+[ 03-31-2017 04:04:32 pm ]  Testing...
+[ 03-31-2017 04:04:32 pm ]  Testing device
+[ 03-31-2017 04:04:31 pm ]  "Unable to connect to device"
+[ 03-31-2017 04:04:31 pm ]  Connection failed Unable to connect to device
+[ 03-31-2017 04:04:30 pm ]  Listing wifi networks
+[ 03-31-2017 04:04:30 pm ]  "Device connection was lost"
+[ 03-31-2017 04:04:30 pm ]  Connection failed Device connection was lost
+[ 03-31-2017 04:04:30 pm ]  Device connected true
+[ 03-31-2017 04:04:30 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:30 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:30 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:68"}]
+[ 03-31-2017 04:04:30 pm ]  Device connected true
+[ 03-31-2017 04:04:30 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:30 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:30 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:68"}]
+[ 03-31-2017 04:04:30 pm ]  Scanned
+[ 03-31-2017 04:04:30 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-31-2017 04:04:30 pm ]  got 1 bluetooth accessories
+[ 03-31-2017 04:04:30 pm ]  Connected welcome
+[ 03-31-2017 04:04:30 pm ]  "OK"
+[ 03-31-2017 04:04:30 pm ]  I am now connected to Bluetooth
+[ 03-31-2017 04:04:30 pm ]  Scanning inside manager
+[ 03-31-2017 04:04:30 pm ]  Scanning...
+[ 03-31-2017 04:04:30 pm ]  History file write done.
+[ 03-31-2017 04:04:28 pm ]  OBD log file write done.
+[ 03-31-2017 04:04:27 pm ]  Listing wifi networks
+[ 03-31-2017 04:04:27 pm ]  Device connected false
+[ 03-31-2017 04:04:27 pm ]  Connecting to: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:27 pm ]  Found last connected device: 00:1D:A5:00:12:4A
+[ 03-31-2017 04:04:27 pm ]  Devices changed [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936,"$$hashKey":"object:23"}]
+[ 03-31-2017 04:04:27 pm ]  Scanned
+[ 03-31-2017 04:04:27 pm ]  [{"name":"OBDII","address":"00:1D:A5:00:12:4A","id":"00:1D:A5:00:12:4A","class":7936}]
+[ 03-31-2017 04:04:27 pm ]  got 1 bluetooth accessories
+[ 03-31-2017 04:04:27 pm ]  Scanning inside manager
+[ 03-31-2017 04:04:27 pm ]  Scanning...
+[ 03-31-2017 04:04:27 pm ]  Bluetooth is enabled
+[ 03-31-2017 04:04:27 pm ]  Got fs: {"isFile":false,"isDirectory":true,"name":"","fullPath":"/","filesystem":"<FileSystem: sdcard>","nativeURL":"file:///storage/emulated/0/"}
+[ 03-31-2017 04:04:27 pm ]  Root file directory: file:///storage/emulated/0/
+[ 03-31-2017 04:04:27 pm ]  Device is ready!
+[ 03-31-2017 04:04:27 pm ]  Translating to en
+[ 03-31-2017 04:04:25 pm ]  I'm running angular!
+[ 03-31-2017 04:04:24 pm ]  Cleaning up history older than 24 hours
+HappyLeaf Version 0.1.9.3
