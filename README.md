@@ -41,3 +41,17 @@ Visit http://locahost:4200
 - Make a pull request :)
 - Currently tests folder needs to be deleted (after `ember generate`)
 - Working tests would be nice.. maybe automated in the future.
+
+## Translations
+
+[See the translation.js files](https://github.com/blandman/HappyLeaf/blob/master/app/locales/en/translations.js). Copy this file, and translate into your locale. 
+The language also needs to be added to the languages array in app/components/ui/settings-dialog.js
+```
+languages: [{
+    name: "SETTINGS.DISPLAY.LANGUAGE.ENGLISH",
+    short: "en"
+  },{
+    name: "SETTINGS.DISPLAY.LANGUAGE.FRENCH",
+    short: "fr"
+  },... ect
+```
