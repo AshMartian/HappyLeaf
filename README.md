@@ -12,8 +12,8 @@ Happy Leaf requires an OBD device to communicate with your Leaf. [They are readi
 
 ## Core Dependencies
 
-[Ember Paper](http://miguelcobain.github.io/ember-paper)
-[Ember Cordova](http://embercordova.com/)
+- [Ember Paper](http://miguelcobain.github.io/ember-paper)
+- [Ember Cordova](http://embercordova.com/)
 
 ## Setup
 
@@ -38,5 +38,6 @@ Visit http://locahost:4200
 
 ## Contributing
 
-Make a pull request :)
-Currently tests folder needs to be deleted (after `ember generate`) Working tests would be nice..
+- Make a pull request :)
+- Currently tests folder needs to be deleted (after `ember generate`)
+- Working tests would be nice.. maybe automated in the future.
