@@ -15,6 +15,7 @@
 /libpeerconnection.log
 npm-debug.log*
 testem.log
+/Screenshots
 
 ember-cordova/tmp-livereload
 ember-cordova/cordova/www/*
