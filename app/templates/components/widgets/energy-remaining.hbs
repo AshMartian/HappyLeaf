@@ -8,18 +8,21 @@
     <small class="temp-offset clear" class="{{if (gt dataManager.tempOffset 100) 'green'}} {{if (lte dataManager.tempOffset 90) 'red'}}"><b>&deg;{{format-number dataManager.tempOffset precision=1}}%</b></small>
   {{else}}
     {{#if (gt widget.grid.width 2)}}
-      <small class="temp-offset"><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> Miles</span></small>
+      <small class="temp-offset"><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> {{t (readable-distance dataManager.distanceUnits)}}</span></small>
     {{/if}}
   {{/if}}
 {{/if}}
 
-
-<h2 class="kwh-remaining">
- <big>{{format-number dataManager.kilowatts precision=2}}</big> <span>kWh</span>
+<h2 class="kwh-remaining {{if (eq widget.grid.width 1) 'xs'}} {{if (eq widget.grid.width 2) 'sm'}} {{if (gt widget.grid.width 4) 'lg'}} {{if (gt widget.grid.height 1) 'tl'}}">
+  {{#if useKw}}
+    {{format-number (abs (div dataManager.watts 1000)) precision=(sub widget.grid.width 1)}} <small>kWh</small>
+  {{else}}
+    {{format-number (abs dataManager.watts) precision=(sub widget.grid.width 3)}} <small>Wh</small>
+  {{/if}}
 </h2>
 
 {{#if (gt widget.grid.height 1)}}
-  <small><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> Miles {{t 'HOME.TO'}} 0</span></small>
+  <small><span><b>{{format-number (mult dataManager.distancePerKW dataManager.kilowatts) precision=1}}</b> {{t (readable-distance dataManager.distanceUnits)}} {{t 'HOME.TO'}} 0</span></small>
 {{/if}}
 
 <div class="grid-footer">

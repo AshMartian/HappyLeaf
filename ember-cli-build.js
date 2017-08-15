@@ -24,6 +24,8 @@ module.exports = function(defaults) {
   //app.import('bower_components/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff');
   //app.import('bower_components/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2');
   app.import('app/styles/loading_spinner.css');
+  app.import('bower_components/components-font-awesome/css/font-awesome.css');
+  app.import('bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf');
 
   return app.toTree();
 };

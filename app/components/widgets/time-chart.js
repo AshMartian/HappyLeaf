@@ -51,10 +51,13 @@ export default Ember.Component.extend({
     if(this.get('item')){
       this.get('item').$().on('resizestop', () => {
           //handle resize
+          //console.log("resize!");
           Ember.run.later(() => {
             this.resizeElements();
           }, 500);
       });
+    } else {
+      console.log("no grid item");
     }
     //console.log(this.$().find('.chart-line'));
     if(this.$().find('.chart-line').length > 0) {
@@ -74,10 +77,14 @@ export default Ember.Component.extend({
         var chart = this.chart;
         var ctx = chart.chart.ctx;
 
+        var xaxis = chart.scales['x-axis-0'];
+        var yaxises = Object.keys(chart.scales).map(function(key) {
+            return chart.scales[key];
+        });
+        var yaxis = yaxises[1];
+
         var index = chart.config.data.lineAtIndex;
         if (index) {
-          var xaxis = chart.scales['x-axis-0'];
-          var yaxis = Object.values(chart.scales)[1];
           // console.log(yaxis)
           ctx.save();
           ctx.beginPath();
@@ -86,6 +93,19 @@ export default Ember.Component.extend({
           ctx.lineTo(xaxis.getPixelForValue(undefined, index), yaxis.bottom);
           ctx.stroke();
           ctx.restore();
+        }
+        var indecies = chart.config.data.linesAtIndecies;
+        if (indecies) {
+          indecies.forEach(function(blueIndex){
+            ctx.save();
+            ctx.beginPath();
+            ctx.moveTo(xaxis.getPixelForValue(undefined, blueIndex), yaxis.top);
+            ctx.strokeStyle = '#3f51b5';
+            ctx.lineTo(xaxis.getPixelForValue(undefined, blueIndex), yaxis.bottom);
+            ctx.stroke();
+            ctx.restore();
+          });
+          
         }
       }
     });
@@ -131,6 +151,9 @@ export default Ember.Component.extend({
               fontColor: this.get('showDarkTheme') ? 'white' : 'black',
               autoSkip: true,
               autoSkipPadding: 20,
+            },
+            gridLines: {
+              display: (this.get('widget.grid.width') > 3 && this.get('widget.settings.showLabels'))
             }
           }
         ],
@@ -141,6 +164,7 @@ export default Ember.Component.extend({
             display: true,
             position: 'right',
             ticks: {
+              display: (this.get('widget.grid.width') > 2),
               fontColor: this.get('showDarkTheme') ? 'white' : 'black',
             }
           }
@@ -164,9 +188,10 @@ export default Ember.Component.extend({
   },
 
   updateChart: function() {
-   // console.log("Updating time chart");
+   //console.log("Updating time chart");
+
     
-    if(this.chartObject && (this.get('lastDataGraphed') !== this.get('dataManager').startTime || !this.get('lastDataGraphed'))) {
+    if(this.chartObject) {
       this.set('lastDataGraphed', this.get('dataManager').startTime);
       
         //$localStorage.settings.data.dataAttributes = ["actualSOC", "averageSpeed", "averageMotorWatts", "averageRegen", "averageClimateUsage"];
@@ -188,9 +213,9 @@ export default Ember.Component.extend({
       //console.log("About to generate chart using " + Object.keys($localStorage.history).length + " enteries");
 
 
-      var dataPointsToShow = [];
+      
 
-      if(!this.get('widget').settings.graphTimeEnd) {
+      if(!this.get('widget.settings.graphTimeEnd')) {
         this.set('widget.settings.graphTimeEnd', 1800000);
       }
 
@@ -199,8 +224,8 @@ export default Ember.Component.extend({
       if(tripStore && Object.keys(tripStore).length === 0) {
         return;
       }
-      
-      Object.keys(tripStore).forEach((key) => {
+      var dataPointsToShow = [];
+      Object.keys(tripStore).forEach((key) => { //This is nice, but data looks inconssitent.
         var historyDataPoint = tripStore[key];
         if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > this.get('dataManager').startTime - this.get('widget').settings.graphTimeEnd && parseInt(historyDataPoint.startTime) < this.get('dataManager').startTime + this.get('widget').settings.graphTimeEnd) { // &&
           dataPointsToShow.push(historyDataPoint);
@@ -233,10 +258,14 @@ export default Ember.Component.extend({
       var lastDataAdded = {startTime: 0};
 
       this.chartObject.config.options = this.getOptions();
+      this.chartObject.data.linesAtIndecies = [];
 
       var timeDataManager = this.get('dataManager').startTime;
       dataPointsToShow.forEach((historyDataPoint, index) => {
-        if(historyDataPoint.startTime > lastDataAdded.startTime + timeDifference){
+        if(historyDataPoint.wattsStarted !== lastDataAdded.wattsStarted) {
+          this.chartObject.data.linesAtIndecies.push(newData[0].data.length - 1);
+        }
+        if(historyDataPoint.startTime > lastDataAdded.startTime){
           lastDataAdded = historyDataPoint;
           var dataPointsToAdd = [];
           this.get('widget').bind.forEach(function(seriesTitle){
@@ -254,6 +283,7 @@ export default Ember.Component.extend({
             newLabels.push(moment(historyDataPoint.startTime).from(moment(timeDataManager), true).replace(' ago', '').replace('a few ', '').replace('hour', 'hr').replace('minute', 'min').replace('second', 'sec'));
           }
         }
+        
         if(historyDataPoint.startTime == timeDataManager && newData[0] && newData[0].data) {
           this.chartObject.data.lineAtIndex = newData[0].data.length - 1;
           //console.log("Found current position at index ", index);
@@ -266,10 +296,12 @@ export default Ember.Component.extend({
       //console.log($scope.data);
         //this.chartObject.redraw();
         //console.log("New time chart", this.chartObject);
-      
+      //console.log("Made it to the end of time chart rendering", newData);
       this.chartObject.update();
+    } else {
+      this.createChart();
     }
-  }.observes('dataManager.tripIndex'),
+  }.observes('dataManager.tripIndex', 'widget.settings'),
 
   resizeElements() {
     this.set('chart', {
@@ -285,12 +317,13 @@ export default Ember.Component.extend({
         type: 'line',
         options: this.getOptions()
       });
+      //console.log(this.get('widget.grid.height'));
       //this.chartObject.canvas.width = this.get('chart').width;
       //this.chartObject.canvas.height = this.get('chart').height;
       this.updateChart();
       //this.chartObject.render();
       
-      console.log(this.get('chart'));
+      //console.log(this.get('chart'));
     }
   }
 });

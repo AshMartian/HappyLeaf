@@ -15,6 +15,58 @@
         {{#tabs.tab label=(t 'SETTINGS.TABS.SETTINGS')}}
           {{#paper-list}}
 
+          {{#paper-subheader}}{{t 'SETTINGS.DISPLAY.TITLE'}}{{/paper-subheader}}
+
+           {{#paper-menu position="target-right target" offset="-5 0" as |menu|}}
+            {{#menu.trigger}}
+             {{#paper-item as |controls|}}
+               <p>{{t 'SETTINGS.DISPLAY.DISTANCE'}}</p>
+               {{!t (readable-distance setings.content.settings.experience.distanceUnits)}} {{! Won't update :( }}
+               {{paper-icon 'list'}}
+             {{/paper-item}}
+            {{/menu.trigger}}
+
+            {{#menu.content width=4 as |content|}}
+              {{#content.menu-item onClick=(action 'changeDistance' 'M')}}
+                <span>{{t (readable-distance 'M')}}</span>
+                {{#if (eq settings.settings.experience.distanceUnits 'M')}}
+                  {{paper-icon 'check' class="pull-right"}}
+                {{/if}}
+              {{/content.menu-item}}
+              {{#content.menu-item onClick=(action 'changeDistance' 'K')}}
+                <span>{{t (readable-distance 'K')}}</span>
+                {{#if (eq settings.settings.experience.distanceUnits 'K')}}
+                  {{paper-icon 'check' class="pull-right"}}
+                {{/if}}
+              {{/content.menu-item}}
+            {{/menu.content}}
+          {{/paper-menu}}
+
+          {{#paper-menu position="target-right target" offset="-5 0" as |menu|}}
+            {{#menu.trigger}}
+             {{#paper-item as |controls|}}
+               <p>{{t 'SETTINGS.DISPLAY.TEMP'}}</p>
+               {{!t (readable-temp setings.content.settings.experience.tempUnits)}}
+               {{paper-icon 'list'}}
+             {{/paper-item}}
+            {{/menu.trigger}}
+
+            {{#menu.content width=4 as |content|}}
+              {{#content.menu-item onClick=(action 'changeTemp' 'C')}}
+                <span>{{t (readable-temp 'C')}}</span>
+                {{#if (eq settings.settings.experience.tempUnits 'C')}}
+                  {{paper-icon 'check' class="pull-right"}}
+                {{/if}}
+              {{/content.menu-item}}
+              {{#content.menu-item onClick=(action 'changeTemp' 'F')}}
+                <span>{{t (readable-temp 'F')}}</span>
+                {{#if (eq settings.settings.experience.tempUnits 'F')}}
+                  {{paper-icon 'check' class="pull-right"}}
+                {{/if}}
+              {{/content.menu-item}}
+            {{/menu.content}}
+          {{/paper-menu}}
+
            {{#paper-subheader}}{{t 'SETTINGS.DISPLAY.TITLE'}}{{/paper-subheader}}
 
            {{#paper-menu position="target-right target" offset="-5 0" as |menu|}}
@@ -29,6 +81,9 @@
               {{#each languages as |lang|}}
                 {{#content.menu-item onClick=(action 'changeLang' lang)}}
                   <span>{{t lang.name}}</span>
+                  {{#if (eq settings.settings.language lang.short)}}
+                    {{paper-icon 'check' class="pull-right"}}
+                  {{/if}}
                 {{/content.menu-item}}
               {{/each}}
             {{/menu.content}}
@@ -93,6 +148,26 @@
              {{paper-slider class="flex" discrete=true step=0.5 min=0.5 max=5 value=settings.settings.notifications.tireDeltaThreshold onChange=(action "changeValue" 'settings.notifications.tireDeltaThreshold')}}
            {{/paper-item}}
 
+           {{#paper-subheader}}{{t 'SETTINGS.EXPERIMENTAL.TITLE'}}{{/paper-subheader}}
+            
+            {{#paper-item as |controls|}}
+              {{paper-icon 'code'}}
+              <p>{{t 'SETTINGS.EXPERIMENTAL.SAVE_OBD'}}</p>
+              {{controls.checkbox
+                primary=true
+                value=settings.content.settings.experimental.logOBDFile
+                onChange=(action 'toggleSetting' 'settings.experimental.logOBDFile')}}
+            {{/paper-item}}
+            
+            {{#paper-item as |controls|}}
+              {{paper-icon 'code'}}
+              <p>{{t 'SETTINGS.EXPERIMENTAL.SAVE_HISTORY'}}</p>
+              {{controls.checkbox
+                primary=true
+                value=settings.content.settings.experimental.logHistoryFile
+                onChange=(action 'toggleSetting' 'settings.experimental.logHistoryFile')}}
+            {{/paper-item}}
+
            {{#paper-subheader}}{{t 'SETTINGS.RESET_TITLE'}}{{/paper-subheader}}
 
             {{#paper-item onClick=(action "resetSettings") as |controls|}}
@@ -104,6 +179,7 @@
               {{paper-icon 'replay'}}
               <p>{{t 'SETTINGS.RESET_WIDGETS'}}</p>
             {{/paper-item}}
+
 
           {{/paper-list}}
 

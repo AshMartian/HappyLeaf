@@ -21,7 +21,7 @@
   {{#paper-subheader}}{{t 'SETTINGS.WIFI.TITLE'}}{{/paper-subheader}}
   {{#paper-radio-group groupValue=(readonly selectedNetwork) onChange=(action 'connectWifi') as |group|}}
     {{#each wifi as |network|}}
-      {{#group.radio value=network primary=true}} {{network}} {{/group.radio}}
+      {{#group.radio value=network primary=true}} {{network.SSID}} {{/group.radio}}
       {{paper-divider}}
     {{/each}}
   {{/paper-radio-group}}

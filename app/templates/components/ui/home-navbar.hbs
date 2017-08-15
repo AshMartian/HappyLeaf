@@ -7,7 +7,10 @@
 
     <h2>
       {{t 'HOME.TITLE'}}
+      <br />
+      <small>{{dataManager.history.milesDriven}} {{t (readable-distance dataManager.distanceUnits)}} {{t 'HOME.HAPPY'}}</small>
     </h2>
+    
 
     
     {{ui/utils/data-playback-view}}

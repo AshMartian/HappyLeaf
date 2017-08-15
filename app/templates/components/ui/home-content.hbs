@@ -5,16 +5,19 @@
     md-gutter-gt-md="16px" md-gutter-gt-sm="8px" md-gutter="4px"}}
 {{#unless tempHide}}
   {{#grid-stack width="95%"
-    options=(hash animate=true cellHeight=83 cellWidth="10%" width=10 disableOneColumnMode=true staticGrid=homeLocked alwaysShowResizeHandle=(unless homeLocked true))
+    options=(hash animate=true disableDrag=(unless homeLocked true) cellHeight=83 minWidth=320 cellWidth="10%" width=gridWidth disableOneColumnMode=true staticGrid=homeLocked alwaysShowResizeHandle=(unless homeLocked true) resizable=(hash handles='se, sw'))
     onChange=(action 'gridChange')
     onDragstop=(action 'dragStop')
     onEnable=(action 'gridEnabled')
   }}
-      
-    {{#each widgets as |widget index|}}
-      {{#grid-stack-item options=(hash locked=widget.grid.locked width=widget.grid.width height=widget.grid.height x=widget.grid.x y=widget.grid.y id=index) as |item|}}
+    
+    {{#each activeWidgets as |widget index|}}
+      {{#grid-stack-item options=(hash locked=widget.grid.locked noMove=widget.grid.locked width=widget.grid.width height=widget.grid.height x=widget.grid.x y=widget.grid.y id=index) as |item|}}
         {{!#paper-grid-tile md-colspan=widget.colspan md-colspan-sm=widget.colspan md-rowspan=widget.rowspan md-rowspan-sm=widget.rowspan}}
-          {{ui/happy-widget widget=widget index=index item=item homeLocked=homeLocked}}
+          {{#unless homeLocked}}
+            {{ui/utils/widget-options widget=widget index=index item=item widgets=(mut activeWidgets)}}
+          {{/unless}}
+          {{ui/happy-widget widget=widget index=index item=item homeLocked=homeLocked widgets=(mut activeWidgets)}}
         {{!/paper-grid-tile}}
       {{/grid-stack-item}}
     {{/each}}
@@ -28,6 +31,6 @@
 {{/unless}}
 {{!/paper-grid-list}}
 {{#unless homeLocked}}
-  {{ui/utils/new-widget widgets=(mut widgets)}}
+  {{ui/utils/new-widget widgets=(mut activeWidgets)}}
 {{/unless}}
 

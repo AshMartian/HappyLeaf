@@ -1,9 +1,8 @@
 import Ember from 'ember';
-import { storageFor } from 'ember-local-storage';
 
 export default Ember.Component.extend({
     dataManager: Ember.inject.service('data-manager'),
-    widgets: storageFor('widgets'),
+    widgets: [],
     showDialog: false,
     widget: null,
     availableData: [],

@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
     widgets: [],
+    classNames: ['new-widget'],
     //dataManager: Ember.inject.service('data-manager'),
 
     availableWidgets: [
@@ -30,52 +31,76 @@ export default Ember.Component.extend({
                 settings: {},
                 style: ""
             }
-        }
-    ],
-
-    updatedWidgets: function() {
-        let leafTemplate = {
+        },
+        {
+            name: 'WIDGETS.REMAINING',
+            icon: 'battery_full',
+            template: {
+                name: 'WIDGETS.REMAINING',
+                type: "widgets/energy-remaining",
+                bind: [],
+                rowspan: 2,
+                colspan: 3,
+                settings: {},
+                style: ""
+            }
+        },
+        {
+            name: 'WIDGETS.USED',
+            icon: 'battery_charging_full',
+            template: {
+                name: 'WIDGETS.USED',
+                type: "widgets/energy-used",
+                bind: [],
+                rowspan: 2,
+                colspan: 3,
+                settings: {},
+                style: ""
+            }
+        },
+        {
+            name: 'WIDGETS.VOLTS',
+            icon: 'equalizer',
+            template: {
+                name: 'WIDGETS.VOLTS',
+                type: "widgets/cell-chart",
+                bind: [],
+                rowspan: 3,
+                colspan: 8,
+                settings: {},
+                style: ""
+            }
+        },
+        {
             name: 'WIDGETS.LEAF_DISPLAY',
             icon: 'directions_car',
             template: {
                 name: 'WIDGETS.LEAF_DISPLAY',
                 type: "widgets/leaf-display",
                 bind: [],
-                rowspan: 6,
-                colspan: 4,
+                rowspan: 4,
+                colspan: 3,
                 settings: {},
                 style: ""
             }
-        };
-
-        let logTemplate = {
+        },
+        {
             name: 'WIDGETS.LOG_VIEW',
             icon: 'code',
             template: {
                 name: 'WIDGETS.LOG_VIEW',
                 type: "widgets/log-view",
                 bind: [],
-                rowspan: 3,
+                rowspan: 4,
                 colspan: 3,
                 settings: {},
                 style: ""
             }
-        };
+        }
+    ],
 
-        //console.log("Widgets length changed");
-        Ember.run.later(() => {
-            if($("#LEAF").length == 0) {
-                this.get('availableWidgets').addObject(leafTemplate);
-            } else {
-                this.get('availableWidgets').removeObject(leafTemplate);
-            }
-
-            if($(".log-container").length == 0) {
-                this.get('availableWidgets').addObject(logTemplate);
-            } else {
-                this.get('availableWidgets').removeObject(logTemplate);
-            }
-        }, 5000);
+    updatedWidgets: function() {
+        
     }.observes('widgets.@each'),
 
     didInsertElement() {
@@ -91,7 +116,7 @@ export default Ember.Component.extend({
                 width: newWidget.colspan,
                 height: newWidget.rowspan,
                 locked: false,
-                y: Math.round(this.get('widgets.content').length / 1.5),
+                y: 10 + Math.round(this.get('widgets').length / 1.5),
                 x: 0,
             };
             newWidget.grid = newGrid;

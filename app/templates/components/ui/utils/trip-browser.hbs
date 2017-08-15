@@ -1,8 +1,9 @@
 {{yield}}
 
+<h2>{{t 'HOME.TRIPS'}}</h2>
 {{#paper-list}}
     {{#each trips as |trip|}}
-        {{#paper-item onClick=(action "loadTrip" trip.data) class="md-3-line"}}
+        {{#paper-item onClick=(action "loadTrip" trip) class="md-3-line"}}
             {{trip.name}}
         {{/paper-item}}
     {{else}}

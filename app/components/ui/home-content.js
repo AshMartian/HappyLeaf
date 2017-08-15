@@ -4,9 +4,15 @@ import { storageFor } from 'ember-local-storage';
 export default Ember.Component.extend({
   widgets: storageFor('widgets'),
   tagName: "md-content",
-  classNames: ["grid-list-demo-responsiveTiles content"],
+  classNames: ["content"],
+  classNameBindings: ['homeLocked:locked:editing'],
   homeLocked: false,
-  tempHide: false,
+  tempHide: true,
+
+  activeWidgets: [],
+  activeWidgetsIndex: 0,
+
+  gridWidth: 10,
 
   lockWidgets: function() {
     this.set('tempHide', true);
@@ -22,9 +28,12 @@ export default Ember.Component.extend({
         setTimeout(checkGrid, 500);
       }
     }
-    if(!this.get('homeLocked')){
+    if(!this.get('homeLocked')) {
       setTimeout(checkGrid, 500);
     }
+    let tempWidgets = this.get('widgets');
+    tempWidgets.replace(this.get('activeWidgetsIndex'), this.get('activeWidgets'));
+    this.set('widgets', tempWidgets);
     /*var res = _.map($('.grid-stack .grid-stack-item:visible'), function (el) {
       el = $(el);
       var node = el.data('_gridstack_node');
@@ -48,12 +57,48 @@ export default Ember.Component.extend({
 
   init() {
     this._super();
-    console.log("Initiated content", this.get('widgets.content'));
+    
+  },
+
+  willRender() {
+    this._super();
+    
+  },
+
+  setGridsize() { //Default first set of widgets, then use 1, 2 for phone sizes
+      let activeIndex = 0;
+      if(window.innerWidth < 460) {
+        activeIndex = 2;
+        this.set('gridWidth', 3);
+      } else if(window.innerWidth < 768) {
+        activeIndex = 1;
+        this.set('gridWidth', 6);
+      } else {
+        activeIndex = 0;
+        this.set('gridWidth', 10);
+      }
+      this.set('activeWidgetIndex', activeIndex);
+      this.set('activeWidgets', this.get('widgets').objectAt(activeIndex));
+      this.set('tempHide', true);
+      setTimeout(() => {
+        this.set('tempHide', false);
+      }, 5);
+      //this.rerender();
   },
 
   didInsertElement() {
     $('.grid-stack').addTouch();
     $('.grid-stack').css("touch-action", "none");
+
+    //console.log("Initiated content", this.set('activeWidgets'), this.get('widgets').objectAt(0), this.$().width());
+    
+    this.setGridsize();
+    
+    //console.log("And again", this.get('activeWidgets'));
+
+    this.get('resizeService').on('didResize', event => {
+      this.setGridsize();
+    });
   },
 
   saveGrid(){
@@ -62,7 +107,7 @@ export default Ember.Component.extend({
       let node = el.data('_gridstack_node');
       let id = parseInt(el.attr('data-gs-id'));
       if(id) {
-        var currentWidget = this.get('widgets').objectAt(id);
+        var currentWidget = this.get('activeWidgets').objectAt(id);
         if(currentWidget){
           if(currentWidget.grid.x !== node.x || currentWidget.grid.y !== node.y || currentWidget.grid.width !== node.width || currentWidget.grid.height !== node.height) {
             Ember.set(currentWidget, 'grid', {
@@ -92,10 +137,10 @@ export default Ember.Component.extend({
     },
     gridChange(e, items) {
       //console.log("Grid changed", items, this.get('widgets'));
-      if(items){
+      if(items) {
         items.forEach((item) => {
           if(typeof item.id == 'string') {
-            var currentWidget = this.get('widgets').objectAt(parseInt(item.id));
+            var currentWidget = this.get('activeWidgets').objectAt(parseInt(item.id));
             if(currentWidget){
               if(currentWidget.grid.x !== item.x || currentWidget.grid.y !== item.y || currentWidget.grid.width !== item.width || currentWidget.grid.height !== item.height) {
                 Ember.set(currentWidget, 'grid', {

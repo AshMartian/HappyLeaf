@@ -10,6 +10,17 @@ var tripStore = {};
 export default Ember.Service.extend({
   settings: storageFor('settings'),
   history: storageFor('history'),
+
+  init() {
+    this._super();
+
+    var currentTripStart = this.get('history.lastState');
+    
+    Object.keys(currentTripStart).forEach((key) => {
+        this.set(key, currentTripStart[key]);
+    });
+  },
+
   flowManager: Ember.inject.service('flow-manager'),
   logManager: Ember.inject.service('log-manager'),
   playingTrip: false,
@@ -110,10 +121,17 @@ export default Ember.Service.extend({
   ODOUnits: "M",
 
   distanceOffset: 0,
+  stoppedCount: 0,
   carIsOff: false,
 
   startTime: (new Date()).getTime(),
   endTime: null,
+
+  /*set() {
+    this._super();
+
+
+  },*/
 
   availableData: function(typeOverride) {
     var isValid = function(val) {
@@ -152,11 +170,13 @@ export default Ember.Service.extend({
     this.set('averageRegenWatts', 0);
     this.set('averageMotorVolts', 0);
     this.set('peakMotorWatts', 0);
+    this.set('stoppedCount', 0);
     //this.dataSinceHistory = {};
     averageLogs = {};
   },
 
   reset: function(){
+
     this.set('wattsStartedTime', (new Date()).getTime());
     this.set('odometer', 0);
     this.set('accVolts', 0);
@@ -169,13 +189,29 @@ export default Ember.Service.extend({
     this.set('dataSinceHistory', {});
     this.set('properties', 0);
     this.get('logManager').resetHistoryName();
+    this.set('history.currentTripStart', this.getCurrentDataManager());
   },
 
-  loadTrip: function(tripData) {
+  getCurrentDataManager() {
+    var currentDataManager = {};
+    Object.keys(this).forEach((key) => {
+      if(typeof this[key] !== 'function'){
+        currentDataManager[key] = this[key];
+      }
+    });
+    //console.log("Generated current DataManager ", currentDataManager);
+    return currentDataManager;
+  },
+
+  loadTrip: function(tripData, isPlaying) {
     tripStore = tripData;
-    this.set('playingTrip', true);
+    if(typeof isPlaying == undefined) {
+      isPlaying = true;
+    }
+    this.set('playingTrip', isPlaying);
+    
     this.set('tripCount', Object.keys(tripData).length);
-    console.log("Trip length ", this.get('tripCount'));
+    console.log("Loading Trip length ", this.get('tripCount'));
     this.setTripIndex(0);
   },
 
@@ -190,13 +226,15 @@ export default Ember.Service.extend({
     this.updatedProperties();
   },
   observeIndex: function(){
-    var lastIndex = this.get('tripIndex');
-    //console.log(this.get('tripIndex'));
-    Ember.run.later((() => {
-      if(this.get('tripIndex') == lastIndex) {
-        this.setTripIndex(lastIndex);
-      }
-    }), 30);
+    if(this.playingTrip){
+      var lastIndex = this.get('tripIndex');
+      //console.log(this.get('tripIndex'));
+      Ember.run.later((() => {
+        if(this.get('tripIndex') == lastIndex) {
+          this.setTripIndex(lastIndex);
+        }
+      }), 30);
+    }
     //this.setTripIndex(this.get('tripIndex'));
   }.observes('tripIndex'),
 
@@ -206,23 +244,27 @@ export default Ember.Service.extend({
 
   properties: 0,
   updatedProperties() {
-    if(this.properties < Object.keys(this).length ) {
+    if(this.get('properties') < Object.keys(this).length * 2 ) {
       this.set('properties', this.properties + 1);
     } else {
       this.set('properties', 0);
       var now = (new Date()).getTime();
+      this.set('startTime', now);
       if(!this.playingTrip) {
-        var currentDataManager = {};
-        Object.keys(this).forEach((key) => {
-          if(typeof this[key] !== 'function'){
-            currentDataManager[key] = this[key];
-          }
-        });
+        var currentDataManager = this.getCurrentDataManager();
+        this.set('history.lastState', currentDataManager);
         tripStore[now] = currentDataManager;
         var tripLength = Object.keys(tripStore).length;
         console.log("Trip length ", tripLength);
-        if(tripLength % 5) {
+        if(tripLength % 5 == 0) {
+          console.log("Updating graphs");
+          this.historyCreated();
           this.get('logManager').saveHistory();
+          this.set('tripIndex', tripLength);
+        }
+
+        if(tripLength % 13 == 0) {
+          this.get('logManager').saveLog();
         }
       }
     }
@@ -457,7 +499,7 @@ export default Ember.Service.extend({
    }*/
 
    if(lastODO < this.odometer && lastODO != 0) {
-     this.set('history.mileDriven', this.get('history.milesDriven') + 1);
+     this.set('history.milesDriven', this.get('history.milesDriven') + 1);
      this.set('history.milesDrivenToday', this.get('history.milesDrivenToday') + 1);
      if(this.get('history.currentTripStart') !== null && this.get('history.currentTripStart.odometer')){
        var odoAtBeginning = this.get('history.currentTripStart.odometer') - this.get('history.currentTripStart.distanceOffset');
@@ -529,11 +571,11 @@ export default Ember.Service.extend({
     this.set('wheelSpeedLeft', parseInt(splitMsg[2] + splitMsg[3], 16) * 0.0118); // *0.0118
 
     if(this.get('settings.settings.experience').distanceUnits == "K") {
-      this.set('speed', speed + "kmh");
+      this.set('altSpeed', speed + "kmh");
       this.get('logManager').log("Vehicle set to Kilometers");
    }
    if (this.get('settings.settings.experience').distanceUnits == "M") {
-      this.set('speed', parseInt(speed * 0.621371) + "mph"); //kmh to mph
+      this.set('altSpeed', parseInt(speed * 0.621371) + "mph"); //kmh to mph
       
       
     }
@@ -541,7 +583,7 @@ export default Ember.Service.extend({
 
  setTransmission: function(splitMsg) {
     var transmissionByte = splitMsg[0];
-    //this.log("Transmission byte: " + transmissionByte);
+    this.get('logManager').log("Transmission byte: " + transmissionByte);
     if(transmissionByte == "08") {
      this.set('transmission', "P");
     } else if(transmissionByte == "18") {
@@ -551,12 +593,14 @@ export default Ember.Service.extend({
     } else if(transmissionByte == "10") {
      this.set('transmission', "R");
     } else if(transmissionByte == "38") {
-      if(this.distanceUnits == "M" || this.ODOUnits == "M"){ //TODO: IDENTIFY NEWER VEHICLES WITH "B" MODE, LEARN HOW TO DETECT THEIR E MODE
-        this.set('transmission', "E");
-      } else {
+      //if(this.distanceUnits == "M" || this.ODOUnits == "M"){ //TODO: IDENTIFY NEWER VEHICLES WITH "B" MODE, LEARN HOW TO DETECT THEIR E MODE
+        this.set('transmission', "E/B");
+      /*} else {
         this.set('transmission', "B");
-      }
+      }*/
 
+    } else {
+      this.set('transmission', transmissionByte + "?");
     }
     this.callSubscriptions();
     this.gotDataFor('transmission', this.transmission);
@@ -788,6 +832,9 @@ export default Ember.Service.extend({
      if(fullSOC / 10000 <= 100){
       this.set('actualSOC', fullSOC / 10000);
      }
+    if(this.capacityAH) {
+      this.set('usableCapacity', (this.actualSOC / 100) * this.capacityAH);
+    }
      /*if(this.actualSOC < 20) {
        $rootScope.$broadcast('notification', {
          title: $translate.instant("NOTIFICATIONS.LOW_TRACTION.TITLE"),
@@ -807,7 +854,7 @@ export default Ember.Service.extend({
        }
        this.getWattsPerMinute();
      }
-     this.getDistancePerWatt();
+     //this.getDistancePerWatt();
 
      if(this.actualSOC > previousSOC + 100 && !this.hasDataFor('actualSOC') && !this.isCharging) {
        this.setWattsWatcher();
@@ -1012,22 +1059,25 @@ export default Ember.Service.extend({
      //calculate based off of Watts per SOC
      this.set('watts', this.actualSOC * this.wattsPerSOC);
    }
- },
+ }.observes('actualSOC', 'GIDs'),
 
  getWattsPerMinute: function(){
-   var now = (new Date()).getTime();
-   var timeDifference = (now - this.startTime);
-   var wattDifference = this.watts - this.startWatts;
-   var timeToMinutes = (1000 * 60) / timeDifference;
-   this.set('wattsPerMinute', wattDifference * timeToMinutes);
- },
-
- getDistancePerWatt: function(){
-   if(this.distanceTraveled && this.wattsUsed > 0 && !this.isCharging && GIDsConfirmed) {
-     this.set('distancePerKW', this.distanceTraveled / (this.wattsUsed / 1000));
-     this.set('wattsPerDistance', this.wattsUsed / this.distanceTraveled);
+   if(this.isCharging) {
+    var now = (new Date()).getTime();
+    var timeDifference = (now - this.startTime);
+    var wattDifference = this.watts - this.get('history.lastState.watts');
+    var timeToMinutes = (1000 * 60) / timeDifference;
+    this.set('wattsPerMinute', wattDifference * timeToMinutes);
    }
- },
+ }.observes('watts'),
+
+ distancePerKW: Ember.computed('distanceTraveled', 'wattsUsed', function(){
+  return this.distanceTraveled / (this.wattsUsed / 1000)
+ }),
+
+ wattsPerDistance: Ember.computed('distanceTraveled', 'wattsUsed', function(){
+  return this.wattsUsed / this.distanceTraveled;
+ }),
 
  parseCarCan: function(splitMsg) {
    if(splitMsg.length !== 8){
@@ -1223,54 +1273,72 @@ export default Ember.Service.extend({
  //["ATZ", "STSBR 2000000", "STI", "ATE0", "ATH1", "ATCAF 0", "ATDP", "STFAC", "STFAP 5B3,7FF"]
  //"ATD1", "ATSH79b", "ATFCSH79b", //Request for something
  */
+  lastParsed: "",
  knownMessages: function(){ return ["79A", "763", "765", "7BB", "79A", "5B3", "55B", "54A", "260", "280", "284", "292", "1CA", "1DA", "1D4", "355", "002", "551", "5C5", "60D", "385", "358", "100", "108", "180", "1DB", "1CB", "54B", "54C", "102", "5C0", "5BF", "421", "54A", "1DC", "103", "625", "510", "1F2", "59B", "59C", "793", "1D5", "176", "58A", "5A9", "551"]},
  parseResponse: function(response, request) {
 
    //this.get('logManager').log("Response: " + response);
    response = response.replace(/>|\s/g, '');
+    let sentUpdate = false;
 
+   if(response.match(/nodata/i)) {
+     this.get('logManager').log("RECEIVED NODATA, CAR OFF?");
+     this.set('stoppedCount', this.stoppedCount + 1);
+     if(this.stoppedCount > 10) {
+       this.set('carIsOff', true);
+     }
+     return;
+   }
+
+   var responseType = "";
+   if(this.get('flowManager').currentRequest == 'dtc'){
+    responseType = response.substring(0, 3);
+    response = response.substring(response.indexOf(responseType));
+    var splitResponseMsg = response.split(response);
+    this.parseDTC(responseType, splitResponseMsg);
+   } else {
+    responseType = response.substring(0, 3);
+    //some 7BB are split between lines
+    if(responseType == "7BB" && request.match("022102")){
+      this.parseCellVoltage(response);
+    } else if(responseType == "7BB" && request.match("022104")){
+      this.parseCellTemp(response);
+      voltageStore = [];
+    } else if(responseType == "7BB" && request.match("022106")){
+      this.parseCellShunt(response);
+    } else {
+    if(responseType !== this.get('lastParsed') || responseType == "7BB"){
+      this.set('lastParsed', responseType);
+      
+      this.knownMessages().forEach((responseMsg) => {
+        if(responseType == responseMsg) {
+          //responseMsg = responseMsg.substring(responseMsg.indexOf(responseMsg));
+          this.set('carIsOff', false);
+          var splitResponseMsg = response.split(responseMsg);
+          splitResponseMsg.forEach((msg) => {
+            if(msg.length > 4){
+              //console.log("Found " + responseMsg + " message: " + msg);
+              this.parseMsg(responseMsg, msg, request);
+              
+            }
+          })
+          
+          //this.updatedProperties();
+          
+          //response = response.substring(response.indexOf(responseMsg), 16 + response.indexOf(responseMsg));
+          //this.get('logManager').log("Parsed response ", response);
+        }
+      });
+      }
+     }
+   }
    if(response.length >= 3 && response.indexOf("OK") == -1) {
      this.get('logManager').log("Sent " + request);
      //console.log(response);
      this.get('logManager').log("Parsing " + response.substring(0, 3));
-   }
-   if(this.get('flowManager').currentRequest == 'dtc'){
-     var responseType = response.substring(0, 3);
-     response = response.substring(response.indexOf(responseType));
-     var splitResponseMsg = response.split(response);
-     this.parseDTC(responseType, splitResponseMsg);
-   } else {
-     var responseType = response.substring(0, 3);
-     //some 7BB are split between lines
-     if(responseType == "7BB" && request.match("022102")){
-       this.parseCellVoltage(response);
-     } else if(responseType == "7BB" && request.match("022104")){
-       this.parseCellTemp(response);
-       voltageStore = [];
-     } else if(responseType == "7BB" && request.match("022106")){
-       this.parseCellShunt(response);
-     } else {
-       this.knownMessages().forEach((responseMsg) => {
-         if(responseType == responseMsg) {
-           //responseMsg = responseMsg.substring(responseMsg.indexOf(responseMsg));
-           var splitResponseMsg = response.split(responseMsg);
-           splitResponseMsg.forEach((msg) => {
-             if(msg.length > 6){
-               //this.get('logManager').log("Found " + responseMsg + " message: " + msg);
-               this.parseMsg(responseMsg, msg, request);
-             }
-           })
-          
-          //this.updatedProperties();
-           
-           //response = response.substring(response.indexOf(responseMsg), 16 + response.indexOf(responseMsg));
-           //this.get('logManager').log("Parsed response ", response);
-         }
-       });
-     }
-   }
-
-   this.updatedProperties();
+     this.updatedProperties();
+   } 
+   
  },
 
  parseMsg: function(code, msg, request){
@@ -1342,7 +1410,7 @@ export default Ember.Service.extend({
        this.get('logManager').log("Got battery watts " + msg);
        break;
      case "421":
-       this.get('logManager').log("Got 'transmission' status " + msg);
+       console.log("Got 'transmission' status " + msg);
        this.setTransmission(splitMsg);
        break;
      case "102":
@@ -1359,7 +1427,8 @@ export default Ember.Service.extend({
        this.setAvailableRegen(splitMsg);
        break;
      case "5C0":
-       this.get('logManager').log("Got possible charging/discharging current " + msg);
+       console.log("Got possible charging/discharging current " + msg);
+
        break;
      case "180":
        this.get('logManager').log("Got motor Amps " + msg);

@@ -12,12 +12,12 @@ export default Ember.Component.extend({
         if(this.get('isPlaying')) {
             this.set('playTimer', setInterval(() => {
                 //console.log("Advancing trip");
-                this.set('dataManager.tripIndex', this.get('dataManager.tripIndex') + 1);
+                this.set('dataManager.tripIndex', this.get('dataManager').tripIndex + 1);
             }, this.get('playInterval')));
         } else {
             clearInterval(this.get('playTimer'));
         }
-    }.observes('isPlaying'),
+    }.observes('isPlaying', 'dataManager.isPlaying'),
 
     actions: {
         togglePlaying() {

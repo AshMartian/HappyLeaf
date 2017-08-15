@@ -53,6 +53,15 @@ export default Ember.Component.extend({
       this.get('settings').set('settings.language', lang.short);
     },
 
+    changeTemp(unit) {
+      this.get('settings').set('settings.experience.tempUnits', unit);
+    },
+
+    changeDistance(unit) {
+      console.log("Setting units", unit);
+      this.get('settings').set('settings.experience.distanceUnits', unit);
+    },
+
     toggleSetting(setting) {
       //console.log('setting', setting);
       this.get('settings').set(setting, this.get(`settings.${setting}`) ? false : true);

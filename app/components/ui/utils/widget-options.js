@@ -1,9 +1,8 @@
 import Ember from 'ember';
-import { storageFor } from 'ember-local-storage';
 
 export default Ember.Component.extend({
     classNames: ["widget-options"],
-    widgets: storageFor('widgets'),
+    widgets: [],
     widget: null,
     index: 0,
     item: 0,
@@ -23,6 +22,10 @@ export default Ember.Component.extend({
         },
         lockWidget(){
             this.toggleProperty('widget.grid.locked');
+            var grid = $('.grid-stack').data('gridstack');
+            var parent = this.$().parents(".grid-stack-item")
+            grid.movable(parent, !this.get('widget.grid.locked'));
+            grid.resizable(parent, !this.get('widget.grid.locked'));
             //console.log(this.get('item'))
         }
     }

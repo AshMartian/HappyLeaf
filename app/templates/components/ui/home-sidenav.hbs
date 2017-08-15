@@ -9,11 +9,28 @@
     onToggle=(action 'toggleSide')}}
 
     {{#paper-toolbar as |toolbar|}}
-        {{#paper-toolbar-tools}}{{t 'HOME.TRIPS'}}{{/paper-toolbar-tools}}
+        {{#paper-toolbar-tools}}
+            {{#paper-button iconButton=true onClick=(action 'goWelcome')}}
+                {{paper-icon 'keyboard-arrow-left'}}
+            {{/paper-button}}
+            {{t 'HOME.MENU'}}
+        {{/paper-toolbar-tools}}
     {{/paper-toolbar}}
 
     {{#paper-content padding=true}}
-        <h1>{{t 'HOME.CURRENT_TRIP'}}</h1>
+        <p>
+            {{connection-icon}}
+            {{#if connectionManager.isConnected}}
+                {{t 'HOME.CONNECTED_TO'}} {{connectionManager.lastConnected.name}}
+                {{#if dataManager.carIsOff}}
+                    {{t 'HOME.CAR_OFF'}}
+                {{/if}}
+            {{else}}
+                {{t 'HOME.DISCONNECTED'}}
+            {{/if}}
+        </p>
+
+        <h2>{{t 'HOME.CURRENT_TRIP'}}</h2>
         <p>
             {{tripDuration}}
             {{#paper-button raised=true disabled=dataManager.playingTrip onClick=(action 'resetTrip')}}

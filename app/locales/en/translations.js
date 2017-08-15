@@ -29,7 +29,7 @@ export default {
     }
   },
   HOME: {
-    TITLE: "Happy Leaf",
+    TITLE: "Happy LEAF",
     USED: "Used",
     REMAINING: "Remaining",
     GAINED: "Gained",
@@ -38,6 +38,10 @@ export default {
     TO: "to",
     YES: "Yes",
     NO: "No",
+    MENU: "Menu",
+    CONNECTED_TO: "Connected to ",
+    DISCONNECTED: "Disconnected",
+    CAR_OFF: "Car is off",
     HEALTH: "Health",
     SINCE: "since",
     WATTS_MIN: "Wh per min",
@@ -81,7 +85,7 @@ export default {
     LOCK: "Lock",
     UNLOCK: "Unlock",
     LOG_VIEW: "Logs",
-    LEAF_DISPLAY: "Leaf Overview",
+    LEAF_DISPLAY: "LEAF Overview",
     DATA_DISPLAY: "Single Data",
     TIME_CHART: "Time Chart",
     TIME_DURATION: "Time Chart Settings",
@@ -89,6 +93,7 @@ export default {
     SHOW_LABELS: "Show labels",
     REMAINING: "Energy Remaining",
     USED: "Energy Used",
+    VOLTS: "Cell Volts",
     SHOW_DISTANCE_PER: "Use distance per kW"
   },
   NOTIFICATIONS: {
@@ -224,6 +229,11 @@ export default {
     BLUETOOTH: {
       TITLE: "Bluetooth",
       ALLOW: "Allow Bluetooth"
+    },
+    REMAINING: {
+      KWH_ONLY: "kWh only",
+      WH_ONLY: "Wh only",
+      AUTO: "Auto"
     }
   },
   DATA: {
@@ -256,6 +266,7 @@ export default {
     wattsStartedTime: "Trip Started Time",
     wattsStartedCharging:  "Time Started Charging",
     regenWatts: "Regen Wh",
+    averageRegen: "Average Regen",
     availableRegen: "Available Regen",
     targetRegenBraking: "Target Braking Regen",
     targetRegen: "Target Regen",
@@ -309,6 +320,8 @@ export default {
     carIsOff: "Car is off",
     startTime: "Start Time",
     endTime: "End Time",
-    tripCount: "Trip Length"
+    tripCount: "Trip Length",
+    level3ChargeCount: "Level 3 charges",
+    level2ChargeCount: "Level 2 charges"
   }
 };

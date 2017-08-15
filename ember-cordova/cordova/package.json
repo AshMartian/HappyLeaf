@@ -1,6 +1,6 @@
 {
-    "name": "life.brandonmartin.happyleafbeta",
-    "version": "1.0.0",
+    "name": "life.brandonmartin.happyleaf",
+    "version": "0.5.0",
     "displayName": "HappyLeaf",
     "cordova": {
         "platforms": [

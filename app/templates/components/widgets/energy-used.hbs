@@ -8,24 +8,31 @@
     {{/if}}
 </small>
 
-<h2 class="kwh-remaining">
-    <big>{{format-number (abs dataManager.wattsUsed) precision=1}}</big> <span>Wh</span>
+<h2 class="kwh-remaining {{if (eq widget.grid.width 1) 'xs'}} {{if (eq widget.grid.width 2) 'sm'}} {{if (gt widget.grid.width 4) 'lg'}} {{if (gt widget.grid.height 1) 'tl'}}">
+    {{#if useKw}}
+        {{format-number (abs (div dataManager.wattsUsed 1000)) precision=(sub widget.grid.width 1)}}<small>kWh</small>
+    {{else}}
+        {{format-number (abs dataManager.wattsUsed) precision=(sub widget.grid.width 3)}}<small>Wh</small>
+    {{/if}}
 </h2>
+
 <small class="tiny clear" class="{{if (gt dataManager.wattDifference 0) 'green'}} {{if (lt dataManager.wattDifference 0) 'red'}}" highlight-on-change="{{data.wattDifference}}">
     {{#if (gt dataManager.wattDifference 0)}}
         <span>+ </span>
     {{/if}}
     {{format-number dataManager.wattDifference precision=1}}
 </small>
-
+ 
 {{#if (gt widget.grid.height 1)}}
     {{#if dataManager.isCharging}}
-        <b>{{format-number data.wattsPerMinute precision=2}}</b> {{t 'HOME.WATTS_MIN'}}
+        <span><b>{{format-number data.wattsPerMinute precision=2}}</b> {{t 'HOME.WATTS_MIN'}}</span>
     {{else}}
         {{#if widget.settings.distancePer}}
             <span><b>{{format-number dataManager.distancePerKW precision=2}}</b> {{t (readable-distance dataManager.distanceUnits)}}/kW</span>
         {{else}}
-            <span><b>{{format-number data.wattsPerDistance precision=2}}</b> Watts/{{t (readable-distance dataManager.distanceUnits)}}</span>
+            <span><b>{{format-number data.wattsPerDistance precision=2}}</b> Wh/{{t (readable-distance dataManager.distanceUnits)}}</span>
         {{/if}}
     {{/if}}
+    <br/>
+    <span><b>{{format-number dataManager.distanceTraveled precision=2}}</b> {{t (readable-distance dataManager.distanceUnits)}}</span>
 {{/if}}

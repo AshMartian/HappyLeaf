@@ -29,7 +29,8 @@
     "chartjs": "2.1.6",
     "jquery-ui": "^1.11.4",
     "lodash": "^4.13.1",
-    "gridstack": "~0.2.5",
-    "jquery.ui.touch": "*"
+    "gridstack.js": "https://github.com/troolee/gridstack.js.git",
+    "jquery.ui.touch": "*",
+    "components-font-awesome": "^4.7.0"
   }
 }

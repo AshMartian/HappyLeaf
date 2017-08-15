@@ -8,6 +8,13 @@
         <span class="flex"></span>
         {{#paper-button iconButton=true onClick=(action "closeDialog" "cancel")}}{{paper-icon icon="close"}}{{/paper-button}}
       {{/paper-toolbar-tools}}
+      {{#if widget.bind}}
+        {{#paper-toolbar-tools}}
+            {{#each widget.bind as |data|}}
+                <small class="title">{{t (concat 'DATA.' data)}}</small>
+            {{/each}}
+        {{/paper-toolbar-tools}}
+      {{/if}}
     {{/paper-toolbar}}
     
     {{#paper-content padding=true}}
@@ -78,7 +85,26 @@
                     onChange=(action 'toggleSetting' 'settings.distancePer')}}
                 {{/paper-item}}
 
+                {{#paper-radio-group groupValue=(readonly widget.settings.mode) onChange=(action (mut widget.settings.mode)) as |group|}}
+                    {{#group.radio value="kwh" primary=true}} {{t 'SETTINGS.REMAINING.KWH_ONLY'}} {{/group.radio}}
+                    {{paper-divider}}
+                    {{#group.radio value="wh" primary=true}} {{t 'SETTINGS.REMAINING.WH_ONLY'}} {{/group.radio}}
+                    {{paper-divider}}
+                    {{#group.radio value="auto" primary=true}} {{t 'SETTINGS.REMAINING.AUTO'}} {{/group.radio}}
+                    {{paper-divider}}
+                {{/paper-radio-group}}
             {{/paper-list}}
+        {{/if}}
+
+        {{#if (eq widget.type 'widgets/energy-remaining')}}
+            {{#paper-radio-group groupValue=(readonly widget.settings.mode) onChange=(action (mut widget.settings.mode)) as |group|}}
+                {{#group.radio value="kwh" primary=true}} {{t 'SETTINGS.REMAINING.KWH_ONLY'}} {{/group.radio}}
+                {{paper-divider}}
+                {{#group.radio value="wh" primary=true}} {{t 'SETTINGS.REMAINING.WH_ONLY'}} {{/group.radio}}
+                {{paper-divider}}
+                {{#group.radio value="auto" primary=true}} {{t 'SETTINGS.REMAINING.AUTO'}} {{/group.radio}}
+                {{paper-divider}}
+            {{/paper-radio-group}}
         {{/if}}
     {{/paper-content}}
   {{/paper-dialog}}

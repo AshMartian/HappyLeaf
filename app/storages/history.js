@@ -8,7 +8,8 @@ const Storage = StorageObject.extend();
      return {
        milesDrivenToday: 0,
        milesDriven: 0,
-       currentTripStart: {}
+       currentTripStart: {},
+       lastState: {}
      };
    }
  });

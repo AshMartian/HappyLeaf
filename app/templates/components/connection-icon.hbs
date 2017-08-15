@@ -1,3 +1,3 @@
 {{yield}}
 
-<div class="connection-status" style="{{style 'connected' connectionManager.isConnected}}"></div>
+<div class="connection-status {{if connectionManager.isConnected 'connected'}} {{if dataManager.carIsOff 'off'}}"></div>

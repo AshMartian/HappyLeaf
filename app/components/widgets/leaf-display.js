@@ -39,6 +39,12 @@ export default Ember.Component.extend({
     top: 10
   },
 
+  didRender() {
+    setTimeout(() => {
+      this.resizeElements();
+    }, 300);
+  },
+
   didInsertElement() {
     //console.log("Inserting LEAF");
     window.scrollTo(0, 0);
@@ -104,7 +110,7 @@ export default Ember.Component.extend({
         });
 
         this.resizeElements();
-      });
+      }, 200);
     });
     
     /*$.get('/img/HappyLeaf.svg', function(data) {
@@ -329,10 +335,13 @@ export default Ember.Component.extend({
       ClimateChartObject.update();
     }
 
-  }.observes('dataManager.properties'),
+  }.observes('dataManager.climateConsumption', 'dataManager.actualSOC', 'dataManager.motorWatts', 'dataManager.accVolts'),
 
   resizeElements(event) {
     var batteryCircle = document.getElementById("Battery_x5F_Outline");
+    if(!batteryCircle) {
+      return;
+    }
     var leaf = document.getElementById("LEAF");
     //var batteryBounding = $("#Battery_x5F_Outline")[0].getBBox();
     var circleWidth = (batteryCircle.getBoundingClientRect().width);
@@ -362,7 +371,7 @@ export default Ember.Component.extend({
       chart.canvas.width = Math.round(this.get('ClimateChart').width);
       chart.canvas.height = Math.round(this.get('ClimateChart').height);
       this.set('ClimateChart.top', Math.round(ExtraContainer.getBoundingClientRect().top - window.scrollY - $("#LEAFOUTTER").offset().top));
-      this.set('ClimateChart.left',  ExtraContainer.getBoundingClientRect().left);
+      this.set('ClimateChart.left',  ExtraContainer.getBoundingClientRect().left - leaf.getBoundingClientRect().left);
     }
 
     ExtraContainer = document.getElementById("Extra_x5F_1");
@@ -379,7 +388,7 @@ export default Ember.Component.extend({
       chart.canvas.width = Math.round(this.get('AmpsChart.width'));
       chart.canvas.height = Math.round(this.get('AmpsChart.height'));
       this.set('AmpsChart.top', Math.round(ExtraContainer.getBoundingClientRect().top - window.scrollY - $("#LEAFOUTTER").offset().top));
-      this.set('AmpsChart.left', ExtraContainer.getBoundingClientRect().left);
+      this.set('AmpsChart.left', ExtraContainer.getBoundingClientRect().left - leaf.getBoundingClientRect().left);
     }
   }
 });

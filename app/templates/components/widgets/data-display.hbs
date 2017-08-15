@@ -2,5 +2,18 @@
 
 {{#each widget.bind as |data|}}
     <small class="title">{{t (concat 'DATA.' data)}}</small>
-    <h3>{{get dataManager data}}</h3>
+    {{#if isTime }}
+        {{#if (eq widget.grid.width 1)}}
+            <h5>{{moment-format (get dataManager data) 'MM/DD/YY h:mm'}}</h5>
+        {{/if}}
+        {{#if (eq widget.grid.width 2)}}
+            <h5>{{moment-format (get dataManager data) 'dd, MMM Do h:mm'}}</h5>
+        {{/if}}
+        {{#if (gte widget.grid.width 3)}}
+            <h5>{{moment-format (get dataManager data) 'ddd, MMMM Do YYYY, h:mm:ssa'}}</h5>
+        {{/if}}
+    {{else}}
+        <h3>{{get dataManager data}}</h3>
+    {{/if}}
+    
 {{/each}}

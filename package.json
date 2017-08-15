@@ -40,6 +40,7 @@
     "ember-cordova-events": "^0.1.0",
     "ember-data": "^2.14.3",
     "ember-export-application-global": "^2.0.0",
+    "ember-font-awesome": "^3.0.5",
     "ember-gridstack": "^1.0.1",
     "ember-i18n": "^5.0.1",
     "ember-load-initializers": "^1.0.0",

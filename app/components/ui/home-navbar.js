@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+    dataManager: Ember.inject.service('data-manager'),
     openNav: false,
     homeLocked: null,
     actions: {

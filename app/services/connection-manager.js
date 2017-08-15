@@ -29,8 +29,14 @@ export default Ember.Service.extend({
 
   scanDevices(success, failure) {
     this.set('availableDevices', []);
-    console.log("Scanning.. ");
+    if(this.get('isConnected')) {
+      console.log("Not scanning because is connected");
+      if(typeof failure == "function") failure("Already connected");
+      return;
+    }
+    console.log("Scanning.. connected? ", this.get('isConnected'));
     var self = this;
+    
     if(typeof bluetoothSerial !== 'undefined' && cordova && cordova.platformId == "android") {
       bluetoothSerial.list(function(results){
         self.set('availableDevices', _.uniqBy(self.get('availableDevices').concat(results), 'address'));
@@ -42,9 +48,9 @@ export default Ember.Service.extend({
     }
 
     if(typeof bluetoothle !== 'undefined') {
-      setTimeout(function(){
+      setTimeout(() => {
         bluetoothle.stopScan();
-        if(success) success(self.get('availableDevices'));
+        if(success && !this.get('isConnected')) success(self.get('availableDevices'));
       }, 6000);
 
       //console.log("Hello bluetoothle!!", bluetoothle);
@@ -60,7 +66,7 @@ export default Ember.Service.extend({
             //self.set('availableDevices', _.uniqBy(self.get('availableDevices').addObject(devices), 'address'));
             self.set('availableDevices', _.uniqBy(self.get('availableDevices').concat([devices]), 'address'));
             //console.log(self.get('availableDevices'));
-            if(typeof success == "function") success(self.get('availableDevices'));
+            if(typeof success == "function" && !self.get('isConnected')) success(self.get('availableDevices'));
           } else if (devices.status == "scanStarted"){
             //Scan started
           }
@@ -77,10 +83,16 @@ export default Ember.Service.extend({
     } else {
       console.log("Could not get bluetoothle");
     }
+
+    if(this.get('settings.settings.wifi.allow')){
+      this.connectWifiDevice(this.get('settings.settings.wifi.ipaddress'), this.get('settings.settings.wifi.port'), () => {
+        if(typeof success == 'function' && !this.get('isConnected')) success(this.get('availableDevices'));
+      });
+    }
   },
 
   scanWifi(callback) {
-    if(typeof WifiWizard !== 'undefined' && this.get('settings.content.wifi.allow')) {
+    if(typeof WifiWizard !== 'undefined' && this.get('settings.settings.wifi.allow')) {
       WifiWizard.setWifiEnabled(true, () => {
         WifiWizard.getCurrentSSID((currentWifi) => {
           this.set('currentWifi', currentWifi);
@@ -89,14 +101,14 @@ export default Ember.Service.extend({
           WifiWizard.getScanResults((networks) => {
             this.get('logManager').log("Listing wifi networks");
              callback(networks);
-            setTimeout(function(){
+            /*setTimeout(() => {
               this.scanDevices();
             }, 4000);
             networks.forEach((network) => {
-              if(network == this.get('settings.content.lastConnectedWifi') && this.get('currentWifi') !== network){
-                this.connectWifi(network);
+              /*if(network == this.get('settings.content.lastConnectedWifi') && this.get('currentWifi') !== network){
+                //this.connectWifi(network);
               }
-            });
+            });*/
           }, () => {
             this.get('logManager').log("Could not get Wifi networks");
           });
@@ -107,11 +119,24 @@ export default Ember.Service.extend({
     }
   },
 
+  connectWifi(network, success, failure) {
+    //$scope.status = $translate.instant("WELCOME.CONNECTING", {name: network.SSID});
+    WifiWizard.connectNetwork(network.SSID, function(){
+      setTimeout(() => {
+        if(typeof success == 'function') success();
+      }, 1500);
+
+    }, function(){
+      if(typeof failure == 'function') failure("err");
+    });
+  },
+
   subscribe(string, subscriptionFunction){
     //var self = this;
     //this.set('onMessage', subscriptionFunction);
     //this.set('subscribeString', string);
     var self = this;
+    this.set('subscriptionFunction', subscriptionFunction);
     if(!this.get('settings.content.lastWifi')){
       if(!this.get('isBLE')){
         console.log("Not BLE");
@@ -121,7 +146,7 @@ export default Ember.Service.extend({
           //shouldSend = true;
           data = data.replace(string, '');
           self.get('logManager').log("Received from bluetooth", data);
-          if(typeof subscriptionFunction == 'function') subscriptionFunction(data);
+          if(typeof self.get('subscriptionFunction') == 'function') self.get('subscriptionFunction')(data, self.get('tempLast'));
 
           self.set('lastMessageTime', (new Date()).getTime());
         });
@@ -134,8 +159,12 @@ export default Ember.Service.extend({
             characteristic: this.get('BLEService').characteristics[0].uuid,
           }
           bluetoothle.subscribe(function(success){
-            self.get('logManager').log("Subscribe success", atob(success.value));
-            if(typeof subscriptionFunction == 'function' && success.value) subscriptionFunction(atob(success.value));
+            try {
+              self.get('logManager').log("Subscribe success", window.atob(success.value));
+              if(typeof self.get('subscriptionFunction') == 'function' && success.value) self.get('subscriptionFunction')(window.atob(success.value), self.get('tempLast'));
+            } catch(e) {
+              console.log("Subscribe result NOT BASE64: ", success);
+            }
           }, (error) => {
             console.log("Subscribe error", error);
           }, params);
@@ -143,33 +172,36 @@ export default Ember.Service.extend({
     } else {
       this.get('logManager').log("Subscribing to Wifi ELM");
       var outputCache = "";
+      var lastOutput = "";
       this.get('wifiSocket').onData = (data) => {
-        this.set('lastCommand', this.get('tempLast'));
         this.set('isConnected', true);
         //shouldSend = true;
         // invoked after new batch of data is received (typed array of bytes Uint8Array)
-        var output = Utf8ArrayToStr(data).replace(/ /g, "");
-        this.get('logManager').log("Received from wifi: " + output + " Searching for " + string);
-        this.set('lastMessageTime', (new Date()).getTime());
+        var output = String(Utf8ArrayToStr(data).replace(/ /g, ""));
+        
+        try {
+          this.get('logManager').log("Received from wifi: " + output + " for " + self.get('tempLast'));
+          this.set('lastMessageTime', (new Date()).getTime());
+          if(output && output.match(string)) {
+            outputCache = "";
+            var stringArray = output.split(string);
+            if(stringArray.length > 1) {
+              stringArray.forEach((outputSplit) => {
+                if(outputSplit.substring(0, 5) != lastOutput){
+                  lastOutput = outputSplit.substring(0, 5);
+                  self.get('subscriptionFunction')(outputSplit, self.get('tempLast'));
+                }
 
-        if(output !== null && output.match(string)) {
-          outputCache = "";
-          var stringArray = output.split(string);
-          if(stringArray.length > 1) {
-            var lastOutput = "";
-            stringArray.forEach((outputSplit) => {
-              if(outputSplit.substring(0, 5) != lastOutput){
-                lastOutput = outputSplit.substring(0, 5);
-                subscriptionFunction(outputSplit);
-              }
-
-            });
+              });
+            } else {
+              self.get('subscriptionFunction')(output, self.get('tempLast'));
+            }
           } else {
-            subscriptionFunction(output);
+            self.get('subscriptionFunction')(output, self.get('tempLast'));
+            outputCache = outputCache + output;
           }
-        } else {
-          subscriptionFunction(output);
-          outputCache = outputCache + output;
+        } catch(e) {
+          console.log("Wifi subscribe error", e);
         }
       };
     }
@@ -187,7 +219,7 @@ export default Ember.Service.extend({
   failedSend: [],
   resendLast: function(){
     this.set('shouldSend', false);
-    sendCode(self.get('lastCommand') + "\r", function(data){
+    sendCode(this.get('lastCommand') + "\r", (data) => {
       this.set('shouldSend', true);
     });
   },
@@ -270,11 +302,12 @@ export default Ember.Service.extend({
 
   sendCode(code, next){
     this.set('shouldSend', false);
+    if(code !== "\n") this.set('tempLast', code);
     if(!this.get('settings.content.lastWifi')){
       if(!this.get('isBLE')){
         bluetoothSerial.write(code, (output) => {
 
-          if(code !== "\n") this.set('tempLast', code);
+          
           this.get('sentCommands').push(code);
           if(output && output.match(/OK/g) && (!code.match(/ATM/g) && !code == "X" && !code.match(/0/g))){
             setTimeout(() => {
@@ -296,16 +329,20 @@ export default Ember.Service.extend({
           address: this.get('lastConnected').address,
           service: this.get('BLEService').uuid,
           characteristic: this.get('BLEService').characteristics[0].uuid,
-          value: btoa(code)
+          value: window.btoa(code)
         }
         
         bluetoothle.write((output) => {
           console.log("Got output", output);
+          this.set('shouldSend', true);
         }, (err) => {
           console.log("Got write error", err);
         }, params);
       }
     } else {
+      if(!this.get('wifiSocket').onData) {
+        this.subscribe(this.get('subscriptionFunction'));
+      }
       if(this.get('wifiSocket').state == Socket.State.OPENED) {
         console.log("Sending " + code + " To Wifi");
         //var uIntToSend = new TextEncoder("utf-8").encode(commandstoSend);
@@ -313,9 +350,10 @@ export default Ember.Service.extend({
         for (var i = 0; i < data.length; i++) {
           data[i] = code.charCodeAt(i);
         }
+        //this.set('tempLast', code);
         try {
-          this.get('wifiSocket').write(data, (data) => {
-            if(code !== "\n") this.set('tempLast', code);
+          this.get('wifiSocket').write(data, (code) => {
+            //if(code !== "\n") this.set('tempLast', code);
             this.get('sentCommands').addObject(this.get('lastCommand'));
             next();
           }, (error) => {
@@ -399,6 +437,14 @@ export default Ember.Service.extend({
       this.get('logManager').log("connecting wifi device: " + device);
       this.connectWifiDevice(device.address, success, failure);
     }
+  },
+
+  disconnect(done) {
+    this.set('isConnected', false);
+    bluetoothle.disconnect(function(){
+      bluetoothle.close(done, done, {"address": device.address});
+    }, done, {"address": device.address});
+    bluetoothSerial.disconnect(done);    
   },
 
   connectBluetoothDevice: function(device, success, failure) {
@@ -514,6 +560,16 @@ export default Ember.Service.extend({
       this.get('wifiSocket').close();
     }
     this.set('wifiSocket', typeof Socket == 'undefined' ? null : new Socket());
+    this.get('wifiSocket').onError = this.get('wifiError');
+    this.get('wifiSocket').onClose = this.get('wifiClose');
+    if(this.get('subscriptionFunction')) {
+      console.log("Have subscription function, using it on wifi data");
+      this.subscribe(this.get('subscriptionFunction'));
+    } else {
+      this.get('wifiSocket').onData = () => {
+        console.log("Received wifi data, but no function to run");
+      };
+    }
     if(this.get('wifiSocket')) {
       this.get('wifiSocket').open(ip, port, () => {
           this.get('availableDevices').addObject({
@@ -526,8 +582,8 @@ export default Ember.Service.extend({
           this.set('isBLE', false);
           this.set('isConnected', true);
           this.get('logManager').log("Connected to Wifi!");
-          this.get('wifiSocket').onError = self.wifiError;
-          this.get('wifiSocket').onClose = self.wifiClose;
+          this.get('wifiSocket').onError = this.wifiError;
+          this.get('wifiSocket').onClose = this.wifiClose;
           if(cordova) {
             cordova.plugins.backgroundMode.enable();
           }
@@ -561,13 +617,13 @@ export default Ember.Service.extend({
     }
   },
 
-  wifiError: function(err) {
-    if(this.get('settings.content.lastWifi')) this.set('isConnected', false);
+  wifiError(err) {
+    if(this.get('settings.lastWifi')) this.set('isConnected', false);
     this.get('logManager').log("There was an error with Wifi: " + JSON.stringify(err));
   },
 
-  wifiClose: function(err) {
-    if(this.get('settings.content.lastWifi')) this.set('isConnected', false);
+  wifiClose(err) {
+    if(this.get('settings.lastWifi')) this.set('isConnected', false);
     this.get('logManager').log("Wifi has been disconnected: " + JSON.stringify(err));
   }
 

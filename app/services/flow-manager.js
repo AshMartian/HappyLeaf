@@ -82,7 +82,7 @@ export default Ember.Service.extend({
     this.set('commands.getESVE.priority', 2);
     this.set('commands.getOutsideTemp.priority', 5);
     this.set('commands.getUnknown.priority', 15);
-    this.set('commands.getTransmission.priority', 40);
+    this.set('commands.getTransmission.priority', 20);
     this.set('shouldSendATMA', true);
     this.requestMessages(this.get('currentRequest'), finished);
   },
@@ -139,7 +139,7 @@ export default Ember.Service.extend({
         console.log("Not sending ATCF because not equaled desired request");
         callback('request', null);
       }
-      var commandsToSend = ["ATBD", "ATAR", "ATE0", "ATH1", "ATL0", "ATCAF0", "ATFCSM1"];
+      var commandsToSend = ["X", "ATBD", "ATAR", "ATE0", "ATH1", "ATL0", "ATCAF0", "ATFCSM1"];
 
       this.set('lastRequestTime', (new Date()).getTime());
       this.get('connectionManager').setShouldSend();
@@ -183,7 +183,7 @@ export default Ember.Service.extend({
       console.log("About to request ATMA commands");
       if(this.get('currentRequest') !== desiredRequest || !this.get('shouldSendATMA')) callback('request', null);
 
-      var commandsToSend = ["ATAR", "ATAR", "ATOF0"];
+      var commandsToSend = ["X", "ATAR", "ATOF0"];
 
       this.set('lastRequestTime', (new Date()).getTime());
       this.set('connectionManager.forceSendTimeout', 80);
@@ -277,12 +277,12 @@ export default Ember.Service.extend({
     getTransmission: {
       codes: ["ATCM7FE", "ATCF421", "ATMA", "X"],
       priority: 20,
-      speed: 2,
+      speed: 10,
       lastSent: null,
       requestName: 'getTransmission'
     },
     getMotorWatts: {
-      codes: ["ATCM7FE", "ATCF180", "ATMA", "X\r", "ATCM7FE", "ATCF176", "ATMA", "X\r", "ATBD"],
+      codes: ["ATCM7FE", "ATCF180", "ATMA", "X", "ATCM7FE", "ATCF176", "ATMA", "X", "ATBD"],
       priority: 2,
       speed: 5,
       lastSent: null,
