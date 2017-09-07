@@ -29,4 +29,4 @@ ember-cordova/cordova/platforms/*
 /plugins
 /js
 /Logs
-
+/platforms
