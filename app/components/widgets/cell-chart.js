@@ -162,10 +162,10 @@ export default Ember.Component.extend({
     updateChart: function() {
         //console.log("Updating time chart");
         var hash = (object) => { return btoa(JSON.stringify(object)) }
-        
-        if(this.chartObject && this.lastVoltageHash !== hash(this.get('dataManager').cellShunts) + hash(this.get('dataManager').cellTemps) +  hash(this.get('dataManager').cellVoltages)) {
-            this.set('lastDataGraphed', this.get('dataManager').startTime);
-            this.set('lastVoltageHash', this.lastVoltageHash !== hash(this.get('dataManager').cellShunts) + hash(this.get('dataManager').cellTemps) +  hash(this.get('dataManager').cellVoltages));
+        if(!this.get('dataManager.data').cellVoltages) return;
+        if(this.chartObject && this.lastVoltageHash !== hash(this.get('dataManager.data').cellShunts) + hash(this.get('dataManager.data').cellTemps) +  hash(this.get('dataManager.data').cellVoltages)) {
+            this.set('lastDataGraphed', this.get('dataManager.data').startTime);
+            this.set('lastVoltageHash', this.lastVoltageHash !== hash(this.get('dataManager.data').cellShunts) + hash(this.get('dataManager.data').cellTemps) +  hash(this.get('dataManager.data').cellVoltages));
             
             var backgroundColors = [];
             var borderColors = [];
@@ -182,9 +182,9 @@ export default Ember.Component.extend({
                 xAxisID: 'x-axis-2'
             };
             
-            if(this.get('dataManager').cellShunts.length > 0) {
-                for(var i = 0; i < this.get('dataManager').cellShunts.length; i++) {
-                    var shunting = this.get('dataManager').cellShunts.charAt(i);
+            if(this.get('dataManager.data').cellShunts.length > 0) {
+                for(var i = 0; i < this.get('dataManager.data').cellShunts.length; i++) {
+                    var shunting = this.get('dataManager.data').cellShunts.charAt(i);
                     if(shunting == "1") {
                         backgroundColors.push('rgba(150, 55, 232, 0.3)');
                         borderColors.push('rgba(150, 55, 232, 1)');
@@ -198,10 +198,10 @@ export default Ember.Component.extend({
                 borderColors.push("rgba(98, 197, 15, 1)");
             }
             
-            if(this.get('dataManager').cellTemps && this.get('dataManager').cellTemps.length >= 2) {
+            if(this.get('dataManager.data').cellTemps && this.get('dataManager.data').cellTemps.length >= 2) {
                 
-                for(let i = 0; i < this.get('dataManager').cellTemps.length; i++){
-                    newTempData.data.push({x: i, y: this.get('dataManager').cellTemps[i]});
+                for(let i = 0; i < this.get('dataManager.data').cellTemps.length; i++){
+                    newTempData.data.push({x: i, y: this.get('dataManager.data').cellTemps[i]});
                 } 
                 //console.log("New temp Data", newTempData);
                 
@@ -220,9 +220,9 @@ export default Ember.Component.extend({
             };
             var newLabels = [];
             
-            if(this.get('dataManager').cellVoltages && this.get('dataManager').cellVoltages.length > 0){
-                for(let i = 1; i < this.get('dataManager').cellVoltages.length + 1; i ++) {
-                    var voltage = this.get('dataManager').cellVoltages[i];
+            if(this.get('dataManager.data').cellVoltages && this.get('dataManager.data').cellVoltages.length > 0){
+                for(let i = 1; i < this.get('dataManager.data').cellVoltages.length + 1; i ++) {
+                    var voltage = this.get('dataManager.data').cellVoltages[i];
                     if(voltage < 6) {
                         newLabels.push(i.toString());
                         newData.data.push(voltage);
@@ -230,7 +230,7 @@ export default Ember.Component.extend({
                 }
                 //console.log("New cell Data", newData);
             } else {
-                console.log("No cell voltages", this.get('dataManager').cellVoltages);
+                console.log("No cell voltages", this.get('dataManager.data').cellVoltages);
             }
             this.chartObject.data.datasets[0] = newData;
             

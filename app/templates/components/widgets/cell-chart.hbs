@@ -1,6 +1,9 @@
 {{yield}}
 
-
+{{#if dataManager.data.cellVoltages}}
 <div class="chart-container" style="position: relative; height: 100%; width: 100%; max-width: calc(100% - 20px); max-height: 100%;">    
     <canvas class="chart chart-bar" style="width: 100%; height: 100%;"></canvas>
 </div>
+{{else}}
+    <h2>{{t 'WIDGETS.CELL_ERROR'}}</h2>
+{{/if}}

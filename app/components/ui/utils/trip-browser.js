@@ -11,7 +11,7 @@ export default Ember.Component.extend({
     didInsertElement() {
         this._super();
         if(window.cordova) {
-            this.getPastLogs();
+            //this.getPastLogs();
         }
     },
 

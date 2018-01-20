@@ -129,30 +129,30 @@ export default Ember.Component.extend({
   updateData: function(){
     //console.log("Going to update Leaf Display using jQuery");
 
-    if(this.get('dataManager').isCharging) {
+    if(this.get('dataManager.data').isCharging) {
       //$("#Charger_x5F_Flow lineargradient stop").attr('style', 'stop-color: #62C50F;');
-      $('#Charging_x5F_Text').text((Math.round(this.get('dataManager').chargingWatts * 10) / 10) + "Wh");
+      $('#Charging_x5F_Text').text((Math.round(this.get('dataManager.data').chargingWatts * 10) / 10) + "Wh");
     } else {
       //$("#Charger_x5F_Flow lineargradient stop").attr('style', 'stop-color: #A0A2A4;');
     }
 
-    $("#Trans").text(this.get('dataManager').transmission);
-    $("#ACCV").text((Math.round(this.get('dataManager').accVolts * 100) / 100));
+    $("#Trans").text(this.get('dataManager.data').transmission);
+    $("#ACCV").text((Math.round(this.get('dataManager.data').accVolts * 100) / 100));
     $("#SOC_x5F_Text").text(t("LEAF_DISPLAY.SOC"));
-    $("#motor-watts").text(Math.round(this.get('dataManager').motorWatts / 100) / 10);
-    $("#climate-consumption").text(Math.round(this.get('dataManager').climateConsumption / 100) / 10);
+    $("#motor-watts").text(Math.round(this.get('dataManager.data').motorWatts / 100) / 10);
+    $("#climate-consumption").text(Math.round(this.get('dataManager.data').climateConsumption / 100) / 10);
 
-    if(this.get('dataManager').tire1){
-      $("#Tire_x5F_1").text(this.get('dataManager').tire1);
+    if(this.get('dataManager.data').tire1){
+      $("#Tire_x5F_1").text(this.get('dataManager.data').tire1);
     }
-    if(this.get('dataManager').tire2){
-      $("#Tire_x5F_2").text(this.get('dataManager').tire2);
+    if(this.get('dataManager.data').tire2){
+      $("#Tire_x5F_2").text(this.get('dataManager.data').tire2);
     }
-    if(this.get('dataManager').tire3){
-      $("#Tire_x5F_3").text(this.get('dataManager').tire3);
+    if(this.get('dataManager.data').tire3){
+      $("#Tire_x5F_3").text(this.get('dataManager.data').tire3);
     }
-    if(this.get('dataManager').tire4){
-      $("#Tire_x5F_4").text(this.get('dataManager').tire4);
+    if(this.get('dataManager.data').tire4){
+      $("#Tire_x5F_4").text(this.get('dataManager.data').tire4);
     }
 
     if(this.get('dataManager').hasDataFor('tires')) {
@@ -179,12 +179,12 @@ export default Ember.Component.extend({
         $('.soc-container').fadeTo(0.7);
       }
 
-    if(Math.round(this.get('dataManager').motorWatts / 1000) > 0) {
+    if(Math.round(this.get('dataManager.data').motorWatts / 1000) > 0) {
       $("#LEAFOUTTER").removeClass('regening'); //because jquery is faster........
       setTimeout(function(){
         $("#LEAFOUTTER").addClass('motor-usage');
       }, 80);
-    } else if(Math.round(this.get('dataManager').motorWatts / 1000) < 0 && parseInt(this.get('dataManager').speed) > 0) {
+    } else if(Math.round(this.get('dataManager.data').motorWatts / 1000) < 0 && parseInt(this.get('dataManager.data').speed) > 0) {
       $("#LEAFOUTTER").removeClass('motor-usage');
       setTimeout(function(){
         $("#LEAFOUTTER").addClass('regening');
@@ -194,34 +194,34 @@ export default Ember.Component.extend({
       $("#LEAFOUTTER").removeClass('regening');
     }
 
-    $("#LEAFOUTTER").toggleClass('charging', this.get('dataManager').isCharging)
-        .toggleClass('headlights', this.get('dataManager').headLights)
-        .toggleClass('foglights', this.get('dataManager').fogLights)
-        .toggleClass('parked', this.get('dataManager').parkingBrakeOn)
-        .toggleClass('buckled', this.get('dataManager').isBuckled)
-        .toggleClass('fast', (this.get('dataManager').chargingVolts > 260 || this.get('dataManager').motorWatts > 60000))
-        .toggleClass('medium', (this.get('dataManager').chargingVolts > 140 || this.get('dataManager').motorWatts > 30000))
-        .toggleClass('slow', (this.get('dataManager').chargingVolts <= 140 || (this.get('dataManager').motorWatts > 0 && this.get('dataManager').motorWatts <= 30000)))
-        .toggleClass('blinker-right', this.get('dataManager').turnSignal == 'right')
-        .toggleClass('blinker-left', this.get('dataManager').turnSignal == 'left')
-        .toggleClass('climate-usage', this.get('dataManager').climateConsumption > 0)
-        .toggleClass('acc-usage', this.get('dataManager').accVolts > 13.75); //because angular bindings are slow..
+    $("#LEAFOUTTER").toggleClass('charging', this.get('dataManager.data').isCharging)
+        .toggleClass('headlights', this.get('dataManager.data').headLights)
+        .toggleClass('foglights', this.get('dataManager.data').fogLights)
+        .toggleClass('parked', this.get('dataManager.data').parkingBrakeOn)
+        .toggleClass('buckled', this.get('dataManager.data').isBuckled)
+        .toggleClass('fast', (this.get('dataManager.data').chargingVolts > 260 || this.get('dataManager.data').motorWatts > 60000))
+        .toggleClass('medium', (this.get('dataManager.data').chargingVolts > 140 || this.get('dataManager.data').motorWatts > 30000))
+        .toggleClass('slow', (this.get('dataManager.data').chargingVolts <= 140 || (this.get('dataManager.data').motorWatts > 0 && this.get('dataManager.data').motorWatts <= 30000)))
+        .toggleClass('blinker-right', this.get('dataManager.data').turnSignal == 'right')
+        .toggleClass('blinker-left', this.get('dataManager.data').turnSignal == 'left')
+        .toggleClass('climate-usage', this.get('dataManager.data').climateConsumption > 0)
+        .toggleClass('acc-usage', this.get('dataManager.data').accVolts > 13.75); //because angular bindings are slow..
 
     if(SOCChartObject){
       Ember.run.later(() => {
         var newChartData = [{data:[]}];
         var lastPercent = 0;
-        if(this.get('dataManager').actualSOC >= 1) {
+        if(this.get('dataManager.data').actualSOC >= 1) {
           for(var i = 1; i < 14; i++) {
             var fraction = (100/12)
             var currentHigh = (i ) * fraction;
-            if(currentHigh <= this.get('dataManager').actualSOC) {
+            if(currentHigh <= this.get('dataManager.data').actualSOC) {
               newChartData[0].data.push(1);
-            } else if(currentHigh > this.get('dataManager').actualSOC && currentHigh < this.get('dataManager').actualSOC + fraction){
-              var cuttOffSOC = Math.floor(this.get('dataManager').actualSOC / fraction);
+            } else if(currentHigh > this.get('dataManager.data').actualSOC && currentHigh < this.get('dataManager.data').actualSOC + fraction){
+              var cuttOffSOC = Math.floor(this.get('dataManager.data').actualSOC / fraction);
               //console.log("Cutting off at: " + cuttOffSOC);
               //console.log("Current High " + currentHigh);
-              var splitSOC = this.get('dataManager').actualSOC - (fraction * cuttOffSOC);
+              var splitSOC = this.get('dataManager.data').actualSOC - (fraction * cuttOffSOC);
               lastPercent = splitSOC / fraction;
               //console.log("Last percent " + lastPercent);
               if(lastPercent > 0 && lastPercent < 1){
@@ -249,7 +249,7 @@ export default Ember.Component.extend({
 
         let newColors = [];
         newChartData[0].data.forEach((chartData, index) => {
-          if(chartData <= 1 && index < newChartData[0].data.length - 1 || this.get('dataManager').actualSOC > 99.8) {
+          if(chartData <= 1 && index < newChartData[0].data.length - 1 || this.get('dataManager.data').actualSOC > 99.8) {
             newColors.push("#62c50f");
           } else {
             newColors.push("#c54646");
@@ -266,19 +266,19 @@ export default Ember.Component.extend({
 
     var ACCCont = $("#ACC_x5F_Cont");
 
-    $("#ACC_x5F_charge").attr('height', (parseInt(ACCCont.attr("height")) / 1.3) * Math.max(0.2, (this.get('dataManager').accVolts - 9) / 5));
+    $("#ACC_x5F_charge").attr('height', (parseInt(ACCCont.attr("height")) / 1.3) * Math.max(0.2, (this.get('dataManager.data').accVolts - 9) / 5));
     $("#ACC_x5F_charge").attr('y', parseInt(ACCCont.attr("y")) + (parseInt(ACCCont.attr("height")) - parseInt($("#ACC_x5F_charge").attr('height'))) - 1);
 
-    if(this.get('dataManager').rawMotorVolts){
-      $("#Motor_x5F_Speed").text(Math.round(this.get('dataManager').rawMotorVolts / 20) + "v");
+    if(this.get('dataManager.data').rawMotorVolts){
+      $("#Motor_x5F_Speed").text(Math.round(this.get('dataManager.data').rawMotorVolts / 20) + "v");
     } else {
       $("#Motor_x5F_Speed").text("0v");
     }
 
     if(AmpsChartObject){
-      if(this.get('dataManager').motorWatts && this.get('dataManager').motorWatts !== 0) {
-        if(this.get('dataManager').motorWatts > 0){
-          let motorKW = this.get('dataManager').motorWatts / 1000;
+      if(this.get('dataManager.data').motorWatts && this.get('dataManager.data').motorWatts !== 0) {
+        if(this.get('dataManager.data').motorWatts > 0){
+          let motorKW = this.get('dataManager.data').motorWatts / 1000;
           if(motorKW > 90) {
             motorKW = 90;
           }
@@ -286,8 +286,8 @@ export default Ember.Component.extend({
             data: [motorKW, 90 - motorKW],
             backgroundColor: ["#ff993e", "#9B9B9B"]
           }];
-        } else if(this.get('dataManager').motorWatts < 0){
-          let motorKW = this.get('dataManager').motorWatts / 1000;
+        } else if(this.get('dataManager.data').motorWatts < 0){
+          let motorKW = this.get('dataManager.data').motorWatts / 1000;
           if(motorKW < -40) {
             motorKW = -40;
           }
@@ -296,7 +296,7 @@ export default Ember.Component.extend({
             backgroundColor: ["#9B9B9B", "#62C50F"]
           }];
         } else {
-          let regenKw = this.get('dataManager').targetRegenBraking;
+          let regenKw = this.get('dataManager.data').targetRegenBraking;
           AmpsChartObject.data.datasets = [{
             data: [40 - regenKw, regenKw],
             backgroundColor: ["#9B9B9B", "#62C50F"]
@@ -314,14 +314,14 @@ export default Ember.Component.extend({
 
     if(ClimateChartObject) {
       var climateColors = ["#ff993e", "#9B9B9B"];
-      if(this.get('dataManager.alternateClimateUsage')) {
+      if(this.get('dataManager.data.alternateClimateUsage')) {
         ClimateChartObject.data.datasets = [{
-          data: [this.get('dataManager.alternateClimateUsage') / 1000, 6 - (this.get('dataManager.alternateClimateUsage') / 1000)],
+          data: [this.get('dataManager.data.alternateClimateUsage') / 1000, 6 - (this.get('dataManager.data.alternateClimateUsage') / 1000)],
           backgroundColor: climateColors
         }];
-      } else if(this.get('dataManager.climateConsumption') > 0) {
+      } else if(this.get('dataManager.data.climateConsumption') > 0) {
         ClimateChartObject.data.datasets = [{
-          data: [this.get('dataManager.climateConsumption') / 1000, 6 - (this.get('dataManager.climateConsumption') / 1000)],
+          data: [this.get('dataManager.data.climateConsumption') / 1000, 6 - (this.get('dataManager.data.climateConsumption') / 1000)],
           backgroundColor: climateColors
         }];
         //$rootScope.$broadcast('log', "Changing climate " + JSON.stringify($scope.ClimateChart.data));
@@ -335,7 +335,7 @@ export default Ember.Component.extend({
       ClimateChartObject.update();
     }
 
-  }.observes('dataManager.climateConsumption', 'dataManager.actualSOC', 'dataManager.motorWatts', 'dataManager.accVolts'),
+  }.observes('dataManager.data.climateConsumption', 'dataManager.data.actualSOC', 'dataManager.data.motorWatts', 'dataManager.data.accVolts'),
 
   resizeElements(event) {
     var batteryCircle = document.getElementById("Battery_x5F_Outline");

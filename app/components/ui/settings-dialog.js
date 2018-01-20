@@ -47,6 +47,10 @@ export default Ember.Component.extend({
       this.get('widgets').reset();
     },
 
+    resetDatabase: function resetDatabase() {
+      this.get('storageManager').resetDatabase();
+    },
+
     changeLang(lang) {
       console.log("Setting lang", lang);
       this.set('i18n.locale', lang.short);

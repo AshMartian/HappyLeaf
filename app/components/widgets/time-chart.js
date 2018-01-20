@@ -192,7 +192,7 @@ export default Ember.Component.extend({
 
     
     if(this.chartObject) {
-      this.set('lastDataGraphed', this.get('dataManager').startTime);
+      this.set('lastDataGraphed', this.get('dataManager.data').startTime);
       
         //$localStorage.settings.data.dataAttributes = ["actualSOC", "averageSpeed", "averageMotorWatts", "averageRegen", "averageClimateUsage"];
       //this.chartObject.data.dataset = [{ yAxisID: 'y-axis-2' }, { yAxisID: 'y-axis-2' }, { yAxisID: 'y-axis-1' }];
@@ -227,7 +227,7 @@ export default Ember.Component.extend({
       var dataPointsToShow = [];
       Object.keys(tripStore).forEach((key) => { //This is nice, but data looks inconssitent.
         var historyDataPoint = tripStore[key];
-        if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > this.get('dataManager').startTime - this.get('widget').settings.graphTimeEnd && parseInt(historyDataPoint.startTime) < this.get('dataManager').startTime + this.get('widget').settings.graphTimeEnd) { // &&
+        if(historyDataPoint.startTime && parseInt(historyDataPoint.startTime) > this.get('dataManager.data').startTime - this.get('widget').settings.graphTimeEnd && parseInt(historyDataPoint.startTime) < this.get('dataManager.data').startTime + this.get('widget').settings.graphTimeEnd) { // &&
           dataPointsToShow.push(historyDataPoint);
         }
       });
@@ -260,7 +260,7 @@ export default Ember.Component.extend({
       this.chartObject.config.options = this.getOptions();
       this.chartObject.data.linesAtIndecies = [];
 
-      var timeDataManager = this.get('dataManager').startTime;
+      var timeDataManager = this.get('dataManager.data').startTime;
       dataPointsToShow.forEach((historyDataPoint, index) => {
         if(historyDataPoint.wattsStarted !== lastDataAdded.wattsStarted) {
           this.chartObject.data.linesAtIndecies.push(newData[0].data.length - 1);

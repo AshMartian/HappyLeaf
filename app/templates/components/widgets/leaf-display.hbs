@@ -1,15 +1,15 @@
 {{yield}}
 
 <div class="LEAF-Text {{if (not-eq SOCChart.width 10) 'fade-in'}}">
-  {{#if dataManager.actualSOC}}
-    <span class="SOC-Text" style="{{style 'font-size' (div SOCChart.width 8)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 3.5))}}">{{format-number dataManager.actualSOC precision=2}}%</span>
+  {{#if dataManager.data.actualSOC}}
+    <span class="SOC-Text" style="{{style 'font-size' (div SOCChart.width 8)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 3.5))}}">{{format-number dataManager.data.actualSOC precision=2}}%</span>
     <span class="SOC-Text-Label" style="{{style 'font-size' (div SOCChart.width 15)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 2.3))}}">{{t 'LEAF_DISPLAY.SOC'}}</span>
-    {{#if dataManager.batteryVolts}}
-      <span class="Volt-Text" style="{{style 'font-size' (div SOCChart.width 8.3) 'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.8))}}">{{format-number dataManager.batteryVolts precision=2}}v</span>
+    {{#if dataManager.data.batteryVolts}}
+      <span class="Volt-Text" style="{{style 'font-size' (div SOCChart.width 8.3) 'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.8))}}">{{format-number dataManager.data.batteryVolts precision=2}}v</span>
     {{/if}}
     
-    {{#if dataManager.batteryTemp}}
-      <span class="Temp-Text" style="{{style 'font-size' (div SOCChart.width 8.2)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.4))}}">{{format-number dataManager.batteryTemp precision=1}}&deg;</span>
+    {{#if dataManager.data.batteryTemp}}
+      <span class="Temp-Text" style="{{style 'font-size' (div SOCChart.width 8.2)  'width' SOCChart.width 'left' SOCChart.left 'top' (add SOCChart.top (div SOCChart.height 1.4))}}">{{format-number dataManager.data.batteryTemp precision=1}}&deg;</span>
     {{/if}}
   {{/if}}
 
@@ -24,7 +24,7 @@
 
 </div>
 
-<div class="soc-container" style="{{style 'top' SOCChart.top 'width' SOCChart.width 'left' SOCChart.left 'opacity' (if (or (has-data-for dataManager 'actualSOC') (not-eq dataManager.actualSOC 100)) '1' '0.5')}}">
+<div class="soc-container" style="{{style 'top' SOCChart.top 'width' SOCChart.width 'left' SOCChart.left 'opacity' (if (or (has-data-for dataManager 'actualSOC') (not-eq dataManager.data.actualSOC 100)) '1' '0.5')}}">
   {{!ember-chart data=SOCChart.data type='doughnut' id="SOC-circle" options=SOCChart.options width=SOCChart.width height=SOCChart.height class="chart chart-doughnut"}}
   <canvas id="SOC-circle" width="{{SOCChart.width}}" height="{{SOCChart.height}}"></canvas>
 

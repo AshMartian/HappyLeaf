@@ -326,6 +326,13 @@ export default Ember.Service.extend({
 
 
     //atma commands
+    getVIN: {
+      codes: ["ATSH797", "ATFCSH797", "022181"],
+      priority: 60,
+      speed: 10,
+      lastSent: null,
+      requestName: 'getVIN'
+    },
 
     getBatteryCharge: {
       codes: ["ATSH79B", "ATFCSH79B", "022101"],

@@ -4,16 +4,16 @@
     <small class="title">{{t (concat 'DATA.' data)}}</small>
     {{#if isTime }}
         {{#if (eq widget.grid.width 1)}}
-            <h5>{{moment-format (get dataManager data) 'MM/DD/YY h:mm'}}</h5>
+            <h5>{{moment-format (get dataManager.data data) 'MM/DD/YY h:mm'}}</h5>
         {{/if}}
         {{#if (eq widget.grid.width 2)}}
-            <h5>{{moment-format (get dataManager data) 'dd, MMM Do h:mm'}}</h5>
+            <h5>{{moment-format (get dataManager.data data) 'dd, MMM Do h:mm'}}</h5>
         {{/if}}
         {{#if (gte widget.grid.width 3)}}
-            <h5>{{moment-format (get dataManager data) 'ddd, MMMM Do YYYY, h:mm:ssa'}}</h5>
+            <h5>{{moment-format (get dataManager.data data) 'ddd, MMMM Do YYYY, h:mm:ssa'}}</h5>
         {{/if}}
     {{else}}
-        <h3>{{get dataManager data}}</h3>
+        <h3>{{get dataManager.data data}}</h3>
     {{/if}}
     
 {{/each}}

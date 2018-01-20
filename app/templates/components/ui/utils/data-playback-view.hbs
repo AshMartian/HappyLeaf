@@ -10,6 +10,6 @@
     {{/paper-button}}
     <div class="flex">
         {{paper-slider class="md-accent" min=0 max=dataManager.tripCount value=dataManager.tripIndex onChange=(action (mut dataManager.tripIndex))}}
-        <small class="date">{{moment-format (timestamp-date dataManager.startTime) 'dddd, MMMM Do YYYY, h:mm:ss a'}}</small>
+        <small class="date">{{moment-format (timestamp-date dataManager.data.startTime) 'dddd, MMMM Do YYYY, h:mm:ss a'}}</small>
     </div>
 {{/if}}

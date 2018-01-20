@@ -94,6 +94,7 @@ export default {
     REMAINING: "Energy Remaining",
     USED: "Energy Used",
     VOLTS: "Cell Volts",
+    CELL_ERROR: "Could not find cell voltages.",
     SHOW_DISTANCE_PER: "Use distance per kW"
   },
   NOTIFICATIONS: {
