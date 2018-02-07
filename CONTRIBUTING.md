@@ -1,6 +1,6 @@
 ## Contributing
 
-Thank you for your interest in contributing to the Hello World PhoneGap Template.
+Thank you for your interest in contributing to Happy LEAF.
 
 #### Issues
 
@@ -12,11 +12,10 @@ All contributions (feature or bug fix) should start with an issue first.
 
 - Fork the repository
 - Create a branch (`git checkout -b issue-nnn`)
-- If possible, add a failing test
 - Commit your fix/feature and tests (`git commit -am "fixes for issue #nnn"`)
 - Push to the branch (`git push -u origin issue-nnn`)
 - Open a [Pull Request][pull-request]
 
 
-[issue-tracker]: https://github.com/phonegap/phonegap-template-hello-world/issues
-[pull-request]: https://github.com/phonegap/phonegap-template-hello-world/pulls
+[issue-tracker]: https://github.com/blandman/happyleaf/issues
+[pull-request]: https://github.com/blandman/happyleaf/pulls
