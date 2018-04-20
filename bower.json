@@ -29,7 +29,7 @@
     "chartjs": "2.1.6",
     "jquery-ui": "^1.11.4",
     "lodash": "^4.13.1",
-    "gridstack.js": "3.0.0",
+    "gridstack.js": "^3.0.0",
     "jquery.ui.touch": "*",
     "jquery.ui.touch-punch": "*",
     "components-font-awesome": "^4.7.0"
